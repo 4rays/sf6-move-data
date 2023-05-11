@@ -1,0 +1,583 @@
+[
+  {
+    "id": 0,
+    "name": "Ryu",
+    "slug": "ryu",
+    "name_ja": "リュウ",
+    "description": "Ryu from streets–Mister Street Fighter himself, forever training to become stronger and overcome his demons.",
+    "description_ja": "真の強さを求め修行を続ける格闘家。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "shoto",
+        "name_ja": "道着"
+      },
+      {
+        "name": "balanced",
+        "name_ja": "オールラウンダー"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/ryu/ryu.png"
+  },
+  {
+    "id": 1,
+    "name": "Luke",
+    "slug": "luke",
+    "name_ja": "ルーク",
+    "description": "A contractor for a PMC, Luke uses his elite military background to teach mixed martial arts.",
+    "description_ja": "民間警備会社のコントラクター。米軍特殊部隊上がりで、初心者に総合格闘技を指導している。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "shoto",
+        "name_ja": "道着"
+      },
+      {
+        "name": "balanced",
+        "name_ja": "オールラウンダー"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/luke/luke.png"
+  },
+  {
+    "id": 2,
+    "name": "Jamie",
+    "slug": "jamie",
+    "name_ja": "ジェイミー",
+    "description": "An expert dancer and a drunken fist master.",
+    "description_ja": "道理や仲間を尊ぶ義と、拳法の武によって街を守っている。特技はダンス全般。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "rekka",
+        "name_ja": "烈火"
+      },
+      {
+        "name": "dance",
+        "name_ja": "ダンス"
+      },
+      {
+        "name": "drunken-fist",
+        "name_ja": "酔拳"
+      },
+      {
+        "name": "install",
+        "name_ja": "時間制限技"
+      },
+      {
+        "name": "power-up",
+        "name_ja": "パワーアップ"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/jamie/jamie.png"
+  },
+  {
+    "id": 3,
+    "name": "Chun-Li",
+    "slug": "chun-li",
+    "name_ja": "春麗",
+    "description": "A former ICPO agent, Chun-Li now runs kung fu classes ands looks after Li-Fen.",
+    "description_ja": "華麗な脚技で闘う元・ICPOの捜査官。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "stance",
+        "name_ja": "構え"
+      },
+      {
+        "name": "air-super",
+        "name_ja": "空中必殺技"
+      },
+      {
+        "name": "neutral",
+        "name_ja": "立ち回り"
+      },
+      {
+        "name": "footsies",
+        "name_ja": "差し合い"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/chunli/chunli.png"
+  },
+  {
+    "id": 4,
+    "name": "Guile",
+    "slug": "guile",
+    "name_ja": "グイル",
+    "description": "A former member of the US Air Force, Guile is the protector of the skies.",
+    "description_ja": "祖国の平和のために闘う米空軍軍人。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "charge",
+        "name_ja": "溜め"
+      },
+      {
+        "name": "zoner",
+        "name_ja": "遠距離"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      },
+      {
+        "name": "defensive",
+        "name_ja": "守り"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/guile/guile.png"
+  },
+  {
+    "id": 5,
+    "name": "Kimberly",
+    "slug": "kimberly",
+    "name_ja": "キンバリー",
+    "description": "Uninvited student to Guy, the 39th successor to Bushinryu.",
+    "description_ja": "武神流第39代目伝承者・ガイの押し掛け弟子。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "mixup",
+        "name_ja": "択"
+      },
+      {
+        "name": "air-grab",
+        "name_ja": "空中投げ"
+      },
+      {
+        "name": "setup",
+        "name_ja": "セットプレイ"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly.png"
+  },
+  {
+    "id": 6,
+    "name": "Juri",
+    "slug": "juri",
+    "name_ja": "ジュリ",
+    "description": "A sadistic thrillseeker, who enjoys the strife and suffering of others.",
+    "description_ja": "人の争いや苦悩を好み、闘う相手を破壊し尽くすことを至高の喜びとする享楽家。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "stocks",
+        "name_ja": "レベル"
+      },
+      {
+        "name": "air-grab",
+        "name_ja": "空中投げ"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/juri/juri.png"
+  },
+  {
+    "id": 7,
+    "name": "Ken",
+    "slug": "ken",
+    "name_ja": "ケン",
+    "description": "The former champ has abandoned his previous life to hide from criminal accusations",
+    "description_ja": "ある事件により組織犯罪の首謀者という嫌疑をかけられたため、家族の元を離れ地位を捨てて潜伏している。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "shoto",
+        "name_ja": "道着"
+      },
+      {
+        "name": "rushdown",
+        "name_ja": "ガン攻め"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/ken/ken.png"
+  },
+  {
+    "id": 8,
+    "name": "Blanka",
+    "slug": "blanka",
+    "name_ja": "ブランカ",
+    "description": "A defender of nature and an adventure tour guide.",
+    "description_ja": "心やさしい大自然の戦士。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "charge",
+        "name_ja": "溜め"
+      },
+      {
+        "name": "setup",
+        "name_ja": "セットプレイ"
+      },
+      {
+        "name": "mixup",
+        "name_ja": "択"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/blanka/blanka.png"
+  },
+  {
+    "id": 9,
+    "name": "Dhalsim",
+    "slug": "dhalsim",
+    "name_ja": "ダルシム",
+    "description": "A monk and yoga master who mastered the art of stretching his body to its limits.",
+    "description_ja": "インドの修行僧でヨーガの達人。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "zoner",
+        "name_ja": "遠距離"
+      },
+      {
+        "name": "reach",
+        "name_ja": "リーチ"
+      },
+      {
+        "name": "teleport",
+        "name_ja": "テレポート"
+      },
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      },
+      {
+        "name": "defensive",
+        "name_ja": "守り"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim.png"
+  },
+  {
+    "id": 10,
+    "name": "E.Honda",
+    "slug": "ehonda",
+    "name_ja": "エドモンド本田",
+    "description": "A sumo wrestler looking to bring the sport worldwide.",
+    "description_ja": "相撲を「わあるどわいど」にするため闘う力士。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "charge",
+        "name_ja": "溜め"
+      },
+      {
+        "name": "command-grab",
+        "name_ja": "コマンド投げ"
+      },
+      {
+        "name": "defensive",
+        "name_ja": "守り"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda.png"
+  },
+  {
+    "id": 11,
+    "name": "Dee Jay",
+    "slug": "deejay",
+    "name_ja": "ディージェイ",
+    "description": "A globally popular dance music superstar, Dee Jay is always ready to have a good time.",
+    "description_ja": "ダンスミュージックの世界的大スター。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "fireball",
+        "name_ja": "玉"
+      },
+      {
+        "name": "charge",
+        "name_ja": "溜め"
+      },
+      {
+        "name": "feint",
+        "name_ja": "フェイント"
+      },
+      {
+        "name": "defensive",
+        "name_ja": "守り"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/deejay/deejay.png"
+  },
+  {
+    "id": 12,
+    "name": "Manon",
+    "slug": "manon",
+    "name_ja": "マノン",
+    "description": "A super model and world champion judoka.",
+    "description_ja": "世界大会優勝経験を持つ柔道家にして、スーパーモデル。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "grappler",
+        "name_ja": "投げ"
+      },
+      {
+        "name": "levels",
+        "name_ja": "レベル"
+      },
+      {
+        "name": "command-grab",
+        "name_ja": "コマンド投げ"
+      },
+      {
+        "name": "counter",
+        "name_ja": "カウンター"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/manon/manon.png"
+  },
+  {
+    "id": 13,
+    "name": "Marisa",
+    "slug": "marisa",
+    "name_ja": "マリーザ",
+    "description": "An up-and-coming jewelry designer from Italy who claims ancestry to ancient Greek warriors.",
+    "description_ja": "古代ギリシャからの歴史を継ぐ闘士にして新進のジュエリーデザイナー。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "brawler",
+        "name_ja": "近距離"
+      },
+      {
+        "name": "armor",
+        "name_ja": "アーマー"
+      },
+      {
+        "name": "command-grab",
+        "name_ja": "コマンド投げ"
+      },
+      {
+        "name": "counter",
+        "name_ja": "カウンター"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/marisa/marisa.png"
+  },
+  {
+    "id": 14,
+    "name": "JP",
+    "slug": "jp",
+    "name_ja": "JP",
+    "description": "Head of an international NGO and the man behind Nayshall's present prosperity.",
+    "description_ja": "国際NGOを組織し多数の開発投資プロジェクトを成功させてきた事業家。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "zoner",
+        "name_ja": "遠距離"
+      },
+      {
+        "name": "setup",
+        "name_ja": "セットプレイ"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/jp/jp.png"
+  },
+  {
+    "id": 15,
+    "name": "Zangief",
+    "slug": "zangief",
+    "name_ja": "ザンギエフ",
+    "description": "A colossal wrestler nicknamed the Red Cyclone.",
+    "description_ja": "赤きサイクロン」の異名を持つ巨漢のプロレスラー。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "grappler",
+        "name_ja": "投げ"
+      },
+      {
+        "name": "armor",
+        "name_ja": "アーマー"
+      },
+      {
+        "name": "command-grab",
+        "name_ja": "コマンド投げ"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/zangief/zangief.png"
+  },
+  {
+    "id": 16,
+    "name": "Lily",
+    "name_ja": "リリー",
+    "description": "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature",
+    "description_ja": "サンダーフット族の古い血を受け継ぐ娘。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "grappler",
+        "name_ja": "投げ"
+      },
+      {
+        "name": "command-grab",
+        "name_ja": "コマンド投げ"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/lily/lily.png"
+  },
+  {
+    "id": 17,
+    "name": "Cammy",
+    "slug": "cammy",
+    "name_ja": "キャミィ",
+    "description": "Member of British special forces unit Delta Red.",
+    "description_ja": "イギリス特殊部隊デルタレッド隊員。",
+    "gameId": 0,
+    "tags": [
+      {
+        "name": "mixup",
+        "name_ja": "択"
+      },
+      {
+        "name": "rushdown",
+        "name_ja": "近距離"
+      }
+    ],
+    "media": [
+      "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss01.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss02.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss03.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss04.jpg",
+      "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss05.jpg"
+    ],
+    "artwork": "https://www.streetfighter.com/6/assets/images/character/cammy/cammy.png"
+  }
+]
