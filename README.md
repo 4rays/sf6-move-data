@@ -6,8 +6,9 @@ The data is saved as JSON in character-specific separate files.
 
 ### Frame Count
 
-The `frameCount` property is a list of values representing the _last frame index_ for each phase.
-Here is a description of all the possible values:
+The `frameCount` property is a list of values marking the various phase transitions. 
+Each phase is represented by a letter followed by a dash and a number representing the last frame of that phase.
+Here are all the possible values:
 
 | Value | Meaning           |
 |-------|-------------------|
@@ -31,6 +32,8 @@ This reads as follows:
 In the game frame meter UI, the move looks like the following:
 
 <img src="https://github.com/4rays/sf6-move-data/blob/5a367d1a20cbff5246c9a7b025ce42650aab16a3/example.png" width="300" />
+
+Note that invincibility frames are not included in the frame count, since they have they own property (see next section).
 
 ### Invincibility Frames
 
