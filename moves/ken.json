@@ -9,8 +9,630 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "5lp",
-    "notes": [],
-    "notes_ja": []
+    "input": "5lp"
+  },
+  {
+    "name": "Standing Medium Punch",
+    "name_ja": "立ち中パン",
+    "slug": "ken-stand-medium-punch",
+    "abbreviation": "S.MP",
+    "abbeviation_ja": "中P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "5mp"
+  },
+  {
+    "name": "Standing Heavy Punch",
+    "name_ja": "立ち強パン",
+    "slug": "ken-stand-heavy-punch",
+    "abbreviation": "S.HP",
+    "abbeviation_ja": "強P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "5hp"
+  },
+  {
+    "name": "Standing Light Kick",
+    "name_ja": "立ち弱キック",
+    "slug": "ken-stand-light-kick",
+    "abbreviation": "S.LK",
+    "abbeviation_ja": "弱K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "5lk"
+  },
+  {
+    "name": "Standing Medium Kick",
+    "name_ja": "立ち中キック",
+    "slug": "ken-stand-medium-kick",
+    "abbreviation": "S.MK",
+    "abbeviation_ja": "中K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "5mk"
+  },
+  {
+    "name": "Standing Heavy Kick",
+    "name_ja": "立ち強キック",
+    "slug": "ken-stand-heavy-kick",
+    "abbreviation": "S.HK",
+    "abbeviation_ja": "強K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "5hk"
+  },
+  {
+    "name": "Crouching Light Punch",
+    "name_ja": "しゃがみ弱パン",
+    "slug": "ken-crouch-light-punch",
+    "abbreviation": "C.LP",
+    "abbeviation_ja": "しゃがみ弱P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "2lp"
+  },
+  {
+    "name": "Crouching Medium Punch",
+    "name_ja": "しゃがみ中パン",
+    "slug": "ken-crouch-medium-punch",
+    "abbreviation": "C.MP",
+    "abbeviation_ja": "しゃがみ中P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "2mp"
+  },
+  {
+    "name": "Crouching Heavy Punch",
+    "name_ja": "しゃがみ強パン",
+    "slug": "ken-crouch-heavy-punch",
+    "abbreviation": "C.HP",
+    "abbeviation_ja": "しゃがみ強P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "2hp"
+  },
+  {
+    "name": "Crouching Light Kick",
+    "name_ja": "しゃがみ弱キック",
+    "slug": "ken-crouch-light-kick",
+    "abbreviation": "C.LK",
+    "abbeviation_ja": "しゃがみ弱K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "2lk"
+  },
+  {
+    "name": "Crouch Medium Kick",
+    "name_ja": "しゃがみ中キック",
+    "slug": "ken-crouch-medium-kick",
+    "abbreviation": "C.MK",
+    "abbeviation_ja": "しゃがみ中K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "2mk"
+  },
+  {
+    "name": "Crouching Heavy Kick",
+    "name_ja": "しゃがみ強キック",
+    "slug": "ken-crouch-heavy-kick",
+    "abbreviation": "C.HK",
+    "abbeviation_ja": "しゃがみ強K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "2hk"
+  },
+  {
+    "name": "Jumping Light Punch",
+    "name_ja": "ジャンプ弱パン",
+    "slug": "ken-jump-light-punch",
+    "abbreviation": "J.LP",
+    "abbeviation_ja": "ジャンプ弱P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.lp"
+  },
+  {
+    "name": "Jumping Medium Punch",
+    "name_ja": "ジャンプ中パン",
+    "slug": "ken-jump-medium-punch",
+    "abbreviation": "J.MP",
+    "abbeviation_ja": "ジャンプ中P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.mp"
+  },
+  {
+    "name": "Jumping Heavy Punch",
+    "name_ja": "ジャンプ強パン",
+    "slug": "ken-jump-heavy-punch",
+    "abbreviation": "J.HP",
+    "abbeviation_ja": "ジャンプ強P",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.hp"
+  },
+  {
+    "name": "Jumping Light Kick",
+    "name_ja": "ジャンプ弱キック",
+    "slug": "ken-jump-light-kick",
+    "abbreviation": "J.LK",
+    "abbeviation_ja": "ジャンプ弱K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.lk"
+  },
+  {
+    "name": "Jumping Medium Kick",
+    "name_ja": "ジャンプ中キック",
+    "slug": "ken-jump-medium-kick",
+    "abbreviation": "J.MK",
+    "abbeviation_ja": "ジャンプ中K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.mk"
+  },
+  {
+    "name": "Jumping Heavy Kick",
+    "name_ja": "ジャンプ強キック",
+    "slug": "ken-jump-heavy-kick",
+    "abbreviation": "J.HK",
+    "abbeviation_ja": "ジャンプ強K",
+    "characterId": 7,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.hk"
+  },
+  {
+    "name": "Quick Dash",
+    "name_ja": "奮迅脚",
+    "slug": "quick-dash",
+    "characterId": 7,
+    "type": "unique",
+    "hitCount": 0,
+    "input": "[kk]"
+  },
+  {
+    "name": "Emergency Stop",
+    "name_ja": "エマージェンシーストップ",
+    "slug": "emergency-stop",
+    "characterId": 7,
+    "type": "unique",
+    "hitCount": 0,
+    "input": "[kk]>lk",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Thunder Kick",
+    "name_ja": "サンダーキック",
+    "slug": "thunder-kick",
+    "characterId": 7,
+    "type": "unique",
+    "hitCount": 1,
+    "input": "[kk]>mk",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Forward Step Kick",
+    "name_ja": "フォワードステップキック",
+    "slug": "forward-step-kick",
+    "abbeviation_ja": "フォワードステップキック",
+    "characterId": 7,
+    "type": "targetCombo",
+    "hitCount": 1,
+    "input": "[kk]>hk",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Chin Buster 2nd",
+    "name_ja": "チンバスター2nd",
+    "slug": "chin-buster-2nd",
+    "abbeviation_ja": "チンバスター2nd",
+    "characterId": 7,
+    "type": "targetCombo",
+    "hitCount": 1,
+    "input": "mp>hp"
+  },
+  {
+    "name": "Triple Flash Kick",
+    "name_ja": "閃光連脚",
+    "slug": "triple-flash-kick",
+    "characterId": 7,
+    "type": "targetCombo",
+    "hitCount": 3,
+    "input": "mk>mk>hk"
+  },
+  {
+    "name": "Hadoken (Light)",
+    "name_ja": "波動拳 (弱)",
+    "slug": "ken-hadoken-light",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236lp",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
+  },
+  {
+    "name": "Hadoken (Medium)",
+    "name_ja": "波動拳 (中)",
+    "slug": "ken-hadoken-medium",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236mp",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
+  },
+  {
+    "name": "Hadoken (Heavy)",
+    "name_ja": "波動拳 (強)",
+    "slug": "ken-hadoken-heavy",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236hp",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
+  },
+  {
+    "name": "Hadoken (OD)",
+    "name_ja": "波動拳 (OD)",
+    "slug": "ken-hadoken-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236[pp]",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
+  },
+  {
+    "name": "Shoryuken (Light)",
+    "name_ja": "昇龍拳 (弱)",
+    "slug": "ken-shoryuken-light",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623lp"
+  },
+  {
+    "name": "Shoryuken (Medium)",
+    "name_ja": "昇龍拳 (中)",
+    "slug": "ken-shoryuken-medium",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623mp"
+  },
+  {
+    "name": "Shoryuken (Heavy)",
+    "name_ja": "昇龍拳 (強)",
+    "slug": "ken-shoryuken-heavy",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623hp"
+  },
+  {
+    "name": "Shoryuken (OD)",
+    "name_ja": "昇龍拳 (OD)",
+    "slug": "ken-shoryuken-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623[pp]"
+  },
+  {
+    "name": "Quick Dash Shoryuken",
+    "name_ja": "奮迅脚昇龍拳",
+    "slug": "quick-dash-shoryuken",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[kk]>623p",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Tatsumaki Senpukyaku (Light)",
+    "name_ja": "竜巻旋風脚 (弱)",
+    "slug": "ken-tatsumaki-senpukyaku-light",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214lk"
+  },
+  {
+    "name": "Tatsumaki Senpukyaku (Medium)",
+    "name_ja": "竜巻旋風脚 (中)",
+    "slug": "ken-tatsumaki-senpukyaku-medium",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214mk"
+  },
+  {
+    "name": "Tatsumaki Senpukyaku (Heavy)",
+    "name_ja": "竜巻旋風脚 (強)",
+    "slug": "ken-tatsumaki-senpukyaku-heavy",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214hk"
+  },
+  {
+    "name": "Tatsumaki Senpukyaku (OD)",
+    "name_ja": "竜巻旋風脚 (OD)",
+    "slug": "ken-tatsumaki-senpukyaku-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214[kk]"
+  },
+  {
+    "name": "Quick Dash Tatsumaki Senpukyaku",
+    "name_ja": "奮迅脚竜巻旋風脚",
+    "slug": "quick-dash-tatsumaki-senpukyaku",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "[kk]>214k",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Aerial Tatsumaki Senpukyaku",
+    "name_ja": "空中竜巻旋風脚",
+    "slug": "ken-aerial-tatsumaki-senpukyaku",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214lk (in air)"
+  },
+  {
+    "name": "Aerial Tatsumaki Senpukyaku (OD)",
+    "name_ja": "空中竜巻旋風脚 (OD)",
+    "slug": "ken-aerial-tatsumaki-senpukyaku-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "j.214mk"
+  },
+  {
+    "name": "Dragonlash Kick (Light)",
+    "name_ja": "龍尾脚 (弱)",
+    "slug": "dragonlash-kick-light",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "623lk"
+  },
+  {
+    "name": "Dragonlash Kick (Medium)",
+    "name_ja": "龍尾脚 (中)",
+    "slug": "dragonlash-kick-medium",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "623mk"
+  },
+  {
+    "name": "Dragonlash Kick (Heavy)",
+    "name_ja": "龍尾脚 (強)",
+    "slug": "dragonlash-kick-heavy",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "623hk"
+  },
+  {
+    "name": "Dragonlash Kick (OD)",
+    "name_ja": "龍尾脚 (OD)",
+    "slug": "dragonlash-kick-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "623[kk]"
+  },
+  {
+    "name": "Quick Dash Dragonlash Kick",
+    "name_ja": "奮迅脚龍尾脚",
+    "slug": "quick-dash-dragonlash-kick",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "[kk]>623k",
+    "parentSlug": "quick-dash"
+  },
+  {
+    "name": "Jinrai Kick (Light)",
+    "name_ja": "迅雷脚 (弱)",
+    "slug": "jinrai-kick-light",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236lk"
+  },
+  {
+    "name": "Jinrai Kick (Medium)",
+    "name_ja": "迅雷脚 (中)",
+    "slug": "jinrai-kick-medium",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236mk"
+  },
+  {
+    "name": "Jinrai Kick (Heavy)",
+    "name_ja": "迅雷脚 (強)",
+    "slug": "jinrai-kick-heavy",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236hk"
+  },
+  {
+    "name": "Jinrai Kick (OD)",
+    "name_ja": "迅雷脚 (OD)",
+    "slug": "jinrai-kick-od",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]"
+  },
+  {
+    "name": "Kazekama Shin Kick",
+    "name_ja": "風鎌真脚",
+    "slug": "kazekama-shin-kick",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]>lk",
+    "parentSlug": "jinrai-kick"
+  },
+  {
+    "name": "Gorai Axe Kick",
+    "name_ja": "轟雷斧脚",
+    "slug": "gorai-axe-kick",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]>mk",
+    "parentSlug": "jinrai-kick"
+  },
+  {
+    "name": "Senka Snap Kick",
+    "name_ja": "閃華脚",
+    "slug": "senka-snap-kick",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]>hk",
+    "parentSlug": "jinrai-kick"
+  },
+  {
+    "name": "Kasai Thrust Kick",
+    "name_ja": "火砕突き",
+    "slug": "kasai-thrust-kick",
+    "characterId": 7,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]>k>k",
+    "parentSlug": "jinrai-kick-od"
+  },
+  {
+    "name": "Dragonlash Flame",
+    "name_ja": "龍尾烈脚",
+    "slug": "dragonlash-flame",
+    "characterId": 7,
+    "type": "super1",
+    "hitCount": 1,
+    "input": "214214k"
+  },
+  {
+    "name": "Shippu Jinrai-kyaku",
+    "name_ja": "疾風迅雷脚",
+    "slug": "shippu-jinrai-kyaku",
+    "characterId": 7,
+    "type": "super2",
+    "hitCount": 1,
+    "input": "236236k"
+  },
+  {
+    "name": "Shinryu Reppa",
+    "name_ja": "神龍烈波",
+    "slug": "shinryu-reppa",
+    "characterId": 7,
+    "type": "super3",
+    "hitCount": 1,
+    "input": "236236p"
+  },
+  {
+    "name": "Shinryu Reppa (Critical Art)",
+    "name_ja": "神龍烈波 (CA)",
+    "slug": "shinryu-reppa-critical-art",
+    "characterId": 7,
+    "type": "super3",
+    "hitCount": 1,
+    "input": "236236p"
+  },
+  {
+    "name": "Knee Strikes",
+    "name_ja": "掴み膝蹴り",
+    "slug": "knee-strikes",
+    "alternativeNames": ["Forward Throw"],
+    "characterId": 7,
+    "type": "throw",
+    "hitCount": 1,
+    "input": "[lplk]"
+  },
+  {
+    "name": "Hell Wheel",
+    "name_ja": "地獄車",
+    "slug": "hell-wheel",
+    "alternativeNames": ["Back Throw"],
+    "characterId": 7,
+    "type": "throw",
+    "hitCount": 1,
+    "input": "[2lplk]"
   }
 ]
