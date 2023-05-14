@@ -30,7 +30,7 @@ This reads as follows:
 
 In the game frame meter UI, the move looks like the following:
 
-<img src="" width="300" />
+<img src="https://github.com/4rays/sf6-move-data/blob/5a367d1a20cbff5246c9a7b025ce42650aab16a3/example.png" width="300" />
 
 ### Invincibility Frames
 
