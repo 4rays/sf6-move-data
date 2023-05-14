@@ -4,6 +4,23 @@
 
 The data is saved as JSON in character-specific separate files.
 
+### Move Type
+
+The `moveType` property is a string representing the type of move.
+The following table lists the possible values:
+
+| Value           | Meaning             |
+|-----------------|---------------------|
+| `normal`        | Normal move         |
+| `commandNormal` | Command normal move |
+| `targetCombo`   | Target combo        |
+| `special`       | Special move        |
+| `super1`        | Level 1 super move  |
+| `super2`        | Level 2 super move  |
+| `super3`        | Level 3 super move  |
+| `unique`        | Unique move         |
+| `throw`         | Throw               |
+
 ### Frame Count
 
 The `frameCount` property is a list of values marking the various phase transitions. 
@@ -96,7 +113,6 @@ The following table lists the possible values:
 | `superLevel1` | Cancels into level 1 supers |
 | `superLevel2` | Cancels into level 2 supers |
 | `superLevel3` | Cancels into level 3 supers |
-
 
 ### Move Properties
 
