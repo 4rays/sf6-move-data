@@ -13,7 +13,7 @@
     "input": "5lp",
     "cancelsInto": ["chain", "special", "super"],
     "chains": ["5lp", "2lp", "2lk"],
-    "frameCount": ["S-3", "A-9", "R-13"],
+    "frameCount": ["S-3", "A-6", "R-13"],
     "frameAdvantage": {"hit": 4, "block": -1},
     "notes": [],
     "notes_ja": []
@@ -101,7 +101,7 @@
     "input": "5hk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-11", "A-4", "R-20"],
+    "frameCount": ["S-11", "A-15", "R-35"],
     "frameAdvantage": {"hit": 9, "block": 1}
   },
   {
@@ -118,7 +118,7 @@
     "input": "2lp",
     "cancelsInto": ["chain", "special", "super"],
     "chains": ["5lp", "2lp", "2lk"],
-    "frameCount": ["S-3", "A-2", "R-9"],
+    "frameCount": ["S-3", "A-5", "R-14"],
     "frameAdvantage": {"hit": 4, "block": -1}
   },
   {
@@ -135,7 +135,7 @@
     "input": "2mp",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-5", "A-3", "R-14"],
+    "frameCount": ["S-5", "A-8", "R-22"],
     "frameAdvantage": {"hit": 5, "block": 0}
   },
   {
@@ -152,7 +152,7 @@
     "input": "2hp",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-8", "A-6", "R-21"],
+    "frameCount": ["S-8", "A-12", "R-34"],
     "frameAdvantage": {"hit": 3, "block": -7}
   },
   {
@@ -169,7 +169,7 @@
     "input": "2lk",
     "cancelsInto": ["chain"],
     "chains": ["5lp", "2lp", "2lk"],
-    "frameCount": ["S-4", "A-2", "R-10"],
+    "frameCount": ["S-4", "A-6", "R-16"],
     "frameAdvantage": {"hit": 3, "block": -3}
   },
   {
@@ -186,7 +186,7 @@
     "input": "2mk",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-7", "A-3", "R-19"],
+    "frameCount": ["S-7", "A-10", "R-29"],
     "frameAdvantage": {"hit": 1, "block": -6}
   },
   {
@@ -203,7 +203,7 @@
     "input": "2hk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-8", "A-3", "R-23"],
+    "frameCount": ["S-8", "A-11", "R-34"],
     "frameAdvantage": {"hit": 32, "block": -11}
   },
   {
@@ -220,7 +220,7 @@
     "input": "jlp",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-3", "A-10"]
+    "frameCount": ["S-3", "A-13"]
   },
   {
     "name": "Jumping Medium Punch",
@@ -236,7 +236,7 @@
     "input": "jmp",
     "cancelsInto": ["special"],
     "chains": [],
-    "frameCount": ["S-7", "A-6", "R-3"]
+    "frameCount": ["S-7", "A-12"]
   },
   {
     "name": "Jumping Heavy Punch",
@@ -252,7 +252,7 @@
     "input": "jhp",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-8", "A-6", "R-3"]
+    "frameCount": ["S-8", "A-14"]
   },
   {
     "name": "Jumping Light Kick",
@@ -268,7 +268,7 @@
     "input": "jlk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-3", "A-10", "R-3"],
+    "frameCount": ["S-5", "A-15"],
     "properties": ["canCrossUp"]
   },
   {
@@ -285,7 +285,7 @@
     "input": "jmk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-6", "A-6", "R-3"],
+    "frameCount": ["S-6", "A-12"],
     "properties": ["canCrossUp"]
   },
   {
@@ -302,7 +302,7 @@
     "input": "jhk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-11", "A-8", "R-3"]
+    "frameCount": ["S-11", "A-19"]
   },
   {
     "name": "Collarbone Breaker",
@@ -316,7 +316,7 @@
     "input": "6mp",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-19", "A-4", "R-19"],
+    "frameCount": ["S-20", "A-24", "R-42"],
     "frameAdvantage": {"hit": 2, "block": -3}
   },
   {
@@ -331,7 +331,7 @@
     "input": "6hp",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-20", "A-6", "R-16"],
+    "frameCount": ["S-19", "A-24", "R-40"],
     "frameAdvantage": {"hit": 6, "block": 1}
   },
   {
@@ -346,7 +346,7 @@
     "input": "4hp",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-6", "A-4", "R-25"],
+    "frameCount": ["S-6", "A-9", "R-35"],
     "frameAdvantage": {"hit": 1, "block": -13},
     "properties": ["forcesStanding"]
   },
@@ -362,7 +362,7 @@
     "input": "6hk",
     "cancelsInto": ["special"],
     "chains": [],
-    "frameCount": ["S-15", "A-4", "R-20"],
+    "frameCount": ["S-15", "A-19", "R-39"],
     "frameAdvantage": {"hit": 2, "block": -4}
   },
   {
@@ -377,7 +377,7 @@
     "input": "4hk",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-9", "A-12", "R-21"],
+    "frameCount": ["S-9", "A-14", "R-19", "A-22", "R-43"],
     "frameAdvantage": {"hit": 0, "block": -4}
   },
   {
@@ -392,7 +392,7 @@
     "input": "5hp>5hk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-18", "A-20", "R-20"],
+    "frameCount": ["S-9", "A-14", "R-16", "S-24", "A-28", "R-48"],
     "frameAdvantage": {"hit": 36, "block": -8},
     "properties": ["knockdown"]
   },
@@ -408,7 +408,7 @@
     "input": "5mp>5lk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-5", "A-12", "R-16"],
+    "frameCount": ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"],
     "frameAdvantage": {"hit": 1, "block": -7}
   },
   {
@@ -423,7 +423,7 @@
     "input": "5mp>5lk>5hk",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-5", "A-11", "R-20"],
+    "frameCount": ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"],
     "frameAdvantage": {"hit": 36, "block": -8}
   },
   {
@@ -437,8 +437,14 @@
     "guardLevel": "high",
     "input": "236lp",
     "cancelsInto": ["superLevel3"],
-    "frameCount": ["S-15", "R-31"],
-    "frameAdvantage": {"hit": -1, "block": -5}
+    "frameCount": ["S-15", "PA-16", "R-47"],
+    "frameAdvantage": {"hit": -1, "block": -5},
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Hadoken (Medium)",
@@ -451,8 +457,14 @@
     "guardLevel": "high",
     "input": "236mp",
     "cancelsInto": ["superLevel3"],
-    "frameCount": ["S-13", "R-33"],
-    "frameAdvantage": {"hit": -3, "block": -7}
+    "frameCount": ["S-13", "PA-14", "R-47"],
+    "frameAdvantage": {"hit": -3, "block": -7},
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Hadoken (Heavy)",
@@ -465,8 +477,14 @@
     "guardLevel": "high",
     "input": "236hp",
     "cancelsInto": ["super"],
-    "frameCount": ["S-11", "PA-47"],
-    "frameAdvantage": {"hit": -5, "block": -9}
+    "frameCount": ["S-11","PA-12", "R-47"],
+    "frameAdvantage": {"hit": -5, "block": -9},
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Hadoken (OD)",
@@ -479,8 +497,14 @@
     "guardLevel": "high",
     "input": "236[pp]",
     "cancelsInto": ["superLevel3", "superLevel2"],
-    "frameCount": ["S-11", "R-40"],
-    "frameAdvantage": {"hit": 54, "block": -1}
+    "frameCount": ["S-11", "PA-12", "R-40"],
+    "frameAdvantage": {"hit": 54, "block": -1},
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Denjin Hadoken",
@@ -494,10 +518,16 @@
     "input": "236p",
     "cancelsInto": ["superLevel3"],
     "chains": [],
-    "frameCount": ["S-11", "R-30"],
+    "frameCount": ["S-11", "PA-12", "R-42"],
     "frameAdvantage": {"hit": 52, "block": -3},
     "properties": ["stockDecrement"],
-    "parentSlug": "denjin-charge"
+    "parentSlug": "denjin-charge",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Denjin Hadoken (OD)",
@@ -511,10 +541,16 @@
     "input": "236[pp]",
     "cancelsInto": ["superLevel2", "superLevel3"],
     "chains": [],
-    "frameCount": ["S-11", "R-26"],
+    "frameCount": ["S-11", "PA-12", "R-42"],
     "frameAdvantage": {"hit": 57, "block": 2},
     "properties": ["stockDecrement"],
-    "parentSlug": "denjin-charge"
+    "parentSlug": "denjin-charge",
+    "notes": [
+      "Frame data is for point blank range."
+    ],
+    "notes_ja": [
+      "フレームデータはゼロ距離の場合。"
+    ]
   },
   {
     "name": "Shoryuken (Light)",
@@ -528,11 +564,11 @@
     "guardLevel": "high",
     "input": "623lp",
     "cancelsInto": ["superLevel3"],
-    "frameCount": ["S-4", "A-10", "R-33"],
+    "frameCount": ["S-4", "A-14", "R-47"],
     "frameAdvantage": {"hit": 38, "block": -21},
     "invincibilityFrames": {
-      "start": 1,
-      "end": 15
+      "airStart": 1,
+      "airEnd": 14
     }
   },
   {
@@ -547,11 +583,11 @@
     "guardLevel": "high",
     "input": "623mp",
     "cancelsInto": ["superLevel3"],
-    "frameCount": ["S-5", "A-10", "R-42"],
+    "frameCount": ["S-5", "A-15", "R-57"],
     "frameAdvantage": {"hit": 34, "block": -30},
     "invincibilityFrames": {
-      "start": 1,
-      "end": 16
+      "airStart": 1,
+      "airEnd": 15
     }
   },
   {
@@ -566,11 +602,11 @@
     "guardLevel": "high",
     "input": "623hp",
     "cancelsInto": ["superLevel3"],
-    "frameCount": ["S-6", "A-10", "R-49"],
+    "frameCount": ["S-6", "A-16", "R-65"],
     "frameAdvantage": {"hit": 29, "block": -37},
     "invincibilityFrames": {
-      "start": 1,
-      "end": 17
+      "airStart": 1,
+      "airEnd": 16
     }
   },
   {
@@ -584,11 +620,13 @@
     "hitCount": 2,
     "guardLevel": "high",
     "input": "623[pp]",
-    "frameCount": ["S-6", "A-10", "R-52"],
+    "frameCount": ["S-6", "A-16", "R-68"],
     "frameAdvantage": {"hit": 29, "block": -40},
     "invincibilityFrames": {
-      "start": 1,
-      "end": 17
+      "start": 2,
+      "end": 6,
+      "airStart": 7,
+      "airEnd": 10
     }
   },
   {
@@ -602,7 +640,7 @@
     "hitCount": 1,
     "guardLevel": "high",
     "input": "214lk",
-    "frameCount": ["S-11", "A-3", "R-32"],
+    "frameCount": ["S-11", "A-14", "R-46"],
     "frameAdvantage": {"hit": 35, "block": -14}
   },
   {
@@ -616,7 +654,7 @@
     "hitCount": 2,
     "guardLevel": "high",
     "input": "214mk",
-    "frameCount": ["S-13", "A-17", "R-31"],
+    "frameCount": ["S-13", "A-15", "R-28", "A-30", "R-61"],
     "frameAdvantage": {"hit": 61, "block": -12}
   },
   {
@@ -630,7 +668,7 @@
     "hitCount": 3,
     "guardLevel": "high",
     "input": "214hk",
-    "frameCount": ["S-15", "A-32", "R-31"],
+    "frameCount": ["S-15", "A-17", "R-30", "A-32", "R-45", "A-47", "R-78"],
     "frameAdvantage": {"hit": 105, "block": -12}
   },
   {
@@ -644,7 +682,7 @@
     "hitCount": 5,
     "guardLevel": "high",
     "input": "214[kk]",
-    "frameCount": ["S-12", "A-26", "R-23"],
+    "frameCount": ["S-12", "A-14", "R-18", "A-20", "R-24", "A-26", "R-29", "A-31", "R-35", "A-37", "R-60"],
     "frameAdvantage": {"hit": 57, "block": -14}
   },
   {
@@ -660,7 +698,7 @@
     "input": "j.214k",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-10", "A-17", "R-14"],
+    "frameCount": ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"],
     "frameAdvantage": {"hit": 48, "block": -1},
     "properties": ["canCrossUp", "knockdown"]
   },
@@ -677,7 +715,7 @@
     "input": "j.214[kk]",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-10", "A-14", "R-0"],
+    "frameCount": ["S-10", "A-12", "R-13", "A-16", "R-17", "A-20", "R-21", "A-24", "R-26", "A-28"],
     "frameAdvantage": {"hit": 47, "block": -16}
   },
   {
@@ -693,7 +731,7 @@
     "input": "236lk",
     "cancelsInto": ["super"],
     "chains": [],
-    "frameCount": ["S-14", "A-9", "R-22"],
+    "frameCount": ["S-14", "A-23", "R-45"],
     "frameAdvantage": {"hit": 35, "block": -11}
   },
   {
@@ -709,7 +747,7 @@
     "input": "236mk",
     "cancelsInto": ["super"],
     "chains": [],
-    "frameCount": ["S-17", "A-9", "R-19"],
+    "frameCount": ["S-17", "A-26", "R-45"],
     "frameAdvantage": {"hit": 40, "block": -8}
   },
   {
@@ -725,7 +763,7 @@
     "input": "236hk",
     "cancelsInto": ["super"],
     "chains": [],
-    "frameCount": ["S-28", "A-9", "R-16"],
+    "frameCount": ["S-28", "A-37", "R-53"],
     "frameAdvantage": {"hit": 45, "block": -5}
   },
   {
@@ -741,7 +779,7 @@
     "input": "236[kk]",
     "cancelsInto": ["special", "super"],
     "chains": [],
-    "frameCount": ["S-17", "A-5", "R-33"],
+    "frameCount": ["S-18", "A-23", "R-55"],
     "frameAdvantage": {"hit": 45, "block": -18}
   },
   {
@@ -756,7 +794,7 @@
     "input": "214lp",
     "cancelsInto": ["superLevel3"],
     "chains": [],
-    "frameCount": ["S-11", "A-6", "R-18"],
+    "frameCount": ["S-11", "A-17", "R-35"],
     "frameAdvantage": {"hit": 2, "block": -4}
   },
   {
@@ -771,7 +809,7 @@
     "input": "214mp",
     "cancelsInto": ["superLevel3"],
     "chains": [],
-    "frameCount": ["S-18", "A-6", "R-17"],
+    "frameCount": ["S-18", "A-24", "R-41"],
     "frameAdvantage": {"hit": 2, "block": -5}
   },
   {
@@ -786,7 +824,7 @@
     "input": "214hp",
     "cancelsInto": ["superLevel3"],
     "chains": [],
-    "frameCount": ["S-29", "A-6", "R-19"],
+    "frameCount": ["S-29", "A-35", "R-54"],
     "frameAdvantage": {"hit": 61, "block": 2}
   },
   {
@@ -801,7 +839,7 @@
     "input": "214[pp]",
     "cancelsInto": ["superLevel2", "superLevel3"],
     "chains": [],
-    "frameCount": ["S-17", "A-6", "R-20"],
+    "frameCount": ["S-17", "A-23", "R-43"],
     "frameAdvantage": {"hit": 3, "block": 3}
   },
   {
@@ -816,7 +854,7 @@
     "input": "214p",
     "cancelsInto": ["superLevel3"],
     "chains": [],
-    "frameCount": ["S-20", "A-6", "R-18"],
+    "frameCount": ["S-20", "A-26", "R-44"],
     "frameAdvantage": {"hit": 62, "block": 3},
     "properties": ["stockDecrement"],
     "parentSlug": "denjin-charge"
@@ -833,7 +871,7 @@
     "input": "214[pp]",
     "cancelsInto": ["superLevel2", "superLevel3"],
     "chains": [],
-    "frameCount": ["S-17", "A-6", "R-19"],
+    "frameCount": ["S-17", "A-23", "R-42"],
     "frameAdvantage": {"hit": 87, "block": 4},
     "properties": ["stockDecrement"],
     "parentSlug": "denjin-charge"
@@ -850,8 +888,14 @@
     "input": "236236p",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-7", "A-0", "R-79"],
-    "frameAdvantage": {"hit": 26, "block": -24}
+    "frameCount": ["S-6", "PA-24", "R-31", "PA-32", "R-39", "PA-40", "R-47", "PA-48", "R-55", "PA-56"],
+    "frameAdvantage": {"hit": 26, "block": -24},
+    "invincibilityFrames": {
+      "start": 1,
+      "end": 1,
+      "strikeStart": 2,
+      "strikeEnd": 6
+    }
   },
   {
     "name": "Denjin Shinku Hadoken",
@@ -865,10 +909,16 @@
     "input": "236236p",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-7", "A-0", "R-79"],
+    "frameCount": ["S-6", "PA-26", "R-33", "PA-34", "R-41", "PA-42", "R-49", "PA-50", "R-57", "PA-58"],
     "frameAdvantage": {"hit": 27, "block": -24},
     "properties": ["stockDecrement"],
-    "parentSlug": "denjin-charge"
+    "parentSlug": "denjin-charge",
+    "invincibilityFrames": {
+      "start": 1,
+      "end": 1,
+      "strikeStart": 2,
+      "strikeEnd": 6
+    }
   },
   {
     "name": "Shin Hashogeki (No charge)",
@@ -881,8 +931,8 @@
     "guardLevel": "high",
     "input": "214214p",
     "cancelsInto": [],
-    "chains": [],
-    "frameCount": ["S-11", "A-6", "R-39"],
+    "chains": [], 
+    "frameCount": ["S-11", "PA-17", "R-56"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["armorBreak"]
   },
@@ -895,10 +945,10 @@
     "damage": 2800,
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "214214<p>",
+    "input": "214214(p)",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-47", "A-6", "R-39"],
+    "frameCount": ["S-20", "A-26", "R-65"],
     "frameAdvantage": {"hit": 78, "block": -20}
   },
   {
@@ -910,25 +960,10 @@
     "damage": 3000,
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "214214<p>",
+    "input": "214214(p)",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-69", "A-6", "R-39"],
-    "frameAdvantage": {"hit": 78, "block": -20}
-  },
-  {
-    "name": "Shin Hashogeki (Level 3)",
-    "name_ja": "真波掌撃 (溜め3段階)",
-    "slug": "shin-hashogeki-level-3",
-    "characterId": 0,
-    "type": "super",
-    "damage": 3000,
-    "hitCount": 1,
-    "guardLevel": "high",
-    "input": "214214<p>",
-    "cancelsInto": [],
-    "chains": [],
-    "frameCount": ["S-40", "A-6", "R-39"],
+    "frameCount": ["S-49", "A-55", "R-94"],
     "frameAdvantage": {"hit": 78, "block": -20}
   },
   {
@@ -940,10 +975,10 @@
     "damage": 3000,
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "214214<p>",
+    "input": "214214(p)",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-10", "A-6", "R-39"],
+    "frameCount": ["S-11", "A-17", "R-56"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
     "parentSlug": "denjin-charge"
@@ -957,10 +992,10 @@
     "damage": 3200,
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "214214<p>",
+    "input": "214214(p)",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-39", "A-6", "R-39"],
+    "frameCount": ["S-20", "A-26", "R-65"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
     "parentSlug": "denjin-charge"
@@ -974,29 +1009,12 @@
     "damage": 3400,
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "214214<p>",
+    "input": "214214(p)",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-69", "A-6", "R-39"],
+    "frameCount": ["S-49", "A-25", "R-64"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
-    "parentSlug": "denjin-charge"
-  },
-  {
-    "name": "Denjin Shin Hashogeki (Level 3)",
-    "name_ja": "電刃真波掌撃 (溜め3段階)",
-    "slug": "denjin-shin-hashogeki-level-3",
-    "characterId": 0,
-    "type": "super",
-    "damage": 3400,
-    "hitCount": 1,
-    "guardLevel": "high",
-    "input": "214214<p>",
-    "cancelsInto": [],
-    "chains": [],
-    "frameCount": ["S-79", "A-6", "R-39"],
-    "frameAdvantage": {"hit": 78, "block": -20},
-    "properties": ["armorBreak", "tumble", "stockDecrement"],
     "parentSlug": "denjin-charge"
   },
   {
@@ -1011,8 +1029,9 @@
     "input": "236236k",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-3", "A-12", "R-32"],
-    "frameAdvantage": {"hit": 8, "block": -52}
+    "frameCount": ["S-4", "A-16", "R-48"],
+    "frameAdvantage": {"hit": 8, "block": -52},
+    "invincibilityFrames": {"start": 1, "end": 16}
   },
   {
     "name": "Shin Shoryuken (Critical Art)",
@@ -1026,8 +1045,9 @@
     "input": "236236k",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-4", "A-12", "R-38"],
-    "frameAdvantage": {"hit": 8, "block": -52}
+    "frameCount": ["S-4", "A-16", "R-48"],
+    "frameAdvantage": {"hit": 8, "block": -52},
+    "invincibilityFrames": {"start": 1, "end": 16}
   },
   {
     "name": "Shoulder Throw",
@@ -1041,7 +1061,7 @@
     "input": "[lp+lk]",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-3", "A-3", "R-23"],
+    "frameCount": ["S-3", "A-6", "R-29"],
     "frameAdvantage": {"hit": 18}
   },
   {
@@ -1057,7 +1077,7 @@
     "input": "4[lp+lk]",
     "cancelsInto": [],
     "chains": [],
-    "frameCount": ["S-4", "A-3", "R-23"],
+    "frameCount": ["S-4", "A-7", "R-30"],
     "frameAdvantage": {"hit": 11}
   },
   {
