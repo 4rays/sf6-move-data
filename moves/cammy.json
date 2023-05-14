@@ -1,0 +1,27 @@
+{
+  "id": 17,
+  "name": "Cammy",
+  "slug": "cammy",
+  "name_ja": "\u30ad\u30e3\u30df\u30a3",
+  "description": "Member of British special forces unit Delta Red.",
+  "description_ja": "\u30a4\u30ae\u30ea\u30b9\u7279\u6b8a\u90e8\u968a\u30c7\u30eb\u30bf\u30ec\u30c3\u30c9\u968a\u54e1\u3002",
+  "gameId": 0,
+  "tags": [
+    {
+      "name": "mixup",
+      "name_ja": "\u629e"
+    },
+    {
+      "name": "rushdown",
+      "name_ja": "\u8fd1\u8ddd\u96e2"
+    }
+  ],
+  "media": [
+    "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss01.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss02.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss03.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss04.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss05.jpg"
+  ],
+  "artwork": "https://www.streetfighter.com/6/assets/images/character/cammy/cammy.png"
+}

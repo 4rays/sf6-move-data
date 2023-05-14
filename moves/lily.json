@@ -1,0 +1,26 @@
+{
+  "id": 16,
+  "name": "Lily",
+  "name_ja": "\u30ea\u30ea\u30fc",
+  "description": "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature",
+  "description_ja": "\u30b5\u30f3\u30c0\u30fc\u30d5\u30c3\u30c8\u65cf\u306e\u53e4\u3044\u8840\u3092\u53d7\u3051\u7d99\u3050\u5a18\u3002",
+  "gameId": 0,
+  "tags": [
+    {
+      "name": "grappler",
+      "name_ja": "\u6295\u3052"
+    },
+    {
+      "name": "command-grab",
+      "name_ja": "\u30b3\u30de\u30f3\u30c9\u6295\u3052"
+    }
+  ],
+  "media": [
+    "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss01.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss02.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss03.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss04.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss05.jpg"
+  ],
+  "artwork": "https://www.streetfighter.com/6/assets/images/character/lily/lily.png"
+}

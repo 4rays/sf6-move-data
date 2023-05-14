@@ -1,0 +1,27 @@
+{
+  "id": 14,
+  "name": "JP",
+  "slug": "jp",
+  "name_ja": "JP",
+  "description": "Head of an international NGO and the man behind Nayshall's present prosperity.",
+  "description_ja": "\u56fd\u969bNGO\u3092\u7d44\u7e54\u3057\u591a\u6570\u306e\u958b\u767a\u6295\u8cc7\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u6210\u529f\u3055\u305b\u3066\u304d\u305f\u4e8b\u696d\u5bb6\u3002",
+  "gameId": 0,
+  "tags": [
+    {
+      "name": "zoner",
+      "name_ja": "\u9060\u8ddd\u96e2"
+    },
+    {
+      "name": "setup",
+      "name_ja": "\u30bb\u30c3\u30c8\u30d7\u30ec\u30a4"
+    }
+  ],
+  "media": [
+    "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss01.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss02.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss03.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss04.jpg",
+    "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss05.jpg"
+  ],
+  "artwork": "https://www.streetfighter.com/6/assets/images/character/jp/jp.png"
+}

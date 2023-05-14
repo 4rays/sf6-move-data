@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Standing Light Punch",
+    "name_ja": "立ち弱パン",
+    "slug": "jamie-stand-light-punch",
+    "abbreviation": "S.LP",
+    "abbeviation_ja": "弱P",
+    "characterId": 2,
+    "type": "normal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "5lp",
+    "notes": [],
+    "notes_ja": []
+  }
+]
