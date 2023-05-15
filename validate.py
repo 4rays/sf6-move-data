@@ -4,10 +4,11 @@ import json
 import os
 import jsonschema
 
+
 def validate_json(json_data):
     """Validate JSON data against schema"""
     # Load schema
-    schema_path = os.path.join(os.path.dirname(__file__), 'schema.json')
+    schema_path = os.path.join(os.path.dirname(__file__), "schema.json")
     with open(schema_path) as schema_file:
         schema = json.load(schema_file)
 
@@ -15,18 +16,20 @@ def validate_json(json_data):
     try:
         jsonschema.validate(json_data, schema)
     except jsonschema.exceptions.ValidationError as err:
-        print(err)
+        print("❗ Validation error: {} on instance {}".format(err.message, err.instance))
         return False
     return True
 
+
 # Load all character moves
-moves_path = os.path.join(os.path.dirname(__file__), 'moves')
+moves_path = os.path.join(os.path.dirname(__file__), "moves")
 
 for filename in os.listdir(moves_path):
-    if filename.endswith('.json'):
+    if filename.endswith(".json"):
         with open(os.path.join(moves_path, filename)) as move_file:
             move = json.load(move_file)
-            print('Validating: {}'.format(filename))
+            print("Validating {}...".format(filename))
             if not validate_json(move):
-                print('Invalid move: {}'.format(filename))
                 exit(1)
+            else:
+                print("✅ Validated {}".format(filename))
