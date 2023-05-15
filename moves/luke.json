@@ -216,5 +216,379 @@
     "hitCount": 1,
     "guardLevel": "high",
     "input": "j.hk"
+  },
+  {
+    "name": "Rawhide",
+    "name_ja": "",
+    "slug": "rawhide",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "",
+    "input": "6mp"
+  },
+  {
+    "name": "Suppressor",
+    "name_ja": "",
+    "slug": "suppressor",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "4hp"
+  },
+  {
+    "name": "Outlaw Kick",
+    "name_ja": "",
+    "slug": "outlaw-kick",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "4hk"
+  },
+  {
+    "name": "Double Impact",
+    "name_ja": "",
+    "slug": "double-impact",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 2,
+    "guardLevel": "high",
+    "input": "6hp>hp"
+  },
+  {
+    "name": "Triple Impact",
+    "name_ja": "",
+    "slug": "triple-impact",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 3,
+    "guardLevel": "high",
+    "input": "lp>mp>hp"
+  },
+  {
+    "name": "Nose Breaker",
+    "name_ja": "",
+    "slug": "nose-breaker",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "2mk>2hp"
+  },
+  {
+    "name": "Snapback Combo",
+    "name_ja": "",
+    "slug": "snapback-combo",
+    "characterId": 1,
+    "type": "commandNormal",
+    "hitCount": 4,
+    "guardLevel": "high",
+    "input": "mp>mp>mp>mp"
+  },
+  {
+    "name": "Sand Blast (Light)",
+    "name_ja": "",
+    "slug": "sand-blast-light",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236lp"
+  },
+  {
+    "name": "Sand Blast (Medium)",
+    "name_ja": "",
+    "slug": "sand-blast-medium",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236mp"
+  },
+  {
+    "name": "Sand Blast (Heavy)",
+    "name_ja": "",
+    "slug": "sand-blast-heavy",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236hp"
+  },
+  {
+    "name": "Sand Blast (OD)",
+    "name_ja": "",
+    "slug": "sand-blast-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236pp"
+  },
+  {
+    "name": "Fatal Shot",
+    "name_ja": "",
+    "slug": "fatal-shot",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236[pp]>[pp]",
+    "parentSlug": "sand-blast-od"
+  },
+  {
+    "name": "Flash Knuckle (Light)",
+    "name_ja": "",
+    "slug": "flash-knuckle-light",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214lp",
+    "properties": ["chargeable"]
+  },
+  {
+    "name": "Flash Knuckle (Medium)",
+    "name_ja": "",
+    "slug": "flash-knuckle-medium",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214mp",
+    "properties": ["chargeable"]
+  },
+  {
+    "name": "Flash Knuckle (Heavy)",
+    "name_ja": "",
+    "slug": "flash-knuckle-heavy",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214hp",
+    "properties": ["chargeable"]
+  },
+  {
+    "name": "Flash Knuckle (OD)",
+    "name_ja": "",
+    "slug": "flash-knuckle-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214[pp]"
+  },
+  {
+    "name": "DDT",
+    "name_ja": "",
+    "slug": "luke-ddt",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214[pp]>[pp]",
+    "parentSlug": "flash-knuckle-od"
+  },
+  {
+    "name": "Aerial Flash Knuckle",
+    "name_ja": "",
+    "slug": "aerial-flash-knuckle",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.214p",
+    "properties": ["chargeable"]
+  },
+  {
+    "name": "Aerial Flash Knuckle (Charged)",
+    "name_ja": "",
+    "slug": "aerial-flash-knuckle-charged",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.214(p)",
+    "parentSlug": "aerial-flash-knuckle"
+  },
+  {
+    "name": "Aerial Flash Knuckle (OD)",
+    "name_ja": "",
+    "slug": "aerial-flash-knuckle-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j.214[pp]"
+  },
+  {
+    "name": "Avenger",
+    "name_ja": "",
+    "slug": "avenger",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214k"
+  },
+  {
+    "name": "Avenger (OD)",
+    "name_ja": "",
+    "slug": "avenger-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214[kk]"
+  },
+  {
+    "name": "No Chaser",
+    "name_ja": "",
+    "slug": "no-chaser",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214k>p",
+    "parentSlug": "avenger"
+  },
+  {
+    "name": "No Chaser (OD)",
+    "name_ja": "",
+    "slug": "no-chaser-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214[kk]>p",
+    "parentSlug": "avenger-od"
+  },
+  {
+    "name": "Impaler",
+    "name_ja": "",
+    "slug": "impaler",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "214k>k",
+    "parentSlug": "avenger"
+  },
+  {
+    "name": "Impaler (OD)",
+    "name_ja": "",
+    "slug": "impaler-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "guard",
+    "input": "214[kk]>k",
+    "parentSlug": "avenger-od"
+  },
+  {
+    "name": "Rising Uppercut (Light)",
+    "name_ja": "",
+    "slug": "rising-uppercut-light",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623lp"
+  },
+  {
+    "name": "Rising Uppercut (Medium)",
+    "name_ja": "",
+    "slug": "rising-uppercut-medium",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623mp"
+  },
+  {
+    "name": "Rising Uppercut (Heavy)",
+    "name_ja": "",
+    "slug": "rising-uppercut-heavy",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623hp"
+  },
+  {
+    "name": "Rising Uppercut (OD)",
+    "name_ja": "",
+    "slug": "rising-uppercut-od",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623[pp]"
+  },
+  {
+    "name": "Slam Dunk",
+    "name_ja": "",
+    "slug": "slam-dunk",
+    "characterId": 1,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "623[pp]>[pp]",
+    "parentSlug": "rising-uppercut-od"
+  },
+  {
+    "name": "Vulcan Blast",
+    "name_ja": "",
+    "slug": "vulcan-blast",
+    "characterId": 1,
+    "type": "super1",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236pp"
+  },
+  {
+    "name": "Eraser",
+    "name_ja": "",
+    "slug": "eraser",
+    "characterId": 1,
+    "type": "super2",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214pp"
+  },
+  {
+    "name": "Pale Rider",
+    "name_ja": "",
+    "slug": "pale-rider",
+    "characterId": 1,
+    "type": "super3",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "236kk"
+  },
+  {
+    "name": "Sweeper",
+    "name_ja": "",
+    "slug": "sweeper",
+    "alternativeNames": ["Forward Throw"],
+    "alternativeNames_ja": ["前投げ"],
+    "characterId": 1,
+    "type": "throw",
+    "hitCount": 1,
+    "input": "[lp+lk]"
+  },
+  {
+    "name": "Scrapper",
+    "name_ja": "",
+    "slug": "scrapper",
+    "alternativeNames": ["Back Throw"],
+    "alternativeNames_ja": ["後ろ投げ"],
+    "characterId": 1,
+    "type": "throw",
+    "hitCount": 1,
+    "input": "[4lplk]"
   }
 ]

@@ -1073,7 +1073,6 @@
     "type": "throw",
     "damage": 1200,
     "hitCount": 1,
-    "guardLevel": "",
     "input": "[4lplk]",
     "cancelsInto": [],
     "chainsInto": [],
