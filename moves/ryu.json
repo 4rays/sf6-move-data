@@ -12,7 +12,7 @@
     "guardLevel": "high",
     "input": "5lp",
     "cancelsInto": ["chain", "special", "super"],
-    "chains": ["5lp", "2lp", "2lk"],
+    "chainsInto": ["5lp", "2lp", "2lk"],
     "frameCount": ["S-3", "A-6", "R-13"],
     "frameAdvantage": {"hit": 4, "block": -1},
     "notes": [],
@@ -31,7 +31,7 @@
     "guardLevel": "high",
     "input": "5mp",
     "cancelsInto": ["special", "super", "targetCombo"],
-    "chains": ["5mp", "2mp"],
+    "chainsInto": ["5mp", "2mp"],
     "frameCount": ["S-5", "A-9", "R-20"],
     "frameAdvantage": {"hit": 7, "block": -1}
   },
@@ -48,7 +48,7 @@
     "guardLevel": "high",
     "input": "5hp",
     "cancelsInto": ["special", "super", "targetCombo"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-9", "A-14", "R-32"],
     "frameAdvantage": {"hit": 3, "block": -2},
     "properties": ["forcesStanding"]
@@ -66,7 +66,7 @@
     "guardLevel": "low",
     "input": "5lk",
     "cancelsInto": ["chain", "special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-4", "A-7", "R-18"],
     "frameAdvantage": {"hit": 2, "block": -4}
   },
@@ -83,7 +83,7 @@
     "guardLevel": "high",
     "input": "5mk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-8", "A-11", "R-29"],
     "frameAdvantage": {"hit": 4, "block": -4}
   },
@@ -100,7 +100,7 @@
     "guardLevel": "high",
     "input": "5hk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "A-15", "R-35"],
     "frameAdvantage": {"hit": 9, "block": 1}
   },
@@ -117,7 +117,7 @@
     "guardLevel": "low",
     "input": "2lp",
     "cancelsInto": ["chain", "special", "super"],
-    "chains": ["5lp", "2lp", "2lk"],
+    "chainsInto": ["5lp", "2lp", "2lk"],
     "frameCount": ["S-3", "A-5", "R-14"],
     "frameAdvantage": {"hit": 4, "block": -1}
   },
@@ -134,7 +134,7 @@
     "guardLevel": "low",
     "input": "2mp",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-5", "A-8", "R-22"],
     "frameAdvantage": {"hit": 5, "block": 0}
   },
@@ -151,7 +151,7 @@
     "guardLevel": "low",
     "input": "2hp",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-8", "A-12", "R-34"],
     "frameAdvantage": {"hit": 3, "block": -7}
   },
@@ -168,7 +168,7 @@
     "guardLevel": "low",
     "input": "2lk",
     "cancelsInto": ["chain"],
-    "chains": ["5lp", "2lp", "2lk"],
+    "chainsInto": ["5lp", "2lp", "2lk"],
     "frameCount": ["S-4", "A-6", "R-16"],
     "frameAdvantage": {"hit": 3, "block": -3}
   },
@@ -185,7 +185,7 @@
     "guardLevel": "low",
     "input": "2mk",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-7", "A-10", "R-29"],
     "frameAdvantage": {"hit": 1, "block": -6}
   },
@@ -202,7 +202,7 @@
     "guardLevel": "low",
     "input": "2hk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-8", "A-11", "R-34"],
     "frameAdvantage": {"hit": 32, "block": -11}
   },
@@ -219,7 +219,7 @@
     "guardLevel": "high",
     "input": "jlp",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-3", "A-13"]
   },
   {
@@ -235,7 +235,7 @@
     "guardLevel": "high",
     "input": "jmp",
     "cancelsInto": ["special"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-7", "A-12"]
   },
   {
@@ -251,7 +251,7 @@
     "guardLevel": "high",
     "input": "jhp",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-8", "A-14"]
   },
   {
@@ -267,7 +267,7 @@
     "guardLevel": "high",
     "input": "jlk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-5", "A-15"],
     "properties": ["canCrossUp"]
   },
@@ -284,7 +284,7 @@
     "guardLevel": "high",
     "input": "jmk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-6", "A-12"],
     "properties": ["canCrossUp"]
   },
@@ -301,7 +301,7 @@
     "guardLevel": "high",
     "input": "jhk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "A-19"]
   },
   {
@@ -315,7 +315,7 @@
     "guardLevel": "high",
     "input": "6mp",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-20", "A-24", "R-42"],
     "frameAdvantage": {"hit": 2, "block": -3}
   },
@@ -330,7 +330,7 @@
     "guardLevel": "high",
     "input": "6hp",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-19", "A-24", "R-40"],
     "frameAdvantage": {"hit": 6, "block": 1}
   },
@@ -345,7 +345,7 @@
     "guardLevel": "high",
     "input": "4hp",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-6", "A-9", "R-35"],
     "frameAdvantage": {"hit": 1, "block": -13},
     "properties": ["forcesStanding"]
@@ -361,7 +361,7 @@
     "guardLevel": "high",
     "input": "6hk",
     "cancelsInto": ["special"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-15", "A-19", "R-39"],
     "frameAdvantage": {"hit": 2, "block": -4}
   },
@@ -376,7 +376,7 @@
     "guardLevel": "high",
     "input": "4hk",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-9", "A-14", "R-19", "A-22", "R-43"],
     "frameAdvantage": {"hit": 0, "block": -4}
   },
@@ -391,7 +391,7 @@
     "guardLevel": "high",
     "input": "5hp>5hk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-9", "A-14", "R-16", "S-24", "A-28", "R-48"],
     "frameAdvantage": {"hit": 36, "block": -8},
     "properties": ["knockdown"]
@@ -407,7 +407,7 @@
     "guardLevel": "high",
     "input": "5mp>5lk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"],
     "frameAdvantage": {"hit": 1, "block": -7}
   },
@@ -422,7 +422,7 @@
     "guardLevel": "high",
     "input": "5mp>5lk>5hk",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"],
     "frameAdvantage": {"hit": 36, "block": -8}
   },
@@ -517,7 +517,7 @@
     "guardLevel": "high",
     "input": "236p",
     "cancelsInto": ["super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "PA-12", "R-42"],
     "frameAdvantage": {"hit": 52, "block": -3},
     "properties": ["stockDecrement"],
@@ -540,7 +540,7 @@
     "guardLevel": "high",
     "input": "236[pp]",
     "cancelsInto": ["super2", "super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "PA-12", "R-42"],
     "frameAdvantage": {"hit": 57, "block": 2},
     "properties": ["stockDecrement"],
@@ -697,7 +697,7 @@
     "guardLevel": "high",
     "input": "j.214k",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"],
     "frameAdvantage": {"hit": 48, "block": -1},
     "properties": ["canCrossUp", "knockdown"]
@@ -714,7 +714,7 @@
     "guardLevel": "high",
     "input": "j.214[kk]",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-10", "A-12", "R-13", "A-16", "R-17", "A-20", "R-21", "A-24", "R-26", "A-28"],
     "frameAdvantage": {"hit": 47, "block": -16}
   },
@@ -730,7 +730,7 @@
     "guardLevel": "high",
     "input": "236lk",
     "cancelsInto": ["super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-14", "A-23", "R-45"],
     "frameAdvantage": {"hit": 35, "block": -11}
   },
@@ -746,7 +746,7 @@
     "guardLevel": "high",
     "input": "236mk",
     "cancelsInto": ["super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-17", "A-26", "R-45"],
     "frameAdvantage": {"hit": 40, "block": -8}
   },
@@ -762,7 +762,7 @@
     "guardLevel": "high",
     "input": "236hk",
     "cancelsInto": ["super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-28", "A-37", "R-53"],
     "frameAdvantage": {"hit": 45, "block": -5}
   },
@@ -778,7 +778,7 @@
     "guardLevel": "high",
     "input": "236[kk]",
     "cancelsInto": ["special", "super"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-18", "A-23", "R-55"],
     "frameAdvantage": {"hit": 45, "block": -18}
   },
@@ -793,7 +793,7 @@
     "guardLevel": "high",
     "input": "214lp",
     "cancelsInto": ["super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "A-17", "R-35"],
     "frameAdvantage": {"hit": 2, "block": -4}
   },
@@ -808,7 +808,7 @@
     "guardLevel": "high",
     "input": "214mp",
     "cancelsInto": ["super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-18", "A-24", "R-41"],
     "frameAdvantage": {"hit": 2, "block": -5}
   },
@@ -823,7 +823,7 @@
     "guardLevel": "high",
     "input": "214hp",
     "cancelsInto": ["super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-29", "A-35", "R-54"],
     "frameAdvantage": {"hit": 61, "block": 2}
   },
@@ -838,7 +838,7 @@
     "guardLevel": "high",
     "input": "214[pp]",
     "cancelsInto": ["super2", "super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-17", "A-23", "R-43"],
     "frameAdvantage": {"hit": 3, "block": 3}
   },
@@ -853,7 +853,7 @@
     "guardLevel": "high",
     "input": "214p",
     "cancelsInto": ["super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-20", "A-26", "R-44"],
     "frameAdvantage": {"hit": 62, "block": 3},
     "properties": ["stockDecrement"],
@@ -870,7 +870,7 @@
     "guardLevel": "high",
     "input": "214[pp]",
     "cancelsInto": ["super2", "super3"],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-17", "A-23", "R-42"],
     "frameAdvantage": {"hit": 87, "block": 4},
     "properties": ["stockDecrement"],
@@ -887,7 +887,7 @@
     "guardLevel": "high",
     "input": "236236p",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-6", "PA-24", "R-31", "PA-32", "R-39", "PA-40", "R-47", "PA-48", "R-55", "PA-56"],
     "frameAdvantage": {"hit": 26, "block": -24},
     "invincibilityFrames": {
@@ -908,7 +908,7 @@
     "guardLevel": "high",
     "input": "236236p",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-6", "PA-26", "R-33", "PA-34", "R-41", "PA-42", "R-49", "PA-50", "R-57", "PA-58"],
     "frameAdvantage": {"hit": 27, "block": -24},
     "properties": ["stockDecrement"],
@@ -931,7 +931,7 @@
     "guardLevel": "high",
     "input": "214214p",
     "cancelsInto": [],
-    "chains": [], 
+    "chainsInto": [], 
     "frameCount": ["S-11", "PA-17", "R-56"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["armorBreak"]
@@ -947,7 +947,7 @@
     "guardLevel": "high",
     "input": "214214(p)",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-20", "A-26", "R-65"],
     "frameAdvantage": {"hit": 78, "block": -20}
   },
@@ -962,7 +962,7 @@
     "guardLevel": "high",
     "input": "214214(p)",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-49", "A-55", "R-94"],
     "frameAdvantage": {"hit": 78, "block": -20}
   },
@@ -977,7 +977,7 @@
     "guardLevel": "high",
     "input": "214214(p)",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-11", "A-17", "R-56"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
@@ -994,7 +994,7 @@
     "guardLevel": "high",
     "input": "214214(p)",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-20", "A-26", "R-65"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
@@ -1011,7 +1011,7 @@
     "guardLevel": "high",
     "input": "214214(p)",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-49", "A-25", "R-64"],
     "frameAdvantage": {"hit": 78, "block": -20},
     "properties": ["stockDecrement"],
@@ -1028,7 +1028,7 @@
     "guardLevel": "high",
     "input": "236236k",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-4", "A-16", "R-48"],
     "frameAdvantage": {"hit": 8, "block": -52},
     "invincibilityFrames": {"start": 1, "end": 16}
@@ -1044,7 +1044,7 @@
     "guardLevel": "high",
     "input": "236236k",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-4", "A-16", "R-48"],
     "frameAdvantage": {"hit": 8, "block": -52},
     "invincibilityFrames": {"start": 1, "end": 16}
@@ -1060,7 +1060,7 @@
     "hitCount": 1,
     "input": "[lplk]",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-3", "A-6", "R-29"],
     "frameAdvantage": {"hit": 18}
   },
@@ -1076,7 +1076,7 @@
     "guardLevel": "",
     "input": "[4lplk]",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-4", "A-7", "R-30"],
     "frameAdvantage": {"hit": 11}
   },
@@ -1090,7 +1090,7 @@
     "hitCount": 0,
     "input": "22p",
     "cancelsInto": [],
-    "chains": [],
+    "chainsInto": [],
     "frameCount": ["S-52"],
     "properties": ["stockIncrement"]
   }

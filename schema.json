@@ -1,0 +1,254 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1684147232.json",
+  "title": "Character",
+  "type": "array",
+  "default": [],
+  "moves": {
+    "$id": "#character/moves",
+    "title": "Moves",
+    "type": "object",
+    "required": [
+      "name",
+      "name_ja",
+      "slug",
+      "characterId",
+      "type",
+      "input",
+      "cancelsInto",
+      "chainsInto",
+      "frameCount"
+    ],
+    "properties": {
+      "name": {
+        "$id": "#character/moves/name",
+        "title": "Name",
+        "type": "string",
+        "default": "",
+        "examples": ["Standing Light Punch"],
+        "pattern": "^.*$"
+      },
+      "name_ja": {
+        "$id": "#character/moves/name_ja",
+        "title": "Name_ja",
+        "type": "string",
+        "default": "",
+        "examples": ["立ち弱パン"],
+        "pattern": "^.*$"
+      },
+      "slug": {
+        "$id": "#character/moves/slug",
+        "title": "Slug",
+        "type": "string",
+        "default": "",
+        "examples": ["ryu-stand-light-punch"],
+        "pattern": "^.*$"
+      },
+      "abbreviation": {
+        "$id": "#character/moves/abbreviation",
+        "title": "Abbreviation",
+        "type": "string",
+        "default": "",
+        "examples": ["S.LP"],
+        "pattern": "^.*$"
+      },
+      "abbeviation_ja": {
+        "$id": "#character/moves/abbeviation_ja",
+        "title": "Abbeviation (JP)",
+        "type": "string",
+        "default": "",
+        "examples": ["立ち弱P"],
+        "pattern": "^.*$"
+      },
+      "characterId": {
+        "$id": "#character/moves/characterId",
+        "title": "Character ID",
+        "type": "integer",
+        "examples": [0],
+        "default": 0
+      },
+      "type": {
+        "$id": "#character/moves/type",
+        "title": "Type",
+        "type": "string",
+        "default": "",
+        "examples": ["normal"],
+        "pattern": "^.*$"
+      },
+      "damage": {
+        "$id": "#character/moves/damage",
+        "title": "Damage",
+        "type": "integer",
+        "examples": [300],
+        "default": 0
+      },
+      "hitCount": {
+        "$id": "#character/moves/hitCount",
+        "title": "Hit Count",
+        "type": "integer",
+        "examples": [1],
+        "default": 0
+      },
+      "guardLevel": {
+        "$id": "#character/moves/guardLevel",
+        "title": "Guard Level",
+        "type": "string",
+        "default": "",
+        "examples": ["high"],
+        "pattern": "^.*$"
+      },
+      "input": {
+        "$id": "#character/moves/input",
+        "title": "Input",
+        "type": "string",
+        "default": "",
+        "examples": ["5lp"],
+        "pattern": "^.*$"
+      },
+      "cancelsInto": {
+        "$id": "#character/moves/cancelsInto",
+        "title": "Cancels Into",
+        "type": "array",
+        "default": [],
+        "moves": {
+          "$id": "#character/moves/cancelsInto/cancels",
+          "title": "Cancel Types",
+          "type": "string",
+          "default": "",
+          "examples": ["chain"],
+          "pattern": "^.*$"
+        }
+      },
+      "chainsInto": {
+        "$id": "#character/moves/chainsInto",
+        "title": "Chains Into",
+        "type": "array",
+        "default": [],
+        "moves": {
+          "$id": "#character/moves/chainsInto/inputs",
+          "title": "Inputs",
+          "type": "string",
+          "default": "",
+          "examples": ["5lp"],
+          "pattern": "^.*$"
+        }
+      },
+      "frameCount": {
+        "$id": "#character/moves/frameCount",
+        "title": "Frame Count",
+        "type": "array",
+        "default": [],
+        "moves": {
+          "$id": "#character/moves/frameCount/data",
+          "title": "Frame Data",
+          "type": "string",
+          "default": "",
+          "examples": ["S-3"],
+          "pattern": "^.*$"
+        }
+      },
+      "frameAdvantage": {
+        "$id": "#character/moves/frameAdvantage",
+        "title": "Frame Advantage",
+        "type": "object",
+        "required": ["hit", "block"],
+        "properties": {
+          "hit": {
+            "$id": "#character/moves/frameAdvantage/hit",
+            "title": "Hit",
+            "type": "integer",
+            "examples": [4],
+            "default": 0
+          },
+          "block": {
+            "$id": "#character/moves/frameAdvantage/block",
+            "title": "Block",
+            "type": "integer",
+            "examples": [-1],
+            "default": 0
+          }
+        }
+      },
+      "invincibilityFrames": {
+        "$id": "#character/moves/invincibilityFrames",
+        "title": "Invincibility Frames",
+        "type": "object",
+        "required": [
+          "start",
+          "end"
+        ],
+        "properties": {
+          "start": {
+            "$id": "#character/moves/invincibilityFrames/start",
+            "title": "Start",
+            "type": "integer",
+            "examples": [1],
+            "default": 0
+          },
+          "end": {
+            "$id": "#character/moves/invincibilityFrames/end",
+            "title": "End",
+            "type": "integer",
+            "examples": [3],
+            "default": 0
+          },
+          "projectileStart": {
+            "$id": "#character/moves/invincibilityFrames/projectileStart",
+            "title": "Projectile Start",
+            "type": "integer",
+            "examples": [1],
+            "default": 0
+          },
+          "projectileEnd": {
+            "$id": "#character/moves/invincibilityFrames/projectileEnd",
+            "title": "Projectile End",
+            "type": "integer",
+            "examples": [3],
+            "default": 0
+          },
+          "strikeStart": {
+            "$id": "#character/moves/invincibilityFrames/strikeStart",
+            "title": "Strike Start",
+            "type": "integer",
+            "examples": [1],
+            "default": 0
+          },
+          "strikeEnd": {
+            "$id": "#character/moves/invincibilityFrames/strikeEnd",
+            "title": "Strike End",
+            "type": "integer",
+            "examples": [3],
+            "default": 0
+          },
+          "airStart": {
+            "$id": "#character/moves/invincibilityFrames/airStart",
+            "title": "Air Start",
+            "type": "integer",
+            "examples": [1],
+            "default": 0
+          },
+          "airEnd": {
+            "$id": "#character/moves/invincibilityFrames/airEnd",
+            "title": "Air End",
+            "type": "integer",
+            "examples": [3],
+            "default": 0
+          }
+        }
+      },
+      "notes": {
+        "$id": "#character/moves/notes",
+        "title": "Notes",
+        "type": "array",
+        "default": []
+      },
+      "notes_ja": {
+        "$id": "#character/moves/notes_ja",
+        "title": "Notes (JP)",
+        "type": "array",
+        "default": []
+      }
+    }
+  }
+}
