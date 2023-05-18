@@ -89,11 +89,12 @@ The following table lists the special notation used in the string:
 | `[]`     | Simultaneous |
 | `()`     | Hold         |
 | `>`      | Follow-up    |
-| `*p`     | Any punch    |
+| `|`      | Or           |
+| `p`      | Any punch    |
 | `lp`     | Light Punch  |
 | `mp`     | Medium Punch |
 | `hp`     | Heavy Punch  |
-| `*k`     | Any kick     |
+| `k`      | Any kick     |
 | `lk`     | Light Kick   |
 | `mk`     | Medium Kick  |
 | `hk`     | Heavy Kick   |

@@ -252,5 +252,415 @@
     "hitCount": 1,
     "guardLevel": "high",
     "input": "jhk"
+  },
+  {
+    "name": "Swift Thrust",
+    "name_ja": "追突拳",
+    "slug": "swift-thrust",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6mp|4mp"
+  },
+  {
+    "name": "Hakkei",
+    "name_ja": "発勁",
+    "slug": "hakkei",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6hp"
+  },
+  {
+    "name": "Water Lotus Fist",
+    "name_ja": "水蓮掌",
+    "slug": "water-lotus-fist",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "mid",
+    "input": "3hp"
+  },
+  {
+    "name": "Yokusen Kick",
+    "name_ja": "翼旋脚",
+    "slug": "yokusen-kick",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "mid",
+    "input": "6hk"
+  },
+  {
+    "name": "Falling Crane",
+    "name_ja": "鶴脚落",
+    "slug": "falling-crane",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "mid",
+    "input": "3hk"
+  },
+  {
+    "name": "Yoso Kick",
+    "name_ja": "鷹爪脚",
+    "slug": "yoso-kick",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "mid",
+    "input": "j2mk"
+  },
+  {
+    "name": "Wall Jump",
+    "name_ja": "三角飛び",
+    "slug": "wall-jump",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 0,
+    "guardLevel": "mid",
+    "input": "j7|8|9"
+  },
+  {
+    "name": "Soaring Eagle Punches",
+    "name_ja": "鷹嘴連拳",
+    "slug": "soaring-eagle-punches",
+    "characterId": 3,
+    "type": "commandNormal",
+    "hitCount": 2,
+    "guardLevel": "mid",
+    "input": "j2hp|j2hp"
+  },
+  {
+    "name": "Kikoken (Light)",
+    "name_ja": "気功拳 (弱)",
+    "slug": "kikoken-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236lp"
+  },
+  {
+    "name": "Kikoken (Medium)",
+    "name_ja": "気功拳 (中)",
+    "slug": "kikoken-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236mp"
+  },
+  {
+    "name": "Kikoken (Heavy)",
+    "name_ja": "気功拳 (強)",
+    "slug": "kikoken-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236hp"
+  },
+  {
+    "name": "Kikoken (OD)",
+    "name_ja": "気功拳 (OD)",
+    "slug": "kikoken-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[pp]"
+  },
+  {
+    "name": "Serenity Stream",
+    "name_ja": "行雲流水",
+    "slug": "serenity-stream",
+    "characterId": 3,
+    "type": "special",
+    "input": "214p"
+  },
+  {
+    "name": "Orchid Palm",
+    "name_ja": "蘭華",
+    "slug": "orchid-palm",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>lp",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Snake Strike",
+    "name_ja": "這蛇突",
+    "slug": "snake-strike",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>mp",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Lotus Fist",
+    "name_ja": "蓮掌",
+    "slug": "lotus-fist",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>hp",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Forward Strike",
+    "name_ja": "前突",
+    "slug": "forward-strike",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>lk",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Senpu Kick",
+    "name_ja": "仙風",
+    "slug": "senpu-kick",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>mk",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Tenku Kick",
+    "name_ja": "天空脚",
+    "slug": "tenku-kick",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214p>hk",
+    "parentSlug": "serenity-stream"
+  },
+  {
+    "name": "Hundred Lightning Kicks (Light)",
+    "name_ja": "百裂脚 (弱)",
+    "slug": "hundred-lightning-kicks-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236lk"
+  },
+  {
+    "name": "Hundred Lightning Kicks (Medium)",
+    "name_ja": "百裂脚 (中)",
+    "slug": "hundred-lightning-kicks-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236mk"
+  },
+  {
+    "name": "Hundred Lightning Kicks (Heavy)",
+    "name_ja": "百裂脚 (強)",
+    "slug": "hundred-lightning-kicks-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236hk"
+  },
+  {
+    "name": "Hundred Lightning Kicks (OD)",
+    "name_ja": "百裂脚 (OD)",
+    "slug": "hundred-lightning-kicks-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]"
+  },
+  {
+    "name": "Lightning Kicks Barrage",
+    "name_ja": "百裂連脚",
+    "slug": "lightning-kicks-barrage",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "236[kk]>[kk]",
+    "parentSlug": "hundred-lightning-kicks-od"
+  },
+  {
+    "name": "Aerial Hundred Lightning Kicks (Light)",
+    "name_ja": "空中百裂脚 (弱)",
+    "slug": "aerial-hundred-lightning-kicks-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "j236lk"
+  },
+  {
+    "name": "Aerial Hundred Lightning Kicks (Medium)",
+    "name_ja": "空中百裂脚 (中)",
+    "slug": "aerial-hundred-lightning-kicks-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "j236mk"
+  },
+  {
+    "name": "Aerial Hundred Lightning Kicks (Heavy)",
+    "name_ja": "空中百裂脚 (強)",
+    "slug": "aerial-hundred-lightning-kicks-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "j236hk"
+  }, 
+  {
+    "name": "Aerial Hundred Lightning Kicks (OD)",
+    "name_ja": "空中百裂脚 (OD)",
+    "slug": "aerial-hundred-lightning-kicks-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "j236[kk]"
+  },
+  {
+    "name": "Spinning Bird Kick (Light)",
+    "name_ja": "スピニングバードキック (弱)",
+    "slug": "spinning-bird-kick-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "(2)8lk"
+  },
+  {
+    "name": "Spinning Bird Kick (Medium)",
+    "name_ja": "スピニングバードキック (中)",
+    "slug": "spinning-bird-kick-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "(2)8mk"
+  },
+  {
+    "name": "Spinning Bird Kick (Heavy)",
+    "name_ja": "スピニングバードキック (強)",
+    "slug": "spinning-bird-kick-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "(2)8hk"
+  },
+  {
+    "name": "Spinning Bird Kick (OD)",
+    "name_ja": "スピニングバードキック (OD)",
+    "slug": "spinning-bird-kick-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "(2)8[kk]"
+  },
+  {
+    "name": "Hazanshu (Light)",
+    "name_ja": "覇山蹴 (弱)",
+    "slug": "hazanshu-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214lk"
+  },
+  {
+    "name": "Hazanshu (Medium)",
+    "name_ja": "覇山蹴 (中)",
+    "slug": "hazanshu-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214mk"
+  },
+  {
+    "name": "Hazanshu (Heavy)",
+    "name_ja": "覇山蹴 (強)",
+    "slug": "hazanshu-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214hk"
+  },
+  {
+    "name": "Hazanshu (OD)",
+    "name_ja": "覇山蹴 (OD)",
+    "slug": "hazanshu-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "214[kk]"
+  },
+  {
+    "name": "Tensho Kicks (Light)",
+    "name_ja": "天翔脚 (弱)",
+    "slug": "tensho-kicks-light",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "22lk"
+  },
+  {
+    "name": "Tensho Kicks (Medium)",
+    "name_ja": "天翔脚 (中)",
+    "slug": "tensho-kicks-medium",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "22mk"
+  },
+  {
+    "name": "Tensho Kicks (Heavy)",
+    "name_ja": "天翔脚 (強)",
+    "slug": "tensho-kicks-heavy",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "22hk"
+  },
+  {
+    "name": "Tensho Kicks (OD)",
+    "name_ja": "天翔脚 (OD)",
+    "slug": "tensho-kicks-od",
+    "characterId": 3,
+    "type": "special",
+    "hitCount": 1,
+    "input": "22[kk]"
+  },
+  {
+    "name": "Kikosho",
+    "name_ja": "気功掌",
+    "slug": "kikosho",
+    "characterId": 3,
+    "type": "super1",
+    "hitCount": 1,
+    "input": "236236p"
+  },
+  {
+    "name": "Areial Kikosho",
+    "name_ja": "空中気功掌",
+    "slug": "areial-kikosho",
+    "characterId": 3,
+    "type": "super1",
+    "hitCount": 1,
+    "input": "j236236p"
+  },
+  {
+    "name": "Hoyokusen",
+    "name_ja": "鳳翼扇",
+    "slug": "hoyokusen",
+    "characterId": 3,
+    "type": "super2",
+    "hitCount": 1,
+    "input": "214214p"
+  },
+  {
+    "name": "Soten Ranka",
+    "name_ja": "蒼天乱華",
+    "slug": "soten-ranka",
+    "characterId": 3,
+    "type": "super3",
+    "hitCount": 1,
+    "input": "214214k"
   }
 ]
