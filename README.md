@@ -89,15 +89,17 @@ The following table lists the special notation used in the string:
 | `[]`     | Simultaneous |
 | `()`     | Hold         |
 | `>`      | Follow-up    |
+| `*p`     | Any punch    |
 | `lp`     | Light Punch  |
 | `mp`     | Medium Punch |
 | `hp`     | Heavy Punch  |
+| `*k`     | Any kick     |
 | `lk`     | Light Kick   |
 | `mk`     | Medium Kick  |
 | `hk`     | Heavy Kick   |
 | `j`      | Jump         |
-| `pp`     | Any two p*   |
-| `kk`     | Any two k*   |
+| `pp`     | Any two *p   |
+| `kk`     | Any two *k   |
 
 ### Cancels Into
 

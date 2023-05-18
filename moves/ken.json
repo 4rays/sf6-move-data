@@ -2,6 +2,8 @@
   {
     "name": "Standing Light Punch",
     "name_ja": "立ち弱パン",
+    "alternativeNames": ["Jab"],
+    "alternativeNames_ja": ["小パン"],
     "slug": "ken-stand-light-punch",
     "abbreviation": "S.LP",
     "abbeviation_ja": "立ち弱P",
@@ -14,6 +16,8 @@
   {
     "name": "Standing Medium Punch",
     "name_ja": "立ち中パン",
+    "alternativeNames": ["Strong"],
+    "alternativeNames_ja": ["中パン"],
     "slug": "ken-stand-medium-punch",
     "abbreviation": "S.MP",
     "abbeviation_ja": "立ち中P",
@@ -26,6 +30,8 @@
   {
     "name": "Standing Heavy Punch",
     "name_ja": "立ち強パン",
+    "alternativeNames": ["Fierce"],
+    "alternativeNames_ja": ["大パン"],
     "slug": "ken-stand-heavy-punch",
     "abbreviation": "S.HP",
     "abbeviation_ja": "立ち強P",
@@ -38,6 +44,8 @@
   {
     "name": "Standing Light Kick",
     "name_ja": "立ち弱キック",
+    "alternativeNames": ["Short"],
+    "alternativeNames_ja": ["小足", "コアシ"],
     "slug": "ken-stand-light-kick",
     "abbreviation": "S.LK",
     "abbeviation_ja": "立ち弱K",
@@ -50,6 +58,8 @@
   {
     "name": "Standing Medium Kick",
     "name_ja": "立ち中キック",
+    "alternativeNames": ["Forward"],
+    "alternativeNames_ja": ["中足", "チュウアシ"],
     "slug": "ken-stand-medium-kick",
     "abbreviation": "S.MK",
     "abbeviation_ja": "立ち中K",
@@ -62,6 +72,8 @@
   {
     "name": "Standing Heavy Kick",
     "name_ja": "立ち強キック",
+    "alternativeNames": ["Roundhouse"],
+    "alternativeNames_ja": ["大足", "ダイアシ"],
     "slug": "ken-stand-heavy-kick",
     "abbreviation": "S.HK",
     "abbeviation_ja": "立ち強K",
@@ -72,8 +84,10 @@
     "input": "5hk"
   },
   {
-    "name": "Crouching Light Punch",
+        "name": "Crouching Light Punch",
     "name_ja": "しゃがみ弱パン",
+    "alternativeNames": ["Crouching jab"],
+    "alternativeNames_ja": ["しゃがみ小パン", "しゃがみコパン"],
     "slug": "ken-crouch-light-punch",
     "abbreviation": "C.LP",
     "abbeviation_ja": "屈弱P",
@@ -86,6 +100,8 @@
   {
     "name": "Crouching Medium Punch",
     "name_ja": "しゃがみ中パン",
+    "alternativeNames": ["Crouching jab"],
+    "alternativeNames_ja": ["しゃがみ中パン", "しゃがみチュウパン"],
     "slug": "ken-crouch-medium-punch",
     "abbreviation": "C.MP",
     "abbeviation_ja": "屈中P",
@@ -98,6 +114,8 @@
   {
     "name": "Crouching Heavy Punch",
     "name_ja": "しゃがみ強パン",
+    "alternativeNames": ["Crouching strong"],
+    "alternativeNames_ja": ["しゃがみ大パン", "しゃがみダイパン"],
     "slug": "ken-crouch-heavy-punch",
     "abbreviation": "C.HP",
     "abbeviation_ja": "屈強P",
@@ -110,6 +128,8 @@
   {
     "name": "Crouching Light Kick",
     "name_ja": "しゃがみ弱キック",
+    "alternativeNames": ["Crouching short"],
+    "alternativeNames_ja": ["しゃがみ小足", "しゃがみコアシ"],
     "slug": "ken-crouch-light-kick",
     "abbreviation": "C.LK",
     "abbeviation_ja": "屈弱K",
@@ -122,6 +142,8 @@
   {
     "name": "Crouch Medium Kick",
     "name_ja": "しゃがみ中キック",
+    "alternativeNames": ["Crouching forward"],
+    "alternativeNames_ja": ["しゃがみ中足", "しゃがみチュウアシ"],
     "slug": "ken-crouch-medium-kick",
     "abbreviation": "C.MK",
     "abbeviation_ja": "屈中K",
@@ -134,6 +156,8 @@
   {
     "name": "Crouching Heavy Kick",
     "name_ja": "しゃがみ強キック",
+    "alternativeNames": ["Crouching forward"],
+    "alternativeNames_ja": ["しゃがみ大足", "しゃがみダイアシ"],
     "slug": "ken-crouch-heavy-kick",
     "abbreviation": "C.HK",
     "abbeviation_ja": "屈強K",
@@ -146,6 +170,8 @@
   {
     "name": "Jumping Light Punch",
     "name_ja": "ジャンプ弱パン",
+    "alternativeNames": ["Crouching forward"],
+    "alternativeNames_ja": ["ジャンプ小パン", "ジャンプコパン"],
     "slug": "ken-jump-light-punch",
     "abbreviation": "J.LP",
     "abbeviation_ja": "ジャンプ弱P",
@@ -153,11 +179,13 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.lp"
+    "input": "jlp"
   },
   {
     "name": "Jumping Medium Punch",
     "name_ja": "ジャンプ中パン",
+    "alternativeNames": ["Jumping strong"],
+    "alternativeNames_ja": ["ジャンプ中パン", "ジャンプチュウパン"],
     "slug": "ken-jump-medium-punch",
     "abbreviation": "J.MP",
     "abbeviation_ja": "ジャンプ中P",
@@ -165,11 +193,13 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.mp"
+    "input": "jmp"
   },
   {
     "name": "Jumping Heavy Punch",
     "name_ja": "ジャンプ強パン",
+    "alternativeNames": ["Jumping roundhouse"],
+    "alternativeNames_ja": ["ジャンプ大パン", "ジャンプダイパン"],
     "slug": "ken-jump-heavy-punch",
     "abbreviation": "J.HP",
     "abbeviation_ja": "ジャンプ強P",
@@ -177,11 +207,13 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.hp"
+    "input": "jhp"
   },
   {
     "name": "Jumping Light Kick",
     "name_ja": "ジャンプ弱キック",
+    "alternativeNames": ["Jumping short"],
+    "alternativeNames_ja": ["ジャンプ小足", "ジャンプコアシ"],
     "slug": "ken-jump-light-kick",
     "abbreviation": "J.LK",
     "abbeviation_ja": "ジャンプ弱K",
@@ -189,11 +221,13 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.lk"
+    "input": "jlk"
   },
   {
     "name": "Jumping Medium Kick",
     "name_ja": "ジャンプ中キック",
+    "alternativeNames": ["Jumping forward"],
+    "alternativeNames_ja": ["ジャンプ中足", "ジャンプチュウアシ"],
     "slug": "ken-jump-medium-kick",
     "abbreviation": "J.MK",
     "abbeviation_ja": "ジャンプ中K",
@@ -201,11 +235,13 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.mk"
+    "input": "jmk"
   },
   {
     "name": "Jumping Heavy Kick",
     "name_ja": "ジャンプ強キック",
+    "alternativeNames": ["Jumping roundhouse"],
+    "alternativeNames_ja": ["ジャンプ大足", "ジャンプダイアシ"],
     "slug": "ken-jump-heavy-kick",
     "abbreviation": "J.HK",
     "abbeviation_ja": "ジャンプ強K",
@@ -213,7 +249,7 @@
     "type": "normal",
     "hitCount": 1,
     "guardLevel": "high",
-    "input": "j.hk"
+    "input": "jhk"
   },
   {
     "name": "Quick Dash",
@@ -455,7 +491,7 @@
     "characterId": 7,
     "type": "special",
     "hitCount": 1,
-    "input": "j.214mk"
+    "input": "j214mk"
   },
   {
     "name": "Dragonlash Kick (Light)",
