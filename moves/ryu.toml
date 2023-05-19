@@ -209,7 +209,6 @@ hit = 3
 block = -7
 
 # Crouching Light Kick
-# Crouching Light Kick
 [[move]]
 name = "Crouching Light Kick"
 name_ja = "しゃがみ弱キック"
@@ -380,7 +379,7 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 0
 type = "normal"
-damage = 500
+damage = 800
 hitCount = 1
 guardLevel = "high"
 input = "jhk"
@@ -401,7 +400,7 @@ guardLevel = "high"
 input = "6mp"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-20", "A-24", "R-42"]
+frameCount = ["S-19", "A-23", "R-42"]
 
 [move.frameAdvantage]
 hit = 2
@@ -614,7 +613,7 @@ hitCount = 2
 guardLevel = "high"
 input = "236[pp]"
 cancelsInto = ["super3", "super2"]
-frameCount = ["S-11", "PA-12", "R-40"]
+frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-40"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
@@ -635,7 +634,7 @@ guardLevel = "high"
 input = "236p"
 cancelsInto = ["super3"]
 chainsInto = []
-frameCount = ["S-11", "PA-12", "R-42"]
+frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-42"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 notes = ["Frame data is for point blank range."]
@@ -658,7 +657,7 @@ guardLevel = "high"
 input = "236[pp]"
 cancelsInto = ["super2", "super3"]
 chainsInto = []
-frameCount = ["S-11", "PA-12", "R-42"]
+frameCount = ["S-11", "PA-12", "R-16", "PA-17", "R-21", "PA-22", "R-38"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 notes = ["Frame data is for point blank range."]
@@ -788,13 +787,13 @@ alternativeNames = ["Hurricane Kick", "Tatsu"]
 characterId = 0
 type = "special"
 damage = 900
-hitCount = 2
+hitCount = 1
 guardLevel = "high"
 input = "214mk"
 frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
 
 [move.frameAdvantage]
-hit = 61
+hit = 23
 block = -12
 
 # Tatsumaki Senpukyaku (Heavy)
@@ -812,7 +811,7 @@ input = "214hk"
 frameCount = ["S-15", "A-17", "R-30", "A-32", "R-45", "A-47", "R-78"]
 
 [move.frameAdvantage]
-hit = 105
+hit = 20
 block = -12
 
 # Tatsumaki Senpukyaku (OD)
@@ -862,10 +861,6 @@ chainsInto = []
 frameCount = ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"]
 properties = ["canCrossUp", "knockdown"]
 
-[move.frameAdvantage]
-hit = 48
-block = -1
-
 # Aerial Tatsumaki Senpukyaku (OD)
 [[move]]
 name = "Aerial Tatsumaki Senpukyaku (OD)"
@@ -893,16 +888,12 @@ frameCount = [
   "A-28",
 ]
 
-[move.frameAdvantage]
-hit = 47
-block = -16
-
 # High Blade Kick (Light)
 [[move]]
 name = "High Blade Kick (Light)"
 name_ja = "上段足刀蹴り (弱)"
 slug = "high-blade-kick-light"
-alternativeNames = ["Donkey Kick"]
+alternativeNames = ["Light Donkey Kick"]
 characterId = 0
 type = "special"
 damage = 1_000
@@ -922,7 +913,7 @@ block = -11
 name = "High Blade Kick (Medium)"
 name_ja = "上段足刀蹴り (中)"
 slug = "high-blade-kick-medium"
-alternativeNames = ["Donkey Kick"]
+alternativeNames = ["Medium Donkey Kick"]
 characterId = 0
 type = "special"
 damage = 1_100
@@ -942,7 +933,7 @@ block = -8
 name = "High Blade Kick (Heavy)"
 name_ja = "上段足刀蹴り (強)"
 slug = "high-blade-kick-heavy"
-alternativeNames = ["Donkey Kick"]
+alternativeNames = ["Heavy Donkey Kick"]
 characterId = 0
 type = "special"
 damage = 1_300
@@ -974,7 +965,7 @@ chainsInto = []
 frameCount = ["S-18", "A-23", "R-55"]
 
 [move.frameAdvantage]
-hit = 45
+hit = 64
 block = -18
 
 # Hashogeki (Light)
@@ -1041,13 +1032,13 @@ name_ja = "波掌撃 (OD)"
 slug = "hashogeki-od"
 characterId = 0
 type = "special"
-damage = 900
-hitCount = 1
+damage = 800
+hitCount = 2
 guardLevel = "high"
 input = "214[pp]"
 cancelsInto = ["super2", "super3"]
 chainsInto = []
-frameCount = ["S-17", "A-23", "R-43"]
+frameCount = ["S-18", "PA-19", "S-24", "R-43"]
 
 [move.frameAdvantage]
 hit = 3
@@ -1119,6 +1110,7 @@ frameCount = [
   "PA-48",
   "R-55",
   "PA-56",
+  "R-87",
 ]
 
 [move.frameAdvantage]
@@ -1155,6 +1147,7 @@ frameCount = [
   "PA-50",
   "R-57",
   "PA-58",
+  "R-87",
 ]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
@@ -1202,7 +1195,7 @@ guardLevel = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-20", "A-26", "R-65"]
+frameCount = ["S-20", "A-26", "PA-27", "R-65"]
 
 [move.frameAdvantage]
 hit = 78
@@ -1240,13 +1233,17 @@ guardLevel = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-11", "A-17", "R-56"]
+frameCount = ["S-11", "A-13", "R-56"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
 [move.frameAdvantage]
 hit = 78
 block = -20
+
+[move.invincibilityFrames]
+start = 1
+end = 13
 
 # Denjin Shin Hashogeki (Level 1)
 [[move]]
@@ -1269,6 +1266,10 @@ parentSlug = "denjin-charge"
 hit = 78
 block = -20
 
+[move.invincibilityFrames]
+start = 1
+end = 9
+
 # Denjin Shin Hashogeki (Level 2)
 [[move]]
 name = "Denjin Shin Hashogeki (Level 2)"
@@ -1290,6 +1291,10 @@ parentSlug = "denjin-charge"
 hit = 78
 block = -20
 
+[move.invincibilityFrames]
+start = 1
+end = 9
+
 # Shin Shoryuken
 [[move]]
 name = "Shin Shoryuken"
@@ -1303,7 +1308,7 @@ guardLevel = "high"
 input = "236236k"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-4", "A-16", "R-48"]
+frameCount = ["S-4", "A-16", "R-38"]
 
 [move.frameAdvantage]
 hit = 8
@@ -1326,7 +1331,7 @@ guardLevel = "high"
 input = "236236k"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-4", "A-16", "R-48"]
+frameCount = ["S-4", "A-16", "R-50"]
 
 [move.frameAdvantage]
 hit = 8
@@ -1350,7 +1355,7 @@ hitCount = 1
 input = "[lplk]"
 cancelsInto = []
 chainsInto = []
-frameCount = ["S-3", "A-6", "R-29"]
+frameCount = ["S-4", "A-7", "R-30"]
 
 [move.frameAdvantage]
 hit = 18
