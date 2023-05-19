@@ -1,0 +1,689 @@
+# Standing Light Punch
+[[move]]
+name = "Standing Light Punch"
+name_ja = "立ち弱パン"
+alternativeNames = [ "Jab" ]
+alternativeNames_ja = [ "小パン", "コパン" ]
+slug = "jamie-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5lp"
+notes = [ ]
+notes_ja = [ ]
+
+# Standing Medium Punch
+[[move]]
+name = "Standing Medium Punch"
+name_ja = "立ち中パン"
+alternativeNames = [ "Strong" ]
+alternativeNames_ja = [ "中パン" ]
+slug = "jamie-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5mp"
+
+# Standing Heavy Punch
+[[move]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強パン"
+alternativeNames = [ "Fierce" ]
+alternativeNames_ja = [ "大パン" ]
+slug = "jamie-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5hp"
+
+# Standing Light Kick
+[[move]]
+name = "Standing Light Kick"
+name_ja = "立ち弱キック"
+alternativeNames = [ "Short" ]
+alternativeNames_ja = [ "小足", "コアシ" ]
+slug = "jamie-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5lk"
+
+# Standing Medium Kick
+[[move]]
+name = "Standing Medium Kick"
+name_ja = "立ち中キック"
+alternativeNames = [ "Forward" ]
+alternativeNames_ja = [ "中足", "中アシ" ]
+slug = "jamie-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5mk"
+
+# Standing Heavy Kick
+[[move]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強キック"
+alternativeNames = [ "Roundhouse" ]
+alternativeNames_ja = [ "大足", "大アシ" ]
+slug = "jamie-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5hk"
+
+# Crouching Light Punch
+[[move]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ小パン", "しゃがみコパン" ]
+slug = "jamie-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2lp"
+
+# Crouching Medium Punch
+[[move]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ中パン" ]
+slug = "jamie-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2mp"
+
+# Crouching Heavy Punch
+[[move]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強パン"
+alternativeNames = [ "Crouching strong" ]
+alternativeNames_ja = [ "しゃがみ大パン" ]
+slug = "jamie-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2hp"
+
+# Crouching Light Kick
+[[move]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱キック"
+alternativeNames = [ "Crouching short" ]
+alternativeNames_ja = [ "しゃがみ小足", "しゃがみコアシ" ]
+slug = "jamie-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2lk"
+
+# Crouch Medium Kick
+[[move]]
+name = "Crouch Medium Kick"
+name_ja = "しゃがみ中キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ中足", "しゃがみ中アシ" ]
+slug = "jamie-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2mk"
+
+# Crouching Heavy Kick
+[[move]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ大足", "しゃがみ大アシ" ]
+slug = "jamie-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2hk"
+
+# Jumping Light Punch
+[[move]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱パン"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "ジャンプ小パン", "ジャンプコパン" ]
+slug = "jamie-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlp"
+
+# Jumping Medium Punch
+[[move]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中パン"
+alternativeNames = [ "Jumping strong" ]
+alternativeNames_ja = [ "ジャンプ中パン" ]
+slug = "jamie-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmp"
+
+# Jumping Heavy Punch
+[[move]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強パン"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大パン" ]
+slug = "jamie-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhp"
+
+# Jumping Light Kick
+[[move]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱キック"
+alternativeNames = [ "Jumping short" ]
+alternativeNames_ja = [ "ジャンプ小足", "ジャンプコアシ" ]
+slug = "jamie-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlk"
+
+# Jumping Medium Kick
+[[move]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中キック"
+alternativeNames = [ "Jumping forward" ]
+alternativeNames_ja = [ "ジャンプ中足", "ジャンプ中アシ" ]
+slug = "jamie-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmk"
+
+# Jumping Heavy Kick
+[[move]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強キック"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大足", "ジャンプ大アシ" ]
+slug = "jamie-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 2
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhk"
+
+# Tensei Kick
+[[move]]
+name = "Tensei Kick"
+name_ja = "天晴脚"
+slug = "tensei-kick"
+characterId = 2
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "[5kk]"
+
+# Phantom Sway
+[[move]]
+name = "Phantom Sway"
+name_ja = "幻酔舞"
+slug = "phantom-sway"
+characterId = 2
+type = "commandNormal"
+hitCount = 3
+guardLevel = "high"
+input = "4hk>hk>p"
+
+# Falling Star Kick
+[[move]]
+name = "Falling Star Kick"
+name_ja = "落星脚"
+slug = "falling-star-kick"
+characterId = 2
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6mk"
+
+# Hermit's Elbow
+[[move]]
+name = "Hermit's Elbow"
+name_ja = "仙姑肘"
+slug = "hermits-elbow"
+characterId = 2
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "4hp"
+
+# Sensei Kick
+[[move]]
+name = "Sensei Kick"
+name_ja = "旋影脚"
+slug = "sensei-kick"
+characterId = 2
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6hk"
+
+# Bitter Strikes
+[[move]]
+name = "Bitter Strikes"
+name_ja = "苦撃"
+slug = "bitter-strikes"
+characterId = 2
+type = "commandNormal"
+hitCount = 3
+guardLevel = "high"
+input = "5lp>5lk>5mp"
+notes = [ "Requires drink level 1." ]
+notes_ja = [ "酔いレベル1必要" ]
+
+# Full Moon Kick
+[[move]]
+name = "Full Moon Kick"
+name_ja = "円月脚"
+slug = "full-moon-kick"
+characterId = 2
+type = "commandNormal"
+hitCount = 3
+guardLevel = "high"
+input = "6mk>5mk>5p"
+notes = [ "Requires drink level 2." ]
+notes_ja = [ "酔いレベル2必要" ]
+
+# Intoxicated Assault
+[[move]]
+name = "Intoxicated Assault"
+name_ja = "酩酊襲"
+slug = "intoxicated-assault"
+characterId = 2
+type = "commandNormal"
+hitCount = 3
+guardLevel = "high"
+input = "4hp>5hp>5k"
+notes = [ "Requires drink level 3." ]
+notes_ja = [ "酔いレベル3必要" ]
+
+# Ransui Haze
+[[move]]
+name = "Ransui Haze"
+name_ja = "乱酔旋"
+slug = "ransui-haze"
+characterId = 2
+type = "commandNormal"
+hitCount = 3
+guardLevel = "high"
+input = "6hk>5hk>5p"
+notes = [ "Requires drink level 4." ]
+notes_ja = [ "酔いレベル4必要" ]
+
+# The Devil Inside
+[[move]]
+name = "The Devil Inside"
+name_ja = "魔身"
+slug = "the-devil-inside"
+characterId = 2
+type = "special"
+input = "22p"
+
+# Freeflow Strikes (Light)
+[[move]]
+name = "Freeflow Strikes (Light)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔拳 (弱)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-strikes-light"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236lp>6p>6p"
+
+# Freeflow Strikes (Medium)
+[[move]]
+name = "Freeflow Strikes (Medium)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔拳 (中)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-strikes-medium"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236mp>6p>6p"
+
+# Freeflow Strikes (Heavy)
+[[move]]
+name = "Freeflow Strikes (Heavy)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔拳 (強)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-strikes-heavy"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236hp>6p>6p"
+
+# Freeflow Strikes (OD)
+[[move]]
+name = "Freeflow Strikes (OD)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔拳 (OD)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-strikes-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236[pp]>6p>6p"
+
+# Freeflow Kicks (Light)
+[[move]]
+name = "Freeflow Kicks (Light)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔脚 (弱)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-kicks-light"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236lp>6k>6k"
+
+# Freeflow Kicks (Medium)
+[[move]]
+name = "Freeflow Kicks (Medium)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔脚 (中)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-kicks-medium"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236mp>6k>6k"
+
+# Freeflow Kicks (Heavy)
+[[move]]
+name = "Freeflow Kicks (Heavy)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔脚 (強)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-kicks-heavy"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236hp>6k>6k"
+
+# Freeflow Kicks (OD)
+[[move]]
+name = "Freeflow Kicks (OD)"
+alternateNames = [ "Rekkas" ]
+name_ja = "流酔脚 (OD)"
+alternateNames_ja = [ "烈火" ]
+slug = "freeflow-kicks-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236[pp]>6k>6k"
+
+# Swagger Step (Light)
+[[move]]
+name = "Swagger Step (Light)"
+name_ja = "酔疾歩 (弱)"
+slug = "swagger-step-light"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214lp"
+
+# Swagger Step (Medium)
+[[move]]
+name = "Swagger Step (Medium)"
+name_ja = "酔疾歩 (中)"
+slug = "swagger-step-medium"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214mp"
+
+# Swagger Step (Heavy)
+[[move]]
+name = "Swagger Step (Heavy)"
+name_ja = "酔疾歩 (強)"
+slug = "swagger-step-heavy"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214hp"
+
+# Swagger Step (OD)
+[[move]]
+name = "Swagger Step (OD)"
+name_ja = "酔疾歩 (OD)"
+slug = "swagger-step-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214[pp]"
+
+# Swagger Hermit Punch
+[[move]]
+name = "Swagger Hermit Punch"
+name_ja = "疾歩仙掌"
+slug = "swagger-hermit-punch"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214p>6p"
+parentSlug = "swagger-step"
+notes = [ "Requires drink level 4." ]
+notes_ja = [ "酔いレベル4必要" ]
+
+# Swagger Hermit Punch (OD)
+[[move]]
+name = "Swagger Hermit Punch (OD)"
+name_ja = "疾歩仙掌 (OD)"
+slug = "swagger-hermit-punch-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "214[pp]>6p"
+parentSlug = "swagger-step-od"
+notes = [ "Requires drink level 4." ]
+notes_ja = [ "酔いレベル4必要" ]
+
+# Arrow Kick (Light)
+[[move]]
+name = "Arrow Kick (Light)"
+name_ja = "張弓腿 (弱)"
+slug = "arrow-kick-light"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "623lk"
+
+# Arrow Kick (Medium)
+[[move]]
+name = "Arrow Kick (Medium)"
+name_ja = "張弓腿 (中)"
+slug = "arrow-kick-medium"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "623mk"
+
+# Arrow Kick (Heavy)
+[[move]]
+name = "Arrow Kick (Heavy)"
+name_ja = "張弓腿 (強)"
+slug = "arrow-kick-heavy"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "623hk"
+
+# Arrow Kick (OD)
+[[move]]
+name = "Arrow Kick (OD)"
+name_ja = "張弓腿 (OD)"
+slug = "arrow-kick-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "623[pp]"
+
+# Luminous Dive Kick
+[[move]]
+name = "Luminous Dive Kick"
+name_ja = "無影蹴"
+slug = "luminous-dive-kick"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "j214k"
+
+# Luminous Dive Kick (OD)
+[[move]]
+name = "Luminous Dive Kick (OD)"
+name_ja = "無影蹴 (OD)"
+slug = "luminous-dive-kick-od"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "j214[kk]"
+notes = [ "Requires drink level 1." ]
+notes_ja = [ "酔いレベル1必要" ]
+
+# Bakkai
+[[move]]
+name = "Bakkai"
+name_ja = "爆廻"
+slug = "bakkai"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "236k"
+notes = [ "Requires drink level 2." ]
+notes_ja = [ "酔いレベル2必要" ]
+
+# Tenshin
+[[move]]
+name = "Tenshin"
+name_ja = "点辰"
+slug = "tenshin"
+characterId = 2
+type = "special"
+guardLevel = "high"
+input = "63214k"
+notes = [ "Requires drink level 3." ]
+notes_ja = [ "酔いレベル3必要" ]
+
+# Breakin'
+[[move]]
+name = "Breakin'"
+name_ja = "戦麗禽"
+slug = "breakin"
+characterId = 2
+type = "super1"
+guardLevel = "high"
+input = "236236k"
+
+# The Devil's Song
+[[move]]
+name = "The Devil's Song"
+name_ja = "絶唱魔身"
+slug = "the-devils-song"
+characterId = 2
+type = "super"
+guardLevel = "high"
+input = "214214p"
+
+# Getsuga Saiho
+[[move]]
+name = "Getsuga Saiho"
+name_ja = "月牙叉炮"
+slug = "getsuga-saiho"
+characterId = 2
+type = "super"
+guardLevel = "high"
+input = "236236p"
+
+# Back Shaver
+[[move]]
+name = "Back Shaver"
+name_ja = "背剪手"
+slug = "back-shaver"
+alternativeNames = [ "Back Throw" ]
+alternativeNames_ja = [ "後ろ投げ" ]
+characterId = 2
+type = "throw"
+guardLevel = "high"
+input = "[4lplk]"
+
+# Wheel Punch
+[[move]]
+name = "Wheel Punch"
+name_ja = "車輪拳"
+slug = "wheel-punch"
+alternativeNames = [ "Forward Throw" ]
+alternativeNames_ja = [ "前投げ" ]
+characterId = 2
+type = "throw"
+guardLevel = "high"
+input = "[5lplk]"

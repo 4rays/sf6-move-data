@@ -1,0 +1,657 @@
+# Standing Light Punch
+[[move]]
+name = "Standing Light Punch"
+name_ja = "立ち弱パン"
+alternativeNames = [ "Jab" ]
+alternativeNames_ja = [ "小パン", "コパン" ]
+slug = "guile-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5lp"
+notes = [ ]
+notes_ja = [ ]
+
+# Standing Medium Punch
+[[move]]
+name = "Standing Medium Punch"
+name_ja = "立ち中パン"
+alternativeNames = [ "Strong" ]
+alternativeNames_ja = [ "中パン" ]
+slug = "guile-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5mp"
+
+# Standing Heavy Punch
+[[move]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強パン"
+alternativeNames = [ "Fierce" ]
+alternativeNames_ja = [ "大パン" ]
+slug = "guile-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5hp"
+
+# Standing Light Kick
+[[move]]
+name = "Standing Light Kick"
+name_ja = "立ち弱キック"
+alternativeNames = [ "Short" ]
+alternativeNames_ja = [ "小足", "コアシ" ]
+slug = "guile-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5lk"
+
+# Standing Medium Kick
+[[move]]
+name = "Standing Medium Kick"
+name_ja = "立ち中キック"
+alternativeNames = [ "Forward" ]
+alternativeNames_ja = [ "中足", "中アシ" ]
+slug = "guile-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5mk"
+
+# Standing Heavy Kick
+[[move]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強キック"
+alternativeNames = [ "Roundhouse" ]
+alternativeNames_ja = [ "大足", "大アシ" ]
+slug = "guile-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5hk"
+
+# Crouching Light Punch
+[[move]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ小パン", "しゃがみコパン" ]
+slug = "guile-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2lp"
+
+# Crouching Medium Punch
+[[move]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ中パン" ]
+slug = "guile-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2mp"
+
+# Crouching Heavy Punch
+[[move]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強パン"
+alternativeNames = [ "Crouching strong" ]
+alternativeNames_ja = [ "しゃがみ大パン" ]
+slug = "guile-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2hp"
+
+# Crouching Light Kick
+[[move]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱キック"
+alternativeNames = [ "Crouching short" ]
+alternativeNames_ja = [ "しゃがみ小足", "しゃがみコアシ" ]
+slug = "guile-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2lk"
+
+# Crouch Medium Kick
+[[move]]
+name = "Crouch Medium Kick"
+name_ja = "しゃがみ中キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ中足", "しゃがみ中アシ" ]
+slug = "guile-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2mk"
+
+# Crouching Heavy Kick
+[[move]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ大足", "しゃがみ大アシ" ]
+slug = "guile-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2hk"
+
+# Jumping Light Punch
+[[move]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱パン"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "ジャンプ小パン", "ジャンプコパン" ]
+slug = "guile-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlp"
+
+# Jumping Medium Punch
+[[move]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中パン"
+alternativeNames = [ "Jumping strong" ]
+alternativeNames_ja = [ "ジャンプ中パン" ]
+slug = "guile-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmp"
+
+# Jumping Heavy Punch
+[[move]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強パン"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大パン" ]
+slug = "guile-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhp"
+
+# Jumping Light Kick
+[[move]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱キック"
+alternativeNames = [ "Jumping short" ]
+alternativeNames_ja = [ "ジャンプ小足", "ジャンプコアシ" ]
+slug = "guile-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlk"
+
+# Jumping Medium Kick
+[[move]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中キック"
+alternativeNames = [ "Jumping forward" ]
+alternativeNames_ja = [ "ジャンプ中足", "ジャンプ中アシ" ]
+slug = "guile-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmk"
+
+# Jumping Heavy Kick
+[[move]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強キック"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大足", "ジャンプ大アシ" ]
+slug = "guile-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 4
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhk"
+
+# Full Bullet Magnum
+[[move]]
+name = "Full Bullet Magnum"
+name_ja = "フルブレットマグナム"
+slug = "full-bullet-magnum"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6mp"
+
+# Burning Straight
+[[move]]
+name = "Burning Straight"
+name_ja = "バーンストレート"
+slug = "burning-straight"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "4hp"
+
+# Spinning Back Knuckle
+[[move]]
+name = "Spinning Back Knuckle"
+name_ja = "スピニングバックナックル"
+slug = "spinning-back-knuckle"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6hp"
+
+# Knee Bazooka
+[[move]]
+name = "Knee Bazooka"
+name_ja = "ニーバズーカ"
+slug = "knee-bazooka"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "low"
+input = "4lk"
+
+# Rolling Sobat
+[[move]]
+name = "Rolling Sobat"
+name_ja = "ローリングソバット"
+slug = "rolling-sobat"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "low"
+input = "4mk|6mk"
+
+# Reverse Spin Kick
+[[move]]
+name = "Reverse Spin Kick"
+name_ja = "リバーススピンキック"
+slug = "reverse-spin-kick"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6hk"
+
+# Guile High Kick
+[[move]]
+name = "Guile High Kick"
+name_ja = "ガイルハイキック"
+slug = "guile-high-kick"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "3hk"
+
+# Recoil Cannon
+[[move]]
+name = "Recoil Cannon"
+name_ja = "リコイルキャノン"
+slug = "recoil-cannon"
+characterId = 4
+type = "targetCombo"
+hitCount = 1
+guardLevel = "high"
+input = "6hp>4hp"
+
+# Double Shot
+[[move]]
+name = "Double Shot"
+name_ja = "ダブルバレット"
+slug = "double-shot"
+characterId = 4
+type = "targetCombo"
+hitCount = 2
+guardLevel = "high"
+input = "2mp>2mp"
+
+# Drake Fang
+[[move]]
+name = "Drake Fang"
+name_ja = "ドレイクファング"
+slug = "drake-fang"
+characterId = 4
+type = "targetCombo"
+hitCount = 1
+guardLevel = "high"
+input = "2mk>6mp"
+
+# Phantom Cutter
+[[move]]
+name = "Phantom Cutter"
+name_ja = "ファントムカッター"
+slug = "phantom-cutter"
+characterId = 4
+type = "targetCombo"
+hitCount = 1
+guardLevel = "high"
+input = "2hk>3hk"
+
+# Dragon Suplex
+[[move]]
+name = "Dragon Suplex"
+name_ja = "ドラゴンスープレックス"
+alternativeNames = [ "Forward Throw" ]
+alternativeNames_ja = [ "前投げ" ]
+slug = "dragon-suplex"
+characterId = 4
+type = "throw"
+hitCount = 1
+guardLevel = "high"
+input = "[lplk]"
+
+# Judo Throw
+[[move]]
+name = "Judo Throw"
+name_ja = "ジュードースルー"
+alternativeNames = [ "Back Throw" ]
+alternativeNames_ja = [ "後ろ投げ" ]
+slug = "judo-throw"
+characterId = 4
+type = "throw"
+hitCount = 1
+guardLevel = "high"
+input = "[4lplk]"
+
+# Flying Mare
+[[move]]
+name = "Flying Mare"
+name_ja = "フライングメイヤー"
+alternativeNames = [ "Air Throw" ]
+alternativeNames_ja = [ "空中投げ" ]
+slug = "flying-mare"
+characterId = 4
+type = "throw"
+hitCount = 1
+guardLevel = "high"
+input = "j[lplk]"
+
+# Flying Buster Drop
+[[move]]
+name = "Flying Buster Drop"
+name_ja = "フレイングバスタードロップ"
+alternativeNames = [ "Air Throw" ]
+alternativeNames_ja = [ "空中投げ" ]
+slug = "flying-buster-drop"
+characterId = 4
+type = "throw"
+hitCount = 1
+guardLevel = "high"
+input = "j[4lplk]"
+
+# Sonic Boom (Light)
+[[move]]
+name = "Sonic Boom (Light)"
+name_ja = "ソニックブーム (弱)"
+slug = "sonic-boom-light"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[4]6lp"
+
+# Sonic Boom (Medium)
+[[move]]
+name = "Sonic Boom (Medium)"
+name_ja = "ソニックブーム (中)"
+slug = "sonic-boom-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[4]6mp"
+
+# Sonic Boom (Heavy)
+[[move]]
+name = "Sonic Boom (Heavy)"
+name_ja = "ソニックブーム (強)"
+slug = "sonic-boom-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[4]6hp"
+
+# Sonic Boom (OD)
+[[move]]
+name = "Sonic Boom (OD)"
+name_ja = "ソニックブーム (OD)"
+slug = "sonic-boom-od"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[4]6pp"
+
+# Somersault Kick (Light)
+[[move]]
+name = "Somersault Kick (Light)"
+name_ja = "サマーソルトキック (弱)"
+slug = "somersault-kick-light"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[2]8lk"
+
+# Somersault Kick (Medium)
+[[move]]
+name = "Somersault Kick (Medium)"
+name_ja = "サマーソルトキック (中)"
+slug = "somersault-kick-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[2]8mk"
+
+# Somersault Kick (Heavy)
+[[move]]
+name = "Somersault Kick (Heavy)"
+name_ja = "サマーソルトキック (強)"
+slug = "somersault-kick-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[2]8hk"
+
+# Somersault Kick (OD)
+[[move]]
+name = "Somersault Kick (OD)"
+name_ja = "サマーソルトキック (OD)"
+slug = "somersault-kick-od"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "[2]8kk"
+
+# Sonic Blade (Light)
+[[move]]
+name = "Sonic Blade (Light)"
+name_ja = "ソニックブレイド (弱)"
+slug = "sonic-blade-light"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214lp"
+
+# Sonic Blade (Medium)
+[[move]]
+name = "Sonic Blade (Medium)"
+name_ja = "ソニックブレイド (中)"
+slug = "sonic-blade-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214mp"
+
+# Sonic Blade (Heavy)
+[[move]]
+name = "Sonic Blade (Heavy)"
+name_ja = "ソニックブレイド (強)"
+slug = "sonic-blade-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214hp"
+
+# Sonic Blade (OD)
+[[move]]
+name = "Sonic Blade (OD)"
+name_ja = "ソニックブレイド (OD)"
+slug = "sonic-blade-od"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214pp"
+
+# Sonic Cross
+[[move]]
+name = "Sonic Cross"
+name_ja = "ソニッククロス"
+slug = "sonic-cross"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214p>6p"
+parentSlug = "sonic-blade"
+
+# Sonic Cross (OD)
+[[move]]
+name = "Sonic Cross (OD)"
+name_ja = "ソニッククロス (OD)"
+slug = "sonic-cross-od"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214pp>6p"
+parentSlug = "sonic-blade-od"
+
+# Sonic Hurricane
+[[move]]
+name = "Sonic Hurricane"
+name_ja = "ソニックハリケーン"
+slug = "sonic-hurricane"
+characterId = 4
+type = "super1"
+hitCount = 1
+guardLevel = "high"
+input = "[4]646p"
+
+# Solid Puncher
+[[move]]
+name = "Solid Puncher"
+name_ja = "ソリッドパンチャー"
+slug = "solid-puncher"
+characterId = 4
+type = "super2"
+hitCount = 1
+guardLevel = "high"
+input = "214214p"
+
+# Sonic Break
+[[move]]
+name = "Sonic Break"
+name_ja = "ソニックブレイク"
+slug = "sonic-break"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214214p>[pp]|[4]6p"
+parentSlug = "sonic-puncher"
+
+# Sonic Break (OD)
+[[move]]
+name = "Sonic Break (OD)"
+name_ja = "ソニックブレイク (OD)"
+slug = "sonic-break-od"
+characterId = 4
+type = "special"
+hitCount = 1
+guardLevel = "high"
+input = "214214pp>[pp]|[4]6pp"
+parentSlug = "sonic-puncher"
+
+# Crossfire Somersault
+[[move]]
+name = "Crossfire Somersault"
+name_ja = "クロスファイアサマーソルト"
+slug = "crossfire-somersault"
+characterId = 4
+type = "super3"
+hitCount = 1
+guardLevel = "high"
+input = "[4]646k"

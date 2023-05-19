@@ -1,0 +1,725 @@
+# Standing Light Punch
+[[move]]
+name = "Standing Light Punch"
+name_ja = "立ち弱パン"
+alternativeNames = [ "Jab" ]
+alternativeNames_ja = [ "小パン", "コパン" ]
+slug = "chunli-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5lp"
+notes = [ ]
+notes_ja = [ ]
+
+# Standing Medium Punch
+[[move]]
+name = "Standing Medium Punch"
+name_ja = "立ち中パン"
+alternativeNames = [ "Strong" ]
+alternativeNames_ja = [ "中パン" ]
+slug = "chunli-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5mp"
+
+# Standing Heavy Punch
+[[move]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強パン"
+alternativeNames = [ "Fierce" ]
+alternativeNames_ja = [ "大パン" ]
+slug = "chunli-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "5hp"
+
+# Standing Light Kick
+[[move]]
+name = "Standing Light Kick"
+name_ja = "立ち弱キック"
+alternativeNames = [ "Short" ]
+alternativeNames_ja = [ "小足", "コアシ" ]
+slug = "chunli-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5lk"
+
+# Standing Medium Kick
+[[move]]
+name = "Standing Medium Kick"
+name_ja = "立ち中キック"
+alternativeNames = [ "Forward" ]
+alternativeNames_ja = [ "中足", "中アシ" ]
+slug = "chunli-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5mk"
+
+# Standing Heavy Kick
+[[move]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強キック"
+alternativeNames = [ "Roundhouse" ]
+alternativeNames_ja = [ "大足", "大アシ" ]
+slug = "chunli-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "5hk"
+
+# Crouching Light Punch
+[[move]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ小パン", "しゃがみコパン" ]
+slug = "chunli-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2lp"
+
+# Crouching Medium Punch
+[[move]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中パン"
+alternativeNames = [ "Crouching jab" ]
+alternativeNames_ja = [ "しゃがみ中パン" ]
+slug = "chunli-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2mp"
+
+# Crouching Heavy Punch
+[[move]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強パン"
+alternativeNames = [ "Crouching strong" ]
+alternativeNames_ja = [ "しゃがみ大パン" ]
+slug = "chunli-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "2hp"
+
+# Crouching Light Kick
+[[move]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱キック"
+alternativeNames = [ "Crouching short" ]
+alternativeNames_ja = [ "しゃがみ小足", "しゃがみコアシ" ]
+slug = "chunli-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2lk"
+
+# Crouch Medium Kick
+[[move]]
+name = "Crouch Medium Kick"
+name_ja = "しゃがみ中キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ中足", "しゃがみ中アシ" ]
+slug = "chunli-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2mk"
+
+# Crouching Heavy Kick
+[[move]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強キック"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "しゃがみ大足", "しゃがみ大アシ" ]
+slug = "chunli-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "low"
+input = "2hk"
+
+# Jumping Light Punch
+[[move]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱パン"
+alternativeNames = [ "Crouching forward" ]
+alternativeNames_ja = [ "ジャンプ小パン", "ジャンプコパン" ]
+slug = "chunli-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlp"
+
+# Jumping Medium Punch
+[[move]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中パン"
+alternativeNames = [ "Jumping strong" ]
+alternativeNames_ja = [ "ジャンプ中パン" ]
+slug = "chunli-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmp"
+
+# Jumping Heavy Punch
+[[move]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強パン"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大パン" ]
+slug = "chunli-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhp"
+
+# Jumping Light Kick
+[[move]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱キック"
+alternativeNames = [ "Jumping short" ]
+alternativeNames_ja = [ "ジャンプ小足", "ジャンプコアシ" ]
+slug = "chunli-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jlk"
+
+# Jumping Medium Kick
+[[move]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中キック"
+alternativeNames = [ "Jumping forward" ]
+alternativeNames_ja = [ "ジャンプ中足", "ジャンプ中アシ" ]
+slug = "chunli-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jmk"
+
+# Jumping Heavy Kick
+[[move]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強キック"
+alternativeNames = [ "Jumping roundhouse" ]
+alternativeNames_ja = [ "ジャンプ大足", "ジャンプ大アシ" ]
+slug = "chunli-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 3
+type = "normal"
+hitCount = 1
+guardLevel = "high"
+input = "jhk"
+
+# Swift Thrust
+[[move]]
+name = "Swift Thrust"
+name_ja = "追突拳"
+slug = "swift-thrust"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6mp|4mp"
+
+# Hakkei
+[[move]]
+name = "Hakkei"
+name_ja = "発勁"
+slug = "hakkei"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "high"
+input = "6hp"
+
+# Water Lotus Fist
+[[move]]
+name = "Water Lotus Fist"
+name_ja = "水蓮掌"
+slug = "water-lotus-fist"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "mid"
+input = "3hp"
+
+# Yokusen Kick
+[[move]]
+name = "Yokusen Kick"
+name_ja = "翼旋脚"
+slug = "yokusen-kick"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "mid"
+input = "6hk"
+
+# Falling Crane
+[[move]]
+name = "Falling Crane"
+name_ja = "鶴脚落"
+slug = "falling-crane"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "mid"
+input = "3hk"
+
+# Yoso Kick
+[[move]]
+name = "Yoso Kick"
+name_ja = "鷹爪脚"
+slug = "yoso-kick"
+characterId = 3
+type = "commandNormal"
+hitCount = 1
+guardLevel = "mid"
+input = "j2mk"
+
+# Wall Jump
+[[move]]
+name = "Wall Jump"
+name_ja = "三角飛び"
+slug = "wall-jump"
+characterId = 3
+type = "commandNormal"
+hitCount = 0
+guardLevel = "mid"
+input = "j7|8|9"
+
+# Soaring Eagle Punches
+[[move]]
+name = "Soaring Eagle Punches"
+name_ja = "鷹嘴連拳"
+slug = "soaring-eagle-punches"
+characterId = 3
+type = "commandNormal"
+hitCount = 2
+guardLevel = "mid"
+input = "j2hp|j2hp"
+
+# Kikoken (Light)
+[[move]]
+name = "Kikoken (Light)"
+name_ja = "気功拳 (弱)"
+slug = "kikoken-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236lp"
+
+# Kikoken (Medium)
+[[move]]
+name = "Kikoken (Medium)"
+name_ja = "気功拳 (中)"
+slug = "kikoken-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236mp"
+
+# Kikoken (Heavy)
+[[move]]
+name = "Kikoken (Heavy)"
+name_ja = "気功拳 (強)"
+slug = "kikoken-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236hp"
+
+# Kikoken (OD)
+[[move]]
+name = "Kikoken (OD)"
+name_ja = "気功拳 (OD)"
+slug = "kikoken-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236[pp]"
+
+# Serenity Stream
+[[move]]
+name = "Serenity Stream"
+name_ja = "行雲流水"
+slug = "serenity-stream"
+characterId = 3
+type = "special"
+input = "214p"
+
+# Orchid Palm
+[[move]]
+name = "Orchid Palm"
+name_ja = "蘭華"
+slug = "orchid-palm"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>lp"
+parentSlug = "serenity-stream"
+
+# Snake Strike
+[[move]]
+name = "Snake Strike"
+name_ja = "這蛇突"
+slug = "snake-strike"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>mp"
+parentSlug = "serenity-stream"
+
+# Lotus Fist
+[[move]]
+name = "Lotus Fist"
+name_ja = "蓮掌"
+slug = "lotus-fist"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>hp"
+parentSlug = "serenity-stream"
+
+# Forward Strike
+[[move]]
+name = "Forward Strike"
+name_ja = "前突"
+slug = "forward-strike"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>lk"
+parentSlug = "serenity-stream"
+
+# Senpu Kick
+[[move]]
+name = "Senpu Kick"
+name_ja = "仙風"
+slug = "senpu-kick"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>mk"
+parentSlug = "serenity-stream"
+
+# Tenku Kick
+[[move]]
+name = "Tenku Kick"
+name_ja = "天空脚"
+slug = "tenku-kick"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214p>hk"
+parentSlug = "serenity-stream"
+
+# Hundred Lightning Kicks (Light)
+[[move]]
+name = "Hundred Lightning Kicks (Light)"
+name_ja = "百裂脚 (弱)"
+slug = "hundred-lightning-kicks-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236lk"
+
+# Hundred Lightning Kicks (Medium)
+[[move]]
+name = "Hundred Lightning Kicks (Medium)"
+name_ja = "百裂脚 (中)"
+slug = "hundred-lightning-kicks-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236mk"
+
+# Hundred Lightning Kicks (Heavy)
+[[move]]
+name = "Hundred Lightning Kicks (Heavy)"
+name_ja = "百裂脚 (強)"
+slug = "hundred-lightning-kicks-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236hk"
+
+# Hundred Lightning Kicks (OD)
+[[move]]
+name = "Hundred Lightning Kicks (OD)"
+name_ja = "百裂脚 (OD)"
+slug = "hundred-lightning-kicks-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236[kk]"
+
+# Lightning Kicks Barrage
+[[move]]
+name = "Lightning Kicks Barrage"
+name_ja = "百裂連脚"
+slug = "lightning-kicks-barrage"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "236[kk]>[kk]"
+parentSlug = "hundred-lightning-kicks-od"
+
+# Aerial Hundred Lightning Kicks (Light)
+[[move]]
+name = "Aerial Hundred Lightning Kicks (Light)"
+name_ja = "空中百裂脚 (弱)"
+slug = "aerial-hundred-lightning-kicks-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "j236lk"
+
+# Aerial Hundred Lightning Kicks (Medium)
+[[move]]
+name = "Aerial Hundred Lightning Kicks (Medium)"
+name_ja = "空中百裂脚 (中)"
+slug = "aerial-hundred-lightning-kicks-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "j236mk"
+
+# Aerial Hundred Lightning Kicks (Heavy)
+[[move]]
+name = "Aerial Hundred Lightning Kicks (Heavy)"
+name_ja = "空中百裂脚 (強)"
+slug = "aerial-hundred-lightning-kicks-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "j236hk"
+
+# Aerial Hundred Lightning Kicks (OD)
+[[move]]
+name = "Aerial Hundred Lightning Kicks (OD)"
+name_ja = "空中百裂脚 (OD)"
+slug = "aerial-hundred-lightning-kicks-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "j236[kk]"
+
+# Spinning Bird Kick (Light)
+[[move]]
+name = "Spinning Bird Kick (Light)"
+name_ja = "スピニングバードキック (弱)"
+slug = "spinning-bird-kick-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "(2)8lk"
+
+# Spinning Bird Kick (Medium)
+[[move]]
+name = "Spinning Bird Kick (Medium)"
+name_ja = "スピニングバードキック (中)"
+slug = "spinning-bird-kick-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "(2)8mk"
+
+# Spinning Bird Kick (Heavy)
+[[move]]
+name = "Spinning Bird Kick (Heavy)"
+name_ja = "スピニングバードキック (強)"
+slug = "spinning-bird-kick-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "(2)8hk"
+
+# Spinning Bird Kick (OD)
+[[move]]
+name = "Spinning Bird Kick (OD)"
+name_ja = "スピニングバードキック (OD)"
+slug = "spinning-bird-kick-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "(2)8[kk]"
+
+# Hazanshu (Light)
+[[move]]
+name = "Hazanshu (Light)"
+name_ja = "覇山蹴 (弱)"
+slug = "hazanshu-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214lk"
+
+# Hazanshu (Medium)
+[[move]]
+name = "Hazanshu (Medium)"
+name_ja = "覇山蹴 (中)"
+slug = "hazanshu-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214mk"
+
+# Hazanshu (Heavy)
+[[move]]
+name = "Hazanshu (Heavy)"
+name_ja = "覇山蹴 (強)"
+slug = "hazanshu-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214hk"
+
+# Hazanshu (OD)
+[[move]]
+name = "Hazanshu (OD)"
+name_ja = "覇山蹴 (OD)"
+slug = "hazanshu-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "214[kk]"
+
+# Tensho Kicks (Light)
+[[move]]
+name = "Tensho Kicks (Light)"
+name_ja = "天翔脚 (弱)"
+slug = "tensho-kicks-light"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "22lk"
+
+# Tensho Kicks (Medium)
+[[move]]
+name = "Tensho Kicks (Medium)"
+name_ja = "天翔脚 (中)"
+slug = "tensho-kicks-medium"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "22mk"
+
+# Tensho Kicks (Heavy)
+[[move]]
+name = "Tensho Kicks (Heavy)"
+name_ja = "天翔脚 (強)"
+slug = "tensho-kicks-heavy"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "22hk"
+
+# Tensho Kicks (OD)
+[[move]]
+name = "Tensho Kicks (OD)"
+name_ja = "天翔脚 (OD)"
+slug = "tensho-kicks-od"
+characterId = 3
+type = "special"
+hitCount = 1
+input = "22[kk]"
+
+# Kikosho
+[[move]]
+name = "Kikosho"
+name_ja = "気功掌"
+slug = "kikosho"
+characterId = 3
+type = "super1"
+hitCount = 1
+input = "236236p"
+
+# Areial Kikosho
+[[move]]
+name = "Areial Kikosho"
+name_ja = "空中気功掌"
+slug = "areial-kikosho"
+characterId = 3
+type = "super1"
+hitCount = 1
+input = "j236236p"
+
+# Hoyokusen
+[[move]]
+name = "Hoyokusen"
+name_ja = "鳳翼扇"
+slug = "hoyokusen"
+characterId = 3
+type = "super2"
+hitCount = 1
+input = "214214p"
+
+# Soten Ranka
+[[move]]
+name = "Soten Ranka"
+name_ja = "蒼天乱華"
+slug = "soten-ranka"
+characterId = 3
+type = "super3"
+hitCount = 1
+input = "214214k"
