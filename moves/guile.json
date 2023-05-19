@@ -252,5 +252,357 @@
     "hitCount": 1,
     "guardLevel": "high",
     "input": "jhk"
+  },
+  {
+    "name": "Full Bullet Magnum",
+    "name_ja": "フルブレットマグナム",
+    "slug": "full-bullet-magnum",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6mp"
+  },
+  {
+    "name": "Burning Straight",
+    "name_ja": "バーンストレート",
+    "slug": "burning-straight",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "4hp"
+  },
+  {
+    "name": "Spinning Back Knuckle",
+    "name_ja": "スピニングバックナックル",
+    "slug": "spinning-back-knuckle",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6hp"
+  },
+  {
+    "name": "Knee Bazooka",
+    "name_ja": "ニーバズーカ",
+    "slug": "knee-bazooka",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "4lk"
+  },
+  {
+    "name": "Rolling Sobat",
+    "name_ja": "ローリングソバット",
+    "slug": "rolling-sobat",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "low",
+    "input": "4mk|6mk"
+  },
+  {
+    "name": "Reverse Spin Kick",
+    "name_ja": "リバーススピンキック",
+    "slug": "reverse-spin-kick",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6hk"
+  },
+  {
+    "name": "Guile High Kick",
+    "name_ja": "ガイルハイキック",
+    "slug": "guile-high-kick",
+    "characterId": 4,
+    "type": "commandNormal",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "3hk"
+  },
+  {
+    "name": "Recoil Cannon",
+    "name_ja": "リコイルキャノン",
+    "slug": "recoil-cannon",
+    "characterId": 4,
+    "type": "targetCombo",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "6hp>4hp"
+  },
+  {
+    "name": "Double Shot",
+    "name_ja": "ダブルバレット",
+    "slug": "double-shot",
+    "characterId": 4,
+    "type": "targetCombo",
+    "hitCount": 2,
+    "guardLevel": "high",
+    "input": "2mp>2mp"
+  },
+  {
+    "name": "Drake Fang",
+    "name_ja": "ドレイクファング",
+    "slug": "drake-fang",
+    "characterId": 4,
+    "type": "targetCombo",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "2mk>6mp"
+  },
+  {
+    "name": "Phantom Cutter",
+    "name_ja": "ファントムカッター",
+    "slug": "phantom-cutter",
+    "characterId": 4,
+    "type": "targetCombo",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "2hk>3hk"
+  },
+  {
+    "name": "Dragon Suplex",
+    "name_ja": "ドラゴンスープレックス",
+    "alternativeNames": ["Forward Throw"],
+    "alternativeNames_ja": ["前投げ"],
+    "slug": "dragon-suplex",
+    "characterId": 4,
+    "type": "throw",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[lplk]"
+  },
+  {
+    "name": "Judo Throw",
+    "name_ja": "ジュードースルー",
+    "alternativeNames": ["Back Throw"],
+    "alternativeNames_ja": ["後ろ投げ"],
+    "slug": "judo-throw",
+    "characterId": 4,
+    "type": "throw",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4lplk]"
+  },
+  {
+    "name": "Flying Mare",
+    "name_ja": "フライングメイヤー",
+    "alternativeNames": ["Air Throw"],
+    "alternativeNames_ja": ["空中投げ"],
+    "slug": "flying-mare",
+    "characterId": 4,
+    "type": "throw",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j[lplk]"
+  },
+  {
+    "name": "Flying Buster Drop",
+    "name_ja": "フレイングバスタードロップ",
+    "alternativeNames": ["Air Throw"],
+    "alternativeNames_ja": ["空中投げ"],
+    "slug": "flying-buster-drop",
+    "characterId": 4,
+    "type": "throw",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "j[4lplk]"
+  },
+  {
+    "name": "Sonic Boom (Light)",
+    "name_ja": "ソニックブーム (弱)",
+    "slug": "sonic-boom-light",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]6lp"
+  },
+  {
+    "name": "Sonic Boom (Medium)",
+    "name_ja": "ソニックブーム (中)",
+    "slug": "sonic-boom-medium",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]6mp"
+  },
+  {
+    "name": "Sonic Boom (Heavy)",
+    "name_ja": "ソニックブーム (強)",
+    "slug": "sonic-boom-heavy",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]6hp"
+  },
+  {
+    "name": "Sonic Boom (OD)",
+    "name_ja": "ソニックブーム (OD)",
+    "slug": "sonic-boom-od",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]6pp"
+  },
+  {
+    "name": "Somersault Kick (Light)",
+    "name_ja": "サマーソルトキック (弱)",
+    "slug": "somersault-kick-light",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[2]8lk"
+  },
+  {
+    "name": "Somersault Kick (Medium)",
+    "name_ja": "サマーソルトキック (中)",
+    "slug": "somersault-kick-medium",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[2]8mk"
+  },
+  {
+    "name": "Somersault Kick (Heavy)",
+    "name_ja": "サマーソルトキック (強)",
+    "slug": "somersault-kick-heavy",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[2]8hk"
+  },
+  {
+    "name": "Somersault Kick (OD)",
+    "name_ja": "サマーソルトキック (OD)",
+    "slug": "somersault-kick-od",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[2]8kk"
+  },
+  {
+    "name": "Sonic Blade (Light)",
+    "name_ja": "ソニックブレイド (弱)",
+    "slug": "sonic-blade-light",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214lp"
+  },
+  {
+    "name": "Sonic Blade (Medium)",
+    "name_ja": "ソニックブレイド (中)",
+    "slug": "sonic-blade-medium",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214mp"
+  },
+  {
+    "name": "Sonic Blade (Heavy)",
+    "name_ja": "ソニックブレイド (強)",
+    "slug": "sonic-blade-heavy",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214hp"
+  },
+  {
+    "name": "Sonic Blade (OD)",
+    "name_ja": "ソニックブレイド (OD)",
+    "slug": "sonic-blade-od",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214pp"
+  },
+  {
+    "name": "Sonic Cross",
+    "name_ja": "ソニッククロス",
+    "slug": "sonic-cross",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214p>6p",
+    "parentSlug": "sonic-blade"
+  },
+  {
+    "name": "Sonic Cross (OD)",
+    "name_ja": "ソニッククロス (OD)",
+    "slug": "sonic-cross-od",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214pp>6p",
+    "parentSlug": "sonic-blade-od"
+  },
+  {
+    "name": "Sonic Hurricane",
+    "name_ja": "ソニックハリケーン",
+    "slug": "sonic-hurricane",
+    "characterId": 4,
+    "type": "super1",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]646p"
+  },
+  {
+    "name": "Solid Puncher",
+    "name_ja": "ソリッドパンチャー",
+    "slug": "solid-puncher",
+    "characterId": 4,
+    "type": "super2",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214214p"
+  },
+  {
+    "name": "Sonic Break",
+    "name_ja": "ソニックブレイク",
+    "slug": "sonic-break",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214214p>[pp]|[4]6p",
+    "parentSlug": "sonic-puncher"
+  },
+  {
+    "name": "Sonic Break (OD)",
+    "name_ja": "ソニックブレイク (OD)",
+    "slug": "sonic-break-od",
+    "characterId": 4,
+    "type": "special",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "214214pp>[pp]|[4]6pp",
+    "parentSlug": "sonic-puncher"
+  },
+  {
+    "name": "Crossfire Somersault",
+    "name_ja": "クロスファイアサマーソルト",
+    "slug": "crossfire-somersault",
+    "characterId": 4,
+    "type": "super3",
+    "hitCount": 1,
+    "guardLevel": "high",
+    "input": "[4]646k"
   }
 ]
