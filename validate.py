@@ -1,23 +1,88 @@
 #!/usr/bin/env python3
 
-import json
+import toml
 import os
-import jsonschema
 
 
-def validate_json(json_data):
-    """Validate JSON data against schema"""
-    # Load schema
-    schema_path = os.path.join(os.path.dirname(__file__), "schema.json")
-    with open(schema_path) as schema_file:
-        schema = json.load(schema_file)
+def validate(move, file_name):
+    """Validate TOML data against schema"""
+    match move:
+        case {
+            "name": str(),
+            "name_ja": str(),
+            "slug": str(),
+            "characterId": int(),
+            "type": str(),
+        }:
+            pass
+        case _:
+            print("❗ Validation error: {} on {}".format(move["name"], file_name))
+            return False
 
-    # Validate json data
-    try:
-        jsonschema.validate(json_data, schema)
-    except jsonschema.exceptions.ValidationError as err:
-        print("❗ Validation error: {} on instance {}".format(err.message, err.instance))
+    if move["type"] not in [
+        "normal",
+        "commandNormal",
+        "targetCombo",
+        "special",
+        "super1",
+        "super2",
+        "super3",
+        "throw",
+    ]:
+        print(
+            "❗ Validation error: Move type for {} should be one of normal, commandNormal, targetCombo, special, super1, super2, super3, or throw.".format(
+                move["name"]
+            )
+        )
         return False
+
+    if abbreviation := move.get("abbreviation"):
+        match abbreviation:
+            case str():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: abbreviation on {} should be a string.".format(
+                        move["name"]
+                    )
+                )
+                return False
+
+    if japanese_abbreviation := move.get("abbreviation_ja"):
+        match japanese_abbreviation:
+            case str():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: abbreviation_ja on {} should be a string.".format(
+                        move["name"]
+                    )
+                )
+                return False
+
+    if guard_level := move.get("guardLevel"):
+        if guard_level not in ["high", "low"]:
+            print(
+                "❗ Validation error: guardLevel on {} should be one of high or low.".format(
+                    move["name"]
+                )
+            )
+            return False
+
+    if frame_count := move.get("frameCount"):
+        match frame_count:
+            case list():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: frameCount on {} should be a list.".format(
+                        move["name"]
+                    )
+                )
+                return False
+    else:
+        print("🚧 Validation warning: frameCount missing on {}.".format(move["name"]))
+
     return True
 
 
@@ -25,11 +90,12 @@ def validate_json(json_data):
 moves_path = os.path.join(os.path.dirname(__file__), "moves")
 
 for filename in os.listdir(moves_path):
-    if filename.endswith(".json"):
+    if filename.endswith(".toml"):
         with open(os.path.join(moves_path, filename)) as move_file:
-            move = json.load(move_file)
-            print("Validating {}...".format(filename))
-            if not validate_json(move):
-                exit(1)
-            else:
-                print("✅ Validated {}".format(filename))
+            moves = toml.load(move_file)
+            for move in moves["moves"]:
+                print("Validating {}...".format(filename))
+                if not validate(move, filename):
+                    exit(1)
+                else:
+                    print("✅ {} validated!".format(filename))

@@ -12,21 +12,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ryu/ryu.png"
 
-  [[character.tags]]
-  name = "shoto"
-  name_ja = "道着"
+[[character.tags]]
+name = "shoto"
+name_ja = "道着"
 
-  [[character.tags]]
-  name = "balanced"
-  name_ja = "オールラウンダー"
+[[character.tags]]
+name = "balanced"
+name_ja = "オールラウンダー"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
 # Luke
 [[character]]
@@ -42,21 +42,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/luke/luke.png"
 
-  [[character.tags]]
-  name = "shoto"
-  name_ja = "道着"
+[[character.tags]]
+name = "shoto"
+name_ja = "道着"
 
-  [[character.tags]]
-  name = "balanced"
-  name_ja = "オールラウンダー"
+[[character.tags]]
+name = "balanced"
+name_ja = "オールラウンダー"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
 # Jamie
 [[character]]
@@ -72,29 +72,29 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/jamie/jamie.png"
 
-  [[character.tags]]
-  name = "rekka"
-  name_ja = "烈火"
+[[character.tags]]
+name = "rekka"
+name_ja = "烈火"
 
-  [[character.tags]]
-  name = "dance"
-  name_ja = "ダンス"
+[[character.tags]]
+name = "dance"
+name_ja = "ダンス"
 
-  [[character.tags]]
-  name = "drunken-fist"
-  name_ja = "酔拳"
+[[character.tags]]
+name = "drunken-fist"
+name_ja = "酔拳"
 
-  [[character.tags]]
-  name = "install"
-  name_ja = "時間制限技"
+[[character.tags]]
+name = "install"
+name_ja = "時間制限技"
 
-  [[character.tags]]
-  name = "power-up"
-  name_ja = "パワーアップ"
+[[character.tags]]
+name = "power-up"
+name_ja = "パワーアップ"
 
 # Chun-Li
 [[character]]
@@ -110,25 +110,25 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/chunli/chunli.png"
 
-  [[character.tags]]
-  name = "stance"
-  name_ja = "構え"
+[[character.tags]]
+name = "stance"
+name_ja = "構え"
 
-  [[character.tags]]
-  name = "air-super"
-  name_ja = "空中必殺技"
+[[character.tags]]
+name = "air-super"
+name_ja = "空中必殺技"
 
-  [[character.tags]]
-  name = "neutral"
-  name_ja = "立ち回り"
+[[character.tags]]
+name = "neutral"
+name_ja = "立ち回り"
 
-  [[character.tags]]
-  name = "footsies"
-  name_ja = "差し合い"
+[[character.tags]]
+name = "footsies"
+name_ja = "差し合い"
 
 # Guile
 [[character]]
@@ -144,25 +144,25 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/guile/guile.png"
 
-  [[character.tags]]
-  name = "charge"
-  name_ja = "溜め"
+[[character.tags]]
+name = "charge"
+name_ja = "溜め"
 
-  [[character.tags]]
-  name = "zoner"
-  name_ja = "遠距離"
+[[character.tags]]
+name = "zoner"
+name_ja = "遠距離"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
-  [[character.tags]]
-  name = "defensive"
-  name_ja = "守り"
+[[character.tags]]
+name = "defensive"
+name_ja = "守り"
 
 # Kimberly
 [[character]]
@@ -178,21 +178,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly.png"
 
-  [[character.tags]]
-  name = "mixup"
-  name_ja = "択"
+[[character.tags]]
+name = "mixup"
+name_ja = "択"
 
-  [[character.tags]]
-  name = "air-grab"
-  name_ja = "空中投げ"
+[[character.tags]]
+name = "air-grab"
+name_ja = "空中投げ"
 
-  [[character.tags]]
-  name = "setup"
-  name_ja = "セットプレイ"
+[[character.tags]]
+name = "setup"
+name_ja = "セットプレイ"
 
 # Juri
 [[character]]
@@ -208,21 +208,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/juri/juri.png"
 
-  [[character.tags]]
-  name = "stocks"
-  name_ja = "レベル"
+[[character.tags]]
+name = "stocks"
+name_ja = "レベル"
 
-  [[character.tags]]
-  name = "air-grab"
-  name_ja = "空中投げ"
+[[character.tags]]
+name = "air-grab"
+name_ja = "空中投げ"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
 # Ken
 [[character]]
@@ -238,21 +238,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ken/ken.png"
 
-  [[character.tags]]
-  name = "shoto"
-  name_ja = "道着"
+[[character.tags]]
+name = "shoto"
+name_ja = "道着"
 
-  [[character.tags]]
-  name = "rushdown"
-  name_ja = "ガン攻め"
+[[character.tags]]
+name = "rushdown"
+name_ja = "ガン攻め"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
 # Blanka
 [[character]]
@@ -268,21 +268,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/blanka/blanka.png"
 
-  [[character.tags]]
-  name = "charge"
-  name_ja = "溜め"
+[[character.tags]]
+name = "charge"
+name_ja = "溜め"
 
-  [[character.tags]]
-  name = "setup"
-  name_ja = "セットプレイ"
+[[character.tags]]
+name = "setup"
+name_ja = "セットプレイ"
 
-  [[character.tags]]
-  name = "mixup"
-  name_ja = "択"
+[[character.tags]]
+name = "mixup"
+name_ja = "択"
 
 # Dhalsim
 [[character]]
@@ -298,29 +298,29 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim.png"
 
-  [[character.tags]]
-  name = "zoner"
-  name_ja = "遠距離"
+[[character.tags]]
+name = "zoner"
+name_ja = "遠距離"
 
-  [[character.tags]]
-  name = "reach"
-  name_ja = "リーチ"
+[[character.tags]]
+name = "reach"
+name_ja = "リーチ"
 
-  [[character.tags]]
-  name = "teleport"
-  name_ja = "テレポート"
+[[character.tags]]
+name = "teleport"
+name_ja = "テレポート"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
-  [[character.tags]]
-  name = "defensive"
-  name_ja = "守り"
+[[character.tags]]
+name = "defensive"
+name_ja = "守り"
 
 # E.Honda
 [[character]]
@@ -336,21 +336,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda.png"
 
-  [[character.tags]]
-  name = "charge"
-  name_ja = "溜め"
+[[character.tags]]
+name = "charge"
+name_ja = "溜め"
 
-  [[character.tags]]
-  name = "command-grab"
-  name_ja = "コマンド投げ"
+[[character.tags]]
+name = "command-grab"
+name_ja = "コマンド投げ"
 
-  [[character.tags]]
-  name = "defensive"
-  name_ja = "守り"
+[[character.tags]]
+name = "defensive"
+name_ja = "守り"
 
 # Dee Jay
 [[character]]
@@ -366,25 +366,25 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/deejay/deejay.png"
 
-  [[character.tags]]
-  name = "fireball"
-  name_ja = "玉"
+[[character.tags]]
+name = "fireball"
+name_ja = "玉"
 
-  [[character.tags]]
-  name = "charge"
-  name_ja = "溜め"
+[[character.tags]]
+name = "charge"
+name_ja = "溜め"
 
-  [[character.tags]]
-  name = "feint"
-  name_ja = "フェイント"
+[[character.tags]]
+name = "feint"
+name_ja = "フェイント"
 
-  [[character.tags]]
-  name = "defensive"
-  name_ja = "守り"
+[[character.tags]]
+name = "defensive"
+name_ja = "守り"
 
 # Manon
 [[character]]
@@ -400,25 +400,25 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/manon/manon.png"
 
-  [[character.tags]]
-  name = "grappler"
-  name_ja = "投げ"
+[[character.tags]]
+name = "grappler"
+name_ja = "投げ"
 
-  [[character.tags]]
-  name = "levels"
-  name_ja = "レベル"
+[[character.tags]]
+name = "levels"
+name_ja = "レベル"
 
-  [[character.tags]]
-  name = "command-grab"
-  name_ja = "コマンド投げ"
+[[character.tags]]
+name = "command-grab"
+name_ja = "コマンド投げ"
 
-  [[character.tags]]
-  name = "counter"
-  name_ja = "カウンター"
+[[character.tags]]
+name = "counter"
+name_ja = "カウンター"
 
 # Marisa
 [[character]]
@@ -434,25 +434,25 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/marisa/marisa.png"
 
-  [[character.tags]]
-  name = "brawler"
-  name_ja = "近距離"
+[[character.tags]]
+name = "brawler"
+name_ja = "近距離"
 
-  [[character.tags]]
-  name = "armor"
-  name_ja = "アーマー"
+[[character.tags]]
+name = "armor"
+name_ja = "アーマー"
 
-  [[character.tags]]
-  name = "command-grab"
-  name_ja = "コマンド投げ"
+[[character.tags]]
+name = "command-grab"
+name_ja = "コマンド投げ"
 
-  [[character.tags]]
-  name = "counter"
-  name_ja = "カウンター"
+[[character.tags]]
+name = "counter"
+name_ja = "カウンター"
 
 # JP
 [[character]]
@@ -468,17 +468,17 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/jp/jp.png"
 
-  [[character.tags]]
-  name = "zoner"
-  name_ja = "遠距離"
+[[character.tags]]
+name = "zoner"
+name_ja = "遠距離"
 
-  [[character.tags]]
-  name = "setup"
-  name_ja = "セットプレイ"
+[[character.tags]]
+name = "setup"
+name_ja = "セットプレイ"
 
 # Zangief
 [[character]]
@@ -494,21 +494,21 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/zangief/zangief.png"
 
-  [[character.tags]]
-  name = "grappler"
-  name_ja = "投げ"
+[[character.tags]]
+name = "grappler"
+name_ja = "投げ"
 
-  [[character.tags]]
-  name = "armor"
-  name_ja = "アーマー"
+[[character.tags]]
+name = "armor"
+name_ja = "アーマー"
 
-  [[character.tags]]
-  name = "command-grab"
-  name_ja = "コマンド投げ"
+[[character.tags]]
+name = "command-grab"
+name_ja = "コマンド投げ"
 
 # Lily
 [[character]]
@@ -523,17 +523,17 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/lily/lily.png"
 
-  [[character.tags]]
-  name = "grappler"
-  name_ja = "投げ"
+[[character.tags]]
+name = "grappler"
+name_ja = "投げ"
 
-  [[character.tags]]
-  name = "command-grab"
-  name_ja = "コマンド投げ"
+[[character.tags]]
+name = "command-grab"
+name_ja = "コマンド投げ"
 
 # Cammy
 [[character]]
@@ -549,14 +549,14 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss04.jpg",
-  "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss05.jpg"
+  "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/cammy/cammy.png"
 
-  [[character.tags]]
-  name = "mixup"
-  name_ja = "択"
+[[character.tags]]
+name = "mixup"
+name_ja = "択"
 
-  [[character.tags]]
-  name = "rushdown"
-  name_ja = "近距離"
+[[character.tags]]
+name = "rushdown"
+name_ja = "近距離"

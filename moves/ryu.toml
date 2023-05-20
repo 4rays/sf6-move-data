@@ -1,5 +1,5 @@
 # Standing Light Punch
-[[move]]
+[[moves]]
 name = "Standing Light Punch"
 name_ja = "立ち弱パン"
 alternativeNames = ["Jab"]
@@ -19,12 +19,12 @@ frameCount = ["S-3", "A-6", "R-13"]
 notes = []
 notes_ja = []
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 4
 block = -1
 
 # Standing Medium Punch
-[[move]]
+[[moves]]
 name = "Standing Medium Punch"
 name_ja = "立ち中パン"
 alternativeNames = ["Strong"]
@@ -42,12 +42,12 @@ cancelsInto = ["special", "super", "targetCombo"]
 chainsInto = ["5mp", "2mp"]
 frameCount = ["S-5", "A-9", "R-20"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 7
 block = -1
 
 # Standing Heavy Punch
-[[move]]
+[[moves]]
 name = "Standing Heavy Punch"
 name_ja = "立ち強パン"
 alternativeNames = ["Fierce"]
@@ -66,12 +66,12 @@ chainsInto = []
 frameCount = ["S-9", "A-14", "R-32"]
 properties = ["forcesStanding"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
 block = -2
 
 # Standing Light Kick
-[[move]]
+[[moves]]
 name = "Standing Light Kick"
 name_ja = "立ち弱キック"
 alternativeNames = ["Short"]
@@ -89,12 +89,12 @@ cancelsInto = ["chain", "special", "super"]
 chainsInto = []
 frameCount = ["S-4", "A-7", "R-18"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 2
 block = -4
 
 # Standing Medium Kick
-[[move]]
+[[moves]]
 name = "Standing Medium Kick"
 name_ja = "立ち中キック"
 alternativeNames = ["Forward"]
@@ -112,12 +112,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-8", "A-11", "R-29"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 4
 block = -4
 
 # Standing Heavy Kick
-[[move]]
+[[moves]]
 name = "Standing Heavy Kick"
 name_ja = "立ち強キック"
 alternativeNames = ["Roundhouse"]
@@ -135,12 +135,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-11", "A-15", "R-35"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 9
 block = 1
 
 # Crouching Light Punch
-[[move]]
+[[moves]]
 name = "Crouching Light Punch"
 name_ja = "しゃがみ弱パン"
 alternativeNames = ["Crouching jab"]
@@ -158,12 +158,12 @@ cancelsInto = ["chain", "special", "super"]
 chainsInto = ["5lp", "2lp", "2lk"]
 frameCount = ["S-3", "A-5", "R-14"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 4
 block = -1
 
 # Crouching Medium Punch
-[[move]]
+[[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中パン"
 alternativeNames = ["Crouching jab"]
@@ -181,12 +181,12 @@ cancelsInto = ["special", "super"]
 chainsInto = []
 frameCount = ["S-5", "A-8", "R-22"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 5
 block = 0
 
 # Crouching Heavy Punch
-[[move]]
+[[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強パン"
 alternativeNames = ["Crouching strong"]
@@ -204,12 +204,12 @@ cancelsInto = ["special", "super"]
 chainsInto = []
 frameCount = ["S-8", "A-12", "R-34"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
 block = -7
 
 # Crouching Light Kick
-[[move]]
+[[moves]]
 name = "Crouching Light Kick"
 name_ja = "しゃがみ弱キック"
 alternativeNames = ["Crouching short"]
@@ -227,12 +227,12 @@ cancelsInto = ["chain"]
 chainsInto = ["5lp", "2lp", "2lk"]
 frameCount = ["S-4", "A-6", "R-16"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
 block = -3
 
 # Crouching Medium Kick
-[[move]]
+[[moves]]
 name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 slug = "ryu-crouch-medium-kick"
@@ -248,12 +248,12 @@ cancelsInto = ["special", "super"]
 chainsInto = []
 frameCount = ["S-7", "A-10", "R-29"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 1
 block = -6
 
 # Crouching Heavy Kick
-[[move]]
+[[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強キック"
 alternativeNames = ["Crouching forward"]
@@ -271,12 +271,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-8", "A-11", "R-34"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 32
 block = -11
 
 # Jumping Light Punch
-[[move]]
+[[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱パン"
 alternativeNames = ["Crouching forward"]
@@ -295,7 +295,7 @@ chainsInto = []
 frameCount = ["S-3", "A-13"]
 
 # Jumping Medium Punch
-[[move]]
+[[moves]]
 name = "Jumping Medium Punch"
 slug = "ryu-jump-medium-punch"
 abbreviation = "J.MP"
@@ -312,7 +312,7 @@ chainsInto = []
 frameCount = ["S-7", "A-12"]
 
 # Jumping Heavy Punch
-[[move]]
+[[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強パン"
 alternativeNames = ["Jumping roundhouse"]
@@ -331,7 +331,7 @@ chainsInto = []
 frameCount = ["S-8", "A-14"]
 
 # Jumping Light Kick
-[[move]]
+[[moves]]
 name = "Jumping Light Kick"
 slug = "ryu-jump-light-kick"
 abbreviation = "J.LK"
@@ -349,7 +349,7 @@ frameCount = ["S-5", "A-15"]
 properties = ["canCrossUp"]
 
 # Jumping Medium Kick
-[[move]]
+[[moves]]
 name = "Jumping Medium Kick"
 name_ja = "ジャンプ中キック"
 alternativeNames = ["Jumping forward"]
@@ -369,7 +369,7 @@ frameCount = ["S-6", "A-12"]
 properties = ["canCrossUp"]
 
 # Jumping Heavy Kick
-[[move]]
+[[moves]]
 name = "Jumping Heavy Kick"
 name_ja = "ジャンプ強キック"
 alternativeNames = ["Jumping roundhouse"]
@@ -388,7 +388,7 @@ chainsInto = []
 frameCount = ["S-11", "A-19"]
 
 # Collarbone Breaker
-[[move]]
+[[moves]]
 name = "Collarbone Breaker"
 name_ja = "鎖骨割り"
 slug = "collarbone-breaker"
@@ -402,12 +402,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-19", "A-23", "R-42"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 2
 block = -3
 
 # Solar Plexus Strike
-[[move]]
+[[moves]]
 name = "Solar Plexus Strike"
 name_ja = "鳩尾砕き"
 slug = "solar-plexus-strike"
@@ -421,12 +421,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-19", "A-24", "R-40"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 6
 block = 1
 
 # Short Uppercut
-[[move]]
+[[moves]]
 name = "Short Uppercut"
 name_ja = "上げ突き"
 slug = "short-uppercut"
@@ -441,12 +441,12 @@ chainsInto = []
 frameCount = ["S-6", "A-9", "R-35"]
 properties = ["forcesStanding"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 1
 block = -13
 
 # Whirlwind Kick
-[[move]]
+[[moves]]
 name = "Whirlwind Kick"
 name_ja = "旋風脚"
 slug = "whirlwind-kick"
@@ -460,12 +460,12 @@ cancelsInto = ["special"]
 chainsInto = []
 frameCount = ["S-15", "A-19", "R-39"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 2
 block = -4
 
 # Axe Kick
-[[move]]
+[[moves]]
 name = "Axe Kick"
 name_ja = "かかと落とし"
 slug = "axe-kick"
@@ -479,12 +479,12 @@ cancelsInto = ["special", "super"]
 chainsInto = []
 frameCount = ["S-9", "A-14", "R-19", "A-22", "R-43"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 0
 block = -4
 
 # High Double Strike
-[[move]]
+[[moves]]
 name = "High Double Strike"
 name_ja = "上段二連撃"
 slug = "high-double-strike"
@@ -499,12 +499,12 @@ chainsInto = []
 frameCount = ["S-9", "A-14", "R-16", "S-24", "A-28", "R-48"]
 properties = ["knockdown"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 36
 block = -8
 
 # Fuwa Double Strike
-[[move]]
+[[moves]]
 name = "Fuwa Double Strike"
 name_ja = "不破二連撃"
 slug = "fuwa-double-strike"
@@ -518,12 +518,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 1
 block = -7
 
 # Fuwa Triple Strike
-[[move]]
+[[moves]]
 name = "Fuwa Triple Strike"
 name_ja = "不破三連撃"
 slug = "fuwa-triple-strike"
@@ -537,12 +537,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 36
 block = -8
 
 # Hadoken (Light)
-[[move]]
+[[moves]]
 name = "Hadoken (Light)"
 name_ja = "波動拳 (弱)"
 slug = "ryu-hadoken-light"
@@ -557,12 +557,12 @@ frameCount = ["S-15", "PA-16", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = -1
 block = -5
 
 # Hadoken (Medium)
-[[move]]
+[[moves]]
 name = "Hadoken (Medium)"
 name_ja = "波動拳 (中)"
 slug = "ryu-hadoken-medium"
@@ -577,12 +577,12 @@ frameCount = ["S-13", "PA-14", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = -3
 block = -7
 
 # Hadoken (Heavy)
-[[move]]
+[[moves]]
 name = "Hadoken (Heavy)"
 name_ja = "波動拳 (強)"
 slug = "ryu-hadoken-heavy"
@@ -597,12 +597,12 @@ frameCount = ["S-11", "PA-12", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = -5
 block = -9
 
 # Hadoken (OD)
-[[move]]
+[[moves]]
 name = "Hadoken (OD)"
 name_ja = "波動拳 (OD)"
 slug = "ryu-hadoken-od"
@@ -617,12 +617,12 @@ frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-40"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 54
 block = -1
 
 # Denjin Hadoken
-[[move]]
+[[moves]]
 name = "Denjin Hadoken"
 name_ja = "電刃波動拳"
 slug = "denjin-hadoken"
@@ -640,12 +640,12 @@ parentSlug = "denjin-charge"
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 52
 block = -3
 
 # Denjin Hadoken (OD)
-[[move]]
+[[moves]]
 name = "Denjin Hadoken (OD)"
 name_ja = "電刃波動拳 (OD)"
 slug = "denjin-hadoken-od"
@@ -663,12 +663,12 @@ parentSlug = "denjin-charge"
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 57
 block = 2
 
 # Shoryuken (Light)
-[[move]]
+[[moves]]
 name = "Shoryuken (Light)"
 name_ja = "昇龍拳（弱)"
 slug = "ryu-shoryuken-light"
@@ -682,16 +682,16 @@ input = "623lp"
 cancelsInto = ["super3"]
 frameCount = ["S-4", "A-14", "R-47"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 38
 block = -21
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 airStart = 1
 airEnd = 14
 
 # Shoryuken (Medium)
-[[move]]
+[[moves]]
 name = "Shoryuken (Medium)"
 name_ja = "昇龍拳（中)"
 slug = "ryu-shoryuken-medium"
@@ -705,16 +705,16 @@ input = "623mp"
 cancelsInto = ["super3"]
 frameCount = ["S-5", "A-15", "R-57"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 34
 block = -30
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 airStart = 1
 airEnd = 15
 
 # Shoryuken (Heavy)
-[[move]]
+[[moves]]
 name = "Shoryuken (Heavy)"
 name_ja = "昇龍拳（強)"
 slug = "ryu-shoryuken-hp"
@@ -728,16 +728,16 @@ input = "623hp"
 cancelsInto = ["super3"]
 frameCount = ["S-6", "A-16", "R-65"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 29
 block = -37
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 airStart = 1
 airEnd = 16
 
 # Shoryuken (OD)
-[[move]]
+[[moves]]
 name = "Shoryuken (OD)"
 name_ja = "昇龍拳 (OD)"
 slug = "ryu-shoryuken-od"
@@ -750,18 +750,18 @@ guardLevel = "high"
 input = "623[pp]"
 frameCount = ["S-6", "A-16", "R-68"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 29
 block = -40
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 2
 end = 6
 airStart = 7
 airEnd = 10
 
 # Tatsumaki Senpukyaku (Light)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Light)"
 slug = "ryu-tatsumaki-senpukyaku-light"
 alternativeNames = ["Hurricane Kick", "Tatsu"]
@@ -774,12 +774,12 @@ guardLevel = "high"
 input = "214lk"
 frameCount = ["S-11", "A-14", "R-46"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 35
 block = -14
 
 # Tatsumaki Senpukyaku (Medium)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Medium)"
 name_ja = "竜巻旋風脚 (中)"
 slug = "ryu-tatsumaki-senpukyaku-medium"
@@ -792,12 +792,12 @@ guardLevel = "high"
 input = "214mk"
 frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 23
 block = -12
 
 # Tatsumaki Senpukyaku (Heavy)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Heavy)"
 name_ja = "竜巻旋風脚 (強)"
 slug = "ryu-tatsumaki-senpukyaku-heavy"
@@ -810,12 +810,12 @@ guardLevel = "high"
 input = "214hk"
 frameCount = ["S-15", "A-17", "R-30", "A-32", "R-45", "A-47", "R-78"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 20
 block = -12
 
 # Tatsumaki Senpukyaku (OD)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (OD)"
 name_ja = "竜巻旋風脚 (OD)"
 slug = "ryu-tatsumaki-senpukyaku-od"
@@ -840,12 +840,12 @@ frameCount = [
   "R-60",
 ]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 57
 block = -14
 
 # Aerial Tatsumaki Senpukyaku
-[[move]]
+[[moves]]
 name = "Aerial Tatsumaki Senpukyaku"
 name_ja = "空中竜巻旋風脚"
 slug = "aerial-tatsumaki-senpukyaku"
@@ -862,7 +862,7 @@ frameCount = ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"]
 properties = ["canCrossUp", "knockdown"]
 
 # Aerial Tatsumaki Senpukyaku (OD)
-[[move]]
+[[moves]]
 name = "Aerial Tatsumaki Senpukyaku (OD)"
 name_ja = "空中竜巻旋風脚 (OD)"
 slug = "aerial-ryu-tatsumaki-senpukyaku-od"
@@ -889,7 +889,7 @@ frameCount = [
 ]
 
 # High Blade Kick (Light)
-[[move]]
+[[moves]]
 name = "High Blade Kick (Light)"
 name_ja = "上段足刀蹴り (弱)"
 slug = "high-blade-kick-light"
@@ -904,12 +904,12 @@ cancelsInto = ["super"]
 chainsInto = []
 frameCount = ["S-14", "A-23", "R-45"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 35
 block = -11
 
 # High Blade Kick (Medium)
-[[move]]
+[[moves]]
 name = "High Blade Kick (Medium)"
 name_ja = "上段足刀蹴り (中)"
 slug = "high-blade-kick-medium"
@@ -924,12 +924,12 @@ cancelsInto = ["super"]
 chainsInto = []
 frameCount = ["S-17", "A-26", "R-45"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 40
 block = -8
 
 # High Blade Kick (Heavy)
-[[move]]
+[[moves]]
 name = "High Blade Kick (Heavy)"
 name_ja = "上段足刀蹴り (強)"
 slug = "high-blade-kick-heavy"
@@ -944,12 +944,12 @@ cancelsInto = ["super"]
 chainsInto = []
 frameCount = ["S-28", "A-37", "R-53"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 45
 block = -5
 
 # High Blade Kick (OD)
-[[move]]
+[[moves]]
 name = "High Blade Kick (OD)"
 name_ja = "上段足刀蹴り (OD)"
 slug = "high-blade-kick-od"
@@ -964,12 +964,12 @@ cancelsInto = ["special", "super"]
 chainsInto = []
 frameCount = ["S-18", "A-23", "R-55"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 64
 block = -18
 
 # Hashogeki (Light)
-[[move]]
+[[moves]]
 name = "Hashogeki (Light)"
 name_ja = "波掌撃（弱)"
 slug = "hashogeki-light"
@@ -983,12 +983,12 @@ cancelsInto = ["super3"]
 chainsInto = []
 frameCount = ["S-11", "A-17", "R-35"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 2
 block = -4
 
 # Hashogeki (Medium)
-[[move]]
+[[moves]]
 name = "Hashogeki (Medium)"
 name_ja = "波掌撃（中)"
 slug = "hashogeki-medium"
@@ -1002,12 +1002,12 @@ cancelsInto = ["super3"]
 chainsInto = []
 frameCount = ["S-18", "A-24", "R-41"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 2
 block = -5
 
 # Hashogeki (Heavy)
-[[move]]
+[[moves]]
 name = "Hashogeki (Heavy)"
 name_ja = "波掌撃（強)"
 slug = "hashogeki-heavy"
@@ -1021,12 +1021,12 @@ cancelsInto = ["super3"]
 chainsInto = []
 frameCount = ["S-29", "A-35", "R-54"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 61
 block = 2
 
 # Hashogeki (OD)
-[[move]]
+[[moves]]
 name = "Hashogeki (OD)"
 name_ja = "波掌撃 (OD)"
 slug = "hashogeki-od"
@@ -1040,12 +1040,12 @@ cancelsInto = ["super2", "super3"]
 chainsInto = []
 frameCount = ["S-18", "PA-19", "S-24", "R-43"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
 block = 3
 
 # Denjin Hashogeki
-[[move]]
+[[moves]]
 name = "Denjin Hashogeki"
 name_ja = "電刃波掌撃"
 slug = "denjin-hashogeki"
@@ -1061,12 +1061,12 @@ frameCount = ["S-20", "A-26", "R-44"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 62
 block = 3
 
 # Denjin Hashogeki (OD)
-[[move]]
+[[moves]]
 name = "Denjin Hashogeki (OD)"
 name_ja = "電刃波掌撃 (OD)"
 slug = "denjin-hashogeki-od"
@@ -1082,12 +1082,12 @@ frameCount = ["S-17", "A-23", "R-42"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 87
 block = 4
 
 # Shinku Hadoken
-[[move]]
+[[moves]]
 name = "Shinku Hadoken"
 name_ja = "真空波動拳"
 slug = "shinku-hadoken"
@@ -1113,18 +1113,18 @@ frameCount = [
   "R-87",
 ]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 26
 block = -24
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 1
 strikeStart = 2
 strikeEnd = 6
 
 # Denjin Shinku Hadoken
-[[move]]
+[[moves]]
 name = "Denjin Shinku Hadoken"
 name_ja = "電刃真空波動拳"
 slug = "denjin-shinku-hadoken"
@@ -1152,18 +1152,18 @@ frameCount = [
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 27
 block = -24
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 1
 strikeStart = 2
 strikeEnd = 6
 
 # Shin Hashogeki (No charge)
-[[move]]
+[[moves]]
 name = "Shin Hashogeki (No charge)"
 name_ja = "真波掌撃 (溜めなし)"
 slug = "shin-hashogeki-no-charge"
@@ -1178,12 +1178,12 @@ chainsInto = []
 frameCount = ["S-11", "PA-17", "R-56"]
 properties = ["armorBreak"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
 # Shin Hashogeki (Level 1)
-[[move]]
+[[moves]]
 name = "Shin Hashogeki (Level 1)"
 name_ja = "真波掌撃 (溜め1段階)"
 slug = "shin-hashogeki-level-1"
@@ -1197,12 +1197,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-20", "A-26", "PA-27", "R-65"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
 # Shin Hashogeki (Level 2)
-[[move]]
+[[moves]]
 name = "Shin Hashogeki (Level 2)"
 name_ja = "真波掌撃 (溜め2段階)"
 slug = "shin-hashogeki-level-2"
@@ -1216,12 +1216,12 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-49", "A-55", "R-94"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
 # Denjin Shin Hashogeki (No charge)
-[[move]]
+[[moves]]
 name = "Denjin Shin Hashogeki (No charge)"
 name_ja = "電刃真波掌撃 (溜めなし)"
 slug = "denjin-shin-hashogeki-no-charge"
@@ -1237,16 +1237,16 @@ frameCount = ["S-11", "A-13", "R-56"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 13
 
 # Denjin Shin Hashogeki (Level 1)
-[[move]]
+[[moves]]
 name = "Denjin Shin Hashogeki (Level 1)"
 name_ja = "電刃真波掌撃 (溜め1段階)"
 slug = "denjin-shin-hashogeki-level-1"
@@ -1262,16 +1262,16 @@ frameCount = ["S-20", "A-26", "R-65"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 9
 
 # Denjin Shin Hashogeki (Level 2)
-[[move]]
+[[moves]]
 name = "Denjin Shin Hashogeki (Level 2)"
 name_ja = "電刃真波掌撃 (溜め2段階)"
 slug = "denjin-shin-hashogeki-level-2"
@@ -1287,16 +1287,16 @@ frameCount = ["S-49", "A-25", "R-64"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 78
 block = -20
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 9
 
 # Shin Shoryuken
-[[move]]
+[[moves]]
 name = "Shin Shoryuken"
 name_ja = "真昇竜拳"
 slug = "shin-shoryuken"
@@ -1310,16 +1310,16 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-4", "A-16", "R-38"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 8
 block = -52
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 16
 
 # Shin Shoryuken (Critical Art)
-[[move]]
+[[moves]]
 name = "Shin Shoryuken (Critical Art)"
 name_ja = "真昇竜拳 (CA)"
 slug = "shin-ryu-shoryuken-ca"
@@ -1333,16 +1333,16 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-4", "A-16", "R-50"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 8
 block = -52
 
-[move.invincibilityFrames]
+[moves.invincibilityFrames]
 start = 1
 end = 16
 
 # Shoulder Throw
-[[move]]
+[[moves]]
 name = "Shoulder Throw"
 name_ja = "背負い投げ"
 slug = "shoulder-throw"
@@ -1357,11 +1357,11 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-4", "A-7", "R-30"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 18
 
 # Somersault Throw
-[[move]]
+[[moves]]
 name = "Somersault Throw"
 name_ja = "巴投げ"
 slug = "somersault-throw"
@@ -1376,11 +1376,11 @@ cancelsInto = []
 chainsInto = []
 frameCount = ["S-4", "A-7", "R-30"]
 
-[move.frameAdvantage]
+[moves.frameAdvantage]
 hit = 11
 
 # Denjin Charge
-[[move]]
+[[moves]]
 name = "Denjin Charge"
 name_ja = "電刃錬気"
 slug = "denjin-charge"

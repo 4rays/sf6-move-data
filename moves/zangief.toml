@@ -1,9 +1,9 @@
 # Standing Light Punch
-[[move]]
+[[moves]]
 name = "Standing Light Punch"
 name_ja = "立ち弱パン"
-alternativeNames = [ "Jab" ]
-alternativeNames_ja = [ "小パン", "コパン" ]
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
 slug = "zangief-stand-light-punch"
 abbreviation = "S.LP"
 abbeviation_ja = "立ち弱P"
@@ -12,15 +12,15 @@ type = "normal"
 hitCount = 1
 guardLevel = "high"
 input = "5lp"
-notes = [ ]
-notes_ja = [ ]
+notes = []
+notes_ja = []
 
 # Standing Medium Punch
-[[move]]
+[[moves]]
 name = "Standing Medium Punch"
 name_ja = "立ち中パン"
-alternativeNames = [ "Strong" ]
-alternativeNames_ja = [ "中パン" ]
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
 slug = "zangief-stand-medium-punch"
 abbreviation = "S.MP"
 abbeviation_ja = "立ち中P"
@@ -31,11 +31,11 @@ guardLevel = "high"
 input = "5mp"
 
 # Standing Heavy Punch
-[[move]]
+[[moves]]
 name = "Standing Heavy Punch"
 name_ja = "立ち強パン"
-alternativeNames = [ "Fierce" ]
-alternativeNames_ja = [ "大パン" ]
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
 slug = "zangief-stand-heavy-punch"
 abbreviation = "S.HP"
 abbeviation_ja = "立ち強P"
@@ -46,11 +46,11 @@ guardLevel = "high"
 input = "5hp"
 
 # Standing Light Kick
-[[move]]
+[[moves]]
 name = "Standing Light Kick"
 name_ja = "立ち弱キック"
-alternativeNames = [ "Short" ]
-alternativeNames_ja = [ "小足", "コアシ" ]
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
 slug = "zangief-stand-light-kick"
 abbreviation = "S.LK"
 abbeviation_ja = "立ち弱K"
@@ -61,11 +61,11 @@ guardLevel = "low"
 input = "5lk"
 
 # Standing Medium Kick
-[[move]]
+[[moves]]
 name = "Standing Medium Kick"
 name_ja = "立ち中キック"
-alternativeNames = [ "Forward" ]
-alternativeNames_ja = [ "中足", "中アシ" ]
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
 slug = "zangief-stand-medium-kick"
 abbreviation = "S.MK"
 abbeviation_ja = "立ち中K"
@@ -76,11 +76,11 @@ guardLevel = "low"
 input = "5mk"
 
 # Standing Heavy Kick
-[[move]]
+[[moves]]
 name = "Standing Heavy Kick"
 name_ja = "立ち強キック"
-alternativeNames = [ "Roundhouse" ]
-alternativeNames_ja = [ "大足", "大アシ" ]
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
 slug = "zangief-stand-heavy-kick"
 abbreviation = "S.HK"
 abbeviation_ja = "立ち強K"
@@ -91,11 +91,11 @@ guardLevel = "low"
 input = "5hk"
 
 # Crouching Light Punch
-[[move]]
+[[moves]]
 name = "Crouching Light Punch"
 name_ja = "しゃがみ弱パン"
-alternativeNames = [ "Crouching jab" ]
-alternativeNames_ja = [ "しゃがみ小パン", "しゃがみコパン" ]
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
 slug = "zangief-crouch-light-punch"
 abbreviation = "C.LP"
 abbeviation_ja = "屈弱P"
@@ -106,11 +106,11 @@ guardLevel = "high"
 input = "2lp"
 
 # Crouching Medium Punch
-[[move]]
+[[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中パン"
-alternativeNames = [ "Crouching jab" ]
-alternativeNames_ja = [ "しゃがみ中パン" ]
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ中パン"]
 slug = "zangief-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
@@ -121,11 +121,11 @@ guardLevel = "high"
 input = "2mp"
 
 # Crouching Heavy Punch
-[[move]]
+[[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強パン"
-alternativeNames = [ "Crouching strong" ]
-alternativeNames_ja = [ "しゃがみ大パン" ]
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ大パン"]
 slug = "zangief-crouch-heavy-punch"
 abbreviation = "C.HP"
 abbeviation_ja = "屈強P"
@@ -136,11 +136,11 @@ guardLevel = "high"
 input = "2hp"
 
 # Crouching Light Kick
-[[move]]
+[[moves]]
 name = "Crouching Light Kick"
 name_ja = "しゃがみ弱キック"
-alternativeNames = [ "Crouching short" ]
-alternativeNames_ja = [ "しゃがみ小足", "しゃがみコアシ" ]
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
 slug = "zangief-crouch-light-kick"
 abbreviation = "C.LK"
 abbeviation_ja = "屈弱K"
@@ -151,11 +151,11 @@ guardLevel = "low"
 input = "2lk"
 
 # Crouch Medium Kick
-[[move]]
+[[moves]]
 name = "Crouch Medium Kick"
 name_ja = "しゃがみ中キック"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "しゃがみ中足", "しゃがみ中アシ" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
 slug = "zangief-crouch-medium-kick"
 abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
@@ -166,11 +166,11 @@ guardLevel = "low"
 input = "2mk"
 
 # Crouching Heavy Kick
-[[move]]
+[[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強キック"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "しゃがみ大足", "しゃがみ大アシ" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "zangief-crouch-heavy-kick"
 abbreviation = "C.HK"
 abbeviation_ja = "屈強K"
@@ -181,11 +181,11 @@ guardLevel = "low"
 input = "2hk"
 
 # Jumping Light Punch
-[[move]]
+[[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱パン"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "ジャンプ小パン", "ジャンプコパン" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "zangief-jump-light-punch"
 abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
@@ -196,11 +196,11 @@ guardLevel = "high"
 input = "jlp"
 
 # Jumping Medium Punch
-[[move]]
+[[moves]]
 name = "Jumping Medium Punch"
 name_ja = "ジャンプ中パン"
-alternativeNames = [ "Jumping strong" ]
-alternativeNames_ja = [ "ジャンプ中パン" ]
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン"]
 slug = "zangief-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -211,11 +211,11 @@ guardLevel = "high"
 input = "jmp"
 
 # Jumping Heavy Punch
-[[move]]
+[[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強パン"
-alternativeNames = [ "Jumping roundhouse" ]
-alternativeNames_ja = [ "ジャンプ大パン" ]
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大パン"]
 slug = "zangief-jump-heavy-punch"
 abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
@@ -226,11 +226,11 @@ guardLevel = "high"
 input = "jhp"
 
 # Jumping Light Kick
-[[move]]
+[[moves]]
 name = "Jumping Light Kick"
 name_ja = "ジャンプ弱キック"
-alternativeNames = [ "Jumping short" ]
-alternativeNames_ja = [ "ジャンプ小足", "ジャンプコアシ" ]
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
 slug = "zangief-jump-light-kick"
 abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
@@ -241,11 +241,11 @@ guardLevel = "high"
 input = "jlk"
 
 # Jumping Medium Kick
-[[move]]
+[[moves]]
 name = "Jumping Medium Kick"
 name_ja = "ジャンプ中キック"
-alternativeNames = [ "Jumping forward" ]
-alternativeNames_ja = [ "ジャンプ中足", "ジャンプ中アシ" ]
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
 slug = "zangief-jump-medium-kick"
 abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
@@ -256,11 +256,11 @@ guardLevel = "high"
 input = "jmk"
 
 # Jumping Heavy Kick
-[[move]]
+[[moves]]
 name = "Jumping Heavy Kick"
 name_ja = "ジャンプ強キック"
-alternativeNames = [ "Jumping roundhouse" ]
-alternativeNames_ja = [ "ジャンプ大足", "ジャンプ大アシ" ]
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
 slug = "zangief-jump-heavy-kick"
 abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"

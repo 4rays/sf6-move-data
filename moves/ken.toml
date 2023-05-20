@@ -1,9 +1,9 @@
 # Standing Light Punch
-[[move]]
+[[moves]]
 name = "Standing Light Punch"
 name_ja = "立ち弱パン"
-alternativeNames = [ "Jab" ]
-alternativeNames_ja = [ "小パン", "コパン" ]
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
 slug = "ken-stand-light-punch"
 abbreviation = "S.LP"
 abbeviation_ja = "立ち弱P"
@@ -14,11 +14,11 @@ guardLevel = "high"
 input = "5lp"
 
 # Standing Medium Punch
-[[move]]
+[[moves]]
 name = "Standing Medium Punch"
 name_ja = "立ち中パン"
-alternativeNames = [ "Strong" ]
-alternativeNames_ja = [ "中パン" ]
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
 slug = "ken-stand-medium-punch"
 abbreviation = "S.MP"
 abbeviation_ja = "立ち中P"
@@ -29,11 +29,11 @@ guardLevel = "high"
 input = "5mp"
 
 # Standing Heavy Punch
-[[move]]
+[[moves]]
 name = "Standing Heavy Punch"
 name_ja = "立ち強パン"
-alternativeNames = [ "Fierce" ]
-alternativeNames_ja = [ "大パン" ]
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
 slug = "ken-stand-heavy-punch"
 abbreviation = "S.HP"
 abbeviation_ja = "立ち強P"
@@ -44,11 +44,11 @@ guardLevel = "high"
 input = "5hp"
 
 # Standing Light Kick
-[[move]]
+[[moves]]
 name = "Standing Light Kick"
 name_ja = "立ち弱キック"
-alternativeNames = [ "Short" ]
-alternativeNames_ja = [ "小足", "コアシ" ]
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
 slug = "ken-stand-light-kick"
 abbreviation = "S.LK"
 abbeviation_ja = "立ち弱K"
@@ -59,11 +59,11 @@ guardLevel = "low"
 input = "5lk"
 
 # Standing Medium Kick
-[[move]]
+[[moves]]
 name = "Standing Medium Kick"
 name_ja = "立ち中キック"
-alternativeNames = [ "Forward" ]
-alternativeNames_ja = [ "中足", "中アシ" ]
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
 slug = "ken-stand-medium-kick"
 abbreviation = "S.MK"
 abbeviation_ja = "立ち中K"
@@ -74,11 +74,11 @@ guardLevel = "low"
 input = "5mk"
 
 # Standing Heavy Kick
-[[move]]
+[[moves]]
 name = "Standing Heavy Kick"
 name_ja = "立ち強キック"
-alternativeNames = [ "Roundhouse" ]
-alternativeNames_ja = [ "大足", "大アシ" ]
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
 slug = "ken-stand-heavy-kick"
 abbreviation = "S.HK"
 abbeviation_ja = "立ち強K"
@@ -89,11 +89,11 @@ guardLevel = "low"
 input = "5hk"
 
 # Crouching Light Punch
-[[move]]
+[[moves]]
 name = "Crouching Light Punch"
 name_ja = "しゃがみ弱パン"
-alternativeNames = [ "Crouching jab" ]
-alternativeNames_ja = [ "しゃがみ小パン", "しゃがみコパン" ]
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
 slug = "ken-crouch-light-punch"
 abbreviation = "C.LP"
 abbeviation_ja = "屈弱P"
@@ -104,11 +104,11 @@ guardLevel = "high"
 input = "2lp"
 
 # Crouching Medium Punch
-[[move]]
+[[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中パン"
-alternativeNames = [ "Crouching jab" ]
-alternativeNames_ja = [ "しゃがみ中パン" ]
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ中パン"]
 slug = "ken-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
@@ -119,11 +119,11 @@ guardLevel = "high"
 input = "2mp"
 
 # Crouching Heavy Punch
-[[move]]
+[[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強パン"
-alternativeNames = [ "Crouching strong" ]
-alternativeNames_ja = [ "しゃがみ大パン" ]
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ大パン"]
 slug = "ken-crouch-heavy-punch"
 abbreviation = "C.HP"
 abbeviation_ja = "屈強P"
@@ -134,11 +134,11 @@ guardLevel = "high"
 input = "2hp"
 
 # Crouching Light Kick
-[[move]]
+[[moves]]
 name = "Crouching Light Kick"
 name_ja = "しゃがみ弱キック"
-alternativeNames = [ "Crouching short" ]
-alternativeNames_ja = [ "しゃがみ小足", "しゃがみコアシ" ]
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
 slug = "ken-crouch-light-kick"
 abbreviation = "C.LK"
 abbeviation_ja = "屈弱K"
@@ -149,11 +149,11 @@ guardLevel = "low"
 input = "2lk"
 
 # Crouch Medium Kick
-[[move]]
+[[moves]]
 name = "Crouch Medium Kick"
 name_ja = "しゃがみ中キック"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "しゃがみ中足", "しゃがみ中アシ" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
 slug = "ken-crouch-medium-kick"
 abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
@@ -164,11 +164,11 @@ guardLevel = "low"
 input = "2mk"
 
 # Crouching Heavy Kick
-[[move]]
+[[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強キック"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "しゃがみ大足", "しゃがみ大アシ" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "ken-crouch-heavy-kick"
 abbreviation = "C.HK"
 abbeviation_ja = "屈強K"
@@ -179,11 +179,11 @@ guardLevel = "low"
 input = "2hk"
 
 # Jumping Light Punch
-[[move]]
+[[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱パン"
-alternativeNames = [ "Crouching forward" ]
-alternativeNames_ja = [ "ジャンプ小パン", "ジャンプコパン" ]
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "ken-jump-light-punch"
 abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
@@ -194,11 +194,11 @@ guardLevel = "high"
 input = "jlp"
 
 # Jumping Medium Punch
-[[move]]
+[[moves]]
 name = "Jumping Medium Punch"
 name_ja = "ジャンプ中パン"
-alternativeNames = [ "Jumping strong" ]
-alternativeNames_ja = [ "ジャンプ中パン" ]
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン"]
 slug = "ken-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -209,11 +209,11 @@ guardLevel = "high"
 input = "jmp"
 
 # Jumping Heavy Punch
-[[move]]
+[[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強パン"
-alternativeNames = [ "Jumping roundhouse" ]
-alternativeNames_ja = [ "ジャンプ大パン" ]
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大パン"]
 slug = "ken-jump-heavy-punch"
 abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
@@ -224,11 +224,11 @@ guardLevel = "high"
 input = "jhp"
 
 # Jumping Light Kick
-[[move]]
+[[moves]]
 name = "Jumping Light Kick"
 name_ja = "ジャンプ弱キック"
-alternativeNames = [ "Jumping short" ]
-alternativeNames_ja = [ "ジャンプ小足", "ジャンプコアシ" ]
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
 slug = "ken-jump-light-kick"
 abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
@@ -239,11 +239,11 @@ guardLevel = "high"
 input = "jlk"
 
 # Jumping Medium Kick
-[[move]]
+[[moves]]
 name = "Jumping Medium Kick"
 name_ja = "ジャンプ中キック"
-alternativeNames = [ "Jumping forward" ]
-alternativeNames_ja = [ "ジャンプ中足", "ジャンプ中アシ" ]
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
 slug = "ken-jump-medium-kick"
 abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
@@ -254,11 +254,11 @@ guardLevel = "high"
 input = "jmk"
 
 # Jumping Heavy Kick
-[[move]]
+[[moves]]
 name = "Jumping Heavy Kick"
 name_ja = "ジャンプ強キック"
-alternativeNames = [ "Jumping roundhouse" ]
-alternativeNames_ja = [ "ジャンプ大足", "ジャンプ大アシ" ]
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
 slug = "ken-jump-heavy-kick"
 abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
@@ -269,39 +269,39 @@ guardLevel = "high"
 input = "jhk"
 
 # Quick Dash
-[[move]]
+[[moves]]
 name = "Quick Dash"
 name_ja = "奮迅脚"
 slug = "quick-dash"
 characterId = 7
-type = "unique"
+type = "special"
 hitCount = 0
 input = "[kk]"
 
 # Emergency Stop
-[[move]]
+[[moves]]
 name = "Emergency Stop"
 name_ja = "エマージェンシーストップ"
 slug = "emergency-stop"
 characterId = 7
-type = "unique"
+type = "special"
 hitCount = 0
 input = "[kk]>lk"
 parentSlug = "quick-dash"
 
 # Thunder Kick
-[[move]]
+[[moves]]
 name = "Thunder Kick"
 name_ja = "サンダーキック"
 slug = "thunder-kick"
 characterId = 7
-type = "unique"
+type = "special"
 hitCount = 1
 input = "[kk]>mk"
 parentSlug = "quick-dash"
 
 # Forward Step Kick
-[[move]]
+[[moves]]
 name = "Forward Step Kick"
 name_ja = "フォワードステップキック"
 slug = "forward-step-kick"
@@ -313,7 +313,7 @@ input = "[kk]>hk"
 parentSlug = "quick-dash"
 
 # Chin Buster 2nd
-[[move]]
+[[moves]]
 name = "Chin Buster 2nd"
 name_ja = "チンバスター2nd"
 slug = "chin-buster-2nd"
@@ -324,7 +324,7 @@ hitCount = 1
 input = "mp>hp"
 
 # Triple Flash Kick
-[[move]]
+[[moves]]
 name = "Triple Flash Kick"
 name_ja = "閃光連脚"
 slug = "triple-flash-kick"
@@ -334,7 +334,7 @@ hitCount = 3
 input = "mk>mk>hk"
 
 # Hadoken (Light)
-[[move]]
+[[moves]]
 name = "Hadoken (Light)"
 name_ja = "波動拳 (弱)"
 slug = "ken-hadoken-light"
@@ -343,11 +343,11 @@ type = "special"
 hitCount = 1
 guardLevel = "high"
 input = "236lp"
-notes = [ "Frame data is for point blank range." ]
-notes_ja = [ "フレームデータはゼロ距離の場合。" ]
+notes = ["Frame data is for point blank range."]
+notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 # Hadoken (Medium)
-[[move]]
+[[moves]]
 name = "Hadoken (Medium)"
 name_ja = "波動拳 (中)"
 slug = "ken-hadoken-medium"
@@ -356,11 +356,11 @@ type = "special"
 hitCount = 1
 guardLevel = "high"
 input = "236mp"
-notes = [ "Frame data is for point blank range." ]
-notes_ja = [ "フレームデータはゼロ距離の場合。" ]
+notes = ["Frame data is for point blank range."]
+notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 # Hadoken (Heavy)
-[[move]]
+[[moves]]
 name = "Hadoken (Heavy)"
 name_ja = "波動拳 (強)"
 slug = "ken-hadoken-heavy"
@@ -369,11 +369,11 @@ type = "special"
 hitCount = 1
 guardLevel = "high"
 input = "236hp"
-notes = [ "Frame data is for point blank range." ]
-notes_ja = [ "フレームデータはゼロ距離の場合。" ]
+notes = ["Frame data is for point blank range."]
+notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 # Hadoken (OD)
-[[move]]
+[[moves]]
 name = "Hadoken (OD)"
 name_ja = "波動拳 (OD)"
 slug = "ken-hadoken-od"
@@ -382,11 +382,11 @@ type = "special"
 hitCount = 1
 guardLevel = "high"
 input = "236[pp]"
-notes = [ "Frame data is for point blank range." ]
-notes_ja = [ "フレームデータはゼロ距離の場合。" ]
+notes = ["Frame data is for point blank range."]
+notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 # Shoryuken (Light)
-[[move]]
+[[moves]]
 name = "Shoryuken (Light)"
 name_ja = "昇龍拳 (弱)"
 slug = "ken-shoryuken-light"
@@ -397,7 +397,7 @@ guardLevel = "high"
 input = "623lp"
 
 # Shoryuken (Medium)
-[[move]]
+[[moves]]
 name = "Shoryuken (Medium)"
 name_ja = "昇龍拳 (中)"
 slug = "ken-shoryuken-medium"
@@ -408,7 +408,7 @@ guardLevel = "high"
 input = "623mp"
 
 # Shoryuken (Heavy)
-[[move]]
+[[moves]]
 name = "Shoryuken (Heavy)"
 name_ja = "昇龍拳 (強)"
 slug = "ken-shoryuken-heavy"
@@ -419,7 +419,7 @@ guardLevel = "high"
 input = "623hp"
 
 # Shoryuken (OD)
-[[move]]
+[[moves]]
 name = "Shoryuken (OD)"
 name_ja = "昇龍拳 (OD)"
 slug = "ken-shoryuken-od"
@@ -430,7 +430,7 @@ guardLevel = "high"
 input = "623[pp]"
 
 # Quick Dash Shoryuken
-[[move]]
+[[moves]]
 name = "Quick Dash Shoryuken"
 name_ja = "奮迅脚昇龍拳"
 slug = "quick-dash-shoryuken"
@@ -442,7 +442,7 @@ input = "[kk]>623p"
 parentSlug = "quick-dash"
 
 # Tatsumaki Senpukyaku (Light)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Light)"
 name_ja = "竜巻旋風脚 (弱)"
 slug = "ken-tatsumaki-senpukyaku-light"
@@ -453,7 +453,7 @@ guardLevel = "high"
 input = "214lk"
 
 # Tatsumaki Senpukyaku (Medium)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Medium)"
 name_ja = "竜巻旋風脚 (中)"
 slug = "ken-tatsumaki-senpukyaku-medium"
@@ -464,7 +464,7 @@ guardLevel = "high"
 input = "214mk"
 
 # Tatsumaki Senpukyaku (Heavy)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (Heavy)"
 name_ja = "竜巻旋風脚 (強)"
 slug = "ken-tatsumaki-senpukyaku-heavy"
@@ -475,7 +475,7 @@ guardLevel = "high"
 input = "214hk"
 
 # Tatsumaki Senpukyaku (OD)
-[[move]]
+[[moves]]
 name = "Tatsumaki Senpukyaku (OD)"
 name_ja = "竜巻旋風脚 (OD)"
 slug = "ken-tatsumaki-senpukyaku-od"
@@ -486,7 +486,7 @@ guardLevel = "high"
 input = "214[kk]"
 
 # Quick Dash Tatsumaki Senpukyaku
-[[move]]
+[[moves]]
 name = "Quick Dash Tatsumaki Senpukyaku"
 name_ja = "奮迅脚竜巻旋風脚"
 slug = "quick-dash-tatsumaki-senpukyaku"
@@ -497,7 +497,7 @@ input = "[kk]>214k"
 parentSlug = "quick-dash"
 
 # Aerial Tatsumaki Senpukyaku
-[[move]]
+[[moves]]
 name = "Aerial Tatsumaki Senpukyaku"
 name_ja = "空中竜巻旋風脚"
 slug = "ken-aerial-tatsumaki-senpukyaku"
@@ -507,7 +507,7 @@ hitCount = 1
 input = "214lk (in air)"
 
 # Aerial Tatsumaki Senpukyaku (OD)
-[[move]]
+[[moves]]
 name = "Aerial Tatsumaki Senpukyaku (OD)"
 name_ja = "空中竜巻旋風脚 (OD)"
 slug = "ken-aerial-tatsumaki-senpukyaku-od"
@@ -517,7 +517,7 @@ hitCount = 1
 input = "j214mk"
 
 # Dragonlash Kick (Light)
-[[move]]
+[[moves]]
 name = "Dragonlash Kick (Light)"
 name_ja = "龍尾脚 (弱)"
 slug = "dragonlash-kick-light"
@@ -527,7 +527,7 @@ hitCount = 1
 input = "623lk"
 
 # Dragonlash Kick (Medium)
-[[move]]
+[[moves]]
 name = "Dragonlash Kick (Medium)"
 name_ja = "龍尾脚 (中)"
 slug = "dragonlash-kick-medium"
@@ -537,7 +537,7 @@ hitCount = 1
 input = "623mk"
 
 # Dragonlash Kick (Heavy)
-[[move]]
+[[moves]]
 name = "Dragonlash Kick (Heavy)"
 name_ja = "龍尾脚 (強)"
 slug = "dragonlash-kick-heavy"
@@ -547,7 +547,7 @@ hitCount = 1
 input = "623hk"
 
 # Dragonlash Kick (OD)
-[[move]]
+[[moves]]
 name = "Dragonlash Kick (OD)"
 name_ja = "龍尾脚 (OD)"
 slug = "dragonlash-kick-od"
@@ -557,7 +557,7 @@ hitCount = 1
 input = "623[kk]"
 
 # Quick Dash Dragonlash Kick
-[[move]]
+[[moves]]
 name = "Quick Dash Dragonlash Kick"
 name_ja = "奮迅脚龍尾脚"
 slug = "quick-dash-dragonlash-kick"
@@ -568,7 +568,7 @@ input = "[kk]>623k"
 parentSlug = "quick-dash"
 
 # Jinrai Kick (Light)
-[[move]]
+[[moves]]
 name = "Jinrai Kick (Light)"
 name_ja = "迅雷脚 (弱)"
 slug = "jinrai-kick-light"
@@ -578,7 +578,7 @@ hitCount = 1
 input = "236lk"
 
 # Jinrai Kick (Medium)
-[[move]]
+[[moves]]
 name = "Jinrai Kick (Medium)"
 name_ja = "迅雷脚 (中)"
 slug = "jinrai-kick-medium"
@@ -588,7 +588,7 @@ hitCount = 1
 input = "236mk"
 
 # Jinrai Kick (Heavy)
-[[move]]
+[[moves]]
 name = "Jinrai Kick (Heavy)"
 name_ja = "迅雷脚 (強)"
 slug = "jinrai-kick-heavy"
@@ -598,7 +598,7 @@ hitCount = 1
 input = "236hk"
 
 # Jinrai Kick (OD)
-[[move]]
+[[moves]]
 name = "Jinrai Kick (OD)"
 name_ja = "迅雷脚 (OD)"
 slug = "jinrai-kick-od"
@@ -608,7 +608,7 @@ hitCount = 1
 input = "236[kk]"
 
 # Kazekama Shin Kick
-[[move]]
+[[moves]]
 name = "Kazekama Shin Kick"
 name_ja = "風鎌真脚"
 slug = "kazekama-shin-kick"
@@ -619,7 +619,7 @@ input = "236[kk]>lk"
 parentSlug = "jinrai-kick"
 
 # Gorai Axe Kick
-[[move]]
+[[moves]]
 name = "Gorai Axe Kick"
 name_ja = "轟雷斧脚"
 slug = "gorai-axe-kick"
@@ -630,7 +630,7 @@ input = "236[kk]>mk"
 parentSlug = "jinrai-kick"
 
 # Senka Snap Kick
-[[move]]
+[[moves]]
 name = "Senka Snap Kick"
 name_ja = "閃華脚"
 slug = "senka-snap-kick"
@@ -641,7 +641,7 @@ input = "236[kk]>hk"
 parentSlug = "jinrai-kick"
 
 # Kasai Thrust Kick
-[[move]]
+[[moves]]
 name = "Kasai Thrust Kick"
 name_ja = "火砕突き"
 slug = "kasai-thrust-kick"
@@ -652,7 +652,7 @@ input = "236[kk]>k>k"
 parentSlug = "jinrai-kick-od"
 
 # Dragonlash Flame
-[[move]]
+[[moves]]
 name = "Dragonlash Flame"
 name_ja = "龍尾烈脚"
 slug = "dragonlash-flame"
@@ -662,7 +662,7 @@ hitCount = 1
 input = "214214k"
 
 # Shippu Jinrai-kyaku
-[[move]]
+[[moves]]
 name = "Shippu Jinrai-kyaku"
 name_ja = "疾風迅雷脚"
 slug = "shippu-jinrai-kyaku"
@@ -672,7 +672,7 @@ hitCount = 1
 input = "236236k"
 
 # Shinryu Reppa
-[[move]]
+[[moves]]
 name = "Shinryu Reppa"
 name_ja = "神龍烈波"
 slug = "shinryu-reppa"
@@ -682,7 +682,7 @@ hitCount = 1
 input = "236236p"
 
 # Shinryu Reppa (Critical Art)
-[[move]]
+[[moves]]
 name = "Shinryu Reppa (Critical Art)"
 name_ja = "神龍烈波 (CA)"
 slug = "shinryu-reppa-critical-art"
@@ -692,22 +692,22 @@ hitCount = 1
 input = "236236p"
 
 # Knee Strikes
-[[move]]
+[[moves]]
 name = "Knee Strikes"
 name_ja = "掴み膝蹴り"
 slug = "knee-strikes"
-alternativeNames = [ "Forward Throw" ]
+alternativeNames = ["Forward Throw"]
 characterId = 7
 type = "throw"
 hitCount = 1
 input = "[lplk]"
 
 # Hell Wheel
-[[move]]
+[[moves]]
 name = "Hell Wheel"
 name_ja = "地獄車"
 slug = "hell-wheel"
-alternativeNames = [ "Back Throw" ]
+alternativeNames = ["Back Throw"]
 characterId = 7
 type = "throw"
 hitCount = 1
