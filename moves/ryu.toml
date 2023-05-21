@@ -11,7 +11,7 @@ characterId = 0
 type = "normal"
 damage = 300
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5lp"
 cancelsInto = ["chain", "special", "super"]
 chainsInto = ["5lp", "2lp", "2lk"]
@@ -21,7 +21,7 @@ notes_ja = []
 
 [moves.frameAdvantage]
 hit = 4
-block = -1
+blockType = -1
 
 # Standing Medium Punch
 [[moves]]
@@ -36,7 +36,7 @@ characterId = 0
 type = "normal"
 damage = 600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mp"
 cancelsInto = ["special", "super", "targetCombo"]
 chainsInto = ["5mp", "2mp"]
@@ -44,7 +44,7 @@ frameCount = ["S-5", "A-9", "R-20"]
 
 [moves.frameAdvantage]
 hit = 7
-block = -1
+blockType = -1
 
 # Standing Heavy Punch
 [[moves]]
@@ -59,7 +59,7 @@ characterId = 0
 type = "normal"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hp"
 cancelsInto = ["special", "super", "targetCombo"]
 chainsInto = []
@@ -68,7 +68,7 @@ properties = ["forcesStanding"]
 
 [moves.frameAdvantage]
 hit = 3
-block = -2
+blockType = -2
 
 # Standing Light Kick
 [[moves]]
@@ -83,7 +83,7 @@ characterId = 0
 type = "normal"
 damage = 300
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5lk"
 cancelsInto = ["chain", "special", "super"]
 chainsInto = []
@@ -91,7 +91,7 @@ frameCount = ["S-4", "A-7", "R-18"]
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+blockType = -4
 
 # Standing Medium Kick
 [[moves]]
@@ -106,7 +106,7 @@ characterId = 0
 type = "normal"
 damage = 700
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mk"
 cancelsInto = []
 chainsInto = []
@@ -114,7 +114,7 @@ frameCount = ["S-8", "A-11", "R-29"]
 
 [moves.frameAdvantage]
 hit = 4
-block = -4
+blockType = -4
 
 # Standing Heavy Kick
 [[moves]]
@@ -129,7 +129,7 @@ characterId = 0
 type = "normal"
 damage = 900
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hk"
 cancelsInto = []
 chainsInto = []
@@ -137,7 +137,7 @@ frameCount = ["S-11", "A-15", "R-35"]
 
 [moves.frameAdvantage]
 hit = 9
-block = 1
+blockType = 1
 
 # Crouching Light Punch
 [[moves]]
@@ -152,7 +152,7 @@ characterId = 0
 type = "normal"
 damage = 300
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lp"
 cancelsInto = ["chain", "special", "super"]
 chainsInto = ["5lp", "2lp", "2lk"]
@@ -160,7 +160,7 @@ frameCount = ["S-3", "A-5", "R-14"]
 
 [moves.frameAdvantage]
 hit = 4
-block = -1
+blockType = -1
 
 # Crouching Medium Punch
 [[moves]]
@@ -175,7 +175,7 @@ characterId = 0
 type = "normal"
 damage = 700
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mp"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -183,7 +183,7 @@ frameCount = ["S-5", "A-8", "R-22"]
 
 [moves.frameAdvantage]
 hit = 5
-block = 0
+blockType = 0
 
 # Crouching Heavy Punch
 [[moves]]
@@ -198,7 +198,7 @@ characterId = 0
 type = "normal"
 damage = 900
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hp"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -206,7 +206,7 @@ frameCount = ["S-8", "A-12", "R-34"]
 
 [moves.frameAdvantage]
 hit = 3
-block = -7
+blockType = -7
 
 # Crouching Light Kick
 [[moves]]
@@ -221,7 +221,7 @@ characterId = 0
 type = "normal"
 damage = 200
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lk"
 cancelsInto = ["chain"]
 chainsInto = ["5lp", "2lp", "2lk"]
@@ -229,7 +229,7 @@ frameCount = ["S-4", "A-6", "R-16"]
 
 [moves.frameAdvantage]
 hit = 3
-block = -3
+blockType = -3
 
 # Crouching Medium Kick
 [[moves]]
@@ -242,7 +242,7 @@ characterId = 0
 type = "normal"
 damage = 500
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -250,7 +250,7 @@ frameCount = ["S-7", "A-10", "R-29"]
 
 [moves.frameAdvantage]
 hit = 1
-block = -6
+blockType = -6
 
 # Crouching Heavy Kick
 [[moves]]
@@ -265,7 +265,7 @@ characterId = 0
 type = "normal"
 damage = 900
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hk"
 cancelsInto = []
 chainsInto = []
@@ -273,7 +273,7 @@ frameCount = ["S-8", "A-11", "R-34"]
 
 [moves.frameAdvantage]
 hit = 32
-block = -11
+blockType = -11
 
 # Jumping Light Punch
 [[moves]]
@@ -288,7 +288,7 @@ characterId = 0
 type = "normal"
 damage = 300
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlp"
 cancelsInto = []
 chainsInto = []
@@ -305,7 +305,7 @@ characterId = 0
 type = "normal"
 damage = 700
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "jmp"
 cancelsInto = ["special"]
 chainsInto = []
@@ -324,7 +324,7 @@ characterId = 0
 type = "normal"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhp"
 cancelsInto = []
 chainsInto = []
@@ -341,7 +341,7 @@ characterId = 0
 type = "normal"
 damage = 300
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlk"
 cancelsInto = []
 chainsInto = []
@@ -361,7 +361,7 @@ characterId = 0
 type = "normal"
 damage = 500
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmk"
 cancelsInto = []
 chainsInto = []
@@ -381,7 +381,7 @@ characterId = 0
 type = "normal"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhk"
 cancelsInto = []
 chainsInto = []
@@ -396,7 +396,7 @@ characterId = 0
 type = "commandNormal"
 damage = 600
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "6mp"
 cancelsInto = []
 chainsInto = []
@@ -404,7 +404,7 @@ frameCount = ["S-19", "A-23", "R-42"]
 
 [moves.frameAdvantage]
 hit = 2
-block = -3
+blockType = -3
 
 # Solar Plexus Strike
 [[moves]]
@@ -415,7 +415,7 @@ characterId = 0
 type = "commandNormal"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "6hp"
 cancelsInto = []
 chainsInto = []
@@ -423,7 +423,7 @@ frameCount = ["S-19", "A-24", "R-40"]
 
 [moves.frameAdvantage]
 hit = 6
-block = 1
+blockType = 1
 
 # Short Uppercut
 [[moves]]
@@ -434,7 +434,7 @@ characterId = 0
 type = "commandNormal"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "4hp"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -443,7 +443,7 @@ properties = ["forcesStanding"]
 
 [moves.frameAdvantage]
 hit = 1
-block = -13
+blockType = -13
 
 # Whirlwind Kick
 [[moves]]
@@ -454,7 +454,7 @@ characterId = 0
 type = "commandNormal"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "6hk"
 cancelsInto = ["special"]
 chainsInto = []
@@ -462,7 +462,7 @@ frameCount = ["S-15", "A-19", "R-39"]
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+blockType = -4
 
 # Axe Kick
 [[moves]]
@@ -473,7 +473,7 @@ characterId = 0
 type = "commandNormal"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "4hk"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -481,7 +481,7 @@ frameCount = ["S-9", "A-14", "R-19", "A-22", "R-43"]
 
 [moves.frameAdvantage]
 hit = 0
-block = -4
+blockType = -4
 
 # High Double Strike
 [[moves]]
@@ -492,7 +492,7 @@ characterId = 0
 type = "targetCombo"
 damage = 1_800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "5hp>5hk"
 cancelsInto = []
 chainsInto = []
@@ -501,7 +501,7 @@ properties = ["knockdown"]
 
 [moves.frameAdvantage]
 hit = 36
-block = -8
+blockType = -8
 
 # Fuwa Double Strike
 [[moves]]
@@ -512,7 +512,7 @@ characterId = 0
 type = "targetCombo"
 damage = 900
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "5mp>5lk"
 cancelsInto = []
 chainsInto = []
@@ -520,7 +520,7 @@ frameCount = ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"]
 
 [moves.frameAdvantage]
 hit = 1
-block = -7
+blockType = -7
 
 # Fuwa Triple Strike
 [[moves]]
@@ -531,7 +531,7 @@ characterId = 0
 type = "targetCombo"
 damage = 1_620
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "5mp>5lk>5hk"
 cancelsInto = []
 chainsInto = []
@@ -539,7 +539,7 @@ frameCount = ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"]
 
 [moves.frameAdvantage]
 hit = 36
-block = -8
+blockType = -8
 
 # Hadoken (Light)
 [[moves]]
@@ -550,7 +550,7 @@ characterId = 0
 type = "special"
 damage = 600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236lp"
 cancelsInto = ["super3"]
 frameCount = ["S-15", "PA-16", "R-47"]
@@ -559,7 +559,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -1
-block = -5
+blockType = -5
 
 # Hadoken (Medium)
 [[moves]]
@@ -570,7 +570,7 @@ characterId = 0
 type = "special"
 damage = 600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236mp"
 cancelsInto = ["super3"]
 frameCount = ["S-13", "PA-14", "R-47"]
@@ -579,7 +579,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -3
-block = -7
+blockType = -7
 
 # Hadoken (Heavy)
 [[moves]]
@@ -590,7 +590,7 @@ characterId = 0
 type = "special"
 damage = 600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236hp"
 cancelsInto = ["super"]
 frameCount = ["S-11", "PA-12", "R-47"]
@@ -599,7 +599,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -5
-block = -9
+blockType = -9
 
 # Hadoken (OD)
 [[moves]]
@@ -610,7 +610,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "236[pp]"
 cancelsInto = ["super3", "super2"]
 frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-40"]
@@ -619,7 +619,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 54
-block = -1
+blockType = -1
 
 # Denjin Hadoken
 [[moves]]
@@ -630,7 +630,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "236p"
 cancelsInto = ["super3"]
 chainsInto = []
@@ -642,7 +642,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 52
-block = -3
+blockType = -3
 
 # Denjin Hadoken (OD)
 [[moves]]
@@ -653,7 +653,7 @@ characterId = 0
 type = "special"
 damage = 1_000
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "236[pp]"
 cancelsInto = ["super2", "super3"]
 chainsInto = []
@@ -665,7 +665,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 57
-block = 2
+blockType = 2
 
 # Shoryuken (Light)
 [[moves]]
@@ -677,14 +677,14 @@ characterId = 0
 type = "special"
 damage = 1_100
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623lp"
 cancelsInto = ["super3"]
 frameCount = ["S-4", "A-14", "R-47"]
 
 [moves.frameAdvantage]
 hit = 38
-block = -21
+blockType = -21
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -700,14 +700,14 @@ characterId = 0
 type = "special"
 damage = 1_200
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623mp"
 cancelsInto = ["super3"]
 frameCount = ["S-5", "A-15", "R-57"]
 
 [moves.frameAdvantage]
 hit = 34
-block = -30
+blockType = -30
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -723,14 +723,14 @@ characterId = 0
 type = "special"
 damage = 1_400
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623hp"
 cancelsInto = ["super3"]
 frameCount = ["S-6", "A-16", "R-65"]
 
 [moves.frameAdvantage]
 hit = 29
-block = -37
+blockType = -37
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -746,13 +746,13 @@ characterId = 0
 type = "special"
 damage = 1_600
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "623[pp]"
 frameCount = ["S-6", "A-16", "R-68"]
 
 [moves.frameAdvantage]
 hit = 29
-block = -40
+blockType = -40
 
 [moves.invincibilityFrames]
 start = 2
@@ -760,9 +760,9 @@ end = 6
 airStart = 7
 airEnd = 10
 
-# Tatsumaki Senpukyaku (Light)
+# Tatsumaki Senpu-kyaku (Light)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Light)"
+name = "Tatsumaki Senpu-kyaku (Light)"
 slug = "ryu-tatsumaki-senpukyaku-light"
 alternativeNames = ["Hurricane Kick", "Tatsu"]
 name_ja = "竜巻旋風脚 (弱)"
@@ -770,17 +770,17 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214lk"
 frameCount = ["S-11", "A-14", "R-46"]
 
 [moves.frameAdvantage]
 hit = 35
-block = -14
+blockType = -14
 
-# Tatsumaki Senpukyaku (Medium)
+# Tatsumaki Senpu-kyaku (Medium)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Medium)"
+name = "Tatsumaki Senpu-kyaku (Medium)"
 name_ja = "竜巻旋風脚 (中)"
 slug = "ryu-tatsumaki-senpukyaku-medium"
 alternativeNames = ["Hurricane Kick", "Tatsu"]
@@ -788,17 +788,17 @@ characterId = 0
 type = "special"
 damage = 900
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214mk"
 frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
 
 [moves.frameAdvantage]
 hit = 23
-block = -12
+blockType = -12
 
-# Tatsumaki Senpukyaku (Heavy)
+# Tatsumaki Senpu-kyaku (Heavy)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Heavy)"
+name = "Tatsumaki Senpu-kyaku (Heavy)"
 name_ja = "竜巻旋風脚 (強)"
 slug = "ryu-tatsumaki-senpukyaku-heavy"
 alternativeNames = ["Hurricane Kick", "Tatsu"]
@@ -806,17 +806,17 @@ characterId = 0
 type = "special"
 damage = 1_000
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "214hk"
 frameCount = ["S-15", "A-17", "R-30", "A-32", "R-45", "A-47", "R-78"]
 
 [moves.frameAdvantage]
 hit = 20
-block = -12
+blockType = -12
 
-# Tatsumaki Senpukyaku (OD)
+# Tatsumaki Senpu-kyaku (OD)
 [[moves]]
-name = "Tatsumaki Senpukyaku (OD)"
+name = "Tatsumaki Senpu-kyaku (OD)"
 name_ja = "竜巻旋風脚 (OD)"
 slug = "ryu-tatsumaki-senpukyaku-od"
 alternativeNames = ["Hurricane Kick", "Tatsu"]
@@ -824,7 +824,7 @@ characterId = 0
 type = "special"
 damage = "1000"
 hitCount = 5
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]"
 frameCount = [
   "S-12",
@@ -842,11 +842,11 @@ frameCount = [
 
 [moves.frameAdvantage]
 hit = 57
-block = -14
+blockType = -14
 
-# Aerial Tatsumaki Senpukyaku
+# Aerial Tatsumaki Senpu-kyaku
 [[moves]]
-name = "Aerial Tatsumaki Senpukyaku"
+name = "Aerial Tatsumaki Senpu-kyaku"
 name_ja = "空中竜巻旋風脚"
 slug = "aerial-tatsumaki-senpukyaku"
 alternativeNames = ["Air Tatsu"]
@@ -854,16 +854,16 @@ characterId = 0
 type = "special"
 damage = 900
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "j214k"
 cancelsInto = []
 chainsInto = []
 frameCount = ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"]
 properties = ["canCrossUp", "knockdown"]
 
-# Aerial Tatsumaki Senpukyaku (OD)
+# Aerial Tatsumaki Senpu-kyaku (OD)
 [[moves]]
-name = "Aerial Tatsumaki Senpukyaku (OD)"
+name = "Aerial Tatsumaki Senpu-kyaku (OD)"
 name_ja = "空中竜巻旋風脚 (OD)"
 slug = "aerial-ryu-tatsumaki-senpukyaku-od"
 alternativeNames = ["EX Air Tatsu"]
@@ -871,7 +871,7 @@ characterId = 0
 type = "special"
 damage = 1_500
 hitCount = 4
-guardLevel = "high"
+blockType = "high"
 input = "j214[kk]"
 cancelsInto = []
 chainsInto = []
@@ -898,7 +898,7 @@ characterId = 0
 type = "special"
 damage = 1_000
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236lk"
 cancelsInto = ["super"]
 chainsInto = []
@@ -906,7 +906,7 @@ frameCount = ["S-14", "A-23", "R-45"]
 
 [moves.frameAdvantage]
 hit = 35
-block = -11
+blockType = -11
 
 # High Blade Kick (Medium)
 [[moves]]
@@ -918,7 +918,7 @@ characterId = 0
 type = "special"
 damage = 1_100
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236mk"
 cancelsInto = ["super"]
 chainsInto = []
@@ -926,7 +926,7 @@ frameCount = ["S-17", "A-26", "R-45"]
 
 [moves.frameAdvantage]
 hit = 40
-block = -8
+blockType = -8
 
 # High Blade Kick (Heavy)
 [[moves]]
@@ -938,7 +938,7 @@ characterId = 0
 type = "special"
 damage = 1_300
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236hk"
 cancelsInto = ["super"]
 chainsInto = []
@@ -946,7 +946,7 @@ frameCount = ["S-28", "A-37", "R-53"]
 
 [moves.frameAdvantage]
 hit = 45
-block = -5
+blockType = -5
 
 # High Blade Kick (OD)
 [[moves]]
@@ -958,7 +958,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236[kk]"
 cancelsInto = ["special", "super"]
 chainsInto = []
@@ -966,7 +966,7 @@ frameCount = ["S-18", "A-23", "R-55"]
 
 [moves.frameAdvantage]
 hit = 64
-block = -18
+blockType = -18
 
 # Hashogeki (Light)
 [[moves]]
@@ -977,7 +977,7 @@ characterId = 0
 type = "special"
 damage = 700
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214lp"
 cancelsInto = ["super3"]
 chainsInto = []
@@ -985,7 +985,7 @@ frameCount = ["S-11", "A-17", "R-35"]
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+blockType = -4
 
 # Hashogeki (Medium)
 [[moves]]
@@ -996,7 +996,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214mp"
 cancelsInto = ["super3"]
 chainsInto = []
@@ -1004,7 +1004,7 @@ frameCount = ["S-18", "A-24", "R-41"]
 
 [moves.frameAdvantage]
 hit = 2
-block = -5
+blockType = -5
 
 # Hashogeki (Heavy)
 [[moves]]
@@ -1015,7 +1015,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "214hp"
 cancelsInto = ["super3"]
 chainsInto = []
@@ -1023,7 +1023,7 @@ frameCount = ["S-29", "A-35", "R-54"]
 
 [moves.frameAdvantage]
 hit = 61
-block = 2
+blockType = 2
 
 # Hashogeki (OD)
 [[moves]]
@@ -1034,7 +1034,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "214[pp]"
 cancelsInto = ["super2", "super3"]
 chainsInto = []
@@ -1042,7 +1042,7 @@ frameCount = ["S-18", "PA-19", "S-24", "R-43"]
 
 [moves.frameAdvantage]
 hit = 3
-block = 3
+blockType = 3
 
 # Denjin Hashogeki
 [[moves]]
@@ -1053,7 +1053,7 @@ characterId = 0
 type = "special"
 damage = 800
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "214p"
 cancelsInto = ["super3"]
 chainsInto = []
@@ -1063,7 +1063,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 62
-block = 3
+blockType = 3
 
 # Denjin Hashogeki (OD)
 [[moves]]
@@ -1074,7 +1074,7 @@ characterId = 0
 type = "special"
 damage = 600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[pp]"
 cancelsInto = ["super2", "super3"]
 chainsInto = []
@@ -1084,7 +1084,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 87
-block = 4
+blockType = 4
 
 # Shinku Hadoken
 [[moves]]
@@ -1095,7 +1095,7 @@ characterId = 0
 type = "super1"
 damage = 2_000
 hitCount = 5
-guardLevel = "high"
+blockType = "high"
 input = "236236p"
 cancelsInto = []
 chainsInto = []
@@ -1115,7 +1115,7 @@ frameCount = [
 
 [moves.frameAdvantage]
 hit = 26
-block = -24
+blockType = -24
 
 [moves.invincibilityFrames]
 start = 1
@@ -1132,7 +1132,7 @@ characterId = 0
 type = "super1"
 damage = 2_400
 hitCount = 4
-guardLevel = "high"
+blockType = "high"
 input = "236236p"
 cancelsInto = []
 chainsInto = []
@@ -1154,7 +1154,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 27
-block = -24
+blockType = -24
 
 [moves.invincibilityFrames]
 start = 1
@@ -1171,7 +1171,7 @@ characterId = 0
 type = "super2"
 damage = 2_600
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214p"
 cancelsInto = []
 chainsInto = []
@@ -1180,7 +1180,7 @@ properties = ["armorBreak"]
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 # Shin Hashogeki (Level 1)
 [[moves]]
@@ -1191,7 +1191,7 @@ characterId = 0
 type = "super2"
 damage = 2_800
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
@@ -1199,7 +1199,7 @@ frameCount = ["S-20", "A-26", "PA-27", "R-65"]
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 # Shin Hashogeki (Level 2)
 [[moves]]
@@ -1210,7 +1210,7 @@ characterId = 0
 type = "super2"
 damage = 3_000
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
@@ -1218,7 +1218,7 @@ frameCount = ["S-49", "A-55", "R-94"]
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 # Denjin Shin Hashogeki (No charge)
 [[moves]]
@@ -1229,7 +1229,7 @@ characterId = 0
 type = "super2"
 damage = 3_000
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
@@ -1239,7 +1239,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1254,7 +1254,7 @@ characterId = 0
 type = "super2"
 damage = 3_200
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
@@ -1264,7 +1264,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1279,7 +1279,7 @@ characterId = 0
 type = "super2"
 damage = 3_400
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214214(p)"
 cancelsInto = []
 chainsInto = []
@@ -1289,7 +1289,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-block = -20
+blockType = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1304,7 +1304,7 @@ characterId = 0
 type = "super3"
 damage = 4_000
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236236k"
 cancelsInto = []
 chainsInto = []
@@ -1312,7 +1312,7 @@ frameCount = ["S-4", "A-16", "R-38"]
 
 [moves.frameAdvantage]
 hit = 8
-block = -52
+blockType = -52
 
 [moves.invincibilityFrames]
 start = 1
@@ -1327,7 +1327,7 @@ characterId = 0
 type = "super3"
 damage = 4_500
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236236k"
 cancelsInto = []
 chainsInto = []
@@ -1335,7 +1335,7 @@ frameCount = ["S-4", "A-16", "R-50"]
 
 [moves.frameAdvantage]
 hit = 8
-block = -52
+blockType = -52
 
 [moves.invincibilityFrames]
 start = 1

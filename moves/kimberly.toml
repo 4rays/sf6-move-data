@@ -10,7 +10,7 @@ abbeviation_ja = "立ち弱P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5lp"
 notes = []
 notes_ja = []
@@ -27,7 +27,7 @@ abbeviation_ja = "立ち中P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mp"
 
 # Standing Heavy Punch
@@ -42,7 +42,7 @@ abbeviation_ja = "立ち強P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hp"
 
 # Standing Light Kick
@@ -57,7 +57,7 @@ abbeviation_ja = "立ち弱K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5lk"
 
 # Standing Medium Kick
@@ -72,7 +72,7 @@ abbeviation_ja = "立ち中K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5mk"
 
 # Standing Heavy Kick
@@ -87,7 +87,7 @@ abbeviation_ja = "立ち強K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5hk"
 
 # Crouching Light Punch
@@ -102,7 +102,7 @@ abbeviation_ja = "屈弱P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2lp"
 
 # Crouching Medium Punch
@@ -117,7 +117,7 @@ abbeviation_ja = "屈中P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2mp"
 
 # Crouching Heavy Punch
@@ -132,7 +132,7 @@ abbeviation_ja = "屈強P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2hp"
 
 # Crouching Light Kick
@@ -147,12 +147,12 @@ abbeviation_ja = "屈弱K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lk"
 
-# Crouch Medium Kick
+# Crouching Medium Kick
 [[moves]]
-name = "Crouch Medium Kick"
+name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
@@ -162,7 +162,7 @@ abbeviation_ja = "屈中K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk"
 
 # Crouching Heavy Kick
@@ -177,7 +177,7 @@ abbeviation_ja = "屈強K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hk"
 
 # Jumping Light Punch
@@ -192,7 +192,7 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlp"
 
 # Jumping Medium Punch
@@ -207,7 +207,7 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmp"
 
 # Jumping Heavy Punch
@@ -222,7 +222,7 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhp"
 
 # Jumping Light Kick
@@ -237,7 +237,7 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlk"
 
 # Jumping Medium Kick
@@ -252,7 +252,7 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmk"
 
 # Jumping Heavy Kick
@@ -267,7 +267,7 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 5
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhk"
 
 # Water Slicer Slide
@@ -278,7 +278,7 @@ slug = "water-slicer-slide"
 characterId = 5
 type = "commandNormal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "3mk"
 
 # Windmill Kick
@@ -289,7 +289,7 @@ slug = "windmill-kick"
 characterId = 5
 type = "commandNormal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "4hk"
 
 # Hisen Kick
@@ -300,7 +300,7 @@ slug = "hisen-kick"
 characterId = 5
 type = "commandNormal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "6hk"
 
 # Step Up
@@ -321,7 +321,7 @@ slug = "elbow-drop"
 characterId = 5
 type = "commandNormal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j2mp"
 
 # Bushin Tiger Fangs
@@ -332,7 +332,7 @@ slug = "bushin-tiger-fangs"
 characterId = 5
 type = "targetCombo"
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "mp>hp"
 
 # Bushin Prism Strikes
@@ -343,7 +343,7 @@ slug = "bushin-prism-strikes"
 characterId = 5
 type = "targetCombo"
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "lp>mp>hp>hk"
 
 # Bushin Hellchain
@@ -354,7 +354,7 @@ slug = "bushin-hellchain"
 characterId = 5
 type = "targetCombo"
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "lp>mp>2hp>2hk"
 
 # Bushin Hellchain Throw
@@ -365,95 +365,95 @@ slug = "bushin-hellchain-throw"
 characterId = 5
 type = "targetCombo"
 hitCount = 4
-guardLevel = "high"
+blockType = "high"
 input = "lp>mp>2hp>2hk"
 
-# Bunshin Senpukyaku (Light)
+# Bunshin Senpu-kyaku (Light)
 [[moves]]
-name = "Bunshin Senpukyaku (Light)"
+name = "Bunshin Senpu-kyaku (Light)"
 name_ja = "武神旋風脚 (弱)"
 slug = "bunshin-senpukyaku-light"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214lk"
 
-# Bunshin Senpukyaku (Medium)
+# Bunshin Senpu-kyaku (Medium)
 [[moves]]
-name = "Bunshin Senpukyaku (Medium)"
+name = "Bunshin Senpu-kyaku (Medium)"
 name_ja = "武神旋風脚 (中)"
 slug = "bunshin-senpukyaku-medium"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214mk"
 
-# Bunshin Senpukyaku (Heavy)
+# Bunshin Senpu-kyaku (Heavy)
 [[moves]]
-name = "Bunshin Senpukyaku (Heavy)"
+name = "Bunshin Senpu-kyaku (Heavy)"
 name_ja = "武神旋風脚 (強)"
 slug = "bunshin-senpukyaku-heavy"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214hk"
 
-# Bunshin Senpukyaku (OD)
+# Bunshin Senpu-kyaku (OD)
 [[moves]]
-name = "Bunshin Senpukyaku (OD)"
+name = "Bunshin Senpu-kyaku (OD)"
 name_ja = "武神旋風脚 (OD)"
 slug = "bunshin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]"
 
-# Aerial Bunshin Senpukyaku (Light)
+# Aerial Bunshin Senpu-kyaku (Light)
 [[moves]]
-name = "Aerial Bunshin Senpukyaku (Light)"
+name = "Aerial Bunshin Senpu-kyaku (Light)"
 name_ja = "空中武神旋風脚 (弱)"
 slug = "aerial-bunshin-senpukyaku-light"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214lk"
 
-# Aerial Bunshin Senpukyaku (Medium)
+# Aerial Bunshin Senpu-kyaku (Medium)
 [[moves]]
-name = "Aerial Bunshin Senpukyaku (Medium)"
+name = "Aerial Bunshin Senpu-kyaku (Medium)"
 name_ja = "空中武神旋風脚 (中)"
 slug = "aerial-bunshin-senpukyaku-medium"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214mk"
 
-# Aerial Bunshin Senpukyaku (Heavy)
+# Aerial Bunshin Senpu-kyaku (Heavy)
 [[moves]]
-name = "Aerial Bunshin Senpukyaku (Heavy)"
+name = "Aerial Bunshin Senpu-kyaku (Heavy)"
 name_ja = "空中武神旋風脚 (強)"
 slug = "aerial-bunshin-senpukyaku-heavy"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214hk"
 
-# Aerial Bunshin Senpukyaku (OD)
+# Aerial Bunshin Senpu-kyaku (OD)
 [[moves]]
-name = "Aerial Bunshin Senpukyaku (OD)"
+name = "Aerial Bunshin Senpu-kyaku (OD)"
 name_ja = "空中武神旋風脚 (OD)"
 slug = "aerial-bunshin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214[kk]"
 
 # Sprint
@@ -502,7 +502,7 @@ slug = "torso-cleaver"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236k>k"
 parentSlug = "sprint"
 
@@ -514,7 +514,7 @@ slug = "torso-cleaver-od"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236[kk]>k"
 parentSlug = "sprint-od"
 
@@ -526,7 +526,7 @@ slug = "shadow-slide"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "236k>mk"
 parentSlug = "sprint"
 
@@ -538,7 +538,7 @@ slug = "shadow-slide-od"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "236[kk]>mk"
 parentSlug = "sprint-od"
 
@@ -550,7 +550,7 @@ slug = "neck-hunter"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236k>hk"
 parentSlug = "sprint"
 
@@ -562,7 +562,7 @@ slug = "neck-hunter-od"
 characterId = 5
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236[kk]>hk"
 parentSlug = "sprint-od"
 

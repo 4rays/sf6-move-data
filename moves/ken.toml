@@ -10,8 +10,16 @@ abbeviation_ja = "立ち弱P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5lp"
+cancelsInto = ["chain", "special", "super"]
+chainsInto = ["5lp", "2lp"]
+frameCount = ["S-3", "A-6", "R-13"]
+damage = 300
+
+[moves.frameAdvantage]
+hit = 4
+blockType = -1
 
 # Standing Medium Punch
 [[moves]]
@@ -25,8 +33,14 @@ abbeviation_ja = "立ち中P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mp"
+frameCount = ["S-4", "A-8", "R-22"]
+damage = 600
+
+[moves.frameAdvantage]
+hit = 4
+blockType = -2
 
 # Standing Heavy Punch
 [[moves]]
@@ -40,8 +54,14 @@ abbeviation_ja = "立ち強P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hp"
+frameCount = ["S-9", "A-14", "R-31"]
+damage = 800
+
+[moves.frameAdvantage]
+hit = 3
+blockType = -2
 
 # Standing Light Kick
 [[moves]]
@@ -55,8 +75,14 @@ abbeviation_ja = "立ち弱K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5lk"
+frameCount = ["S-4", "A-6", "R-18"]
+damage = 300
+
+[moves.frameAdvantage]
+hit = 0
+blockType = -2
 
 # Standing Medium Kick
 [[moves]]
@@ -70,8 +96,14 @@ abbeviation_ja = "立ち中K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5mk"
+frameCount = ["S-7", "A-10", "R-30"]
+damage = 600
+
+[moves.frameAdvantage]
+hit = 3
+blockType = -5
 
 # Standing Heavy Kick
 [[moves]]
@@ -85,8 +117,14 @@ abbeviation_ja = "立ち強K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5hk"
+frameCount = ["S-11", "A-13", "R-38"]
+damage = 800
+
+[moves.frameAdvantage]
+hit = 1
+blockType = -7
 
 # Crouching Light Punch
 [[moves]]
@@ -100,8 +138,14 @@ abbeviation_ja = "屈弱P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2lp"
+frameCount = ["S-3", "A-5", "R-14"]
+damage = 300
+
+[moves.frameAdvantage]
+hit = 5
+blockType = -1
 
 # Crouching Medium Punch
 [[moves]]
@@ -115,8 +159,14 @@ abbeviation_ja = "屈中P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2mp"
+frameCount = ["S-5", "A-8", "R-22"]
+damage = 700
+
+[moves.frameAdvantage]
+hit = 3
+blockType = 0
 
 # Crouching Heavy Punch
 [[moves]]
@@ -130,8 +180,14 @@ abbeviation_ja = "屈強P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2hp"
+frameCount = ["S-7", "A-11", "R-35"]
+damage = 800
+
+[moves.frameAdvantage]
+hit = 3
+blockType = -10
 
 # Crouching Light Kick
 [[moves]]
@@ -145,12 +201,18 @@ abbeviation_ja = "屈弱K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lk"
+frameCount = ["S-4", "A-7", "R-17"]
+damage = 200
 
-# Crouch Medium Kick
+[moves.frameAdvantage]
+hit = 1
+blockType = -3
+
+# Crouching Medium Kick
 [[moves]]
-name = "Crouch Medium Kick"
+name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
@@ -160,8 +222,14 @@ abbeviation_ja = "屈中K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk"
+frameCount = ["S-6", "A-10", "R-28"]
+damage = 500
+
+[moves.frameAdvantage]
+hit = -2
+blockType = -6
 
 # Crouching Heavy Kick
 [[moves]]
@@ -175,8 +243,14 @@ abbeviation_ja = "屈強K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hk"
+frameCount = ["S-7", "A-10", "R-34"]
+damage = 900
+
+[moves.frameAdvantage]
+hit = 31
+blockType = -8
 
 # Jumping Light Punch
 [[moves]]
@@ -190,8 +264,10 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlp"
+frameCount = ["S-4", "A-11"]
+damage = 300
 
 # Jumping Medium Punch
 [[moves]]
@@ -205,8 +281,10 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmp"
+frameCount = ["S-5", "A-9"]
+damage = 700
 
 # Jumping Heavy Punch
 [[moves]]
@@ -220,8 +298,10 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhp"
+frameCount = ["S-8", "A-14"]
+damage = 800
 
 # Jumping Light Kick
 [[moves]]
@@ -235,8 +315,10 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlk"
+frameCount = ["S-5", "A-11"]
+damage = 300
 
 # Jumping Medium Kick
 [[moves]]
@@ -250,8 +332,27 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmk"
+frameCount = ["S-6", "A-12"]
+damage = 500
+
+# Jumping Neutral Heavy Kick
+[[moves]]
+name = "Jumping Neutral Heavy Kick"
+name_ja = "ジャンプ強キック"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "ken-jump-neutral-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 7
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "8hk"
+frameCount = ["S-5", "A-9"]
+damage = 900
 
 # Jumping Heavy Kick
 [[moves]]
@@ -265,8 +366,10 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 7
 type = "normal"
 hitCount = 1
-guardLevel = "high"
-input = "jhk"
+blockType = "high"
+input = "[7|9]hk"
+frameCount = ["S-9", "A-16"]
+damage = 800
 
 # Quick Dash
 [[moves]]
@@ -277,6 +380,7 @@ characterId = 7
 type = "special"
 hitCount = 0
 input = "[kk]"
+frameCount = ["S-45"]
 
 # Emergency Stop
 [[moves]]
@@ -288,6 +392,7 @@ type = "special"
 hitCount = 0
 input = "[kk]>lk"
 parentSlug = "quick-dash"
+frameCount = ["S-16"]
 
 # Thunder Kick
 [[moves]]
@@ -299,6 +404,13 @@ type = "special"
 hitCount = 1
 input = "[kk]>mk"
 parentSlug = "quick-dash"
+frameCount = ["A-3", "R-23"]
+damage = 1000
+blockType = "high"
+
+[frameAdvantage]
+hit = 3
+blockType = -3
 
 # Forward Step Kick
 [[moves]]
@@ -311,6 +423,13 @@ type = "targetCombo"
 hitCount = 1
 input = "[kk]>hk"
 parentSlug = "quick-dash"
+frameCount = ["A-4", "R-24"]
+damage = 800
+blockType = "high"
+
+[frameAdvantage]
+hit = 3
+blockType = -7
 
 # Chin Buster 2nd
 [[moves]]
@@ -322,6 +441,13 @@ characterId = 7
 type = "targetCombo"
 hitCount = 1
 input = "mp>hp"
+damage = 1000
+blockType = "high"
+frameCount = ["S-4", "A-8", "R-9", "S-19", "A-22", "R-32"]
+
+[frameAdvantage]
+hit = 36
+blockType = -7
 
 # Triple Flash Kick
 [[moves]]
@@ -332,6 +458,13 @@ characterId = 7
 type = "targetCombo"
 hitCount = 3
 input = "mk>mk>hk"
+blockType = "high"
+damage = 960
+frameCount = ["S-7", "A-10", "R-14", "S-24", "A-26", "R-39"]
+
+[frameAdvantage]
+hit = 28
+blockType = -11
 
 # Hadoken (Light)
 [[moves]]
@@ -341,10 +474,17 @@ slug = "ken-hadoken-light"
 characterId = 7
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236lp"
+cancelsInto = ["super3"]
+frameCount = ["S-15", "PA-16", "R-49"]
+damage = 600
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
+
+[moves.frameAdvantage]
+hit = -3
+blockType = -8
 
 # Hadoken (Medium)
 [[moves]]
@@ -354,10 +494,17 @@ slug = "ken-hadoken-medium"
 characterId = 7
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236mp"
+cancelsInto = ["super3"]
+frameCount = ["S-13", "PA-14", "R-49"]
+damage = 600
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
+
+[moves.frameAdvantage]
+hit = -5
+blockType = -10
 
 # Hadoken (Heavy)
 [[moves]]
@@ -367,10 +514,17 @@ slug = "ken-hadoken-heavy"
 characterId = 7
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236hp"
+cancelsInto = ["super"]
+frameCount = ["S-11", "PA-12", "R-49"]
+damage = 600
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
+
+[[moves.frameAdvantage]]
+hit = -7
+blockType = -12
 
 # Hadoken (OD)
 [[moves]]
@@ -379,11 +533,17 @@ name_ja = "波動拳 (OD)"
 slug = "ken-hadoken-od"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 2
+blockType = "high"
 input = "236[pp]"
+frameCount = ["S-11", "PA-12", "R-19", "PA-20", "R-40"]
+damage = 800
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
+
+[moves.frameAdvantage]
+hit = 2
+blockType = -2
 
 # Shoryuken (Light)
 [[moves]]
@@ -393,8 +553,18 @@ slug = "ken-shoryuken-light"
 characterId = 7
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623lp"
+frameCount = ["S-4", "A-14", "R-47"]
+damage = 1100
+
+[moves.frameAdvantage]
+hit = 33
+blockType = -23
+
+[moves.invincibilityFrames]
+airStart = 1
+airEnd = 14
 
 # Shoryuken (Medium)
 [[moves]]
@@ -403,9 +573,19 @@ name_ja = "昇龍拳 (中)"
 slug = "ken-shoryuken-medium"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 2
+blockType = "high"
 input = "623mp"
+frameCount = ["S-5", "A-15", "R-55"]
+damage = 1300
+
+[moves.frameAdvantage]
+hit = 33
+blockType = -28
+
+[moves.invincibilityFrames]
+airStart = 1
+airEnd = 15
 
 # Shoryuken (Heavy)
 [[moves]]
@@ -414,9 +594,21 @@ name_ja = "昇龍拳 (強)"
 slug = "ken-shoryuken-heavy"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 3
+blockType = "high"
 input = "623hp"
+frameCount = ["S-6", "A-16", "R-66"]
+damage = 1400
+
+[moves.frameAdvantage]
+hit = 25
+blockType = -36
+
+[moves.invincibilityFrames]
+airStart = 1
+airEnd = 16
+projectileStart = 5
+projectileEnd = 6
 
 # Shoryuken (OD)
 [[moves]]
@@ -425,9 +617,21 @@ name_ja = "昇龍拳 (OD)"
 slug = "ken-shoryuken-od"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 6
+blockType = "high"
 input = "623[pp]"
+frameCount = ["S-5", "A-15", "R-29", "A-39", "R-89"]
+damage = 1600
+
+[moves.frameAdvantage]
+hit = 29
+blockType = -37
+
+[moves.invincibilityFrames]
+airStart = 6
+airEnd = 15
+start = 1
+end = 5
 
 # Quick Dash Shoryuken
 [[moves]]
@@ -436,58 +640,88 @@ name_ja = "奮迅脚昇龍拳"
 slug = "quick-dash-shoryuken"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 5
+blockType = "high"
 input = "[kk]>623p"
 parentSlug = "quick-dash"
+frameCount = ["S-6", "A-17", "R-67"]
+damage = 1700
 
-# Tatsumaki Senpukyaku (Light)
+[moves.frameAdvantage]
+hit = 22
+blockType = -35
+
+# Tatsumaki Senpu-kyaku (Light)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Light)"
+name = "Tatsumaki Senpu-kyaku (Light)"
 name_ja = "竜巻旋風脚 (弱)"
 slug = "ken-tatsumaki-senpukyaku-light"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 2
+blockType = "high"
 input = "214lk"
+frameCount = ["S-3", "A-5", "R-11", "A-14", "R-46"]
+damage = 700
 
-# Tatsumaki Senpukyaku (Medium)
+[[moves.frameAdvantage]]
+hit = 46
+blockType = -14
+
+# Tatsumaki Senpu-kyaku (Medium)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Medium)"
+name = "Tatsumaki Senpu-kyaku (Medium)"
 name_ja = "竜巻旋風脚 (中)"
 slug = "ken-tatsumaki-senpukyaku-medium"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 2
+blockType = "high"
 input = "214mk"
+frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
+damage = 900
 
-# Tatsumaki Senpukyaku (Heavy)
+[[moves.frameAdvantage]]
+hit = 44
+blockType = -12
+
+# Tatsumaki Senpu-kyaku (Heavy)
 [[moves]]
-name = "Tatsumaki Senpukyaku (Heavy)"
+name = "Tatsumaki Senpu-kyaku (Heavy)"
 name_ja = "竜巻旋風脚 (強)"
 slug = "ken-tatsumaki-senpukyaku-heavy"
 characterId = 7
 type = "special"
-hitCount = 1
-guardLevel = "high"
+hitCount = 3
+blockType = "high"
 input = "214hk"
+frameCount = ["S-15", "A-17", "R-30", "A-32", "R-55", "A-57", "R-78"]
+damage = 1000
 
-# Tatsumaki Senpukyaku (OD)
+[[moves.frameAdvantage]]
+hit = 36
+blockType = -12
+
+# Tatsumaki Senpu-kyaku (OD)
 [[moves]]
-name = "Tatsumaki Senpukyaku (OD)"
+name = "Tatsumaki Senpu-kyaku (OD)"
 name_ja = "竜巻旋風脚 (OD)"
 slug = "ken-tatsumaki-senpukyaku-od"
 characterId = 7
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]"
+frameCount = ["S-9", "A-13", "R-18", "A-21", "R-27", "A-30", "R-36", "A-39", "R-54", "A-57", "R-90"]
+damage = 1500
 
-# Quick Dash Tatsumaki Senpukyaku
+[[moves.frameAdvantage]]
+hit = 28
+blockType = -61
+
+# Quick Dash Tatsumaki Senpu-kyaku
 [[moves]]
-name = "Quick Dash Tatsumaki Senpukyaku"
+name = "Quick Dash Tatsumaki Senpu-kyaku"
 name_ja = "奮迅脚竜巻旋風脚"
 slug = "quick-dash-tatsumaki-senpukyaku"
 characterId = 7
@@ -495,26 +729,35 @@ type = "special"
 hitCount = 1
 input = "[kk]>214k"
 parentSlug = "quick-dash"
+frameCount = ["A-2", "R-4", "A-7", "R-9", "A-11", "R-13", "A-16", "R-18", "A-20", "R-22", "A-25", "R-27", "A-29", "R-31", "A-34", "R-36", "A-38", "R-78"]
+damage = 1200
 
-# Aerial Tatsumaki Senpukyaku
+[moves.frameAdvantage]
+hit = 28
+blockType = -61
+
+# Aerial Tatsumaki Senpu-kyaku
 [[moves]]
-name = "Aerial Tatsumaki Senpukyaku"
+name = "Aerial Tatsumaki Senpu-kyaku"
 name_ja = "空中竜巻旋風脚"
 slug = "ken-aerial-tatsumaki-senpukyaku"
 characterId = 7
 type = "special"
 hitCount = 1
-input = "214lk (in air)"
+input = "j214k"
+frameCount = ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27", "R-32"]
+damage = 700
 
-# Aerial Tatsumaki Senpukyaku (OD)
+# Aerial Tatsumaki Senpu-kyaku (OD)
 [[moves]]
-name = "Aerial Tatsumaki Senpukyaku (OD)"
+name = "Aerial Tatsumaki Senpu-kyaku (OD)"
 name_ja = "空中竜巻旋風脚 (OD)"
 slug = "ken-aerial-tatsumaki-senpukyaku-od"
 characterId = 7
 type = "special"
 hitCount = 1
-input = "j214mk"
+input = "j214[kk]"
+damage = 1600
 
 # Dragonlash Kick (Light)
 [[moves]]
@@ -525,6 +768,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "623lk"
+blockType = "high"
+damage = 1000
+frameCount = ["S-17", "A-23", "R-45"]
+
+[[moves.frameAdvantage]]
+hit = 1
+blockType = -6
 
 # Dragonlash Kick (Medium)
 [[moves]]
@@ -535,6 +785,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "623mk"
+blockType = "high"
+damage = 1100
+frameCount = ["S-22", "A-27", "R-52"]
+
+[[moves.frameAdvantage]]
+hit = 3
+blockType = -8
 
 # Dragonlash Kick (Heavy)
 [[moves]]
@@ -545,6 +802,14 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "623hk"
+blockType = "high"
+damage = 1200
+frameCount = ["S-27", "A-32", "R-53"]
+properties = ["juggle"]
+
+[[moves.frameAdvantage]]
+hit = 3
+blockType = 1
 
 # Dragonlash Kick (OD)
 [[moves]]
@@ -555,17 +820,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "623[kk]"
+blockType = "high"
+damage = 700
+frameCount = ["S-8", "A-10", "S-17", "A-23", "R-47"]
 
-# Quick Dash Dragonlash Kick
-[[moves]]
-name = "Quick Dash Dragonlash Kick"
-name_ja = "奮迅脚龍尾脚"
-slug = "quick-dash-dragonlash-kick"
-characterId = 7
-type = "special"
-hitCount = 1
-input = "[kk]>623k"
-parentSlug = "quick-dash"
+[[moves.frameAdvantage]]
+hit = 2
+blockType = -8
 
 # Jinrai Kick (Light)
 [[moves]]
@@ -576,6 +837,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "236lk"
+blockType = "high"
+damage = 500
+frameCount = ["S-11", "A-14", "R-42"]
+
+[[moves.frameAdvantage]]
+hit = 1
+blockType = -11
 
 # Jinrai Kick (Medium)
 [[moves]]
@@ -586,6 +854,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "236mk"
+blockType = "high"
+damage = 600
+frameCount = ["S-15", "A-18", "R-42"]
+
+[[moves.frameAdvantage]]
+hit = 2
+blockType = -7
 
 # Jinrai Kick (Heavy)
 [[moves]]
@@ -596,6 +871,14 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "236hk"
+blockType = "high"
+damage = 700
+frameCount = ["S-24", "A-27", "R-46"]
+properties = ["juggle"]
+
+[[moves.frameAdvantage]]
+hit = 42
+blockType = -2
 
 # Jinrai Kick (OD)
 [[moves]]
@@ -606,6 +889,13 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "236[kk]"
+blockType = "high"
+damage = 600
+frameCount = ["S-12", "A-15", "R-40"]
+
+[[moves.frameAdvantage]]
+hit = -4
+blockType = -7
 
 # Kazekama Shin Kick
 [[moves]]
@@ -617,6 +907,13 @@ type = "special"
 hitCount = 1
 input = "236[kk]>lk"
 parentSlug = "jinrai-kick"
+blockType = "low"
+damage = 500
+frameCount = ["A-4", "R-23"]
+
+[[moves.frameAdvantage]]
+hit = 3
+blockType = -5
 
 # Gorai Axe Kick
 [[moves]]
@@ -628,6 +925,13 @@ type = "special"
 hitCount = 1
 input = "236[kk]>mk"
 parentSlug = "jinrai-kick"
+blockType = "overhead"
+damage = 500
+frameCount = ["A-3", "R-24"]
+
+[[moves.frameAdvantage]]
+hit = 3
+blockType = -3
 
 # Senka Snap Kick
 [[moves]]
@@ -639,6 +943,13 @@ type = "special"
 hitCount = 1
 input = "236[kk]>hk"
 parentSlug = "jinrai-kick"
+blockType = "high"
+damage = 800
+frameCount = ["A-3", "R-28"]
+
+[[moves.frameAdvantage]]
+hit = 33
+blockType = -3
 
 # Kasai Thrust Kick
 [[moves]]
@@ -647,9 +958,16 @@ name_ja = "火砕突き"
 slug = "kasai-thrust-kick"
 characterId = 7
 type = "special"
-hitCount = 1
+hitCount = 2
 input = "236[kk]>k>k"
 parentSlug = "jinrai-kick-od"
+blockType = "high"
+damage = 800
+frameCount = ["A-3", "R-17", "A-20", "R-49"]
+
+[[moves.frameAdvantage]]
+hit = 34
+blockType = -12
 
 # Dragonlash Flame
 [[moves]]
@@ -660,6 +978,20 @@ characterId = 7
 type = "super1"
 hitCount = 1
 input = "214214k"
+blockType = "high"
+damage = 2000
+frameCount = ["S-6", "A-11", "R-29", "A-32", "R-43", "A-46", "R-59", "A-63", "R-125"]
+properties = ["armorBrea"]
+
+[[moves.frameAdvantage]]
+hit = 36
+blockType = -5
+
+[[moves.invincibilityFrames]]
+start = 1
+end = 11
+strikeStart = 2
+strikeEnd = 9
 
 # Shippu Jinrai-kyaku
 [[moves]]
@@ -670,6 +1002,17 @@ characterId = 7
 type = "super2"
 hitCount = 1
 input = "236236k"
+blockType = "high"
+frameCount = ["S-5", "A-7", "R-17", "A-20", "R-30", "A-33", "R-45", "A-48", "R-59", "A-61", "R-80", "A-82", "R-93", "A-95", "R-103", "A-105", "R-113", "A-115", "R-122", "A-124", "R-197"]
+damage = 2700
+
+[[moves.frameAdvantage]]
+hit = 36
+blockType = -19
+
+[[moves.invincibilityFrames]]
+start = 1
+end = 1
 
 # Shinryu Reppa
 [[moves]]
@@ -680,6 +1023,17 @@ characterId = 7
 type = "super3"
 hitCount = 1
 input = "236236p"
+blockType = "high"
+damage = 4000
+frameCount = ["S-6", "R-36"]
+
+[[moves.frameAdvantage]]
+hit = 15
+blockType = -30
+
+[[moves.invincibilityFrames]]
+start = 1
+end = 36
 
 # Shinryu Reppa (Critical Art)
 [[moves]]
@@ -690,6 +1044,17 @@ characterId = 7
 type = "super3"
 hitCount = 1
 input = "236236p"
+blockType = "high"
+frameCount = ["S-6", "R-36"]
+damage = 4500
+
+[[moves.frameAdvantage]]
+hit = 15
+blockType = -30
+
+[[moves.invincibilityFrames]]
+start = 1
+end = 36
 
 # Knee Strikes
 [[moves]]
@@ -701,6 +1066,7 @@ characterId = 7
 type = "throw"
 hitCount = 1
 input = "[lplk]"
+damage = 1200
 
 # Hell Wheel
 [[moves]]
@@ -712,3 +1078,4 @@ characterId = 7
 type = "throw"
 hitCount = 1
 input = "[2lplk]"
+damage = 1200

@@ -10,7 +10,7 @@ abbeviation_ja = "立ち弱P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5lp"
 notes = []
 notes_ja = []
@@ -27,7 +27,7 @@ abbeviation_ja = "立ち中P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mp"
 
 # Standing Heavy Punch
@@ -42,7 +42,7 @@ abbeviation_ja = "立ち強P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hp"
 
 # Standing Light Kick
@@ -57,7 +57,7 @@ abbeviation_ja = "立ち弱K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5lk"
 
 # Standing Medium Kick
@@ -72,7 +72,7 @@ abbeviation_ja = "立ち中K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5mk"
 
 # Standing Heavy Kick
@@ -87,7 +87,7 @@ abbeviation_ja = "立ち強K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5hk"
 
 # Crouching Light Punch
@@ -102,7 +102,7 @@ abbeviation_ja = "屈弱P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2lp"
 
 # Crouching Medium Punch
@@ -117,7 +117,7 @@ abbeviation_ja = "屈中P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2mp"
 
 # Crouching Heavy Punch
@@ -132,7 +132,7 @@ abbeviation_ja = "屈強P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2hp"
 
 # Crouching Light Kick
@@ -147,12 +147,12 @@ abbeviation_ja = "屈弱K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lk"
 
-# Crouch Medium Kick
+# Crouching Medium Kick
 [[moves]]
-name = "Crouch Medium Kick"
+name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
@@ -162,7 +162,7 @@ abbeviation_ja = "屈中K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk"
 
 # Crouching Heavy Kick
@@ -177,7 +177,7 @@ abbeviation_ja = "屈強K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hk"
 
 # Jumping Light Punch
@@ -192,7 +192,7 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlp"
 
 # Jumping Medium Punch
@@ -207,7 +207,7 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmp"
 
 # Jumping Heavy Punch
@@ -222,7 +222,7 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhp"
 
 # Jumping Light Kick
@@ -237,7 +237,7 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlk"
 
 # Jumping Medium Kick
@@ -252,7 +252,7 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmk"
 
 # Jumping Heavy Kick
@@ -267,7 +267,7 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 1
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhk"
 
 # Rawhide
@@ -278,7 +278,7 @@ slug = "rawhide"
 characterId = 1
 type = "commandNormal"
 hitCount = 1
-guardLevel = ""
+blockType = ""
 input = "6mp"
 
 # Suppressor
@@ -289,7 +289,7 @@ slug = "suppressor"
 characterId = 1
 type = "commandNormal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "4hp"
 
 # Outlaw Kick
@@ -300,7 +300,7 @@ slug = "outlaw-kick"
 characterId = 1
 type = "commandNormal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "4hk"
 
 # Double Impact
@@ -311,7 +311,7 @@ slug = "double-impact"
 characterId = 1
 type = "commandNormal"
 hitCount = 2
-guardLevel = "high"
+blockType = "high"
 input = "6hp>hp"
 
 # Triple Impact
@@ -322,7 +322,7 @@ slug = "triple-impact"
 characterId = 1
 type = "commandNormal"
 hitCount = 3
-guardLevel = "high"
+blockType = "high"
 input = "lp>mp>hp"
 
 # Nose Breaker
@@ -333,7 +333,7 @@ slug = "nose-breaker"
 characterId = 1
 type = "commandNormal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk>2hp"
 
 # Snapback Combo
@@ -344,7 +344,7 @@ slug = "snapback-combo"
 characterId = 1
 type = "commandNormal"
 hitCount = 4
-guardLevel = "high"
+blockType = "high"
 input = "mp>mp>mp>mp"
 
 # Sand Blast (Light)
@@ -355,7 +355,7 @@ slug = "sand-blast-light"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236lp"
 
 # Sand Blast (Medium)
@@ -366,7 +366,7 @@ slug = "sand-blast-medium"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236mp"
 
 # Sand Blast (Heavy)
@@ -377,7 +377,7 @@ slug = "sand-blast-heavy"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236hp"
 
 # Sand Blast (OD)
@@ -388,7 +388,7 @@ slug = "sand-blast-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236pp"
 
 # Fatal Shot
@@ -399,7 +399,7 @@ slug = "fatal-shot"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236[pp]>[pp]"
 parentSlug = "sand-blast-od"
 
@@ -411,7 +411,7 @@ slug = "flash-knuckle-light"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214lp"
 properties = ["chargeable"]
 
@@ -423,7 +423,7 @@ slug = "flash-knuckle-medium"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214mp"
 properties = ["chargeable"]
 
@@ -435,7 +435,7 @@ slug = "flash-knuckle-heavy"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214hp"
 properties = ["chargeable"]
 
@@ -447,7 +447,7 @@ slug = "flash-knuckle-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[pp]"
 
 # DDT
@@ -458,7 +458,7 @@ slug = "luke-ddt"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[pp]>[pp]"
 parentSlug = "flash-knuckle-od"
 
@@ -470,7 +470,7 @@ slug = "aerial-flash-knuckle"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214p"
 properties = ["chargeable"]
 
@@ -482,7 +482,7 @@ slug = "aerial-flash-knuckle-charged"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214(p)"
 parentSlug = "aerial-flash-knuckle"
 
@@ -494,7 +494,7 @@ slug = "aerial-flash-knuckle-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "j214[pp]"
 
 # Avenger
@@ -505,7 +505,7 @@ slug = "avenger"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214k"
 
 # Avenger (OD)
@@ -516,7 +516,7 @@ slug = "avenger-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]"
 
 # No Chaser
@@ -527,7 +527,7 @@ slug = "no-chaser"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214k>p"
 parentSlug = "avenger"
 
@@ -539,7 +539,7 @@ slug = "no-chaser-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]>p"
 parentSlug = "avenger-od"
 
@@ -551,7 +551,7 @@ slug = "impaler"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214k>k"
 parentSlug = "avenger"
 
@@ -563,7 +563,7 @@ slug = "impaler-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214[kk]>k"
 parentSlug = "avenger-od"
 
@@ -575,7 +575,7 @@ slug = "rising-uppercut-light"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623lp"
 
 # Rising Uppercut (Medium)
@@ -586,7 +586,7 @@ slug = "rising-uppercut-medium"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623mp"
 
 # Rising Uppercut (Heavy)
@@ -597,7 +597,7 @@ slug = "rising-uppercut-heavy"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623hp"
 
 # Rising Uppercut (OD)
@@ -608,7 +608,7 @@ slug = "rising-uppercut-od"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623[pp]"
 
 # Slam Dunk
@@ -619,7 +619,7 @@ slug = "slam-dunk"
 characterId = 1
 type = "special"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "623[pp]>[pp]"
 parentSlug = "rising-uppercut-od"
 
@@ -631,7 +631,7 @@ slug = "vulcan-blast"
 characterId = 1
 type = "super1"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236pp"
 
 # Eraser
@@ -642,7 +642,7 @@ slug = "eraser"
 characterId = 1
 type = "super2"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "214pp"
 
 # Pale Rider
@@ -653,7 +653,7 @@ slug = "pale-rider"
 characterId = 1
 type = "super3"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "236kk"
 
 # Sweeper

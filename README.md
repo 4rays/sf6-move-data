@@ -98,7 +98,7 @@ The following table lists the special notation used in the string:
 | `lk`     | Light Kick   |
 | `mk`     | Medium Kick  |
 | `hk`     | Heavy Kick   |
-| `j`      | Jump         |
+| `j`      | Jump (7|8|9) |
 | `pp`     | Any two *p   |
 | `kk`     | Any two *k   |
 
@@ -126,11 +126,11 @@ The `properties` property is an object with the following properties:
 | `canCrossUp`     | Whether the move can cross up.                          |
 | `armorBreak`     | Whether the move breaks armor.                          |
 | `tumble`         | Whether the move causes a tumble state.                 |
+| `juggle`         | Whether the move causes a juggle state.                 |
 | `knockdown`      | Whether the move causes a knockdown state.              |
 | `forcesStanding` | Whether the move forces the opponent to stand.          |
 | `stockIncrement` | The amount of stock gained after performing the move.   |
 | `stockDecrement` | The amount of stock consumed after performing the move. |
-
 
 ## License
 

@@ -10,7 +10,7 @@ abbeviation_ja = "立ち弱P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5lp"
 notes = []
 notes_ja = []
@@ -27,7 +27,7 @@ abbeviation_ja = "立ち中P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5mp"
 
 # Standing Heavy Punch
@@ -42,7 +42,7 @@ abbeviation_ja = "立ち強P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "5hp"
 
 # Standing Light Kick
@@ -57,7 +57,7 @@ abbeviation_ja = "立ち弱K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5lk"
 
 # Standing Medium Kick
@@ -72,7 +72,7 @@ abbeviation_ja = "立ち中K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5mk"
 
 # Standing Heavy Kick
@@ -87,7 +87,7 @@ abbeviation_ja = "立ち強K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "5hk"
 
 # Crouching Light Punch
@@ -102,7 +102,7 @@ abbeviation_ja = "屈弱P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2lp"
 
 # Crouching Medium Punch
@@ -117,7 +117,7 @@ abbeviation_ja = "屈中P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2mp"
 
 # Crouching Heavy Punch
@@ -132,7 +132,7 @@ abbeviation_ja = "屈強P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "2hp"
 
 # Crouching Light Kick
@@ -147,12 +147,12 @@ abbeviation_ja = "屈弱K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2lk"
 
-# Crouch Medium Kick
+# Crouching Medium Kick
 [[moves]]
-name = "Crouch Medium Kick"
+name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
@@ -162,7 +162,7 @@ abbeviation_ja = "屈中K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2mk"
 
 # Crouching Heavy Kick
@@ -177,7 +177,7 @@ abbeviation_ja = "屈強K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "low"
+blockType = "low"
 input = "2hk"
 
 # Jumping Light Punch
@@ -192,7 +192,7 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlp"
 
 # Jumping Medium Punch
@@ -207,7 +207,7 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmp"
 
 # Jumping Heavy Punch
@@ -222,7 +222,7 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhp"
 
 # Jumping Light Kick
@@ -237,7 +237,7 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jlk"
 
 # Jumping Medium Kick
@@ -252,7 +252,7 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jmk"
 
 # Jumping Heavy Kick
@@ -267,5 +267,5 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 9
 type = "normal"
 hitCount = 1
-guardLevel = "high"
+blockType = "high"
 input = "jhk"
