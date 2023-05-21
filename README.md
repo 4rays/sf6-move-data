@@ -117,6 +117,17 @@ The following table lists the possible values:
 | `superLevel2` | Cancels into level 2 supers |
 | `superLevel3` | Cancels into level 3 supers |
 
+### Block Type
+
+The `blockType` property refers attack type with regards to blocking.
+
+| Value      | Meaning  |
+|------------|----------|
+| `high`     | High     |
+| `low`      | Low      |
+| `overhead` | Overhead |
+| `jumpIn`   | Jump-in  |
+
 ### Move Properties
 
 The `properties` property is an object with the following properties:
