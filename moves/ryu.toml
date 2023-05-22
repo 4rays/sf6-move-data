@@ -21,7 +21,7 @@ notes_ja = []
 
 [moves.frameAdvantage]
 hit = 4
-blockType = -1
+block = -1
 
 # Standing Medium Punch
 [[moves]]
@@ -44,7 +44,7 @@ frameCount = ["S-5", "A-9", "R-20"]
 
 [moves.frameAdvantage]
 hit = 7
-blockType = -1
+block = -1
 
 # Standing Heavy Punch
 [[moves]]
@@ -68,7 +68,7 @@ properties = ["forcesStanding"]
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -2
+block = -2
 
 # Standing Light Kick
 [[moves]]
@@ -91,7 +91,7 @@ frameCount = ["S-4", "A-7", "R-18"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -4
+block = -4
 
 # Standing Medium Kick
 [[moves]]
@@ -114,7 +114,7 @@ frameCount = ["S-8", "A-11", "R-29"]
 
 [moves.frameAdvantage]
 hit = 4
-blockType = -4
+block = -4
 
 # Standing Heavy Kick
 [[moves]]
@@ -137,7 +137,7 @@ frameCount = ["S-11", "A-15", "R-35"]
 
 [moves.frameAdvantage]
 hit = 9
-blockType = 1
+block = 1
 
 # Crouching Light Punch
 [[moves]]
@@ -160,7 +160,7 @@ frameCount = ["S-3", "A-5", "R-14"]
 
 [moves.frameAdvantage]
 hit = 4
-blockType = -1
+block = -1
 
 # Crouching Medium Punch
 [[moves]]
@@ -183,7 +183,7 @@ frameCount = ["S-5", "A-8", "R-22"]
 
 [moves.frameAdvantage]
 hit = 5
-blockType = 0
+block = 0
 
 # Crouching Heavy Punch
 [[moves]]
@@ -206,7 +206,7 @@ frameCount = ["S-8", "A-12", "R-34"]
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -7
+block = -7
 
 # Crouching Light Kick
 [[moves]]
@@ -229,7 +229,7 @@ frameCount = ["S-4", "A-6", "R-16"]
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -3
+block = -3
 
 # Crouching Medium Kick
 [[moves]]
@@ -250,7 +250,7 @@ frameCount = ["S-7", "A-10", "R-29"]
 
 [moves.frameAdvantage]
 hit = 1
-blockType = -6
+block = -6
 
 # Crouching Heavy Kick
 [[moves]]
@@ -273,7 +273,7 @@ frameCount = ["S-8", "A-11", "R-34"]
 
 [moves.frameAdvantage]
 hit = 32
-blockType = -11
+block = -11
 
 # Jumping Light Punch
 [[moves]]
@@ -404,7 +404,7 @@ frameCount = ["S-19", "A-23", "R-42"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -3
+block = -3
 
 # Solar Plexus Strike
 [[moves]]
@@ -423,7 +423,7 @@ frameCount = ["S-19", "A-24", "R-40"]
 
 [moves.frameAdvantage]
 hit = 6
-blockType = 1
+block = 1
 
 # Short Uppercut
 [[moves]]
@@ -443,7 +443,7 @@ properties = ["forcesStanding"]
 
 [moves.frameAdvantage]
 hit = 1
-blockType = -13
+block = -13
 
 # Whirlwind Kick
 [[moves]]
@@ -462,7 +462,7 @@ frameCount = ["S-15", "A-19", "R-39"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -4
+block = -4
 
 # Axe Kick
 [[moves]]
@@ -481,7 +481,7 @@ frameCount = ["S-9", "A-14", "R-19", "A-22", "R-43"]
 
 [moves.frameAdvantage]
 hit = 0
-blockType = -4
+block = -4
 
 # High Double Strike
 [[moves]]
@@ -501,7 +501,7 @@ properties = ["knockdown"]
 
 [moves.frameAdvantage]
 hit = 36
-blockType = -8
+block = -8
 
 # Fuwa Double Strike
 [[moves]]
@@ -520,7 +520,7 @@ frameCount = ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"]
 
 [moves.frameAdvantage]
 hit = 1
-blockType = -7
+block = -7
 
 # Fuwa Triple Strike
 [[moves]]
@@ -539,7 +539,7 @@ frameCount = ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"]
 
 [moves.frameAdvantage]
 hit = 36
-blockType = -8
+block = -8
 
 # Hadoken (Light)
 [[moves]]
@@ -559,7 +559,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -1
-blockType = -5
+block = -5
 
 # Hadoken (Medium)
 [[moves]]
@@ -579,7 +579,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -3
-blockType = -7
+block = -7
 
 # Hadoken (Heavy)
 [[moves]]
@@ -599,7 +599,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -5
-blockType = -9
+block = -9
 
 # Hadoken (OD)
 [[moves]]
@@ -619,7 +619,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 54
-blockType = -1
+block = -1
 
 # Denjin Hadoken
 [[moves]]
@@ -642,7 +642,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 52
-blockType = -3
+block = -3
 
 # Denjin Hadoken (OD)
 [[moves]]
@@ -665,7 +665,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 57
-blockType = 2
+block = 2
 
 # Shoryuken (Light)
 [[moves]]
@@ -684,7 +684,7 @@ frameCount = ["S-4", "A-14", "R-47"]
 
 [moves.frameAdvantage]
 hit = 38
-blockType = -21
+block = -21
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -707,7 +707,7 @@ frameCount = ["S-5", "A-15", "R-57"]
 
 [moves.frameAdvantage]
 hit = 34
-blockType = -30
+block = -30
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -730,7 +730,7 @@ frameCount = ["S-6", "A-16", "R-65"]
 
 [moves.frameAdvantage]
 hit = 29
-blockType = -37
+block = -37
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -752,7 +752,7 @@ frameCount = ["S-6", "A-16", "R-68"]
 
 [moves.frameAdvantage]
 hit = 29
-blockType = -40
+block = -40
 
 [moves.invincibilityFrames]
 start = 2
@@ -776,7 +776,7 @@ frameCount = ["S-11", "A-14", "R-46"]
 
 [moves.frameAdvantage]
 hit = 35
-blockType = -14
+block = -14
 
 # Tatsumaki Senpu-kyaku (Medium)
 [[moves]]
@@ -794,7 +794,7 @@ frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
 
 [moves.frameAdvantage]
 hit = 23
-blockType = -12
+block = -12
 
 # Tatsumaki Senpu-kyaku (Heavy)
 [[moves]]
@@ -812,7 +812,7 @@ frameCount = ["S-15", "A-17", "R-30", "A-32", "R-45", "A-47", "R-78"]
 
 [moves.frameAdvantage]
 hit = 20
-blockType = -12
+block = -12
 
 # Tatsumaki Senpu-kyaku (OD)
 [[moves]]
@@ -842,7 +842,7 @@ frameCount = [
 
 [moves.frameAdvantage]
 hit = 57
-blockType = -14
+block = -14
 
 # Aerial Tatsumaki Senpu-kyaku
 [[moves]]
@@ -906,7 +906,7 @@ frameCount = ["S-14", "A-23", "R-45"]
 
 [moves.frameAdvantage]
 hit = 35
-blockType = -11
+block = -11
 
 # High Blade Kick (Medium)
 [[moves]]
@@ -926,7 +926,7 @@ frameCount = ["S-17", "A-26", "R-45"]
 
 [moves.frameAdvantage]
 hit = 40
-blockType = -8
+block = -8
 
 # High Blade Kick (Heavy)
 [[moves]]
@@ -946,7 +946,7 @@ frameCount = ["S-28", "A-37", "R-53"]
 
 [moves.frameAdvantage]
 hit = 45
-blockType = -5
+block = -5
 
 # High Blade Kick (OD)
 [[moves]]
@@ -966,7 +966,7 @@ frameCount = ["S-18", "A-23", "R-55"]
 
 [moves.frameAdvantage]
 hit = 64
-blockType = -18
+block = -18
 
 # Hashogeki (Light)
 [[moves]]
@@ -985,7 +985,7 @@ frameCount = ["S-11", "A-17", "R-35"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -4
+block = -4
 
 # Hashogeki (Medium)
 [[moves]]
@@ -1004,7 +1004,7 @@ frameCount = ["S-18", "A-24", "R-41"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -5
+block = -5
 
 # Hashogeki (Heavy)
 [[moves]]
@@ -1023,7 +1023,7 @@ frameCount = ["S-29", "A-35", "R-54"]
 
 [moves.frameAdvantage]
 hit = 61
-blockType = 2
+block = 2
 
 # Hashogeki (OD)
 [[moves]]
@@ -1042,7 +1042,7 @@ frameCount = ["S-18", "PA-19", "S-24", "R-43"]
 
 [moves.frameAdvantage]
 hit = 3
-blockType = 3
+block = 3
 
 # Denjin Hashogeki
 [[moves]]
@@ -1063,7 +1063,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 62
-blockType = 3
+block = 3
 
 # Denjin Hashogeki (OD)
 [[moves]]
@@ -1084,7 +1084,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 87
-blockType = 4
+block = 4
 
 # Shinku Hadoken
 [[moves]]
@@ -1115,7 +1115,7 @@ frameCount = [
 
 [moves.frameAdvantage]
 hit = 26
-blockType = -24
+block = -24
 
 [moves.invincibilityFrames]
 start = 1
@@ -1154,7 +1154,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 27
-blockType = -24
+block = -24
 
 [moves.invincibilityFrames]
 start = 1
@@ -1180,7 +1180,7 @@ properties = ["armorBreak"]
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 # Shin Hashogeki (Level 1)
 [[moves]]
@@ -1199,7 +1199,7 @@ frameCount = ["S-20", "A-26", "PA-27", "R-65"]
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 # Shin Hashogeki (Level 2)
 [[moves]]
@@ -1218,7 +1218,7 @@ frameCount = ["S-49", "A-55", "R-94"]
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 # Denjin Shin Hashogeki (No charge)
 [[moves]]
@@ -1239,7 +1239,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1264,7 +1264,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1289,7 +1289,7 @@ parentSlug = "denjin-charge"
 
 [moves.frameAdvantage]
 hit = 78
-blockType = -20
+block = -20
 
 [moves.invincibilityFrames]
 start = 1
@@ -1312,7 +1312,7 @@ frameCount = ["S-4", "A-16", "R-38"]
 
 [moves.frameAdvantage]
 hit = 8
-blockType = -52
+block = -52
 
 [moves.invincibilityFrames]
 start = 1
@@ -1335,7 +1335,7 @@ frameCount = ["S-4", "A-16", "R-50"]
 
 [moves.frameAdvantage]
 hit = 8
-blockType = -52
+block = -52
 
 [moves.invincibilityFrames]
 start = 1

@@ -60,10 +60,10 @@ def validate(move, file_name):
                 )
                 return False
 
-    if guard_level := move.get("guardLevel"):
-        if guard_level not in ["high", "low"]:
+    if block_type := move.get("blockType"):
+        if block_type not in ["high", "low", "overhead", "jump-in"]:
             print(
-                "❗ Validation error: guardLevel on {} should be one of high or low.".format(
+                "❗ Validation error: blockType on {} should be one of the following values: high, low, overhead, jump-in.".format(
                     move["name"]
                 )
             )

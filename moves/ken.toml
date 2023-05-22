@@ -19,7 +19,7 @@ damage = 300
 
 [moves.frameAdvantage]
 hit = 4
-blockType = -1
+block = -1
 
 # Standing Medium Punch
 [[moves]]
@@ -40,7 +40,7 @@ damage = 600
 
 [moves.frameAdvantage]
 hit = 4
-blockType = -2
+block = -2
 
 # Standing Heavy Punch
 [[moves]]
@@ -61,7 +61,7 @@ damage = 800
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -2
+block = -2
 
 # Standing Light Kick
 [[moves]]
@@ -82,7 +82,7 @@ damage = 300
 
 [moves.frameAdvantage]
 hit = 0
-blockType = -2
+block = -2
 
 # Standing Medium Kick
 [[moves]]
@@ -103,7 +103,7 @@ damage = 600
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -5
+block = -5
 
 # Standing Heavy Kick
 [[moves]]
@@ -124,7 +124,7 @@ damage = 800
 
 [moves.frameAdvantage]
 hit = 1
-blockType = -7
+block = -7
 
 # Crouching Light Punch
 [[moves]]
@@ -145,7 +145,7 @@ damage = 300
 
 [moves.frameAdvantage]
 hit = 5
-blockType = -1
+block = -1
 
 # Crouching Medium Punch
 [[moves]]
@@ -166,7 +166,7 @@ damage = 700
 
 [moves.frameAdvantage]
 hit = 3
-blockType = 0
+block = 0
 
 # Crouching Heavy Punch
 [[moves]]
@@ -187,7 +187,7 @@ damage = 800
 
 [moves.frameAdvantage]
 hit = 3
-blockType = -10
+block = -10
 
 # Crouching Light Kick
 [[moves]]
@@ -208,7 +208,7 @@ damage = 200
 
 [moves.frameAdvantage]
 hit = 1
-blockType = -3
+block = -3
 
 # Crouching Medium Kick
 [[moves]]
@@ -229,7 +229,7 @@ damage = 500
 
 [moves.frameAdvantage]
 hit = -2
-blockType = -6
+block = -6
 
 # Crouching Heavy Kick
 [[moves]]
@@ -250,7 +250,7 @@ damage = 900
 
 [moves.frameAdvantage]
 hit = 31
-blockType = -8
+block = -8
 
 # Jumping Light Punch
 [[moves]]
@@ -408,9 +408,9 @@ frameCount = ["A-3", "R-23"]
 damage = 1000
 blockType = "high"
 
-[frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
-blockType = -3
+block = -3
 
 # Forward Step Kick
 [[moves]]
@@ -427,9 +427,9 @@ frameCount = ["A-4", "R-24"]
 damage = 800
 blockType = "high"
 
-[frameAdvantage]
+[moves.frameAdvantage]
 hit = 3
-blockType = -7
+block = -7
 
 # Chin Buster 2nd
 [[moves]]
@@ -445,9 +445,9 @@ damage = 1000
 blockType = "high"
 frameCount = ["S-4", "A-8", "R-9", "S-19", "A-22", "R-32"]
 
-[frameAdvantage]
+[moves.frameAdvantage]
 hit = 36
-blockType = -7
+block = -7
 
 # Triple Flash Kick
 [[moves]]
@@ -462,9 +462,9 @@ blockType = "high"
 damage = 960
 frameCount = ["S-7", "A-10", "R-14", "S-24", "A-26", "R-39"]
 
-[frameAdvantage]
+[moves.frameAdvantage]
 hit = 28
-blockType = -11
+block = -11
 
 # Hadoken (Light)
 [[moves]]
@@ -484,7 +484,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -3
-blockType = -8
+block = -8
 
 # Hadoken (Medium)
 [[moves]]
@@ -504,7 +504,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = -5
-blockType = -10
+block = -10
 
 # Hadoken (Heavy)
 [[moves]]
@@ -522,9 +522,9 @@ damage = 600
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = -7
-blockType = -12
+block = -12
 
 # Hadoken (OD)
 [[moves]]
@@ -543,7 +543,7 @@ notes_ja = ["フレームデータはゼロ距離の場合。"]
 
 [moves.frameAdvantage]
 hit = 2
-blockType = -2
+block = -2
 
 # Shoryuken (Light)
 [[moves]]
@@ -560,7 +560,7 @@ damage = 1100
 
 [moves.frameAdvantage]
 hit = 33
-blockType = -23
+block = -23
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -581,7 +581,7 @@ damage = 1300
 
 [moves.frameAdvantage]
 hit = 33
-blockType = -28
+block = -28
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -602,7 +602,7 @@ damage = 1400
 
 [moves.frameAdvantage]
 hit = 25
-blockType = -36
+block = -36
 
 [moves.invincibilityFrames]
 airStart = 1
@@ -625,7 +625,7 @@ damage = 1600
 
 [moves.frameAdvantage]
 hit = 29
-blockType = -37
+block = -37
 
 [moves.invincibilityFrames]
 airStart = 6
@@ -649,7 +649,7 @@ damage = 1700
 
 [moves.frameAdvantage]
 hit = 22
-blockType = -35
+block = -35
 
 # Tatsumaki Senpu-kyaku (Light)
 [[moves]]
@@ -664,9 +664,9 @@ input = "214lk"
 frameCount = ["S-3", "A-5", "R-11", "A-14", "R-46"]
 damage = 700
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 46
-blockType = -14
+block = -14
 
 # Tatsumaki Senpu-kyaku (Medium)
 [[moves]]
@@ -681,9 +681,9 @@ input = "214mk"
 frameCount = ["S-13", "A-15", "R-28", "A-30", "R-61"]
 damage = 900
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 44
-blockType = -12
+block = -12
 
 # Tatsumaki Senpu-kyaku (Heavy)
 [[moves]]
@@ -698,9 +698,9 @@ input = "214hk"
 frameCount = ["S-15", "A-17", "R-30", "A-32", "R-55", "A-57", "R-78"]
 damage = 1000
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 36
-blockType = -12
+block = -12
 
 # Tatsumaki Senpu-kyaku (OD)
 [[moves]]
@@ -715,9 +715,9 @@ input = "214[kk]"
 frameCount = ["S-9", "A-13", "R-18", "A-21", "R-27", "A-30", "R-36", "A-39", "R-54", "A-57", "R-90"]
 damage = 1500
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 28
-blockType = -61
+block = -61
 
 # Quick Dash Tatsumaki Senpu-kyaku
 [[moves]]
@@ -734,7 +734,7 @@ damage = 1200
 
 [moves.frameAdvantage]
 hit = 28
-blockType = -61
+block = -61
 
 # Aerial Tatsumaki Senpu-kyaku
 [[moves]]
@@ -772,9 +772,9 @@ blockType = "high"
 damage = 1000
 frameCount = ["S-17", "A-23", "R-45"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 1
-blockType = -6
+block = -6
 
 # Dragonlash Kick (Medium)
 [[moves]]
@@ -789,9 +789,9 @@ blockType = "high"
 damage = 1100
 frameCount = ["S-22", "A-27", "R-52"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 3
-blockType = -8
+block = -8
 
 # Dragonlash Kick (Heavy)
 [[moves]]
@@ -807,9 +807,9 @@ damage = 1200
 frameCount = ["S-27", "A-32", "R-53"]
 properties = ["juggle"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 3
-blockType = 1
+block = 1
 
 # Dragonlash Kick (OD)
 [[moves]]
@@ -824,9 +824,9 @@ blockType = "high"
 damage = 700
 frameCount = ["S-8", "A-10", "S-17", "A-23", "R-47"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 2
-blockType = -8
+block = -8
 
 # Jinrai Kick (Light)
 [[moves]]
@@ -841,9 +841,9 @@ blockType = "high"
 damage = 500
 frameCount = ["S-11", "A-14", "R-42"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 1
-blockType = -11
+block = -11
 
 # Jinrai Kick (Medium)
 [[moves]]
@@ -858,9 +858,9 @@ blockType = "high"
 damage = 600
 frameCount = ["S-15", "A-18", "R-42"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 2
-blockType = -7
+block = -7
 
 # Jinrai Kick (Heavy)
 [[moves]]
@@ -876,9 +876,9 @@ damage = 700
 frameCount = ["S-24", "A-27", "R-46"]
 properties = ["juggle"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 42
-blockType = -2
+block = -2
 
 # Jinrai Kick (OD)
 [[moves]]
@@ -893,9 +893,9 @@ blockType = "high"
 damage = 600
 frameCount = ["S-12", "A-15", "R-40"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = -4
-blockType = -7
+block = -7
 
 # Kazekama Shin Kick
 [[moves]]
@@ -911,9 +911,9 @@ blockType = "low"
 damage = 500
 frameCount = ["A-4", "R-23"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 3
-blockType = -5
+block = -5
 
 # Gorai Axe Kick
 [[moves]]
@@ -929,9 +929,9 @@ blockType = "overhead"
 damage = 500
 frameCount = ["A-3", "R-24"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 3
-blockType = -3
+block = -3
 
 # Senka Snap Kick
 [[moves]]
@@ -947,9 +947,9 @@ blockType = "high"
 damage = 800
 frameCount = ["A-3", "R-28"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 33
-blockType = -3
+block = -3
 
 # Kasai Thrust Kick
 [[moves]]
@@ -965,9 +965,9 @@ blockType = "high"
 damage = 800
 frameCount = ["A-3", "R-17", "A-20", "R-49"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 34
-blockType = -12
+block = -12
 
 # Dragonlash Flame
 [[moves]]
@@ -983,9 +983,9 @@ damage = 2000
 frameCount = ["S-6", "A-11", "R-29", "A-32", "R-43", "A-46", "R-59", "A-63", "R-125"]
 properties = ["armorBrea"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 36
-blockType = -5
+block = -5
 
 [[moves.invincibilityFrames]]
 start = 1
@@ -1006,9 +1006,9 @@ blockType = "high"
 frameCount = ["S-5", "A-7", "R-17", "A-20", "R-30", "A-33", "R-45", "A-48", "R-59", "A-61", "R-80", "A-82", "R-93", "A-95", "R-103", "A-105", "R-113", "A-115", "R-122", "A-124", "R-197"]
 damage = 2700
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 36
-blockType = -19
+block = -19
 
 [[moves.invincibilityFrames]]
 start = 1
@@ -1027,9 +1027,9 @@ blockType = "high"
 damage = 4000
 frameCount = ["S-6", "R-36"]
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 15
-blockType = -30
+block = -30
 
 [[moves.invincibilityFrames]]
 start = 1
@@ -1048,9 +1048,9 @@ blockType = "high"
 frameCount = ["S-6", "R-36"]
 damage = 4500
 
-[[moves.frameAdvantage]]
+[moves.frameAdvantage]
 hit = 15
-blockType = -30
+block = -30
 
 [[moves.invincibilityFrames]]
 start = 1

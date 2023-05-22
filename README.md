@@ -2,7 +2,7 @@
 
 ## Data Format
 
-The data is saved as JSON in character-specific separate files.
+The data is saved as TOML in character-specific files.
 
 ### Move Type
 
