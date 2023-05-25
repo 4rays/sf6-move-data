@@ -16,15 +16,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ryu/ryu.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "shoto"
 name_ja = "道着"
 
-[[character.tags]]
+[[characters.tags]]
 name = "balanced"
 name_ja = "オールラウンダー"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
@@ -46,15 +46,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/luke/luke.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "shoto"
 name_ja = "道着"
 
-[[character.tags]]
+[[characters.tags]]
 name = "balanced"
 name_ja = "オールラウンダー"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
@@ -76,23 +76,23 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/jamie/jamie.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "rekka"
 name_ja = "烈火"
 
-[[character.tags]]
+[[characters.tags]]
 name = "dance"
 name_ja = "ダンス"
 
-[[character.tags]]
+[[characters.tags]]
 name = "drunken-fist"
 name_ja = "酔拳"
 
-[[character.tags]]
+[[characters.tags]]
 name = "install"
 name_ja = "時間制限技"
 
-[[character.tags]]
+[[characters.tags]]
 name = "power-up"
 name_ja = "パワーアップ"
 
@@ -114,19 +114,19 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/chunli/chunli.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "stance"
 name_ja = "構え"
 
-[[character.tags]]
+[[characters.tags]]
 name = "air-super"
 name_ja = "空中必殺技"
 
-[[character.tags]]
+[[characters.tags]]
 name = "neutral"
 name_ja = "立ち回り"
 
-[[character.tags]]
+[[characters.tags]]
 name = "footsies"
 name_ja = "差し合い"
 
@@ -148,19 +148,19 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/guile/guile.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "charge"
 name_ja = "溜め"
 
-[[character.tags]]
+[[characters.tags]]
 name = "zoner"
 name_ja = "遠距離"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
-[[character.tags]]
+[[characters.tags]]
 name = "defensive"
 name_ja = "守り"
 
@@ -182,15 +182,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "mixup"
 name_ja = "択"
 
-[[character.tags]]
+[[characters.tags]]
 name = "air-grab"
 name_ja = "空中投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "setup"
 name_ja = "セットプレイ"
 
@@ -212,15 +212,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/juri/juri.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "stocks"
 name_ja = "レベル"
 
-[[character.tags]]
+[[characters.tags]]
 name = "air-grab"
 name_ja = "空中投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
@@ -242,15 +242,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ken/ken.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "shoto"
 name_ja = "道着"
 
-[[character.tags]]
+[[characters.tags]]
 name = "rushdown"
 name_ja = "ガン攻め"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
@@ -272,15 +272,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/blanka/blanka.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "charge"
 name_ja = "溜め"
 
-[[character.tags]]
+[[characters.tags]]
 name = "setup"
 name_ja = "セットプレイ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "mixup"
 name_ja = "択"
 
@@ -302,23 +302,23 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "zoner"
 name_ja = "遠距離"
 
-[[character.tags]]
+[[characters.tags]]
 name = "reach"
 name_ja = "リーチ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "teleport"
 name_ja = "テレポート"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
-[[character.tags]]
+[[characters.tags]]
 name = "defensive"
 name_ja = "守り"
 
@@ -340,15 +340,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "charge"
 name_ja = "溜め"
 
-[[character.tags]]
+[[characters.tags]]
 name = "command-grab"
 name_ja = "コマンド投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "defensive"
 name_ja = "守り"
 
@@ -370,19 +370,19 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/deejay/deejay.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "fireball"
 name_ja = "玉"
 
-[[character.tags]]
+[[characters.tags]]
 name = "charge"
 name_ja = "溜め"
 
-[[character.tags]]
+[[characters.tags]]
 name = "feint"
 name_ja = "フェイント"
 
-[[character.tags]]
+[[characters.tags]]
 name = "defensive"
 name_ja = "守り"
 
@@ -404,19 +404,19 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/manon/manon.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "grappler"
 name_ja = "投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "levels"
 name_ja = "レベル"
 
-[[character.tags]]
+[[characters.tags]]
 name = "command-grab"
 name_ja = "コマンド投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "counter"
 name_ja = "カウンター"
 
@@ -438,19 +438,19 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/marisa/marisa.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "brawler"
 name_ja = "近距離"
 
-[[character.tags]]
+[[characters.tags]]
 name = "armor"
 name_ja = "アーマー"
 
-[[character.tags]]
+[[characters.tags]]
 name = "command-grab"
 name_ja = "コマンド投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "counter"
 name_ja = "カウンター"
 
@@ -472,11 +472,11 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/jp/jp.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "zoner"
 name_ja = "遠距離"
 
-[[character.tags]]
+[[characters.tags]]
 name = "setup"
 name_ja = "セットプレイ"
 
@@ -498,15 +498,15 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/zangief/zangief.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "grappler"
 name_ja = "投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "armor"
 name_ja = "アーマー"
 
-[[character.tags]]
+[[characters.tags]]
 name = "command-grab"
 name_ja = "コマンド投げ"
 
@@ -527,11 +527,11 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/lily/lily.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "grappler"
 name_ja = "投げ"
 
-[[character.tags]]
+[[characters.tags]]
 name = "command-grab"
 name_ja = "コマンド投げ"
 
@@ -553,10 +553,10 @@ media = [
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/cammy/cammy.png"
 
-[[character.tags]]
+[[characters.tags]]
 name = "mixup"
 name_ja = "択"
 
-[[character.tags]]
+[[characters.tags]]
 name = "rushdown"
 name_ja = "近距離"
