@@ -72,7 +72,42 @@ def validate(move, file_name):
     if frame_count := move.get("frameCount"):
         match frame_count:
             case list():
-                pass
+                for frame in frame_count:
+                    match frame:
+                        case str():
+                            frameData = frame.split("-")
+                            if len(frameData) == 2:
+                                if frameData[0] not in ["S", "R", "A", "PA"]:
+                                    print(
+                                        "❗ Validation error: frameCount identifier on {} should be S, R, A, or PA but was {} instead".format(
+                                            move["name"], frameData[0]
+                                        )
+                                    )
+                                    return False
+                                if not frameData[1].isdigit():
+                                    print(
+                                        "❗ Validation error: frameCount count on {} should be a number but was {} instead".format(
+                                            move["name"], frameData[1]
+                                        )
+                                    )
+                                    return False
+
+                                pass
+                            else:
+                                print(
+                                    "❗ Validation error: frameCount on {} should be of format Identifier-count but was {} instead.".format(
+                                        move["name"], frame
+                                    )
+                                )
+                                return False
+
+                        case _:
+                            print(
+                                "❗ Validation error: frameCount on {} should be a list of strings.".format(
+                                    move["name"]
+                                )
+                            )
+                            return False
             case _:
                 print(
                     "❗ Validation error: frameCount on {} should be a list.".format(
