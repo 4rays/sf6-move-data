@@ -1,5 +1,5 @@
 # Ryu
-[[character]]
+[[characters]]
 id = 0
 name = "Ryu"
 slug = "ryu"
@@ -29,7 +29,7 @@ name = "fireball"
 name_ja = "玉"
 
 # Luke
-[[character]]
+[[characters]]
 id = 1
 name = "Luke"
 slug = "luke"
@@ -59,7 +59,7 @@ name = "fireball"
 name_ja = "玉"
 
 # Jamie
-[[character]]
+[[characters]]
 id = 2
 name = "Jamie"
 slug = "jamie"
@@ -97,7 +97,7 @@ name = "power-up"
 name_ja = "パワーアップ"
 
 # Chun-Li
-[[character]]
+[[characters]]
 id = 3
 name = "Chun-Li"
 slug = "chunli"
@@ -131,7 +131,7 @@ name = "footsies"
 name_ja = "差し合い"
 
 # Guile
-[[character]]
+[[characters]]
 id = 4
 name = "Guile"
 slug = "guile"
@@ -165,7 +165,7 @@ name = "defensive"
 name_ja = "守り"
 
 # Kimberly
-[[character]]
+[[characters]]
 id = 5
 name = "Kimberly"
 slug = "kimberly"
@@ -195,7 +195,7 @@ name = "setup"
 name_ja = "セットプレイ"
 
 # Juri
-[[character]]
+[[characters]]
 id = 6
 name = "Juri"
 slug = "juri"
@@ -225,7 +225,7 @@ name = "fireball"
 name_ja = "玉"
 
 # Ken
-[[character]]
+[[characters]]
 id = 7
 name = "Ken"
 slug = "ken"
@@ -255,7 +255,7 @@ name = "fireball"
 name_ja = "玉"
 
 # Blanka
-[[character]]
+[[characters]]
 id = 8
 name = "Blanka"
 slug = "blanka"
@@ -285,7 +285,7 @@ name = "mixup"
 name_ja = "択"
 
 # Dhalsim
-[[character]]
+[[characters]]
 id = 9
 name = "Dhalsim"
 slug = "dhalsim"
@@ -323,7 +323,7 @@ name = "defensive"
 name_ja = "守り"
 
 # E.Honda
-[[character]]
+[[characters]]
 id = 10
 name = "E.Honda"
 slug = "ehonda"
@@ -353,7 +353,7 @@ name = "defensive"
 name_ja = "守り"
 
 # Dee Jay
-[[character]]
+[[characters]]
 id = 11
 name = "Dee Jay"
 slug = "deejay"
@@ -387,7 +387,7 @@ name = "defensive"
 name_ja = "守り"
 
 # Manon
-[[character]]
+[[characters]]
 id = 12
 name = "Manon"
 slug = "manon"
@@ -421,7 +421,7 @@ name = "counter"
 name_ja = "カウンター"
 
 # Marisa
-[[character]]
+[[characters]]
 id = 13
 name = "Marisa"
 slug = "marisa"
@@ -455,7 +455,7 @@ name = "counter"
 name_ja = "カウンター"
 
 # JP
-[[character]]
+[[characters]]
 id = 14
 name = "JP"
 slug = "jp"
@@ -481,7 +481,7 @@ name = "setup"
 name_ja = "セットプレイ"
 
 # Zangief
-[[character]]
+[[characters]]
 id = 15
 name = "Zangief"
 slug = "zangief"
@@ -511,7 +511,7 @@ name = "command-grab"
 name_ja = "コマンド投げ"
 
 # Lily
-[[character]]
+[[characters]]
 id = 16
 name = "Lily"
 name_ja = "リリー"
@@ -536,7 +536,7 @@ name = "command-grab"
 name_ja = "コマンド投げ"
 
 # Cammy
-[[character]]
+[[characters]]
 id = 17
 name = "Cammy"
 slug = "cammy"

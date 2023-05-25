@@ -30,8 +30,8 @@
     "hitCount": {
       "type": "integer"
     },
-    "guardLevel": {
-      "$ref": "#/definitions/GuardLevel"
+    "blockType": {
+      "$ref": "#/definitions/BlockType"
     },
     "input": {
       "type": "string"
@@ -165,10 +165,10 @@
       ],
       "title": "CancelsInto"
     },
-    "GuardLevel": {
+    "BlockType": {
       "type": "string",
       "enum": ["high", "low"],
-      "title": "GuardLevel"
+      "title": "BlockType"
     },
     "Type": {
       "type": "string",
