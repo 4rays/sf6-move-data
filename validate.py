@@ -118,6 +118,45 @@ def validate(move, file_name):
     else:
         print("🚧 Validation warning: frameCount missing on {}.".format(move["name"]))
 
+    if properties := move.get("properties"):
+        match properties:
+            case list():
+                for property in properties:
+                    match property:
+                        case str():
+                            if property not in [
+                                "canCrossUp",
+                                "armorBreak",
+                                "tumble",
+                                "juggle",
+                                "knockdown",
+                                "forcesStanding",
+                                "stockIncrement",
+                                "stockDecrement",
+                                "chargeable"
+                            ]:
+                                print(
+                                    "❗ Validation error: property on {} should be one of the following values: canCrossUp, armorBreak, tumble, juggle, knockdown, forcesStanding, chargeable, stockIncrement, or stockDecrement but was {} instead.".format(
+                                        move["name"], property
+                                    )
+                                )
+                                return False
+                            else:
+                                pass
+                        case _:
+                            print(
+                                "❗ Validation error: properties on {} should be a list of strings.".format(
+                                    move["name"]
+                                )
+                            )
+                            return False
+            case _:
+                print(
+                    "❗ Validation error: properties on {} should be a list.".format(
+                        move["name"]
+                    )
+                )
+                return False
     return True
 
 

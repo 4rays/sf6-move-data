@@ -142,6 +142,7 @@ The `properties` property is an object with the following properties:
 | `forcesStanding` | Whether the move forces the opponent to stand.          |
 | `stockIncrement` | The amount of stock gained after performing the move.   |
 | `stockDecrement` | The amount of stock consumed after performing the move. |
+| `chargeable`     | Whether the move can be charged.                        |
 
 ## License
 

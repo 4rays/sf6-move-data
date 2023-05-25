@@ -981,7 +981,7 @@ input = "214214k"
 blockType = "high"
 damage = 2000
 frameCount = ["S-6", "A-11", "R-29", "A-32", "R-43", "A-46", "R-59", "A-63", "R-125"]
-properties = ["armorBrea"]
+properties = ["armorBreak"]
 
 [moves.frameAdvantage]
 hit = 36
