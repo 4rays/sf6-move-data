@@ -478,7 +478,7 @@ input = "236[kk]"
 [[moves]]
 name = "Emergency Stop"
 name_ja = "急停止"
-slug = "emergency-stop"
+slug = "kimberly-emergency-stop"
 characterId = 5
 type = "special"
 input = "236k>p"
@@ -488,7 +488,7 @@ parentSlug = "sprint"
 [[moves]]
 name = "Emergency Stop (OD)"
 name_ja = "急停止 (OD)"
-slug = "emergency-stop-od"
+slug = "kimberly-emergency-stop-od"
 characterId = 5
 type = "special"
 input = "236[kk]>p"
@@ -709,15 +709,6 @@ input = "22[pp]"
 notes = ["Strength used affects the distance."]
 notes_ja = ["強さで飛距離が変化"]
 parentSlug = "genius-at-play-od"
-
-# Shuriken Bomb Spread
-[[moves]]
-name = "Shuriken Bomb Spread"
-name_ja = "手裏剣爆弾散布"
-slug = "shuriken-bomb-spread"
-characterId = 5
-type = "special"
-input = "22p>2lp"
 
 # Nue Twister
 [[moves]]

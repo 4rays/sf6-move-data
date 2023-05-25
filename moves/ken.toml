@@ -386,7 +386,7 @@ frameCount = ["S-45"]
 [[moves]]
 name = "Emergency Stop"
 name_ja = "エマージェンシーストップ"
-slug = "emergency-stop"
+slug = "ken-emergency-stop"
 characterId = 7
 type = "special"
 hitCount = 0
@@ -987,7 +987,7 @@ properties = ["armorBrea"]
 hit = 36
 block = -5
 
-[[moves.invincibilityFrames]]
+[moves.invincibilityFrames]
 start = 1
 end = 11
 strikeStart = 2
@@ -1010,7 +1010,7 @@ damage = 2700
 hit = 36
 block = -19
 
-[[moves.invincibilityFrames]]
+[moves.invincibilityFrames]
 start = 1
 end = 1
 
@@ -1031,7 +1031,7 @@ frameCount = ["S-6", "R-36"]
 hit = 15
 block = -30
 
-[[moves.invincibilityFrames]]
+[moves.invincibilityFrames]
 start = 1
 end = 36
 
@@ -1052,7 +1052,7 @@ damage = 4500
 hit = 15
 block = -30
 
-[[moves.invincibilityFrames]]
+[moves.invincibilityFrames]
 start = 1
 end = 36
 
