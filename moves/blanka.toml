@@ -619,7 +619,7 @@ name_ja = "フィアーダウン"
 slug = "coward-crouch"
 characterId = 8
 type = "unique"
-input = "c[pp]"
+input = "c*[pp]"
 
 # Wild Lift
 [[moves]]

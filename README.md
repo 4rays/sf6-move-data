@@ -75,32 +75,37 @@ Both values need to be present, even if the range is only one frame long.
 The `input` property is a string representing the input required to perform the move.
 The following table lists the special notation used in the string:
 
-| Notation | Meaning      |
-|----------|--------------|
-| `1`      | Down-Back    |
-| `2`      | Down         |
-| `3`      | Down-Forward |
-| `4`      | Back         |
-| `5`      | Neutral      |
-| `6`      | Forward      |
-| `7`      | Up-Back      |
-| `8`      | Up           |
-| `9`      | Up-Forward   |
-| `[]`     | Simultaneous |
-| `()`     | Hold         |
-| `>`      | Follow-up    |
-| `|`      | Or           |
-| `p`      | Any punch    |
-| `lp`     | Light Punch  |
-| `mp`     | Medium Punch |
-| `hp`     | Heavy Punch  |
-| `k`      | Any kick     |
-| `lk`     | Light Kick   |
-| `mk`     | Medium Kick  |
-| `hk`     | Heavy Kick   |
-| `j`      | Jump (7|8|9) |
-| `pp`     | Any two *p   |
-| `kk`     | Any two *k   |
+| Notation | Meaning       |
+|----------|---------------|
+| `1`      | Down-Back     |
+| `2`      | Down          |
+| `3`      | Down-Forward  |
+| `4`      | Back          |
+| `5`      | Neutral       |
+| `6`      | Forward       |
+| `7`      | Up-Back       |
+| `8`      | Up            |
+| `9`      | Up-Forward    |
+| `d`     | Any direction |
+| `[]`     | Simultaneous  |
+| `()`     | Hold          |
+| `>`      | Follow-up     |
+| `|`      | Or            |
+| `*p`     | Any punch     |
+| `lp`     | Light Punch   |
+| `mp`     | Medium Punch  |
+| `hp`     | Heavy Punch   |
+| `*k`     | Any kick      |
+| `lk`     | Light Kick    |
+| `mk`     | Medium Kick   |
+| `hk`     | Heavy Kick    |
+| `l*`     | Any light     |
+| `m*`     | Any medium    |
+| `h*`     | Any heavy     |
+| `j*`     | Any jump      |
+| `c*`     | Any crouch    |
+| `pp`     | Any two *p    |
+| `kk`     | Any two *k    |
 
 ### Cancels Into
 
