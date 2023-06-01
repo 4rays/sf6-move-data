@@ -269,3 +269,423 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Electric Thunder (Light)
+[[moves]]
+name = "Electric Thunder (Light)"
+name_ja = "エレクトリックサンダー（弱）"
+slug = "electric-thunder-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214lp"
+
+# Electric Thunder (Medium)
+[[moves]]
+name = "Electric Thunder (Medium)"
+name_ja = "エレクトリックサンダー（中）"
+slug = "electric-thunder-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214mp"
+
+# Electric Thunder (Heavy)
+[[moves]]
+name = "Electric Thunder (Heavy)"
+name_ja = "エレクトリックサンダー（強）"
+slug = "electric-thunder-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214hp"
+
+# Electric Thunder (OD)
+[[moves]]
+name = "Electric Thunder (OD)"
+name_ja = "エレクトリックサンダー（OD）"
+slug = "electric-thunder-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214[pp]"
+
+# Rolling Attack (Light)
+[[moves]]
+name = "Rolling Attack (Light)"
+name_ja = "ローリングアタック（弱）"
+slug = "rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(4)6lp"
+
+# Rolling Attack (Medium)
+[[moves]]
+name = "Rolling Attack (Medium)"
+name_ja = "ローリングアタック（中）"
+slug = "rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(4)6mp"
+
+# Rolling Attack (Heavy)
+[[moves]]
+name = "Rolling Attack (Heavy)"
+name_ja = "ローリングアタック（強）"
+slug = "rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(4)6hp"
+
+# Rolling Attack (OD)
+[[moves]]
+name = "Rolling Attack (OD)"
+name_ja = "ローリングアタック（OD）"
+slug = "rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(4)6[pp]"
+
+# Vertical Rolling Attack (Light)
+[[moves]]
+name = "Vertical Rolling Attack (Light)"
+name_ja = "バーチカルローリング（弱）"
+slug = "vertical-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(2)8lk"
+
+# Vertical Rolling Attack (Medium)
+[[moves]]
+name = "Vertical Rolling Attack (Medium)"
+name_ja = "バーチカルローリング（中）"
+slug = "vertical-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(2)8mk"
+
+# Vertical Rolling Attack (Heavy)
+[[moves]]
+name = "Vertical Rolling Attack (Heavy)"
+name_ja = "バーチカルローリング（強）"
+slug = "vertical-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(2)8hk"
+
+# Vertical Rolling Attack (OD)
+[[moves]]
+name = "Vertical Rolling Attack (OD)"
+name_ja = "バーチカルローリング（OD）"
+slug = "vertical-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "(2)8[pp]"
+
+# Backstep Rolling Attack (Light)
+[[moves]]
+name = "Backstep Rolling Attack (Light)"
+name_ja = "バックステップローリング（弱）"
+slug = "backstep-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214lk"
+
+# Backstep Rolling Attack (Medium)
+[[moves]]
+name = "Backstep Rolling Attack (Medium)"
+name_ja = "バックステップローリング（中）"
+slug = "backstep-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214mk"
+
+# Backstep Rolling Attack (Heavy)
+[[moves]]
+name = "Backstep Rolling Attack (Heavy)"
+name_ja = "バックステップローリング（強）"
+slug = "backstep-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214hk"
+
+# Backstep Rolling Attack (OD)
+[[moves]]
+name = "Backstep Rolling Attack (OD)"
+name_ja = "バックステップローリング（OD）"
+slug = "backstep-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214[pp]"
+
+# Aerial Rolling Attack (Light)
+[[moves]]
+name = "Aerial Rolling Attack (Light)"
+name_ja = "エリアルローリング（弱）"
+slug = "aerial-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j(4)6lp"
+
+# Aerial Rolling Attack (Medium)
+[[moves]]
+name = "Aerial Rolling Attack (Medium)"
+name_ja = "エリアルローリング（中）"
+slug = "aerial-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j(4)6mp"
+
+# Aerial Rolling Attack (Heavy)
+[[moves]]
+name = "Aerial Rolling Attack (Heavy)"
+name_ja = "エリアルローリング（強）"
+slug = "aerial-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j(4)6hp"
+
+# Aerial Rolling Attack (OD)
+[[moves]]
+name = "Aerial Rolling Attack (OD)"
+name_ja = "エリアルローリング（OD）"
+slug = "aerial-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j(4)6[pp]"
+
+# Wild Hunt (Light)
+[[moves]]
+name = "Wild Hunt (Light)"
+name_ja = "ワイルドハント（弱）"
+slug = "wild-hunt-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "236lk"
+
+# Wild Hunt (Medium)
+[[moves]]
+name = "Wild Hunt (Medium)"
+name_ja = "ワイルドハント（中）"
+slug = "wild-hunt-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "236mk"
+
+# Wild Hunt (Heavy)
+[[moves]]
+name = "Wild Hunt (Heavy)"
+name_ja = "ワイルドハント（強）"
+slug = "wild-hunt-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "236hk"
+
+# Wild Hunt (OD)
+[[moves]]
+name = "Wild Hunt (OD)"
+name_ja = "ワイルドハント（OD）"
+slug = "wild-hunt-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "236[pp]"
+
+# Blanka-chan Bomb
+[[moves]]
+name = "Blanka-chan Bomb"
+name_ja = "ブランカちゃん爆弾"
+slug = "blanka-chan-bomb"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "22p"
+
+# Shout of Earth
+[[moves]]
+name = "Shout of Earth"
+name_ja = "シャウトオブアース"
+slug = "shout-of-earth"
+characterId = 8
+type = "super1"
+blockType = "high"
+input = "236236p"
+
+# Lightning Beast
+[[moves]]
+name = "Lightning Beast"
+name_ja = "ライトニングビースト"
+slug = "lightning-beast"
+characterId = 8
+type = "super2"
+blockType = "high"
+input = "214214p"
+
+# Ground Shave Cannonball
+[[moves]]
+name = "Ground Shave Cannonball"
+name_ja = "グラウンドシェイブキャノンボール"
+slug = "ground-shave-cannonball"
+characterId = 8
+type = "super3"
+blockType = "high"
+input = "636236p"
+
+# Rolling Cannon
+[[moves]]
+name = "Rolling Cannon"
+name_ja = "ローリングキャノン"
+slug = "rolling-cannon"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "d*p"
+notes = ["When performing a rolling-type special move."]
+notes_ja = ["ローリング系必殺技中に入力"]
+
+# Rock Crusher
+[[moves]]
+name = "Rock Crusher"
+name_ja = "ロッククラッシュ"
+slug = "rock-crusher"
+characterId = 8
+type = "unique"
+blockType = "high"
+input = "6mk"
+
+# Double Knee Bombs
+[[moves]]
+name = "Double Knee Bombs"
+name_ja = "ダブルニーボンバー"
+slug = "double-knee-bombs"
+characterId = 8
+type = "unique"
+blockType = "high"
+input = "6mk"
+
+# Wild Edge
+[[moves]]
+name = "Wild Edge"
+name_ja = "ワイルドエッジ"
+slug = "wild-edge"
+characterId = 8
+type = "unique"
+blockType = "high"
+input = "6mk"
+
+# Wild Nail
+[[moves]]
+name = "Wild Nail"
+name_ja = "ワイルドネイル"
+slug = "wild-nail"
+characterId = 8
+type = "unique"
+blockType = "high"
+input = "6hp"
+
+# Amazon River Run
+[[moves]]
+name = "Amazon River Run"
+name_ja = "アマゾンリバーラン"
+slug = "amazon-river-run"
+characterId = 8
+type = "unique"
+blockType = "high"
+input = "3hp"
+
+# Coward Crouch
+[[moves]]
+name = "Coward Crouch"
+name_ja = "フィアーダウン"
+slug = "coward-crouch"
+characterId = 8
+type = "unique"
+input = "c[pp]"
+
+# Wild Lift
+[[moves]]
+name = "Wild Lift"
+name_ja = "ワイルドリフト"
+slug = "wild-lift"
+characterId = 8
+type = "unique"
+input = "*p"
+parentSlug = "coward-crouch"
+
+# Raid Jump
+[[moves]]
+name = "Raid Jump"
+name_ja = "レイドジャンプ"
+slug = "raid-jump"
+characterId = 8
+type = "unique"
+input = "*k"
+parentSlug = "coward-crouch"
+
+# Surprise Forward Hop
+[[moves]]
+name = "Surprise Forward Hop"
+name_ja = "サプライズフォワード"
+slug = "surprise-forward-hop"
+characterId = 8
+type = "unique"
+input = "6[kkk]"
+
+# Surprise Back Hop
+[[moves]]
+name = "Suprise Back Hop"
+name_ja = "サプライズバック"
+slug = "suprise-back-hop"
+characterId = 8
+type = "unique"
+input = "4[kkk]"
+
+# Wild Fang
+[[moves]]
+name = "Wild Fang"
+name_ja = "ワイルドファング"
+slug = "wild-fang"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+characterId = 8
+type = "throw"
+input = "[lplk]"
+
+# Jungle Flip
+[[moves]]
+name = "Jungle Flip"
+name_ja = "ジャングルフリップ"
+slug = "jungle-flip"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+characterId = 8
+type = "throw"
+input = "[4lplk]"
+
+# Wild Bites
+[[moves]]
+name = "Wild Bites"
+name_ja = "ワイルドバイツ"
+slug = "wild-bites"
+characterId = 8
+type = "throw"
+input = "j[lplk]"
