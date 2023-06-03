@@ -269,3 +269,374 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Marisa Style
+[[moves]]
+name = "Marisa Style"
+name_ja = "マリーザスタイル"
+slug = "marisa-style"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "5hp|5hk"
+
+# Light Two Hitter
+[[moves]]
+name = "Light Two Hitter"
+name_ja = "ライトワンツー"
+slug = "light-two-hitter"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "lp>lp"
+
+# Medium Two Hitter
+[[moves]]
+name = "Medium Two Hitter"
+name_ja = "ミドルワンツー"
+slug = "medium-two-hitter"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "mp>mp"
+
+# Heavy Two Hitter
+[[moves]]
+name = "Heavy Two Hitter"
+name_ja = "ヘビィーワンツー"
+slug = "heavy-two-hitter"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "hp>hp"
+
+# Volare Combo
+[[moves]]
+name = "Volare Combo"
+name_ja = "ヴォラーレコンボ"
+slug = "volare-combo"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "j5mp>5mp"
+
+# Caelum Arc
+[[moves]]
+name = "Caelum Arc"
+name_ja = "カエルムアーク"
+slug = "caelum-arc"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "j2hp"
+
+# Magna Bunker
+[[moves]]
+name = "Magna Bunker"
+name_ja = "マグナバンカー"
+slug = "magna-bunker"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "4hp"
+
+# Novacula Swipe
+[[moves]]
+name = "Novacula Swipe"
+name_ja = "ノバキュラスワイプ"
+slug = "novacula-swipe"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "6mp>5hp"
+
+# Novacula Thrust
+[[moves]]
+name = "Novacula Thrust"
+name_ja = "ノバキュラシュート"
+slug = "novacula-thrust"
+characterId = 13
+blockType = "high"
+type = "unique"
+input = "6mp>5hk"
+
+# Malleus Breaker
+[[moves]]
+name = "Malleus Breaker"
+name_ja = "マレウスビート"
+slug = "malleus-breaker"
+characterId = 13
+blockType = "overhead"
+type = "unique"
+input = "3hp>3hp"
+
+# Falx Crusher
+[[moves]]
+name = "Falx Crusher"
+name_ja = "ファルクスクラッシュ"
+slug = "falx-crusher"
+characterId = 13
+type = "unique"
+input = "6hp>6hk"
+
+# Gladius (Light)
+[[moves]]
+name = "Gladius (Light)"
+name_ja = "グラディウス（小）"
+slug = "gladius-light"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236lp"
+notes = ["Hold to change effect"]
+notes_ja = ["ボタンホールドで性質変化"]
+
+# Gladius (Medium)
+[[moves]]
+name = "Gladius (Medium)"
+name_ja = "グラディウス（中）"
+slug = "gladius-medium"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236mp"
+notes = ["Hold to change effect"]
+notes_ja = ["ボタンホールドで性質変化"]
+
+# Gladius (Heavy)
+[[moves]]
+name = "Gladius (Heavy)"
+name_ja = "グラディウス（大）"
+slug = "gladius-heavy"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236hp"
+notes = ["Hold to change effect"]
+notes_ja = ["ボタンホールドで性質変化"]
+
+# Gladius (OD)
+[[moves]]
+name = "Gladius (OD)"
+name_ja = "グラディウス（OD）"
+slug = "gladius-od"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236[pp]"
+notes = ["Hold to change effect"]
+notes_ja = ["ボタンホールドで性質変化"]
+
+# Dimachaerus (Light)
+[[moves]]
+name = "Dimachaerus (Light)"
+name_ja = "ディマカイルス（小）"
+slug = "dimachaerus-light"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214lp>*p"
+
+# Dimachaerus (Medium)
+[[moves]]
+name = "Dimachaerus (Medium)"
+name_ja = "ディマカイルス（中）"
+slug = "dimachaerus-medium"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214mp>*p"
+
+# Dimachaerus (Heavy)
+[[moves]]
+name = "Dimachaerus (Heavy)"
+name_ja = "ディマカイルス（大）"
+slug = "dimachaerus-heavy"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214hp>*p"
+
+# Dimachaerus (OD)
+[[moves]]
+name = "Dimachaerus (OD)"
+name_ja = "ディマカイルス（OD）"
+slug = "dimachaerus-od"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214[pp]>*p"
+
+# Phalanx (Light)
+[[moves]]
+name = "Phalanx (Light)"
+name_ja = "ファランクス（小）"
+slug = "phalanx-light"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "623lp"
+
+# Phalanx (Medium)
+[[moves]]
+name = "Phalanx (Medium)"
+name_ja = "ファランクス（中）"
+slug = "phalanx-medium"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "623mp"
+
+# Phalanx (Heavy)
+[[moves]]
+name = "Phalanx (Heavy)"
+name_ja = "ファランクス（大）"
+slug = "phalanx-heavy"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "623hp"
+
+# Phalanx (OD)
+[[moves]]
+name = "Phalanx (OD)"
+name_ja = "ファランクス（OD）"
+slug = "phalanx-od"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "623[pp]"
+
+# Quadriga (Light)
+[[moves]]
+name = "Quadriga (Light)"
+name_ja = "クアドリガ（小）"
+slug = "quadriga-light"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236lk"
+
+# Quadriga (Medium)
+[[moves]]
+name = "Quadriga (Medium)"
+name_ja = "クアドリガ（中）"
+slug = "quadriga-medium"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236mk"
+
+# Quadriga (Heavy)
+[[moves]]
+name = "Quadriga (Heavy)"
+name_ja = "クアドリガ（大）"
+slug = "quadriga-heavy"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236hk"
+
+# Quadriga (OD)
+[[moves]]
+name = "Quadriga (OD)"
+name_ja = "クアドリガ（OD）"
+slug = "quadriga-od"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236[kk]"
+
+# Scutum
+[[moves]]
+name = "Scutum"
+name_ja = "スクトゥム"
+slug = "scutum"
+characterId = 13
+type = "special"
+input = "214*k"
+
+# Tonitrus
+[[moves]]
+name = "Tonitrus"
+name_ja = "トニトルス"
+slug = "tonitrus"
+characterId = 13
+blockType = "overhead"
+type = "special"
+input = "*p>*p"
+parentSlug = "scutum"
+
+# Procella
+[[moves]]
+name = "Procella"
+name_ja = "プロケッラ"
+slug = "procella"
+blockType = "low"
+characterId = 13
+type = "special"
+input = "*k"
+parentSlug = "scutum"
+
+# Enfold
+[[moves]]
+name = "Enfold"
+name_ja = "エンフォルド"
+slug = "enfold"
+characterId = 13
+blockType = "high"
+type = "special"
+input = "[lplk]"
+parentSlug = "scutum"
+
+# Javelin of Marisa
+[[moves]]
+name = "Javelin of Marisa"
+name_ja = "マリーザジャベリン"
+slug = "javelin-of-marisa"
+characterId = 13
+blockType = "high"
+type = "super1"
+input = "236236p"
+
+# Meteorite
+[[moves]]
+name = "Meteorite"
+name_ja = "メテオリティス"
+slug = "meteorite"
+characterId = 13
+blockType = "high"
+type = "super2"
+input = "214214p"
+
+# Goddess of the Hunt
+[[moves]]
+name = "Goddess of the Hunt"
+name_ja = "アポロウーサ"
+slug = "goddess-of-the-hunt"
+characterId = 13
+blockType = "high"
+type = "super3"
+input = "236236k"
+
+# Mounted Grace
+[[moves]]
+name = "Mounted Grace"
+name_ja = "マウンテッドグレイス"
+slug = "mounted-grace"
+alternativeNames = ["Forward throw"]
+alternativeNames_ja = ["前投げ"]
+characterId = 13
+type = "throw"
+input = "[lplk]"
+
+# Ponte Milvio
+[[moves]]
+name = "Ponte Milvio"
+name_ja = "ミルヴィオブリッジ"
+slug = "ponte-milvio"
+alternativeNames = ["Back throw"]
+alternativeNames_ja = ["後ろ投げ"]
+characterId = 13
+type = "throw"
+input = "4[lplk]"
