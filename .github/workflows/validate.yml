@@ -1,0 +1,23 @@
+name: Validate Script
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run validation script
+      run: ./validate.py
+    - name: Check status
+      run: |
+        if [ $? -eq 0 ]
+        then
+          echo "Validation succeeded"
+        else
+          echo "Validation failed"
+          exit 1
+        fi
