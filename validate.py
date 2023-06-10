@@ -22,6 +22,8 @@ def validate(move, file_name):
     if move["type"] not in [
         "normal",
         "commandNormal",
+        "action",
+        "actionMove",
         "targetCombo",
         "special",
         "super1",
@@ -30,7 +32,7 @@ def validate(move, file_name):
         "throw",
     ]:
         print(
-            "❗ Validation error: Move type for {} should be one of normal, commandNormal, targetCombo, special, super1, super2, super3, or throw.".format(
+            "❗ Validation error: Move type for {} should be one of normal, commandNormal, action, actionMove, targetCombo, special, super1, super2, super3, or throw.".format(
                 move["name"]
             )
         )
@@ -117,6 +119,38 @@ def validate(move, file_name):
                 return False
     else:
         print("🚧 Validation warning: frameCount missing on {}.".format(move["name"]))
+
+    if cancelsInto := move.get("cancelsInto"):
+        match cancelsInto:
+            case list():
+                for cancel in cancelsInto:
+                    match cancel:
+                        case str():
+                            if cancel not in [
+                                "chain",
+                                "special",
+                                "super",
+                                "jump",
+                                "targetCombo",
+                                "super1",
+                                "super2",
+                                "super3"
+                            ]:
+                                print(
+                                    "❗ Validation error: cancelsInto on {} should be a one of the following values: chain, special, super, jump, targetCombo, super1, super2, or super3 but was {} instead".format(
+                                        move["name"], cancel
+                                    )
+                                )
+                                return False
+                            else:
+                                pass
+                        case _:
+                            print(
+                                "❗ Validation error: properties on {} should be a list of strings.".format(
+                                    move["name"]
+                                )
+                            )
+                            return False
 
     if properties := move.get("properties"):
         match properties:

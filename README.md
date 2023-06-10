@@ -9,17 +9,19 @@ The data is saved as TOML in character-specific files.
 The `moveType` property is a string representing the type of move.
 The following table lists the possible values:
 
-| Value           | Meaning             |
-|-----------------|---------------------|
-| `normal`        | Normal move         |
-| `commandNormal` | Command normal move |
-| `targetCombo`   | Target combo        |
-| `special`       | Special move        |
-| `super1`        | Level 1 super move  |
-| `super2`        | Level 2 super move  |
-| `super3`        | Level 3 super move  |
-| `unique`        | Unique move         |
-| `throw`         | Throw               |
+| Value           | Meaning                  |
+|-----------------|--------------------------|
+| `normal`        | Normal move              |
+| `commandNormal` | Command normal move      |
+| `action`        | Non-damaging actions     |
+| `actionMove`    | Move requiring an action |
+| `targetCombo`   | Target combo             |
+| `special`       | Special move             |
+| `super1`        | Level 1 super move       |
+| `super2`        | Level 2 super move       |
+| `super3`        | Level 3 super move       |
+| `unique`        | Unique move              |
+| `throw`         | Throw                    |
 
 ### Frame Count
 
@@ -86,7 +88,7 @@ The following table lists the special notation used in the string:
 | `7`      | Up-Back       |
 | `8`      | Up            |
 | `9`      | Up-Forward    |
-| `d`     | Any direction |
+| `d`      | Any direction |
 | `[]`     | Simultaneous  |
 | `()`     | Hold          |
 | `>`      | Follow-up     |
@@ -118,9 +120,10 @@ The following table lists the possible values:
 | `special`     | Cancels into special moves  |
 | `super`       | Cancels into super moves    |
 | `targetCombo` | Cancels into target combos  |
-| `superLevel1` | Cancels into level 1 supers |
-| `superLevel2` | Cancels into level 2 supers |
-| `superLevel3` | Cancels into level 3 supers |
+| `jump`        | Cancels into jump           |
+| `super1`      | Cancels into level 1 supers |
+| `super2`      | Cancels into level 2 supers |
+| `super3`      | Cancels into level 3 supers |
 
 ### Block Type
 

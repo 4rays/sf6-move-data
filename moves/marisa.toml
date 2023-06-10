@@ -44,6 +44,18 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+properties = ["chargeable"]
+
+# Marisa Style (Standing Punch)
+[[moves]]
+name = "Marisa Style (Punch)"
+name_ja = "マリーザスタイル (立ちパンチ)"
+slug = "marisa-style-stand-punch"
+characterId = 13
+blockType = "high"
+type = "commandNormal"
+input = "5(hp)"
+parentSlug = "marisa-stand-heavy-punch"
 
 # Standing Light Kick
 [[moves]]
@@ -90,6 +102,17 @@ hitCount = 1
 blockType = "low"
 input = "5hk"
 
+# Marisa Style (Standing Kick)
+[[moves]]
+name = "Marisa Style (Standing Kick)"
+name_ja = "マリーザスタイル (立ち足)"
+slug = "marisa-style-stand-kick"
+characterId = 13
+blockType = "low"
+type = "commandNormal"
+input = "5(hk)"
+parentSlug = "marisa-stand-heavy-kick"
+
 # Crouching Light Punch
 [[moves]]
 name = "Crouching Light Punch"
@@ -134,6 +157,18 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["chargeable"]
+
+# Marisa Style (Crouching Punch)
+[[moves]]
+name = "Marisa Style (Crouching Punch)"
+name_ja = "マリーザスタイル (しゃがみパンチ)"
+slug = "marisa-style-crouch-punch"
+characterId = 13
+blockType = "high"
+type = "commandNormal"
+input = "2(hp)"
+parentSlug = "marisa-crouch-heavy-punch"
 
 # Crouching Light Kick
 [[moves]]
@@ -179,6 +214,18 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["chargeable"]
+
+# Marisa Style (Crouching Kick)
+[[moves]]
+name = "Marisa Style (Crouching Kick)"
+name_ja = "マリーザスタイル (しゃがみキック)"
+slug = "marisa-style-crouch-kick"
+characterId = 13
+blockType = "low"
+type = "commandNormal"
+input = "2(hk)"
+parentSlug = "marisa-crouch-heavy-kick"
 
 # Jumping Light Punch
 [[moves]]
@@ -224,6 +271,18 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhp"
+properties = ["chargeable"]
+
+# Marisa Style (Jumping Punch)
+[[moves]]
+name = "Marisa Style (Jumping Punch)"
+name_ja = "マリーザスタイル (ジャンプパンチ)"
+slug = "marisa-style-jump-punch"
+characterId = 13
+blockType = "high"
+type = "commandNormal"
+input = "j(hp)"
+parentSlug = "marisa-jump-heavy-punch"
 
 # Jumping Light Kick
 [[moves]]
@@ -269,16 +328,18 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+properties = ["chargeable"]
 
-# Marisa Style
+# Marisa Style (Jumping Kick)
 [[moves]]
-name = "Marisa Style"
-name_ja = "マリーザスタイル"
-slug = "marisa-style"
+name = "Marisa Style (Jumping Kick)"
+name_ja = "マリーザスタイル (ジャンプキック)"
+slug = "marisa-style-jump-kick"
 characterId = 13
 blockType = "high"
-type = "unique"
-input = "5hp|5hk"
+type = "commandNormal"
+input = "j(hk)"
+parentSlug = "marisa-jump-heavy-kick"
 
 # Light Two Hitter
 [[moves]]
@@ -287,7 +348,7 @@ name_ja = "ライトワンツー"
 slug = "light-two-hitter"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "lp>lp"
 
 # Medium Two Hitter
@@ -297,7 +358,7 @@ name_ja = "ミドルワンツー"
 slug = "medium-two-hitter"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "mp>mp"
 
 # Heavy Two Hitter
@@ -307,7 +368,7 @@ name_ja = "ヘビィーワンツー"
 slug = "heavy-two-hitter"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "hp>hp"
 
 # Volare Combo
@@ -317,7 +378,7 @@ name_ja = "ヴォラーレコンボ"
 slug = "volare-combo"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "j5mp>5mp"
 
 # Caelum Arc
@@ -327,7 +388,7 @@ name_ja = "カエルムアーク"
 slug = "caelum-arc"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "commandNormal"
 input = "j2hp"
 
 # Magna Bunker
@@ -337,7 +398,7 @@ name_ja = "マグナバンカー"
 slug = "magna-bunker"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "commandNormal"
 input = "4hp"
 
 # Novacula Swipe
@@ -347,7 +408,7 @@ name_ja = "ノバキュラスワイプ"
 slug = "novacula-swipe"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "6mp>5hp"
 
 # Novacula Thrust
@@ -357,7 +418,7 @@ name_ja = "ノバキュラシュート"
 slug = "novacula-thrust"
 characterId = 13
 blockType = "high"
-type = "unique"
+type = "targetCombo"
 input = "6mp>5hk"
 
 # Malleus Breaker
@@ -367,7 +428,7 @@ name_ja = "マレウスビート"
 slug = "malleus-breaker"
 characterId = 13
 blockType = "overhead"
-type = "unique"
+type = "targetCombo"
 input = "3hp>3hp"
 
 # Falx Crusher
@@ -376,8 +437,8 @@ name = "Falx Crusher"
 name_ja = "ファルクスクラッシュ"
 slug = "falx-crusher"
 characterId = 13
-type = "unique"
-input = "6hp>6hk"
+type = "targetCombo"
+input = "6hk>6hk"
 
 # Gladius (Light)
 [[moves]]

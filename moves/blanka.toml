@@ -568,7 +568,7 @@ name = "Rock Crusher"
 name_ja = "ロッククラッシュ"
 slug = "rock-crusher"
 characterId = 8
-type = "unique"
+type = "commandNormal"
 blockType = "high"
 input = "6mk"
 
@@ -578,7 +578,7 @@ name = "Double Knee Bombs"
 name_ja = "ダブルニーボンバー"
 slug = "double-knee-bombs"
 characterId = 8
-type = "unique"
+type = "commandNormal"
 blockType = "high"
 input = "6mk"
 
@@ -588,9 +588,9 @@ name = "Wild Edge"
 name_ja = "ワイルドエッジ"
 slug = "wild-edge"
 characterId = 8
-type = "unique"
+type = "commandNormal"
 blockType = "high"
-input = "6mk"
+input = "4mk"
 
 # Wild Nail
 [[moves]]
@@ -598,7 +598,7 @@ name = "Wild Nail"
 name_ja = "ワイルドネイル"
 slug = "wild-nail"
 characterId = 8
-type = "unique"
+type = "commandNormal"
 blockType = "high"
 input = "6hp"
 
@@ -608,7 +608,7 @@ name = "Amazon River Run"
 name_ja = "アマゾンリバーラン"
 slug = "amazon-river-run"
 characterId = 8
-type = "unique"
+type = "commandNormal"
 blockType = "high"
 input = "3hp"
 
@@ -618,7 +618,7 @@ name = "Coward Crouch"
 name_ja = "フィアーダウン"
 slug = "coward-crouch"
 characterId = 8
-type = "unique"
+type = "action"
 input = "c*[pp]"
 
 # Wild Lift
@@ -627,7 +627,7 @@ name = "Wild Lift"
 name_ja = "ワイルドリフト"
 slug = "wild-lift"
 characterId = 8
-type = "unique"
+type = "actionMove"
 input = "*p"
 parentSlug = "coward-crouch"
 
@@ -637,7 +637,7 @@ name = "Raid Jump"
 name_ja = "レイドジャンプ"
 slug = "raid-jump"
 characterId = 8
-type = "unique"
+type = "actionMove"
 input = "*k"
 parentSlug = "coward-crouch"
 
@@ -647,7 +647,7 @@ name = "Surprise Forward Hop"
 name_ja = "サプライズフォワード"
 slug = "surprise-forward-hop"
 characterId = 8
-type = "unique"
+type = "action"
 input = "6[kkk]"
 
 # Surprise Back Hop
@@ -656,7 +656,7 @@ name = "Suprise Back Hop"
 name_ja = "サプライズバック"
 slug = "suprise-back-hop"
 characterId = 8
-type = "unique"
+type = "action"
 input = "4[kkk]"
 
 # Wild Fang
