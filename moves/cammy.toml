@@ -270,3 +270,432 @@ hitCount = 1
 blockType = "high"
 input = "jhk"
 
+# Lift Uppercut
+[[moves]]
+name = "Lift Uppercut"
+name_ja = "リフトアッパー"
+slug = "lift-uppercut"
+characterId = 17
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4mp"
+
+# Delayed Ripper
+[[moves]]
+name = "Delayed Ripper"
+name_ja = "ディレイリーパー"
+slug = "delayed-ripper"
+characterId = 17
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6hk"
+
+# Assault Blade
+[[moves]]
+name = "Assault Blade"
+name_ja = "アサルトブレード"
+slug = "assault-blade"
+characterId = 17
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4hp"
+
+# Lift Combination
+[[moves]]
+name = "Lift Combination"
+name_ja = "リフトコンビネーション"
+slug = "lift-combination"
+characterId = 17
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "4mp>6hk"
+
+# Swing Combination
+[[moves]]
+name = "Swing Combination"
+name_ja = "スイングコンビネーション"
+slug = "swing-combination"
+characterId = 17
+type = "targetCombo"
+hitCount = 3
+blockType = "high"
+input = "4hp>6hk"
+
+# Spiral Arrow (Light)
+[[moves]]
+name = "Spiral Arrow (Light)"
+name_ja = "スパイラルアロー（弱）"
+slug = "spiral-arrow-light"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236lk"
+
+# Spiral Arrow (Medium)
+[[moves]]
+name = "Spiral Arrow (Medium)"
+name_ja = "スパイラルアロー（中）"
+slug = "spiral-arrow-medium"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236mk"
+
+# Spiral Arrow (Heavy)
+[[moves]]
+name = "Spiral Arrow (Heavy)"
+name_ja = "スパイラルアロー（強）"
+slug = "spiral-arrow-heavy"
+characterId = 17
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "236hk"
+properties = ["chargeable"]
+
+# Spiral Arrow (Charged)
+[[moves]]
+name = "Spiral Arrow (Charged)"
+name_ja = "スパイラルアロー（溜め）"
+slug = "spiral-arrow-charged"
+characterId = 17
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "236[hk]"
+
+# Spiral Arrow (OD)
+[[moves]]
+name = "Spiral Arrow (OD)"
+name_ja = "スパイラルアロー（OD）"
+slug = "spiral-arrow-od"
+characterId = 17
+type = "special"
+hitCount = 5
+blockType = "high"
+
+# Cannon Spike (Light)
+[[moves]]
+name = "Cannon Spike (Light)"
+name_ja = "キャノンスパイク（弱）"
+slug = "cannon-spike-light"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623lk"
+
+# Cannon Spike (Medium)
+[[moves]]
+name = "Cannon Spike (Medium)"
+name_ja = "キャノンスパイク（中）"
+slug = "cannon-spike-medium"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623mk"
+
+# Cannon Spike (Heavy)
+[[moves]]
+name = "Cannon Spike (Heavy)"
+name_ja = "キャノンスパイク（強）"
+slug = "cannon-spike-heavy"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623hk"
+properties = ["chargeable"]
+
+# Cannon Spike (Charged)
+[[moves]]
+name = "Cannon Spike (Charged)"
+name_ja = "キャノンスパイク（溜め）"
+slug = "cannon-spike-charged"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623[hk]"
+
+# Cannon Spike (OD)
+[[moves]]
+name = "Cannon Spike (OD)"
+name_ja = "キャノンスパイク（OD）"
+slug = "cannon-spike-od"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623[pp]"
+
+# Quick Spin Knuckle (Light)
+[[moves]]
+name = "Quick Spin Knuckle (Light)"
+name_ja = "アクセルスピンナックル（弱）"
+slug = "quick-spin-knuckle-light"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214lk"
+
+# Quick Spin Knuckle (Medium)
+[[moves]]
+name = "Quick Spin Knuckle (Medium)"
+name_ja = "アクセルスピンナックル（中）"
+slug = "quick-spin-knuckle-medium"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214mk"
+
+# Quick Spin Knuckle (Heavy)
+[[moves]]
+name = "Quick Spin Knuckle (Heavy)"
+name_ja = "アクセルスピンナックル（強）"
+slug = "quick-spin-knuckle-heavy"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214hk"
+
+# Quick Spin Knuckle (OD)
+[[moves]]
+name = "Quick Spin Knuckle (OD)"
+name_ja = "アクセルスピンナックル（OD）"
+slug = "quick-spin-knuckle-od"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[pp]"
+
+# Cannon Strike
+[[moves]]
+name = "Cannon Strike"
+name_ja = "キャノンストライク"
+slug = "cannon-strike"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j214*k"
+
+# Cannon Strike (OD)
+[[moves]]
+name = "Cannon Strike (OD)"
+name_ja = "キャノンストライク（OD）"
+slug = "cannon-strike-od"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j214[kk]"
+
+# Hooligan Combination
+[[moves]]
+name = "Hooligan Combination"
+name_ja = "フーリガンコンビネーション"
+slug = "hooligan-combination"
+characterId = 17
+type = "special"
+input = "236*p"
+properties = ["chargeable"]
+
+# Hooligan Combination (Charged)
+[[moves]]
+name = "Hooligan Combination (Charged)"
+name_ja = "フーリガンコンビネーション（溜め）"
+slug = "hooligan-combination-charged"
+characterId = 17
+type = "special"
+input = "236[hp]"
+
+# Razor's Edge Slicer
+[[moves]]
+name = "Razor's Edge Slicer"
+name_ja = "レイザーエッジスライサー"
+slug = "razors-edge-slicer"
+characterId = 17
+hitCount = 1
+blockType = "low"
+type = "special"
+input = "236*p"
+parentSlug = "hooligan-combination"
+
+# Razor's Edge Slicer (Charged)
+[[moves]]
+name = "Razor's Edge Slicer (Charged)"
+name_ja = "レイザーエッジスライサー（溜め）"
+slug = "razors-edge-slicer-charged"
+characterId = 17
+hitCount = 1
+blockType = "low"
+type = "special"
+input = "236[hp]"
+parentSlug = "hooligan-combination"
+
+# Cannon Strike
+[[moves]]
+name = "Cannon Strike"
+name_ja = "キャノンストライク"
+slug = "cannon-strike"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236*p>*k"
+parentSlug = "hooligan-combination"
+
+# Cannon Strike (Charged)
+[[moves]]
+name = "Cannon Strike (Charged)"
+name_ja = "キャノンストライク（溜め）"
+slug = "cannon-strike-charged"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[hp]>*k"
+parentSlug = "hooligan-combination"
+
+# Reverse Edge
+[[moves]]
+name = "Reverse Edge"
+name_ja = "リバースエッジ"
+slug = "reverse-edge"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236*p>2*k"
+parentSlug = "hooligan-combination"
+
+# Reverse Edge (Charged)
+[[moves]]
+name = "Reverse Edge (Charged)"
+name_ja = "リバースエッジ（溜め）"
+slug = "reverse-edge-charged"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[hp]>2*k"
+parentSlug = "hooligan-combination"
+
+# Fatal Leg Twister
+[[moves]]
+name = "Fatal Leg Twister"
+name_ja = "フェイタルレッグツイスター"
+slug = "fatal-leg-twister"
+characterId = 17
+type = "throw"
+input = "236*p>[lplk]"
+parentSlug = "hooligan-combination"
+
+# Fatal Leg Twister (Charged)
+[[moves]]
+name = "Fatal Leg Twister (Charged)"
+name_ja = "フェイタルレッグツイスター（溜め）"
+slug = "fatal-leg-twister-charged"
+characterId = 17
+type = "throw"
+input = "236[hp]>[lplk]"
+parentSlug = "hooligan-combination"
+
+# Silent Step
+[[moves]]
+name = "Silent Step"
+name_ja = "サイレントステップ"
+slug = "silent-step"
+characterId = 17
+type = "action"
+input = "236*p"
+parentSlug = "hooligan-combination"
+
+# Spin Drive Smasher
+[[moves]]
+name = "Spin Drive Smasher"
+name_ja = "スピンドライブスマッシャー"
+slug = "spin-drive-smasher"
+characterId = 17
+blockType = "high"
+hitCount = 7
+type = "super1"
+input = "236236*k"
+
+# Killer Bee Spin
+[[moves]]
+name = "Killer Bee Spin"
+name_ja = "キラービースピン"
+slug = "killer-bee-spin"
+characterId = 17
+blockType = "high"
+hitCount = 3
+type = "super2"
+input = "214214*k"
+
+# Aerial Killer Bee Spin
+[[moves]]
+name = "Aerial Killer Bee Spin"
+name_ja = "エアキラービースピン"
+slug = "aerial-killer-bee-spin"
+characterId = 17
+blockType = "high"
+hitCount = 3
+type = "super2"
+input = "j214214*k"
+
+# Delta Red Assault
+[[moves]]
+name = "Delta Red Assault"
+name_ja = "デルタレッドアサルト"
+slug = "delta-red-assault"
+characterId = 17
+blockType = "high"
+hitCount = 1
+type = "super3"
+input = "236236*p"
+
+# Rough Landing
+[[moves]]
+name = "Rough Landing"
+name_ja = "ラフランディング"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "rough-landing"
+characterId = 17
+type = "throw"
+input = "[lplk]"
+
+# Delta Throw
+[[moves]]
+name = "Delta Throw"
+name_ja = "デルタスルー"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "delta-throw"
+characterId = 17
+type = "throw"
+input = "[2lplk]"
+
+# Leg Scissors Choke
+[[moves]]
+name = "Leg Scissors Choke"
+name_ja = "レッグシザースチョーク"
+alternativeNames = ["Air Throw"]
+alternativeNames_ja = ["空中投げ"]
+slug = "leg-scissors-choke"
+characterId = 17
+type = "throw"
+input = "j[lplk]"

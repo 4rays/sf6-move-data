@@ -127,7 +127,7 @@ The following table lists the possible values:
 
 ### Block Type
 
-The `blockType` property refers attack type with regards to blocking.
+The `blockType` property refers to the attack type with regards to blocking.
 
 | Value      | Meaning  |
 |------------|----------|
