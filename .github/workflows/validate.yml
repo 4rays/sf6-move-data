@@ -1,4 +1,4 @@
-name: Validate Script
+name: Validate
 
 on:
   push:
@@ -10,6 +10,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install toml
+      run: pip3 install toml
     - name: Run validation script
       run: ./validate.py
     - name: Check status
