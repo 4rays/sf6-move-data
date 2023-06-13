@@ -658,7 +658,7 @@ slug = "javelin-of-marisa"
 characterId = 13
 blockType = "high"
 type = "super1"
-input = "236236p"
+input = "236236*p"
 
 # Meteorite
 [[moves]]
@@ -668,7 +668,7 @@ slug = "meteorite"
 characterId = 13
 blockType = "high"
 type = "super2"
-input = "214214p"
+input = "214214*p"
 
 # Goddess of the Hunt
 [[moves]]
@@ -678,7 +678,7 @@ slug = "goddess-of-the-hunt"
 characterId = 13
 blockType = "high"
 type = "super3"
-input = "236236k"
+input = "236236*k"
 
 # Mounted Grace
 [[moves]]

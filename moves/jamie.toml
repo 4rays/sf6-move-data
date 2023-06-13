@@ -642,7 +642,7 @@ slug = "breakin"
 characterId = 2
 type = "super1"
 blockType = "high"
-input = "236236k"
+input = "236236*k"
 
 # The Devil's Song
 [[moves]]
@@ -652,7 +652,7 @@ slug = "the-devils-song"
 characterId = 2
 type = "super2"
 blockType = "high"
-input = "214214p"
+input = "214214*p"
 
 # Getsuga Saiho
 [[moves]]
@@ -662,7 +662,7 @@ slug = "getsuga-saiho"
 characterId = 2
 type = "super3"
 blockType = "high"
-input = "236236p"
+input = "236236*p"
 
 # Back Shaver
 [[moves]]

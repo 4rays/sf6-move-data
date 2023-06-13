@@ -528,7 +528,7 @@ slug = "shout-of-earth"
 characterId = 8
 type = "super1"
 blockType = "high"
-input = "236236p"
+input = "236236*p"
 
 # Lightning Beast
 [[moves]]
@@ -538,7 +538,7 @@ slug = "lightning-beast"
 characterId = 8
 type = "super2"
 blockType = "high"
-input = "214214p"
+input = "214214*p"
 
 # Ground Shave Cannonball
 [[moves]]
@@ -686,6 +686,8 @@ input = "[4lplk]"
 name = "Wild Bites"
 name_ja = "ワイルドバイツ"
 slug = "wild-bites"
+alternativeNames = ["Air Throw"]
+alternativeNames_ja = ["空中投げ"]
 characterId = 8
 type = "throw"
 input = "j[lplk]"

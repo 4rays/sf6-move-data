@@ -735,7 +735,7 @@ name_ja = "武神乱舞"
 slug = "bushin-beats"
 characterId = 5
 type = "super1"
-input = "236236k"
+input = "236236*k"
 
 # Bushin Thunderous Beats
 [[moves]]
@@ -744,7 +744,7 @@ name_ja = "武神雷鳴乱舞"
 slug = "bushin-thunderous-beats"
 characterId = 5
 type = "super1"
-input = "236236k"
+input = "236236*k"
 notes = ["With 1+ shuriken."]
 notes_ja = ["手裏剣が1本以上"]
 
@@ -755,7 +755,7 @@ name_ja = "武神天翔亢竜"
 slug = "bushin-scramble"
 characterId = 5
 type = "super2"
-input = "214214p"
+input = "214214*p"
 
 # Soaring Bushin Scramble
 [[moves]]
@@ -764,7 +764,7 @@ name_ja = "空中武神天翔亢竜"
 slug = "soaring-bushin-scramble"
 characterId = 5
 type = "super2"
-input = "j214214p"
+input = "j214214*p"
 
 # Bushin Ninjastar Cypher
 [[moves]]
@@ -773,7 +773,7 @@ name_ja = "武神顕現神楽"
 slug = "bushin-ninjastar-cypher"
 characterId = 5
 type = "super3"
-input = "236236p"
+input = "236236*p"
 
 # Ripcord Throw
 [[moves]]

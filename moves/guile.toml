@@ -619,7 +619,7 @@ characterId = 4
 type = "super2"
 hitCount = 1
 blockType = "high"
-input = "214214p"
+input = "214214*p"
 
 # Sonic Break
 [[moves]]
@@ -630,7 +630,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214p>[pp]|[4]6p"
+input = "214214*p>[pp]|[4]6p"
 parentSlug = "sonic-puncher"
 
 # Sonic Break (OD)
@@ -642,7 +642,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214pp>[pp]|[4]6pp"
+input = "214214*pp>[pp]|[4]6pp"
 parentSlug = "sonic-puncher"
 
 # Crossfire Somersault
