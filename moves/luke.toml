@@ -389,7 +389,7 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236pp"
+input = "236[pp]"
 
 # Fatal Shot
 [[moves]]
@@ -632,7 +632,7 @@ characterId = 1
 type = "super1"
 hitCount = 1
 blockType = "high"
-input = "236pp"
+input = "236[pp]"
 
 # Eraser
 [[moves]]
@@ -654,7 +654,7 @@ characterId = 1
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "236kk"
+input = "236[kk]"
 
 # Sweeper
 [[moves]]

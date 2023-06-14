@@ -1,0 +1,695 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱パン"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "deejay-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lp"
+notes = []
+notes_ja = []
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中パン"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "deejay-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5mp"
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強パン"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "deejay-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5hp"
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱キック"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "deejay-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5lk"
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中キック"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "deejay-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5mk"
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強キック"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "deejay-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5hk"
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱パン"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "deejay-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中パン"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ中パン"]
+slug = "deejay-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2mp"
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強パン"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "deejay-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱キック"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "deejay-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2lk"
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中キック"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "deejay-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2mk"
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強キック"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "deejay-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2hk"
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱パン"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "deejay-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jlp"
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中パン"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン"]
+slug = "deejay-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jmp"
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強パン"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "deejay-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jhp"
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱キック"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
+slug = "deejay-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jlk"
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中キック"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "deejay-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jmk"
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強キック"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "deejay-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 11
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "jhk"
+
+# Knee Shot
+[[moves]]
+name = "Knee Shot"
+name_ja = "ニーショット"
+slug = "knee-shot"
+characterId = 11
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "j2lk"
+
+# Sunrise Heel
+[[moves]]
+name = "Sunrise Heel"
+name_ja = "サンライズヒール"
+slug = "sunrise-heel"
+characterId = 11
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6mk"
+
+# Face Breaker
+[[moves]]
+name = "Face Breaker"
+name_ja = "フェイスブレイカー"
+slug = "face-breaker"
+characterId = 11
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6hk"
+
+# Threebeat Combo
+[[moves]]
+name = "Threebeat Combo"
+name_ja = "3ビートコンボ"
+slug = "threebeat-combo"
+characterId = 11
+type = "commandNormal"
+hitCount = 3
+blockType = "high"
+input = "lp>mp>mp"
+
+# Face Breaker
+[[moves]]
+name = "Dee Jay Special"
+name_ja = "ディージェイスペシャル"
+slug = "dee-jay-special"
+characterId = 11
+type = "commandNormal"
+hitCount = 3
+blockType = "high"
+input = "mp>hp>hk"
+
+# Funky Dance
+[[moves]]
+name = "Funky Dance"
+name_ja = "ファンキーダンス"
+slug = "funky-dance"
+characterId = 11
+type = "targetCombo"
+hitCount = 3
+blockType = "high"
+input = "mp>mp>hp"
+
+# Funky Dance Feint
+[[moves]]
+name = "Funky Dance Feint"
+name_ja = "ファンキーダンス・フェイク"
+slug = "funky-dance-feint"
+characterId = 11
+type = "targetCombo"
+hitCount = 3
+blockType = "high"
+input = "mp>mp>4hp"
+
+# Party in the Air
+[[moves]]
+name = "Party in the Air"
+name_ja = "フライングパーティー"
+slug = "party-in-the-air"
+characterId = 11
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "jmk>hk"
+
+# Speedy Maracas
+[[moves]]
+name = "Speedy Maracas"
+name_ja = "マラカスビート"
+slug = "speedy-maracas"
+characterId = 11
+type = "action"
+hitCount = 1
+blockType = "high"
+input = "22[pp]"
+
+# Air Slasher (Light)
+[[moves]]
+name = "Air Slasher (Light)"
+name_ja = "エアスラッシャー（弱）"
+slug = "air-slasher-light"
+characterId = 11
+type = "special"
+input = "(4)6lp"
+
+# Air Slasher (Medium)
+[[moves]]
+name = "Air Slasher (Medium)"
+name_ja = "エアスラッシャー（中）"
+slug = "air-slasher-medium"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "(4)6mp"
+
+# Air Slasher (Heavy)
+[[moves]]
+name = "Air Slasher (Heavy)"
+name_ja = "エアスラッシャー（強）"
+slug = "air-slasher-heavy"
+characterId = 11
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "(4)6hp"
+
+# Air Slasher (OD)
+[[moves]]
+name = "Air Slasher (OD)"
+name_ja = "エアスラッシャー（OD）"
+slug = "air-slasher-od"
+characterId = 11
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "(4)6[pp]"
+
+# Jackknife Maximum (Light)
+[[moves]]
+name = "Jackknife Maximum (Light)"
+name_ja = "ジャックナイフマキシマム（弱）"
+slug = "jackknife-maximum-light"
+characterId = 11
+type = "special"
+input = "(2)8lp"
+
+# Jackknife Maximum (Medium)
+[[moves]]
+name = "Jackknife Maximum (Medium)"
+name_ja = "ジャックナイフマキシマム（中）"
+slug = "jackknife-maximum-medium"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "(2)8mp"
+
+# Jackknife Maximum (Heavy)
+[[moves]]
+name = "Jackknife Maximum (Heavy)"
+name_ja = "ジャックナイフマキシマム（強）"
+slug = "jackknife-maximum-heavy"
+characterId = 11
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "(2)8hp"
+
+# Jackknife Maximum (OD)
+[[moves]]
+name = "Jackknife Maximum (OD)"
+name_ja = "ジャックナイフマキシマム（OD）"
+slug = "jackknife-maximum-od"
+characterId = 11
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "(2)8[pp]"
+
+# Roll Through Feint
+[[moves]]
+name = "Roll Through Feint"
+name_ja = "フェイクロールステップ"
+slug = "roll-through-feint"
+characterId = 11
+type = "special"
+input = "236lk"
+
+# Quick Rolling Sobat
+[[moves]]
+name = "Quick Rolling Sobat"
+name_ja = "クイックローリングソバット"
+slug = "quick-rolling-sobat"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236mk"
+
+# Double Rolling Sobat
+[[moves]]
+name = "Double Rolling Sobat"
+name_ja = "ダブルローリングソバット"
+slug = "double-rolling-sobat"
+characterId = 11
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "236hk"
+
+# Machine Gun Uppercut (Light)
+[[moves]]
+name = "Machine Gun Uppercut (Light)"
+name_ja = "マシンガンアッパー（弱）"
+slug = "machine-gun-uppercut-light"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623lp"
+
+# Machine Gun Uppercut (Medium)
+[[moves]]
+name = "Machine Gun Uppercut (Medium)"
+name_ja = "マシンガンアッパー（中）"
+slug = "machine-gun-uppercut-medium"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623mp"
+
+# Machine Gun Uppercut (Heavy)
+[[moves]]
+name = "Machine Gun Uppercut (Heavy)"
+name_ja = "マシンガンアッパー（強）"
+slug = "machine-gun-uppercut-heavy"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623hp"
+
+# Machine Gun Uppercut (OD)
+[[moves]]
+name = "Machine Gun Uppercut (OD)"
+name_ja = "マシンガンアッパー（OD）"
+slug = "machine-gun-uppercut-od"
+characterId = 11
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623[pp]"
+
+# Jus Cool
+[[moves]]
+name = "Jus Cool"
+name_ja = "ジョスクール"
+slug = "jus-cool"
+characterId = 11
+type = "special"
+input = "214*k"
+
+# Funky Slicer
+[[moves]]
+name = "Funky Slicer"
+name_ja = "ファンキースライサー"
+slug = "funky-slicer"
+characterId = 11
+type = "actionMove"
+hitCount = 1
+blockType = "low"
+input = "214*k>lk"
+parentSlug = "jus-cool"
+
+# Waning Moon
+[[moves]]
+name = "Waning Moon"
+name_ja = "ワニングムーン"
+slug = "waning-moon"
+characterId = 11
+type = "actionMove"
+hitCount = 1
+blockType = "overhead"
+input = "214*k>mk"
+parentSlug = "jus-cool"
+
+# Maximum Strike
+[[moves]]
+name = "Maximum Strike"
+name_ja = "マキシマムストライク"
+slug = "maximum-strike"
+characterId = 11
+type = "actionMove"
+hitCount = 1
+blockType = "high"
+input = "214*k>hk"
+parentSlug = "jus-cool"
+
+# Juggling Dash
+[[moves]]
+name = "Juggling Dash"
+name_ja = "ジャグリンステップ"
+slug = "juggling-dash"
+characterId = 11
+type = "actionMove"
+input = "214*k>6p"
+parentSlug = "jus-cool"
+
+# Juggling Sway
+[[moves]]
+name = "Juggling Sway"
+name_ja = "ジャグリンスウェイ"
+slug = "juggling-sway"
+characterId = 11
+type = "actionMove"
+input = "214*k>6p>4p"
+parentSlug = "juggling-dash"
+
+# The Greatest Sobat
+[[moves]]
+name = "The Greatest Sobat"
+name_ja = "グレイテストソバット"
+slug = "the-greatest-sobat"
+characterId = 11
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236*k"
+
+# Lowkey Sunrise Festival
+[[moves]]
+name = "Lowkey Sunrise Festival"
+name_ja = "サンライズフェスティバル・ライト"
+slug = "lowkey-sunrise-festival"
+characterId = 11
+type = "super2"
+hitCount = 7
+blockType = "high"
+input = "236236*k>lp>lp>mp>hp>lk>mk>hk"
+
+# Marvelous Sunrise Festival
+[[moves]]
+name = "Marvelous Sunrise Festival"
+name_ja = "サンライズフェスティバル・マーベラス"
+slug = "marvelous-sunrise-festival"
+characterId = 11
+type = "super2"
+hitCount = 7
+blockType = "high"
+input = "236236*k>mp>lp>mp>hp>lk>mk>hk"
+
+# Headliner Sunrise Festival
+[[moves]]
+name = "Headliner Sunrise Festival"
+name_ja = "サンライズフェスティバル・ヘッドライナー"
+slug = "headliner-sunrise-festival"
+characterId = 11
+type = "super2"
+hitCount = 7
+blockType = "high"
+input = "236236*k>hp>lp>mp>hp>lk>mk>hk"
+
+# Climactic Strike
+[[moves]]
+name = "Climactic Strike"
+name_ja = "クライマックスブロー"
+slug = "climactic-strike"
+characterId = 11
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "hp"
+parentSlug = "marvelous-sunrise-festival"
+
+# Encore Beat
+[[moves]]
+name = "Encore Beat"
+name_ja = "アンコールビート"
+slug = "encore-beat"
+characterId = 11
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "hk"
+parentSlug = "headliner-sunrise-festival"
+
+# Weekend Pleasure
+[[moves]]
+name = "Weekend Pleasure"
+name_ja = "サタデーナイト"
+slug = "weekend-pleasure"
+characterId = 11
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
+# Diss Track
+[[moves]]
+name = "Diss Track"
+name_ja = "スタンプ・ザ・ビート"
+alternativeNames = ["Forward throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "diss-track"
+characterId = 11
+type = "throw"
+input = "[lplk]"
+
+# Flip Throw
+[[moves]]
+name = "Flip Throw"
+name_ja = "フリップスルー"
+alternativeNames = ["Back throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "flip-throw"
+characterId = 11
+type = "throw"
+input = "4[lplk]"

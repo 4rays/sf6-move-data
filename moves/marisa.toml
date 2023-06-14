@@ -379,7 +379,7 @@ slug = "volare-combo"
 characterId = 13
 blockType = "high"
 type = "targetCombo"
-input = "j5mp>5mp"
+input = "jmp>mp"
 
 # Caelum Arc
 [[moves]]
