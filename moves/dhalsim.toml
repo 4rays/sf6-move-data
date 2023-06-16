@@ -571,3 +571,69 @@ slug = "aerial-yoga-teleport"
 characterId = 9
 type = "action"
 input = "j>4[ppp][kkk]|6[ppp][kkk]"
+
+# Yoga Inferno
+[[moves]]
+name = "Yoga Inferno"
+name_ja = "ヨガインフェルノ"
+slug = "yoga-inferno"
+characterId = 9
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236*p"
+
+# Yoga Sunburst
+[[moves]]
+name = "Yoga Sunburst"
+name_ja = "ヨガサンバースト"
+slug = "yoga-sunburst"
+characterId = 9
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214*k"
+
+# Yoga Sunburst
+[[moves]]
+name = "Merciless Yoga"
+name_ja = "ヨガマーシレス"
+slug = "merciless-yoga"
+characterId = 9
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "236236*k"
+
+# Yoga Smash
+[[moves]]
+name = "Yoga Smash"
+name_ja = "ヨガスマッシュ"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "yoga-smash"
+characterId = 9
+type = "grab"
+input = "[lplk]"
+
+# Yoga Throw
+[[moves]]
+name = "Yoga Throw"
+name_ja = "ヨガスロー"
+slug = "yoga-throw"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+characterId = 9
+type = "throw"
+hitCount = 1
+input = "[5lplk]"
+
+# Yoga Splash
+[[moves]]
+name = "Yoga Splash"
+name_ja = "ヨガスプラッシュ"
+slug = "yoga-splash"
+characterId = 9
+type = "throw"
+hitCount = 1
+input = "[2lplk]"
