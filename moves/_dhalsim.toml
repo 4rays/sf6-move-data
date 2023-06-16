@@ -269,3 +269,305 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Yoga Uppercut
+[[moves]]
+name = "Yoga Uppercut"
+name_ja = "ヨガアッパー"
+slug = "yoga-uppercut"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4mp"
+
+# Yoga Lance
+[[moves]]
+name = "Yoga Lance"
+name_ja = "ヨガランス"
+slug = "yoga-lance"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4hp"
+
+# Nirvana Punch
+[[moves]]
+name = "Nirvana Punch"
+name_ja = "涅槃パンチ"
+slug = "nirvana-punch"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "1hp"
+
+# Agile Kick
+[[moves]]
+name = "Agile Kick"
+name_ja = "アジャイルキック"
+slug = "agile-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "low"
+input = "1lk"
+
+# Divine Kick
+[[moves]]
+name = "Divine Kick"
+name_ja = "合掌キック"
+slug = "divine-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+input = "4mk"
+
+# Thrust Kick
+[[moves]]
+name = "Thrust Kick"
+name_ja = "スラストキック"
+slug = "thrust-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "low"
+input = "1mk"
+
+# Yoga Mountain
+[[moves]]
+name = "Yoga Mountain"
+name_ja = "ヨガマウンテン"
+slug = "yoga-mountain"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4hk"
+
+# Karma Kick
+[[moves]]
+name = "Karma Kick"
+name_ja = "因果キック"
+slug = "karma-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "1hk"
+
+# Yoga Mummy
+[[moves]]
+name = "Yoga Mummy"
+name_ja = "ヨガマミー"
+slug = "yoga-mummy"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "jumpIn"
+input = "j2lp"
+
+# Drill Kick
+[[moves]]
+name = "Drill Kick"
+name_ja = "ドリルキック"
+slug = "drill-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "jumpIn"
+input = "j2*k"
+
+# Yoga Fire
+[[moves]]
+name = "Yoga Fire"
+name_ja = "ヨガファイア"
+slug = "yoga-fire"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236*p"
+properties = ["chargeable"]
+
+# Yoga Fire (OD)
+[[moves]]
+name = "Yoga Fire (OD)"
+name_ja = "ヨガファイア（OD）"
+slug = "yoga-fire-od"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[pp]"
+properties = ["chargeable"]
+
+# Yoga Arch
+[[moves]]
+name = "Yoga Arch"
+name_ja = "ヨガアーチ"
+slug = "yoga-arch"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236*p"
+
+# Yoga Arch (OD)
+[[moves]]
+name = "Yoga Arch (OD)"
+name_ja = "ヨガアーチ（OD）"
+slug = "yoga-arch-od"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[pp]"
+
+# Yoga Flame (Light)
+[[moves]]
+name = "Yoga Flame (Light)"
+name_ja = "ヨガフレイム（弱）"
+slug = "yoga-flame-light"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "63214lp"
+
+# Yoga Flame (Medium)
+[[moves]]
+name = "Yoga Flame (Medium)"
+name_ja = "ヨガフレイム（中）"
+slug = "yoga-flame-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "63214mp"
+
+# Yoga Flame (Heavy)
+[[moves]]
+name = "Yoga Flame (Heavy)"
+name_ja = "ヨガフレイム（強）"
+slug = "yoga-flame-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "63214hp"
+
+# Yoga Flame (OD)
+[[moves]]
+name = "Yoga Flame (OD)"
+name_ja = "ヨガフレイム（OD）"
+slug = "yoga-flame-od"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "63214[pp]"
+
+# Yoga Blast (Light)
+[[moves]]
+name = "Yoga Blast (Light)"
+name_ja = "ヨガブラスト（弱）"
+slug = "yoga-blast-light"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "62314lk"
+
+# Yoga Blast (Medium)
+[[moves]]
+name = "Yoga Blast (Medium)"
+name_ja = "ヨガブラスト（中）"
+slug = "yoga-blast-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "62314mk"
+
+# Yoga Blast (Heavy)
+[[moves]]
+name = "Yoga Blast (Heavy)"
+name_ja = "ヨガブラスト（強）"
+slug = "yoga-blast-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "62314hk"
+
+# Yoga Blast (OD)
+[[moves]]
+name = "Yoga Blast (OD)"
+name_ja = "ヨガブラスト（OD）"
+slug = "yoga-blast-od"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "62314[pp]"
+
+# Yoga Comet
+[[moves]]
+name = "Yoga Comet"
+name_ja = "ヨガコメット"
+slug = "yoga-comet"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j62314*p"
+
+# Yoga Comet (OD)
+[[moves]]
+name = "Yoga Comet (OD)"
+name_ja = "ヨガコメット（OD）"
+slug = "yoga-comet-od"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j62314[pp]"
+
+# Yoga Float
+[[moves]]
+name = "Yoga Float"
+name_ja = "ヨガフロート"
+slug = "yoga-float"
+characterId = 9
+type = "action"
+input = "2[kk]|3[kk]"
+
+# Aerial Yoga Float
+[[moves]]
+name = "Aerial Yoga Float"
+name_ja = "空中ヨガフロート"
+slug = "aerial-yoga-float"
+characterId = 9
+type = "action"
+input = "j2[kk]"
+
+# Yoga Teleport
+[[moves]]
+name = "Yoga Teleport"
+name_ja = "ヨガテレポート"
+slug = "yoga-teleport"
+characterId = 9
+type = "action"
+input = "4[ppp][kkk]|6[ppp][kkk]"
+
+# Aerial Yoga Teleport
+[[moves]]
+name = "Aerial Yoga Teleport"
+name_ja = "空中ヨガテレポート"
+slug = "aerial-yoga-teleport"
+characterId = 9
+type = "action"
+input = "j>4[ppp][kkk]|6[ppp][kkk]"
