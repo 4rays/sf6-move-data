@@ -463,7 +463,7 @@ name_ja = "疾駆け"
 slug = "sprint"
 characterId = 5
 type = "special"
-input = "236k"
+input = "236*k"
 
 # Sprint (OD)
 [[moves]]
@@ -481,7 +481,7 @@ name_ja = "急停止"
 slug = "kimberly-emergency-stop"
 characterId = 5
 type = "special"
-input = "236k>p"
+input = "236*k>p"
 parentSlug = "sprint"
 
 # Emergency Stop (OD)
@@ -503,7 +503,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236k>k"
+input = "236*k>k"
 parentSlug = "sprint"
 
 # Torso Cleaver (OD)
@@ -527,7 +527,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "low"
-input = "236k>mk"
+input = "236*k>mk"
 parentSlug = "sprint"
 
 # Shadow Slide (OD)
@@ -551,7 +551,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236k>hk"
+input = "236*k>hk"
 parentSlug = "sprint"
 
 # Neck Hunter (OD)
@@ -573,7 +573,7 @@ name_ja = "アークステップ"
 slug = "arc-step"
 characterId = 5
 type = "special"
-input = "236k"
+input = "236*k"
 parentSlug = "sprint"
 notes = ["Auto when close."]
 notes_ja = ["近距離で自動発動"]
@@ -617,7 +617,7 @@ name_ja = "逆転一文字 (弱)"
 slug = "vagabond-edge-light"
 characterId = 5
 type = "special"
-input = "236p"
+input = "236*p"
 
 # Vagabond Edge (Medium)
 [[moves]]
@@ -653,7 +653,7 @@ name_ja = "彩隠形"
 slug = "hidden-variable"
 characterId = 5
 type = "special"
-input = "214p"
+input = "214*p"
 
 # Hidden Variable (OD)
 [[moves]]
@@ -671,7 +671,7 @@ name_ja = "召雷細工"
 slug = "genius-at-play"
 characterId = 5
 type = "special"
-input = "22p"
+input = "22*p"
 notes = ["When shuriken count is zero."]
 notes_ja = ["手裏剣が0の時"]
 
@@ -693,7 +693,7 @@ name_ja = "細工手裏剣"
 slug = "shuriken-bomb"
 characterId = 5
 type = "special"
-input = "22p"
+input = "22*p"
 notes = ["Strength used affects the distance."]
 notes_ja = ["強さで飛距離が変化"]
 parentSlug = "genius-at-play"
@@ -717,7 +717,7 @@ name_ja = "荒鶴捻り"
 slug = "nue-twister"
 characterId = 5
 type = "special"
-input = "j236p"
+input = "j236*p"
 
 # Nue Twister (OD)
 [[moves]]

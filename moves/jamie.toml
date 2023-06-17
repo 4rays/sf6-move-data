@@ -384,7 +384,7 @@ name_ja = "魔身"
 slug = "the-devil-inside"
 characterId = 2
 type = "special"
-input = "22p"
+input = "22*p"
 
 # Freeflow Strikes (Light)
 [[moves]]
@@ -530,7 +530,7 @@ slug = "swagger-hermit-punch"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "214p>6p"
+input = "214*p>6p"
 parentSlug = "swagger-step"
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
@@ -596,7 +596,7 @@ slug = "luminous-dive-kick"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "j214k"
+input = "j214*k"
 
 # Luminous Dive Kick (OD)
 [[moves]]
@@ -618,7 +618,7 @@ slug = "bakkai"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236k"
+input = "236*k"
 notes = ["Requires drink level 2."]
 notes_ja = ["酔いレベル2必要"]
 
@@ -630,7 +630,7 @@ slug = "tenshin"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "63214k"
+input = "63214*k"
 notes = ["Requires drink level 3."]
 notes_ja = ["酔いレベル3必要"]
 

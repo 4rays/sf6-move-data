@@ -518,7 +518,7 @@ slug = "blanka-chan-bomb"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "22p"
+input = "22*p"
 
 # Shout of Earth
 [[moves]]
@@ -548,7 +548,7 @@ slug = "ground-shave-cannonball"
 characterId = 8
 type = "super3"
 blockType = "high"
-input = "636236p"
+input = "636236*p"
 
 # Rolling Cannon
 [[moves]]
@@ -627,7 +627,7 @@ name = "Wild Lift"
 name_ja = "ワイルドリフト"
 slug = "wild-lift"
 characterId = 8
-type = "actionMove"
+type = "followUp"
 input = "*p"
 parentSlug = "coward-crouch"
 
@@ -637,7 +637,7 @@ name = "Raid Jump"
 name_ja = "レイドジャンプ"
 slug = "raid-jump"
 characterId = 8
-type = "actionMove"
+type = "followUp"
 input = "*k"
 parentSlug = "coward-crouch"
 

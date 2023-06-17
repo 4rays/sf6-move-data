@@ -405,7 +405,7 @@ name_ja = "行雲流水"
 slug = "serenity-stream"
 characterId = 3
 type = "special"
-input = "214p"
+input = "214*p"
 
 # Orchid Palm
 [[moves]]
@@ -415,7 +415,7 @@ slug = "orchid-palm"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>lp"
+input = "214*p>lp"
 parentSlug = "serenity-stream"
 
 # Snake Strike
@@ -426,7 +426,7 @@ slug = "snake-strike"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>mp"
+input = "214*p>mp"
 parentSlug = "serenity-stream"
 
 # Lotus Fist
@@ -437,7 +437,7 @@ slug = "lotus-fist"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>hp"
+input = "214*p>hp"
 parentSlug = "serenity-stream"
 
 # Forward Strike
@@ -448,7 +448,7 @@ slug = "forward-strike"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>lk"
+input = "214*p>lk"
 parentSlug = "serenity-stream"
 
 # Senpu Kick
@@ -459,7 +459,7 @@ slug = "senpu-kick"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>mk"
+input = "214*p>mk"
 parentSlug = "serenity-stream"
 
 # Tenku Kick
@@ -470,7 +470,7 @@ slug = "tenku-kick"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214p>hk"
+input = "214*p>hk"
 parentSlug = "serenity-stream"
 
 # Hundred Lightning Kicks (Light)

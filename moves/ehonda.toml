@@ -4,10 +4,10 @@ name = "Standing Light Punch"
 name_ja = "立ち弱パン"
 alternativeNames = ["Jab"]
 alternativeNames_ja = ["小パン", "コパン"]
-slug = "luke-stand-light-punch"
+slug = "ehonda-stand-light-punch"
 abbreviation = "S.LP"
 abbeviation_ja = "立ち弱P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -21,10 +21,10 @@ name = "Standing Medium Punch"
 name_ja = "立ち中パン"
 alternativeNames = ["Strong"]
 alternativeNames_ja = ["中パン"]
-slug = "luke-stand-medium-punch"
+slug = "ehonda-stand-medium-punch"
 abbreviation = "S.MP"
 abbeviation_ja = "立ち中P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -36,10 +36,10 @@ name = "Standing Heavy Punch"
 name_ja = "立ち強パン"
 alternativeNames = ["Fierce"]
 alternativeNames_ja = ["大パン"]
-slug = "luke-stand-heavy-punch"
+slug = "ehonda-stand-heavy-punch"
 abbreviation = "S.HP"
 abbeviation_ja = "立ち強P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -51,10 +51,10 @@ name = "Standing Light Kick"
 name_ja = "立ち弱キック"
 alternativeNames = ["Short"]
 alternativeNames_ja = ["小足", "コアシ"]
-slug = "luke-stand-light-kick"
+slug = "ehonda-stand-light-kick"
 abbreviation = "S.LK"
 abbeviation_ja = "立ち弱K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -66,10 +66,10 @@ name = "Standing Medium Kick"
 name_ja = "立ち中キック"
 alternativeNames = ["Forward"]
 alternativeNames_ja = ["中足", "中アシ"]
-slug = "luke-stand-medium-kick"
+slug = "ehonda-stand-medium-kick"
 abbreviation = "S.MK"
 abbeviation_ja = "立ち中K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -81,10 +81,10 @@ name = "Standing Heavy Kick"
 name_ja = "立ち強キック"
 alternativeNames = ["Roundhouse"]
 alternativeNames_ja = ["大足", "大アシ"]
-slug = "luke-stand-heavy-kick"
+slug = "ehonda-stand-heavy-kick"
 abbreviation = "S.HK"
 abbeviation_ja = "立ち強K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -96,10 +96,10 @@ name = "Crouching Light Punch"
 name_ja = "しゃがみ弱パン"
 alternativeNames = ["Crouching jab"]
 alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
-slug = "luke-crouch-light-punch"
+slug = "ehonda-crouch-light-punch"
 abbreviation = "C.LP"
 abbeviation_ja = "屈弱P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -111,10 +111,10 @@ name = "Crouching Medium Punch"
 name_ja = "しゃがみ中パン"
 alternativeNames = ["Crouching jab"]
 alternativeNames_ja = ["しゃがみ中パン"]
-slug = "luke-crouch-medium-punch"
+slug = "ehonda-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -126,10 +126,10 @@ name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強パン"
 alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ大パン"]
-slug = "luke-crouch-heavy-punch"
+slug = "ehonda-crouch-heavy-punch"
 abbreviation = "C.HP"
 abbeviation_ja = "屈強P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -141,10 +141,10 @@ name = "Crouching Light Kick"
 name_ja = "しゃがみ弱キック"
 alternativeNames = ["Crouching short"]
 alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
-slug = "luke-crouch-light-kick"
+slug = "ehonda-crouch-light-kick"
 abbreviation = "C.LK"
 abbeviation_ja = "屈弱K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -156,10 +156,10 @@ name = "Crouching Medium Kick"
 name_ja = "しゃがみ中キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
-slug = "luke-crouch-medium-kick"
+slug = "ehonda-crouch-medium-kick"
 abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -171,10 +171,10 @@ name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強キック"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
-slug = "luke-crouch-heavy-kick"
+slug = "ehonda-crouch-heavy-kick"
 abbreviation = "C.HK"
 abbeviation_ja = "屈強K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "low"
@@ -184,12 +184,12 @@ input = "2hk"
 [[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱パン"
-alternativeNames = ["Jumping jab"]
+alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
-slug = "luke-jump-light-punch"
+slug = "ehonda-jump-light-punch"
 abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -201,10 +201,10 @@ name = "Jumping Medium Punch"
 name_ja = "ジャンプ中パン"
 alternativeNames = ["Jumping strong"]
 alternativeNames_ja = ["ジャンプ中パン"]
-slug = "luke-jump-medium-punch"
+slug = "ehonda-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -214,12 +214,12 @@ input = "jmp"
 [[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強パン"
-alternativeNames = ["Jumping fierce"]
+alternativeNames = ["Jumping roundhouse"]
 alternativeNames_ja = ["ジャンプ大パン"]
-slug = "luke-jump-heavy-punch"
+slug = "ehonda-jump-heavy-punch"
 abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -231,10 +231,10 @@ name = "Jumping Light Kick"
 name_ja = "ジャンプ弱キック"
 alternativeNames = ["Jumping short"]
 alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
-slug = "luke-jump-light-kick"
+slug = "ehonda-jump-light-kick"
 abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -246,10 +246,10 @@ name = "Jumping Medium Kick"
 name_ja = "ジャンプ中キック"
 alternativeNames = ["Jumping forward"]
 alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
-slug = "luke-jump-medium-kick"
+slug = "ehonda-jump-medium-kick"
 abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
@@ -261,421 +261,385 @@ name = "Jumping Heavy Kick"
 name_ja = "ジャンプ強キック"
 alternativeNames = ["Jumping roundhouse"]
 alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
-slug = "luke-jump-heavy-kick"
+slug = "ehonda-jump-heavy-kick"
 abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
-characterId = 1
+characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
 
-# Rawhide
+# Hundred Hand Slap (Light)
 [[moves]]
-name = "Rawhide"
-name_ja = ""
-slug = "rawhide"
-characterId = 1
-type = "commandNormal"
-hitCount = 1
-blockType = ""
-input = "6mp"
-
-# Suppressor
-[[moves]]
-name = "Suppressor"
-name_ja = ""
-slug = "suppressor"
-characterId = 1
-type = "commandNormal"
-hitCount = 1
-blockType = "high"
-input = "4hp"
-
-# Outlaw Kick
-[[moves]]
-name = "Outlaw Kick"
-name_ja = ""
-slug = "outlaw-kick"
-characterId = 1
-type = "commandNormal"
-hitCount = 1
-blockType = "high"
-input = "4hk"
-
-# Double Impact
-[[moves]]
-name = "Double Impact"
-name_ja = ""
-slug = "double-impact"
-characterId = 1
-type = "commandNormal"
-hitCount = 2
-blockType = "high"
-input = "6hp>hp"
-
-# Triple Impact
-[[moves]]
-name = "Triple Impact"
-name_ja = ""
-slug = "triple-impact"
-characterId = 1
-type = "commandNormal"
-hitCount = 3
-blockType = "high"
-input = "lp>mp>hp"
-
-# Nose Breaker
-[[moves]]
-name = "Nose Breaker"
-name_ja = ""
-slug = "nose-breaker"
-characterId = 1
-type = "commandNormal"
-hitCount = 1
-blockType = "low"
-input = "2mk>2hp"
-
-# Snapback Combo
-[[moves]]
-name = "Snapback Combo"
-name_ja = ""
-slug = "snapback-combo"
-characterId = 1
-type = "commandNormal"
-hitCount = 4
-blockType = "high"
-input = "mp>mp>mp>mp"
-
-# Sand Blast (Light)
-[[moves]]
-name = "Sand Blast (Light)"
-name_ja = ""
-slug = "sand-blast-light"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236lp"
-
-# Sand Blast (Medium)
-[[moves]]
-name = "Sand Blast (Medium)"
-name_ja = ""
-slug = "sand-blast-medium"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236mp"
-
-# Sand Blast (Heavy)
-[[moves]]
-name = "Sand Blast (Heavy)"
-name_ja = ""
-slug = "sand-blast-heavy"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236hp"
-
-# Sand Blast (OD)
-[[moves]]
-name = "Sand Blast (OD)"
-name_ja = ""
-slug = "sand-blast-od"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236[pp]"
-
-# Fatal Shot
-[[moves]]
-name = "Fatal Shot"
-name_ja = ""
-slug = "fatal-shot"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236[pp]>[pp]"
-parentSlug = "sand-blast-od"
-
-# Flash Knuckle (Light)
-[[moves]]
-name = "Flash Knuckle (Light)"
-name_ja = ""
-slug = "flash-knuckle-light"
-characterId = 1
-type = "special"
+name = "Hundred Hand Slap (Light)"
+name_ja = "百裂張り手 (弱)"
+slug = "hundred-hand-slap-light"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
 input = "214lp"
-properties = ["chargeable"]
 
-# Flash Knuckle (Medium)
+# Hundred Hand Slap (Medium)
 [[moves]]
-name = "Flash Knuckle (Medium)"
-name_ja = ""
-slug = "flash-knuckle-medium"
-characterId = 1
-type = "special"
+name = "Hundred Hand Slap (Medium)"
+name_ja = "百裂張り手 (中)"
+slug = "hundred-hand-slap-medium"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
 input = "214mp"
-properties = ["chargeable"]
 
-# Flash Knuckle (Heavy)
+# Hundred Hand Slap (Heavy)
 [[moves]]
-name = "Flash Knuckle (Heavy)"
-name_ja = ""
-slug = "flash-knuckle-heavy"
-characterId = 1
-type = "special"
+name = "Hundred Hand Slap (Heavy)"
+name_ja = "百裂張り手 (強)"
+slug = "hundred-hand-slap-heavy"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
 input = "214hp"
-properties = ["chargeable"]
 
-# Flash Knuckle (OD)
+# Hundred Hand Slap (OD)
 [[moves]]
-name = "Flash Knuckle (OD)"
-name_ja = ""
-slug = "flash-knuckle-od"
-characterId = 1
-type = "special"
+name = "Hundred Hand Slap (OD)"
+name_ja = "百裂張り手 (OD)"
+slug = "hundred-hand-slap-od"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
 input = "214[pp]"
 
-# DDT
+# Sumo Headbutt (Light)
 [[moves]]
-name = "DDT"
-name_ja = ""
-slug = "luke-ddt"
-characterId = 1
-type = "special"
+name = "Sumo Headbutt (Light)"
+name_ja = "スーパー頭突き (弱)"
+slug = "sumo-headbutt-light"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214[pp]>[pp]"
-parentSlug = "flash-knuckle-od"
+input = "[4]6lp"
 
-# Aerial Flash Knuckle
+# Sumo Headbutt (Medium)
 [[moves]]
-name = "Aerial Flash Knuckle"
-name_ja = ""
-slug = "aerial-flash-knuckle"
-characterId = 1
-type = "special"
+name = "Sumo Headbutt (Medium)"
+name_ja = "スーパー頭突き (中)"
+slug = "sumo-headbutt-medium"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "j214*p"
-properties = ["chargeable"]
+input = "[4]6mp"
 
-# Aerial Flash Knuckle (Charged)
+# Sumo Headbutt (Heavy)
 [[moves]]
-name = "Aerial Flash Knuckle (Charged)"
-name_ja = ""
-slug = "aerial-flash-knuckle-charged"
-characterId = 1
-type = "special"
+name = "Sumo Headbutt (Heavy)"
+name_ja = "スーパー頭突き (強)"
+slug = "sumo-headbutt-heavy"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "j214(p)"
-parentSlug = "aerial-flash-knuckle"
+input = "[4]6hp"
 
-# Aerial Flash Knuckle (OD)
+# Sumo Headbutt (OD)
 [[moves]]
-name = "Aerial Flash Knuckle (OD)"
-name_ja = ""
-slug = "aerial-flash-knuckle-od"
-characterId = 1
-type = "special"
+name = "Sumo Headbutt (OD)"
+name_ja = "スーパー頭突き (OD)"
+slug = "sumo-headbutt-od"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "j214[pp]"
+input = "[4]6[pp]"
 
-# Avenger
+# Sumo Smash (Light)
 [[moves]]
-name = "Avenger"
-name_ja = ""
-slug = "avenger"
-characterId = 1
-type = "special"
+name = "Sumo Smash (Light)"
+name_ja = "スーパー百貫落とし (弱)"
+slug = "sumo-smash-light"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k"
+input = "[2]8lp"
 
-# Avenger (OD)
+# Sumo Smash (Medium)
 [[moves]]
-name = "Avenger (OD)"
-name_ja = ""
-slug = "avenger-od"
-characterId = 1
-type = "special"
+name = "Sumo Smash (Medium)"
+name_ja = "スーパー百貫落とし (中)"
+slug = "sumo-smash-medium"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214[kk]"
+input = "[2]8mp"
 
-# No Chaser
+# Sumo Smash (Heavy)
 [[moves]]
-name = "No Chaser"
-name_ja = ""
-slug = "no-chaser"
-characterId = 1
-type = "special"
+name = "Sumo Smash (Heavy)"
+name_ja = "スーパー百貫落とし (強)"
+slug = "sumo-smash-heavy"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k>p"
-parentSlug = "avenger"
+input = "[2]8hp"
 
-# No Chaser (OD)
+# Sumo Smash (OD)
 [[moves]]
-name = "No Chaser (OD)"
-name_ja = ""
-slug = "no-chaser-od"
-characterId = 1
-type = "special"
+name = "Sumo Smash (OD)"
+name_ja = "スーパー百貫落とし (OD)"
+slug = "sumo-smash-od"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214[kk]>p"
-parentSlug = "avenger-od"
+input = "[2]8[pp]"
 
-# Impaler
+# Oicho Throw (Light)
 [[moves]]
-name = "Impaler"
-name_ja = ""
-slug = "impaler"
-characterId = 1
-type = "special"
+name = "Oicho Throw (Light)"
+name_ja = "大銀杏投げ (弱)"
+slug = "oicho-throw-light"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k>k"
-parentSlug = "avenger"
+input = "63214lp"
 
-# Impaler (OD)
+# Oicho Throw (Medium)
 [[moves]]
-name = "Impaler (OD)"
-name_ja = ""
-slug = "impaler-od"
-characterId = 1
-type = "special"
+name = "Oicho Throw (Medium)"
+name_ja = "大銀杏投げ (中)"
+slug = "oicho-throw-medium"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "214[kk]>k"
-parentSlug = "avenger-od"
+input = "63214mp"
 
-# Rising Uppercut (Light)
+# Oicho Throw (Heavy)
 [[moves]]
-name = "Rising Uppercut (Light)"
-name_ja = ""
-slug = "rising-uppercut-light"
-characterId = 1
-type = "special"
+name = "Oicho Throw (Heavy)"
+name_ja = "大銀杏投げ (強)"
+slug = "oicho-throw-heavy"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "623lp"
+input = "63214hp"
 
-# Rising Uppercut (Medium)
+# Oicho Throw (OD)
 [[moves]]
-name = "Rising Uppercut (Medium)"
-name_ja = ""
-slug = "rising-uppercut-medium"
-characterId = 1
-type = "special"
+name = "Oicho Throw (OD)"
+name_ja = "大銀杏投げ (OD)"
+slug = "oicho-throw-od"
+characterId = 10
+moveType = "special"
 hitCount = 1
 blockType = "high"
-input = "623mp"
+input = "63214[pp]"
 
-# Rising Uppercut (Heavy)
+# Sumo Dash
 [[moves]]
-name = "Rising Uppercut (Heavy)"
-name_ja = ""
-slug = "rising-uppercut-heavy"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "623hp"
+name = "Sumo Dash"
+name_ja = "相撲ステップ"
+slug = "sumo-dash"
+characterId = 10
+moveType = "action"
+input = "236*k"
 
-# Rising Uppercut (OD)
+# Sumo Dash (OD)
 [[moves]]
-name = "Rising Uppercut (OD)"
-name_ja = ""
-slug = "rising-uppercut-od"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "623[pp]"
-
-# Slam Dunk
-[[moves]]
-name = "Slam Dunk"
-name_ja = ""
-slug = "slam-dunk"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "623[pp]>[pp]"
-parentSlug = "rising-uppercut-od"
-
-# Vulcan Blast
-[[moves]]
-name = "Vulcan Blast"
-name_ja = ""
-slug = "vulcan-blast"
-characterId = 1
-type = "super1"
-hitCount = 1
-blockType = "high"
-input = "236[pp]"
-
-# Eraser
-[[moves]]
-name = "Eraser"
-name_ja = ""
-slug = "eraser"
-characterId = 1
-type = "super2"
-hitCount = 1
-blockType = "high"
-input = "214pp"
-
-# Pale Rider
-[[moves]]
-name = "Pale Rider"
-name_ja = ""
-slug = "pale-rider"
-characterId = 1
-type = "super3"
-hitCount = 1
-blockType = "high"
+name = "Sumo Dash (OD)"
+name_ja = "相撲ステップ (OD)"
+slug = "sumo-dash-od"
+characterId = 10
+moveType = "action"
 input = "236[kk]"
 
-# Sweeper
+# Teppo Triple Slap
 [[moves]]
-name = "Sweeper"
-name_ja = ""
-slug = "sweeper"
+name = "Teppo Triple Slap"
+name_ja = "鉄砲"
+slug = "teppo-triple-slap"
+characterId = 10
+moveType = "followUp"
+hitCount = 1
+blockType = "high"
+input = "236*k>*p>*p"
+parentSlug = "sumo-dash"
+
+# Teppo Triple Slap (OD)
+[[moves]]
+name = "Teppo Triple Slap (OD)"
+name_ja = "鉄砲 (OD)"
+slug = "teppo-triple-slap-od"
+characterId = 10
+moveType = "followUp"
+hitCount = 1
+blockType = "high"
+input = "236[kk]>*p>*p"
+parentSlug = "sumo-dash-od"
+
+# Taiho Cannon Lift
+[[moves]]
+name = "Taiho Cannon Lift"
+name_ja = "大砲"
+slug = "taiho-cannon-lift"
+characterId = 10
+followUp = "followUp"
+hitCount = 1
+blockType = "high"
+input = "236*k>2*p"
+parentSlug = "sumo-dash"
+
+# Taiho Cannon Lift (OD)
+[[moves]]
+name = "Taiho Cannon Lift (OD)"
+name_ja = "大砲 (OD)"
+slug = "taiho-cannon-lift-od"
+characterId = 10
+followUp = "followUp"
+hitCount = 1
+blockType = "high"
+input = "236[kk]>2*p"
+parentSlug = "sumo-dash-od"
+
+# Neko Damashi
+[[moves]]
+name = "Neko Damashi"
+name_ja = "猫だまし"
+slug = "neko-damashi"
+characterId = 10
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "22*p"
+
+# Sumo Spirit
+[[moves]]
+name = "Sumo Spirit"
+name_ja = "肩屋入り"
+slug = "sumo-spirit"
+characterId = 10
+moveType = "action"
+input = "22*k"
+
+# Show of Force
+[[moves]]
+name = "Show of Force"
+name_ja = "発揮爆砕"
+slug = "show-of-force"
+characterId = 10
+moveType = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236*p"
+
+# Ultimate Killer Head Ram
+[[moves]]
+name = "Ultimate Killer Head Ram"
+name_ja = "スーパー鬼無双"
+slug = "ultimate-killer-head-ram"
+characterId = 10
+moveType = "super2"
+hitCount = 1
+blockType = "high"
+input = "[4]646*k"
+
+# The Final Bout
+[[moves]]
+name = "The Final Bout"
+name_ja = "千秋楽"
+slug = "the-final-bout"
+characterId = 10
+moveType = "super3"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
+# Harai Kick
+[[moves]]
+name = "Harai Kick"
+name_ja = "払い蹴り"
+slug = "harai-kick"
+characterId = 10
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6hk"
+
+# Power Stomp
+[[moves]]
+name = "Power Stomp"
+name_ja = "力足"
+slug = "power-stomp"
+characterId = 10
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "3hk"
+
+# Flying Sumo Press
+[[moves]]
+name = "Flying Sumo Press"
+name_ja = "フライングスモウプレス"
+slug = "flying-sumo-press"
+characterId = 10
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "2mk"
+
+# Double Slaps
+[[moves]]
+name = "Double Slaps"
+name_ja = "連ね張り手"
+slug = "double-slaps"
+characterId = 10
+moveType = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "5lp>5mp"
+
+# Toko Shizume
+[[moves]]
+name = "Toko Shizume"
+name_ja = "地鎮"
+slug = "toko-shizume"
+characterId = 10
+moveType = "targetCombo"
+hitCount = 1
+blockType = "high"
+input = "5mp>3hk"
+
+# Saba Ori
+[[moves]]
+name = "Saba Ori"
+name_ja = "さば折り"
 alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
-characterId = 1
-type = "throw"
+slug = "saba-ori"
+characterId = 10
 hitCount = 1
-input = "[5lplk]"
+blockType = "high"
+input = "[lplk]"
 
-# Scrapper
+# Tawara Throw
 [[moves]]
-name = "Scrapper"
-name_ja = ""
-slug = "scrapper"
+name = "Tawara Throw"
+name_ja = "俵投げ"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
-characterId = 1
-type = "throw"
+slug = "tawara-throw"
+characterId = 10
 hitCount = 1
+blockType = "high"
 input = "[4lplk]"

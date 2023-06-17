@@ -527,7 +527,7 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214k"
+input = "214*k"
 notes = ["During a forward jump"]
 notes_ja = ["前ジャンプ中に"]
 

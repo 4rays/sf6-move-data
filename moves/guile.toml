@@ -584,7 +584,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214p>6p"
+input = "214*p>6p"
 parentSlug = "sonic-blade"
 
 # Sonic Cross (OD)
@@ -642,7 +642,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214*pp>[pp]|(4)6[pp]"
+input = "214214pp>[pp]|(4)6[pp]"
 parentSlug = "sonic-puncher"
 
 # Crossfire Somersault

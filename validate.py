@@ -23,7 +23,7 @@ def validate(move, file_name):
         "normal",
         "commandNormal",
         "action",
-        "actionMove",
+        "followUp",
         "targetCombo",
         "special",
         "super1",
@@ -32,7 +32,7 @@ def validate(move, file_name):
         "throw",
     ]:
         print(
-            "❗ Validation error: Move type for {} should be one of normal, commandNormal, action, actionMove, targetCombo, special, super1, super2, super3, or throw.".format(
+            "❗ Validation error: Move type for {} should be one of normal, commandNormal, action, followUp, targetCombo, special, super1, super2, super3, or throw.".format(
                 move["name"]
             )
         )

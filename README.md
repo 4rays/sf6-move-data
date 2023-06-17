@@ -14,7 +14,7 @@ The following table lists the possible values:
 | `normal`        | Normal move              |
 | `commandNormal` | Command normal move      |
 | `action`        | Non-damaging actions     |
-| `actionMove`    | Move requiring an action |
+| `followUp`    | Move requiring an action |
 | `targetCombo`   | Target combo             |
 | `special`       | Special move             |
 | `super1`        | Level 1 super move       |
