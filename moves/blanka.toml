@@ -476,7 +476,7 @@ name = "Wild Hunt (Light)"
 name_ja = "ワイルドハント（弱）"
 slug = "wild-hunt-light"
 characterId = 8
-type = "special"
+type = "commandThrow"
 blockType = "high"
 input = "236lk"
 
@@ -486,7 +486,7 @@ name = "Wild Hunt (Medium)"
 name_ja = "ワイルドハント（中）"
 slug = "wild-hunt-medium"
 characterId = 8
-type = "special"
+type = "commandThrow"
 blockType = "high"
 input = "236mk"
 
@@ -496,7 +496,7 @@ name = "Wild Hunt (Heavy)"
 name_ja = "ワイルドハント（強）"
 slug = "wild-hunt-heavy"
 characterId = 8
-type = "special"
+type = "commandThrow"
 blockType = "high"
 input = "236hk"
 
@@ -506,7 +506,7 @@ name = "Wild Hunt (OD)"
 name_ja = "ワイルドハント（OD）"
 slug = "wild-hunt-od"
 characterId = 8
-type = "special"
+type = "commandThrow"
 blockType = "high"
 input = "236[pp]"
 

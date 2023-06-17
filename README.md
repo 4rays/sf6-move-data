@@ -22,6 +22,7 @@ The following table lists the possible values:
 | `super3`        | Level 3 super move       |
 | `unique`        | Unique move              |
 | `throw`         | Throw                    |
+| `commandThrow`  | Command throw            |
 
 ### Frame Count
 
@@ -91,6 +92,7 @@ The following table lists the special notation used in the string:
 | `d`      | Any direction |
 | `[]`     | Simultaneous  |
 | `()`     | Hold          |
+| `{}`     | Grouped       |
 | `>`      | Follow-up     |
 | `|`      | Or            |
 | `*p`     | Any punch     |

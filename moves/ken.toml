@@ -367,7 +367,7 @@ characterId = 7
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "[7|9]hk"
+input = "{7|9}hk"
 frameCount = ["S-9", "A-16"]
 damage = 800
 

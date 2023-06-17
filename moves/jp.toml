@@ -269,3 +269,313 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Triglav
+[[moves]]
+name = "Triglav"
+name_ja = "トリグラフ"
+slug = "triglav"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "22*p"
+
+# Triglav (OD)
+[[moves]]
+name = "Triglav (OD)"
+name_ja = "トリグラフ (OD)"
+slug = "triglav-od"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "22[pp]"
+
+# Stribog (Light)
+[[moves]]
+name = "Stribog (Light)"
+name_ja = "ストリボーグ (弱)"
+slug = "stribog-light"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236lp"
+
+# Stribog (Medium)
+[[moves]]
+name = "Stribog (Medium)"
+name_ja = "ストリボーグ (中)"
+slug = "stribog-medium"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236mp"
+
+# Stribog (Heavy)
+[[moves]]
+name = "Stribog (Heavy)"
+name_ja = "ストリボーグ (強)"
+slug = "stribog-heavy"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236hp"
+
+# Stribog (OD)
+[[moves]]
+name = "Stribog (OD)"
+name_ja = "ストリボーグ (OD)"
+slug = "stribog-od"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236[pp]"
+
+# Departure
+[[moves]]
+name = "Departure"
+name_ja = "ヴィーハト"
+slug = "departure"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "214*p"
+notes = ["The button used determines the location."]
+notes_ja = ["ボタンで位置が決まる。"]
+
+# Departure (OD)
+[[moves]]
+name = "Departure (OD)"
+name_ja = "ヴィーハト (OD)"
+slug = "departure-od"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "214[pp]"
+notes = ["The button used determines the location."]
+notes_ja = ["ボタンで位置が決まる。"]
+
+# Departure: Window
+[[moves]]
+name = "Departure: Window"
+name_ja = "ヴィーハト・アクノ"
+slug = "departure-window"
+characterId = 14
+moveType = "followUp"
+hitCount = 1
+blockType = "high"
+input = "214{lp|mp}"
+parentSlug = "departure"
+
+# Departure: Shadow 
+[[moves]]
+name = "Departure: Shadow"
+name_ja = "ヴィーハト・チェーニ"
+slug = "departure-shadow"
+characterId = 14
+moveType = "followUp"
+hitCount = 1
+blockType = "high"
+input = "214hp"
+parentSlug = "departure"
+
+# Amnesia
+[[moves]]
+name = "Amnesia"
+name_ja = "アムネジア"
+slug = "amnesia"
+characterId = 14
+moveType = "special"
+hitCount = 2
+blockType = "high"
+input = "22*p"
+
+# Amnesia (OD)
+[[moves]]
+name = "Amnesia (OD)"
+name_ja = "アムネジア (OD)"
+slug = "amnesia-od"
+characterId = 14
+moveType = "special"
+hitCount = 2
+blockType = "high"
+input = "22[pp]"
+
+# Torbalan (Light)
+[[moves]]
+name = "Torbalan (Light)"
+name_ja = "トルバラン (弱)"
+slug = "torbalan-light"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236lk"
+
+# Torbalan (Medium)
+[[moves]]
+name = "Torbalan (Medium)"
+name_ja = "トルバラン (中)"
+slug = "torbalan-medium"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "overhead"
+input = "236mk"
+
+# Torbalan (Heavy)
+[[moves]]
+name = "Torbalan (Heavy)"
+name_ja = "トルバラン (強)"
+slug = "torbalan-heavy"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "low"
+input = "236hk"
+
+# Torbalan (OD)
+[[moves]]
+name = "Torbalan (OD)"
+name_ja = "トルバラン (OD)"
+slug = "torbalan-od"
+characterId = 14
+moveType = "special"
+hitCount = 1
+blockType = "high"
+input = "236[kk]"
+
+# Embrace
+[[moves]]
+name = "Embrace"
+name_ja = "アブニマーチ"
+slug = "embrace"
+characterId = 14
+moveType = "commandThrow"
+input = "214*k"
+
+# Embrace (OD)
+[[moves]]
+name = "Embrace (OD)"
+name_ja = "アブニマーチ (OD)"
+slug = "embrace-od"
+characterId = 14
+moveType = "commandThrow"
+input = "214[kk]"
+
+# Guillotinna
+[[moves]]
+name = "Guillotinna"
+name_ja = "ギリオチーナ"
+slug = "guillotinna"
+characterId = 14
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6mp"
+
+# Malice
+[[moves]]
+name = "Malice"
+name_ja = "シャーロスチ"
+slug = "malice"
+characterId = 14
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "3hp"
+
+# Bylina
+[[moves]]
+name = "Bylina"
+name_ja = "ヴィリーナ"
+slug = "bylina"
+characterId = 14
+moveType = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6hk"
+
+# Grom Strelka
+[[moves]]
+name = "Grom Strelka"
+name_ja = "グロームストレルカ"
+slug = "grom-strelka"
+characterId = 14
+moveType = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "4mp>5mp"
+
+# Zilant
+[[moves]]
+name = "Zilant"
+name_ja = "ジラント"
+slug = "zilant"
+characterId = 14
+moveType = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "hk>hp"
+
+# Zilant Mid
+[[moves]]
+name = "Zilant Mid"
+name_ja = "ジラントルカー"
+slug = "zilant-mid"
+characterId = 14
+moveType = "targetCombo"
+hitCount = 3
+blockType = "overhead"
+input = "hk>hp>hp"
+
+# Zilant Low
+[[moves]]
+name = "Zilant Low"
+name_ja = "ジラントナガー"
+slug = "zilant-low"
+characterId = 14
+moveType = "targetCombo"
+hitCount = 3
+blockType = "low"
+input = "hk>hp>hk"
+
+# Ravina
+[[moves]]
+name = "Ravina"
+name_ja = "ラヴィーナ"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "ravina"
+characterId = 14
+moveType = "throw"
+input = "[lplk]"
+
+# Uragan
+[[moves]]
+name = "Uragan"
+name_ja = "ウラガーン"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "uragan"
+characterId = 14
+moveType = "throw"
+input = "[4lplk]"
+
+# Tornado
+[[moves]]
+name = "Tornado"
+name_ja = "タルナード"
+alternativeNames = ["Air Throw"]
+alternativeNames_ja = ["空中投げ"]
+slug = "tornado"
+characterId = 14
+moveType = "throw"
+input = "j[lplk]"
