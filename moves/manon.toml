@@ -269,3 +269,313 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Révérence
+[[moves]]
+name = "Révérence"
+name_ja = "レベランス"
+slug = "reverence"
+characterId = 12
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "4hp"
+
+# Tomoe Derrière
+[[moves]]
+name = "Tomoe Derrière"
+name_ja = "トモエ・デリエール"
+slug = "tomoe-derriere"
+characterId = 12
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "3hk"
+
+# À Terre
+[[moves]]
+name = "À Terre"
+name_ja = "ア・テール"
+slug = "a-terre"
+characterId = 12
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "6mp>6mk"
+
+# En Haut
+[[moves]]
+name = "En Haut"
+name_ja = "アン・オー"
+slug = "en-haut"
+characterId = 12
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "4mk>5mk"
+
+# Temps Lié
+[[moves]]
+name = "Temps Lié"
+name_ja = "タン・リエ"
+slug = "temps-lie"
+characterId = 12
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "5hp>5hp"
+
+# Allongé
+[[moves]]
+name = "Allongé"
+name_ja = "アロンジェ"
+slug = "allonge"
+characterId = 12
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "2hp>5hp"
+
+# Manège Doré (Light)
+[[moves]]
+name = "Manège Doré (Light)"
+name_ja = "マネージュ・ドレ（弱）"
+slug = "manege-dore-light"
+characterId = 12
+type = "commandThrow"
+input = "63214lp"
+
+# Manège Doré (Medium)
+[[moves]]
+name = "Manège Doré (Medium)"
+name_ja = "マネージュ・ドレ（中）"
+slug = "manege-dore-medium"
+characterId = 12
+type = "commandThrow"
+input = "63214mp"
+
+# Manège Doré (Heavy)
+[[moves]]
+name = "Manège Doré (Heavy)"
+name_ja = "マネージュ・ドレ（強）"
+slug = "manege-dore-heavy"
+characterId = 12
+type = "commandThrow"
+input = "63214hp"
+
+# Manège Doré (OD)
+[[moves]]
+name = "Manège Doré (OD)"
+name_ja = "マネージュ・ドレ（OD）"
+slug = "manege-dore-od"
+characterId = 12
+type = "commandThrow"
+input = "63214[pp]"
+
+# Rond-point (Light)
+[[moves]]
+name = "Rond-point (Light)"
+name_ja = "ロン・ポワン（弱）"
+slug = "rond-point-light"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "236lp"
+
+# Rond-point (Medium)
+[[moves]]
+name = "Rond-point (Medium)"
+name_ja = "ロン・ポワン（中）"
+slug = "rond-point-medium"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "236mp"
+
+# Rond-point (Heavy)
+[[moves]]
+name = "Rond-point (Heavy)"
+name_ja = "ロン・ポワン（強）"
+slug = "rond-point-heavy"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "236hp"
+
+# Rond-point (OD)
+[[moves]]
+name = "Rond-point (OD)"
+name_ja = "ロン・ポワン（OD）"
+slug = "rond-point-od"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "236[pp]"
+
+# Dégagé (Light)
+[[moves]]
+name = "Dégagé (Light)"
+name_ja = "デガジェ（弱）"
+slug = "degage-light"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "214lp"
+
+# Dégagé (Medium)
+[[moves]]
+name = "Dégagé (Medium)"
+name_ja = "デガジェ（中）"
+slug = "degage-medium"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "214mp"
+
+# Dégagé (Heavy)
+[[moves]]
+name = "Dégagé (Heavy)"
+name_ja = "デガジェ（強）"
+slug = "degage-heavy"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "214hp"
+
+# Dégagé (OD)
+[[moves]]
+name = "Dégagé (OD)"
+name_ja = "デガジェ（OD）"
+slug = "degage-od"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "214[pp]"
+
+# Renversé (Light)
+[[moves]]
+name = "Renversé (Light)"
+name_ja = "ランヴェルセ（弱）"
+slug = "renverse-light"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "commandThrow"
+input = "623lp"
+
+# Renversé (Medium)
+[[moves]]
+name = "Renversé (Medium)"
+name_ja = "ランヴェルセ（中）"
+slug = "renverse-medium"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "commandThrow"
+input = "623mp"
+
+# Renversé (Heavy)
+[[moves]]
+name = "Renversé (Heavy)"
+name_ja = "ランヴェルセ（強）"
+slug = "renverse-heavy"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "commandThrow"
+input = "623hp"
+
+# Renversé (OD)
+[[moves]]
+name = "Renversé (OD)"
+name_ja = "ランヴェルセ（OD）"
+slug = "renverse-od"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "commandThrow"
+input = "623[pp]"
+
+# Renversé (Feint)
+[[moves]]
+name = "Renversé (Feint)"
+name_ja = "ランヴェルセ（フェイント）"
+slug = "renverse-feint"
+characterId = 12
+type = "action"
+input = "623(*p)"
+
+# Grand Fouetté
+[[moves]]
+name = "Grand Fouetté"
+name_ja = "グラン・フェッテ"
+slug = "grand-fouette"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "*k"
+parentSlug = "renverse-feint"
+
+# Arabesque
+[[moves]]
+name = "Arabesque"
+name_ja = "アラベスク"
+slug = "arabesque"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "super1"
+input = "236236*k"
+
+# Étoile
+[[moves]]
+name = "Étoile"
+name_ja = "エトワール"
+slug = "etoile"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "super2"
+input = "214214*k"
+
+# Pas de Deux
+[[moves]]
+name = "Pas de Deux"
+name_ja = "パ・ド・ドゥ"
+slug = "pas-de-deux"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "super3"
+input = "236236*p"
+
+# Ouchigari
+[[moves]]
+name = "Ouchigari"
+name_ja = "オーウチガリ"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "ouchigari"
+characterId = 12
+type = "throw"
+input = "[lplk]"
+
+# Uchimata
+[[moves]]
+name = "Uchimata"
+name_ja = "ウチマタ"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "uchimata"
+characterId = 12
+type = "throw"
+input = "[4lplk]"
