@@ -627,9 +627,8 @@ name_ja = "さば折り"
 alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
 slug = "saba-ori"
+moveType = "throw"
 characterId = 10
-hitCount = 1
-blockType = "high"
 input = "[lplk]"
 
 # Tawara Throw
@@ -639,7 +638,6 @@ name_ja = "俵投げ"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
 slug = "tawara-throw"
+moveType = "throw"
 characterId = 10
-hitCount = 1
-blockType = "high"
 input = "[4lplk]"
