@@ -269,3 +269,390 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Double Lariat
+[[moves]]
+name = "Double Lariat"
+name_ja = "ダブルラリアット"
+slug = "double-lariat"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "[pp]"
+
+# Double Lariat (OD)
+[[moves]]
+name = "Double Lariat (OD)"
+name_ja = "ダブルラリアット (OD)"
+slug = "double-lariat-od"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "[ppp]"
+
+# Screw Piledriver (Light)
+[[moves]]
+name = "Screw Piledriver (Light)"
+name_ja = "スクリューパイルドライバー (弱)"
+slug = "screw-piledriver-light"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "{360}lp"
+
+# Screw Piledriver (Medium)
+[[moves]]
+name = "Screw Piledriver (Medium)"
+name_ja = "スクリューパイルドライバー (中)"
+slug = "screw-piledriver-medium"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "{360}mp"
+
+# Screw Piledriver (Heavy)
+[[moves]]
+name = "Screw Piledriver (Heavy)"
+name_ja = "スクリューパイルドライバー (強)"
+slug = "screw-piledriver-heavy"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "{360}hp"
+
+# Screw Piledriver (OD)
+[[moves]]
+name = "Screw Piledriver (OD)"
+name_ja = "スクリューパイルドライバー (OD)"
+slug = "screw-piledriver-od"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "{360}pp"
+
+# Borscht Dynamite (Light)
+[[moves]]
+name = "Borscht Dynamite (Light)"
+name_ja = "ボルシチダイナマイト (弱)"
+slug = "borscht-dynamite-light"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "j{360}lp"
+
+# Borscht Dynamite (Medium)
+[[moves]]
+name = "Borscht Dynamite (Medium)"
+name_ja = "ボルシチダイナマイト (中)"
+slug = "borscht-dynamite-medium"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "j{360}mp"
+
+# Borscht Dynamite (Heavy)
+[[moves]]
+name = "Borscht Dynamite (Heavy)"
+name_ja = "ボルシチダイナマイト (強)"
+slug = "borscht-dynamite-heavy"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "j{360}hp"
+
+# Borscht Dynamite (OD)
+[[moves]] 
+name = "Borscht Dynamite (OD)"
+name_ja = "ボルシチダイナマイト (OD)"
+slug = "borscht-dynamite-od"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "j{360}pp"
+
+# Russian Suplex (Light)
+[[moves]]
+name = "Russian Suplex (Light)"
+name_ja = "ロシアンスープレックス (弱)"
+slug = "russian-suplex-light"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214lk"
+notes = ["When near opponent"]
+notes_ja = ["近距離で"]
+
+# Russian Suplex (Medium)
+[[moves]]
+name = "Russian Suplex (Medium)"
+name_ja = "ロシアンスープレックス (中)"
+slug = "russian-suplex-medium"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214mk"
+notes = ["When near opponent"]
+notes_ja = ["近距離で"]
+
+# Russian Suplex (Heavy)
+[[moves]]
+name = "Russian Suplex (Heavy)"
+name_ja = "ロシアンスープレックス (強)"
+slug = "russian-suplex-heavy"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214hk"
+notes = ["When near opponent"]
+notes_ja = ["近距離で"]
+
+# Russian Suplex (OD)
+[[moves]]
+name = "Russian Suplex (OD)"
+name_ja = "ロシアンスープレックス (OD)"
+slug = "russian-suplex-od"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214[kk]"
+notes = ["When near opponent"]
+notes_ja = ["近距離で"]
+
+# Siberian Express (Light)
+[[moves]]
+name = "Siberian Express (Light)"
+name_ja = "シベリアンエクスプレス (弱)"
+slug = "siberian-express-light"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214lk"
+
+# Siberian Express (Medium)
+[[moves]]
+name = "Siberian Express (Medium)"
+name_ja = "シベリアンエクスプレス (中)"
+slug = "siberian-express-medium"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214mk"
+
+# Siberian Express (Heavy)
+[[moves]]
+name = "Siberian Express (Heavy)"
+name_ja = "シベリアンエクスプレス (強)"
+slug = "siberian-express-heavy"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214hk"
+
+# Siberian Express (OD)
+[[moves]]
+name = "Siberian Express (OD)"
+name_ja = "シベリアンエクスプレス (OD)"
+slug = "siberian-express-od"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "63214[kk]"
+
+# Tundra Storm
+[[moves]]
+name = "Tundra Storm"
+name_ja = "ツンドラストーム"
+slug = "tundra-storm"
+characterId = 15
+type = "special"
+blockType = "high"
+input = "22hk"
+
+# Aerial Russian Slam
+[[moves]]
+name = "Aerial Russian Slam"
+name_ja = "エリアルロシアンスラム"
+slug = "aerial-russian-slam"
+characterId = 15
+type = "super1"
+blockType = "high"
+input = "236236k"
+
+# Cyclone Lariat
+[[moves]]
+name = "Cyclone Lariat"
+name_ja = "サイクロンラリアット"
+slug = "cyclone-lariat"
+characterId = 15
+type = "super2"
+blockType = "high"
+input = "236236p"
+
+# Bolshoi Storm Buster
+[[moves]]
+name = "Bolshoi Storm Buster"
+name_ja = "ボリショイストームバスター"
+slug = "bolshoi-storm-buster"
+characterId = 15
+type = "super3"
+blockType = "high"
+input = "{720}p"
+
+# Bolshoi Storm Buster (CA)
+[[moves]]
+name = "Bolshoi Storm Buster (CA)"
+name_ja = "ボリショイストームバスター (CA)"
+slug = "bolshoi-storm-buster-ca"
+characterId = 15
+type = "criticalArt"
+blockType = "high"
+input = ""
+
+# Hellstab
+[[moves]]
+name = "Hellstab"
+name_ja = "ヘルスタブ"
+slug = "hellstab"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "3mp"
+
+# Knee Hammer
+[[moves]]
+name = "Knee Hammer"
+name_ja = "ニーハンマー"
+slug = "knee-hammer"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "6mk"
+
+# Headbutt
+[[moves]]
+name = "Headbutt"
+name_ja = "ヘッドバット"
+slug = "headbutt"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "6hp"
+
+# Cyclone Wheel Kick
+[[moves]]
+name = "Cyclone Wheel Kick"
+name_ja = "サイクロンウィールキック"
+slug = "cyclone-wheel-kick"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "6hk"
+
+# Smetana Dropkick
+[[moves]]
+name = "Smetana Dropkick"
+name_ja = "スメタナドロップキック"
+slug = "smetana-dropkick"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "3hk"
+
+# Flying Body Press
+[[moves]]
+name = "Flying Body Press"
+name_ja = "フライングボディプレス"
+slug = "flying-body-press"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "2hp"
+
+# Flying Headbutt
+[[moves]]
+name = "Flying Headbutt"
+name_ja = "フライングヘッドバット"
+slug = "flying-headbutt"
+characterId = 15
+type = "commandNormal"
+blockType = "high"
+input = "j8hp"
+notes = ["During neutral jump"]
+
+# Machine Gun Chops
+[[moves]]
+name = "Machine Gun Chops"
+name_ja = "マシンガンチョップ"
+slug = "machine-gun-chops"
+characterId = 15
+type = "targetCombo"
+blockType = "high"
+input = "5mp>5mp>5mp"
+
+# Stomping
+[[moves]]
+name = "Stomping"
+name_ja = "ストンピング"
+slug = "stomping"
+characterId = 15
+type = "targetCombo"
+blockType = "high"
+input = "22mk>5mk>5mk"
+
+# Body Slam
+[[moves]]
+name = "Body Slam"
+name_ja = "ボディスラム"
+alternativeNames = ["Front Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "body-slam"
+characterId = 15
+type = "throw"
+input = "[lplk]"
+
+# Capture
+[[moves]]
+name = "Capture"
+name_ja = "キャプチュード"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "capture"
+characterId = 15
+type = "throw"
+input = "[4lplk]"
+
+# German Suplex
+[[moves]]
+name = "German Suplex"
+name_ja = "ジャーマンスープレックス"
+slug = "german-suplex"
+characterId = 15
+type = "throw"
+input = "[6lplk]"
+
+# Spinebuster
+[[moves]]
+name = "Spinebuster"
+name_ja = "スパインバスター"
+slug = "spinebuster"
+characterId = 15
+type = "throw"
+input = "[3lplk]"
+
+# Russian Drop
+[[moves]]
+name = "Russian Drop"
+name_ja = "ロシアンドロップ"
+slug = "russian-drop"
+characterId = 15
+type = "throw"
+input = "[1lplk]"
+
+# Brainbuster
+[[moves]]
+name = "Brainbuster"
+name_ja = "ブレーンバスター"
+slug = "brainbuster"
+characterId = 15
+type = "throw"
+input = "[2lplk]"

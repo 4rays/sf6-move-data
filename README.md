@@ -89,6 +89,7 @@ The following table lists the special notation used in the string:
 | `7`      | Up-Back       |
 | `8`      | Up            |
 | `9`      | Up-Forward    |
+| `{360}`  | 360 motion    |
 | `d`      | Any direction |
 | `[]`     | Simultaneous  |
 | `()`     | Hold          |
