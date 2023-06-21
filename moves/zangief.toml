@@ -496,17 +496,17 @@ slug = "bolshoi-storm-buster"
 characterId = 15
 type = "super3"
 blockType = "high"
-input = "{720}p"
+input = "{720}*p"
 
-# Bolshoi Storm Buster (CA)
+# Bolshoi Storm Buster (Critical Art)
 [[moves]]
-name = "Bolshoi Storm Buster (CA)"
+name = "Bolshoi Storm Buster (Critical Art)"
 name_ja = "ボリショイストームバスター (CA)"
 slug = "bolshoi-storm-buster-ca"
 characterId = 15
-type = "criticalArt"
+type = "super3"
 blockType = "high"
-input = ""
+input = "{720}*p"
 
 # Hellstab
 [[moves]]

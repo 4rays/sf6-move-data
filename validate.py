@@ -3,7 +3,6 @@
 import toml
 import os
 
-
 def validate(move, file_name):
     """Validate TOML data against schema"""
     match move:
@@ -22,6 +21,7 @@ def validate(move, file_name):
     if move["type"] not in [
         "normal",
         "commandNormal",
+        "commandThrow",
         "action",
         "followUp",
         "targetCombo",
@@ -32,7 +32,7 @@ def validate(move, file_name):
         "throw",
     ]:
         print(
-            "❗ Validation error: Move type for {} should be one of normal, commandNormal, action, followUp, targetCombo, special, super1, super2, super3, or throw.".format(
+            "❗ Validation error: Move type for {} should be one of normal, commandNormal, commandThrow, action, followUp, targetCombo, special, super1, super2, super3, or throw.".format(
                 move["name"]
             )
         )
@@ -137,11 +137,11 @@ def validate(move, file_name):
                                 "super3"
                             ]:
                                 print(
-                                    "❗ Validation error: cancelsInto on {} should be a one of the following values: chain, special, super, jump, targetCombo, super1, super2, or super3 but was {} instead".format(
+                                    "Property cancelsInto on {} of `{}` should be a valid move slug".format(
                                         move["name"], cancel
                                     )
                                 )
-                                return False
+                                pass
                             else:
                                 pass
                         case _:

@@ -322,7 +322,7 @@ slug = "divine-kick"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
-blockType = "mid"
+blockType = "high"
 input = "4mk"
 
 # Thrust Kick
@@ -366,7 +366,7 @@ slug = "yoga-mummy"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
-blockType = "jumpIn"
+blockType = "jump-in"
 input = "j2lp"
 
 # Drill Kick
@@ -377,7 +377,7 @@ slug = "drill-kick"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
-blockType = "jumpIn"
+blockType = "jump-in"
 input = "j2*k"
 
 # Yoga Fire
@@ -613,7 +613,7 @@ alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
 slug = "yoga-smash"
 characterId = 9
-type = "grab"
+type = "throw"
 input = "[lplk]"
 
 # Yoga Throw
