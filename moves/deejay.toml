@@ -672,6 +672,17 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 
+# Weekend Pleasure (Critical Role)
+[[moves]]
+name = "Weekend Pleasure"
+name_ja = "サタデーナイト"
+slug = "weekend-pleasure-ca"
+characterId = 11
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
 # Diss Track
 [[moves]]
 name = "Diss Track"

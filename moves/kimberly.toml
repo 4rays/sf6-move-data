@@ -775,6 +775,15 @@ characterId = 5
 type = "super3"
 input = "236236*p"
 
+# Bushin Ninjastar Cypher (Critical Art)
+[[moves]]
+name = "Bushin Ninjastar Cypher (Critical Art)"
+name_ja = "武神顕現神楽 (CA)"
+slug = "bushin-ninjastar-cypher-ca"
+characterId = 5
+type = "super3"
+input = "236236*p"
+
 # Ripcord Throw
 [[moves]]
 name = "Ripcord Throw"

@@ -680,6 +680,16 @@ blockType = "high"
 type = "super3"
 input = "236236*k"
 
+# Goddess of the Hunt (Critical Art)
+[[moves]]
+name = "Goddess of the Hunt (Critical Art)"
+name_ja = "アポロウーサ (CA)"
+slug = "goddess-of-the-hunt-ca"
+characterId = 13
+blockType = "high"
+type = "super3"
+input = "236236*k"
+
 # Mounted Grace
 [[moves]]
 name = "Mounted Grace"

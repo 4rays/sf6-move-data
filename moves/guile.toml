@@ -655,3 +655,14 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "(4)646k"
+
+# Crossfire Somersault (Critical Art)
+[[moves]]
+name = "Crossfire Somersault (Critical Art)"
+name_ja = "クロスファイアサマーソルト (CA)"
+slug = "crossfire-somersault-ca"
+characterId = 4
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "(4)646k"

@@ -723,3 +723,13 @@ characterId = 3
 type = "super3"
 hitCount = 1
 input = "214214*k"
+
+# Soten Ranka (Critical Art)
+[[moves]]
+name = "Soten Ranka (Critical Art)"
+name_ja = "蒼天乱華 (CA)"
+slug = "soten-ranka-ca"
+characterId = 3
+type = "super3"
+hitCount = 1
+input = "214214*k"

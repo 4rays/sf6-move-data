@@ -550,6 +550,16 @@ type = "super3"
 blockType = "high"
 input = "636236*p"
 
+# Ground Shave Cannonball (Critical Art)
+[[moves]]
+name = "Ground Shave Cannonball (Critical Art)"
+name_ja = "グラウンドシェイブキャノンボール（CA）"
+slug = "ground-shave-cannonball-ca"
+characterId = 8
+type = "super3"
+blockType = "high"
+input = "636236*p"
+
 # Rolling Cannon
 [[moves]]
 name = "Rolling Cannon"

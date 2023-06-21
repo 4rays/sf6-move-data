@@ -664,6 +664,16 @@ type = "super3"
 blockType = "high"
 input = "236236*p"
 
+# Getsuga Saiho (Critical Art)
+[[moves]]
+name = "Getsuga Saiho (Critical Art)"
+name_ja = "月牙叉炮 (CA)"
+slug = "getsuga-saiho-ca"
+characterId = 2
+type = "super3"
+blockType = "high"
+input = "236236*p"
+
 # Back Shaver
 [[moves]]
 name = "Back Shaver"

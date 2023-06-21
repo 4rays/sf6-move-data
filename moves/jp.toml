@@ -579,3 +579,47 @@ slug = "tornado"
 characterId = 14
 type = "throw"
 input = "j[lplk]"
+
+# Chornobog
+[[moves]]
+name = "Chornobog"
+name_ja = "チョルノボーグ"
+slug = "chornobog"
+characterId = 14
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236*p"
+
+# Lovushka
+[[moves]]
+name = "Lovushka"
+name_ja = "ラヴーシュカ"
+slug = "lovushka"
+characterId = 14
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
+# Interdiction
+[[moves]]
+name = "Interdiction"
+name_ja = "ザプリェット"
+slug = "interdiction"
+characterId = 14
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "632146*k"
+
+# Interdiction (Critical Art)
+[[moves]]
+name = "Interdiction (Critical Art)"
+name_ja = "ザプリェット (CA)"
+slug = "interdiction-ca"
+characterId = 14
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "632146*k"

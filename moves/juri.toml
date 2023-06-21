@@ -601,6 +601,17 @@ hitCount = 1
 blockType = "high"
 input = "214214*k"
 
+# Kaisen Dankai Raku (Critical Art)
+[[moves]]
+name = "Kaisen Dankai Raku (Critical Art)"
+name_ja = "回旋断界落（CA）"
+slug = "kaisen-dankai-raku-ca"
+characterId = 6
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "214214*k"
+
 # Spider Fang Throw
 [[moves]]
 name = "Spider Fang Throw"

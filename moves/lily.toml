@@ -474,6 +474,16 @@ type = "super3"
 blockType = "high"
 input = "214214*p"
 
+# Raging Typhoon (Critical Art)
+[[moves]]
+name = "Raging Typhoon (Critical Art)"
+name_ja = "レイジングタイフーン (CA)"
+slug = "raging-typhoon-ca"
+characterId = 16
+type = "super3"
+blockType = "high"
+input = "214214*p"
+
 # Ridge Thrust
 [[moves]]
 name = "Ridge Thrust HK"

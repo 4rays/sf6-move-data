@@ -558,6 +558,17 @@ blockType = "high"
 type = "super3"
 input = "236236*p"
 
+# Pas de Deux (Critical Art)
+[[moves]]
+name = "Pas de Deux (Critical Art)"
+name_ja = "パ・ド・ドゥ (CA)"
+slug = "pas-de-deux-ca"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "super3"
+input = "236236*p"
+
 # Ouchigari
 [[moves]]
 name = "Ouchigari"

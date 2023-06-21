@@ -565,6 +565,17 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 
+# The Final Bout (Critical Art)
+[[moves]]
+name = "The Final Bout (Critical Art)"
+name_ja = "千秋楽 (CA)"
+slug = "the-final-bout-ca"
+characterId = 10
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
 # Harai Kick
 [[moves]]
 name = "Harai Kick"

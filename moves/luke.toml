@@ -273,18 +273,18 @@ input = "jhk"
 # Rawhide
 [[moves]]
 name = "Rawhide"
-name_ja = ""
+name_ja = "ローハイド"
 slug = "rawhide"
 characterId = 1
 type = "commandNormal"
 hitCount = 1
-blockType = ""
+blockType = "high"
 input = "6mp"
 
 # Suppressor
 [[moves]]
 name = "Suppressor"
-name_ja = ""
+name_ja = "サプレッサー"
 slug = "suppressor"
 characterId = 1
 type = "commandNormal"
@@ -295,7 +295,7 @@ input = "4hp"
 # Outlaw Kick
 [[moves]]
 name = "Outlaw Kick"
-name_ja = ""
+name_ja = "アウトローキック"
 slug = "outlaw-kick"
 characterId = 1
 type = "commandNormal"
@@ -306,7 +306,7 @@ input = "4hk"
 # Double Impact
 [[moves]]
 name = "Double Impact"
-name_ja = ""
+name_ja = "ダブルインパクト"
 slug = "double-impact"
 characterId = 1
 type = "commandNormal"
@@ -317,7 +317,7 @@ input = "6hp>hp"
 # Triple Impact
 [[moves]]
 name = "Triple Impact"
-name_ja = ""
+name_ja = "トリプルインパクト"
 slug = "triple-impact"
 characterId = 1
 type = "commandNormal"
@@ -328,7 +328,7 @@ input = "lp>mp>hp"
 # Nose Breaker
 [[moves]]
 name = "Nose Breaker"
-name_ja = ""
+name_ja = "ノーズブレイカー"
 slug = "nose-breaker"
 characterId = 1
 type = "commandNormal"
@@ -339,7 +339,7 @@ input = "2mk>2hp"
 # Snapback Combo
 [[moves]]
 name = "Snapback Combo"
-name_ja = ""
+name_ja = "スナップバックコンボ"
 slug = "snapback-combo"
 characterId = 1
 type = "commandNormal"
@@ -350,7 +350,7 @@ input = "mp>mp>mp>mp"
 # Sand Blast (Light)
 [[moves]]
 name = "Sand Blast (Light)"
-name_ja = ""
+name_ja = "サンドブラスト (弱)"
 slug = "sand-blast-light"
 characterId = 1
 type = "special"
@@ -361,7 +361,7 @@ input = "236lp"
 # Sand Blast (Medium)
 [[moves]]
 name = "Sand Blast (Medium)"
-name_ja = ""
+name_ja = "サンドブラスト (中)"
 slug = "sand-blast-medium"
 characterId = 1
 type = "special"
@@ -372,7 +372,7 @@ input = "236mp"
 # Sand Blast (Heavy)
 [[moves]]
 name = "Sand Blast (Heavy)"
-name_ja = ""
+name_ja = "サンドブラスト (強)"
 slug = "sand-blast-heavy"
 characterId = 1
 type = "special"
@@ -383,7 +383,7 @@ input = "236hp"
 # Sand Blast (OD)
 [[moves]]
 name = "Sand Blast (OD)"
-name_ja = ""
+name_ja = "サンドブラスト (OD)"
 slug = "sand-blast-od"
 characterId = 1
 type = "special"
@@ -394,7 +394,7 @@ input = "236[pp]"
 # Fatal Shot
 [[moves]]
 name = "Fatal Shot"
-name_ja = ""
+name_ja = "フェイタルショット"
 slug = "fatal-shot"
 characterId = 1
 type = "special"
@@ -406,7 +406,7 @@ parentSlug = "sand-blast-od"
 # Flash Knuckle (Light)
 [[moves]]
 name = "Flash Knuckle (Light)"
-name_ja = ""
+name_ja = "フラッシュナックル (弱)"
 slug = "flash-knuckle-light"
 characterId = 1
 type = "special"
@@ -418,7 +418,7 @@ properties = ["chargeable"]
 # Flash Knuckle (Medium)
 [[moves]]
 name = "Flash Knuckle (Medium)"
-name_ja = ""
+name_ja = "フラッシュナックル (中)"
 slug = "flash-knuckle-medium"
 characterId = 1
 type = "special"
@@ -430,7 +430,7 @@ properties = ["chargeable"]
 # Flash Knuckle (Heavy)
 [[moves]]
 name = "Flash Knuckle (Heavy)"
-name_ja = ""
+name_ja = "フラッシュナックル (強)"
 slug = "flash-knuckle-heavy"
 characterId = 1
 type = "special"
@@ -442,7 +442,7 @@ properties = ["chargeable"]
 # Flash Knuckle (OD)
 [[moves]]
 name = "Flash Knuckle (OD)"
-name_ja = ""
+name_ja = "フラッシュナックル (OD)"
 slug = "flash-knuckle-od"
 characterId = 1
 type = "special"
@@ -453,7 +453,7 @@ input = "214[pp]"
 # DDT
 [[moves]]
 name = "DDT"
-name_ja = ""
+name_ja = "DDT"
 slug = "luke-ddt"
 characterId = 1
 type = "special"
@@ -465,7 +465,7 @@ parentSlug = "flash-knuckle-od"
 # Aerial Flash Knuckle
 [[moves]]
 name = "Aerial Flash Knuckle"
-name_ja = ""
+name_ja = "エアフラッシュナックル"
 slug = "aerial-flash-knuckle"
 characterId = 1
 type = "special"
@@ -477,7 +477,7 @@ properties = ["chargeable"]
 # Aerial Flash Knuckle (Charged)
 [[moves]]
 name = "Aerial Flash Knuckle (Charged)"
-name_ja = ""
+name_ja = "エアフラッシュナックル (溜め)"
 slug = "aerial-flash-knuckle-charged"
 characterId = 1
 type = "special"
@@ -489,7 +489,7 @@ parentSlug = "aerial-flash-knuckle"
 # Aerial Flash Knuckle (OD)
 [[moves]]
 name = "Aerial Flash Knuckle (OD)"
-name_ja = ""
+name_ja = "エアフラッシュナックル (OD)"
 slug = "aerial-flash-knuckle-od"
 characterId = 1
 type = "special"
@@ -500,7 +500,7 @@ input = "j214[pp]"
 # Avenger
 [[moves]]
 name = "Avenger"
-name_ja = ""
+name_ja = "アベンジャー"
 slug = "avenger"
 characterId = 1
 type = "special"
@@ -511,7 +511,7 @@ input = "214*k"
 # Avenger (OD)
 [[moves]]
 name = "Avenger (OD)"
-name_ja = ""
+name_ja = "アベンジャー (OD)"
 slug = "avenger-od"
 characterId = 1
 type = "special"
@@ -522,7 +522,7 @@ input = "214[kk]"
 # No Chaser
 [[moves]]
 name = "No Chaser"
-name_ja = ""
+name_ja = "ノーチェイサー"
 slug = "no-chaser"
 characterId = 1
 type = "special"
@@ -534,7 +534,7 @@ parentSlug = "avenger"
 # No Chaser (OD)
 [[moves]]
 name = "No Chaser (OD)"
-name_ja = ""
+name_ja = "ノーチェイサー (OD)"
 slug = "no-chaser-od"
 characterId = 1
 type = "special"
@@ -546,7 +546,7 @@ parentSlug = "avenger-od"
 # Impaler
 [[moves]]
 name = "Impaler"
-name_ja = ""
+name_ja = "インパラー"
 slug = "impaler"
 characterId = 1
 type = "special"
@@ -558,7 +558,7 @@ parentSlug = "avenger"
 # Impaler (OD)
 [[moves]]
 name = "Impaler (OD)"
-name_ja = ""
+name_ja = "インパラー (OD)"
 slug = "impaler-od"
 characterId = 1
 type = "special"
@@ -570,7 +570,7 @@ parentSlug = "avenger-od"
 # Rising Uppercut (Light)
 [[moves]]
 name = "Rising Uppercut (Light)"
-name_ja = ""
+name_ja = "ライジングアッパー (弱)"
 slug = "rising-uppercut-light"
 characterId = 1
 type = "special"
@@ -581,7 +581,7 @@ input = "623lp"
 # Rising Uppercut (Medium)
 [[moves]]
 name = "Rising Uppercut (Medium)"
-name_ja = ""
+name_ja = "ライジングアッパー (中)"
 slug = "rising-uppercut-medium"
 characterId = 1
 type = "special"
@@ -592,7 +592,7 @@ input = "623mp"
 # Rising Uppercut (Heavy)
 [[moves]]
 name = "Rising Uppercut (Heavy)"
-name_ja = ""
+name_ja = "ライジングアッパー (強)"
 slug = "rising-uppercut-heavy"
 characterId = 1
 type = "special"
@@ -603,7 +603,7 @@ input = "623hp"
 # Rising Uppercut (OD)
 [[moves]]
 name = "Rising Uppercut (OD)"
-name_ja = ""
+name_ja = "ライジングアッパー (OD)"
 slug = "rising-uppercut-od"
 characterId = 1
 type = "special"
@@ -614,7 +614,7 @@ input = "623[pp]"
 # Slam Dunk
 [[moves]]
 name = "Slam Dunk"
-name_ja = ""
+name_ja = "スラムダンク"
 slug = "slam-dunk"
 characterId = 1
 type = "special"
@@ -626,7 +626,7 @@ parentSlug = "rising-uppercut-od"
 # Vulcan Blast
 [[moves]]
 name = "Vulcan Blast"
-name_ja = ""
+name_ja = "バルカンブラスト"
 slug = "vulcan-blast"
 characterId = 1
 type = "super1"
@@ -637,7 +637,7 @@ input = "236[pp]"
 # Eraser
 [[moves]]
 name = "Eraser"
-name_ja = ""
+name_ja = "イレイザー"
 slug = "eraser"
 characterId = 1
 type = "super2"
@@ -648,7 +648,18 @@ input = "214pp"
 # Pale Rider
 [[moves]]
 name = "Pale Rider"
-name_ja = ""
+name_ja = "ペイルライダー"
+slug = "pale-rider"
+characterId = 1
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "236[kk]"
+
+# Pale Rider (Critical Art)
+[[moves]]
+name = "Pale Rider (Critical Art)"
+name_ja = "ペイルライダー（CA）"
 slug = "pale-rider"
 characterId = 1
 type = "super3"
@@ -659,7 +670,7 @@ input = "236[kk]"
 # Sweeper
 [[moves]]
 name = "Sweeper"
-name_ja = ""
+name_ja = "スウィーパー"
 slug = "sweeper"
 alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
@@ -671,7 +682,7 @@ input = "[5lplk]"
 # Scrapper
 [[moves]]
 name = "Scrapper"
-name_ja = ""
+name_ja = "スクラッパー"
 slug = "scrapper"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
