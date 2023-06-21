@@ -269,3 +269,279 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "jhk"
+
+# Condor Wind (Light)
+[[moves]]
+name = "Condor Wind (Light)"
+name_ja = "コンドルウィンド（弱）"
+slug = "condor-wind-light"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "214lp"
+properties = ["chargeable", "stockIncrement"]
+
+# Condor Wind (Medium)
+[[moves]]
+name = "Condor Wind (Medium)"
+name_ja = "コンドルウィンド（中）"
+slug = "condor-wind-medium"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "214mp"
+properties = ["chargeable", "stockIncrement"]
+
+# Condor Wind (Heavy)
+[[moves]]
+name = "Condor Wind (Heavy)"
+name_ja = "コンドルウィンド（強）"
+slug = "condor-wind-heavy"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "214hp"
+properties = ["chargeable", "stockIncrement"]
+
+# Condor Wind (OD)
+[[moves]]
+name = "Condor Wind (OD)"
+name_ja = "コンドルウィンド (OD)"
+slug = "condor-wind-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "214[kk]"
+properties = ["chargeable", "stockIncrement"]
+
+# Condor Spire (Light)
+[[moves]]
+name = "Condor Spire (Light)"
+name_ja = "コンドルスパイア (弱)"
+slug = "condor-spire-light"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236lk"
+properties = ["stockDecrement"]
+
+# Condor Spire (Medium)
+[[moves]]
+name = "Condor Spire (Medium)"
+name_ja = "コンドルスパイア (中)"
+slug = "condor-spire-medium"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236mk"
+properties = ["stockDecrement"]
+
+# Condor Spire (Heavy)
+[[moves]]
+name = "Condor Spire (Heavy)"
+name_ja = "コンドルスパイア (強)"
+slug = "condor-spire-heavy"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236hk"
+properties = ["stockDecrement"]
+
+# Condor Spire (OD)
+[[moves]]
+name = "Condor Spire (OD)"
+name_ja = "コンドルスパイア (OD)"
+slug = "condor-spire-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236[kk]"
+properties = ["stockDecrement"]
+
+# Tomahawk Buster (Light)
+[[moves]]
+name = "Tomahawk Buster (Light)"
+name_ja = "トマホークバスター (弱)"
+slug = "tomahawk-buster-light"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623lp"
+properties = ["stockDecrement"]
+
+# Tomahawk Buster (Medium)
+[[moves]]
+name = "Tomahawk Buster (Medium)"
+name_ja = "トマホークバスター (中)"
+slug = "tomahawk-buster-medium"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623mp"
+properties = ["stockDecrement"]
+
+# Tomahawk Buster (Heavy)
+[[moves]]
+name = "Tomahawk Buster (Heavy)"
+name_ja = "トマホークバスター (強)"
+slug = "tomahawk-buster-heavy"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623hp"
+properties = ["stockDecrement"]
+
+# Tomahawk Buster (OD)
+[[moves]]
+name = "Tomahawk Buster (OD)"
+name_ja = "トマホークバスター (OD)"
+slug = "tomahawk-buster-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623[pp]"
+properties = ["stockDecrement"]
+cancelsInto = ["condor-dive-od"]
+
+# Condor Dive
+[[moves]]
+name = "Condor Dive"
+name_ja = "コンドルダイブ"
+slug = "condor-dive"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "{8|9}[pp]"
+
+# Condor Dive (OD)
+[[moves]]
+name = "Condor Dive (OD)"
+name_ja = "コンドルダイブ (OD)"
+slug = "condor-dive-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "{8|9}[ppp]"
+
+# Mexican Typhoon
+[[moves]]
+name = "Mexican Typhoon"
+name_ja = "メキシカンタイフーン"
+slug = "mexican-typhoon"
+characterId = 16
+type = "commandThrow"
+blockType = "high"
+input = "{360}*p"
+
+# Breezing Hawk
+[[moves]]
+name = "Breezing Hawk"
+name_ja = "ブリージングホーク"
+slug = "breezing-hawk"
+characterId = 16
+type = "super1"
+blockType = "high"
+input = "236236*p"
+
+# Thunderbird
+[[moves]]
+name = "Thunderbird"
+name_ja = "サンダーバード"
+slug = "thunderbird"
+characterId = 16
+type = "super2"
+blockType = "high"
+properties = ["stockDecrement"]
+
+# Soaring Thunderbird
+[[moves]]
+name = "Soaring Thunderbird"
+name_ja = "スカイサンダーバード"
+slug = "soaring-thunderbird"
+characterId = 16
+type = "super2"
+blockType = "high"
+input = "j236236*p"
+properties = ["stockDecrement"]
+
+# Raging Typhoon
+[[moves]]
+name = "Raging Typhoon"
+name_ja = "レイジングタイフーン"
+slug = "raging-typhoon"
+characterId = 16
+type = "super3"
+blockType = "high"
+input = "214214*p"
+
+# Ridge Thrust
+[[moves]]
+name = "Ridge Thrust HK"
+name_ja = "スラストリッジ"
+slug = "ridge-thrust-hk"
+characterId = 16
+type = "commandNormal"
+blockType = "high"
+input = "3hk"
+
+# Horn Breaker
+[[moves]]
+name = "Horn Breaker HP"
+name_ja = "ホーンブレイク"
+slug = "horn-breaker-hp"
+characterId = 16
+type = "commandNormal"
+blockType = "high"
+input = "4hp"
+
+# Great Spin
+[[moves]]
+name = "Great Spin"
+name_ja = "グレートスピン"
+slug = "great-spin"
+characterId = 16
+type = "commandNormal"
+blockType = "high"
+input = "2hp"
+
+# Double Arrow
+[[moves]]
+name = "Double Arrow"
+name_ja = "ダブルアロー"
+slug = "double-arrow"
+characterId = 16
+type = "targetCombo"
+blockType = "high"
+input = "j5mp>5mp"
+
+# Desert Storm
+[[moves]]
+name = "Desert Storm"
+name_ja = "デザートストーム"
+slug = "desert-storm"
+characterId = 16
+type = "targetCombo"
+blockType = "high"
+input = "6hp>5hp>5hp"
+
+# Canyon Throw
+[[moves]]
+name = "Canyon Throw"
+name_ja = "キャニオンスロー"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "canyon-throw"
+characterId = 16
+type = "throw"
+input = "[lplk]"
+
+# Falling Cliff
+[[moves]]
+name = "Falling Cliff"
+name_ja = "フォーリングクリフ"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "falling-cliff"
+characterId = 16
+type = "throw"
+input = "[4lplk]"
