@@ -9,11 +9,17 @@ abbreviation = "S.LP"
 abbeviation_ja = "立ち弱P"
 characterId = 14
 type = "normal"
+damage = 300
 hitCount = 1
 blockType = "high"
 input = "5lp"
+frameCount = ["S-5", "A-8", "R-18"]
 notes = []
 notes_ja = []
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
 
 # Standing Medium Punch
 [[moves]]
@@ -26,9 +32,15 @@ abbreviation = "S.MP"
 abbeviation_ja = "立ち中P"
 characterId = 14
 type = "normal"
+damage = 700
 hitCount = 1
 blockType = "high"
 input = "5mp"
+frameCount = ["S-11", "A-14", "R-35"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
 
 # Standing Heavy Punch
 [[moves]]
@@ -41,9 +53,15 @@ abbreviation = "S.HP"
 abbeviation_ja = "立ち強P"
 characterId = 14
 type = "normal"
+damage = 800
 hitCount = 1
 blockType = "high"
 input = "5hp"
+frameCount = ["S-11", "A-13", "R-35"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
 
 # Standing Light Kick
 [[moves]]
@@ -56,9 +74,15 @@ abbreviation = "S.LK"
 abbeviation_ja = "立ち弱K"
 characterId = 14
 type = "normal"
+damage = 300
 hitCount = 1
 blockType = "low"
 input = "5lk"
+frameCount = ["S-4", "A-7", "R-18"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
 
 # Standing Medium Kick
 [[moves]]
@@ -71,9 +95,15 @@ abbreviation = "S.MK"
 abbeviation_ja = "立ち中K"
 characterId = 14
 type = "normal"
+damage = 600
 hitCount = 1
 blockType = "low"
 input = "5mk"
+frameCount = ["S-7", "A-10", "R-29"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
 
 # Standing Heavy Kick
 [[moves]]
@@ -86,9 +116,15 @@ abbreviation = "S.HK"
 abbeviation_ja = "立ち強K"
 characterId = 14
 type = "normal"
+damage = 800
 hitCount = 1
 blockType = "low"
 input = "5hk"
+frameCount = ["S-11", "A-15", "R-32"]
+
+[moves.frameAdvantage]
+hit = 7
+block = 2
 
 # Crouching Light Punch
 [[moves]]
@@ -101,9 +137,15 @@ abbreviation = "C.LP"
 abbeviation_ja = "屈弱P"
 characterId = 14
 type = "normal"
+damage = 300
 hitCount = 1
 blockType = "high"
 input = "2lp"
+frameCount = ["S-3", "A-5", "R-16"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
 
 # Crouching Medium Punch
 [[moves]]
@@ -116,9 +158,15 @@ abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
 characterId = 14
 type = "normal"
+damage = 700
 hitCount = 1
 blockType = "high"
 input = "2mp"
+frameCount = ["S-6", "A-10", "R-24"]
+
+[moves.frameAdvantage]
+hit = 6
+block = -1
 
 # Crouching Heavy Punch
 [[moves]]
@@ -131,9 +179,15 @@ abbreviation = "C.HP"
 abbeviation_ja = "屈強P"
 characterId = 14
 type = "normal"
+damage = 800
 hitCount = 1
 blockType = "high"
 input = "2hp"
+frameCount = ["S-8", "A-14", "R-34"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
 
 # Crouching Light Kick
 [[moves]]
@@ -146,9 +200,15 @@ abbreviation = "C.LK"
 abbeviation_ja = "屈弱K"
 characterId = 14
 type = "normal"
+damage = 200
 hitCount = 1
 blockType = "low"
 input = "2lk"
+frameCount = ["S-5", "A-7", "R-17"]
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
 
 # Crouching Medium Kick
 [[moves]]
@@ -161,9 +221,15 @@ abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
 characterId = 14
 type = "normal"
+damage = 700
 hitCount = 1
 blockType = "low"
 input = "2mk"
+frameCount = ["S-8", "A-11", "R-28"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
 
 # Crouching Heavy Kick
 [[moves]]
@@ -176,9 +242,16 @@ abbreviation = "C.HK"
 abbeviation_ja = "屈強K"
 characterId = 14
 type = "normal"
+damage = 900
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+frameCount = ["S-9", "A-12", "R-33"]
+
+[moves.frameAdvantage]
+hit = 27
+block = -6
 
 # Jumping Light Punch
 [[moves]]
@@ -191,9 +264,11 @@ abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
 characterId = 14
 type = "normal"
+damage = 300
 hitCount = 1
 blockType = "high"
 input = "jlp"
+frameCount = ["S-4", "A-14"]
 
 # Jumping Medium Punch
 [[moves]]
@@ -206,9 +281,11 @@ abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
 characterId = 14
 type = "normal"
+damage = 700
 hitCount = 1
 blockType = "high"
 input = "jmp"
+frameCount = ["S-11", "A-14"]
 
 # Jumping Heavy Punch
 [[moves]]
@@ -221,9 +298,11 @@ abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
 characterId = 14
 type = "normal"
+damage = 800
 hitCount = 1
 blockType = "high"
 input = "jhp"
+frameCount = ["S-8", "A-13"]
 
 # Jumping Light Kick
 [[moves]]
@@ -236,9 +315,11 @@ abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
 characterId = 14
 type = "normal"
+damage = 300
 hitCount = 1
 blockType = "high"
 input = "jlk"
+frameCount = ["S-5", "A-13"]
 
 # Jumping Medium Kick
 [[moves]]
@@ -251,9 +332,11 @@ abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
 characterId = 14
 type = "normal"
+damage = 600
 hitCount = 1
 blockType = "high"
 input = "jmk"
+frameCount = ["S-6", "A-12"]
 
 # Jumping Heavy Kick
 [[moves]]
@@ -266,9 +349,11 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 14
 type = "normal"
+damage = 800
 hitCount = 1
 blockType = "high"
 input = "jhk"
+frameCount = ["S-10", "A-16"]
 
 # Triglav
 [[moves]]

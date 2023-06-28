@@ -269,6 +269,7 @@ blockType = "low"
 input = "2hk"
 cancelsInto = []
 chainsInto = []
+properties = ["knockdown"]
 frameCount = ["S-8", "A-11", "R-34"]
 
 [moves.frameAdvantage]
