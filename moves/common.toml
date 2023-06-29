@@ -1,0 +1,100 @@
+# Forward Dash
+[[moves]]
+name = "Forward Dash"
+name_ja = "前ダッシュ"
+slug = "forward-dash"
+abbreviation = "dash"
+abbeviation_ja = "ダッシュ"
+type = "action"
+input = "66"
+
+# Back Dash
+[[moves]]
+name = "Back Dash"
+name_ja = "バックステップ"
+slug = "back-dash"
+abbreviation = "backdash"
+abbeviation_ja = "バクステ"
+type = "action"
+input = "44"
+
+# Drive Parry
+[[moves]]
+name = "Drive Parry"
+name_ja = "ドライブパリィ"
+slug = "drive-parry"
+abbreviation = "DP"
+abbeviation_ja = "DP"
+type = "action"
+input = "[mpmk]"
+
+# Drive Rush
+[[moves]]
+name = "Parry Drive Rush"
+name_ja = "パリィドライブラッシュ"
+slug = "drive-rush"
+abbreviation = "DR"
+abbeviation_ja = "DR"
+type = "action"
+input = "[6mpmk]6"
+parentSlug = "drive-parry"
+
+# Drive Impact
+[[moves]]
+name = "Drive Impact"
+name_ja = "ドライブインパクト"
+slug = "drive-impact"
+abbreviation = "DI"
+abbeviation_ja = "DI"
+type = "action"
+input = "[hphk]"
+
+# Drive Rush Cancel
+[[moves]]
+name = "Drive Rush Cancel"
+name_ja = "キャンセルドライブラッシュ"
+slug = "drive-rush-cancel"
+abbreviation = "DRC"
+abbeviation_ja = "DRC"
+type = "action"
+input = "66"
+notes = ["While connecting with a special-cancelable move"]
+notes_ja = ["必殺技キャンセル可能な攻撃ヒット中に"]
+
+# Drive Reversal
+[[moves]]
+name = "Drive Reversal"
+name_ja = "ドライブリバーサル"
+slug = "drive-reversal"
+abbreviation = "DR"
+abbeviation_ja = "DR"
+type = "action"
+input = "[hphk]6"
+notes = ["When blocking or during a successful Drive Parry"]
+notes_ja = ["ガード中 or ドライブパリィ成立中に"]
+
+# Forward
+[[moves]]
+name = "Forward"
+name_ja = "前進"
+slug = "forward"
+type = "action"
+input = "6"
+
+# Back
+[[moves]]
+name = "Back"
+name_ja = "後退"
+slug = "back"
+type = "action"
+input = "4"
+
+# Jump
+[[moves]]
+name = "Jump"
+name_ja = "ジャンプ"
+slug = "jump"
+type = "action"
+input = "7|8|9"
+
+
