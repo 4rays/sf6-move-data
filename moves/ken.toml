@@ -1039,7 +1039,7 @@ end = 36
 [[moves]]
 name = "Shinryu Reppa (Critical Art)"
 name_ja = "神龍烈波 (CA)"
-slug = "shinryu-reppa-critical-art"
+slug = "shinryu-reppa-ca"
 characterId = 7
 type = "super3"
 hitCount = 1

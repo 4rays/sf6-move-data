@@ -660,7 +660,7 @@ input = "236[kk]"
 [[moves]]
 name = "Pale Rider (Critical Art)"
 name_ja = "ペイルライダー（CA）"
-slug = "pale-rider"
+slug = "pale-rider-ca"
 characterId = 1
 type = "super3"
 hitCount = 1

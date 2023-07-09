@@ -3,7 +3,6 @@
 import toml
 import os
 
-
 def validate(move, file_name):
     """Validate TOML data against schema"""
     match move:
@@ -220,3 +219,21 @@ for filename in os.listdir(moves_path):
                     exit(1)
                 else:
                     print("✅ {} validated!".format(filename))
+
+# Validate that move slugs are unique
+slugs = []
+
+for filename in os.listdir(moves_path):
+    if filename.endswith(".toml"):
+        with open(os.path.join(moves_path, filename)) as move_file:
+            moves = toml.load(move_file)
+            for move in moves["moves"]:
+                if move["slug"] in slugs:
+                    print(
+                        "❗ Validation error: Move slug {} is not unique.".format(
+                            move["slug"]
+                        )
+                    )
+                    exit(1)
+                else:
+                    slugs.append(move["slug"])
