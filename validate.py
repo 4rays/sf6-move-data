@@ -10,6 +10,7 @@ def validate(move, file_name):
         case {
             "name": str(),
             "name_ja": str(),
+            "input": str(),
             "slug": str(),
             "type": str(),
         }:

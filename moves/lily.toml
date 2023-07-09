@@ -451,6 +451,7 @@ slug = "thunderbird"
 characterId = 16
 type = "super2"
 blockType = "high"
+input = "236236*k"
 properties = ["stockDecrement"]
 
 # Soaring Thunderbird
@@ -461,7 +462,7 @@ slug = "soaring-thunderbird"
 characterId = 16
 type = "super2"
 blockType = "high"
-input = "j236236*p"
+input = "j236236*k"
 properties = ["stockDecrement"]
 
 # Raging Typhoon

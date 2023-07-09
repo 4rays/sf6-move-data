@@ -368,7 +368,7 @@ characterId = 17
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "236[hk]"
+input = "236hk"
 
 # Spiral Arrow (OD)
 [[moves]]
@@ -378,6 +378,7 @@ slug = "spiral-arrow-od"
 characterId = 17
 type = "special"
 hitCount = 5
+input = "236[kk]"
 blockType = "high"
 
 # Cannon Spike (Light)
