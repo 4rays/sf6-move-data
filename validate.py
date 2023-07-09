@@ -3,6 +3,7 @@
 import toml
 import os
 
+
 def validate(move, file_name):
     """Validate TOML data against schema"""
     match move:
@@ -10,13 +11,24 @@ def validate(move, file_name):
             "name": str(),
             "name_ja": str(),
             "slug": str(),
-            "characterId": int(),
             "type": str(),
         }:
             pass
         case _:
             print("❗ Validation error: {} on {}".format(move["name"], file_name))
             return False
+
+    if characterId := move.get("characterId"):
+        match characterId:
+            case int():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: characterId on {} should be an integer.".format(
+                        move["characterId"]
+                    )
+                )
+                return False
 
     if move["type"] not in [
         "normal",
@@ -134,7 +146,7 @@ def validate(move, file_name):
                                 "targetCombo",
                                 "super1",
                                 "super2",
-                                "super3"
+                                "super3",
                             ]:
                                 print(
                                     "Property cancelsInto on {} of `{}` should be a valid move slug".format(
@@ -167,7 +179,7 @@ def validate(move, file_name):
                                 "forcesStanding",
                                 "stockIncrement",
                                 "stockDecrement",
-                                "chargeable"
+                                "chargeable",
                             ]:
                                 print(
                                     "❗ Validation error: property on {} should be one of the following values: canCrossUp, armorBreak, tumble, juggle, knockdown, forcesStanding, chargeable, stockIncrement, or stockDecrement but was {} instead.".format(
