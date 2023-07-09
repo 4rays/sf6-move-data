@@ -25,7 +25,7 @@ def validate(move, file_name):
             case _:
                 print(
                     "❗ Validation error: characterId on {} should be an integer.".format(
-                        move["characterId"]
+                        move["name"]
                     )
                 )
                 return False
