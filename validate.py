@@ -237,3 +237,23 @@ for filename in os.listdir(moves_path):
                     exit(1)
                 else:
                     slugs.append(move["slug"])
+
+# Validate that move names are unique per character
+names = []
+
+for filename in os.listdir(moves_path):
+    if filename.endswith(".toml"):
+        with open(os.path.join(moves_path, filename)) as move_file:
+            moves = toml.load(move_file)
+            for move in moves["moves"]:
+                move_name_with_id = "{}-{}".format(move["name"], move.get("characterId"))
+                
+                if move_name_with_id in names:
+                    print(
+                        "❗ Validation error: Move name {} is not unique.".format(
+                            move["name"]
+                        )
+                    )
+                    exit(1)
+                else:
+                    names.append(move_name_with_id)

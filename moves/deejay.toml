@@ -672,10 +672,10 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 
-# Weekend Pleasure (Critical Role)
+# Weekend Pleasure (Critical Art)
 [[moves]]
-name = "Weekend Pleasure"
-name_ja = "サタデーナイト"
+name = "Weekend Pleasure (Critical Art)"
+name_ja = "サタデーナイト (CA)"
 slug = "weekend-pleasure-ca"
 characterId = 11
 type = "super3"

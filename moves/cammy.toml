@@ -548,8 +548,8 @@ parentSlug = "hooligan-combination"
 
 # Cannon Strike
 [[moves]]
-name = "Cannon Strike"
-name_ja = "キャノンストライク"
+name = "Hooligan Cannon Strike"
+name_ja = "フーリガンキャノンストライク"
 slug = "hooligan-cannon-strike"
 characterId = 17
 type = "special"
@@ -560,8 +560,8 @@ parentSlug = "hooligan-combination"
 
 # Cannon Strike (Charged)
 [[moves]]
-name = "Cannon Strike (Charged)"
-name_ja = "キャノンストライク（溜め）"
+name = "Hooligan Cannon Strike (Charged)"
+name_ja = "フーリガンキャノンストライク（溜め）"
 slug = "hooligan-cannon-strike-charged"
 characterId = 17
 type = "special"
