@@ -207,7 +207,7 @@ def validate(move, file_name):
 
 
 # Load all character moves
-moves_path = os.path.join(os.path.dirname(__file__), "moves")
+moves_path = os.path.join(os.path.dirname(__file__), "../moves")
 
 for filename in os.listdir(moves_path):
     if filename.endswith(".toml"):

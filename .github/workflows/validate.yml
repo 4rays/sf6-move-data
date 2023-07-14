@@ -17,7 +17,7 @@ jobs:
     - name: Install toml
       run: pip3 install toml
     - name: Run validation script
-      run: ./validate.py
+      run: ./scripts/validate.py
     - name: Check status
       run: |
         if [ $? -eq 0 ]
