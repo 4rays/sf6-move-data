@@ -26,7 +26,7 @@ slug = "drive-parry"
 abbreviation = "DP"
 abbeviation_ja = "DP"
 type = "action"
-input = "[mpmk]"
+input = "(mpmk)"
 
 # Drive Rush
 [[moves]]
@@ -36,7 +36,7 @@ slug = "drive-rush"
 abbreviation = "DR"
 abbeviation_ja = "DR"
 type = "action"
-input = "[6mpmk]6"
+input = "(6mpmk)6"
 parentSlug = "drive-parry"
 
 # Drive Impact
@@ -47,7 +47,7 @@ slug = "drive-impact"
 abbreviation = "DI"
 abbeviation_ja = "DI"
 type = "action"
-input = "[hphk]"
+input = "(hphk)"
 
 # Drive Rush Cancel
 [[moves]]
@@ -69,7 +69,7 @@ slug = "drive-reversal"
 abbreviation = "DR"
 abbeviation_ja = "DR"
 type = "action"
-input = "[hphk]6"
+input = "(6hphk)"
 notes = ["When blocking or during a successful Drive Parry"]
 notes_ja = ["ガード中 or ドライブパリィ成立中に"]
 

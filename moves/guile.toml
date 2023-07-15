@@ -193,7 +193,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 4
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Full Bullet Magnum
 [[moves]]
@@ -402,7 +402,7 @@ characterId = 4
 type = "throw"
 hitCount = 1
 blockType = "high"
-input = "[lplk]"
+input = "(lplk)"
 
 # Judo Throw
 [[moves]]
@@ -415,7 +415,7 @@ characterId = 4
 type = "throw"
 hitCount = 1
 blockType = "high"
-input = "[4lplk]"
+input = "(4lplk)"
 
 # Flying Mare
 [[moves]]
@@ -428,7 +428,7 @@ characterId = 4
 type = "throw"
 hitCount = 1
 blockType = "high"
-input = "j[lplk]"
+input = "j>(lplk)"
 
 # Flying Buster Drop
 [[moves]]
@@ -441,7 +441,7 @@ characterId = 4
 type = "throw"
 hitCount = 1
 blockType = "high"
-input = "j[4lplk]"
+input = "j>(4lplk)"
 
 # Sonic Boom (Light)
 [[moves]]
@@ -452,7 +452,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(4)6lp"
+input = "[4]>6lp"
 
 # Sonic Boom (Medium)
 [[moves]]
@@ -463,7 +463,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(4)6mp"
+input = "[4]>6mp"
 
 # Sonic Boom (Heavy)
 [[moves]]
@@ -474,7 +474,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(4)6hp"
+input = "[4]>6hp"
 
 # Sonic Boom (OD)
 [[moves]]
@@ -485,7 +485,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(4)6[pp]"
+input = "[4]>6(pp)"
 
 # Somersault Kick (Light)
 [[moves]]
@@ -496,7 +496,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(2)8lk"
+input = "[2]>8lk"
 
 # Somersault Kick (Medium)
 [[moves]]
@@ -507,7 +507,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(2)8mk"
+input = "[2]>8mk"
 
 # Somersault Kick (Heavy)
 [[moves]]
@@ -518,7 +518,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(2)8hk"
+input = "[2]>8hk"
 
 # Somersault Kick (OD)
 [[moves]]
@@ -529,7 +529,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(2)8[kk]"
+input = "[2]>8(kk)"
 
 # Sonic Blade (Light)
 [[moves]]
@@ -584,7 +584,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214*p>6p"
+input = "214*p>6*p"
 parentSlug = "sonic-blade"
 
 # Sonic Cross (OD)
@@ -596,7 +596,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214pp>6p"
+input = "214pp>6*p"
 parentSlug = "sonic-blade-od"
 
 # Sonic Hurricane
@@ -608,7 +608,7 @@ characterId = 4
 type = "super1"
 hitCount = 1
 blockType = "high"
-input = "(4)646p"
+input = "[4]>646*p"
 
 # Solid Puncher
 [[moves]]
@@ -630,7 +630,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214*p>[pp]|(4)6p"
+input = "214214*p>{(pp)|[4]>6*p}"
 parentSlug = "sonic-puncher"
 
 # Sonic Break (OD)
@@ -642,7 +642,7 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214pp>[pp]|(4)6[pp]"
+input = "214214pp>{(pp)|[4]>6(pp)}"
 parentSlug = "sonic-puncher"
 
 # Crossfire Somersault
@@ -654,7 +654,7 @@ characterId = 4
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "(4)646k"
+input = "[4]>646*k"
 
 # Crossfire Somersault (Critical Art)
 [[moves]]
@@ -665,4 +665,4 @@ characterId = 4
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "(4)646k"
+input = "[4]>646*k"

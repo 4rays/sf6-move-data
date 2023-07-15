@@ -193,7 +193,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 11
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Knee Shot
 [[moves]]
@@ -279,7 +279,7 @@ characterId = 11
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "j2lk"
+input = "j>2lk"
 
 # Sunrise Heel
 [[moves]]
@@ -356,7 +356,7 @@ characterId = 11
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "jmk>hk"
+input = "j>mk>hk"
 
 # Speedy Maracas
 [[moves]]
@@ -367,7 +367,7 @@ characterId = 11
 type = "action"
 hitCount = 1
 blockType = "high"
-input = "22[pp]"
+input = "22(pp)"
 
 # Air Slasher (Light)
 [[moves]]
@@ -376,7 +376,7 @@ name_ja = "エアスラッシャー（弱）"
 slug = "air-slasher-light"
 characterId = 11
 type = "special"
-input = "(4)6lp"
+input = "[4]>6lp"
 
 # Air Slasher (Medium)
 [[moves]]
@@ -387,7 +387,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(4)6mp"
+input = "[4]>6mp"
 
 # Air Slasher (Heavy)
 [[moves]]
@@ -398,7 +398,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "(4)6hp"
+input = "[4]>6hp"
 
 # Air Slasher (OD)
 [[moves]]
@@ -409,7 +409,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "(4)6[pp]"
+input = "[4]>6(pp)"
 
 # Jackknife Maximum (Light)
 [[moves]]
@@ -418,7 +418,7 @@ name_ja = "ジャックナイフマキシマム（弱）"
 slug = "jackknife-maximum-light"
 characterId = 11
 type = "special"
-input = "(2)8lp"
+input = "[2]>8lp"
 
 # Jackknife Maximum (Medium)
 [[moves]]
@@ -429,7 +429,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "(2)8mp"
+input = "[2]>8mp"
 
 # Jackknife Maximum (Heavy)
 [[moves]]
@@ -440,7 +440,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "(2)8hp"
+input = "[2]>8hp"
 
 # Jackknife Maximum (OD)
 [[moves]]
@@ -451,7 +451,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "(2)8[pp]"
+input = "[2]>8(pp)"
 
 # Roll Through Feint
 [[moves]]
@@ -526,7 +526,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623[pp]"
+input = "623(pp)"
 
 # Jus Cool
 [[moves]]
@@ -580,7 +580,7 @@ name_ja = "ジャグリンステップ"
 slug = "juggling-dash"
 characterId = 11
 type = "followUp"
-input = "214*k>6p"
+input = "214*k>6*p"
 parentSlug = "jus-cool"
 
 # Juggling Sway
@@ -590,7 +590,7 @@ name_ja = "ジャグリンスウェイ"
 slug = "juggling-sway"
 characterId = 11
 type = "followUp"
-input = "214*k>6p>4p"
+input = "214*k>6*p>4*p"
 parentSlug = "juggling-dash"
 
 # The Greatest Sobat
@@ -692,7 +692,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "diss-track"
 characterId = 11
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Flip Throw
 [[moves]]
@@ -703,4 +703,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "flip-throw"
 characterId = 11
 type = "throw"
-input = "4[lplk]"
+input = "4(lplk)"

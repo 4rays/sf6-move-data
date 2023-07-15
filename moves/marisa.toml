@@ -240,7 +240,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -255,7 +255,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -270,7 +270,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 properties = ["chargeable"]
 
 # Marisa Style (Jumping Punch)
@@ -281,7 +281,7 @@ slug = "marisa-style-jump-punch"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "j(hp)"
+input = "j>(hp)"
 parentSlug = "marisa-jump-heavy-punch"
 
 # Jumping Light Kick
@@ -297,7 +297,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -312,7 +312,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -327,7 +327,7 @@ characterId = 13
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 properties = ["chargeable"]
 
 # Marisa Style (Jumping Kick)
@@ -338,7 +338,7 @@ slug = "marisa-style-jump-kick"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "j(hk)"
+input = "j>(hk)"
 parentSlug = "marisa-jump-heavy-kick"
 
 # Light Two Hitter
@@ -379,7 +379,7 @@ slug = "volare-combo"
 characterId = 13
 blockType = "high"
 type = "targetCombo"
-input = "jmp>mp"
+input = "j>mp>mp"
 
 # Caelum Arc
 [[moves]]
@@ -389,7 +389,7 @@ slug = "caelum-arc"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "j2hp"
+input = "j>2hp"
 
 # Magna Bunker
 [[moves]]
@@ -484,7 +484,7 @@ slug = "gladius-od"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "236[pp]"
+input = "236(pp)"
 notes = ["Hold to change effect"]
 notes_ja = ["ボタンホールドで性質変化"]
 
@@ -526,7 +526,7 @@ slug = "dimachaerus-od"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "214[pp]>*p"
+input = "214(pp)>*p"
 
 # Phalanx (Light)
 [[moves]]
@@ -566,7 +566,7 @@ slug = "phalanx-od"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "623[pp]"
+input = "623(pp)"
 
 # Quadriga (Light)
 [[moves]]
@@ -606,7 +606,7 @@ slug = "quadriga-od"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "236[kk]"
+input = "236(kk)"
 
 # Scutum
 [[moves]]
@@ -647,7 +647,7 @@ slug = "enfold"
 characterId = 13
 blockType = "high"
 type = "commandThrow"
-input = "[lplk]"
+input = "(lplk)"
 parentSlug = "scutum"
 
 # Javelin of Marisa
@@ -699,7 +699,7 @@ alternativeNames = ["Forward throw"]
 alternativeNames_ja = ["前投げ"]
 characterId = 13
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Ponte Milvio
 [[moves]]
@@ -710,4 +710,4 @@ alternativeNames = ["Back throw"]
 alternativeNames_ja = ["後ろ投げ"]
 characterId = 13
 type = "throw"
-input = "4[lplk]"
+input = "4(lplk)"

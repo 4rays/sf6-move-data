@@ -193,7 +193,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 5
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Water Slicer Slide
 [[moves]]
@@ -322,7 +322,7 @@ characterId = 5
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "j2mp"
+input = "j>2mp"
 
 # Bushin Tiger Fangs
 [[moves]]
@@ -410,7 +410,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214[kk]"
+input = "214(kk)"
 
 # Aerial Bunshin Senpu-kyaku (Light)
 [[moves]]
@@ -421,7 +421,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214lk"
+input = "j>214lk"
 
 # Aerial Bunshin Senpu-kyaku (Medium)
 [[moves]]
@@ -432,7 +432,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214mk"
+input = "j>214mk"
 
 # Aerial Bunshin Senpu-kyaku (Heavy)
 [[moves]]
@@ -443,7 +443,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214hk"
+input = "j>214hk"
 
 # Aerial Bunshin Senpu-kyaku (OD)
 [[moves]]
@@ -454,7 +454,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214[kk]"
+input = "j>214(kk)"
 
 # Sprint
 [[moves]]
@@ -472,7 +472,7 @@ name_ja = "疾駆け (OD)"
 slug = "sprint-od"
 characterId = 5
 type = "special"
-input = "236[kk]"
+input = "236(kk)"
 
 # Emergency Stop
 [[moves]]
@@ -481,7 +481,7 @@ name_ja = "急停止"
 slug = "kimberly-emergency-stop"
 characterId = 5
 type = "special"
-input = "236*k>p"
+input = "236*k>*p"
 parentSlug = "sprint"
 
 # Emergency Stop (OD)
@@ -491,7 +491,7 @@ name_ja = "急停止 (OD)"
 slug = "kimberly-emergency-stop-od"
 characterId = 5
 type = "special"
-input = "236[kk]>p"
+input = "236(kk)>*p"
 parentSlug = "sprint-od"
 
 # Torso Cleaver
@@ -503,7 +503,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236*k>k"
+input = "236*k>*k"
 parentSlug = "sprint"
 
 # Torso Cleaver (OD)
@@ -515,7 +515,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[kk]>k"
+input = "236(kk)>*k"
 parentSlug = "sprint-od"
 
 # Shadow Slide
@@ -539,7 +539,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "low"
-input = "236[kk]>mk"
+input = "236(kk)>mk"
 parentSlug = "sprint-od"
 
 # Neck Hunter
@@ -563,7 +563,7 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[kk]>hk"
+input = "236(kk)>hk"
 parentSlug = "sprint-od"
 
 # Arc Step
@@ -585,7 +585,7 @@ name_ja = "アークステップ (OD)"
 slug = "arc-step-od"
 characterId = 5
 type = "special"
-input = "236[kk]"
+input = "236(kk)"
 parentSlug = "sprint-od"
 notes = ["Auto when close."]
 notes_ja = ["近距離で自動発動"]
@@ -597,7 +597,7 @@ name_ja = "武神飯綱落とし"
 slug = "bushin-izuna-otoshi"
 characterId = 5
 type = "special"
-input = "p"
+input = "*p"
 parentSlug = "arc-step"
 
 # Bushin Hojin Kick
@@ -607,7 +607,7 @@ name_ja = "武神鉾刃脚"
 slug = "bushin-hojin-kick"
 characterId = 5
 type = "special"
-input = "k"
+input = "*k"
 parentSlug = "arc-step"
 
 # Vagabond Edge (Light)
@@ -644,7 +644,7 @@ name_ja = "逆転一文字 (OD)"
 slug = "vagabond-edge-od"
 characterId = 5
 type = "special"
-input = "236[kk]"
+input = "236(kk)"
 
 # Hidden Variable
 [[moves]]
@@ -662,7 +662,7 @@ name_ja = "彩隠形 (OD)"
 slug = "hidden-variable-od"
 characterId = 5
 type = "special"
-input = "214[pp]"
+input = "214(pp)"
 
 # Genius at Play
 [[moves]]
@@ -682,7 +682,7 @@ name_ja = "召雷細工 (OD)"
 slug = "genius-at-play-od"
 characterId = 5
 type = "special"
-input = "22[pp]"
+input = "22(pp)"
 notes = ["When shuriken count is zero."]
 notes_ja = ["手裏剣が0の時"]
 
@@ -705,7 +705,7 @@ name_ja = "乱れ細工手裏剣"
 slug = "shuriken-bomb-spread"
 characterId = 5
 type = "special"
-input = "22[pp]"
+input = "22(pp)"
 notes = ["Strength used affects the distance."]
 notes_ja = ["強さで飛距離が変化"]
 parentSlug = "genius-at-play-od"
@@ -717,7 +717,7 @@ name_ja = "荒鶴捻り"
 slug = "nue-twister"
 characterId = 5
 type = "special"
-input = "j236*p"
+input = "j>236*p"
 
 # Nue Twister (OD)
 [[moves]]
@@ -726,7 +726,7 @@ name_ja = "荒鶴捻り (OD)"
 slug = "nue-twister-od"
 characterId = 5
 type = "special"
-input = "j236[pp]"
+input = "j>236(pp)"
 
 # Bushin Beats
 [[moves]]
@@ -764,7 +764,7 @@ name_ja = "空中武神天翔亢竜"
 slug = "soaring-bushin-scramble"
 characterId = 5
 type = "super2"
-input = "j214214*p"
+input = "j>214214*p"
 
 # Bushin Ninjastar Cypher
 [[moves]]
@@ -793,7 +793,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "ripcord-throw"
 characterId = 5
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Bell Ringer
 [[moves]]
@@ -804,4 +804,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "bell-ringer"
 characterId = 5
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"

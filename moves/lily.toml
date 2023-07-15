@@ -193,7 +193,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 16
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Condor Wind (Light)
 [[moves]]
@@ -311,7 +311,7 @@ slug = "condor-wind-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "214[kk]"
+input = "214(kk)"
 properties = ["chargeable", "stockIncrement"]
 
 # Condor Spire (Light)
@@ -355,7 +355,7 @@ slug = "condor-spire-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "236[kk]"
+input = "236(kk)"
 properties = ["stockDecrement"]
 
 # Tomahawk Buster (Light)
@@ -399,7 +399,7 @@ slug = "tomahawk-buster-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "623[pp]"
+input = "623(pp)"
 properties = ["stockDecrement"]
 cancelsInto = ["condor-dive-od"]
 
@@ -411,7 +411,7 @@ slug = "condor-dive"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "{8|9}[pp]"
+input = "{8|9}(pp)"
 
 # Condor Dive (OD)
 [[moves]]
@@ -421,7 +421,7 @@ slug = "condor-dive-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "{8|9}[ppp]"
+input = "{8|9}(ppp)"
 
 # Mexican Typhoon
 [[moves]]
@@ -462,7 +462,7 @@ slug = "soaring-thunderbird"
 characterId = 16
 type = "super2"
 blockType = "high"
-input = "j236236*k"
+input = "j>236236*k"
 properties = ["stockDecrement"]
 
 # Raging Typhoon
@@ -523,7 +523,7 @@ slug = "double-arrow"
 characterId = 16
 type = "targetCombo"
 blockType = "high"
-input = "j5mp>5mp"
+input = "j>5mp>5mp"
 
 # Desert Storm
 [[moves]]
@@ -544,7 +544,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "canyon-throw"
 characterId = 16
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Falling Cliff
 [[moves]]
@@ -555,4 +555,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "falling-cliff"
 characterId = 16
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"

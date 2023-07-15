@@ -193,7 +193,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 3
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Swift Thrust
 [[moves]]
@@ -334,7 +334,7 @@ characterId = 3
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "j2mk"
+input = "j>2mk"
 
 # Wall Jump
 [[moves]]
@@ -345,7 +345,7 @@ characterId = 3
 type = "commandNormal"
 hitCount = 0
 blockType = "high"
-input = "j7|8|9"
+input = "9"
 
 # Soaring Eagle Punches
 [[moves]]
@@ -353,10 +353,10 @@ name = "Soaring Eagle Punches"
 name_ja = "鷹嘴連拳"
 slug = "soaring-eagle-punches"
 characterId = 3
-type = "commandNormal"
+type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "j2hp|j2hp"
+input = "j>hp>hp"
 
 # Kikoken (Light)
 [[moves]]
@@ -396,7 +396,7 @@ slug = "kikoken-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236[pp]"
+input = "236(pp)"
 
 # Serenity Stream
 [[moves]]
@@ -511,7 +511,7 @@ slug = "hundred-lightning-kicks-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236[kk]"
+input = "236(kk)"
 
 # Lightning Kicks Barrage
 [[moves]]
@@ -521,7 +521,7 @@ slug = "lightning-kicks-barrage"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236[kk]>[kk]"
+input = "236(kk)>(kk)"
 parentSlug = "hundred-lightning-kicks-od"
 
 # Aerial Hundred Lightning Kicks (Light)
@@ -532,7 +532,7 @@ slug = "aerial-hundred-lightning-kicks-light"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "j236lk"
+input = "{8|9}>236lk"
 
 # Aerial Hundred Lightning Kicks (Medium)
 [[moves]]
@@ -542,7 +542,7 @@ slug = "aerial-hundred-lightning-kicks-medium"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "j236mk"
+input = "{8|9}>236mk"
 
 # Aerial Hundred Lightning Kicks (Heavy)
 [[moves]]
@@ -552,7 +552,7 @@ slug = "aerial-hundred-lightning-kicks-heavy"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "j236hk"
+input = "{8|9}>236hk"
 
 # Aerial Hundred Lightning Kicks (OD)
 [[moves]]
@@ -562,7 +562,7 @@ slug = "aerial-hundred-lightning-kicks-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "j236[kk]"
+input = "{8|9}>236(kk)"
 
 # Spinning Bird Kick (Light)
 [[moves]]
@@ -572,7 +572,7 @@ slug = "spinning-bird-kick-light"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "(2)8lk"
+input = "[2]>8lk"
 
 # Spinning Bird Kick (Medium)
 [[moves]]
@@ -582,7 +582,7 @@ slug = "spinning-bird-kick-medium"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "(2)8mk"
+input = "[2]>8mk"
 
 # Spinning Bird Kick (Heavy)
 [[moves]]
@@ -592,7 +592,7 @@ slug = "spinning-bird-kick-heavy"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "(2)8hk"
+input = "[2]>8hk"
 
 # Spinning Bird Kick (OD)
 [[moves]]
@@ -602,7 +602,7 @@ slug = "spinning-bird-kick-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "(2)8[kk]"
+input = "[2]>8(kk)"
 
 # Hazanshu (Light)
 [[moves]]
@@ -642,7 +642,7 @@ slug = "hazanshu-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214[kk]"
+input = "214(kk)"
 
 # Tensho Kicks (Light)
 [[moves]]
@@ -682,7 +682,7 @@ slug = "tensho-kicks-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "22[kk]"
+input = "22(kk)"
 
 # Kikosho
 [[moves]]
@@ -694,15 +694,15 @@ type = "super1"
 hitCount = 1
 input = "236236*p"
 
-# Areial Kikosho
+# Aerial Kikosho
 [[moves]]
-name = "Areial Kikosho"
+name = "Aerial Kikosho"
 name_ja = "空中気功掌"
-slug = "areial-kikosho"
+slug = "aerial-kikosho"
 characterId = 3
 type = "super1"
 hitCount = 1
-input = "j236236*p"
+input = "j>236236*p"
 
 # Hoyokusen
 [[moves]]

@@ -193,7 +193,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 15
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Double Lariat
 [[moves]]
@@ -278,7 +278,7 @@ slug = "double-lariat"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "[pp]"
+input = "(pp)"
 
 # Double Lariat (OD)
 [[moves]]
@@ -288,7 +288,7 @@ slug = "double-lariat-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "[ppp]"
+input = "(ppp)"
 
 # Screw Piledriver (Light)
 [[moves]]
@@ -338,7 +338,7 @@ slug = "borscht-dynamite-light"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j{360}lp"
+input = "j>{360}lp"
 
 # Borscht Dynamite (Medium)
 [[moves]]
@@ -348,7 +348,7 @@ slug = "borscht-dynamite-medium"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j{360}mp"
+input = "j>{360}mp"
 
 # Borscht Dynamite (Heavy)
 [[moves]]
@@ -358,7 +358,7 @@ slug = "borscht-dynamite-heavy"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j{360}hp"
+input = "j>{360}hp"
 
 # Borscht Dynamite (OD)
 [[moves]] 
@@ -368,7 +368,7 @@ slug = "borscht-dynamite-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j{360}pp"
+input = "j>{360}pp"
 
 # Russian Suplex (Light)
 [[moves]]
@@ -414,7 +414,7 @@ slug = "russian-suplex-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "63214[kk]"
+input = "63214(kk)"
 notes = ["When near opponent"]
 notes_ja = ["近距離で"]
 
@@ -456,7 +456,7 @@ slug = "siberian-express-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "63214[kk]"
+input = "63214(kk)"
 
 # Tundra Storm
 [[moves]]
@@ -476,7 +476,7 @@ slug = "aerial-russian-slam"
 characterId = 15
 type = "super1"
 blockType = "high"
-input = "236236k"
+input = "236236*k"
 
 # Cyclone Lariat
 [[moves]]
@@ -486,7 +486,7 @@ slug = "cyclone-lariat"
 characterId = 15
 type = "super2"
 blockType = "high"
-input = "236236p"
+input = "236236*p"
 
 # Bolshoi Storm Buster
 [[moves]]
@@ -576,7 +576,7 @@ slug = "flying-headbutt"
 characterId = 15
 type = "commandNormal"
 blockType = "high"
-input = "j8hp"
+input = "j>8hp"
 notes = ["During neutral jump"]
 
 # Machine Gun Chops
@@ -608,7 +608,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "body-slam"
 characterId = 15
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Capture
 [[moves]]
@@ -619,7 +619,7 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "capture"
 characterId = 15
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"
 
 # German Suplex
 [[moves]]
@@ -628,7 +628,7 @@ name_ja = "ジャーマンスープレックス"
 slug = "german-suplex"
 characterId = 15
 type = "throw"
-input = "[6lplk]"
+input = "(6lplk)"
 
 # Spinebuster
 [[moves]]
@@ -637,7 +637,7 @@ name_ja = "スパインバスター"
 slug = "spinebuster"
 characterId = 15
 type = "throw"
-input = "[3lplk]"
+input = "(3lplk)"
 
 # Russian Drop
 [[moves]]
@@ -646,7 +646,7 @@ name_ja = "ロシアンドロップ"
 slug = "russian-drop"
 characterId = 15
 type = "throw"
-input = "[1lplk]"
+input = "(1lplk)"
 
 # Brainbuster
 [[moves]]
@@ -655,4 +655,4 @@ name_ja = "ブレーンバスター"
 slug = "brainbuster"
 characterId = 15
 type = "throw"
-input = "[2lplk]"
+input = "(2lplk)"

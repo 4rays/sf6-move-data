@@ -193,7 +193,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Electric Thunder (Light)
 [[moves]]
@@ -308,7 +308,7 @@ slug = "electric-thunder-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "214[pp]"
+input = "214(pp)"
 
 # Rolling Attack (Light)
 [[moves]]
@@ -318,7 +318,7 @@ slug = "rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(4)6lp"
+input = "[4]>6lp"
 
 # Rolling Attack (Medium)
 [[moves]]
@@ -328,7 +328,7 @@ slug = "rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(4)6mp"
+input = "[4]>6mp"
 
 # Rolling Attack (Heavy)
 [[moves]]
@@ -338,7 +338,7 @@ slug = "rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(4)6hp"
+input = "[4]>6hp"
 
 # Rolling Attack (OD)
 [[moves]]
@@ -348,7 +348,7 @@ slug = "rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(4)6[pp]"
+input = "[4]>6(pp)"
 
 # Vertical Rolling Attack (Light)
 [[moves]]
@@ -358,7 +358,7 @@ slug = "vertical-rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(2)8lk"
+input = "[2]>8lk"
 
 # Vertical Rolling Attack (Medium)
 [[moves]]
@@ -368,7 +368,7 @@ slug = "vertical-rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(2)8mk"
+input = "[2]>8mk"
 
 # Vertical Rolling Attack (Heavy)
 [[moves]]
@@ -378,7 +378,7 @@ slug = "vertical-rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(2)8hk"
+input = "[2]>8hk"
 
 # Vertical Rolling Attack (OD)
 [[moves]]
@@ -388,7 +388,7 @@ slug = "vertical-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "(2)8[pp]"
+input = "[2]>8(pp)"
 
 # Backstep Rolling Attack (Light)
 [[moves]]
@@ -428,7 +428,7 @@ slug = "backstep-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "63214[pp]"
+input = "63214(pp)"
 
 # Aerial Rolling Attack (Light)
 [[moves]]
@@ -438,7 +438,7 @@ slug = "aerial-rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "j(4)6lp"
+input = "j>[4]>6lp"
 
 # Aerial Rolling Attack (Medium)
 [[moves]]
@@ -448,7 +448,7 @@ slug = "aerial-rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "j(4)6mp"
+input = "j>[4]>6mp"
 
 # Aerial Rolling Attack (Heavy)
 [[moves]]
@@ -458,7 +458,7 @@ slug = "aerial-rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "j(4)6hp"
+input = "j>[4]>6hp"
 
 # Aerial Rolling Attack (OD)
 [[moves]]
@@ -468,7 +468,7 @@ slug = "aerial-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "j(4)6[pp]"
+input = "j>[4]>6(pp)"
 
 # Wild Hunt (Light)
 [[moves]]
@@ -508,7 +508,7 @@ slug = "wild-hunt-od"
 characterId = 8
 type = "commandThrow"
 blockType = "high"
-input = "236[pp]"
+input = "236(pp)"
 
 # Blanka-chan Bomb
 [[moves]]
@@ -548,7 +548,7 @@ slug = "ground-shave-cannonball"
 characterId = 8
 type = "super3"
 blockType = "high"
-input = "636236*p"
+input = "236236*p"
 
 # Ground Shave Cannonball (Critical Art)
 [[moves]]
@@ -558,7 +558,7 @@ slug = "ground-shave-cannonball-ca"
 characterId = 8
 type = "super3"
 blockType = "high"
-input = "636236*p"
+input = "236236*p"
 
 # Rolling Cannon
 [[moves]]
@@ -629,7 +629,7 @@ name_ja = "フィアーダウン"
 slug = "coward-crouch"
 characterId = 8
 type = "action"
-input = "c*[pp]"
+input = "c(pp)"
 
 # Wild Lift
 [[moves]]
@@ -658,7 +658,7 @@ name_ja = "サプライズフォワード"
 slug = "surprise-forward-hop"
 characterId = 8
 type = "action"
-input = "6[kkk]"
+input = "6(kkk)"
 
 # Surprise Back Hop
 [[moves]]
@@ -667,7 +667,7 @@ name_ja = "サプライズバック"
 slug = "suprise-back-hop"
 characterId = 8
 type = "action"
-input = "4[kkk]"
+input = "4(kkk)"
 
 # Wild Fang
 [[moves]]
@@ -678,7 +678,7 @@ alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
 characterId = 8
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Jungle Flip
 [[moves]]
@@ -689,7 +689,7 @@ alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
 characterId = 8
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"
 
 # Wild Bites
 [[moves]]
@@ -700,4 +700,4 @@ alternativeNames = ["Air Throw"]
 alternativeNames_ja = ["空中投げ"]
 characterId = 8
 type = "throw"
-input = "j[lplk]"
+input = "j>(lplk)"

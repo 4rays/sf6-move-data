@@ -193,7 +193,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 9
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Yoga Uppercut
 [[moves]]
@@ -367,7 +367,7 @@ characterId = 9
 type = "commandNormal"
 hitCount = 1
 blockType = "jumpIn"
-input = "j2lp"
+input = "j>2lp"
 
 # Drill Kick
 [[moves]]
@@ -378,7 +378,7 @@ characterId = 9
 type = "commandNormal"
 hitCount = 1
 blockType = "jumpIn"
-input = "j2*k"
+input = "j>2*k"
 
 # Yoga Fire
 [[moves]]
@@ -401,7 +401,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[pp]"
+input = "236(pp)"
 properties = ["chargeable"]
 
 # Yoga Arch
@@ -424,7 +424,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[pp]"
+input = "236(pp)"
 
 # Yoga Flame (Light)
 [[moves]]
@@ -468,7 +468,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "63214[pp]"
+input = "63214(pp)"
 
 # Yoga Blast (Light)
 [[moves]]
@@ -479,7 +479,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "62314lk"
+input = "63214lk"
 
 # Yoga Blast (Medium)
 [[moves]]
@@ -490,7 +490,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "62314mk"
+input = "63214mk"
 
 # Yoga Blast (Heavy)
 [[moves]]
@@ -501,7 +501,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "62314hk"
+input = "63214hk"
 
 # Yoga Blast (OD)
 [[moves]]
@@ -512,7 +512,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "62314[pp]"
+input = "63214(pp)"
 
 # Yoga Comet
 [[moves]]
@@ -523,7 +523,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j62314*p"
+input = "j>63214*p"
 
 # Yoga Comet (OD)
 [[moves]]
@@ -534,7 +534,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j62314[pp]"
+input = "j>63214(pp)"
 
 # Yoga Float
 [[moves]]
@@ -543,7 +543,7 @@ name_ja = "ヨガフロート"
 slug = "yoga-float"
 characterId = 9
 type = "action"
-input = "2[kk]|3[kk]"
+input = "2(kk)|3(kk)"
 
 # Aerial Yoga Float
 [[moves]]
@@ -552,7 +552,7 @@ name_ja = "空中ヨガフロート"
 slug = "aerial-yoga-float"
 characterId = 9
 type = "action"
-input = "j2[kk]"
+input = "j>2(kk)"
 
 # Yoga Teleport
 [[moves]]
@@ -561,7 +561,7 @@ name_ja = "ヨガテレポート"
 slug = "yoga-teleport"
 characterId = 9
 type = "action"
-input = "4[ppp][kkk]|6[ppp][kkk]"
+input = "4(ppp)(kkk)|6(ppp)(kkk)"
 
 # Aerial Yoga Teleport
 [[moves]]
@@ -570,7 +570,7 @@ name_ja = "空中ヨガテレポート"
 slug = "aerial-yoga-teleport"
 characterId = 9
 type = "action"
-input = "j>4[ppp][kkk]|6[ppp][kkk]"
+input = "j>>4(ppp)(kkk)|6(ppp)(kkk)"
 
 # Yoga Inferno
 [[moves]]
@@ -625,7 +625,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "yoga-smash"
 characterId = 9
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Yoga Throw
 [[moves]]
@@ -637,7 +637,7 @@ alternativeNames_ja = ["後ろ投げ"]
 characterId = 9
 type = "throw"
 hitCount = 1
-input = "[5lplk]"
+input = "(5lplk)"
 
 # Yoga Splash
 [[moves]]
@@ -647,4 +647,4 @@ slug = "yoga-splash"
 characterId = 9
 type = "throw"
 hitCount = 1
-input = "[2lplk]"
+input = "(2lplk)"

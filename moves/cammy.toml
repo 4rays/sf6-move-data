@@ -193,7 +193,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 17
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Lift Uppercut
 [[moves]]
@@ -378,7 +378,7 @@ slug = "spiral-arrow-od"
 characterId = 17
 type = "special"
 hitCount = 5
-input = "236[kk]"
+input = "236(kk)"
 blockType = "high"
 
 # Cannon Spike (Light)
@@ -435,7 +435,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623[pp]"
+input = "623(pp)"
 
 # Quick Spin Knuckle (Light)
 [[moves]]
@@ -479,7 +479,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214[pp]"
+input = "214(pp)"
 
 # Cannon Strike
 [[moves]]
@@ -490,7 +490,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214*k"
+input = "9>214*k"
 
 # Cannon Strike (OD)
 [[moves]]
@@ -501,7 +501,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j214[kk]"
+input = "9>214(kk)"
 
 # Hooligan Combination
 [[moves]]
@@ -601,7 +601,7 @@ name_ja = "フェイタルレッグツイスター"
 slug = "fatal-leg-twister"
 characterId = 17
 type = "throw"
-input = "236*p>[lplk]"
+input = "236*p>(lplk)"
 parentSlug = "hooligan-combination"
 
 # Fatal Leg Twister (Charged)
@@ -611,7 +611,7 @@ name_ja = "フェイタルレッグツイスター（溜め）"
 slug = "fatal-leg-twister-charged"
 characterId = 17
 type = "throw"
-input = "236[hp]>[lplk]"
+input = "236[hp]>(lplk)"
 parentSlug = "hooligan-combination"
 
 # Silent Step
@@ -655,7 +655,7 @@ characterId = 17
 blockType = "high"
 hitCount = 3
 type = "super2"
-input = "j214214*k"
+input = "9>214214*k"
 
 # Delta Red Assault
 [[moves]]
@@ -688,7 +688,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "rough-landing"
 characterId = 17
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Delta Throw
 [[moves]]
@@ -699,7 +699,7 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "delta-throw"
 characterId = 17
 type = "throw"
-input = "[2lplk]"
+input = "(2lplk)"
 
 # Leg Scissors Choke
 [[moves]]
@@ -710,4 +710,4 @@ alternativeNames_ja = ["空中投げ"]
 slug = "leg-scissors-choke"
 characterId = 17
 type = "throw"
-input = "j[lplk]"
+input = "j>(lplk)"

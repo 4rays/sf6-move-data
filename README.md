@@ -90,12 +90,10 @@ The following table lists the special notation used in the string:
 | `8`      | Up            |
 | `9`      | Up-Forward    |
 | `{360}`  | 360 motion    |
-| `d`      | Any direction |
-| `[]`     | Simultaneous  |
-| `()`     | Hold          |
-| `{}`     | Grouped       |
+| `()`     | Simultaneous  |
+| `[]`     | Hold          |
 | `>`      | Follow-up     |
-| `|`      | Or            |
+| `{|}`    | Or            |
 | `*p`     | Any punch     |
 | `lp`     | Light Punch   |
 | `mp`     | Medium Punch  |
@@ -104,11 +102,9 @@ The following table lists the special notation used in the string:
 | `lk`     | Light Kick    |
 | `mk`     | Medium Kick   |
 | `hk`     | Heavy Kick    |
-| `l*`     | Any light     |
-| `m*`     | Any medium    |
-| `h*`     | Any heavy     |
-| `j*`     | Any jump      |
-| `c*`     | Any crouch    |
+| `d`      | Any direction |
+| `j`      | Any jump      |
+| `c`      | Any crouch    |
 | `pp`     | Any two *p    |
 | `kk`     | Any two *k    |
 

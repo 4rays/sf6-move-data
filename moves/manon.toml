@@ -193,7 +193,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 12
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Révérence
 [[moves]]
@@ -370,7 +370,7 @@ name_ja = "マネージュ・ドレ（OD）"
 slug = "manege-dore-od"
 characterId = 12
 type = "commandThrow"
-input = "63214[pp]"
+input = "63214(pp)"
 
 # Rond-point (Light)
 [[moves]]
@@ -414,7 +414,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "236[pp]"
+input = "236(pp)"
 
 # Dégagé (Light)
 [[moves]]
@@ -458,7 +458,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "214[pp]"
+input = "214(pp)"
 
 # Renversé (Light)
 [[moves]]
@@ -502,7 +502,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
-input = "623[pp]"
+input = "623(pp)"
 
 # Renversé (Feint)
 [[moves]]
@@ -511,7 +511,7 @@ name_ja = "ランヴェルセ（フェイント）"
 slug = "renverse-feint"
 characterId = 12
 type = "action"
-input = "623(*p)"
+input = "623*p"
 
 # Grand Fouetté
 [[moves]]
@@ -578,7 +578,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "ouchigari"
 characterId = 12
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Uchimata
 [[moves]]
@@ -589,4 +589,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "uchimata"
 characterId = 12
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"

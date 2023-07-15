@@ -193,7 +193,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Hundred Hand Slap (Light)
 [[moves]]
@@ -312,7 +312,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214[pp]"
+input = "214(pp)"
 
 # Sumo Headbutt (Light)
 [[moves]]
@@ -323,7 +323,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[4]6lp"
+input = "[4]>6lp"
 
 # Sumo Headbutt (Medium)
 [[moves]]
@@ -334,7 +334,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[4]6mp"
+input = "[4]>6mp"
 
 # Sumo Headbutt (Heavy)
 [[moves]]
@@ -345,7 +345,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[4]6hp"
+input = "[4]>6hp"
 
 # Sumo Headbutt (OD)
 [[moves]]
@@ -356,7 +356,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[4]6[pp]"
+input = "[4]>6(pp)"
 
 # Sumo Smash (Light)
 [[moves]]
@@ -367,7 +367,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[2]8lp"
+input = "[2]>8lp"
 
 # Sumo Smash (Medium)
 [[moves]]
@@ -378,7 +378,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[2]8mp"
+input = "[2]>8mp"
 
 # Sumo Smash (Heavy)
 [[moves]]
@@ -389,7 +389,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[2]8hp"
+input = "[2]>8hp"
 
 # Sumo Smash (OD)
 [[moves]]
@@ -400,7 +400,7 @@ characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[2]8[pp]"
+input = "[2]>8(pp)"
 
 # Oicho Throw (Light)
 [[moves]]
@@ -444,7 +444,7 @@ characterId = 10
 type = "commandThrow"
 hitCount = 1
 blockType = "high"
-input = "63214[pp]"
+input = "63214(pp)"
 
 # Sumo Dash
 [[moves]]
@@ -462,7 +462,7 @@ name_ja = "相撲ステップ (OD)"
 slug = "sumo-dash-od"
 characterId = 10
 type = "action"
-input = "236[kk]"
+input = "236(kk)"
 
 # Teppo Triple Slap
 [[moves]]
@@ -485,7 +485,7 @@ characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236[kk]>*p>*p"
+input = "236(kk)>*p>*p"
 parentSlug = "sumo-dash-od"
 
 # Taiho Cannon Lift
@@ -509,7 +509,7 @@ characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236[kk]>2*p"
+input = "236(kk)>2*p"
 parentSlug = "sumo-dash-od"
 
 # Neko Damashi
@@ -552,7 +552,7 @@ characterId = 10
 type = "super2"
 hitCount = 1
 blockType = "high"
-input = "[4]646*k"
+input = "[4]>646*k"
 
 # The Final Bout
 [[moves]]
@@ -640,7 +640,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "saba-ori"
 type = "throw"
 characterId = 10
-input = "[lplk]"
+input = "(lplk)"
 
 # Tawara Throw
 [[moves]]
@@ -651,4 +651,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "tawara-throw"
 type = "throw"
 characterId = 10
-input = "[4lplk]"
+input = "(4lplk)"

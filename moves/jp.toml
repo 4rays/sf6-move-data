@@ -267,7 +267,7 @@ type = "normal"
 damage = 300
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 frameCount = ["S-4", "A-14"]
 
 # Jumping Medium Punch
@@ -284,7 +284,7 @@ type = "normal"
 damage = 700
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 frameCount = ["S-11", "A-14"]
 
 # Jumping Heavy Punch
@@ -301,7 +301,7 @@ type = "normal"
 damage = 800
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 frameCount = ["S-8", "A-13"]
 
 # Jumping Light Kick
@@ -318,7 +318,7 @@ type = "normal"
 damage = 300
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 frameCount = ["S-5", "A-13"]
 
 # Jumping Medium Kick
@@ -335,7 +335,7 @@ type = "normal"
 damage = 600
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 frameCount = ["S-6", "A-12"]
 
 # Jumping Heavy Kick
@@ -352,7 +352,7 @@ type = "normal"
 damage = 800
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 frameCount = ["S-10", "A-16"]
 
 # Triglav
@@ -375,7 +375,7 @@ characterId = 14
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "22[pp]"
+input = "22(pp)"
 
 # Stribog (Light)
 [[moves]]
@@ -419,7 +419,7 @@ characterId = 14
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[pp]"
+input = "236(pp)"
 
 # Departure
 [[moves]]
@@ -443,7 +443,7 @@ characterId = 14
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214[pp]"
+input = "214(pp)"
 notes = ["The button used determines the location."]
 notes_ja = ["ボタンで位置が決まる。"]
 
@@ -491,7 +491,7 @@ characterId = 14
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "22[pp]"
+input = "22(pp)"
 
 # Torbalan (Light)
 [[moves]]
@@ -535,7 +535,7 @@ characterId = 14
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[kk]"
+input = "236(kk)"
 
 # Embrace
 [[moves]]
@@ -553,7 +553,7 @@ name_ja = "アブニマーチ (OD)"
 slug = "embrace-od"
 characterId = 14
 type = "commandThrow"
-input = "214[kk]"
+input = "214(kk)"
 
 # Guillotinna
 [[moves]]
@@ -641,7 +641,7 @@ alternativeNames_ja = ["前投げ"]
 slug = "ravina"
 characterId = 14
 type = "throw"
-input = "[lplk]"
+input = "(lplk)"
 
 # Uragan
 [[moves]]
@@ -652,7 +652,7 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "uragan"
 characterId = 14
 type = "throw"
-input = "[4lplk]"
+input = "(4lplk)"
 
 # Tornado
 [[moves]]
@@ -663,7 +663,7 @@ alternativeNames_ja = ["空中投げ"]
 slug = "tornado"
 characterId = 14
 type = "throw"
-input = "j[lplk]"
+input = "j>(lplk)"
 
 # Chornobog
 [[moves]]
@@ -696,7 +696,7 @@ characterId = 14
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "632146*k"
+input = "236236*k"
 
 # Interdiction (Critical Art)
 [[moves]]
@@ -707,4 +707,4 @@ characterId = 14
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "632146*k"
+input = "236236*k"

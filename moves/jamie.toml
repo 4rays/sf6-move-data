@@ -193,7 +193,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlp"
+input = "j>lp"
 
 # Jumping Medium Punch
 [[moves]]
@@ -208,7 +208,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmp"
+input = "j>mp"
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,7 +223,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhp"
+input = "j>hp"
 
 # Jumping Light Kick
 [[moves]]
@@ -238,7 +238,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jlk"
+input = "j>lk"
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,7 +253,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jmk"
+input = "j>mk"
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +268,7 @@ characterId = 2
 type = "normal"
 hitCount = 1
 blockType = "high"
-input = "jhk"
+input = "j>hk"
 
 # Tensei Kick
 [[moves]]
@@ -279,7 +279,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "[5kk]"
+input = "(kk)"
 
 # Phantom Sway
 [[moves]]
@@ -290,7 +290,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
-input = "4hk>hk>p"
+input = "4hk>hk>*p"
 
 # Falling Star Kick
 [[moves]]
@@ -347,7 +347,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
-input = "6mk>5mk>5p"
+input = "6mk>5mk>5*p"
 notes = ["Requires drink level 2."]
 notes_ja = ["酔いレベル2必要"]
 
@@ -360,7 +360,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
-input = "4hp>5hp>5k"
+input = "4hp>5hp>5*k"
 notes = ["Requires drink level 3."]
 notes_ja = ["酔いレベル3必要"]
 
@@ -373,7 +373,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
-input = "6hk>5hk>5p"
+input = "6hk>5hk>5*p"
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
 
@@ -396,7 +396,7 @@ slug = "freeflow-strikes-light"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236lp>6p>6p"
+input = "236lp>6*p>6*p"
 
 # Freeflow Strikes (Medium)
 [[moves]]
@@ -408,7 +408,7 @@ slug = "freeflow-strikes-medium"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236mp>6p>6p"
+input = "236mp>6*p>6*p"
 
 # Freeflow Strikes (Heavy)
 [[moves]]
@@ -420,7 +420,7 @@ slug = "freeflow-strikes-heavy"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236hp>6p>6p"
+input = "236hp>6*p>6*p"
 
 # Freeflow Strikes (OD)
 [[moves]]
@@ -432,7 +432,7 @@ slug = "freeflow-strikes-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236[pp]>6p>6p"
+input = "236(pp)>6*p>6*p"
 
 # Freeflow Kicks (Light)
 [[moves]]
@@ -444,7 +444,7 @@ slug = "freeflow-kicks-light"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236lp>6k>6k"
+input = "236lp>6*k>6*k"
 
 # Freeflow Kicks (Medium)
 [[moves]]
@@ -456,7 +456,7 @@ slug = "freeflow-kicks-medium"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236mp>6k>6k"
+input = "236mp>6*k>6*k"
 
 # Freeflow Kicks (Heavy)
 [[moves]]
@@ -468,7 +468,7 @@ slug = "freeflow-kicks-heavy"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236hp>6k>6k"
+input = "236hp>6*k>6*k"
 
 # Freeflow Kicks (OD)
 [[moves]]
@@ -480,7 +480,7 @@ slug = "freeflow-kicks-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "236[pp]>6k>6k"
+input = "236(pp)>6*k>6*k"
 
 # Swagger Step (Light)
 [[moves]]
@@ -520,7 +520,7 @@ slug = "swagger-step-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "214[pp]"
+input = "214(pp)"
 
 # Swagger Hermit Punch
 [[moves]]
@@ -530,7 +530,7 @@ slug = "swagger-hermit-punch"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "214*p>6p"
+input = "214*p>6*p"
 parentSlug = "swagger-step"
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
@@ -543,7 +543,7 @@ slug = "swagger-hermit-punch-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "214[pp]>6p"
+input = "214(pp)>6*p"
 parentSlug = "swagger-step-od"
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
@@ -586,7 +586,7 @@ slug = "arrow-kick-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "623[pp]"
+input = "623(pp)"
 
 # Luminous Dive Kick
 [[moves]]
@@ -596,7 +596,7 @@ slug = "luminous-dive-kick"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "j214*k"
+input = "j>214*k"
 
 # Luminous Dive Kick (OD)
 [[moves]]
@@ -606,7 +606,7 @@ slug = "luminous-dive-kick-od"
 characterId = 2
 type = "special"
 blockType = "high"
-input = "j214[kk]"
+input = "j>214(kk)"
 notes = ["Requires drink level 1."]
 notes_ja = ["酔いレベル1必要"]
 
@@ -684,7 +684,7 @@ alternativeNames_ja = ["後ろ投げ"]
 characterId = 2
 type = "throw"
 blockType = "high"
-input = "[4lplk]"
+input = "(4lplk)"
 
 # Wheel Punch
 [[moves]]
@@ -696,4 +696,4 @@ alternativeNames_ja = ["前投げ"]
 characterId = 2
 type = "throw"
 blockType = "high"
-input = "[5lplk]"
+input = "(lplk)"
