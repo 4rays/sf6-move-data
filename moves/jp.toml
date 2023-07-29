@@ -512,7 +512,7 @@ slug = "torbalan-medium"
 characterId = 14
 type = "special"
 hitCount = 1
-blockType = "overhead"
+blockType = "mid"
 input = "236mk"
 
 # Torbalan (Heavy)
@@ -618,7 +618,7 @@ slug = "zilant-mid"
 characterId = 14
 type = "targetCombo"
 hitCount = 3
-blockType = "overhead"
+blockType = "mid"
 input = "hk>hp>hp"
 
 # Zilant Low

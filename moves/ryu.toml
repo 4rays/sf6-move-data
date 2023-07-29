@@ -13,7 +13,7 @@ damage = 300
 hitCount = 1
 blockType = "high"
 input = "5lp"
-cancelsInto = ["chain", "special", "super"]
+cancel = "C"
 chainsInto = ["5lp", "2lp", "2lk"]
 frameCount = ["S-3", "A-6", "R-13"]
 notes = []
@@ -38,7 +38,7 @@ damage = 600
 hitCount = 1
 blockType = "high"
 input = "5mp"
-cancelsInto = ["special", "super", "targetCombo"]
+cancel = "C"
 chainsInto = ["5mp", "2mp"]
 frameCount = ["S-5", "A-9", "R-20"]
 
@@ -61,7 +61,7 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "5hp"
-cancelsInto = ["special", "super", "targetCombo"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-9", "A-14", "R-32"]
 properties = ["forcesStanding"]
@@ -85,7 +85,7 @@ damage = 300
 hitCount = 1
 blockType = "low"
 input = "5lk"
-cancelsInto = ["chain", "special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-4", "A-7", "R-18"]
 
@@ -108,8 +108,6 @@ damage = 700
 hitCount = 1
 blockType = "high"
 input = "5mk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-8", "A-11", "R-29"]
 
 [moves.frameAdvantage]
@@ -131,8 +129,6 @@ damage = 900
 hitCount = 1
 blockType = "high"
 input = "5hk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-11", "A-15", "R-35"]
 
 [moves.frameAdvantage]
@@ -154,7 +150,7 @@ damage = 300
 hitCount = 1
 blockType = "low"
 input = "2lp"
-cancelsInto = ["chain", "special", "super"]
+cancel = "C"
 chainsInto = ["5lp", "2lp", "2lk"]
 frameCount = ["S-3", "A-5", "R-14"]
 
@@ -177,7 +173,7 @@ damage = 700
 hitCount = 1
 blockType = "low"
 input = "2mp"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-5", "A-8", "R-22"]
 
@@ -200,7 +196,7 @@ damage = 900
 hitCount = 1
 blockType = "low"
 input = "2hp"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-8", "A-12", "R-34"]
 
@@ -223,7 +219,6 @@ damage = 200
 hitCount = 1
 blockType = "low"
 input = "2lk"
-cancelsInto = ["chain"]
 chainsInto = ["5lp", "2lp", "2lk"]
 frameCount = ["S-4", "A-6", "R-16"]
 
@@ -244,7 +239,7 @@ damage = 500
 hitCount = 1
 blockType = "low"
 input = "2mk"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-7", "A-10", "R-29"]
 
@@ -267,8 +262,6 @@ damage = 900
 hitCount = 1
 blockType = "low"
 input = "2hk"
-cancelsInto = []
-chainsInto = []
 properties = ["knockdown"]
 frameCount = ["S-8", "A-11", "R-34"]
 
@@ -291,8 +284,6 @@ damage = 300
 hitCount = 1
 blockType = "high"
 input = "j>lp"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-3", "A-13"]
 
 # Jumping Medium Punch
@@ -308,7 +299,7 @@ damage = 700
 hitCount = 2
 blockType = "high"
 input = "j>mp"
-cancelsInto = ["special"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-7", "A-12"]
 
@@ -327,8 +318,6 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "j>hp"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-8", "A-14"]
 
 # Jumping Light Kick
@@ -344,8 +333,6 @@ damage = 300
 hitCount = 1
 blockType = "high"
 input = "j>lk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-5", "A-15"]
 properties = ["canCrossUp"]
 
@@ -364,8 +351,6 @@ damage = 500
 hitCount = 1
 blockType = "high"
 input = "j>mk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-6", "A-12"]
 properties = ["canCrossUp"]
 
@@ -384,8 +369,6 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "j>hk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-11", "A-19"]
 
 # Collarbone Breaker
@@ -399,8 +382,6 @@ damage = 600
 hitCount = 2
 blockType = "high"
 input = "6mp"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-19", "A-23", "R-42"]
 
 [moves.frameAdvantage]
@@ -418,8 +399,6 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "6hp"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-19", "A-24", "R-40"]
 
 [moves.frameAdvantage]
@@ -437,7 +416,7 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "4hp"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-6", "A-9", "R-35"]
 properties = ["forcesStanding"]
@@ -457,7 +436,7 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "6hk"
-cancelsInto = ["special"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-15", "A-19", "R-39"]
 
@@ -476,7 +455,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "4hk"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-9", "A-14", "R-19", "A-22", "R-43"]
 
@@ -495,8 +474,6 @@ damage = 1_800
 hitCount = 2
 blockType = "high"
 input = "5hp>5hk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-9", "A-14", "R-16", "S-24", "A-28", "R-48"]
 properties = ["knockdown"]
 
@@ -515,8 +492,6 @@ damage = 900
 hitCount = 2
 blockType = "high"
 input = "5mp>5lk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-5", "A-9", "R-11", "S-15", "A-18", "R-34"]
 
 [moves.frameAdvantage]
@@ -534,8 +509,6 @@ damage = 1_620
 hitCount = 3
 blockType = "high"
 input = "5mp>5lk>5hk"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-5", "A-9", "R-11", "S-15", "A-16", "S-32", "A-36", "R-56"]
 
 [moves.frameAdvantage]
@@ -553,7 +526,7 @@ damage = 600
 hitCount = 1
 blockType = "high"
 input = "236lp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 frameCount = ["S-15", "PA-16", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
@@ -573,7 +546,7 @@ damage = 600
 hitCount = 1
 blockType = "high"
 input = "236mp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 frameCount = ["S-13", "PA-14", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
@@ -593,7 +566,7 @@ damage = 600
 hitCount = 1
 blockType = "high"
 input = "236hp"
-cancelsInto = ["super"]
+cancel = "SA"
 frameCount = ["S-11", "PA-12", "R-47"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
@@ -613,7 +586,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "236(pp)"
-cancelsInto = ["super3", "super2"]
+cancel = "SA3"
 frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-40"]
 notes = ["Frame data is for point blank range."]
 notes_ja = ["フレームデータはゼロ距離の場合。"]
@@ -633,7 +606,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "236*p"
-cancelsInto = ["super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-11", "PA-12", "R-20", "PA-21", "R-42"]
 properties = ["stockDecrement"]
@@ -656,7 +629,7 @@ damage = 1_000
 hitCount = 3
 blockType = "high"
 input = "236(pp)"
-cancelsInto = ["super2", "super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-11", "PA-12", "R-16", "PA-17", "R-21", "PA-22", "R-38"]
 properties = ["stockDecrement"]
@@ -680,7 +653,7 @@ damage = 1_100
 hitCount = 1
 blockType = "high"
 input = "623lp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 frameCount = ["S-4", "A-14", "R-47"]
 
 [moves.frameAdvantage]
@@ -703,7 +676,7 @@ damage = 1_200
 hitCount = 1
 blockType = "high"
 input = "623mp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 frameCount = ["S-5", "A-15", "R-57"]
 
 [moves.frameAdvantage]
@@ -726,7 +699,7 @@ damage = 1_400
 hitCount = 1
 blockType = "high"
 input = "623hp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 frameCount = ["S-6", "A-16", "R-65"]
 
 [moves.frameAdvantage]
@@ -857,8 +830,6 @@ damage = 900
 hitCount = 3
 blockType = "high"
 input = "9>214*k"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-10", "A-12", "R-17", "A-19", "R-25", "A-27"]
 properties = ["canCrossUp", "knockdown"]
 
@@ -874,8 +845,6 @@ damage = 1_500
 hitCount = 4
 blockType = "high"
 input = "9>214(kk)"
-cancelsInto = []
-chainsInto = []
 frameCount = [
   "S-10",
   "A-12",
@@ -901,7 +870,7 @@ damage = 1_000
 hitCount = 1
 blockType = "high"
 input = "236lk"
-cancelsInto = ["super"]
+cancel = "SA"
 chainsInto = []
 frameCount = ["S-14", "A-23", "R-45"]
 
@@ -921,7 +890,7 @@ damage = 1_100
 hitCount = 1
 blockType = "high"
 input = "236mk"
-cancelsInto = ["super"]
+cancel = "SA"
 chainsInto = []
 frameCount = ["S-17", "A-26", "R-45"]
 
@@ -941,7 +910,7 @@ damage = 1_300
 hitCount = 1
 blockType = "high"
 input = "236hk"
-cancelsInto = ["super"]
+cancel = "SA"
 chainsInto = []
 frameCount = ["S-28", "A-37", "R-53"]
 
@@ -961,7 +930,7 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "236(kk)"
-cancelsInto = ["special", "super"]
+cancel = "C"
 chainsInto = []
 frameCount = ["S-18", "A-23", "R-55"]
 
@@ -980,7 +949,7 @@ damage = 700
 hitCount = 1
 blockType = "high"
 input = "214lp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-11", "A-17", "R-35"]
 
@@ -999,7 +968,7 @@ damage = 800
 hitCount = 1
 blockType = "high"
 input = "214mp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-18", "A-24", "R-41"]
 
@@ -1018,7 +987,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "214hp"
-cancelsInto = ["super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-29", "A-35", "R-54"]
 
@@ -1037,7 +1006,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "214(pp)"
-cancelsInto = ["super2", "super3"]
+cancel = "SA2"
 chainsInto = []
 frameCount = ["S-18", "PA-19", "S-24", "R-43"]
 
@@ -1056,7 +1025,7 @@ damage = 800
 hitCount = 2
 blockType = "high"
 input = "214*p"
-cancelsInto = ["super3"]
+cancel = "SA3"
 chainsInto = []
 frameCount = ["S-20", "A-26", "R-44"]
 properties = ["stockDecrement"]
@@ -1077,7 +1046,7 @@ damage = 600
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
-cancelsInto = ["super2", "super3"]
+cancel = "SA2"
 chainsInto = []
 frameCount = ["S-17", "A-23", "R-42"]
 properties = ["stockDecrement"]
@@ -1098,8 +1067,6 @@ damage = 2_000
 hitCount = 5
 blockType = "high"
 input = "236236*p"
-cancelsInto = []
-chainsInto = []
 frameCount = [
   "S-6",
   "PA-24",
@@ -1135,8 +1102,6 @@ damage = 2_400
 hitCount = 4
 blockType = "high"
 input = "236236*p"
-cancelsInto = []
-chainsInto = []
 frameCount = [
   "S-6",
   "PA-26",
@@ -1174,8 +1139,6 @@ damage = 2_600
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-11", "PA-17", "R-56"]
 properties = ["armorBreak"]
 
@@ -1194,8 +1157,6 @@ damage = 2_800
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-20", "A-26", "PA-27", "R-65"]
 
 [moves.frameAdvantage]
@@ -1213,8 +1174,6 @@ damage = 3_000
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-49", "A-55", "R-94"]
 
 [moves.frameAdvantage]
@@ -1232,8 +1191,6 @@ damage = 3_000
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-11", "A-13", "R-56"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
@@ -1257,8 +1214,6 @@ damage = 3_200
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-20", "A-26", "R-65"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
@@ -1282,8 +1237,6 @@ damage = 3_400
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-49", "A-25", "R-64"]
 properties = ["stockDecrement"]
 parentSlug = "denjin-charge"
@@ -1307,8 +1260,6 @@ damage = 4_000
 hitCount = 1
 blockType = "high"
 input = "236236*k"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-4", "A-16", "R-38"]
 
 [moves.frameAdvantage]
@@ -1330,8 +1281,6 @@ damage = 4500
 hitCount = 1
 blockType = "high"
 input = "236236*k"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-4", "A-16", "R-50"]
 
 [moves.frameAdvantage]
@@ -1354,8 +1303,6 @@ type = "throw"
 damage = 1_200
 hitCount = 1
 input = "(lplk)"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-4", "A-7", "R-30"]
 
 [moves.frameAdvantage]
@@ -1373,8 +1320,6 @@ type = "throw"
 damage = 1_200
 hitCount = 1
 input = "(4lplk)"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-4", "A-7", "R-30"]
 
 [moves.frameAdvantage]
@@ -1390,7 +1335,5 @@ type = "special"
 damage = 0
 hitCount = 0
 input = "22*p"
-cancelsInto = []
-chainsInto = []
 frameCount = ["S-52"]
 properties = ["stockIncrement"]

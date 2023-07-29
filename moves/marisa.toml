@@ -427,7 +427,7 @@ name = "Malleus Breaker"
 name_ja = "マレウスビート"
 slug = "malleus-breaker"
 characterId = 13
-blockType = "overhead"
+blockType = "mid"
 type = "targetCombo"
 input = "3hp>3hp"
 
@@ -623,7 +623,7 @@ name = "Tonitrus"
 name_ja = "トニトルス"
 slug = "tonitrus"
 characterId = 13
-blockType = "overhead"
+blockType = "mid"
 type = "special"
 input = "*p>*p"
 parentSlug = "scutum"

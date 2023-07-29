@@ -402,6 +402,7 @@ blockType = "high"
 input = "623(pp)"
 properties = ["stockDecrement"]
 cancelsInto = ["condor-dive-od"]
+cancel = "*"
 
 # Condor Dive
 [[moves]]

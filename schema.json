@@ -36,10 +36,10 @@
     "input": {
       "type": "string"
     },
-    "cancelsInto": {
+    "cancel": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/CancelsInto"
+        "$ref": "#/definitions/Cancel"
       }
     },
     "chainsInto": {
@@ -152,22 +152,21 @@
       ],
       "title": "Damage"
     },
-    "CancelsInto": {
+    "Cancel": {
       "type": "string",
       "enum": [
-        "chain",
-        "special",
-        "super",
-        "targetCombo",
-        "super1",
-        "super3",
-        "super2"
+        "C",
+        "SA",
+        "SA2",  
+        "SA3",
+        "J",
+        "*"
       ],
-      "title": "CancelsInto"
+      "title": "Cancel"
     },
     "BlockType": {
       "type": "string",
-      "enum": ["high", "low"],
+      "enum": ["high", "low", "mid"],
       "title": "BlockType"
     },
     "Type": {

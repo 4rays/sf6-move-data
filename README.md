@@ -14,7 +14,7 @@ The following table lists the possible values:
 | `normal`        | Normal move              |
 | `commandNormal` | Command normal move      |
 | `action`        | Non-damaging actions     |
-| `followUp`    | Move requiring an action |
+| `followUp`      | Move requiring an action |
 | `targetCombo`   | Target combo             |
 | `special`       | Special move             |
 | `super1`        | Level 1 super move       |
@@ -113,27 +113,24 @@ The following table lists the special notation used in the string:
 This property lists the possible move types that a move can cancel into.
 The following table lists the possible values:
 
-| Value         | Meaning                     |
-|---------------|-----------------------------|
-| `chain`       | Chains into other normals   |
-| `special`     | Cancels into special moves  |
-| `super`       | Cancels into super moves    |
-| `targetCombo` | Cancels into target combos  |
-| `jump`        | Cancels into jump           |
-| `super1`      | Cancels into level 1 supers |
-| `super2`      | Cancels into level 2 supers |
-| `super3`      | Cancels into level 3 supers |
+| Value | Meaning                                                |
+|-------|--------------------------------------------------------|
+| `C`   | Can be canceled by a special move, DI, DR, or SA       |
+| `SA`  | Can only be canceled by a Super Art                    |
+| `SA2` | Can only be canceled by a level 2 or level 3 Super Art |
+| `SA3` | Can only be canceled by a level 3 Super Art            |
+| `J`   | Can be canceled by a jump                              |
+| `*`   | Can be canceled by other moves. See `cancelsInto`.     |
 
 ### Block Type
 
 The `blockType` property refers to the attack type with regards to blocking.
 
-| Value      | Meaning  |
-|------------|----------|
-| `high`     | High     |
-| `low`      | Low      |
-| `overhead` | Overhead |
-| `jumpIn`   | Jump-in  |
+| Value  | Meaning  |
+|--------|----------|
+| `high` | High     |
+| `low`  | Low      |
+| `mid`  | Overhead |
 
 ### Move Properties
 

@@ -366,7 +366,7 @@ slug = "yoga-mummy"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
-blockType = "jumpIn"
+blockType = "mid"
 input = "j>2lp"
 
 # Drill Kick
@@ -377,7 +377,7 @@ slug = "drill-kick"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
-blockType = "jumpIn"
+blockType = "mid"
 input = "j>2*k"
 
 # Yoga Fire

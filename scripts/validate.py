@@ -3,6 +3,7 @@
 import toml
 import os
 
+
 def validate(move, file_name):
     """Validate TOML data against schema"""
     match move:
@@ -75,9 +76,9 @@ def validate(move, file_name):
                 return False
 
     if block_type := move.get("blockType"):
-        if block_type not in ["high", "low", "overhead", "jumpIn"]:
+        if block_type not in ["high", "low", "mid"]:
             print(
-                "❗ Validation error: blockType on {} should be one of the following values: high, low, overhead, jump-in.".format(
+                "❗ Validation error: blockType on {} should be one of the following values: high, low, or mid.".format(
                     move["name"]
                 )
             )
@@ -132,37 +133,18 @@ def validate(move, file_name):
     else:
         print("🚧 Validation warning: frameCount missing on {}.".format(move["name"]))
 
-    if cancelsInto := move.get("cancelsInto"):
-        match cancelsInto:
-            case list():
-                for cancel in cancelsInto:
-                    match cancel:
-                        case str():
-                            if cancel not in [
-                                "chain",
-                                "special",
-                                "super",
-                                "jump",
-                                "targetCombo",
-                                "super1",
-                                "super2",
-                                "super3",
-                            ]:
-                                print(
-                                    "Property cancelsInto on {} of `{}` should be a valid move slug".format(
-                                        move["name"], cancel
-                                    )
-                                )
-                                pass
-                            else:
-                                pass
-                        case _:
-                            print(
-                                "❗ Validation error: properties on {} should be a list of strings.".format(
-                                    move["name"]
-                                )
-                            )
-                            return False
+    if cancel := move.get("cancel"):
+        match cancel:
+            case str():
+                if cancel not in ["C", "SA", "SA2", "SA3", "J", "*"]:
+                    print(
+                        "Property cancelsInto on {} of `{}` should be C, SA, SA2, SA3, J, or *".format(
+                            move["name"], cancel
+                        )
+                    )
+                    pass
+                else:
+                    pass
 
     if properties := move.get("properties"):
         match properties:
@@ -180,6 +162,7 @@ def validate(move, file_name):
                                 "stockIncrement",
                                 "stockDecrement",
                                 "chargeable",
+                                "chainable",
                             ]:
                                 print(
                                     "❗ Validation error: property on {} should be one of the following values: canCrossUp, armorBreak, tumble, juggle, knockdown, forcesStanding, chargeable, stockIncrement, or stockDecrement but was {} instead.".format(
@@ -246,8 +229,10 @@ for filename in os.listdir(moves_path):
         with open(os.path.join(moves_path, filename)) as move_file:
             moves = toml.load(move_file)
             for move in moves["moves"]:
-                move_name_with_id = "{}-{}".format(move["name"], move.get("characterId"))
-                
+                move_name_with_id = "{}-{}".format(
+                    move["name"], move.get("characterId")
+                )
+
                 if move_name_with_id in names:
                     print(
                         "❗ Validation error: Move name {} is not unique.".format(

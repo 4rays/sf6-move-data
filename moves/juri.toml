@@ -289,7 +289,7 @@ slug = "senkai-kick"
 characterId = 6
 type = "commandNormal"
 hitCount = 1
-blockType = "overhead"
+blockType = "mid"
 input = "6mk"
 
 # Renko Kicks

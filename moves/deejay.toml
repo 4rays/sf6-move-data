@@ -557,7 +557,7 @@ slug = "waning-moon"
 characterId = 11
 type = "followUp"
 hitCount = 1
-blockType = "overhead"
+blockType = "mid"
 input = "214*k>mk"
 parentSlug = "jus-cool"
 
