@@ -1,7 +1,7 @@
 # Standing Light Punch
 [[moves]]
 name = "Standing Light Punch"
-name_ja = "立ち弱パン"
+name_ja = "立ち弱P"
 alternativeNames = ["Jab"]
 alternativeNames_ja = ["小パン", "コパン"]
 slug = "luke-stand-light-punch"
@@ -18,7 +18,7 @@ notes_ja = []
 # Standing Medium Punch
 [[moves]]
 name = "Standing Medium Punch"
-name_ja = "立ち中パン"
+name_ja = "立ち中P"
 alternativeNames = ["Strong"]
 alternativeNames_ja = ["中パン"]
 slug = "luke-stand-medium-punch"
@@ -33,7 +33,7 @@ input = "5mp"
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
-name_ja = "立ち強パン"
+name_ja = "立ち強P"
 alternativeNames = ["Fierce"]
 alternativeNames_ja = ["大パン"]
 slug = "luke-stand-heavy-punch"
@@ -48,7 +48,7 @@ input = "5hp"
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
-name_ja = "立ち弱キック"
+name_ja = "立ち弱K"
 alternativeNames = ["Short"]
 alternativeNames_ja = ["小足", "コアシ"]
 slug = "luke-stand-light-kick"
@@ -63,7 +63,7 @@ input = "5lk"
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
-name_ja = "立ち中キック"
+name_ja = "立ち中K"
 alternativeNames = ["Forward"]
 alternativeNames_ja = ["中足", "中アシ"]
 slug = "luke-stand-medium-kick"
@@ -78,7 +78,7 @@ input = "5mk"
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
-name_ja = "立ち強キック"
+name_ja = "立ち強K"
 alternativeNames = ["Roundhouse"]
 alternativeNames_ja = ["大足", "大アシ"]
 slug = "luke-stand-heavy-kick"
@@ -93,7 +93,7 @@ input = "5hk"
 # Crouching Light Punch
 [[moves]]
 name = "Crouching Light Punch"
-name_ja = "しゃがみ弱パン"
+name_ja = "しゃがみ弱P"
 alternativeNames = ["Crouching jab"]
 alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
 slug = "luke-crouch-light-punch"
@@ -108,9 +108,9 @@ input = "2lp"
 # Crouching Medium Punch
 [[moves]]
 name = "Crouching Medium Punch"
-name_ja = "しゃがみ中パン"
+name_ja = "しゃがみ中P"
 alternativeNames = ["Crouching jab"]
-alternativeNames_ja = ["しゃがみ中パン"]
+alternativeNames_ja = ["しゃがみ中P"]
 slug = "luke-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
@@ -123,7 +123,7 @@ input = "2mp"
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
-name_ja = "しゃがみ強パン"
+name_ja = "しゃがみ強P"
 alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "luke-crouch-heavy-punch"
@@ -138,7 +138,7 @@ input = "2hp"
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
-name_ja = "しゃがみ弱キック"
+name_ja = "しゃがみ弱K"
 alternativeNames = ["Crouching short"]
 alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
 slug = "luke-crouch-light-kick"
@@ -153,7 +153,7 @@ input = "2lk"
 # Crouching Medium Kick
 [[moves]]
 name = "Crouching Medium Kick"
-name_ja = "しゃがみ中キック"
+name_ja = "しゃがみ中K"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
 slug = "luke-crouch-medium-kick"
@@ -168,7 +168,7 @@ input = "2mk"
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
-name_ja = "しゃがみ強キック"
+name_ja = "しゃがみ強K"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "luke-crouch-heavy-kick"
@@ -183,7 +183,7 @@ input = "2hk"
 # Jumping Light Punch
 [[moves]]
 name = "Jumping Light Punch"
-name_ja = "ジャンプ弱パン"
+name_ja = "ジャンプ弱P"
 alternativeNames = ["Jumping jab"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "luke-jump-light-punch"
@@ -198,9 +198,9 @@ input = "j>lp"
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
-name_ja = "ジャンプ中パン"
+name_ja = "ジャンプ中P"
 alternativeNames = ["Jumping strong"]
-alternativeNames_ja = ["ジャンプ中パン"]
+alternativeNames_ja = ["ジャンプ中P"]
 slug = "luke-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -213,7 +213,7 @@ input = "j>mp"
 # Jumping Heavy Punch
 [[moves]]
 name = "Jumping Heavy Punch"
-name_ja = "ジャンプ強パン"
+name_ja = "ジャンプ強P"
 alternativeNames = ["Jumping fierce"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "luke-jump-heavy-punch"
@@ -228,7 +228,7 @@ input = "j>hp"
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
-name_ja = "ジャンプ弱キック"
+name_ja = "ジャンプ弱K"
 alternativeNames = ["Jumping short"]
 alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
 slug = "luke-jump-light-kick"
@@ -243,7 +243,7 @@ input = "j>lk"
 # Jumping Medium Kick
 [[moves]]
 name = "Jumping Medium Kick"
-name_ja = "ジャンプ中キック"
+name_ja = "ジャンプ中K"
 alternativeNames = ["Jumping forward"]
 alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
 slug = "luke-jump-medium-kick"
@@ -258,7 +258,7 @@ input = "j>mk"
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
-name_ja = "ジャンプ強キック"
+name_ja = "ジャンプ強K"
 alternativeNames = ["Jumping roundhouse"]
 alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
 slug = "luke-jump-heavy-kick"

@@ -1,7 +1,7 @@
 # Standing Light Punch
 [[moves]]
 name = "Standing Light Punch"
-name_ja = "立ち弱パン"
+name_ja = "立ち弱P"
 alternativeNames = ["Jab"]
 alternativeNames_ja = ["小パン", "コパン"]
 slug = "marisa-stand-light-punch"
@@ -18,7 +18,7 @@ notes_ja = []
 # Standing Medium Punch
 [[moves]]
 name = "Standing Medium Punch"
-name_ja = "立ち中パン"
+name_ja = "立ち中P"
 alternativeNames = ["Strong"]
 alternativeNames_ja = ["中パン"]
 slug = "marisa-stand-medium-punch"
@@ -33,7 +33,7 @@ input = "5mp"
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
-name_ja = "立ち強パン"
+name_ja = "立ち強P"
 alternativeNames = ["Fierce"]
 alternativeNames_ja = ["大パン"]
 slug = "marisa-stand-heavy-punch"
@@ -46,11 +46,11 @@ blockType = "high"
 input = "5hp"
 properties = ["chargeable"]
 
-# Marisa Style (Standing Punch)
+# Standing Heavy Punch (Charged)
 [[moves]]
-name = "Marisa Style (Punch)"
-name_ja = "マリーザスタイル (立ちパンチ)"
-slug = "marisa-style-stand-punch"
+name = "Standing Heavy Punch (Charged)"
+name_ja = "立ち強P (ホールド)"
+slug = "marisa-stand-heavy-punch-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
@@ -60,7 +60,7 @@ parentSlug = "marisa-stand-heavy-punch"
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
-name_ja = "立ち弱キック"
+name_ja = "立ち弱K"
 alternativeNames = ["Short"]
 alternativeNames_ja = ["小足", "コアシ"]
 slug = "marisa-stand-light-kick"
@@ -75,7 +75,7 @@ input = "5lk"
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
-name_ja = "立ち中キック"
+name_ja = "立ち中K"
 alternativeNames = ["Forward"]
 alternativeNames_ja = ["中足", "中アシ"]
 slug = "marisa-stand-medium-kick"
@@ -90,7 +90,7 @@ input = "5mk"
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
-name_ja = "立ち強キック"
+name_ja = "立ち強K"
 alternativeNames = ["Roundhouse"]
 alternativeNames_ja = ["大足", "大アシ"]
 slug = "marisa-stand-heavy-kick"
@@ -102,11 +102,11 @@ hitCount = 1
 blockType = "low"
 input = "5hk"
 
-# Marisa Style (Standing Kick)
+# Standing Heavy Kick (Charged) 
 [[moves]]
-name = "Marisa Style (Standing Kick)"
-name_ja = "マリーザスタイル (立ち足)"
-slug = "marisa-style-stand-kick"
+name = "Standing Heavy Kick (Charged)"
+name_ja = "立ち強K (ホールド)"
+slug = "marisa-stand-heavy-kick-charged"
 characterId = 13
 blockType = "low"
 type = "commandNormal"
@@ -116,7 +116,7 @@ parentSlug = "marisa-stand-heavy-kick"
 # Crouching Light Punch
 [[moves]]
 name = "Crouching Light Punch"
-name_ja = "しゃがみ弱パン"
+name_ja = "しゃがみ弱P"
 alternativeNames = ["Crouching jab"]
 alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
 slug = "marisa-crouch-light-punch"
@@ -131,9 +131,9 @@ input = "2lp"
 # Crouching Medium Punch
 [[moves]]
 name = "Crouching Medium Punch"
-name_ja = "しゃがみ中パン"
+name_ja = "しゃがみ中P"
 alternativeNames = ["Crouching jab"]
-alternativeNames_ja = ["しゃがみ中パン"]
+alternativeNames_ja = ["しゃがみ中P"]
 slug = "marisa-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
@@ -146,7 +146,7 @@ input = "2mp"
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
-name_ja = "しゃがみ強パン"
+name_ja = "しゃがみ強P"
 alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "marisa-crouch-heavy-punch"
@@ -159,11 +159,11 @@ blockType = "high"
 input = "2hp"
 properties = ["chargeable"]
 
-# Marisa Style (Crouching Punch)
+# Crouching Heavy Punch (Charged)
 [[moves]]
-name = "Marisa Style (Crouching Punch)"
-name_ja = "マリーザスタイル (しゃがみパンチ)"
-slug = "marisa-style-crouch-punch"
+name = "Crouching Heavy Punch (Charged)"
+name_ja = "しゃがみ強P (ホールド)"
+slug = "marisa-crouch-heavy-punch-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
@@ -173,7 +173,7 @@ parentSlug = "marisa-crouch-heavy-punch"
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
-name_ja = "しゃがみ弱キック"
+name_ja = "しゃがみ弱K"
 alternativeNames = ["Crouching short"]
 alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
 slug = "marisa-crouch-light-kick"
@@ -188,7 +188,7 @@ input = "2lk"
 # Crouching Medium Kick
 [[moves]]
 name = "Crouching Medium Kick"
-name_ja = "しゃがみ中キック"
+name_ja = "しゃがみ中K"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
 slug = "marisa-crouch-medium-kick"
@@ -203,7 +203,7 @@ input = "2mk"
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
-name_ja = "しゃがみ強キック"
+name_ja = "しゃがみ強K"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "marisa-crouch-heavy-kick"
@@ -216,11 +216,11 @@ blockType = "low"
 input = "2hk"
 properties = ["chargeable"]
 
-# Marisa Style (Crouching Kick)
+# Chrouching Heavy Kick (Charged)
 [[moves]]
-name = "Marisa Style (Crouching Kick)"
-name_ja = "マリーザスタイル (しゃがみキック)"
-slug = "marisa-style-crouch-kick"
+name = "Crouching Heavy Kick (Charged)"
+name_ja = "しゃがみ強K (ホールド)"
+slug = "marisa-crouch-heavy-kick-charged"
 characterId = 13
 blockType = "low"
 type = "commandNormal"
@@ -230,7 +230,7 @@ parentSlug = "marisa-crouch-heavy-kick"
 # Jumping Light Punch
 [[moves]]
 name = "Jumping Light Punch"
-name_ja = "ジャンプ弱パン"
+name_ja = "ジャンプ弱P"
 alternativeNames = ["Crouching forward"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "marisa-jump-light-punch"
@@ -245,9 +245,9 @@ input = "j>lp"
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
-name_ja = "ジャンプ中パン"
+name_ja = "ジャンプ中P"
 alternativeNames = ["Jumping strong"]
-alternativeNames_ja = ["ジャンプ中パン"]
+alternativeNames_ja = ["ジャンプ中P"]
 slug = "marisa-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -260,7 +260,7 @@ input = "j>mp"
 # Jumping Heavy Punch
 [[moves]]
 name = "Jumping Heavy Punch"
-name_ja = "ジャンプ強パン"
+name_ja = "ジャンプ強P"
 alternativeNames = ["Jumping roundhouse"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "marisa-jump-heavy-punch"
@@ -273,11 +273,11 @@ blockType = "high"
 input = "j>hp"
 properties = ["chargeable"]
 
-# Marisa Style (Jumping Punch)
+# Jumping Heavy Punch (Charged)
 [[moves]]
-name = "Marisa Style (Jumping Punch)"
-name_ja = "マリーザスタイル (ジャンプパンチ)"
-slug = "marisa-style-jump-punch"
+name = "Jumping Heavy Punch (Charged)"
+name_ja = "ジャンプ強P (ホールド)"
+slug = "marisa-jump-heavy-punch-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
@@ -287,7 +287,7 @@ parentSlug = "marisa-jump-heavy-punch"
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
-name_ja = "ジャンプ弱キック"
+name_ja = "ジャンプ弱K"
 alternativeNames = ["Jumping short"]
 alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
 slug = "marisa-jump-light-kick"
@@ -302,7 +302,7 @@ input = "j>lk"
 # Jumping Medium Kick
 [[moves]]
 name = "Jumping Medium Kick"
-name_ja = "ジャンプ中キック"
+name_ja = "ジャンプ中K"
 alternativeNames = ["Jumping forward"]
 alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
 slug = "marisa-jump-medium-kick"
@@ -317,7 +317,7 @@ input = "j>mk"
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
-name_ja = "ジャンプ強キック"
+name_ja = "ジャンプ強K"
 alternativeNames = ["Jumping roundhouse"]
 alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
 slug = "marisa-jump-heavy-kick"
@@ -330,11 +330,11 @@ blockType = "high"
 input = "j>hk"
 properties = ["chargeable"]
 
-# Marisa Style (Jumping Kick)
+# Jumping Heavy Kick (Charged)
 [[moves]]
-name = "Marisa Style (Jumping Kick)"
-name_ja = "マリーザスタイル (ジャンプキック)"
-slug = "marisa-style-jump-kick"
+name = "Jumping Heavy Kick (Charged)"
+name_ja = "ジャンプ強K (ホールド)"
+slug = "marisa-jump-heavy-kick-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
