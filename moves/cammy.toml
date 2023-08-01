@@ -424,7 +424,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623[hk]"
+input = "623+[hk]"
 
 # Cannon Spike (OD)
 [[moves]]
@@ -520,7 +520,7 @@ name_ja = "フーリガンコンビネーション（溜め）"
 slug = "hooligan-combination-charged"
 characterId = 17
 type = "special"
-input = "236[hp]"
+input = "236+[hp]"
 
 # Razor's Edge Slicer
 [[moves]]
@@ -543,7 +543,7 @@ characterId = 17
 hitCount = 1
 blockType = "low"
 type = "special"
-input = "236[hp]"
+input = "236+[hp]"
 parentSlug = "hooligan-combination"
 
 # Cannon Strike
@@ -567,7 +567,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[hp]>*k"
+input = "236+[hp]>*k"
 parentSlug = "hooligan-combination"
 
 # Reverse Edge
@@ -591,7 +591,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236[hp]>2*k"
+input = "236+[hp]>2*k"
 parentSlug = "hooligan-combination"
 
 # Fatal Leg Twister
@@ -611,7 +611,7 @@ name_ja = "フェイタルレッグツイスター（溜め）"
 slug = "fatal-leg-twister-charged"
 characterId = 17
 type = "throw"
-input = "236[hp]>(lplk)"
+input = "236+[hp]>(lplk)"
 parentSlug = "hooligan-combination"
 
 # Silent Step

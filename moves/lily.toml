@@ -412,7 +412,7 @@ slug = "condor-dive"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "{8|9}(pp)"
+input = "{8|9}+(pp)"
 
 # Condor Dive (OD)
 [[moves]]
@@ -422,7 +422,7 @@ slug = "condor-dive-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "{8|9}(ppp)"
+input = "{8|9}+(ppp)"
 
 # Mexican Typhoon
 [[moves]]
@@ -432,7 +432,7 @@ slug = "mexican-typhoon"
 characterId = 16
 type = "commandThrow"
 blockType = "high"
-input = "{360}*p"
+input = "{360}+*p"
 
 # Breezing Hawk
 [[moves]]

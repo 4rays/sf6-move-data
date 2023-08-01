@@ -323,7 +323,7 @@ characterId = 4
 type = "commandNormal"
 hitCount = 1
 blockType = "low"
-input = "4mk|6mk"
+input = "{4mk|6mk}"
 
 # Reverse Spin Kick
 [[moves]]

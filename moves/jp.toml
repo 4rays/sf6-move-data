@@ -456,7 +456,7 @@ characterId = 14
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "214{lp|mp}"
+input = "214+{lp|mp}"
 parentSlug = "departure"
 
 # Departure: Shadow 

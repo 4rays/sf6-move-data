@@ -568,7 +568,7 @@ slug = "rolling-cannon"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "d*p"
+input = "d+*p"
 notes = ["When performing a rolling-type special move."]
 notes_ja = ["ローリング系必殺技中に入力"]
 

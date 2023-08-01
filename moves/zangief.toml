@@ -298,7 +298,7 @@ slug = "screw-piledriver-light"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "{360}lp"
+input = "{360}+lp"
 
 # Screw Piledriver (Medium)
 [[moves]]
@@ -308,7 +308,7 @@ slug = "screw-piledriver-medium"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "{360}mp"
+input = "{360}+mp"
 
 # Screw Piledriver (Heavy)
 [[moves]]
@@ -318,7 +318,7 @@ slug = "screw-piledriver-heavy"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "{360}hp"
+input = "{360}+hp"
 
 # Screw Piledriver (OD)
 [[moves]]
@@ -328,7 +328,7 @@ slug = "screw-piledriver-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "{360}pp"
+input = "{360}+pp"
 
 # Borscht Dynamite (Light)
 [[moves]]
@@ -338,7 +338,7 @@ slug = "borscht-dynamite-light"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j>{360}lp"
+input = "j>{360}+lp"
 
 # Borscht Dynamite (Medium)
 [[moves]]
@@ -348,7 +348,7 @@ slug = "borscht-dynamite-medium"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j>{360}mp"
+input = "j>{360}+mp"
 
 # Borscht Dynamite (Heavy)
 [[moves]]
@@ -358,7 +358,7 @@ slug = "borscht-dynamite-heavy"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j>{360}hp"
+input = "j>{360}+hp"
 
 # Borscht Dynamite (OD)
 [[moves]] 
@@ -368,7 +368,7 @@ slug = "borscht-dynamite-od"
 characterId = 15
 type = "special"
 blockType = "high"
-input = "j>{360}pp"
+input = "j>{360}+pp"
 
 # Russian Suplex (Light)
 [[moves]]
@@ -496,7 +496,7 @@ slug = "bolshoi-storm-buster"
 characterId = 15
 type = "super3"
 blockType = "high"
-input = "{720}*p"
+input = "{720}+*p"
 
 # Bolshoi Storm Buster (Critical Art)
 [[moves]]
@@ -506,7 +506,7 @@ slug = "bolshoi-storm-buster-ca"
 characterId = 15
 type = "super3"
 blockType = "high"
-input = "{720}*p"
+input = "{720}+*p"
 
 # Hellstab
 [[moves]]

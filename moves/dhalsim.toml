@@ -543,7 +543,7 @@ name_ja = "ヨガフロート"
 slug = "yoga-float"
 characterId = 9
 type = "action"
-input = "2(kk)|3(kk)"
+input = "{2(kk)|3(kk)}"
 
 # Aerial Yoga Float
 [[moves]]
@@ -561,7 +561,7 @@ name_ja = "ヨガテレポート"
 slug = "yoga-teleport"
 characterId = 9
 type = "action"
-input = "4(ppp)(kkk)|6(ppp)(kkk)"
+input = "{4(ppp)(kkk)|6(ppp)(kkk)}"
 
 # Aerial Yoga Teleport
 [[moves]]
@@ -570,7 +570,7 @@ name_ja = "空中ヨガテレポート"
 slug = "aerial-yoga-teleport"
 characterId = 9
 type = "action"
-input = "j>>4(ppp)(kkk)|6(ppp)(kkk)"
+input = "j>{4(ppp)(kkk)|6(ppp)(kkk)}"
 
 # Yoga Inferno
 [[moves]]

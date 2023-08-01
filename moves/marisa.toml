@@ -167,7 +167,7 @@ slug = "marisa-crouch-heavy-punch-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "2(hp)"
+input = "2+[hp]"
 parentSlug = "marisa-crouch-heavy-punch"
 
 # Crouching Light Kick
@@ -224,7 +224,7 @@ slug = "marisa-crouch-heavy-kick-charged"
 characterId = 13
 blockType = "low"
 type = "commandNormal"
-input = "2(hk)"
+input = "2+[hk]"
 parentSlug = "marisa-crouch-heavy-kick"
 
 # Jumping Light Punch
@@ -281,7 +281,7 @@ slug = "marisa-jump-heavy-punch-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "j>(hp)"
+input = "j>[hp]"
 parentSlug = "marisa-jump-heavy-punch"
 
 # Jumping Light Kick
@@ -338,7 +338,7 @@ slug = "marisa-jump-heavy-kick-charged"
 characterId = 13
 blockType = "high"
 type = "commandNormal"
-input = "j>(hk)"
+input = "j>[hk]"
 parentSlug = "marisa-jump-heavy-kick"
 
 # Light Two Hitter

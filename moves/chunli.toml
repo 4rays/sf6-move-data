@@ -279,7 +279,7 @@ characterId = 3
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "6mp|4mp"
+input = "{6mp|4mp}"
 
 # Hakkei
 [[moves]]
