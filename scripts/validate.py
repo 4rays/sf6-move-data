@@ -76,69 +76,66 @@ def validate(move, file_name):
                 return False
 
     if block_type := move.get("blockType"):
-        if block_type not in ["high", "low", "mid"]:
+        if block_type not in ["high", "low", "mid", "midHigh"]:
             print(
-                "❗ Validation error: blockType on {} should be one of the following values: high, low, or mid.".format(
+                "❗ Validation error: blockType on {} should be one of the following values: high, low, midHigh, or mid.".format(
                     move["name"]
                 )
             )
             return False
 
-    if frame_count := move.get("frameCount"):
-        match frame_count:
+    if damage := move.get("damage"):
+        match damage:
+            case int():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: damage on {} should be an integer.".format(
+                        move["name"]
+                    )
+                )
+                return False
+
+    if startup := move.get("startup"):
+        match startup:
+            case int():
+                pass
+            case _:
+                print(
+                    "❗ Validation error: startup on {} should be an integer.".format(
+                        move["name"]
+                    )
+                )
+                return False
+
+    if active := move.get("active"):
+        match active:
             case list():
-                for frame in frame_count:
+                for frame in active:
                     match frame:
-                        case str():
-                            frameData = frame.split("-")
-                            if len(frameData) == 2:
-                                if frameData[0] not in ["S", "R", "A", "PA"]:
-                                    print(
-                                        "❗ Validation error: frameCount identifier on {} should be S, R, A, or PA but was {} instead".format(
-                                            move["name"], frameData[0]
-                                        )
-                                    )
-                                    return False
-                                if not frameData[1].isdigit():
-                                    print(
-                                        "❗ Validation error: frameCount count on {} should be a number but was {} instead".format(
-                                            move["name"], frameData[1]
-                                        )
-                                    )
-                                    return False
-
-                                pass
-                            else:
-                                print(
-                                    "❗ Validation error: frameCount on {} should be of format Identifier-count but was {} instead.".format(
-                                        move["name"], frame
-                                    )
-                                )
-                                return False
-
+                        case int():
+                            pass
                         case _:
                             print(
-                                "❗ Validation error: frameCount on {} should be a list of strings.".format(
+                                "❗ Validation error: active on {} should be a list of integers.".format(
                                     move["name"]
                                 )
                             )
                             return False
             case _:
                 print(
-                    "❗ Validation error: frameCount on {} should be a list.".format(
+                    "❗ Validation error: active on {} should be a list.".format(
                         move["name"]
                     )
                 )
                 return False
-    else:
-        print("🚧 Validation warning: frameCount missing on {}.".format(move["name"]))
-
+    
     if cancel := move.get("cancel"):
         match cancel:
             case str():
                 if cancel not in ["C", "SA", "SA2", "SA3", "J", "*"]:
                     print(
-                        "Property cancelsInto on {} of `{}` should be C, SA, SA2, SA3, J, or *".format(
+                        "Property cancel on {} of `{}` should be C, SA, SA2, SA3, J, or *".format(
                             move["name"], cancel
                         )
                     )

@@ -9,17 +9,9 @@ abbreviation = "S.LP"
 abbeviation_ja = "立ち弱P"
 characterId = 14
 type = "normal"
-damage = 300
-hitCount = 1
 blockType = "high"
 input = "5lp"
-frameCount = ["S-5", "A-8", "R-18"]
-notes = []
-notes_ja = []
-
-[moves.frameAdvantage]
-hit = 4
-block = -2
+hitCount = 1
 
 # Standing Medium Punch
 [[moves]]
@@ -32,15 +24,9 @@ abbreviation = "S.MP"
 abbeviation_ja = "立ち中P"
 characterId = 14
 type = "normal"
-damage = 700
-hitCount = 1
 blockType = "high"
 input = "5mp"
-frameCount = ["S-11", "A-14", "R-35"]
-
-[moves.frameAdvantage]
-hit = 1
-block = -6
+hitCount = 1
 
 # Standing Heavy Punch
 [[moves]]
@@ -53,15 +39,9 @@ abbreviation = "S.HP"
 abbeviation_ja = "立ち強P"
 characterId = 14
 type = "normal"
-damage = 800
-hitCount = 1
 blockType = "high"
 input = "5hp"
-frameCount = ["S-11", "A-13", "R-35"]
-
-[moves.frameAdvantage]
-hit = 3
-block = -3
+hitCount = 1
 
 # Standing Light Kick
 [[moves]]
@@ -74,15 +54,9 @@ abbreviation = "S.LK"
 abbeviation_ja = "立ち弱K"
 characterId = 14
 type = "normal"
-damage = 300
 hitCount = 1
 blockType = "low"
 input = "5lk"
-frameCount = ["S-4", "A-7", "R-18"]
-
-[moves.frameAdvantage]
-hit = 3
-block = -2
 
 # Standing Medium Kick
 [[moves]]
@@ -95,15 +69,9 @@ abbreviation = "S.MK"
 abbeviation_ja = "立ち中K"
 characterId = 14
 type = "normal"
-damage = 600
-hitCount = 1
 blockType = "low"
 input = "5mk"
-frameCount = ["S-7", "A-10", "R-29"]
-
-[moves.frameAdvantage]
-hit = 1
-block = -3
+hitCount = 1
 
 # Standing Heavy Kick
 [[moves]]
@@ -116,15 +84,9 @@ abbreviation = "S.HK"
 abbeviation_ja = "立ち強K"
 characterId = 14
 type = "normal"
-damage = 800
-hitCount = 1
 blockType = "low"
 input = "5hk"
-frameCount = ["S-11", "A-15", "R-32"]
-
-[moves.frameAdvantage]
-hit = 7
-block = 2
+hitCount = 1
 
 # Crouching Light Punch
 [[moves]]
@@ -137,15 +99,9 @@ abbreviation = "C.LP"
 abbeviation_ja = "屈弱P"
 characterId = 14
 type = "normal"
-damage = 300
-hitCount = 1
 blockType = "high"
 input = "2lp"
-frameCount = ["S-3", "A-5", "R-16"]
-
-[moves.frameAdvantage]
-hit = 4
-block = -1
+hitCount = 1
 
 # Crouching Medium Punch
 [[moves]]
@@ -158,15 +114,9 @@ abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
 characterId = 14
 type = "normal"
-damage = 700
-hitCount = 1
 blockType = "high"
 input = "2mp"
-frameCount = ["S-6", "A-10", "R-24"]
-
-[moves.frameAdvantage]
-hit = 6
-block = -1
+hitCount = 1
 
 # Crouching Heavy Punch
 [[moves]]
@@ -179,15 +129,9 @@ abbreviation = "C.HP"
 abbeviation_ja = "屈強P"
 characterId = 14
 type = "normal"
-damage = 800
-hitCount = 1
 blockType = "high"
 input = "2hp"
-frameCount = ["S-8", "A-14", "R-34"]
-
-[moves.frameAdvantage]
-hit = 1
-block = -6
+hitCount = 1
 
 # Crouching Light Kick
 [[moves]]
@@ -200,15 +144,9 @@ abbreviation = "C.LK"
 abbeviation_ja = "屈弱K"
 characterId = 14
 type = "normal"
-damage = 200
-hitCount = 1
 blockType = "low"
 input = "2lk"
-frameCount = ["S-5", "A-7", "R-17"]
-
-[moves.frameAdvantage]
-hit = 2
-block = -2
+hitCount = 1
 
 # Crouching Medium Kick
 [[moves]]
@@ -221,15 +159,9 @@ abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
 characterId = 14
 type = "normal"
-damage = 700
-hitCount = 1
 blockType = "low"
 input = "2mk"
-frameCount = ["S-8", "A-11", "R-28"]
-
-[moves.frameAdvantage]
-hit = 3
-block = -3
+hitCount = 1
 
 # Crouching Heavy Kick
 [[moves]]
@@ -242,16 +174,10 @@ abbreviation = "C.HK"
 abbeviation_ja = "屈強K"
 characterId = 14
 type = "normal"
-damage = 900
 hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-frameCount = ["S-9", "A-12", "R-33"]
-
-[moves.frameAdvantage]
-hit = 27
-block = -6
 
 # Jumping Light Punch
 [[moves]]
@@ -264,11 +190,9 @@ abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
 characterId = 14
 type = "normal"
-damage = 300
-hitCount = 1
 blockType = "high"
 input = "j>lp"
-frameCount = ["S-4", "A-14"]
+hitCount = 1
 
 # Jumping Medium Punch
 [[moves]]
@@ -281,11 +205,9 @@ abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
 characterId = 14
 type = "normal"
-damage = 700
-hitCount = 1
 blockType = "high"
 input = "j>mp"
-frameCount = ["S-11", "A-14"]
+hitCount = 1
 
 # Jumping Heavy Punch
 [[moves]]
@@ -298,11 +220,9 @@ abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
 characterId = 14
 type = "normal"
-damage = 800
-hitCount = 1
 blockType = "high"
 input = "j>hp"
-frameCount = ["S-8", "A-13"]
+hitCount = 1
 
 # Jumping Light Kick
 [[moves]]
@@ -315,11 +235,9 @@ abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
 characterId = 14
 type = "normal"
-damage = 300
-hitCount = 1
 blockType = "high"
 input = "j>lk"
-frameCount = ["S-5", "A-13"]
+hitCount = 1
 
 # Jumping Medium Kick
 [[moves]]
@@ -332,11 +250,9 @@ abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
 characterId = 14
 type = "normal"
-damage = 600
-hitCount = 1
 blockType = "high"
 input = "j>mk"
-frameCount = ["S-6", "A-12"]
+hitCount = 1
 
 # Jumping Heavy Kick
 [[moves]]
@@ -349,11 +265,9 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 14
 type = "normal"
-damage = 800
-hitCount = 1
 blockType = "high"
 input = "j>hk"
-frameCount = ["S-10", "A-16"]
+hitCount = 1
 
 # Triglav
 [[moves]]
@@ -362,9 +276,9 @@ name_ja = "トリグラフ"
 slug = "triglav"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "22*p"
+hitCount = 1
 
 # Triglav (OD)
 [[moves]]
@@ -373,9 +287,9 @@ name_ja = "トリグラフ (OD)"
 slug = "triglav-od"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "22(pp)"
+hitCount = 1
 
 # Stribog (Light)
 [[moves]]
@@ -384,9 +298,9 @@ name_ja = "ストリボーグ (弱)"
 slug = "stribog-light"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236lp"
+hitCount = 1
 
 # Stribog (Medium)
 [[moves]]
@@ -395,9 +309,9 @@ name_ja = "ストリボーグ (中)"
 slug = "stribog-medium"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236mp"
+hitCount = 1
 
 # Stribog (Heavy)
 [[moves]]
@@ -406,9 +320,9 @@ name_ja = "ストリボーグ (強)"
 slug = "stribog-heavy"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236hp"
+hitCount = 1
 
 # Stribog (OD)
 [[moves]]
@@ -417,9 +331,9 @@ name_ja = "ストリボーグ (OD)"
 slug = "stribog-od"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236(pp)"
+hitCount = 1
 
 # Departure
 [[moves]]
@@ -428,9 +342,10 @@ name_ja = "ヴィーハト"
 slug = "departure"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "214*p"
+hitCount = 1
+
 notes = ["The button used determines the location."]
 notes_ja = ["ボタンで位置が決まる。"]
 
@@ -441,9 +356,10 @@ name_ja = "ヴィーハト (OD)"
 slug = "departure-od"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "214(pp)"
+hitCount = 1
+
 notes = ["The button used determines the location."]
 notes_ja = ["ボタンで位置が決まる。"]
 
@@ -454,10 +370,10 @@ name_ja = "ヴィーハト・アクノ"
 slug = "departure-window"
 characterId = 14
 type = "followUp"
-hitCount = 1
 blockType = "high"
 input = "214+{lp|mp}"
 parentSlug = "departure"
+hitCount = 1
 
 # Departure: Shadow 
 [[moves]]
@@ -466,10 +382,10 @@ name_ja = "ヴィーハト・チェーニ"
 slug = "departure-shadow"
 characterId = 14
 type = "followUp"
-hitCount = 1
 blockType = "high"
 input = "214hp"
 parentSlug = "departure"
+hitCount = 1
 
 # Amnesia
 [[moves]]
@@ -478,9 +394,9 @@ name_ja = "アムネジア"
 slug = "amnesia"
 characterId = 14
 type = "special"
-hitCount = 2
 blockType = "high"
 input = "22*p"
+hitCount = 2
 
 # Amnesia (OD)
 [[moves]]
@@ -489,9 +405,9 @@ name_ja = "アムネジア (OD)"
 slug = "amnesia-od"
 characterId = 14
 type = "special"
-hitCount = 2
 blockType = "high"
 input = "22(pp)"
+hitCount = 2
 
 # Torbalan (Light)
 [[moves]]
@@ -500,9 +416,9 @@ name_ja = "トルバラン (弱)"
 slug = "torbalan-light"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236lk"
+hitCount = 1
 
 # Torbalan (Medium)
 [[moves]]
@@ -511,9 +427,9 @@ name_ja = "トルバラン (中)"
 slug = "torbalan-medium"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "mid"
 input = "236mk"
+hitCount = 1
 
 # Torbalan (Heavy)
 [[moves]]
@@ -522,9 +438,9 @@ name_ja = "トルバラン (強)"
 slug = "torbalan-heavy"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "low"
 input = "236hk"
+hitCount = 1
 
 # Torbalan (OD)
 [[moves]]
@@ -533,9 +449,9 @@ name_ja = "トルバラン (OD)"
 slug = "torbalan-od"
 characterId = 14
 type = "special"
-hitCount = 1
 blockType = "high"
 input = "236(kk)"
+hitCount = 1
 
 # Embrace
 [[moves]]
@@ -562,9 +478,9 @@ name_ja = "ギリオチーナ"
 slug = "guillotinna"
 characterId = 14
 type = "commandNormal"
-hitCount = 1
 blockType = "high"
 input = "6mp"
+hitCount = 1
 
 # Malice
 [[moves]]
@@ -573,9 +489,9 @@ name_ja = "シャーロスチ"
 slug = "malice"
 characterId = 14
 type = "commandNormal"
-hitCount = 1
 blockType = "high"
 input = "3hp"
+hitCount = 1
 
 # Bylina
 [[moves]]
@@ -584,9 +500,9 @@ name_ja = "ヴィリーナ"
 slug = "bylina"
 characterId = 14
 type = "commandNormal"
-hitCount = 1
 blockType = "high"
 input = "6hk"
+hitCount = 1
 
 # Grom Strelka
 [[moves]]
@@ -595,9 +511,9 @@ name_ja = "グロームストレルカ"
 slug = "grom-strelka"
 characterId = 14
 type = "targetCombo"
-hitCount = 2
 blockType = "high"
 input = "4mp>5mp"
+hitCount = 2
 
 # Zilant
 [[moves]]

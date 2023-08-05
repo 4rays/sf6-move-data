@@ -48,12 +48,6 @@
         "type": "string"
       }
     },
-    "frameCount": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "frameAdvantage": {
       "$ref": "#/definitions/FrameAdvantage"
     },
@@ -90,7 +84,6 @@
   },
   "required": [
     "characterId",
-    "frameCount",
     "hitCount",
     "input",
     "name",

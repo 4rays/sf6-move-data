@@ -6,7 +6,7 @@ The data is saved as TOML in character-specific files.
 
 ### Move Type
 
-The `moveType` property is a string representing the type of move.
+The `moveType` property is a string representing the type of the move.
 The following table lists the possible values:
 
 | Value           | Meaning                  |
@@ -23,55 +23,6 @@ The following table lists the possible values:
 | `unique`        | Unique move              |
 | `throw`         | Throw                    |
 | `commandThrow`  | Command throw            |
-
-### Frame Count
-
-The `frameCount` property is a list of values marking the various phase transitions. 
-Each phase is represented by a letter followed by a dash and a number representing the last frame of that phase.
-Here are all the possible values:
-
-| Value | Meaning           |
-|-------|-------------------|
-| S     | Pre-startup       |
-| A     | Active            |
-| R     | Recovery          |
-| PA    | Projectile-active |
-
-So for Ryu's standing light punch, the `frameCount` property value is formatted as follows:
-
-```json
-"frameCount": ["S-3", "A-6", "R-13"]
-```
-
-This reads as follows:
-
-- The pre-startup phase ends on frame 3, which means frame 4 and onward are active.
-- The active phase ends on frame 6, which means frame 7 and onward are recovery.
-- The recovery phase ends on frame 13, the last frame of the move.
-
-In the game frame meter UI, the move looks like the following:
-
-<img src="https://github.com/4rays/sf6-move-data/blob/5a367d1a20cbff5246c9a7b025ce42650aab16a3/example.png" width="300" />
-
-Note that invincibility frames are not included in the frame count, since they have they own property (see next section).
-
-### Invincibility Frames
-
-Invincibility frames are represented as an object with the following properties:
-
-| Property          | Type   | Description                                  |
-|-------------------|--------|----------------------------------------------|
-| `start`           | Number | The first frame of invincibility.            |
-| `end`             | Number | The last frame of invincibility.             |
-| `projectileStart` | Number | The first frame of projectile invincibility. |
-| `projectileEnd`   | Number | The last frame of projectile invincibility.  |
-| `strikeStart`     | Number | The first frame of strike invincibility.     |
-| `strikeEnd`       | Number | The last frame of strike invincibility.      |
-| `airStart`        | Number | The first frame of air move invincibility.   |
-| `airEnd`          | Number | The last frame of air move invincibility.    |
-
-Each pair of `*start` and `*end` values represents a range of frames where the character is invincible.
-Both values need to be present, even if the range is only one frame long.
 
 ### Input
 
@@ -108,7 +59,7 @@ The following table lists the special notation used in the string:
 | `pp`     | Any two *p    |
 | `kk`     | Any two *k    |
 
-### Cancels Into
+### Cancel
 
 This property lists the possible move types that a move can cancel into.
 The following table lists the possible values:
@@ -131,6 +82,7 @@ The `blockType` property refers to the attack type with regards to blocking.
 | `high` | High     |
 | `low`  | Low      |
 | `mid`  | Overhead |
+| `midHigh` | High or overhead |
 
 ### Move Properties
 
@@ -150,5 +102,5 @@ The `properties` property is an object with the following properties:
 
 ## License
 
-- The data and code are MIT-licensed.
-- Game, character, and move names are copyright of their respective owners.
+- The code is MIT-licensed.
+- Game, character, and move names and data are copyright of their respective owners.
