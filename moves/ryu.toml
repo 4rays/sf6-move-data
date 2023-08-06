@@ -377,7 +377,6 @@ notes = "Knockdown time extended when attack lands as a counter or Punish Counte
 notes_ja = "カウンター/パニッシュカウンター時ダウン時間増加"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -12
 
 [moves.driveGauge]
@@ -705,7 +704,6 @@ recovery = 20
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = "D"
 block = -8
 
 [moves.driveGauge]
@@ -749,6 +747,7 @@ type = "targetCombo"
 blockType = "high"
 input = "5mp>5lk>5hk"
 hitCount = 3
+properties = ["knockdown"]
 
 damage = 900
 startup = 17
@@ -757,7 +756,6 @@ recovery = 20
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = "D"
 block = -8
 
 [moves.driveGauge]
@@ -861,6 +859,7 @@ type = "special"
 blockType = "high"
 input = "236(pp)"
 hitCount = 2
+properties = ["knockdown"]
 
 damage = 800
 startup = 12
@@ -870,7 +869,6 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 superArt = 600
 
 [moves.frameAdvantage]
-hit = "D"
 block = -1
 
 [moves.driveGauge]
@@ -890,7 +888,7 @@ type = "special"
 blockType = "high"
 input = "236*p"
 hitCount = 2
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 800
@@ -901,7 +899,6 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 superArt = 600
 
 [moves.frameAdvantage]
-hit = "D"
 block = -3
 
 [moves.driveGauge]
@@ -921,7 +918,7 @@ type = "special"
 blockType = "high"
 input = "236(pp)"
 hitCount = 3
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 1000
@@ -932,7 +929,6 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 superArt = 900
 
 [moves.frameAdvantage]
-hit = "D"
 block = 2
 
 [moves.driveGauge]
@@ -951,6 +947,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
+properties = ["knockdown"]
 
 damage = 1100
 startup = 5
@@ -964,7 +961,6 @@ notes = "Invincible to mid-air attacks from frames 1 - 14. Considered airborne f
 notes_ja = "1-14F 空中判定の攻撃に対して無敵 7-34F 空中判定 ※持続の3F目以降は個別ダメージ(800)"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -23
 
 [moves.driveGauge]
@@ -995,9 +991,9 @@ scaling = ["Starter scaling 30%"]
 superArt = 1000
 notes = "Invincible to mid-air attacks from frames 1 - 9. Considered airborne from frames 8 - 44. Note: After the 3rd active frame this move deals only 800 damage"
 notes_ja = "1-9F 空中判定の攻撃に対して無敵 8-44F 空中判定 ※持続の3F目以降は個別ダメージ(800)"
+properties = ["knockdown"]
 
 [moves.frameAdvantage]
-hit = "D"
 block = -32
 
 [moves.driveGauge]
@@ -1017,6 +1013,7 @@ type = "special"
 blockType = "high"
 input = "623hp"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 1400
 startup = 7
@@ -1030,7 +1027,6 @@ notes = "Invincible to mid-air attacks from frames 1 - 8.  Considered airborne f
 notes_ja = "1-8F 空中判定の攻撃に対して無敵 9-49F 空中判定 ※持続の2F目以降は個別ダメージ(800)"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -39
 
 [moves.driveGauge]
@@ -1050,6 +1046,7 @@ type = "special"
 blockType = "high"
 input = "623(pp)"
 hitCount = 2
+properties = ["knockdown"]
 
 damage = 1600
 startup = 6
@@ -1061,7 +1058,6 @@ notes = "Completely invincible from frames 1 - 10. Considered airborne from fram
 notes_ja = "1-10F 完全無敵 8-51F 空中判定"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -40
 
 [moves.driveGauge]
@@ -1080,6 +1076,7 @@ type = "special"
 blockType = "high"
 input = "214lk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 800
 startup = 12
@@ -1091,7 +1088,6 @@ notes = "Considered airborne from frames 5 - 28"
 notes_ja = "5-28F 空中判定"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -15
 
 [moves.driveGauge]
@@ -1111,6 +1107,7 @@ type = "special"
 blockType = "high"
 input = "214mk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 900
 startup = 14
@@ -1123,7 +1120,6 @@ notes = "Considered airborne from frames 8 - 41. Values listed for Super Art gau
 notes_ja = "8-41F 空中判定。SAゲージ増加値とガードドライブゲージ増加値は1ヒットごとの値。"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -13
 
 [moves.driveGauge]
@@ -1143,6 +1139,7 @@ type = "special"
 blockType = "high"
 input = "214hk"
 hitCount = 3
+properties = ["knockdown"]
 
 damage = 1000
 startup = 16
@@ -1154,7 +1151,6 @@ notes = "Considered airborne from frames 10 - 61. Values listed for Super Art ga
 notes_ja = "10-61F 空中判定。SAゲージ増加値とガードドライブゲージ増加値は1ヒットごとの値。"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -13
 
 [moves.driveGauge]
@@ -1174,6 +1170,7 @@ type = "special"
 blockType = "high"
 input = "214(kk)"
 hitCount = 5
+properties = ["knockdown"]
 
 damage = 1000
 startup = 13
@@ -1183,7 +1180,6 @@ postLandingRecovery = 13
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = "D"
 block = -14
 
 [moves.driveGauge]
@@ -1253,6 +1249,7 @@ type = "special"
 blockType = "high"
 input = "236lk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 1000
 startup = 15
@@ -1262,7 +1259,6 @@ cancel = "SA3"
 superArt = 1200
 
 [moves.frameAdvantage]
-hit = "D"
 block = -11
 
 [moves.driveGauge]
@@ -1282,6 +1278,7 @@ type = "special"
 blockType = "high"
 input = "236mk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 1100
 startup = 18
@@ -1291,7 +1288,6 @@ cancel = "SA3"
 superArt = 1200
 
 [moves.frameAdvantage]
-hit = "D"
 block = -8
 
 [moves.driveGauge]
@@ -1311,6 +1307,7 @@ type = "special"
 blockType = "high"
 input = "236hk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 1300
 startup = 29
@@ -1322,7 +1319,6 @@ notes = "Juggle state time is extended when attack lands as a Punish Counter"
 notes_ja = "パニッシュカウンター時吹き飛び時間延長"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -5
 
 [moves.driveGauge]
@@ -1342,6 +1338,7 @@ type = "special"
 blockType = "high"
 input = "236(kk)"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 800
 startup = 18
@@ -1352,7 +1349,6 @@ scaling = ["Combo scaling 20%"]
 superArt = 1200
 
 [moves.frameAdvantage]
-hit = "D"
 block = -18
 
 [moves.driveGauge]
@@ -1432,6 +1428,7 @@ type = "special"
 blockType = "high"
 input = "214hp"
 hitCount = 2
+properties = ["knockdown"]
 
 damage = 800
 startup = 30
@@ -1440,7 +1437,6 @@ recovery = 19
 superArt = 1100
 
 [moves.frameAdvantage]
-hit = "D"
 block = 2
 
 [moves.driveGauge]
@@ -1488,7 +1484,7 @@ type = "special"
 blockType = "high"
 input = "214*p"
 hitCount = 2
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 800
@@ -1498,7 +1494,6 @@ recovery = 18
 superArt = 1100
 
 [moves.frameAdvantage]
-hit = "D"
 block = 3
 
 [moves.driveGauge]
@@ -1518,7 +1513,7 @@ type = "special"
 blockType = "high"
 input = "214(pp)"
 hitCount = 1
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 600
@@ -1531,7 +1526,6 @@ notes = "Produces a crumple stun for 39 frames when the attack lands"
 notes_ja = "ヒット時に膝崩れダウンに+39"
 
 [moves.frameAdvantage]
-hit = "D"
 block = 4
 
 [moves.driveGauge]
@@ -1549,6 +1543,7 @@ type = "super1"
 hitCount = 5
 blockType = "high"
 input = "236236*p"
+properties = ["knockdown"]
 
 damage = 2000
 startup = 8
@@ -1557,7 +1552,6 @@ notes = "Completely invincible on the 1st frame. Invincible to strikes and throw
 notes_ja = "1F 完全無敵 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ30%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -24
 
 [moves.driveGauge]
@@ -1575,7 +1569,7 @@ type = "super1"
 blockType = "high"
 input = "236236*p"
 hitCount = 4
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 2400
@@ -1585,7 +1579,6 @@ notes = "Completely invincible on the 1st frame. Invincible to strikes and throw
 notes_ja = "1F 完全無敵  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ30%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -24
 
 [moves.driveGauge]
@@ -1603,7 +1596,7 @@ type = "super2"
 blockType = "high"
 input = "214214*p"
 hitCount = 1
-properties = ["armorBreak"]
+properties = ["armorBreak", "knockdown"]
 
 damage = 2600
 startup = 12
@@ -1613,7 +1606,6 @@ notes = "Completely invincible from frame 1 to frame 13. Hold down the button to
 notes_ja = "1-13F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1631,6 +1623,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
 
 damage = 2800
 startup = 20
@@ -1640,7 +1633,6 @@ notes = "Completely invincible from frame 1 to frame 9. Hold down the button to 
 notes_ja = "1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵  カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1658,6 +1650,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
 
 damage = 3000
 startup = 70
@@ -1667,7 +1660,6 @@ notes = "Completely invincible from frame 1 to frame 9. Hold down the button to 
 notes_ja = "1-9F 完全無敵  ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1685,7 +1677,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 3000
@@ -1696,7 +1688,6 @@ notes = "Completely invincible from frame 1 to frame 9. Hold down the button to 
 notes_ja = "1-9F 完全無敵 ボタンをホールドする事で性能変化  8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1714,7 +1705,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 3200
@@ -1725,7 +1716,6 @@ notes = "Completely invincible from frame 1 to frame 9. Hold down the button to 
 notes_ja = "1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動  38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1743,7 +1733,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
 damage = 3400
@@ -1754,7 +1744,6 @@ notes = "Completely invincible from frame 1 to frame 9. Hold down the button to 
 notes_ja = "1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -20
 
 [moves.driveGauge]
@@ -1772,6 +1761,7 @@ type = "super3"
 blockType = "high"
 input = "236236*k"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 4000
 startup = 5
@@ -1782,7 +1772,6 @@ notes = "Completely invincible from frame 1 to frame 16. Values do not change wh
 notes_ja = "1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない  最低保障ダメージ50% ※必殺技キャンセル時のみ適用"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -52
 
 [moves.driveGauge]
@@ -1800,6 +1789,7 @@ type = "super3"
 blockType = "high"
 input = "236236*k"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 4500
 startup = 5
@@ -1810,7 +1800,6 @@ notes = "Completely invincible from frame 1 to frame 16. Values do not change wh
 notes_ja = "1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ50% ※必殺技キャンセル時のみ適用"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -52
 
 [moves.driveGauge]
@@ -1829,6 +1818,7 @@ characterId = 0
 type = "throw"
 hitCount = 1
 input = "(lplk)"
+properties = ["knockdown"]
 
 damage = 1200
 startup = 5
@@ -1844,9 +1834,6 @@ notes_ja = """パニッシュカウンター時以下の性能変化
 ・ダメージ2040
 ・SAゲージ4000増加
 ・ハードノックダウン"""
-
-[moves.frameAdvantage]
-hit = "D"
 
 [moves.driveGauge]
 onHit = 2000
@@ -1864,6 +1851,7 @@ characterId = 0
 type = "throw"
 hitCount = 1
 input = "(4lplk)"
+properties = ["knockdown"]
 
 damage = 1200
 startup = 5
@@ -1879,9 +1867,6 @@ notes_ja = """パニッシュカウンター時以下の性能変化
 ・ダメージ2040
 ・SAゲージ4000増加 
 ・ハードノックダウン"""
-
-[moves.frameAdvantage]
-hit = "D"
 
 [moves.driveGauge]
 onHit = 2000

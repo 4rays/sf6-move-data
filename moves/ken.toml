@@ -363,6 +363,7 @@ type = "normal"
 blockType = "low"
 input = "2hk"
 hitCount = 1
+properties = ["knockdown"]
 
 damage = 900
 startup = 8 
@@ -371,7 +372,6 @@ recovery = 24
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = "D"
 block = -10
 
 [moves.driveGauge]
@@ -668,6 +668,7 @@ type = "targetCombo"
 input = "mp>hp"
 blockType = "high"
 hitCount = 1
+properties = ["knockdown"]
 
 startup = 11 
 active = [11, 13]
@@ -678,7 +679,6 @@ scaling = ["Combo scaling 20%"]
 superArt = 300
   
 [moves.frameAdvantage] 
-hit = "D"
 block = -14
 
 [moves.driveGauge]
@@ -696,6 +696,7 @@ type = "targetCombo"
 input = "mk>mk"
 blockType = "high"
 hitCount = 2
+properties = ["knockdown"]
 
 startup = 11
 active = [11, 12]  
@@ -704,7 +705,6 @@ damage = 400
 superArt = 400
 
 [moves.frameAdvantage]
-hit = "D"
 block = -12
 
 [moves.driveGauge]
@@ -722,6 +722,7 @@ type = "targetCombo"
 input = "mk>mk>hk"
 blockType = "high"
 hitCount = 3
+properties = ["knockdown"]
 
 startup = 13
 active = [13, 15]
@@ -732,7 +733,6 @@ notes = "Always in Punish Counter state during execution"
 notes_ja = "動作中常に被パニッシュカウンター判定"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -11
   
 [moves.driveGauge]
@@ -864,6 +864,7 @@ type = "special"
 blockType = "high"
 input = "623lp"
 hitCount = 1
+properties = ["knockdown"]
 
 startup = 5
 active = [5, 14]   
@@ -885,7 +886,6 @@ notes_ja = """
 """
 
 [moves.frameAdvantage]
-hit = "D" 
 block = -23
 
 [moves.driveGauge]
@@ -905,6 +905,7 @@ type = "special"
 blockType = "high"
 input = "623mp"
 hitCount = 2
+properties = ["knockdown"]
 
 startup = 6
 active = [6, 8, 9, 15]
@@ -924,7 +925,6 @@ notes_ja = """
 """
 
 [moves.frameAdvantage]
-hit = "D"  
 block = -28
 
 [moves.driveGauge]
@@ -944,6 +944,7 @@ type = "special"
 blockType = "high"
 input = "623hp"
 hitCount = 3
+properties = ["knockdown"]
 
 startup = 7
 active = [7, 8, 9, 10, 11, 16]
@@ -965,7 +966,6 @@ notes_ja = """
 """
 
 [moves.frameAdvantage]
-hit = "D"
 block = -36
   
 [moves.driveGauge] 
@@ -983,6 +983,7 @@ type = "special"
 blockType = "high"
 input = "623(pp)"
 hitCount = 6
+properties = ["knockdown"]
 
 startup = 6
 active = [6, 7, 8, 15, 30, 31, 32, 33, 34, 35, 39]
@@ -991,7 +992,6 @@ postLandingRecovery = 15
 damage = 1600
 
 [moves.frameAdvantage]  
-hit = "D"
 block = -40
 
 [moves.driveGauge]
@@ -1022,6 +1022,7 @@ blockType = "high"
 input = "(kk)>623*p"
 parentSlug = "quick-dash"
 hitCount = 5
+properties = ["knockdown"]
 
 startup = 9
 active = [9, 10, 11, 12, 13, 18]
@@ -1042,7 +1043,6 @@ notes_ja = """
 """
 
 [moves.frameAdvantage]
-hit = "D" 
 block = -35
 
 [moves.driveGauge]
@@ -1062,6 +1062,7 @@ type = "special"
 blockType = "high"
 input = "214lk"
 hitCount = 2
+properties = ["knockdown"]
 
 startup = 4
 active = [4, 5, 12, 14] 
@@ -1072,7 +1073,6 @@ notes = "Considered airborne from frames 5-28"
 notes_ja = "5-28F 空中判定"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -14
   
 [moves.driveGauge]
@@ -1092,6 +1092,7 @@ type = "special"
 blockType = "high"
 input = "214mk"
 hitCount = 2
+properties = ["knockdown"]
 
 startup = 14
 active = [14, 15, 29, 30] 
@@ -1102,7 +1103,6 @@ notes = "Considered airborne from frames 8-41"
 notes_ja = "8-41F 空中判定"
 
 [moves.frameAdvantage]
-hit = "D"
 block = -12 
 
 [moves.driveGauge]
@@ -1120,6 +1120,7 @@ type = "special"
 blockType = "high"
 input = "214hk"
 hitCount = 3
+properties = ["knockdown"]
 
 startup = 16
 active = [16, 17, 31, 32, 46, 47]
@@ -1130,7 +1131,6 @@ notes = "Considered airborne from frames 10-61"
 notes_ja = "10-61F 空中判定"
 
 [moves.frameAdvantage] 
-hit = "D"
 block = -12
 
 [moves.driveGauge]  
@@ -1148,6 +1148,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(kk)"
+properties = ["knockdown"]
 
 startup = 9
 active = [9, 12, 18, 20, 27, 29, 36, 38, 54, 56] 
@@ -1159,7 +1160,6 @@ notes = "Considered airborne from frames 10-77"
 notes_ja = "10-77F 空中判定"
   
 [moves.frameAdvantage]
-hit = "D" 
 block = -61
 
 [moves.driveGauge]
@@ -1506,7 +1506,7 @@ type = "special"
 hitCount = 1
 input = "236hk"
 blockType = "high"
-properties = ["juggle"]
+properties = ["juggle", "knockdown"]
 
 startup = 25
 active = [25, 27]
@@ -1516,7 +1516,6 @@ damage = 700
 superArt = 550  
 
 [moves.frameAdvantage]
-hit = "D"
 block = -2
 
 [moves.driveGauge]
@@ -1626,6 +1625,7 @@ type = "special"
 hitCount = 1
 input = "236(kk)>lk>*k" 
 parentSlug = "kazekama-shin-kick-od"
+properties = ["knockdown"]
 
 startup = 15
 active = [15, 17]
@@ -1638,7 +1638,6 @@ notes = "Always in Punish Counter state during execution"
 notes_ja = "動作中常に被パニッシュカウンター判定"
 
 [moves.frameAdvantage]  
-hit = "D"
 block = -12
 
 [moves.driveGauge]
@@ -1719,6 +1718,7 @@ type = "special"
 hitCount = 1
 input = "236(kk)>mk>*k"
 parentSlug = "gorai-axe-kick-od"
+properties = ["knockdown"]
 
 startup = 15
 active = [15, 17] 
@@ -1731,7 +1731,6 @@ notes = "Always in Punish Counter state during execution"
 notes_ja = "動作中常に被パニッシュカウンター判定"
   
 [moves.frameAdvantage]
-hit = "D"
 block = -12
 
 [moves.driveGauge] 
@@ -1750,6 +1749,7 @@ hitCount = 1
 input = "236(kk)>hk"
 parentSlug = "jinrai-kick"
 blockType = "high"
+properties = ["knockdown"]
 
 startup = 10
 active = [10, 12] 
@@ -1767,7 +1767,6 @@ notes_ja = """
 """
 
 [moves.frameAdvantage]
-hit = "D"
 block = -3
   
 [moves.driveGauge]
@@ -1787,6 +1786,7 @@ type = "special"
 hitCount = 1
 input = "236(kk)>hk"
 parentSlug = "jinrai-kick-od"
+properties = ["knockdown"]
 
 startup = 10
 active = [10, 13]
@@ -1798,7 +1798,6 @@ notes = "Can transition to Kasai Thrust Kick from frame 11"
 notes_ja = "11F 火砕蹴に派生可"  
 
 [moves.frameAdvantage]
-hit = "D"  
 block = -4
 
 [moves.driveGauge]
@@ -1817,6 +1816,7 @@ hitCount = 2
 input = "236(kk)>hk>*k"
 parentSlug = "senka-snap-kick-od"
 blockType = "high"
+properties = ["knockdown"]
 
 startup = 15
 active = [15, 17]
@@ -1828,7 +1828,6 @@ notes = "Always in Punish Counter state during execution"
 notes_ja = "動作中常に被パニッシュカウンター判定"
 
 [moves.frameAdvantage] 
-hit = "D"  
 block = -20
 
 [moves.driveGauge]

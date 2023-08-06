@@ -42,12 +42,6 @@
         "$ref": "#/definitions/Cancel"
       }
     },
-    "chainsInto": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "frameAdvantage": {
       "$ref": "#/definitions/FrameAdvantage"
     },
