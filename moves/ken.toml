@@ -21,8 +21,8 @@ cancel = "C"
 scaling = ["Combo scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = "Can be rapid canceled"
-notes_ja = "連打キャンセル対応"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 4  
@@ -213,8 +213,8 @@ cancel = "C"
 superArt = 300
 scaling = ["Combo scaling 10%"]
 scaling_ja = ["始動補正10%"]
-notes = "Can be rapid canceled"
-notes_ja = "連打キャンセル対応"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage] 
 hit = 5
@@ -277,8 +277,8 @@ active = [8, 11]
 recovery = 24  
 cancel = "C"
 superArt = 1000
-notes = "Can be canceled until the 2nd active frame"
-notes_ja = "キャンセルは持続の2F目まで"
+notes = ["Can be canceled until the 2nd active frame"]
+notes_ja = ["キャンセルは持続の2F目まで"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -311,8 +311,8 @@ recovery = 10
 superArt = 300  
 scaling = ["Combo scaling 10%"]
 scaling_ja = ["始動補正10%"]
-notes = "Can be rapid canceled" 
-notes_ja = "連打キャンセル対応"
+notes = ["Can be rapid canceled"] 
+notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -484,8 +484,8 @@ startup = 6
 active = [6, 11]
 postLandingRecovery = 3 
 superArt = 300
-notes = "Has cross-up attack properties"
-notes_ja = "めくり性能"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
 [moves.driveGauge]
 onHit = 500
@@ -582,8 +582,8 @@ hitCount = 0
 input = "(kk)"
 recovery = 45
 superArt = 0
-notes = "Can transition to branching attacks from frame 12"
-notes_ja = "12Fから各派生技に移行可"
+notes = ["Can transition to branching attacks from frame 12"]
+notes_ja = ["12Fから各派生技に移行可"]
 
 [moves.driveGauge]  
 onHit = 0
@@ -736,8 +736,8 @@ active = [13, 15]
 recovery = 28 
 damage = 700
 superArt = 500
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
 
 [moves.frameAdvantage]
 block = -11
@@ -882,16 +882,16 @@ damage = 1100
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-notes = """
+notes = ["""
 - Invincible to mid-air attacks from frames 1-14 
 - Considered airborne from frames 8-35
 - Does 800 individual damage from the 3rd active frame and on
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 1-14F 空中判定の攻撃に対して無敵
 - 8-35F 空中判定
 - ※持続の3F目以降は個別ダメージ(800)
-"""
+"""]
 
 [moves.frameAdvantage]
 block = -23
@@ -924,14 +924,14 @@ damage = 1300
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-notes = """
+notes = ["""
 - Invincible to mid-air attacks from frames 1-8
 - Considered airborne from frames 9-43
-"""
-notes_ja = """ 
+"""]
+notes_ja = [""" 
 - 1-8F 空中判定の攻撃に対して無敵
 - 9-43F 空中判定
-"""
+"""]
 
 [moves.frameAdvantage]
 block = -28
@@ -964,16 +964,16 @@ damage = 1400
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1200
-notes = """  
+notes = ["""  
 - Invincible to mid-air attacks from frames 1-9
 - Invincible to projectiles from frames 5-11
 - Considered airborne from frames 11-51
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 1-9F 空中判定の攻撃に対して無敵  
 - 5-11F 飛び道具無敵
 - 11-51F 空中判定
-"""
+"""]
 
 [moves.frameAdvantage]
 block = -36
@@ -1009,15 +1009,15 @@ onHit = 0
 onBlock = -5000
 onPunishCounter = 0
 
-notes = """
+notes = ["""
 - Completely invincible from frames 1-10
 - Considered airborne from frames 9-24 and 33-74
-"""
+"""]
 
-notes_ja = """
+notes_ja = ["""
 - 1-10F 完全無敵
 - 9-24F,33-74F 空中判定
-"""
+"""]
 
 # [Quick Dash] Shoryuken
 [[moves]]
@@ -1041,16 +1041,16 @@ postLandingRecovery = 15
 cancel = "SA3"
 damage = 1700
 superArt = 1400  
-notes = """
+notes = ["""
 - Invincible to mid-air attacks from frames 1-12
 - Invincible to projectiles from frames 3-12
 - Considered airborne from frames 9-52
-"""
-notes_ja = """  
+"""]
+notes_ja = ["""  
 - 1-12F 空中判定の攻撃に対して無敵
 - 3-12F 飛び道具無敵  
 - 9-52F 空中判定
-"""
+"""]
 
 [moves.frameAdvantage]
 block = -35
@@ -1079,8 +1079,8 @@ active = [4, 5, 12, 14]
 recovery = 32
 damage = 700
 superArt = 800
-notes = "Considered airborne from frames 5-28"
-notes_ja = "5-28F 空中判定"
+notes = ["Considered airborne from frames 5-28"]
+notes_ja = ["5-28F 空中判定"]
 
 [moves.frameAdvantage]
 block = -14
@@ -1109,8 +1109,8 @@ active = [14, 15, 29, 30]
 recovery = 31
 damage = 900
 superArt = 1000
-notes = "Considered airborne from frames 8-41"
-notes_ja = "8-41F 空中判定"
+notes = ["Considered airborne from frames 8-41"]
+notes_ja = ["8-41F 空中判定"]
 
 [moves.frameAdvantage]
 block = -12 
@@ -1137,8 +1137,8 @@ active = [16, 17, 31, 32, 46, 47]
 recovery = 31
 damage = 1000
 superArt = 1200
-notes = "Considered airborne from frames 10-61" 
-notes_ja = "10-61F 空中判定"
+notes = ["Considered airborne from frames 10-61"] 
+notes_ja = ["10-61F 空中判定"]
 
 [moves.frameAdvantage] 
 block = -12
@@ -1166,8 +1166,8 @@ recovery = 22
 postLandingRecovery = 12
 damage = 1500 
 superArt = 2000
-notes = "Considered airborne from frames 10-77" 
-notes_ja = "10-77F 空中判定"
+notes = ["Considered airborne from frames 10-77"] 
+notes_ja = ["10-77F 空中判定"]
   
 [moves.frameAdvantage]
 block = -61
@@ -1196,8 +1196,8 @@ damage = 1200
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 1300
-notes = "Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits"
-notes_ja = "2,4,6,8,10段目は正面の相手に当たらない"  
+notes = ["Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits"]
+notes_ja = ["2,4,6,8,10段目は正面の相手に当たらない"]  
 
 [moves.frameAdvantage]
 hit = 3
@@ -1252,16 +1252,16 @@ damage = 900
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-notes = """
+notes = ["""
 - Considered airborne from frames 10-77
 - Does not hit the opponent in front of you on the 2nd and 4th attacks 
 - (The 2nd and 4th attacks do 700 damage and increases the Super Art gauge by 600)
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 10-77F 空中判定
 - 2,4段目は正面の相手に当たらない
 - (2,4段目の攻撃はダメージ700、SAゲージ増加量600) 
-"""
+"""]
 
 [moves.driveGauge]
 onHit = 0
@@ -1289,16 +1289,16 @@ damage = 1000
 scaling = ["Starter scaling 30%", "Combo scaling 30%"]
 scaling_ja = ["始動補正30%", "コンボ補正30%"]
 superArt = 1200
-notes = """
+notes = ["""
 - Does not hit opponents on the ground from frames 18-20
 - Does 950 damage from frames 21-23
 - Considered airborne from frames 9-28
-"""
-notes_ja = """  
+"""]
+notes_ja = ["""  
 - 18-20F 地上の相手に当たらない
 - 21-23F ダメージ950
 - 9-28F 空中判定
-"""
+"""]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1392,16 +1392,16 @@ damage = 1200
 scaling = ["Starter scaling 10%", "5% combo scaling on the 2nd hit"]
 scaling_ja = ["始動補正10%", "2段目コンボ補正5%"]
 superArt = 1200
-notes = """
+notes = ["""
 - Does not hit opponents on the ground from frames 9-12 and 18
 - Considered airborne from frames 10-27
 - Does not have additional combo scaling if the 2nd attack hits
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 9-12F,18F 地上の相手に当たらない
 - 10-27F 空中判定
 - 2段目のみヒット時、追加のコンボ補正はかからない
-"""
+"""]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1430,16 +1430,16 @@ damage = 1200
 scaling = ["Starter scaling 10%", "5% combo scaling on the 2nd hit"]
 scaling_ja = ["始動補正10%", "2段目コンボ補正5%"]
 superArt = 1200
-notes = """  
+notes = ["""  
 - Does not hit opponents on the ground from frames 9-12 and 18-19
 - Considered airborne from frames 10-28
 - Does not have additional combo scaling if the 2nd attack hits
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 9-12F,18-19F 地上の相手に当たらない
 - 10-28F 空中判定  
 - 2段目のみヒット時、追加のコンボ補正はかからない
-"""
+"""]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1469,8 +1469,8 @@ recovery = 28
 cancel = "SA3"
 damage = 500
 superArt = 550
-notes = "Can transition to Kazekama Shin Kick and Gorai Axe Kick from frames 32-35" 
-notes_ja = "32-35F 風鎌蹴り、轟雷落としに派生可"
+notes = ["Can transition to Kazekama Shin Kick and Gorai Axe Kick from frames 32-35"] 
+notes_ja = ["32-35F 風鎌蹴り、轟雷落としに派生可"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1500,8 +1500,8 @@ recovery = 24
 cancel = "SA3"
 damage = 600
 superArt = 550
-notes = "Can transition to Kazekama Shin Kick and Gorai Axe Kick from frames 32-35"
-notes_ja = "32-35F 風鎌蹴り、轟雷落としに派生可"
+notes = ["Can transition to Kazekama Shin Kick and Gorai Axe Kick from frames 32-35"]
+notes_ja = ["32-35F 風鎌蹴り、轟雷落としに派生可"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1590,8 +1590,8 @@ damage = 500
 scaling = ["Starter scaling 20%", "Combo scaling 15%"]
 scaling_ja = ["始動補正20%", "コンボ補正15%"]
 superArt = 400
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
   
 [moves.frameAdvantage]
 hit = 3
@@ -1622,8 +1622,8 @@ recovery = 20
 cancel = "SA2"
 damage = 500
 superArt = 400
-notes = "Can transition to Kasai Thrust Kick from frame 11" 
-notes_ja = "11F 火砕蹴に派生可"
+notes = ["Can transition to Kasai Thrust Kick from frame 11"] 
+notes_ja = ["11F 火砕蹴に派生可"]
 
 [moves.frameAdvantage]  
 hit = 3
@@ -1654,8 +1654,8 @@ damage = 500
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
 
 [moves.frameAdvantage]  
 block = -12
@@ -1683,8 +1683,8 @@ recovery = 20
 cancel = "SA3"
 damage = 1000
 superArt = 500
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1717,8 +1717,8 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
-notes = "Can transition to Kasai Thrust Kick from frame 11"
-notes_ja = "11F 火砕蹴に派生可"
+notes = ["Can transition to Kasai Thrust Kick from frame 11"]
+notes_ja = ["11F 火砕蹴に派生可"]
   
 [moves.frameAdvantage]
 hit = -3
@@ -1749,8 +1749,8 @@ damage = 500
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600 
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
   
 [moves.frameAdvantage]
 block = -12
@@ -1779,14 +1779,14 @@ recovery = 25
 cancel = "SA3"
 damage = 800
 superArt = 600 
-notes = """
+notes = ["""
 - Always in Punish Counter state during execution
 - Does not hit on crouching opponents
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 動作中常に被パニッシュカウンター判定
 - しゃがみ状態の相手に当たらない
-"""
+"""]
 
 [moves.frameAdvantage]
 block = -3
@@ -1816,8 +1816,8 @@ recovery = 20
 cancel = "SA2"
 damage = 800
 superArt = 600
-notes = "Can transition to Kasai Thrust Kick from frame 11"
-notes_ja = "11F 火砕蹴に派生可"  
+notes = ["Can transition to Kasai Thrust Kick from frame 11"]
+notes_ja = ["11F 火砕蹴に派生可"]  
 
 [moves.frameAdvantage]
 block = -4
@@ -1846,8 +1846,8 @@ recovery = 37
 cancel = "SA2"
 damage = 500
 superArt = 600
-notes = "Always in Punish Counter state during execution"
-notes_ja = "動作中常に被パニッシュカウンター判定"
+notes = ["Always in Punish Counter state during execution"]
+notes_ja = ["動作中常に被パニッシュカウンター判定"]
 
 [moves.frameAdvantage] 
 block = -20
@@ -1873,18 +1873,18 @@ startup = 7
 active = [7, 9]
 recovery = 41
 damage = 2000
-notes = """
+notes = ["""
 - Completely invincible on the 1st frame  
 - Invincible to strikes and throws on frames 2-9
 - Minimum guaranteed damage is set to 30%
 - Values do not change on counter or Punish Counter
-"""
-notes_ja = """  
+"""]
+notes_ja = ["""  
 - 1F 完全無敵
 - 2-9F 打撃・投げに対して無敵
 - 最低保障ダメージ30%
 - カウンター/パニッシュカウンターで数値が変動しない
-"""
+"""]
 
 [moves.driveGauge]
 onHit = 0
@@ -1906,18 +1906,18 @@ startup = 6
 active = [6, 7, 18, 20, 31, 33, 45, 47, 59, 60] 
 recovery = 32
 damage = 2700
-notes = """
+notes = ["""
 - Completely invincible on the 1st frame
 - Transitions to the full attack after the 6th attack  
 - Minimum guaranteed damage is set to 40%
 - Values do not change on counter or Punish Counter
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 1F 完全無敵
 - ヒット時6段目以降に派生
 - 最低保障ダメージ40% 
 - カウンター/パニッシュカウンターで数値が変動しない
-"""
+"""]
 
 [moves.driveGauge] 
 onHit = 0
@@ -1941,7 +1941,7 @@ recovery = 45
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-notes = """
+notes = ["""
 - Completely invincible from frames 1-18
 - Minimum guaranteed damage is set to 50% 
 - Following properties occur if the first attack is blocked or misses:
@@ -1949,8 +1949,8 @@ notes = """
   - Reduces Drive Gauge by 9000 on hit
   - Does not go into full cinematic animation
 - *Can only be canceled into from special moves
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 1-18F完全無敵
 - 最低保障ダメージ50%
 - 初段ガードor空振り時、以下の性能変化
@@ -1958,7 +1958,7 @@ notes_ja = """
 - ・ヒット時のDゲージ減少量9000
 - ・非ロック演出
 - ※必殺技キャンセル時のみ適用
-"""
+"""]
 
 [moves.driveGauge]
 onHit = 0
@@ -1982,7 +1982,7 @@ recovery = 45
 damage = 4500 
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-notes = """
+notes = ["""
 - Completely invincible from frames 1-18
 - Minimum guaranteed damage is set to 50%
 - Following properties occur if the first attack is blocked or misses:
@@ -1990,8 +1990,8 @@ notes = """
   - Reduces Drive Gauge by 16000 on hit
   - Does not go into full cinematic animation 
 - *Can only be canceled into from special moves
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 - 1-18F完全無敵
 - 最低保障ダメージ50%
 - 初段ガードor空振り時、以下の性能変化 
@@ -1999,7 +1999,7 @@ notes_ja = """
 - ・ヒット時のDゲージ減少量16000
 - ・非ロック演出
 - ※必殺技キャンセル時のみ適用
-"""
+"""]
 
 [moves.driveGauge] 
 onHit = 0
@@ -2024,18 +2024,18 @@ damage = 1200
 scaling = ["Immediate scaling 20%"] 
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-notes = """
+notes = ["""
 Properties change to the following when the attack lands as a Punish Counter:
 - Deals 2040 damage
 - Super Art gauge increases by 4000
 - Forces a hard knockdown
-"""
-notes_ja = """
+"""]
+notes_ja = ["""
 パニッシュカウンター時以下の性能変化
 - ダメージ2040
 - SAゲージ4000増加
 - ハードノックダウン
-"""
+"""]
 
 [moves.driveGauge]
 onHit = 2000
@@ -2060,18 +2060,18 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000 
-notes = """
+notes = ["""
 Properties change to the following when the attack lands as a Punish Counter:
 - Deals 2040 damage
 - Super Art gauge increases by 4000
 - Forces a hard knockdown
-"""
-notes_ja = """  
+"""]
+notes_ja = ["""  
 パニッシュカウンター時以下の性能変化
 - ダメージ2040
 - SAゲージ4000増加
 - ハードノックダウン
-"""
+"""]
 
 [moves.driveGauge]
 onHit = 2000
