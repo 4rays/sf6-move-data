@@ -19,6 +19,7 @@ active = [4, 6]
 recovery = 7
 cancel = "C"
 scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
 superArt = 300
 notes = "Can be rapid canceled"
 notes_ja = "連打キャンセル対応"
@@ -118,6 +119,7 @@ active = [5, 7]
 recovery = 11
 cancel = "C"
 scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -212,6 +214,7 @@ active = [4, 5]
 recovery = 9
 cancel = "C"
 scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
 superArt = 300
 notes = "Can be rapid canceled"
 notes_ja = "連打キャンセル対応"
@@ -309,6 +312,7 @@ startup = 5
 active = [5, 6]
 recovery = 10
 scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
 superArt = 300
 notes = "Can be rapid canceled"
 notes_ja = "連打キャンセル対応"
@@ -341,6 +345,7 @@ active = [8, 10]
 recovery = 19
 cancel = "C"
 scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 500
 
 [moves.frameAdvantage]
@@ -588,6 +593,7 @@ startup = 20
 active = [20, 24]
 recovery = 16
 scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 
 [moves.driveGauge]
 onHit = 2500
@@ -866,6 +872,7 @@ startup = 12
 totalFrames = 40
 cancel = "SA2"
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
 
 [moves.frameAdvantage]
@@ -896,6 +903,7 @@ startup = 12
 totalFrames = 42
 cancel = "SA3"
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
 
 [moves.frameAdvantage]
@@ -926,6 +934,7 @@ startup = 12
 totalFrames = 38
 cancel = "SA2"
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 900
 
 [moves.frameAdvantage]
@@ -956,6 +965,7 @@ recovery = 21
 postLandingRecovery = 12
 cancel = "SA3"
 scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 notes = "Invincible to mid-air attacks from frames 1 - 14. Considered airborne from frames 7 - 34. Note: After the 3rd active frame this move deals only 800 damage"
 notes_ja = "1-14F 空中判定の攻撃に対して無敵 7-34F 空中判定 ※持続の3F目以降は個別ダメージ(800)"
@@ -988,6 +998,7 @@ recovery = 30
 postLandingRecovery = 12
 cancel = "SA3"
 scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 notes = "Invincible to mid-air attacks from frames 1 - 9. Considered airborne from frames 8 - 44. Note: After the 3rd active frame this move deals only 800 damage"
 notes_ja = "1-9F 空中判定の攻撃に対して無敵 8-44F 空中判定 ※持続の3F目以降は個別ダメージ(800)"
@@ -1022,6 +1033,7 @@ recovery = 34
 postLandingRecovery = 15
 cancel = "SA3"
 scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 notes = "Invincible to mid-air attacks from frames 1 - 8.  Considered airborne from frames 9 - 49. Note: After the 2nd active frame this move deals only 800 damage."
 notes_ja = "1-8F 空中判定の攻撃に対して無敵 9-49F 空中判定 ※持続の2F目以降は個別ダメージ(800)"
@@ -1205,6 +1217,7 @@ startup = 11
 active = [11, 12, 18, 19, 26, 27]
 postLandingRecovery = 16
 scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 600
 
 [moves.driveGauge]
@@ -1230,6 +1243,7 @@ startup = 11
 active = [11, 12, 14, 16, 18, 20, 22, 24, 27, 28]
 postLandingRecovery = 16
 scaling = ["Combo scaling 25%"]
+scaling_ja = ["コンボ補正25%"]
 superArt = 600
 
 [moves.driveGauge]
@@ -1346,6 +1360,7 @@ active = [18, 22]
 recovery = 33
 cancel = "SA2"
 scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
 superArt = 1200
 
 [moves.frameAdvantage]
@@ -1463,6 +1478,7 @@ active = [18, 22]
 recovery = 20
 cancel = "SA2"
 scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
 superArt = 900
 
 [moves.frameAdvantage]
@@ -1767,7 +1783,8 @@ damage = 4000
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
-scaling = ["*Immediate scaling 10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 notes = "Completely invincible from frame 1 to frame 16. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 50%. Note: Can only be canceled into from special moves."
 notes_ja = "1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない  最低保障ダメージ50% ※必殺技キャンセル時のみ適用"
 
@@ -1795,7 +1812,8 @@ damage = 4500
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
-scaling = ["*Immediate scaling 10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 notes = "Completely invincible from frame 1 to frame 16. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 50%. Note: Can only be canceled into from special moves."
 notes_ja = "1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ50% ※必殺技キャンセル時のみ適用"
 
@@ -1825,6 +1843,7 @@ startup = 5
 active = [5, 7]
 recovery = 23
 scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 notes = """Properties change to the following when the attack lands as a Punish Counter:
 - Deals 2040 damage
@@ -1858,6 +1877,7 @@ startup = 5
 active = [5, 7]
 recovery = 23
 scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 notes = """Properties change to the following when the attack lands as a Punish Counter:  
 - Deals 2040 damage
