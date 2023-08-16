@@ -12,8 +12,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+
+damage = 300
+startup = 5
+active = [5, 7]
+recovery = 10
+cancel = "C"
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +48,22 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+damage = 600
+startup = 10
+active = [10, 12]
+recovery = 15
+cancel = "SA"
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +78,25 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+properties = ["forcesStanding"]
+
+damage = 800
+startup = 10
+active = [10, 16]
+recovery = 22
+cancel = "C"
+superArt = 1000
+notes = ["Forces opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +113,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+damage = 300
+startup = 4
+active = [4, 7]
+recovery = 7
+cancel = "C"
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -72,8 +143,24 @@ abbeviation_ja = "立ち中K"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "5mk"
+
+damage = 600
+startup = 8
+active = [8, 10]
+recovery = 17
+cancel = "C"
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -6000
 
 # Standing Heavy Kick
 [[moves]]
@@ -87,8 +174,23 @@ abbeviation_ja = "立ち強K"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "5hk"
+
+damage = 800
+startup = 7
+active = [7, 15]
+recovery = 18
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 6
+block = -4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Crouching Light Punch
 [[moves]]
@@ -105,11 +207,31 @@ hitCount = 1
 blockType = "high"
 input = "2lp"
 
+damage = 300
+startup = 6
+active = [6, 8]
+recovery = 8
+cancel = "C"
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Crouching Medium Punch
 [[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中P"
-alternativeNames = ["Crouching jab"]
+alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ中P"]
 slug = "blanka-crouch-medium-punch"
 abbreviation = "C.MP"
@@ -120,11 +242,27 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+damage = 600
+startup = 9
+active = [9, 13]
+recovery = 16
+cancel = "C"
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -1
+block = -5
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強P"
-alternativeNames = ["Crouching strong"]
+alternativeNames = ["Crouching fierce"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "blanka-crouch-heavy-punch"
 abbreviation = "C.HP"
@@ -134,6 +272,21 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+
+damage = 800
+startup = 15
+active = [15, 19]
+recovery = 20
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Crouching Light Kick
 [[moves]]
@@ -150,6 +303,25 @@ hitCount = 1
 blockType = "low"
 input = "2lk"
 
+damage = 200
+startup = 5
+active = [5, 6]
+recovery = 10
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Crouching Medium Kick
 [[moves]]
 name = "Crouching Medium Kick"
@@ -165,11 +337,29 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+damage = 500
+startup = 8
+active = [8, 10]
+recovery = 16
+cancel = "C"
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強K"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Crouching roundhouse"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "blanka-crouch-heavy-kick"
 abbreviation = "C.HK"
@@ -180,11 +370,25 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 
+damage = 900
+startup = 11
+active = [11, 14]
+recovery = 23
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
 # Jumping Light Punch
 [[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱P"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Jumping jab"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "blanka-jump-light-punch"
 abbreviation = "J.LP"
@@ -192,8 +396,19 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lp"
+
+damage = 300
+startup = 4
+active = [4, 8]
+postLandingRecovery = 3
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Punch
 [[moves]]
@@ -207,14 +422,26 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
+
+damage = 700
+startup = 7
+active = [7, 13]
+postLandingRecovery = 3
+cancel = "C"
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強P"
-alternativeNames = ["Jumping roundhouse"]
+alternativeNames = ["Jumping fierce"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "blanka-jump-heavy-punch"
 abbreviation = "J.HP"
@@ -222,8 +449,19 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>hp"
+
+damage = 800
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Light Kick
 [[moves]]
@@ -237,8 +475,19 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lk"
+
+damage = 300
+startup = 5
+active = [5, 10]
+postLandingRecovery = 3
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -252,8 +501,22 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mk"
+properties = ["canCrossUp"]
+
+damage = 500
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+superArt = 500
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -267,78 +530,342 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 8
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>hk"
 
-# Electric Thunder (Light)
-[[moves]]
-name = "Electric Thunder (Light)"
-name_ja = "エレクトリックサンダー（弱）"
-slug = "electric-thunder-light"
-characterId = 8
-type = "special"
-blockType = "high"
-input = "214lp"
+damage = 800
+startup = 11
+active = [11, 16]
+postLandingRecovery = 3
+superArt = 1000
 
-# Electric Thunder (Medium)
-[[moves]]
-name = "Electric Thunder (Medium)"
-name_ja = "エレクトリックサンダー（中）"
-slug = "electric-thunder-medium"
-characterId = 8
-type = "special"
-blockType = "high"
-input = "214mp"
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
-# Electric Thunder (Heavy)
+# Electric Thunder
 [[moves]]
-name = "Electric Thunder (Heavy)"
-name_ja = "エレクトリックサンダー（強）"
-slug = "electric-thunder-heavy"
+name = "Electric Thunder"
+name_ja = "エレクトリックサンダー"
+slug = "electric-thunder"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "214hp"
+input = "214*p"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Hold down the button to continue that attack"]
+notes_ja = ["発動後にボタンホールドで延長可能"]
+
+damage = 800
+startup = 10
+active = [10, 11, 15, 16, 20, 21]
+recovery = 17
+cancel = "SA3"
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -5000
+
+# [Lightning Beast] Electric Thunder
+[[moves]]
+name = "[Lightning Beast] Electric Thunder"
+name_ja = "【ライトニングビースト】 エレクトリックサンダー"
+slug = "lightning-beast-electric-thunder"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214*p"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Hold down the button to continue that attack"]
+notes_ja = ["発動後にボタンホールドで延長可能"]
+parentSlug = "lightning-beast"
+
+damage = 900
+startup = 10
+active = [10, 11, 15, 16, 20, 21]
+recovery = 17
+cancel = "SA3"
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -5000
 
 # Electric Thunder (OD)
 [[moves]]
 name = "Electric Thunder (OD)"
 name_ja = "エレクトリックサンダー（OD）"
+alternativeNames = [
+  "Electric Thunder",
+  "EX Electric Thunder",
+  "OD Electric Thunder",
+]
+alternativeNames_ja = ["EX エレクトリックサンダー", "OD エレクトリックサンダー"]
 slug = "electric-thunder-od"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "214(pp)"
+hitCount = 1
+notes = ["Hold down the button to continue that attack"]
+notes_ja = ["発動後にボタンホールドで延長可能"]
+
+damage = 1000
+startup = 10
+active = [10, 11, 15, 16, 17, 18]
+recovery = 17
+cancel = "SA2"
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Electric Thunder (OD)
+[[moves]]
+name = "[Lightning Beast] Electric Thunder (OD)"
+name_ja = "【ライトニングビースト】 エレクトリックサンダー（OD）"
+slug = "lightning-beast-electric-thunder-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "214(pp)"
+hitCount = 1
+notes = ["Hold down the button to continue that attack"]
+notes_ja = ["発動後にボタンホールドで延長可能"]
+parentSlug = "lightning-beast"
+
+damage = 1100
+startup = 10
+active = [10, 11, 15, 16, 17, 18]
+recovery = 17
+cancel = "SA2"
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rolling Attack (Light)
 [[moves]]
 name = "Rolling Attack (Light)"
-name_ja = "ローリングアタック（弱）"
+name_ja = "ローリングアタック(弱)"
+alternativeNames = ["Rolling Attack", "L Rolling Attack"]
+alternativeNames_ja = ["弱 ローリングアタック"]
 slug = "rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[4]>6lp"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1000
+startup = 10
+active = [10, 20]
+recovery = 11
+cancel = "SA3"
+superArt = 1000
+notes = ["Considered airborne from frames 10 - 23"]
+notes_ja = ["10-23F 空中判定"]
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
+
+# [Lightning Beast] Rolling Attack (Light)
+[[moves]]
+name = "[Lightning Beast] Rolling Attack (Light)"
+name_ja = "【ライトニングビースト】 ローリングアタック(弱)"
+slug = "lightning-beast-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[4]>6lp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 10 - 23",
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["10-23F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 1000
+startup = 10
+active = [10, 20]
+recovery = 11
+cancel = "SA3"
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
 
 # Rolling Attack (Medium)
 [[moves]]
 name = "Rolling Attack (Medium)"
-name_ja = "ローリングアタック（中）"
+name_ja = "ローリングアタック(中)"
+alternativeNames = ["Rolling Attack", "M Rolling Attack"]
+alternativeNames_ja = ["中 ローリングアタック"]
 slug = "rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[4]>6mp"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1200
+startup = 12
+active = [12, 30]
+recovery = 11
+cancel = "SA3"
+superArt = 1000
+notes = [
+  "Considered airborne from frames 12 - 23. Juggle state time is extended when attack hits for a Punish Counter. Can cancel into Level 3 Super Art until active frame 11",
+]
+notes_ja = ["12-32F 空中判定 パニッシュカウンター時吹き飛び時間延長 持続の11F目までSA3でキャンセル可"]
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
+
+# [Lightning Beast] Rolling Attack (Medium)
+[[moves]]
+name = "[Lightning Beast] Rolling Attack (Medium)"
+name_ja = "【ライトニングビースト】 ローリングアタック(中)"
+slug = "lightning-beast-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[4]>6mp"
+hitCount = 1
+properties = ["knockdown"]
+
+notes = [
+  "Considered airborne from frames 12 - 32",
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["12-32F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 1300
+startup = 12
+active = [12, 30]
+recovery = 11
+cancel = "SA3"
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
 
 # Rolling Attack (Heavy)
 [[moves]]
 name = "Rolling Attack (Heavy)"
 name_ja = "ローリングアタック（強）"
+alternativeNames = ["Rolling Attack", "H Rolling Attack"]
+alternativeNames_ja = ["強 ローリングアタック"]
 slug = "rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[4]>6hp"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1300
+startup = 22
+active = [22, 41]
+recovery = 26
+cancel = "SA3"
+superArt = 1000
+notes = [
+  "Considered airborne from frames 20 - 42. Juggle state time is extended when attack hits for a Punish Counter. Can cancel into Level 3 Super Art until active frame 6",
+]
+notes_ja = ["20-42F 空中判定 パニッシュカウンター時吹き飛び時間延長 持続の6F目までSA3でキャンセル可"]
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -10000
+onPunishCounter = -5000
+
+# [Lightning Beast] Rolling Attack (Heavy)
+[[moves]]
+name = "[Lightning Beast] Rolling Attack (Heavy)"
+name_ja = "【ライトニングビースト】 ローリングアタック(強)"
+slug = "lightning-beast-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[4]>6hp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 20 - 42",
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["20-42F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 1400
+startup = 20
+active = [20, 41]
+recovery = 26
+cancel = "SA3"
+scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正20%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
 
 # Rolling Attack (OD)
 [[moves]]
@@ -349,166 +876,924 @@ characterId = 8
 type = "special"
 blockType = "high"
 input = "[4]>6(pp)"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 800
+startup = 18
+active = [18, 39]
+recovery = 17
+cancel = "SA2"
+superArt = 1000
+notes = [
+  "Considered airborne from frames 18 - 40. Can cancel into Level 3 Super Art until active frame 2",
+]
+notes_ja = ["18-40F 空中判定 持続の2F目までSA2、SA3でキャンセル可"]
+
+[moves.frameAdvantage]
+block = -7
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -10000
+onPunishCounter = -5000
+
+# [Lightning Beast] Rolling Attack (OD)
+[[moves]]
+name = "[Lightning Beast] Rolling Attack (OD)"
+name_ja = "【ライトニングビースト】 ローリングアタック（OD）"
+slug = "lightning-beast-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[4]>6(pp)"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 18 - 40",
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["18-40F 空中判定", "SA2タイマー100消費", "ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 900
+startup = 18
+active = [18, 39]
+recovery = 17
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+
+[moves.frameAdvantage]
+block = -7
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -7500
+onPunishCounter = -5000
 
 # Vertical Rolling Attack (Light)
 [[moves]]
 name = "Vertical Rolling Attack (Light)"
 name_ja = "バーチカルローリング（弱）"
+alternativeNames = ["Vertical Rolling", "L Vertical Rolling"]
+alternativeNames_ja = ["弱 バーチカルローリング"]
 slug = "vertical-rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[2]>8lk"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1200
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+superArt = 1000
+notes = [
+  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Vertical Rolling Attack (Light)
+[[moves]]
+name = "[Lightning Beast] Vertical Rolling Attack (Light)"
+name_ja = "【ライトニングビースト】 バーチカルローリング（弱）"
+slug = "lightning-beast-vertical-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[2]>8lk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = [
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
+properties = ["knockdown"]
+parentSlug = "lightning-beast"
+
+damage = 1300
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Vertical Rolling Attack (Medium)
 [[moves]]
 name = "Vertical Rolling Attack (Medium)"
 name_ja = "バーチカルローリング（中）"
+alternativeNames = ["Vertical Rolling", "M Vertical Rolling"]
+alternativeNames_ja = ["中 バーチカルローリング"]
 slug = "vertical-rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[2]>8mk"
+properties = ["knockdown"]
+hitCount = 1
+
+damage = 1300
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+superArt = 1000
+notes = [
+  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Vertical Rolling Attack (Medium)
+[[moves]]
+name = "[Lightning Beast] Vertical Rolling Attack (Medium)"
+name_ja = "【ライトニングビースト】 バーチカルローリング（中）"
+slug = "lightning-beast-vertical-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[2]>8mk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = [
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
+properties = ["knockdown"]
+parentSlug = "lightning-beast"
+
+damage = 1400
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Vertical Rolling Attack (Heavy)
 [[moves]]
 name = "Vertical Rolling Attack (Heavy)"
 name_ja = "バーチカルローリング（強）"
+alternativeNames = ["Vertical Rolling", "H Vertical Rolling"]
+alternativeNames_ja = ["強 バーチカルローリング"]
 slug = "vertical-rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[2]>8hk"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1400
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+superArt = 1000
+notes = [
+  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Vertical Rolling Attack (Heavy)
+[[moves]]
+name = "[Lightning Beast] Vertical Rolling Attack (Heavy)"
+name_ja = "【ライトニングビースト】 バーチカルローリング（強）"
+slug = "lightning-beast-vertical-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[2]>8hk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = [
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
+properties = ["knockdown"]
+parentSlug = "lightning-beast"
+
+damage = 1500
+startup = 8
+active = [8, 27]
+recovery = 31
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Vertical Rolling Attack (OD)
 [[moves]]
 name = "Vertical Rolling Attack (OD)"
 name_ja = "バーチカルローリング（OD）"
+alternativeNames = [
+  "Vertical Rolling",
+  "EX Vertical Rolling",
+  "OD Vertical Rolling",
+]
+alternativeNames_ja = ["EX バーチカルローリング", "OD バーチカルローリング"]
 slug = "vertical-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "[2]>8(pp)"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 4 - 53. Completely invincible to attacks from frames 1 - 10",
+]
+notes_ja = ["4-53F 空中判定 1-10F 完全無敵"]
+
+damage = 1600
+startup = 7
+recovery = 31
+postLandingRecovery = 17
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = 0
+
+# [Lightning Beast] Vertical Rolling Attack (OD)
+[[moves]]
+name = "[Lightning Beast] Vertical Rolling Attack (OD)"
+name_ja = "【ライトニングビースト】 バーチカルローリング（OD）"
+slug = "lightning-beast-vertical-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "[2]>8(pp)"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Considered airborne from frames 4 - 53",
+  "Completely invincible to attacks from frames 1 - 10",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット時ローリングキャノンへ派生可", "4-53F 空中判定", "1-10F 完全無敵"]
+parentSlug = "lightning-beast"
+
+damage = 1700
+startup = 7
+recovery = 31
+postLandingRecovery = 17
+scaling = ["Starter scaling 40%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正40%", "即時補正10%"]
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = 0
 
 # Backstep Rolling Attack (Light)
 [[moves]]
 name = "Backstep Rolling Attack (Light)"
 name_ja = "バックステップローリング（弱）"
+alternativeNames = ["Backstep Rolling", "L Backstep Rolling"]
+alternativeNames_ja = ["弱 バックステップローリング"]
 slug = "backstep-rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "63214lk"
+hitCount = 1
+
+startup = 41
+damage = 1000
+postLandingRecovery = 5
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 9
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Lightning Beast] Backstep Rolling Attack (Light)
+[[moves]]
+name = "[Lightning Beast] Backstep Rolling Attack (Light)"
+name_ja = "【ライトニングビースト】 バックステップローリング（弱）"
+slug = "lightning-beast-backstep-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214lk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+startup = 41
+active = 41
+damage = 1100
+postLandingRecovery = 5
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+hit = 9
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
 
 # Backstep Rolling Attack (Medium)
 [[moves]]
 name = "Backstep Rolling Attack (Medium)"
 name_ja = "バックステップローリング（中）"
+alternativeNames = ["Backstep Rolling", "M Backstep Rolling"]
+alternativeNames_ja = ["中 バックステップローリング"]
 slug = "backstep-rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "63214mk"
+hitCount = 1
+
+damage = 1000
+startup = 41
+active = 41
+postLandingRecovery = 5
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 8
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Lightning Beast] Backstep Rolling Attack (Medium)
+[[moves]]
+name = "[Lightning Beast] Backstep Rolling Attack (Medium)"
+name_ja = "【ライトニングビースト】 バックステップローリング（中）"
+slug = "lightning-beast-backstep-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214mk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 1100
+startup = 41
+active = 41
+postLandingRecovery = 5
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+hit = 8
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
 
 # Backstep Rolling Attack (Heavy)
 [[moves]]
 name = "Backstep Rolling Attack (Heavy)"
 name_ja = "バックステップローリング（強）"
+alternativeNames = ["Backstep Rolling", "H Backstep Rolling"]
 slug = "backstep-rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "63214hk"
+hitCount = 1
+
+startup = 41
+postLandingRecovery = 5
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 8
+block = 4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Lightning Beast] Backstep Rolling Attack (Heavy)
+[[moves]]
+name = "[Lightning Beast] Backstep Rolling Attack (Heavy)"
+name_ja = "【ライトニングビースト】 バックステップローリング（強）"
+slug = "lightning-beast-backstep-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214hk"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+startup = 41
+postLandingRecovery = 5
+damage = 1100
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+hit = 8
+block = 4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
 
 # Backstep Rolling Attack (OD)
 [[moves]]
 name = "Backstep Rolling Attack (OD)"
 name_ja = "バックステップローリング（OD）"
+alternativeNames = [
+  "Backstep Rolling",
+  "EX Backstep Rolling",
+  "OD Backstep Rolling",
+]
+alternativeNames_ja = ["EX バックステップローリング", "OD バックステップローリング"]
 slug = "backstep-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "63214(pp)"
+hitCount = 1
+
+damage = 1000
+startup = 8
+active = [8, 12, 41, 61, 63, 66]
+postLandingRecovery = 4
+cancel = "SA2"
+superArt = 1000
+notes = [
+  "First attack produces a juggle state knockdown. Can be canceled into Level 2 or 3 Super Art until the 3rd active frame of the first attack",
+]
+notes_ja = ["初段ヒット時吹き飛びダウン 初段の持続3F目までSA2、SA3でキャンセル可"]
+
+[moves.frameAdvantage]
+hit = 10
+block = 6
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -10000
+onPunishCounter = -5000
+
+# [Lightning Beast] Backstep Rolling Attack (OD)
+[[moves]]
+name = "[Lightning Beast] Backstep Rolling Attack (OD)"
+name_ja = "【ライトニングビースト】 バックステップローリング（OD）"
+slug = "lightning-beast-backstep-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "63214(pp)"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon when the rotating part hits or is blocked",
+]
+notes_ja = ["SA2タイマー100消費", "回転部分のヒット、ガード時ローリングキャノンへ派生可"]
+parentSlug = "lightning-beast"
+
+damage = 1200
+startup = 8
+active = [8, 12, 41, 61, 63, 66]
+postLandingRecovery = 4
+cancel = "SA2"
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.frameAdvantage]
+hit = 10
+block = 6
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -10000
+onPunishCounter = -5000
 
 # Aerial Rolling Attack (Light)
 [[moves]]
 name = "Aerial Rolling Attack (Light)"
 name_ja = "エリアルローリング（弱）"
+alternativeNames = ["Aerial Rolling", "L Aerial Rolling"]
+alternativeNames_ja = ["弱 エリアルローリング"]
 slug = "aerial-rolling-attack-light"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "j>[4]>6lp"
+hitCount = 1
+properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+damage = 1000
+startup = 13
+postLandingRecovery = 17
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Aerial Rolling Attack (Light)
+[[moves]]
+name = "[Lightning Beast] Aerial Rolling Attack (Light)"
+name_ja = "【ライトニングビースト】 エリアルローリング（弱）"
+slug = "lightning-beast-aerial-rolling-attack-light"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j>[4]>6lp"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Has cross-up attack properties",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
+parentSlug = "lightning-beast"
+
+damage = 1100
+startup = 13
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerial Rolling Attack (Medium)
 [[moves]]
 name = "Aerial Rolling Attack (Medium)"
 name_ja = "エリアルローリング（中）"
+alternativeNames = ["Aerial Rolling", "M Aerial Rolling"]
+alternativeNames_ja = ["中 エリアルローリング"]
 slug = "aerial-rolling-attack-medium"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "j>[4]>6mp"
+hitCount = 1
+properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+damage = 1000
+startup = 13
+postLandingRecovery = 17
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Aerial Rolling Attack (Medium)
+[[moves]]
+name = "[Lightning Beast] Aerial Rolling Attack (Medium)"
+name_ja = "【ライトニングビースト】 エリアルローリング（中）"
+slug = "lightning-beast-aerial-rolling-attack-medium"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j>[4]>6mp"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Has cross-up attack properties",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
+parentSlug = "lightning-beast"
+
+damage = 1100
+startup = 13
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerial Rolling Attack (Heavy)
 [[moves]]
 name = "Aerial Rolling Attack (Heavy)"
 name_ja = "エリアルローリング（強）"
+alternativeNames = ["Aerial Rolling", "H Aerial Rolling"]
+alternativeNames_ja = ["強 エリアルローリング"]
 slug = "aerial-rolling-attack-heavy"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "j>[4]>6hp"
+hitCount = 1
+properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+damage = 1000
+startup = 13
+postLandingRecovery = 17
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Aerial Rolling Attack (Heavy)
+[[moves]]
+name = "[Lightning Beast] Aerial Rolling Attack (Heavy)"
+name_ja = "【ライトニングビースト】 エリアルローリング（強）"
+slug = "lightning-beast-aerial-rolling-attack-heavy"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j>[4]>6hp"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Has cross-up attack properties",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
+parentSlug = "lightning-beast"
+
+damage = 1100
+startup = 13
+postLandingRecovery = 17
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerial Rolling Attack (OD)
 [[moves]]
 name = "Aerial Rolling Attack (OD)"
 name_ja = "エリアルローリング（OD）"
+alternativeNames = ["Aerial Rolling", "EX Aerial Rolling", "OD Aerial Rolling"]
+alternativeNames_ja = ["EX エリアルローリング", "OD エリアルローリング"]
 slug = "aerial-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
 input = "j>[4]>6(pp)"
+hitCount = 1
+properties = ["canCrossUp"]
+
+damage = 1200
+startup = 13
+postLandingRecovery = 10
+superArt = 1300
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Lightning Beast] Aerial Rolling Attack (OD)
+[[moves]]
+name = "[Lightning Beast] Aerial Rolling Attack (OD)"
+name_ja = "【ライトニングビースト】 エリアルローリング（OD）"
+slug = "lightning-beast-aerial-rolling-attack-od"
+characterId = 8
+type = "special"
+blockType = "high"
+input = "j>[4]>6(pp)"
+hitCount = 1
+notes = [
+  "Consumes 100 of the Super Art 2 timer",
+  "Can transition to Rolling Cannon on hit or block",
+  "Has cross-up attack properties",
+]
+notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
+parentSlug = "lightning-beast"
+
+damage = 1400
+startup = 13
+postLandingRecovery = 10
+scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正10%", "即時補正10%"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = -4000
+onPunishCounter = -5000
 
 # Wild Hunt (Light)
 [[moves]]
 name = "Wild Hunt (Light)"
 name_ja = "ワイルドハント（弱）"
+alternativeNames = ["Wild Hunt", "L Wild Hunt"]
+alternativeNames_ja = ["弱 ワイルドハント"]
 slug = "wild-hunt-light"
 characterId = 8
 type = "commandThrow"
-blockType = "high"
 input = "236lk"
+hitCount = 1
+
+damage = 1600
+startup = 34
+active = [34, 36]
+recovery = 57
+superArt = 3000
+notes = ["Considered airborne from frames 9 - 26"]
+notes_ja = ["9-26F 空中判定"]
+
+[moves.driveGauge]
+onHit = 5000
+onBlock = 0
+onPunishCounter = -10000
 
 # Wild Hunt (Medium)
 [[moves]]
 name = "Wild Hunt (Medium)"
 name_ja = "ワイルドハント（中）"
+alternativeNames = ["Wild Hunt", "M Wild Hunt"]
+alternativeNames_ja = ["中 ワイルドハント"]
 slug = "wild-hunt-medium"
 characterId = 8
 type = "commandThrow"
-blockType = "high"
 input = "236mk"
+hitCount = 1
+
+damage = 1700
+startup = 39
+active = [39, 41]
+recovery = 57
+superArt = 3000
+notes = ["Considered airborne from frames 14 - 36"]
+notes_ja = ["14-36F 空中判定"]
+
+[moves.driveGauge]
+onHit = 5000
+onBlock = 0
+onPunishCounter = -10000
 
 # Wild Hunt (Heavy)
 [[moves]]
 name = "Wild Hunt (Heavy)"
 name_ja = "ワイルドハント（強）"
+alternativeNames = ["Wild Hunt", "H Wild Hunt"]
+alternativeNames_ja = ["強 ワイルドハント"]
 slug = "wild-hunt-heavy"
 characterId = 8
 type = "commandThrow"
-blockType = "high"
 input = "236hk"
+hitCount = 1
+
+damage = 1800
+startup = 43
+active = [43, 45]
+recovery = 57
+superArt = 3000
+notes = ["Considered airborne from frames 18 - 36"]
+notes_ja = ["18-36F 空中判定"]
+
+[moves.driveGauge]
+onHit = 5000
+onBlock = 0
+onPunishCounter = -10000
 
 # Wild Hunt (OD)
 [[moves]]
 name = "Wild Hunt (OD)"
 name_ja = "ワイルドハント（OD）"
+alternativeNames = ["Wild Hunt", "EX Wild Hunt", "OD Wild Hunt"]
+alternativeNames_ja = ["EX ワイルドハント", "OD ワイルドハント"]
 slug = "wild-hunt-od"
 characterId = 8
 type = "commandThrow"
-blockType = "high"
 input = "236(pp)"
+hitCount = 1
+
+damage = 2000
+startup = 32
+active = [32, 34]
+recovery = 57
+superArt = 3000
+notes = ["Considered airborne from frames 9 - 28"]
+notes_ja = ["9-28F 空中判定"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = -10000
 
 # Blanka-chan Bomb
 [[moves]]
@@ -517,8 +1802,24 @@ name_ja = "ブランカちゃん爆弾"
 slug = "blanka-chan-bomb"
 characterId = 8
 type = "special"
-blockType = "high"
 input = "22*p"
+
+totalFrames = 50
+notes = [
+  "Disappears 1000 frames after landing on the ground.",
+  " Works as a projectile attack when activated by any special moves that produces electricity or comes in contact with a Super Art until the 1000th frame.",
+  "The trajectory of the thrown doll changes if it touches the edge of the screen.",
+]
+notes_ja = [
+  "人形の接地後1000F経過で消滅",
+  "1000F間に電撃を発する必殺技、SAを接触させると人形が飛び道具攻撃として起動する",
+  "投擲した人形がステージ端に接触時、跳ね返りによる軌道変化",
+]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
 
 # Shout of Earth
 [[moves]]
@@ -529,6 +1830,71 @@ characterId = 8
 type = "super1"
 blockType = "high"
 input = "236236*p"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Completely invincible on the 1st frame.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 30%.",
+]
+notes_ja = [
+  "1F 完全無敵 2-8F",
+  "打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30%",
+]
+
+damage = 2000
+startup = 8
+active = [8, 16]
+totalFrames = 87
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = 5000
+onPunishCounter = 5000
+
+# [Lightning Beast] Shout of Earth
+[[moves]]
+name = "[Lightning Beast] Shout of Earth"
+name_ja = "【ライトニングビースト】シャウトオブアース"
+slug = "lightning-beast-shout-of-earth"
+characterId = 8
+type = "super1"
+blockType = "high"
+input = "236236*pp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Completely invincible on the 1st frame.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 30%.",
+]
+notes_ja = [
+  "1F 完全無敵 2-8F",
+  "打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30%",
+]
+parentSlug = "lightning-beast"
+
+damage = 2200
+active = [8, 16]
+startup = 8
+totalFrames = 87
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = 5000
+onPunishCounter = 5000
 
 # Lightning Beast
 [[moves]]
@@ -537,28 +1903,103 @@ name_ja = "ライトニングビースト"
 slug = "lightning-beast"
 characterId = 8
 type = "super2"
-blockType = "high"
 input = "214214*p"
+
+totalFrames = 10
+notes = [
+  "Super Art 2 timer is set to 1500.",
+  "Changes the properties of special moves except for Wild Hunt while active.",
+  "Allows any Rolling-type attack to cancel into Rolling Cannon while active.",
+  "Allows the following attacks to be cancel into without any directional charge: Rolling Attack, Vertical Rolling Attack, Aerial Rolling Attack.",
+]
+notes_ja = [
+  "SA2タイマー1500 発動中、ワイルドハント以外の必殺技が性質変化",
+  "発動中、ローリング系必殺技から「ローリングキャノン」が派生可能になる",
+  "発動中、以下の技をキャンセル発動時に溜め無しで発動可能 ・ローリングアタック ・バーチカルローリング ・エリアルローリング",
+]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
 
 # Ground Shave Cannonball
 [[moves]]
 name = "Ground Shave Cannonball"
-name_ja = "グラウンドシェイブキャノンボール"
+name_ja = "グランドシェイブキャノンボール"
 slug = "ground-shave-cannonball"
 characterId = 8
 type = "super3"
 blockType = "high"
 input = "236236*p"
+hitCount = 1
+
+damage = 4000
+startup = 10
+active = [10, 12]
+recovery = 61
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 0
+notes = [
+  "Completely invincible from frames 1 - 12.",
+  "Minimum guaranteed damage is set to 50%.",
+  "Values do not change on counter or Punish Counter.",
+  "Note: Can only be canceled into from special moves.",
+]
+notes_ja = [
+  "1-12F 完全無敵",
+  "最低保障ダメージ50%",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+[moves.frameAdvantage]
+block = -46
+
+[moves.driveGauge]
+onHit = -7500
+onBlock = -15000
+onPunishCounter = -15000
 
 # Ground Shave Cannonball (Critical Art)
 [[moves]]
 name = "Ground Shave Cannonball (Critical Art)"
-name_ja = "グラウンドシェイブキャノンボール（CA）"
+name_ja = "グランドシェイブキャノンボール（CA）"
 slug = "ground-shave-cannonball-ca"
 characterId = 8
 type = "super3"
 blockType = "high"
 input = "236236*p"
+hitCount = 1
+
+damage = 4500
+startup = 10
+active = [10, 12]
+recovery = 61
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 0
+notes = [
+  "Completely invincible from frames 1 - 12.",
+  "Minimum guaranteed damage is set to 50%.",
+  "Values do not change on counter or Punish Counter.",
+  "Note: Can only be canceled into from special moves.",
+]
+notes_ja = [
+  "1-12F 完全無敵",
+  "最低保障ダメージ50%",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+[moves.frameAdvantage]
+block = -46
+
+[moves.driveGauge]
+onHit = -10000
+onBlock = -20000
+onPunishCounter = -20000
 
 # Rolling Cannon
 [[moves]]
@@ -569,8 +2010,20 @@ characterId = 8
 type = "special"
 blockType = "high"
 input = "d+*p"
-notes = ["When performing a rolling-type special move."]
-notes_ja = ["ローリング系必殺技中に入力"]
+hitCount = 1
+
+damage = 400
+startup = 3
+active = [3, 27]
+postLandingRecovery = 9
+superArt = 0
+notes = ["Can transition into any Rolling-style attack a maximum of 3 times"]
+notes_ja = ["ローリング系必殺技から最大3回連続で派生可能"]
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -1000
+onPunishCounter = -2000
 
 # Rock Crusher
 [[moves]]
@@ -581,6 +2034,22 @@ characterId = 8
 type = "commandNormal"
 blockType = "high"
 input = "6mk"
+hitCount = 1
+
+damage = 600
+startup = 20
+active = [20, 22]
+recovery = 20
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -1250
+onPunishCounter = -2500
 
 # Double Knee Bombs
 [[moves]]
@@ -591,6 +2060,22 @@ characterId = 8
 type = "commandNormal"
 blockType = "high"
 input = "6mk"
+hitCount = 1
+
+damage = 600
+startup = 9
+active = []
+recovery = 18
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 6
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -3000
 
 # Wild Edge
 [[moves]]
@@ -601,6 +2086,23 @@ characterId = 8
 type = "commandNormal"
 blockType = "high"
 input = "4mk"
+hitCount = 1
+
+damage = 600
+startup = 9
+active = [9, 14]
+recovery = 12
+cancel = "C"
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 8
+block = 2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Wild Nail
 [[moves]]
@@ -611,6 +2113,29 @@ characterId = 8
 type = "commandNormal"
 blockType = "high"
 input = "6hp"
+hitCount = 1
+properties = ["*"]
+
+damage = 1100
+startup = 18
+active = [18, 21]
+recovery = 31
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+notes = [
+  "Can transition to Coward Crouch between frames 33 - 34.",
+  "Properties change to the following when the attack lands as a Punish Counter: - Produces a crumple stun if the opponent is standing on the ground - Forces a floor bound if the attack hits a mid-air opponent",
+]
+notes_ja = ["※33-34F フィアーダウンへ派生可", "パニッシュカウンターで以下の性能変化 ・地上ヒット時膝崩れ ・空中ヒット時床バウンド"]
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Amazon River Run
 [[moves]]
@@ -621,6 +2146,24 @@ characterId = 8
 type = "commandNormal"
 blockType = "high"
 input = "3hp"
+hitCount = 1
+properties = ["knockdown"]
+
+damage = 1000
+startup = 14
+active = [14, 23]
+recovery = 22
+superArt = 1000
+notes = ["Forces a Hard Knockdown on Punish Counter"]
+notes_ja = ["パニッシュカウンター時ハードノックダウン"]
+
+[moves.frameAdvantage]
+block = -18
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
 
 # Coward Crouch
 [[moves]]
@@ -631,6 +2174,23 @@ characterId = 8
 type = "action"
 input = "c(pp)"
 
+totalFrames = 98
+notes = [
+  "Hold down on the stick during the move to continue the technique for 48 more frames.",
+  "During the crouch, press up on the stick to cancel the technique.",
+  "Can transition to Surprise Forward Hop or Surprise Backward Hop from frames 18 - 111 (longest time).",
+]
+notes_ja = [
+  "動作中に下方向入力を続けた場合伏せ部分の動作を48F延長可",
+  "伏せ動作中に上方向入力で動作を中断可",
+  "18F-111F(最延長時) 専用技及びサプライズフォワード、サプライズバックへ派生可",
+]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
+
 # Wild Lift
 [[moves]]
 name = "Wild Lift"
@@ -640,6 +2200,21 @@ characterId = 8
 type = "followUp"
 input = "*p"
 parentSlug = "coward-crouch"
+hitCount = 1
+
+damage = 600
+startup = 8
+active = [8, 14]
+recovery = 31
+superArt = 500
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
 
 # Raid Jump
 [[moves]]
@@ -651,6 +2226,19 @@ type = "followUp"
 input = "*k"
 parentSlug = "coward-crouch"
 
+recovery = 43
+postLandingRecovery = 12
+notes = [
+  "Considered airborne from frames 9 - 43.",
+  "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43.",
+]
+notes_ja = ["9-43F 空中判定", "15-43F 空中での通常技及び必殺技へ派生可"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
+
 # Surprise Forward Hop
 [[moves]]
 name = "Surprise Forward Hop"
@@ -660,44 +2248,135 @@ characterId = 8
 type = "action"
 input = "6(kkk)"
 
+totalFrames = 27
+notes = ["Can be canceled into any special-canceable normal or unique attack"]
+notes_ja = ["必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
+
 # Surprise Back Hop
 [[moves]]
-name = "Suprise Back Hop"
+name = "Surprise Back Hop"
 name_ja = "サプライズバック"
-slug = "suprise-back-hop"
+slug = "surprise-back-hop"
 characterId = 8
 type = "action"
 input = "4(kkk)"
+
+totalFrames = 32
+notes = [
+  "Considered airborne from frames 11 - 21.",
+  "Can be canceled into any special-canceable normal or unique attack",
+]
+notes_ja = ["11-21F 空中判定", "必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
+
+[moves.driveGauge]
+onHit = 0
+onBlock = 0
+onPunishCounter = 0
 
 # Wild Fang
 [[moves]]
 name = "Wild Fang"
 name_ja = "ワイルドファング"
-slug = "wild-fang"
 alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
+slug = "wild-fang"
 characterId = 8
 type = "throw"
 input = "(lplk)"
+hitCount = 1
+
+damage = 1200
+startup = 5
+active = [5, 7]
+recovery = 23
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+notes = [
+  """Properties change to the following when the attack lands as a Punish Counter:
+- Deals 2040 damage  
+- Super Art gauge increases by 4000
+- Forces a hard knockdown""",
+]
+notes_ja = ["""パニッシュカウンター時以下の性能変化
+・ダメージ2040
+・SAゲージ4000増加
+・ハードノックダウン"""]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = 0
+onPunishCounter = -10000
 
 # Jungle Flip
 [[moves]]
 name = "Jungle Flip"
 name_ja = "ジャングルフリップ"
-slug = "jungle-flip"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
+slug = "jungle-flip"
 characterId = 8
 type = "throw"
 input = "(4lplk)"
+hitCount = 1
+
+damage = 1200
+startup = 5
+active = [5, 7]
+recovery = 23
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+notes = [
+  """Properties change to the following when the attack lands as a Punish Counter:
+- Deals 2040 damage
+- Super Art gauge increases by 4000  
+- Forces a hard knockdown""",
+]
+notes_ja = ["""パニッシュカウンター時以下の性能変化
+・ダメージ2040  
+・SAゲージ4000増加
+・ハードノックダウン"""]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = 0
+onPunishCounter = -10000
 
 # Wild Bites
 [[moves]]
 name = "Wild Bites"
 name_ja = "ワイルドバイツ"
-slug = "wild-bites"
 alternativeNames = ["Air Throw"]
 alternativeNames_ja = ["空中投げ"]
+slug = "wild-bites"
 characterId = 8
 type = "throw"
 input = "j>(lplk)"
+hitCount = 1
+
+damage = 1200
+startup = 5
+active = [5, 7]
+recovery = 23
+superArt = 2000
+notes = [
+  """Properties change to the following when the attack lands as a Punish Counter:
+- Deals 2040 damage
+- Super Art gauge increases by 4000
+- Forces a hard knockdown""",
+]
+notes_ja = ["""パニッシュカウンター時以下の性能変化  
+・ダメージ2040
+・SAゲージ4000増加
+・ハードノックダウン"""]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = 0
+onPunishCounter = -10000
