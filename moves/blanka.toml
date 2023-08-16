@@ -415,7 +415,7 @@ onPunishCounter = -2000
 name = "Jumping Medium Punch"
 name_ja = "ジャンプ中P"
 alternativeNames = ["Jumping strong"]
-alternativeNames_ja = ["ジャンプ中P"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
 slug = "blanka-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -1270,7 +1270,7 @@ notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリング
 parentSlug = "lightning-beast"
 
 startup = 41
-active = 41
+active = [41]
 damage = 1100
 postLandingRecovery = 5
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
@@ -1300,7 +1300,7 @@ hitCount = 1
 
 damage = 1000
 startup = 41
-active = 41
+active = [41]
 postLandingRecovery = 5
 superArt = 1000
 
@@ -1332,7 +1332,7 @@ parentSlug = "lightning-beast"
 
 damage = 1100
 startup = 41
-active = 41
+active = [41]
 postLandingRecovery = 5
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
@@ -2114,7 +2114,6 @@ type = "commandNormal"
 blockType = "high"
 input = "6hp"
 hitCount = 1
-properties = ["*"]
 
 damage = 1100
 startup = 18

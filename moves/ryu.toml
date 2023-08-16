@@ -205,7 +205,7 @@ abbeviation_ja = "屈弱P"
 characterId = 0
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "2lp"
 
 damage = 300
@@ -232,14 +232,14 @@ onPunishCounter = -2000
 [[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中P"
-alternativeNames = ["Crouching jab"]
+alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ中P"]
 slug = "ryu-crouch-medium-punch"
 abbreviation = "C.MP"
 abbeviation_ja = "屈中P"
 characterId = 0
 type = "normal"
-blockType = "low"
+blockType = "high"
 input = "2mp"
 hitCount = 1
 
@@ -263,7 +263,7 @@ onPunishCounter = -4000
 [[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強P"
-alternativeNames = ["Crouching strong"]
+alternativeNames = ["Crouching fierce"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "ryu-crouch-heavy-punch"
 abbreviation = "C.HP"
@@ -271,7 +271,7 @@ abbeviation_ja = "屈強P"
 characterId = 0
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "2hp"
 
 damage = 800
@@ -330,6 +330,8 @@ onPunishCounter = -2000
 [[moves]]
 name = "Crouching Medium Kick"
 name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
 slug = "ryu-crouch-medium-kick"
 abbreviation = "C.MK"
 abbeviation_ja = "屈中K"
@@ -361,7 +363,7 @@ onPunishCounter = -4000
 [[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強K"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Crouching roundhouse"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "ryu-crouch-heavy-kick"
 abbreviation = "C.HK"
@@ -393,7 +395,7 @@ onPunishCounter = -10000
 [[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱P"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Jumping forward"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "ryu-jump-light-punch"
 abbreviation = "J.LP"
@@ -419,6 +421,8 @@ onPunishCounter = -2000
 [[moves]]
 name = "Jumping Medium Punch"
 slug = "ryu-jump-medium-punch"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
 abbreviation = "J.MP"
 name_ja = "ジャンプ中P"
 abbeviation_ja = "ジャンプ中P"
@@ -446,14 +450,14 @@ onPunishCounter = -5000
 [[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強P"
-alternativeNames = ["Jumping roundhouse"]
+alternativeNames = ["Jumping fierce"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "ryu-jump-heavy-punch"
 abbreviation = "J.HP"
 abbeviation_ja = "ジャンプ強P"
 characterId = 0
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>hp"
 hitCount = 1
 
@@ -473,13 +477,15 @@ onPunishCounter = -5000
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小キック", "ジャンプコキック"]
 slug = "ryu-jump-light-kick"
 abbreviation = "J.LK"
-name_ja = "ジャンプ弱K"
 abbeviation_ja = "ジャンプ弱K"
 characterId = 0
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>lk"
 properties = ["canCrossUp"]
 hitCount = 1
@@ -509,7 +515,7 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 0
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mk"
 properties = ["canCrossUp"]
 
@@ -537,7 +543,7 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 0
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>hk"
 hitCount = 1
 

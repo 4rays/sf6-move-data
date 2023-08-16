@@ -109,7 +109,7 @@ input = "2lp"
 [[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中P"
-alternativeNames = ["Crouching jab"]
+alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ中P"]
 slug = "jamie-crouch-medium-punch"
 abbreviation = "C.MP"
@@ -124,7 +124,7 @@ input = "2mp"
 [[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強P"
-alternativeNames = ["Crouching strong"]
+alternativeNames = ["Crouching fierce"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "jamie-crouch-heavy-punch"
 abbreviation = "C.HP"
@@ -169,7 +169,7 @@ input = "2mk"
 [[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強K"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Crouching roundhouse"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "jamie-crouch-heavy-kick"
 abbreviation = "C.HK"
@@ -184,7 +184,7 @@ input = "2hk"
 [[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱P"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Jumping forward"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "jamie-jump-light-punch"
 abbreviation = "J.LP"
@@ -200,7 +200,7 @@ input = "j>lp"
 name = "Jumping Medium Punch"
 name_ja = "ジャンプ中P"
 alternativeNames = ["Jumping strong"]
-alternativeNames_ja = ["ジャンプ中P"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
 slug = "jamie-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
@@ -214,7 +214,7 @@ input = "j>mp"
 [[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強P"
-alternativeNames = ["Jumping roundhouse"]
+alternativeNames = ["Jumping fierce"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "jamie-jump-heavy-punch"
 abbreviation = "J.HP"
@@ -222,7 +222,7 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 2
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>hp"
 
 # Jumping Light Kick
@@ -237,7 +237,7 @@ abbeviation_ja = "ジャンプ弱K"
 characterId = 2
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lk"
 
 # Jumping Medium Kick
@@ -252,7 +252,7 @@ abbeviation_ja = "ジャンプ中K"
 characterId = 2
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mk"
 
 # Jumping Heavy Kick
@@ -267,7 +267,7 @@ abbeviation_ja = "ジャンプ強K"
 characterId = 2
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>hk"
 
 # Tensei Kick

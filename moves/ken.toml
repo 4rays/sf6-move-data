@@ -229,7 +229,7 @@ onPunishCounter = -2000
 [[moves]]
 name = "Crouching Medium Punch"
 name_ja = "しゃがみ中P"
-alternativeNames = ["Crouching jab"]
+alternativeNames = ["Crouching strong"]
 alternativeNames_ja = ["しゃがみ中P"]
 slug = "ken-crouch-medium-punch"
 abbreviation = "C.MP"
@@ -260,7 +260,7 @@ onPunishCounter = -4000
 [[moves]]
 name = "Crouching Heavy Punch"
 name_ja = "しゃがみ強P"
-alternativeNames = ["Crouching strong"]
+alternativeNames = ["Crouching fierce"]
 alternativeNames_ja = ["しゃがみ大パン"]
 slug = "ken-crouch-heavy-punch"
 abbreviation = "C.HP"
@@ -359,7 +359,7 @@ onPunishCounter = -4000
 [[moves]]
 name = "Crouching Heavy Kick"
 name_ja = "しゃがみ強K"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Crouching roundhouse"]
 alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
 slug = "ken-crouch-heavy-kick"
 abbreviation = "C.HK"
@@ -389,14 +389,14 @@ onPunishCounter = -10000
 [[moves]]
 name = "Jumping Light Punch"
 name_ja = "ジャンプ弱P"
-alternativeNames = ["Crouching forward"]
+alternativeNames = ["Jumping jab"]
 alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
 slug = "ken-jump-light-punch"
 abbreviation = "J.LP"
 abbeviation_ja = "ジャンプ弱P"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>lp"
 hitCount = 1
 
@@ -416,13 +416,13 @@ onPunishCounter = -2000
 name = "Jumping Medium Punch"
 name_ja = "ジャンプ中P"
 alternativeNames = ["Jumping strong"]
-alternativeNames_ja = ["ジャンプ中P"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
 slug = "ken-jump-medium-punch"
 abbreviation = "J.MP"
 abbeviation_ja = "ジャンプ中P"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
 hitCount = 1
 
@@ -442,7 +442,7 @@ onPunishCounter = -4000
 [[moves]]
 name = "Jumping Heavy Punch"
 name_ja = "ジャンプ強P"
-alternativeNames = ["Jumping roundhouse"]
+alternativeNames = ["Jumping fierce"]
 alternativeNames_ja = ["ジャンプ大パン"]
 slug = "ken-jump-heavy-punch"
 abbreviation = "J.HP"
@@ -450,7 +450,7 @@ abbeviation_ja = "ジャンプ強P"
 characterId = 7
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>hp"
 
 damage = 800
@@ -475,7 +475,7 @@ abbreviation = "J.LK"
 abbeviation_ja = "ジャンプ弱K"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>lk"
 hitCount = 1
 
@@ -503,7 +503,7 @@ abbreviation = "J.MK"
 abbeviation_ja = "ジャンプ中K"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "j>mk"
 hitCount = 1
 
@@ -530,7 +530,7 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "8hk"
 hitCount = 1
 
@@ -556,7 +556,7 @@ abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
 characterId = 7
 type = "normal"
-blockType = "high"
+blockType = "mid"
 input = "{7|9}+hk"
 hitCount = 1
 
