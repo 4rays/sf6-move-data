@@ -13,19 +13,17 @@ hitCount = 1
 blockType = "high"
 input = "5lp"
 
-damage = 300
 startup = 5
 active = [5, 7]
 recovery = 10
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
-hit = 4
+hit = 3
 block = -3
 
 [moves.driveGauge]
@@ -48,11 +46,11 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
-damage = 600
 startup = 10
 active = [10, 12]
 recovery = 15
 cancel = "SA"
+damage = 700
 superArt = 500
 
 [moves.frameAdvantage]
@@ -79,15 +77,15 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 properties = ["forcesStanding"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
 
-damage = 800
 startup = 10
 active = [10, 16]
 recovery = 22
 cancel = "C"
+damage = 800
 superArt = 1000
-notes = ["Forces opponent into a standing position"]
-notes_ja = ["強制立ち効果"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -112,19 +110,21 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 300
 startup = 4
 active = [4, 7]
 recovery = 7
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
 
 [moves.frameAdvantage]
-hit = 2
-block = -4
+hit = 5
+block = -2
 
 [moves.driveGauge]
 onHit = 250
@@ -145,12 +145,14 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5mk"
+notes = ["3 frames of recovery added when the attack misses"]
+notes_ja = ["※空振り時硬直3F増加"]
 
-damage = 600
 startup = 8
 active = [8, 10]
 recovery = 17
 cancel = "C"
+damage = 600
 superArt = 700
 
 [moves.frameAdvantage]
@@ -176,11 +178,16 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hk"
+notes = [
+  "Forces a juggle state when the attack lands as a counter or Punish Counter on a mid-air opponent",
+  "Forces the opponent into a standing position",
+]
+notes_ja = ["空中カウンター、空中パニッシュカウンター時吹き飛びダウン", "強制立ち効果"]
 
-damage = 800
 startup = 7
 active = [7, 15]
 recovery = 18
+damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -206,17 +213,17 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 300
 startup = 6
 active = [6, 8]
 recovery = 8
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -242,11 +249,11 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
-damage = 600
 startup = 9
 active = [9, 13]
 recovery = 16
 cancel = "C"
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -272,11 +279,16 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+notes = [
+  "Forces a juggle state when the attack lands as a Punish Counter",
+  "Forces the opponent into a standing position",
+]
+notes_ja = ["パニッシュカウンター時吹き飛びダウン", "強制立ち効果"]
 
-damage = 800
 startup = 15
 active = [15, 19]
 recovery = 20
+damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -302,16 +314,16 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 200
 startup = 5
 active = [5, 6]
 recovery = 10
+damage = 200
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -337,11 +349,11 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
-damage = 500
 startup = 8
 active = [8, 10]
 recovery = 16
 cancel = "C"
+damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
@@ -369,11 +381,16 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
 
-damage = 900
 startup = 11
 active = [11, 14]
 recovery = 23
+damage = 900
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -399,10 +416,10 @@ hitCount = 1
 blockType = "mid"
 input = "j>lp"
 
-damage = 300
 startup = 4
 active = [4, 8]
 postLandingRecovery = 3
+damage = 300
 superArt = 300
 
 [moves.driveGauge]
@@ -424,12 +441,14 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
 
-damage = 700
 startup = 7
 active = [7, 13]
 postLandingRecovery = 3
 cancel = "C"
+damage = 700
 superArt = 500
 
 [moves.driveGauge]
@@ -450,12 +469,39 @@ characterId = 8
 type = "normal"
 hitCount = 1
 blockType = "mid"
-input = "j>hp"
+input = "{7|9}>hp"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩き付けダウン"]
 
-damage = 800
 startup = 9
-active = [9, 14]
+active = [9]
 postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Neutral Jumping Heavy Punch
+name = "Neutral Jumping Heavy Punch"
+name_ja = "垂直ジャンプ強P"
+alternativeNames = ["Neutral jump fierce"]
+alternativeNames_ja = ["垂直ジャンプ大パン"]
+slug = "blanka-neutral-jump-heavy-punch"
+characterId = 8
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "8>hp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 9]
+postLandingRecovery = 3
+damage = 800
 superArt = 1000
 
 [moves.driveGauge]
@@ -478,10 +524,10 @@ hitCount = 1
 blockType = "mid"
 input = "j>lk"
 
-damage = 300
 startup = 5
 active = [5, 10]
 postLandingRecovery = 3
+damage = 300
 superArt = 300
 
 [moves.driveGauge]
@@ -504,14 +550,14 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
-damage = 500
 startup = 7
 active = [7, 12]
 postLandingRecovery = 3
+damage = 500
 superArt = 500
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -533,10 +579,10 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
-damage = 800
 startup = 11
 active = [11, 16]
 postLandingRecovery = 3
+damage = 800
 superArt = 1000
 
 [moves.driveGauge]
@@ -558,11 +604,11 @@ properties = ["knockdown"]
 notes = ["Hold down the button to continue that attack"]
 notes_ja = ["発動後にボタンホールドで延長可能"]
 
-damage = 800
 startup = 10
 active = [10, 11, 15, 16, 20, 21]
 recovery = 17
 cancel = "SA3"
+damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -588,11 +634,11 @@ notes = ["Hold down the button to continue that attack"]
 notes_ja = ["発動後にボタンホールドで延長可能"]
 parentSlug = "lightning-beast"
 
-damage = 900
 startup = 10
 active = [10, 11, 15, 16, 20, 21]
 recovery = 17
 cancel = "SA3"
+damage = 900
 
 [moves.frameAdvantage]
 block = -3
@@ -618,21 +664,21 @@ type = "special"
 blockType = "high"
 input = "214(pp)"
 hitCount = 1
+properties = ["knockdown"]
 notes = ["Hold down the button to continue that attack"]
 notes_ja = ["発動後にボタンホールドで延長可能"]
 
-damage = 1000
 startup = 10
 active = [10, 11, 15, 16, 17, 18]
 recovery = 17
 cancel = "SA2"
+damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
 block = 4
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -646,21 +692,21 @@ type = "special"
 blockType = "high"
 input = "214(pp)"
 hitCount = 1
+properties = ["knockdown"]
 notes = ["Hold down the button to continue that attack"]
 notes_ja = ["発動後にボタンホールドで延長可能"]
 parentSlug = "lightning-beast"
 
-damage = 1100
 startup = 10
 active = [10, 11, 15, 16, 17, 18]
 recovery = 17
 cancel = "SA2"
+damage = 1100
 
 [moves.frameAdvantage]
 block = 4
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -677,15 +723,15 @@ blockType = "high"
 input = "[4]>6lp"
 hitCount = 1
 properties = ["knockdown"]
+notes = ["Considered airborne from frames 10 - 23"]
+notes_ja = ["10-23F 空中判定"]
 
-damage = 1000
 startup = 10
 active = [10, 20]
 recovery = 11
 cancel = "SA3"
+damage = 1000
 superArt = 1000
-notes = ["Considered airborne from frames 10 - 23"]
-notes_ja = ["10-23F 空中判定"]
 
 [moves.frameAdvantage]
 block = -23
@@ -714,11 +760,11 @@ notes = [
 notes_ja = ["10-23F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
 parentSlug = "lightning-beast"
 
-damage = 1000
 startup = 10
 active = [10, 20]
 recovery = 11
 cancel = "SA3"
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -743,17 +789,19 @@ blockType = "high"
 input = "[4]>6mp"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 12 - 23",
+  "Juggle state time is extended when attack hits for a Punish Counter.",
+  "Can cancel into Level 3 Super Art until active frame 11",
+]
+notes_ja = ["12-32F 空中判定", "パニッシュカウンター時吹き飛び時間延長", "持続の11F目までSA3でキャンセル可"]
 
-damage = 1200
 startup = 12
 active = [12, 30]
 recovery = 11
 cancel = "SA3"
+damage = 1200
 superArt = 1000
-notes = [
-  "Considered airborne from frames 12 - 23. Juggle state time is extended when attack hits for a Punish Counter. Can cancel into Level 3 Super Art until active frame 11",
-]
-notes_ja = ["12-32F 空中判定 パニッシュカウンター時吹き飛び時間延長 持続の11F目までSA3でキャンセル可"]
 
 [moves.frameAdvantage]
 block = -23
@@ -774,20 +822,25 @@ blockType = "high"
 input = "[4]>6mp"
 hitCount = 1
 properties = ["knockdown"]
-
 notes = [
-  "Considered airborne from frames 12 - 32",
+  "Considered airborne from frames 12 - 23",
   "Consumes 100 of the Super Art 2 timer",
+  "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["12-32F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "12-32F 空中判定",
+  "SA2タイマー100消費",
+  "パニッシュカウンター時吹き飛び時間延長",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
-damage = 1300
 startup = 12
 active = [12, 30]
 recovery = 11
 cancel = "SA3"
+damage = 1300
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -812,17 +865,21 @@ blockType = "high"
 input = "[4]>6hp"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 20 - 42",
+  "Juggle state time is extended when attack hits for a Punish Counter.",
+  "Can cancel into Level 3 Super Art until active frame 6",
+]
+notes_ja = ["20-42F 空中判定", "パニッシュカウンター時吹き飛び時間延長", "持続の6F目までSA3でキャンセル可"]
 
-damage = 1300
 startup = 22
 active = [22, 41]
 recovery = 26
 cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
-notes = [
-  "Considered airborne from frames 20 - 42. Juggle state time is extended when attack hits for a Punish Counter. Can cancel into Level 3 Super Art until active frame 6",
-]
-notes_ja = ["20-42F 空中判定 パニッシュカウンター時吹き飛び時間延長 持続の6F目までSA3でキャンセル可"]
 
 [moves.frameAdvantage]
 block = -15
@@ -846,16 +903,22 @@ properties = ["knockdown"]
 notes = [
   "Considered airborne from frames 20 - 42",
   "Consumes 100 of the Super Art 2 timer",
+  "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["20-42F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "20-42F 空中判定",
+  "SA2タイマー100消費",
+  "パニッシュカウンター時吹き飛び時間延長",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
-damage = 1400
-startup = 20
-active = [20, 41]
+startup = 22
+active = [22, 41]
 recovery = 26
 cancel = "SA3"
+damage = 1400
 scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正20%", "即時補正10%"]
 
@@ -864,7 +927,7 @@ block = -21
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -7500
+onBlock = -10000
 onPunishCounter = -5000
 
 # Rolling Attack (OD)
@@ -878,23 +941,25 @@ blockType = "high"
 input = "[4]>6(pp)"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 18 - 40",
+  "Can cancel into Level 3 Super Art until active frame 2",
+]
+notes_ja = ["18-40F 空中判定", "持続の2F目までSA2、SA3でキャンセル可"]
 
-damage = 800
 startup = 18
 active = [18, 39]
 recovery = 17
 cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
-notes = [
-  "Considered airborne from frames 18 - 40. Can cancel into Level 3 Super Art until active frame 2",
-]
-notes_ja = ["18-40F 空中判定 持続の2F目までSA2、SA3でキャンセル可"]
 
 [moves.frameAdvantage]
 block = -7
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -10000
 onPunishCounter = -5000
 
@@ -917,10 +982,10 @@ notes = [
 notes_ja = ["18-40F 空中判定", "SA2タイマー100消費", "ガード時ローリングキャノンへ派生可"]
 parentSlug = "lightning-beast"
 
-damage = 900
 startup = 18
 active = [18, 39]
 recovery = 17
+damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 
@@ -928,8 +993,7 @@ scaling_ja = ["始動補正20%"]
 block = -7
 
 [moves.driveGauge]
-onHit = 0
-onBlock = -7500
+onBlock = -10000
 onPunishCounter = -5000
 
 # Vertical Rolling Attack (Light)
@@ -945,17 +1009,18 @@ blockType = "high"
 input = "[2]>8lk"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
 
-damage = 1200
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1200
 superArt = 1000
-notes = [
-  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
-]
-notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
 
 [moves.frameAdvantage]
 block = -27
@@ -975,6 +1040,7 @@ type = "special"
 blockType = "high"
 input = "[2]>8lk"
 hitCount = 1
+properties = ["knockdown"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
@@ -987,14 +1053,13 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-properties = ["knockdown"]
 parentSlug = "lightning-beast"
 
-damage = 1300
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1300
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1017,19 +1082,20 @@ characterId = 8
 type = "special"
 blockType = "high"
 input = "[2]>8mk"
-properties = ["knockdown"]
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
 
-damage = 1300
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1300
 superArt = 1000
-notes = [
-  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
-]
-notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
 
 [moves.frameAdvantage]
 block = -27
@@ -1049,6 +1115,7 @@ type = "special"
 blockType = "high"
 input = "[2]>8mk"
 hitCount = 1
+properties = ["knockdown"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
@@ -1061,14 +1128,13 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-properties = ["knockdown"]
 parentSlug = "lightning-beast"
 
-damage = 1400
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1400
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1093,17 +1159,18 @@ blockType = "high"
 input = "[2]>8hk"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 6 - 57",
+  "Invincible to mid-air attacks from frames 8 - 26",
+]
+notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
 
-damage = 1400
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1400
 superArt = 1000
-notes = [
-  "Considered airborne from frames 6 - 57. Invincible to mid-air attacks from frames 8 - 26",
-]
-notes_ja = ["6-57F 空中判定 8-26F 空中判定の攻撃に対して無敵"]
 
 [moves.frameAdvantage]
 block = -27
@@ -1123,6 +1190,7 @@ type = "special"
 blockType = "high"
 input = "[2]>8hk"
 hitCount = 1
+properties = ["knockdown"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
@@ -1135,14 +1203,13 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-properties = ["knockdown"]
 parentSlug = "lightning-beast"
 
-damage = 1500
 startup = 8
 active = [8, 27]
 recovery = 31
 postLandingRecovery = 17
+damage = 1500
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1172,23 +1239,23 @@ input = "[2]>8(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Considered airborne from frames 4 - 53. Completely invincible to attacks from frames 1 - 10",
+  "Considered airborne from frames 4 - 53",
+  "Completely invincible to attacks from frames 1 - 10",
 ]
-notes_ja = ["4-53F 空中判定 1-10F 完全無敵"]
+notes_ja = ["4-53F 空中判定", "1-10F 完全無敵"]
 
-damage = 1600
 startup = 7
+active = [7, 14, 17, 22]
 recovery = 31
 postLandingRecovery = 17
+damage = 1600
 superArt = 1000
 
 [moves.frameAdvantage]
 block = -40
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
-onPunishCounter = 0
 
 # [Lightning Beast] Vertical Rolling Attack (OD)
 [[moves]]
@@ -1210,20 +1277,20 @@ notes = [
 notes_ja = ["SA2タイマー100消費", "ヒット時ローリングキャノンへ派生可", "4-53F 空中判定", "1-10F 完全無敵"]
 parentSlug = "lightning-beast"
 
-damage = 1700
 startup = 7
+active = [7, 14, 17, 22]
 recovery = 31
 postLandingRecovery = 17
+damage = 1750
 scaling = ["Starter scaling 40%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正40%", "即時補正10%"]
+superArt = 1000
 
 [moves.frameAdvantage]
 block = -40
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
-onPunishCounter = 0
 
 # Backstep Rolling Attack (Light)
 [[moves]]
@@ -1239,8 +1306,9 @@ input = "63214lk"
 hitCount = 1
 
 startup = 41
-damage = 1000
+active = [41]
 postLandingRecovery = 5
+damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -1271,8 +1339,8 @@ parentSlug = "lightning-beast"
 
 startup = 41
 active = [41]
-damage = 1100
 postLandingRecovery = 5
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1298,10 +1366,10 @@ blockType = "high"
 input = "63214mk"
 hitCount = 1
 
-damage = 1000
 startup = 41
 active = [41]
 postLandingRecovery = 5
+damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -1330,10 +1398,10 @@ notes = [
 notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
 parentSlug = "lightning-beast"
 
-damage = 1100
 startup = 41
 active = [41]
 postLandingRecovery = 5
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1359,6 +1427,7 @@ input = "63214hk"
 hitCount = 1
 
 startup = 41
+active = [41]
 postLandingRecovery = 5
 damage = 1000
 superArt = 1000
@@ -1390,6 +1459,7 @@ notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリング
 parentSlug = "lightning-beast"
 
 startup = 41
+active = [41]
 postLandingRecovery = 5
 damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
@@ -1420,24 +1490,24 @@ type = "special"
 blockType = "high"
 input = "63214(pp)"
 hitCount = 1
+notes = [
+  "First attack produces a juggle state knockdown",
+  "Can be canceled into Level 2 or 3 Super Art until the 3rd active frame of the first attack",
+]
+notes_ja = ["初段ヒット時吹き飛びダウン", "初段の持続3F目までSA2、SA3でキャンセル可"]
 
-damage = 1000
 startup = 8
 active = [8, 12, 41, 61, 63, 66]
 postLandingRecovery = 4
 cancel = "SA2"
+damage = 1000
 superArt = 1000
-notes = [
-  "First attack produces a juggle state knockdown. Can be canceled into Level 2 or 3 Super Art until the 3rd active frame of the first attack",
-]
-notes_ja = ["初段ヒット時吹き飛びダウン 初段の持続3F目までSA2、SA3でキャンセル可"]
 
 [moves.frameAdvantage]
 hit = 10
 block = 6
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -10000
 onPunishCounter = -5000
 
@@ -1451,18 +1521,19 @@ type = "special"
 blockType = "high"
 input = "63214(pp)"
 hitCount = 1
+parentSlug = "lightning-beast"
 notes = [
+  "First attack produces a juggle state knockdown",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon when the rotating part hits or is blocked",
 ]
-notes_ja = ["SA2タイマー100消費", "回転部分のヒット、ガード時ローリングキャノンへ派生可"]
-parentSlug = "lightning-beast"
+notes_ja = ["初段ヒット時吹き飛びダウン", "SA2タイマー100消費", "回転部分のヒット、ガード時ローリングキャノンへ派生可"]
 
-damage = 1200
 startup = 8
 active = [8, 12, 41, 61, 63, 66]
 postLandingRecovery = 4
 cancel = "SA2"
+damage = 1200
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1471,7 +1542,6 @@ hit = 10
 block = 6
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -10000
 onPunishCounter = -5000
 
@@ -1487,13 +1557,14 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6lp"
 hitCount = 1
-properties = ["canCrossUp"]
+properties = ["knockdown", "canCrossUp"]
 notes = ["Has cross-up attack properties"]
 notes_ja = ["めくり性能"]
 
-damage = 1000
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1000
 superArt = 1000
 
 [moves.driveGauge]
@@ -1511,17 +1582,19 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6lp"
 hitCount = 1
+parentSlug = "lightning-beast"
+properties = ["knockdown"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
 notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-parentSlug = "lightning-beast"
 
-damage = 1100
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1542,13 +1615,14 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6mp"
 hitCount = 1
-properties = ["canCrossUp"]
+properties = ["knockdown", "canCrossUp"]
 notes = ["Has cross-up attack properties"]
 notes_ja = ["めくり性能"]
 
-damage = 1000
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1000
 superArt = 1000
 
 [moves.driveGauge]
@@ -1566,17 +1640,19 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6mp"
 hitCount = 1
+parentSlug = "lightning-beast"
+properties = ["knockdown"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
 notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-parentSlug = "lightning-beast"
 
-damage = 1100
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1597,13 +1673,14 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6hp"
 hitCount = 1
-properties = ["canCrossUp"]
+properties = ["knockdown", "canCrossUp"]
 notes = ["Has cross-up attack properties"]
 notes_ja = ["めくり性能"]
 
-damage = 1000
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1000
 superArt = 1000
 
 [moves.driveGauge]
@@ -1621,17 +1698,19 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6hp"
 hitCount = 1
+parentSlug = "lightning-beast"
+properties = ["knockdown", "canCrossUp"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
 notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-parentSlug = "lightning-beast"
 
-damage = 1100
 startup = 13
+active = [13]
 postLandingRecovery = 17
+damage = 1100
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
@@ -1652,17 +1731,17 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6(pp)"
 hitCount = 1
-properties = ["canCrossUp"]
-
-damage = 1200
-startup = 13
-postLandingRecovery = 10
-superArt = 1300
+properties = ["knockdown", "canCrossUp"]
 notes = ["Has cross-up attack properties"]
 notes_ja = ["めくり性能"]
 
+startup = 13
+active = [13]
+postLandingRecovery = 10
+damage = 1200
+superArt = 1300
+
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1676,22 +1755,23 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6(pp)"
 hitCount = 1
+parentSlug = "lightning-beast"
+properties = ["knockdown", "canCrossUp"]
 notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
 notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-parentSlug = "lightning-beast"
 
-damage = 1400
 startup = 13
+active = [13]
 postLandingRecovery = 10
+damage = 1400
 scaling = ["Starter scaling 10%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正10%", "即時補正10%"]
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1706,18 +1786,18 @@ characterId = 8
 type = "commandThrow"
 input = "236lk"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 26"]
+notes_ja = ["9-26F 空中判定", "パニッシュカウンター時個別ダメージ（1840）"]
 
-damage = 1600
 startup = 34
 active = [34, 36]
 recovery = 57
+damage = 1600
 superArt = 3000
-notes = ["Considered airborne from frames 9 - 26"]
-notes_ja = ["9-26F 空中判定"]
 
 [moves.driveGauge]
 onHit = 5000
-onBlock = 0
 onPunishCounter = -10000
 
 # Wild Hunt (Medium)
@@ -1731,18 +1811,18 @@ characterId = 8
 type = "commandThrow"
 input = "236mk"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 14 - 36"]
+notes_ja = ["14-36F 空中判定", "パニッシュカウンター時個別ダメージ（1955）"]
 
-damage = 1700
 startup = 39
 active = [39, 41]
 recovery = 57
+damage = 1700
 superArt = 3000
-notes = ["Considered airborne from frames 14 - 36"]
-notes_ja = ["14-36F 空中判定"]
 
 [moves.driveGauge]
 onHit = 5000
-onBlock = 0
 onPunishCounter = -10000
 
 # Wild Hunt (Heavy)
@@ -1756,18 +1836,18 @@ characterId = 8
 type = "commandThrow"
 input = "236hk"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 18 - 36"]
+notes_ja = ["18-36F 空中判定", "パニッシュカウンター時個別ダメージ（2070）"]
 
-damage = 1800
 startup = 43
 active = [43, 45]
 recovery = 57
+damage = 1800
 superArt = 3000
-notes = ["Considered airborne from frames 18 - 36"]
-notes_ja = ["18-36F 空中判定"]
 
 [moves.driveGauge]
 onHit = 5000
-onBlock = 0
 onPunishCounter = -10000
 
 # Wild Hunt (OD)
@@ -1781,18 +1861,17 @@ characterId = 8
 type = "commandThrow"
 input = "236(pp)"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 36"]
+notes_ja = ["9-28F 空中判定", "パニッシュカウンター時個別ダメージ（2300）"]
 
-damage = 2000
 startup = 32
 active = [32, 34]
 recovery = 57
+damage = 2000
 superArt = 3000
-notes = ["Considered airborne from frames 9 - 28"]
-notes_ja = ["9-28F 空中判定"]
 
 [moves.driveGauge]
-onHit = 0
-onBlock = 0
 onPunishCounter = -10000
 
 # Blanka-chan Bomb
@@ -1803,18 +1882,18 @@ slug = "blanka-chan-bomb"
 characterId = 8
 type = "special"
 input = "22*p"
-
-totalFrames = 50
 notes = [
-  "Disappears 1000 frames after landing on the ground.",
-  " Works as a projectile attack when activated by any special moves that produces electricity or comes in contact with a Super Art until the 1000th frame.",
-  "The trajectory of the thrown doll changes if it touches the edge of the screen.",
+  "Disappears 1000 frames after landing on the ground",
+  "Works as a projectile attack when activated by any special moves that produces electricity or comes in contact with a Super Art until the 1000th frame",
+  "The trajectory of the thrown doll changes if it touches the edge of the screen",
 ]
 notes_ja = [
   "人形の接地後1000F経過で消滅",
   "1000F間に電撃を発する必殺技、SAを接触させると人形が飛び道具攻撃として起動する",
   "投擲した人形がステージ端に接触時、跳ね返りによる軌道変化",
 ]
+
+totalFrames = 50
 
 [moves.driveGauge]
 onHit = 0
@@ -1833,30 +1912,29 @@ input = "236236*p"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Completely invincible on the 1st frame.",
-  "Invincible to strikes and throws from frame 2 to frame 8.",
-  "Values do not change when the attack lands as a counter or Punish Counter.",
-  "The minimum guaranteed damage is 30%.",
+  "Completely invincible from frame 1",
+  "Invincible to strikes and throws from frames 2 - 10",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "1F 完全無敵 2-8F",
-  "打撃・投げに対して無敵",
-  "カウンター/パニッシュカウンターで数値が変動しない",
+  "1F 完全無敵",
+  "2-10F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
+  "カウンター/パニッシュカウンターで数値が変動しない",
 ]
 
-damage = 2000
 startup = 8
 active = [8, 16]
-totalFrames = 87
+totalFrames = 78
+damage = 2000
 
 [moves.frameAdvantage]
 block = -29
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = 5000
-onPunishCounter = 5000
+onBlock = -2500
+onPunishCounter = -5000
 
 # [Lightning Beast] Shout of Earth
 [[moves]]
@@ -1868,33 +1946,32 @@ type = "super1"
 blockType = "high"
 input = "236236*pp"
 hitCount = 1
+parentSlug = "lightning-beast"
 properties = ["knockdown"]
 notes = [
-  "Completely invincible on the 1st frame.",
-  "Invincible to strikes and throws from frame 2 to frame 8.",
-  "Values do not change when the attack lands as a counter or Punish Counter.",
-  "The minimum guaranteed damage is 30%.",
+  "Completely invincible from frame 1",
+  "Invincible to strikes and throws from frames 2 - 10",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "1F 完全無敵 2-8F",
-  "打撃・投げに対して無敵",
-  "カウンター/パニッシュカウンターで数値が変動しない",
+  "1F 完全無敵",
+  "2-10F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
+  "カウンター/パニッシュカウンターで数値が変動しない",
 ]
-parentSlug = "lightning-beast"
 
-damage = 2200
-active = [8, 16]
 startup = 8
-totalFrames = 87
+active = [8, 16]
+totalFrames = 78
+damage = 2200
 
 [moves.frameAdvantage]
 block = -29
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = 5000
-onPunishCounter = 5000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Lightning Beast
 [[moves]]
@@ -1904,24 +1981,28 @@ slug = "lightning-beast"
 characterId = 8
 type = "super2"
 input = "214214*p"
-
-totalFrames = 10
 notes = [
-  "Super Art 2 timer is set to 1500.",
-  "Changes the properties of special moves except for Wild Hunt while active.",
-  "Allows any Rolling-type attack to cancel into Rolling Cannon while active.",
-  "Allows the following attacks to be cancel into without any directional charge: Rolling Attack, Vertical Rolling Attack, Aerial Rolling Attack.",
+  "Super Art 2 timer is set to 1500",
+  "Changes the properties of special moves except for Wild Hunt while active",
+  "Allows any Rolling-type attack to cancel into Rolling Cannon while active",
+  "Allows the following attacks to be cancel into without any directional charge",
+  "- Rolling Attack",
+  "- Vertical Rolling Attack",
+  "- Aerial Rolling Attack",
 ]
 notes_ja = [
-  "SA2タイマー1500 発動中、ワイルドハント以外の必殺技が性質変化",
+  "SA2タイマー1500",
+  "発動中、ワイルドハント以外の必殺技が性質変化",
   "発動中、ローリング系必殺技から「ローリングキャノン」が派生可能になる",
-  "発動中、以下の技をキャンセル発動時に溜め無しで発動可能 ・ローリングアタック ・バーチカルローリング ・エリアルローリング",
+  "発動中、以下の技をキャンセル発動時に溜め無しで発動可能",
+  "・ローリングアタック",
+  "・バーチカルローリング",
+  "・エリアルローリング",
 ]
 
-[moves.driveGauge]
-onHit = 0
-onBlock = 0
-onPunishCounter = 0
+totalFrames = 10
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 
 # Ground Shave Cannonball
 [[moves]]
@@ -1933,19 +2014,12 @@ type = "super3"
 blockType = "high"
 input = "236236*p"
 hitCount = 1
-
-damage = 4000
-startup = 10
-active = [10, 12]
-recovery = 61
-scaling = ["Immediate scaling 10%"]
-scaling_ja = ["即時補正10%"]
-superArt = 0
+properties = ["knockdown"]
 notes = [
-  "Completely invincible from frames 1 - 12.",
-  "Minimum guaranteed damage is set to 50%.",
-  "Values do not change on counter or Punish Counter.",
-  "Note: Can only be canceled into from special moves.",
+  "Completely invincible from frames 1 - 12",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Can only be canceled into from special moves",
 ]
 notes_ja = [
   "1-12F 完全無敵",
@@ -1954,12 +2028,18 @@ notes_ja = [
   "※必殺技キャンセル時のみ適用",
 ]
 
+startup = 10
+active = [10, 12]
+recovery = 61
+damage = 4000
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+
 [moves.frameAdvantage]
 block = -46
 
 [moves.driveGauge]
-onHit = -7500
-onBlock = -15000
+onBlock = -7500
 onPunishCounter = -15000
 
 # Ground Shave Cannonball (Critical Art)
@@ -1972,19 +2052,12 @@ type = "super3"
 blockType = "high"
 input = "236236*p"
 hitCount = 1
-
-damage = 4500
-startup = 10
-active = [10, 12]
-recovery = 61
-scaling = ["Immediate scaling 10%"]
-scaling_ja = ["即時補正10%"]
-superArt = 0
+properties = ["knockdown"]
 notes = [
-  "Completely invincible from frames 1 - 12.",
-  "Minimum guaranteed damage is set to 50%.",
-  "Values do not change on counter or Punish Counter.",
-  "Note: Can only be canceled into from special moves.",
+  "Completely invincible from frames 1 - 12",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Can only be canceled into from special moves",
 ]
 notes_ja = [
   "1-12F 完全無敵",
@@ -1993,12 +2066,18 @@ notes_ja = [
   "※必殺技キャンセル時のみ適用",
 ]
 
+startup = 10
+active = [10, 12]
+recovery = 61
+damage = 4500
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+
 [moves.frameAdvantage]
 block = -46
 
 [moves.driveGauge]
-onHit = -10000
-onBlock = -20000
+onBlock = -10000
 onPunishCounter = -20000
 
 # Rolling Cannon
@@ -2011,14 +2090,14 @@ type = "special"
 blockType = "high"
 input = "d+*p"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["Can transition into any Rolling-style attack a maximum of 3 times"]
+notes_ja = ["ローリング系必殺技から最大3回連続で派生可能", "めくり性能"]
 
-damage = 400
 startup = 3
 active = [3, 27]
-postLandingRecovery = 9
-superArt = 0
-notes = ["Can transition into any Rolling-style attack a maximum of 3 times"]
-notes_ja = ["ローリング系必殺技から最大3回連続で派生可能"]
+recovery = 9
+damage = 400
 
 [moves.driveGauge]
 onHit = 1000
@@ -2036,10 +2115,10 @@ blockType = "high"
 input = "6mk"
 hitCount = 1
 
-damage = 600
 startup = 20
 active = [20, 22]
 recovery = 20
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -2062,10 +2141,10 @@ blockType = "high"
 input = "6mk"
 hitCount = 1
 
-damage = 600
 startup = 9
-active = []
+active = [9, 11, 19, 20]
 recovery = 18
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -2088,11 +2167,11 @@ blockType = "high"
 input = "4mk"
 hitCount = 1
 
-damage = 600
 startup = 9
 active = [9, 14]
 recovery = 12
 cancel = "C"
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -2115,18 +2194,28 @@ blockType = "high"
 input = "6hp"
 hitCount = 1
 
-damage = 1100
+properties = ["knockdown"]
+notes = [
+  "Can transition to Coward Crouch between frames 33 - 34",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Produces a crumple stun if the opponent is standing on the ground",
+  "- Forces a floor bound if the attack hits a mid-air opponent",
+]
+notes_ja = [
+  "※33-34F フィアーダウンへ派生可",
+  "パニッシュカウンターで以下の性能変化",
+  "・地上ヒット時膝崩れ",
+  "・空中ヒット時床バウンド",
+]
+
 startup = 18
 active = [18, 21]
 recovery = 31
+cancel = "*"
+damage = 1100
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-notes = [
-  "Can transition to Coward Crouch between frames 33 - 34.",
-  "Properties change to the following when the attack lands as a Punish Counter: - Produces a crumple stun if the opponent is standing on the ground - Forces a floor bound if the attack hits a mid-air opponent",
-]
-notes_ja = ["※33-34F フィアーダウンへ派生可", "パニッシュカウンターで以下の性能変化 ・地上ヒット時膝崩れ ・空中ヒット時床バウンド"]
 
 [moves.frameAdvantage]
 block = -15
@@ -2147,14 +2236,14 @@ blockType = "high"
 input = "3hp"
 hitCount = 1
 properties = ["knockdown"]
+notes = ["Forces a Hard Knockdown on Punish Counter"]
+notes_ja = ["パニッシュカウンター時ハードノックダウン"]
 
-damage = 1000
 startup = 14
 active = [14, 23]
 recovery = 22
+damage = 1000
 superArt = 1000
-notes = ["Forces a Hard Knockdown on Punish Counter"]
-notes_ja = ["パニッシュカウンター時ハードノックダウン"]
 
 [moves.frameAdvantage]
 block = -18
@@ -2172,12 +2261,10 @@ slug = "coward-crouch"
 characterId = 8
 type = "action"
 input = "c(pp)"
-
-totalFrames = 98
 notes = [
-  "Hold down on the stick during the move to continue the technique for 48 more frames.",
-  "During the crouch, press up on the stick to cancel the technique.",
-  "Can transition to Surprise Forward Hop or Surprise Backward Hop from frames 18 - 111 (longest time).",
+  "Hold down on the stick during the move to continue the technique for 48 more frames",
+  "During the crouch, press up on the stick to cancel the technique",
+  "Can transition to Surprise Forward Hop or Surprise Backward Hop from frames 18 - 111 (longest time)",
 ]
 notes_ja = [
   "動作中に下方向入力を続けた場合伏せ部分の動作を48F延長可",
@@ -2185,10 +2272,7 @@ notes_ja = [
   "18F-111F(最延長時) 専用技及びサプライズフォワード、サプライズバックへ派生可",
 ]
 
-[moves.driveGauge]
-onHit = 0
-onBlock = 0
-onPunishCounter = 0
+totalFrames = 98
 
 # Wild Lift
 [[moves]]
@@ -2200,11 +2284,12 @@ type = "followUp"
 input = "*p"
 parentSlug = "coward-crouch"
 hitCount = 1
+properties = ["knockdown"]
 
-damage = 600
 startup = 8
 active = [8, 14]
 recovery = 31
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -2224,19 +2309,14 @@ characterId = 8
 type = "followUp"
 input = "*k"
 parentSlug = "coward-crouch"
-
-recovery = 43
-postLandingRecovery = 12
 notes = [
-  "Considered airborne from frames 9 - 43.",
-  "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43.",
+  "Considered airborne from frames 9 - 43",
+  "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43",
 ]
 notes_ja = ["9-43F 空中判定", "15-43F 空中での通常技及び必殺技へ派生可"]
 
-[moves.driveGauge]
-onHit = 0
-onBlock = 0
-onPunishCounter = 0
+recovery = 43
+postLandingRecovery = 12
 
 # Surprise Forward Hop
 [[moves]]
@@ -2246,15 +2326,10 @@ slug = "surprise-forward-hop"
 characterId = 8
 type = "action"
 input = "6(kkk)"
-
-totalFrames = 27
 notes = ["Can be canceled into any special-canceable normal or unique attack"]
 notes_ja = ["必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
 
-[moves.driveGauge]
-onHit = 0
-onBlock = 0
-onPunishCounter = 0
+totalFrames = 27
 
 # Surprise Back Hop
 [[moves]]
@@ -2264,18 +2339,13 @@ slug = "surprise-back-hop"
 characterId = 8
 type = "action"
 input = "4(kkk)"
-
-totalFrames = 32
 notes = [
-  "Considered airborne from frames 11 - 21.",
+  "Considered airborne from frames 11 - 21",
   "Can be canceled into any special-canceable normal or unique attack",
 ]
 notes_ja = ["11-21F 空中判定", "必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
 
-[moves.driveGauge]
-onHit = 0
-onBlock = 0
-onPunishCounter = 0
+totalFrames = 32
 
 # Wild Fang
 [[moves]]
@@ -2288,28 +2358,25 @@ characterId = 8
 type = "throw"
 input = "(lplk)"
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
-damage = 1200
 startup = 5
 active = [5, 7]
 recovery = 23
+damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-notes = [
-  """Properties change to the following when the attack lands as a Punish Counter:
-- Deals 2040 damage  
-- Super Art gauge increases by 4000
-- Forces a hard knockdown""",
-]
-notes_ja = ["""パニッシュカウンター時以下の性能変化
-・ダメージ2040
-・SAゲージ4000増加
-・ハードノックダウン"""]
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = 0
 onPunishCounter = -10000
 
 # Jungle Flip
@@ -2323,28 +2390,25 @@ characterId = 8
 type = "throw"
 input = "(4lplk)"
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
-damage = 1200
 startup = 5
 active = [5, 7]
 recovery = 23
+damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-notes = [
-  """Properties change to the following when the attack lands as a Punish Counter:
-- Deals 2040 damage
-- Super Art gauge increases by 4000  
-- Forces a hard knockdown""",
-]
-notes_ja = ["""パニッシュカウンター時以下の性能変化
-・ダメージ2040  
-・SAゲージ4000増加
-・ハードノックダウン"""]
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = 0
 onPunishCounter = -10000
 
 # Wild Bites
@@ -2358,24 +2422,20 @@ characterId = 8
 type = "throw"
 input = "j>(lplk)"
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
-damage = 1200
 startup = 5
 active = [5, 7]
-recovery = 23
+damage = 1200
 superArt = 2000
-notes = [
-  """Properties change to the following when the attack lands as a Punish Counter:
-- Deals 2040 damage
-- Super Art gauge increases by 4000
-- Forces a hard knockdown""",
-]
-notes_ja = ["""パニッシュカウンター時以下の性能変化  
-・ダメージ2040
-・SAゲージ4000増加
-・ハードノックダウン"""]
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = 0
 onPunishCounter = -10000

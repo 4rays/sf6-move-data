@@ -12,17 +12,17 @@ type = "normal"
 blockType = "high"
 input = "5lp"
 hitCount = 1
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 300
 startup = 4
 active = [4, 6]
 recovery = 7
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -48,11 +48,11 @@ blockType = "high"
 input = "5mp"
 hitCount = 1
 
-damage = 600
 startup = 6
 active = [6, 9]
 recovery = 11
 cancel = "C"
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
@@ -79,15 +79,15 @@ blockType = "high"
 input = "5hp"
 hitCount = 1
 properties = ["forcesStanding"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
 
-damage = 800
 startup = 10
 active = [10, 14]
 recovery = 18
 cancel = "C"
+damage = 800
 superArt = 1000
-notes = ["Forces opponent into a standing position"]
-notes_ja = ["強制立ち効果"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -113,11 +113,11 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
-amage = 300
 startup = 5
 active = [5, 7]
 recovery = 11
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
@@ -146,10 +146,10 @@ blockType = "high"
 input = "5mk"
 hitCount = 1
 
-damage = 700
 startup = 9
 active = [9, 11]
 recovery = 18
+damage = 700
 superArt = 500
 
 [moves.frameAdvantage]
@@ -176,13 +176,22 @@ blockType = "high"
 input = "5hk"
 hitCount = 1
 
-damage = 900
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Produces a crumple stun for 36 frames when the attack lands as a Punish Counter",
+  "Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter",
+]
+notes_ja = [
+  "空中ヒット時吹き飛びダウン",
+  "パニッシュカウンター時に膝崩れダウンに ＋36",
+  "空中ヒットでパニッシュカウンター時吹き飛び時間延長",
+]
+
 startup = 12
 active = [12, 15]
 recovery = 20
+damage = 900
 superArt = 1000
-notes = ["Forces a juggle state when hitting a mid-air opponent Produces a crumple stun for 36 frames when the attack lands as a Punish Counter Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter"]
-notes_ja = ["空中ヒット時吹き飛びダウンパニッシュカウンター時に膝崩れダウンに+36空中ヒットでパニッシュカウンター時吹き飛び時間延長"]
 
 [moves.frameAdvantage]
 hit = 9
@@ -207,17 +216,17 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 300
 startup = 4
 active = [4, 5]
 recovery = 9
 cancel = "C"
+damage = 300
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -243,21 +252,21 @@ blockType = "high"
 input = "2mp"
 hitCount = 1
 
-damage = 600
 startup = 6
 active = [6, 8]
 recovery = 14
 cancel = "C"
+damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
 hit = 5
-block = 0
 
 [moves.driveGauge]
 onHit = 1500
 onBlock = -3000
 onPunishCounter = -4000
+
 
 # Crouching Heavy Punch
 [[moves]]
@@ -273,15 +282,19 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+notes = [
+  "Can only be canceled on the 1st active frame if the attack hits",
+  "After the 2nd active frame this move deals only 700 damage",
+  "Forces the opponent into a standing position",
+]
+notes_ja = ["キャンセルは持続の1F目がヒットした時のみ", "持続2F目以降はダメージが700", "強制立ち効果"]
 
-damage = 800
 startup = 9
 active = [9, 14]
 recovery = 22
 cancel = "C"
+damage = 800
 superArt = 1000
-notes = ["Can only be canceled on the 1st active frame if the attack hits After the 2nd active frame this move deals only 700 damage Forces opponent into a standing position"]
-notes_ja = ["キャンセルは持続の1F目がヒットした時のみ持続2F目以降はダメージが700強制立ち効果"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -306,16 +319,16 @@ type = "normal"
 blockType = "low"
 input = "2lk"
 hitCount = 1
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
 
-damage = 200
 startup = 5
 active = [5, 6]
 recovery = 10
+damage = 200
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -341,11 +354,11 @@ blockType = "low"
 input = "2mk"
 hitCount = 1
 
-damage = 500
 startup = 8
 active = [8, 10]
 recovery = 19
 cancel = "C"
+damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
@@ -372,16 +385,18 @@ characterId = 0
 type = "normal"
 blockType = "low"
 input = "2hk"
-properties = ["knockdown"]
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
-damage = 900
 startup = 9
 active = [9, 11]
 recovery = 23
+damage = 900
 superArt = 1000
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
-notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 [moves.frameAdvantage]
 block = -12
@@ -406,10 +421,10 @@ blockType = "mid"
 input = "j>lp"
 hitCount = 1
 
-damage = 300
 startup = 4
 active = [4, 13]
 postLandingRecovery = 3
+damage = 300
 superArt = 300
 
 [moves.driveGauge]
@@ -431,15 +446,15 @@ type = "normal"
 blockType = "midHigh"
 input = "j>mp"
 hitCount = 2
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
 
-damage = 700
 startup = 8
 active = [8, 12]
 postLandingRecovery = 3
 cancel = "C"
+damage = 700
 superArt = 500
-notes = ["Forces a juggle state when hitting a mid-air opponent"]
-notes_ja = ["空中ヒット時吹き飛びダウン"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -460,14 +475,16 @@ type = "normal"
 blockType = "mid"
 input = "j>hp"
 hitCount = 1
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
 
-damage = 800
 startup = 9
 active = [9, 14]
 postLandingRecovery = 3
+damage = 800
 superArt = 1000
-notes = ["Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"]
-notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -489,14 +506,14 @@ blockType = "mid"
 input = "j>lk"
 properties = ["canCrossUp"]
 hitCount = 1
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
-damage = 300
 startup = 6
 active = [6, 15]
 postLandingRecovery = 3
+damage = 300
 superArt = 300
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
 
 [moves.driveGauge]
 onHit = 500
@@ -518,14 +535,14 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
-damage = 500
 startup = 7
 active = [7, 12]
 postLandingRecovery = 3
+damage = 500
 superArt = 500
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -547,10 +564,10 @@ blockType = "mid"
 input = "j>hk"
 hitCount = 1
 
-damage = 800
 startup = 12
 active = [12, 19]
 postLandingRecovery = 3
+damage = 800
 superArt = 1000
 
 [moves.driveGauge]
@@ -569,10 +586,11 @@ blockType = "high"
 input = "6mp"
 hitCount = 2
 
-damage = 600
 startup = 20
 active = [2, 23]
 recovery = 19
+damage = 600
+superArt = 500
 
 [moves.frameAdvantage]
 hit = 2
@@ -594,12 +612,17 @@ blockType = "high"
 input = "6hp"
 hitCount = 2
 
-damage = 800
 startup = 20
 active = [20, 24]
 recovery = 16
+damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 6
+block = 1
 
 [moves.driveGauge]
 onHit = 2500
@@ -619,16 +642,20 @@ characterId = 0
 type = "commandNormal"
 blockType = "high"
 input = "4hp"
-properties = ["forcesStanding"]
 hitCount = 1
+properties = ["forcesStanding"]
+notes = [
+  "Can only be canceled on the 1st active frame if the attack hits",
+  "Forces the opponent into a standing position",
+]
+notes_ja = ["キャンセルは持続の1F目がヒットした時のみ", "強制立ち効果"]
 
-damage = 800
 startup = 7
 active = [7, 10]
 recovery = 26
 cancel = "C"
-notes = ["Can only be canceled on the 1st active frame if the attack hits Forces opponent into a standing position"]
-notes_ja = ["キャンセルは持続の1F目がヒットした時のみ強制立ち効果"]
+damage = 800
+superArt = 1000
 
 [moves.frameAdvantage]
 hit = 1
@@ -648,16 +675,16 @@ characterId = 0
 type = "commandNormal"
 blockType = "high"
 input = "6hk"
-cancel = "*"
 hitCount = 1
+notes = ["Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku"]
+notes_ja = ["※OD空中竜巻旋風脚でのみキャンセル可能"]
 
-damage = 800
 startup = 16
 active = [16, 19]
 recovery = 20
+cancel = "*"
+damage = 800
 superArt = 1000
-notes = ["Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku"]
-notes_ja = ["OD空中竜巻旋風脚でのみキャンセル可能"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -678,15 +705,15 @@ type = "commandNormal"
 blockType = "high"
 input = "4hk"
 hitCount = 2
+notes = ["First attack Forces the opponent into a standing position"]
+notes_ja = ["1段目強制立ち効果"]
 
-damage = 800
 startup = 10
 active = [10, 14, 20, 23]
 recovery = 21
-superArt = 1000
 cancel = "C"
-notes = ["First attack Forces opponent into a standing position"]
-notes_ja = ["1段目強制立ち効果"]
+damage = 800
+superArt = 1000
 
 [moves.frameAdvantage]
 hit = 0
@@ -709,10 +736,10 @@ input = "5hp>5hk"
 properties = ["knockdown"]
 hitCount = 2
 
-damage = 1000
 startup = 9
 active = [9, 12]
 recovery = 20
+damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -721,7 +748,6 @@ block = -8
 [moves.driveGauge]
 onHit = 2500
 onBlock = -7000
-onPunishCounter = 0
 
 # Fuwa Triple Strike (2)
 [[moves]]
@@ -734,10 +760,10 @@ blockType = "high"
 input = "5mp>5lk"
 hitCount = 2
 
-damage = 300
 startup = 5
 active = [5, 7]
 recovery = 16
+damage = 300
 superArt = 500
 
 [moves.frameAdvantage]
@@ -761,10 +787,10 @@ input = "5mp>5lk>5hk"
 hitCount = 3
 properties = ["knockdown"]
 
-damage = 900
 startup = 17
 active = [17, 20]
 recovery = 20
+damage = 900
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -773,7 +799,6 @@ block = -8
 [moves.driveGauge]
 onHit = 2500
 onBlock = -3000
-onPunishCounter = 0
 
 # Hadoken (Light)
 [[moves]]
@@ -788,10 +813,10 @@ blockType = "high"
 input = "236lp"
 hitCount = 1
 
-damage = 600
 startup = 16
 totalFrames = 47
 cancel = "SA3"
+damage = 600
 superArt = 600
 
 [moves.frameAdvantage]
@@ -816,10 +841,10 @@ blockType = "high"
 input = "236mp"
 hitCount = 1
 
-damage = 600
 startup = 14
 totalFrames = 47
 cancel = "SA3"
+damage = 600
 superArt = 600
 
 [moves.frameAdvantage]
@@ -844,10 +869,10 @@ blockType = "high"
 input = "236hp"
 hitCount = 1
 
-damage = 600
 startup = 12
 totalFrames = 47
 cancel = "SA3"
+damage = 600
 superArt = 600
 
 [moves.frameAdvantage]
@@ -873,19 +898,18 @@ input = "236(pp)"
 hitCount = 2
 properties = ["knockdown"]
 
-damage = 800
 startup = 12
 totalFrames = 40
 cancel = "SA2"
-scaling = ["Starter scaling 20%", "Combo scaling 20%"]
-scaling_ja = ["始動補正20%", "コンボ補正20%"]
+damage = 800
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
 
 [moves.frameAdvantage]
 block = -1
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -2500
 onPunishCounter = -5000
 
@@ -904,12 +928,12 @@ hitCount = 2
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
-damage = 800
 startup = 12
 totalFrames = 42
 cancel = "SA3"
-scaling = ["Starter scaling 20%", "Combo scaling 20%"]
-scaling_ja = ["始動補正20%", "コンボ補正20%"]
+damage = 800
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
 
 [moves.frameAdvantage]
@@ -935,20 +959,20 @@ hitCount = 3
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
-damage = 1000
 startup = 12
 totalFrames = 38
 cancel = "SA2"
-scaling = ["Starter scaling 20%", "Combo scaling 20%"]
-scaling_ja = ["始動補正20%", "コンボ補正20%"]
+damage = 1000
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 900
 
 [moves.frameAdvantage]
 block = 2
 
 [moves.driveGauge]
-onHit = 3750
-onBlock = -7000
+onBlock = 3750
+onPunishCounter = -7000
 
 # Shoryuken (Light)
 [[moves]]
@@ -963,18 +987,22 @@ hitCount = 1
 blockType = "high"
 input = "623lp"
 properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 14",
+  "Considered airborne from frames 7 - 34",
+  "Note: After the 3rd active frame this move deals only 800 damage",
+]
+notes_ja = ["1-14F 空中判定の攻撃に対して無敵", "7-34F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
 
-damage = 1100
 startup = 5
 active = [5, 14]
 recovery = 21
 postLandingRecovery = 12
 cancel = "SA3"
+damage = 1100
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-notes = ["Invincible to mid-air attacks from frames 1 - 14. Considered airborne from frames 7 - 34. Note: After the 3rd active frame this move deals only 800 damage"]
-notes_ja = ["1-14F 空中判定の攻撃に対して無敵 7-34F 空中判定 ※持続の3F目以降は個別ダメージ(800)"]
 
 [moves.frameAdvantage]
 block = -23
@@ -997,18 +1025,23 @@ blockType = "high"
 input = "623mp"
 hitCount = 1
 
-damage = 1200
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 9",
+  "Considered airborne from frames 8 - 44",
+  "Note: After the 3rd active frame this move deals only 800 damage",
+]
+notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-44F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
+
 startup = 6
 active = [6, 15]
 recovery = 30
 postLandingRecovery = 12
 cancel = "SA3"
+damage = 1200
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-notes = ["Invincible to mid-air attacks from frames 1 - 9. Considered airborne from frames 8 - 44. Note: After the 3rd active frame this move deals only 800 damage"]
-notes_ja = ["1-9F 空中判定の攻撃に対して無敵 8-44F 空中判定 ※持続の3F目以降は個別ダメージ(800)"]
-properties = ["knockdown"]
 
 [moves.frameAdvantage]
 block = -32
@@ -1031,18 +1064,22 @@ blockType = "high"
 input = "623hp"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 8.",
+  "Considered airborne from frames 9 - 49.",
+  "Note: After the 2nd active frame this move deals only 800 damage.",
+]
+notes_ja = ["1-8F 空中判定の攻撃に対して無敵", "9-49F 空中判定", "※持続の2F目以降は個別ダメージ（800）"]
 
-damage = 1400
 startup = 7
 active = [7, 16]
 recovery = 34
 postLandingRecovery = 15
 cancel = "SA3"
+damage = 1400
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-notes = ["Invincible to mid-air attacks from frames 1 - 8.  Considered airborne from frames 9 - 49. Note: After the 2nd active frame this move deals only 800 damage."]
-notes_ja = ["1-8F 空中判定の攻撃に対して無敵 9-49F 空中判定 ※持続の2F目以降は個別ダメージ(800)"]
 
 [moves.frameAdvantage]
 block = -39
@@ -1065,22 +1102,24 @@ blockType = "high"
 input = "623(pp)"
 hitCount = 2
 properties = ["knockdown"]
+notes = [
+  "Completely invincible from frames 1 - 10.",
+  "Considered airborne from frames 8 - 51.",
+]
+notes_ja = ["1-10F 完全無敵", "8-51F 空中判定"]
 
-damage = 1600
 startup = 6
 active = [6, 7, 8, 15]
 recovery = 37
 postLandingRecovery = 15
+damage = 1600
 superArt = 1000
-notes = ["Completely invincible from frames 1 - 10. Considered airborne from frames 8 - 51."]
-notes_ja = ["1-10F 完全無敵 8-51F 空中判定"]
 
 [moves.frameAdvantage]
 block = -40
 
 [moves.driveGauge]
-onHit = -2000
-onBlock = 0
+onBlock = -2000
 
 # Tatsumaki Senpu-kyaku (Light)
 [[moves]]
@@ -1095,15 +1134,15 @@ blockType = "high"
 input = "214lk"
 hitCount = 1
 properties = ["knockdown"]
+notes = ["Considered airborne from frames 5 - 28."]
+notes_ja = ["5-28F 空中判定"]
 
-damage = 800
 startup = 12
 active = [12, 14]
 recovery = 14
 postLandingRecovery = 18
+damage = 800
 superArt = 1000
-notes = ["Considered airborne from frames 5 - 28"]
-notes_ja = ["5-28F 空中判定"]
 
 [moves.frameAdvantage]
 block = -15
@@ -1126,16 +1165,18 @@ blockType = "high"
 input = "214mk"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 8 - 41.",
+  "Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit.",
+]
+notes_ja = ["8-41F 空中判定"]
 
-damage = 900
 startup = 14
 active = [14, 15, 29, 30]
 recovery = 11
 postLandingRecovery = 20
-
+damage = 900
 superArt = 1000
-notes = ["Considered airborne from frames 8 - 41. Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit."]
-notes_ja = ["8-41F 空中判定。SAゲージ増加値とガードドライブゲージ増加値は1ヒットごとの値。"]
 
 [moves.frameAdvantage]
 block = -13
@@ -1158,15 +1199,18 @@ blockType = "high"
 input = "214hk"
 hitCount = 3
 properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 10 - 61.",
+  "Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit.",
+]
+notes_ja = ["10-61F 空中判定"]
 
-damage = 1000
 startup = 16
 active = [16, 17, 31, 32, 46, 47]
 recovery = 14
 postLandingRecovery = 17
+damage = 1000
 superArt = 1000
-notes = ["Considered airborne from frames 10 - 61. Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit."]
-notes_ja = ["10-61F 空中判定。SAゲージ増加値とガードドライブゲージ増加値は1ヒットごとの値。"]
 
 [moves.frameAdvantage]
 block = -13
@@ -1190,19 +1234,19 @@ input = "214(kk)"
 hitCount = 5
 properties = ["knockdown"]
 
-damage = 1000
 startup = 13
 active = [13, 14, 19, 20, 25, 26, 30, 31, 36, 37]
 recovery = 10
 postLandingRecovery = 13
+damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
 block = -14
 
 [moves.driveGauge]
-onHit = -4000
-onBlock = -5000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerial Tatsumaki Senpu-kyaku
 [[moves]]
@@ -1218,10 +1262,10 @@ input = "9>214*k"
 properties = ["canCrossUp", "knockdown"]
 hitCount = 3
 
-damage = 900
 startup = 11
 active = [11, 12, 18, 19, 26, 27]
 postLandingRecovery = 16
+damage = 900
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 600
@@ -1243,17 +1287,17 @@ type = "special"
 blockType = "high"
 input = "9>214(kk)"
 hitCount = 4
+properties = ["knockdown"]
 
-damage = 1500
 startup = 11
 active = [11, 12, 14, 16, 18, 20, 22, 24, 27, 28]
 postLandingRecovery = 16
+damage = 1500
 scaling = ["Combo scaling 25%"]
 scaling_ja = ["コンボ補正25%"]
 superArt = 600
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1271,11 +1315,11 @@ input = "236lk"
 hitCount = 1
 properties = ["knockdown"]
 
-damage = 1000
 startup = 15
 active = [15, 23]
 recovery = 22
 cancel = "SA3"
+damage = 1000
 superArt = 1200
 
 [moves.frameAdvantage]
@@ -1300,11 +1344,11 @@ input = "236mk"
 hitCount = 1
 properties = ["knockdown"]
 
-damage = 1100
 startup = 18
 active = [18, 26]
 recovery = 19
 cancel = "SA3"
+damage = 1100
 superArt = 1200
 
 [moves.frameAdvantage]
@@ -1328,15 +1372,15 @@ blockType = "high"
 input = "236hk"
 hitCount = 1
 properties = ["knockdown"]
+notes = ["Juggle state time is extended when attack lands as a Punish Counter."]
+notes_ja = ["パニッシュカウンター時吹き飛び時間延長"]
 
-damage = 1300
 startup = 29
 active = [29, 37]
 recovery = 16
 cancel = "SA3"
+damage = 1300
 superArt = 1200
-notes = ["Juggle state time is extended when attack lands as a Punish Counter"]
-notes_ja = ["パニッシュカウンター時吹き飛び時間延長"]
 
 [moves.frameAdvantage]
 block = -5
@@ -1360,11 +1404,11 @@ input = "236(kk)"
 hitCount = 1
 properties = ["knockdown"]
 
-damage = 800
 startup = 18
 active = [18, 22]
 recovery = 33
 cancel = "SA2"
+damage = 800
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1200
@@ -1373,7 +1417,6 @@ superArt = 1200
 block = -18
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1389,14 +1432,17 @@ type = "special"
 blockType = "high"
 input = "214lp"
 hitCount = 1
+notes = [
+  "Forces a juggle state when the attack lands as a counter or Punish Counter.",
+]
+notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
 
-damage = 700
 startup = 12
 active = [12, 17]
 recovery = 18
+cancel = "SA3"
+damage = 700
 superArt = 800
-notes = ["Forces a juggle state when the attack lands as a counter or Punish Counter"]
-notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1419,14 +1465,17 @@ type = "special"
 blockType = "high"
 input = "214mp"
 hitCount = 1
+notes = [
+  "Forces a juggle state when the attack lands as a counter or Punish Counter.",
+]
+notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
 
-damage = 800
 startup = 19
 active = [19, 24]
 recovery = 17
+cancel = "SA3"
+damage = 800
 superArt = 800
-notes = ["Forces a juggle state when the attack lands as a counter or Punish Counter"]
-notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1450,18 +1499,20 @@ blockType = "high"
 input = "214hp"
 hitCount = 2
 properties = ["knockdown"]
+notes = ["Produces a crumple stun for 39 frames when the attack lands."]
+notes_ja = ["ヒット時に膝崩れダウンに＋39"]
 
-damage = 800
-startup = 30
-active = [30, 34, 35]
+startup = 18
+active = [18, 23]
 recovery = 19
+cancel = "SA2"
+damage = 600
 superArt = 1100
 
 [moves.frameAdvantage]
-block = 2
+block = 4
 
 [moves.driveGauge]
-onHit = 2000
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1478,13 +1529,13 @@ blockType = "high"
 input = "214(pp)"
 hitCount = 2
 
-damage = 900
 startup = 18
 active = [18, 22]
 recovery = 20
 cancel = "SA2"
-scaling = ["Combo scaling 20%"]
-scaling_ja = ["コンボ補正20%"]
+damage = 900
+scaling = ["Combo scaling 20％"]
+scaling_ja = ["コンボ補正20％"]
 superArt = 900
 
 [moves.frameAdvantage]
@@ -1492,7 +1543,6 @@ hit = 3
 block = 3
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1509,10 +1559,11 @@ hitCount = 2
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 
-damage = 800
 startup = 21
 active = [21, 25, 26]
 recovery = 18
+cancel = "SA3"
+damage = 800
 superArt = 1100
 
 [moves.frameAdvantage]
@@ -1523,35 +1574,34 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -5000
 
-# Denjin Hashogeki (OD)
+# [Denjin Charge] Hashogeki (OD)
 [[moves]]
-name = "Denjin Hashogeki (OD)"
-name_ja = "電刃波掌撃 (OD)"
+name = "[Denjin Charge] Hashogeki (OD)"
+name_ja = "[電刃錬気]波掌撃 (OD)"
 alternativeNames = ["OD Denjin Hashogeki", "EX Denjin Hashogeki"]
 alternativeNames_ja = ["OD 電刃波掌撃", "EX 電刃波掌撃"]
-slug = "denjin-hashogeki-od"
+slug = "denjin-charge-hashogeki-od"
 characterId = 0
 type = "special"
 blockType = "high"
 input = "214(pp)"
 hitCount = 1
 properties = ["stockDecrement", "knockdown"]
+notes = ["Produces a crumple stun for 39 frames when the attack lands."]
+notes_ja = ["ヒット時に膝崩れダウンに＋39"]
 parentSlug = "denjin-charge"
 
-damage = 600
 startup = 18
 active = [18, 23]
 recovery = 19
 cancel = "SA2"
+damage = 600
 superArt = 1100
-notes = ["Produces a crumple stun for 39 frames when the attack lands"]
-notes_ja = ["ヒット時に膝崩れダウンに+39"]
 
 [moves.frameAdvantage]
 block = 4
 
 [moves.driveGauge]
-onHit = 0
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -1566,19 +1616,28 @@ hitCount = 5
 blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
+notes = [
+  "Completely invincible on the 1st frame.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 30%.",
+]
+notes_ja = [
+  "1F 完全無敵",
+  "2-8F 打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30％",
+]
 
-damage = 2000
 startup = 8
 totalFrames = 87
-notes = ["Completely invincible on the 1st frame. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 30%."]
-notes_ja = ["1F 完全無敵 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ30%"]
+damage = 2000
 
 [moves.frameAdvantage]
 block = -24
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = 5000
+onBlock = 2500
 onPunishCounter = 5000
 
 # [Denjin Charge] Shinku Hadoken
@@ -1591,21 +1650,30 @@ type = "super1"
 blockType = "high"
 input = "236236*p"
 hitCount = 4
-properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Completely invincible on the 1st frame.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 30%.",
+]
+notes_ja = [
+  "1F 完全無敵",
+  "2-8F 打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30％",
+]
 
-damage = 2400
 startup = 8
 totalFrames = 87
-notes = ["Completely invincible on the 1st frame. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 30%."]
-notes_ja = ["1F 完全無敵  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ30%"]
+damage = 2400
 
 [moves.frameAdvantage]
 block = -24
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = 5000
+onBlock = 2500
 onPunishCounter = 5000
 
 # Shin Hashogeki (Level 1)
@@ -1619,20 +1687,34 @@ blockType = "high"
 input = "214214*p"
 hitCount = 1
 properties = ["armorBreak", "knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 13.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-13F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 2600
 startup = 12
 active = [12, 17]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 13. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-13F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 2600
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 4000
-onBlock = -10000
+onBlock = 4000
 onPunishCounter = -10000
 
 # Shin Hashogeki (Level 2)
@@ -1646,20 +1728,34 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 9.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-9F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 2800
 startup = 20
 active = [20, 25]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 9. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵  カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 2800
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 6000
-onBlock = -10000
+onBlock = 6000
 onPunishCounter = -10000
 
 # Shin Hashogeki (Level 3)
@@ -1673,20 +1769,34 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 9.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-9F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 3000
 startup = 70
 active = [70, 75]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 9. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-9F 完全無敵  ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 3000
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 10000
-onBlock = -10000
+onBlock = 10000
 onPunishCounter = -10000
 
 # [Denjin Charge] Shin Hashogeki (Level 1)
@@ -1701,20 +1811,34 @@ blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
+notes = [
+  "Completely invincible from frame 1 to frame 9.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-9F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 3000
 startup = 12
 active = [12, 17]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 9. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-9F 完全無敵 ボタンをホールドする事で性能変化  8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 3000
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 4000
-onBlock = -10000
+onBlock = 4000
 onPunishCounter = -10000
 
 # [Denjin Charge] Shin Hashogeki (Level 2)
@@ -1729,20 +1853,34 @@ blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
+notes = [
+  "Completely invincible from frame 1 to frame 9.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-9F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 3200
 startup = 20
 active = [20, 25]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 9. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動  38F以上ボタンを押して離すとLv3が発動 2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 3200
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 6000
-onBlock = -10000
+onBlock = 6000
 onPunishCounter = -10000
 
 # [Denjin Charge] Shin Hashogeki (Level 3)
@@ -1757,20 +1895,34 @@ blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
+notes = [
+  "Completely invincible from frame 1 to frame 9.",
+  "Hold down the button to change the properties of this move.",
+  "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
+  "Changes to Level 3 version if the button is held for more than 38 frames and then released.",
+  "Invincible to strikes and throws from frame 2 to frame 8.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 40%.",
+]
+notes_ja = [
+  "1-9F 完全無敵",
+  "ボタンをホールドする事で性能変化",
+  "8F以上ボタンを押して離すとLv2が発動",
+  "38F以上ボタンを押して離すとLv3が発動",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
 
-damage = 3400
 startup = 70
 active = [70, 75]
 recovery = 39
-notes = ["Completely invincible from frame 1 to frame 9. Hold down the button to change the properties of this move. Changes to Level 2 version if the button is held for more than 8 frames and then released. Changes to Level 3 version if the button is held for more than 38 frames and then released. Invincible to strikes and throws from frame 2 to frame 8. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 40%."]
-notes_ja = ["1-9F 完全無敵 ボタンをホールドする事で性能変化 8F以上ボタンを押して離すとLv2が発動 38F以上ボタンを押して離すとLv3が発動  2-8F 打撃・投げに対して無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ40%"]
+damage = 3400
 
 [moves.frameAdvantage]
 block = -20
 
 [moves.driveGauge]
-onHit = 10000
-onBlock = -10000
+onBlock = 10000
 onPunishCounter = -10000
 
 # Shin Shoryuken
@@ -1784,22 +1936,31 @@ blockType = "high"
 input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 16.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 50%.",
+  "Note: Can only be canceled into from special moves.",
+]
+notes_ja = [
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 
-damage = 4000
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
-scaling = ["Immediate scaling 10%"]
-scaling_ja = ["即時補正10%"]
-notes = ["Completely invincible from frame 1 to frame 16. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 50%. Note: Can only be canceled into from special moves."]
-notes_ja = ["1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない  最低保障ダメージ50% ※必殺技キャンセル時のみ適用"]
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
 
 [moves.frameAdvantage]
 block = -52
 
 [moves.driveGauge]
-onHit = -7500
-onBlock = -15000
+onBlock = -7500
 onPunishCounter = -15000
 
 # Shin Shoryuken (Critical Art)
@@ -1813,22 +1974,31 @@ blockType = "high"
 input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 16.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 50%.",
+  "Note: Can only be canceled into from special moves.",
+]
+notes_ja = [
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 
-damage = 4500
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
-scaling = ["Immediate scaling 10%"]
-scaling_ja = ["即時補正10%"]
-notes = ["Completely invincible from frame 1 to frame 16. Values do not change when the attack lands as a counter or Punish Counter. The minimum guaranteed damage is 50%. Note: Can only be canceled into from special moves."]
-notes_ja = ["1-16F 完全無敵 カウンター/パニッシュカウンターで数値が変動しない 最低保障ダメージ50% ※必殺技キャンセル時のみ適用"]
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
 
 [moves.frameAdvantage]
 block = -52
 
 [moves.driveGauge]
-onHit = -10000
-onBlock = -20000
+onBlock = -10000
 onPunishCounter = -20000
 
 # Shoulder Throw
@@ -1843,26 +2013,24 @@ type = "throw"
 hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
-damage = 1200
 startup = 5
 active = [5, 7]
 recovery = 23
+damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-notes = ["""Properties change to the following when the attack lands as a Punish Counter:
-- Deals 2040 damage
-- Super Art gauge increases by 4000
-- Forces a hard knockdown"""]
-notes_ja = ["""パニッシュカウンター時以下の性能変化
-・ダメージ2040
-・SAゲージ4000増加
-・ハードノックダウン"""]
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = 0
 onPunishCounter = -10000
 
 # Somersault Throw
@@ -1877,26 +2045,24 @@ type = "throw"
 hitCount = 1
 input = "(4lplk)"
 properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
-damage = 1200
 startup = 5
 active = [5, 7]
 recovery = 23
+damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-notes = ["""Properties change to the following when the attack lands as a Punish Counter:  
-- Deals 2040 damage
-- Super Art gauge increases by 4000
-- Forces a hard knockdown"""]
-notes_ja = ["""パニッシュカウンター時以下の性能変化
-・ダメージ2040
-・SAゲージ4000増加 
-・ハードノックダウン"""]
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = 0
 onPunishCounter = -10000
 
 # Denjin Charge
@@ -1908,8 +2074,10 @@ characterId = 0
 type = "special"
 input = "22*p"
 properties = ["stockIncrement"]
+notes = [
+  "Denjin Charge stock added on the 51st frame. Only 1 Denjin Charge stock can be held at a time.",
+  "Hadoken, Hashogeki, Shinku Hadoken, and Shin Hashogeki’s properties are enhanced when a Denjin Charge is held.",
+]
+notes_ja = ["51F目で電刃錬気を1つストック ※1までストック可能", "波動拳、波衝撃、真空波動拳、真波衝撃の性能が強化される"]
 
 totalFrames = 52
-superArt = 0
-notes = ["Denjin Charge stock added on the 51st frame. Only 1 Denjin Charge stock can be held at a time. Hadoken, Hashogeki, Shinku Hadoken, and Shin Hashogeki's properties are enhanced when a Denjin Charge is held."]
-notes_ja = ["51F目で電刃錬気を1つストック ※1までストック可能 波動拳、波衝撃、真空波動拳、真波衝撃の性能が強化される"]
