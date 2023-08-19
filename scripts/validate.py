@@ -192,13 +192,16 @@ moves_path = os.path.join(os.path.dirname(__file__), "../moves")
 for filename in os.listdir(moves_path):
     if filename.endswith(".toml"):
         with open(os.path.join(moves_path, filename)) as move_file:
-            moves = toml.load(move_file)
-            for move in moves["moves"]:
-                print("Validating {}...".format(filename))
-                if not validate(move, filename):
-                    exit(1)
-                else:
-                    print("✅ {} validated!".format(filename))
+            try:
+                moves = toml.load(move_file)
+                for move in moves["moves"]:
+                    if not validate(move, filename):
+                        exit(1)
+                    else:
+                        print("✅ {} - {} validated!".format(filename, move["name"]))
+            except toml.decoder.TomlDecodeError as e:
+                print("❗ Validation error for {}: {}".format(filename, e))
+                exit(1)
 
 # Validate that move slugs are unique
 slugs = []

@@ -485,6 +485,7 @@ onBlock = -4000
 onPunishCounter = -5000
 
 # Neutral Jumping Heavy Punch
+[[moves]]
 name = "Neutral Jumping Heavy Punch"
 name_ja = "垂直ジャンプ強P"
 alternativeNames = ["Neutral jump fierce"]
