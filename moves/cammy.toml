@@ -12,8 +12,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +48,21 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 6
+active = [6, 9]
+recovery = 13
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 6
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -45,6 +78,22 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 
+startup = 8
+active = [8, 10]
+recovery = 20
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
+
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
@@ -57,8 +106,26 @@ abbeviation_ja = "立ち弱K"
 characterId = 17
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "5lk"
+
+startup = 5
+active = [5, 7]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Kick
 [[moves]]
@@ -72,8 +139,23 @@ abbeviation_ja = "立ち中K"
 characterId = 17
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "5mk"
+
+startup = 8
+active = [8, 10]
+recovery = 18
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Standing Heavy Kick
 [[moves]]
@@ -87,8 +169,28 @@ abbeviation_ja = "立ち強K"
 characterId = 17
 type = "normal"
 hitCount = 1
-blockType = "low"
+blockType = "high"
 input = "5hk"
+notes = [
+  "Forces a juggle state on Punish Counter",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["パニッシュカウンター時吹き飛びダウン", "空振り時のみ硬直が2F増加"]
+
+startup = 11
+active = [11, 13]
+recovery = 21
+damage = 900
+superArt = 1200
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Crouching Light Punch
 [[moves]]
@@ -104,6 +206,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 5]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +242,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 7
+active = [7, 9]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -135,6 +273,21 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 
+startup = 10
+active = [10, 13]
+recovery = 15
+damage = 700
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 7
+block = 1
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -8000
+
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
@@ -149,6 +302,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 7
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +337,24 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 8
+active = [8, 10]
+recovery = 18
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +369,27 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = [
+  "Forces a Hard Knock Down when hitting an opponent on the ground",
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["地上ヒット時ハードノックダウン", "カウンター/パニッシュカウンター時ダウン時間延長", "空中ヒット時吹き飛びダウン"]
+
+startup = 9
+active = [9, 11]
+recovery = 24
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -192,8 +403,19 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 17
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lp"
+
+startup = 4
+active = [4, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Punch
 [[moves]]
@@ -207,8 +429,22 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 17
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 6
+active = [6, 13]
+postLandingRecovery = 3
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1200
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -224,6 +460,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩きつけダウン"]
+
+startup = 8
+active = [8, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -7000
 
 # Jumping Light Kick
 [[moves]]
@@ -239,6 +488,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 4
+active = [4, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -254,6 +516,16 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+damage = 600
+superArt = 700
+
+[moves.driveGauge]
+onHit = 1200
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -270,6 +542,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -7000
+
 # Lift Uppercut
 [[moves]]
 name = "Lift Uppercut"
@@ -281,6 +564,22 @@ hitCount = 1
 blockType = "high"
 input = "4mp"
 
+startup = 5
+active = [5, 9]
+recovery = 12
+cancel = "C"
+damage = 500
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Delayed Ripper
 [[moves]]
 name = "Delayed Ripper"
@@ -291,6 +590,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hk"
+properties = ["knockdown"]
+notes = ["Increase juggle state time when attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛び時間増加"]
+
+startup = 18
+active = [18, 20]
+recovery = 25
+cancel = "C"
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Assault Blade
 [[moves]]
@@ -302,6 +621,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hp"
+properties = ["knockdown"]
+notes = ["Can only be canceled into a jump if the attack hits"]
+notes_ja = ["ヒット時のみジャンプキャンセル可能"]
+
+startup = 9
+active = [9, 11]
+recovery = 18
+cancel = "C"
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -7
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -10000
 
 # Lift Combination
 [[moves]]
@@ -313,6 +652,24 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "4mp>6hk"
+properties = ["knockdown"]
+notes = ["Can only be canceled into a jump if the attack hits"]
+notes_ja = ["ヒット時のみジャンプキャンセル可能"]
+
+startup = 9
+active = [9, 11]
+recovery = 23
+cancel = "C"
+damage = 600
+superArt = 700
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -7000
 
 # Swing Combination
 [[moves]]
@@ -324,22 +681,64 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "4hp>6hk"
+properties = ["knockdown"]
+notes = ["Only the first hit can be canceled into a special move"]
+notes_ja = ["1段目のみ必殺技キャンセル可能"]
+
+startup = 13
+active = [13, 15, 29, 31]
+recovery = 29
+cancel = "C"
+damage = 800
+scaling = ["Combo scaling 15%"]
+scaling_ja = ["コンボ補正15%"]
+superArt = 1500
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -7000
+onPunishCounter = -8000
 
 # Spiral Arrow (Light)
 [[moves]]
 name = "Spiral Arrow (Light)"
 name_ja = "スパイラルアロー（弱）"
+alternativeNames = ["L Spiral Arrow"]
+alternativeNames_ja = ["弱 スパイラルアロー"]
 slug = "spiral-arrow-light"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "236lk"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 24"]
+notes_ja = ["9-24F 空中判定"]
+url = "https://www.streetfighter.com/6/assets/images/character/cammy/skill/movie/501.mp4"
+
+startup = 9
+active = [9, 21]
+recovery = 21
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Spiral Arrow (Medium)
 [[moves]]
 name = "Spiral Arrow (Medium)"
 name_ja = "スパイラルアロー（中）"
+alternativeNames = ["M Spiral Arrow"]
+alternativeNames_ja = ["中 スパイラルアロー"]
 slug = "spiral-arrow-medium"
 characterId = 17
 type = "special"
@@ -347,100 +746,312 @@ hitCount = 1
 blockType = "high"
 input = "236mk"
 
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 26"]
+notes_ja = ["9-26F 空中判定"]
+
+startup = 9
+active = [9, 23]
+recovery = 21
+damage = 900
+superArt = 800
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Spiral Arrow (Heavy)
 [[moves]]
 name = "Spiral Arrow (Heavy)"
 name_ja = "スパイラルアロー（強）"
+alternativeNames = ["H Spiral Arrow"]
+alternativeNames_ja = ["強 スパイラルアロー"]
 slug = "spiral-arrow-heavy"
 characterId = 17
 type = "special"
 hitCount = 2
 blockType = "high"
 input = "236hk"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = ["Considered airborne from frames 18 - 33"]
+notes_ja = ["18-33F 空中判定"]
+
+startup = 15
+active = [15, 17, 19, 30]
+recovery = 21
+cancel = "SA3"
+damage = 1000
+superArt = 800
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2600
+onBlock = -5000
+onPunishCounter = -5000
 
 # Spiral Arrow (Charged)
 [[moves]]
 name = "Spiral Arrow (Charged)"
-name_ja = "スパイラルアロー（溜め）"
+name_ja = "スパイラルアロー（ホールド）"
 slug = "spiral-arrow-charged"
 characterId = 17
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "236hk"
+input = "236+[hk]"
+properties = ["knockdown"]
+notes = [
+  "Hold the button for more than 16 frames to change its properties",
+  "Considered airborne from frames 30 - 45",
+]
+notes_ja = ["16F以上ホールドすると性能変化", "30-45F 空中判定"]
+
+startup = 27
+active = [27, 29, 31, 33, 34, 36, 37, 39, 40, 42]
+recovery = 20
+cancel = "SA3"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -5000
 
 # Spiral Arrow (OD)
 [[moves]]
 name = "Spiral Arrow (OD)"
 name_ja = "スパイラルアロー（OD）"
+alternativeNames = ["OD Spiral Arrow"]
+alternativeNames_ja = ["OD スパイラルアロー"]
 slug = "spiral-arrow-od"
 characterId = 17
 type = "special"
 hitCount = 5
 input = "236(kk)"
 blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 16 - 32"]
+notes_ja = ["16-32F 空中判定"]
+
+startup = 13
+active = [13, 15, 17, 19, 20, 22, 23, 25, 26, 28]
+recovery = 20
+cancel = "SA2"
+damage = 800
+scaling = ["Combo scaling 15%"]
+scaling_ja = ["コンボ補正15%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Cannon Spike (Light)
 [[moves]]
 name = "Cannon Spike (Light)"
 name_ja = "キャノンスパイク（弱）"
+alternativeNames = ["L Cannon Spike"]
+alternativeNames_ja = ["弱 キャノンスパイク"]
 slug = "cannon-spike-light"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lk"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 14",
+  "Considered airborne from frames 7 - 40",
+  "Does 800 individual damage after the 3rd active frame",
+]
+notes_ja = ["1-14F 空中判定の攻撃に対して無敵", "7-40F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
+
+startup = 5
+active = [5, 16]
+recovery = 24
+postLandingRecovery = 16
+cancel = "SA3"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Cannon Spike (Medium)
 [[moves]]
 name = "Cannon Spike (Medium)"
 name_ja = "キャノンスパイク（中）"
+alternativeNames = ["M Cannon Spike"]
+alternativeNames_ja = ["中 キャノンスパイク"]
 slug = "cannon-spike-medium"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623mk"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 9",
+  "Considered airborne from frames 8 - 42",
+  "Does 800 individual damage after the 3rd active frame",
+]
+notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-42F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
+
+startup = 6
+active = [6, 17]
+recovery = 25
+postLandingRecovery = 16
+cancel = "SA3"
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Cannon Spike (Heavy)
 [[moves]]
 name = "Cannon Spike (Heavy)"
 name_ja = "キャノンスパイク（強）"
+alternativeNames = ["H Cannon Spike"]
+alternativeNames_ja = ["強 キャノンスパイク"]
 slug = "cannon-spike-heavy"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623hk"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = [
+  "Hold down the button for over 23 frames to change its properties",
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 10 - 36",
+  "Does 800 individual damage from the 3rd active frame and on",
+]
+notes_ja = [
+  "15F以上ホールドすると性能変化",
+  "1-8F 空中判定の攻撃に対して無敵",
+  "10-36F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
+
+startup = 7
+active = [7, 18]
+recovery = 28
+postLandingRecovery = 16
+cancel = "SA3"
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Cannon Spike (Charged)
 [[moves]]
 name = "Cannon Spike (Charged)"
-name_ja = "キャノンスパイク（溜め）"
+name_ja = "キャノンスパイク（ホールド）"
 slug = "cannon-spike-charged"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623+[hk]"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 7",
+  "Completely invincible from frames 20 - 25",
+  "Considered airborne from frames 26 - 64",
+  "Does 900 individual damage after the 5th active frame",
+]
+notes_ja = [
+  "1-7F 空中判定の攻撃に対して無敵",
+  "20-25F 完全無敵",
+  "26-64F 空中判定",
+  "※持続の5F目以降は個別ダメージ（900）",
+]
+
+startup = 24
+active = [24, 35]
+recovery = 29
+postLandingRecovery = 16
+cancel = "SA3"
+damage = 1500
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Cannon Spike (OD)
 [[moves]]
 name = "Cannon Spike (OD)"
 name_ja = "キャノンスパイク（OD）"
+alternativeNames = ["OD Cannon Spike"]
+alternativeNames_ja = ["OD キャノンスパイク"]
 slug = "cannon-spike-od"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frames 1 - 7",
+  "Considered airborne from frames 8 - 47",
+  "Does 900 individual damage after the 5th active frame",
+]
+notes_ja = ["1-7F 完全無敵", "8-47F 空中判定", "※持続の5F目以降は個別ダメージ（900）"]
+
+startup = 6
+active = [6, 17]
+recovery = 30
+postLandingRecovery = 16
+damage = 1500
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onBlock = -2000
 
 # Quick Spin Knuckle (Light)
 [[moves]]
 name = "Quick Spin Knuckle (Light)"
 name_ja = "アクセルスピンナックル（弱）"
+alternativeNames = ["L Quick Spin Knuckle"]
+alternativeNames_ja = ["弱 アクセルスピンナックル"]
 slug = "quick-spin-knuckle-light"
 characterId = 17
 type = "special"
@@ -448,38 +1059,122 @@ hitCount = 1
 blockType = "high"
 input = "214lk"
 
+startup = 21
+active = [21, 24]
+recovery = 16
+cancel = "SA3"
+damage = 800
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Quick Spin Knuckle (Medium)
 [[moves]]
 name = "Quick Spin Knuckle (Medium)"
 name_ja = "アクセルスピンナックル（中）"
+alternativeNames = ["M Quick Spin Knuckle"]
+alternativeNames_ja = ["中 アクセルスピンナックル"]
 slug = "quick-spin-knuckle-medium"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mk"
+notes = ["Invincible to projectiles from frames 6 - 20"]
+notes_ja = ["6-20F 飛び道具無敵"]
+
+startup = 24
+active = [24, 27]
+recovery = 16
+cancel = "SA3"
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4500
+onPunishCounter = -7000
 
 # Quick Spin Knuckle (Heavy)
 [[moves]]
 name = "Quick Spin Knuckle (Heavy)"
 name_ja = "アクセルスピンナックル（強）"
+alternativeNames = ["H Quick Spin Knuckle"]
+alternativeNames_ja = ["強 アクセルスピンナックル"]
 slug = "quick-spin-knuckle-heavy"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hk"
+notes = ["Invincible to projectiles from frames 6 - 24"]
+notes_ja = ["6-24F 飛び道具無敵"]
+
+startup = 28
+active = [28, 31]
+recovery = 17
+cancel = "SA3"
+damage = 800
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 5
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -9000
 
 # Quick Spin Knuckle (OD)
 [[moves]]
 name = "Quick Spin Knuckle (OD)"
 name_ja = "アクセルスピンナックル（OD）"
+alternativeNames = ["OD Quick Spin Knuckle"]
+alternativeNames_ja = ["OD アクセルスピンナックル"]
 slug = "quick-spin-knuckle-od"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
+notes = [
+  "Invincible to projectiles from frames 3 - 24",
+  "When performed at close range, Cammy will go behind her opponent and attack. In this situation, start up is 3 frames later",
+]
+notes_ja = ["3-24F 飛び道具無敵", "近距離で発動すると、相手の背後に回り込んでから攻撃を行う。", "その場合発生が3F遅くなる。"]
+
+startup = 25
+active = [25, 28]
+recovery = 17
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 7
+block = -2
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -7000
 
 # Cannon Strike
 [[moves]]
@@ -491,6 +1186,27 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "9>214*k"
+notes = [
+  "Recovery value difference is when the attack is performed at its fastest",
+]
+notes_ja = ["硬直差の数値は最速で発動した際のもの"]
+
+startup = 13
+active = [13, 23]
+postLandingRecovery = 12
+damage = 600
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
 
 # Cannon Strike (OD)
 [[moves]]
@@ -502,6 +1218,27 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "9>214(kk)"
+notes = [
+  "Recovery value difference is when the attack is performed at its fastest",
+]
+notes_ja = ["硬直差の数値は最速で発動した際のもの"]
+
+startup = 13
+active = [13, 22]
+postLandingRecovery = 12
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正20%", "即時補正10%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -4000
 
 # Hooligan Combination
 [[moves]]
@@ -512,15 +1249,43 @@ characterId = 17
 type = "special"
 input = "236*p"
 properties = ["chargeable"]
+notes = [
+  "From frame 21 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 7 or later. Is considered airborne.",
+]
+notes_ja = ["21F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
 
 # Hooligan Combination (Charged)
 [[moves]]
 name = "Hooligan Combination (Charged)"
-name_ja = "フーリガンコンビネーション（溜め）"
+name_ja = "フーリガンコンビネーション（ホールド）"
 slug = "hooligan-combination-charged"
 characterId = 17
 type = "special"
 input = "236+[hp]"
+notes = [
+  "Hold the button for more than 18 frames to change its properties",
+  "From frame 41 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 27 or later. Is considered airborne.",
+]
+notes_ja = [
+  "18F以上ホールドすると性能変化",
+  "41F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能",
+  "27F以降、空中判定",
+]
+
+# Hooligan Combination (OD)
+[[moves]]
+name = "Hooligan Combination (OD)"
+name_ja = "フーリガンコンビネーション（OD）"
+alternativeNames = ["OD Hooligan Combination"]
+alternativeNames_ja = ["OD フーリガンコンビネーション"]
+slug = "hooligan-combination-od"
+characterId = 17
+type = "special"
+input = "236(pp)"
+notes = [
+  "From frame 21 until landing, can be canceled into any offshoot attacks except for Overdrive Razor’s Edge Slicer on frame 7 or later. Is considered airborne.",
+]
+notes_ja = ["21F～着地まで、ODレイザーエッジスライサーを除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
 
 # Razor's Edge Slicer
 [[moves]]
@@ -531,20 +1296,95 @@ characterId = 17
 hitCount = 1
 blockType = "low"
 type = "special"
-input = "236*p"
+input = "5"
 parentSlug = "hooligan-combination"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 18]
+recovery = 13
+cancel = "SA3"
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -3000
+onPunishCounter = -7000
 
 # Razor's Edge Slicer (Charged)
 [[moves]]
 name = "Razor's Edge Slicer (Charged)"
-name_ja = "レイザーエッジスライサー（溜め）"
+name_ja = "レイザーエッジスライサー（ホールド）"
 slug = "razors-edge-slicer-charged"
 characterId = 17
 hitCount = 1
 blockType = "low"
 type = "special"
-input = "236+[hp]"
-parentSlug = "hooligan-combination"
+input = "5"
+parentSlug = "hooligan-combination-charged"
+properties = ["knockdown"]
+notes = [
+  "Only the final attack can be canceled into a Level 3 Super Art or Critical Art",
+]
+notes_ja = ["最終段のみSA3/CAでキャンセル可能"]
+
+startup = 10
+active = [10, 18, 29, 33]
+recovery = 17
+cancel = "SA3"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -5000
+onPunishCounter = -7000
+
+# Razor's Edge Slicer (OD)
+[[moves]]
+name = "Razor's Edge Slicer (OD)"
+name_ja = "レイザーエッジスライサー（OD）"
+alternativeNames = ["OD Razor's Edge Slicer"]
+alternativeNames_ja = ["OD レイザーエッジスライサー"]
+slug = "razors-edge-slicer-od"
+characterId = 17
+hitCount = 1
+blockType = "low"
+type = "special"
+input = "5"
+properties = ["knockdown"]
+notes = [
+  "Only the final attack can be canceled into a Level 3 Super Art or Critical Art",
+]
+notes_ja = ["最終段のみSA2/SA3/CAでキャンセル可能"]
+parentSlug = "hooligan-combination-od"
+
+startup = 10
+active = [10, 18, 29, 33]
+recovery = 17
+cancel = "SA2"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -7000
 
 # Cannon Strike
 [[moves]]
@@ -555,20 +1395,103 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236*p>*k"
+input = "*k"
 parentSlug = "hooligan-combination"
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+]
+notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
+
+startup = 13
+active = [13, 23]
+postLandingRecovery = 12
+damage = 600
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+minHit = 0
+maxHit = 9
+minBlock = -6
+maxBlock = 3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
 
 # Cannon Strike (Charged)
 [[moves]]
 name = "Hooligan Cannon Strike (Charged)"
-name_ja = "フーリガンキャノンストライク（溜め）"
+name_ja = "フーリガンキャノンストライク（ホールド）"
 slug = "hooligan-cannon-strike-charged"
 characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236+[hp]>*k"
-parentSlug = "hooligan-combination"
+input = "*k"
+parentSlug = "hooligan-combination-charged"
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+]
+notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
+
+startup = 13
+active = [13, 22]
+postLandingRecovery = 12
+damage = 800
+scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正20%", "即時補正10%"]
+superArt = 800
+
+[moves.frameAdvantage]
+minHit = 4
+maxHit = 9
+minBlock = 0
+maxBlock = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# Cannon Strike (OD)
+[[moves]]
+name = "Hooligan Cannon Strike (OD)"
+name_ja = "フーリガンキャノンストライク（OD）"
+alternativeNames = ["OD Cannon Strike"]
+alternativeNames_ja = ["OD キャノンストライク"]
+slug = "hooligan-cannon-strike-od"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "*k"
+parentSlug = "hooligan-combination-od"
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+]
+notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
+
+startup = 13
+active = [13, 22]
+postLandingRecovery = 12
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
+scaling_ja = ["始動補正20%", "即時補正10%"]
+superArt = 800
+
+[moves.frameAdvantage]
+minHit = 1
+maxHit = 9
+minBlock = -3
+maxBlock = 5
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -4000
 
 # Reverse Edge
 [[moves]]
@@ -578,21 +1501,92 @@ slug = "reverse-edge"
 characterId = 17
 type = "special"
 hitCount = 1
-blockType = "high"
-input = "236*p>2*k"
+blockType = "mid"
+input = "2*k"
 parentSlug = "hooligan-combination"
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+]
+notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
+
+startup = 18
+active = [18, 21]
+postLandingRecovery = 13
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+minHit = 6
+maxHit = 9
+minBlock = -4
+maxBlock = -1
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -7000
 
 # Reverse Edge (Charged)
 [[moves]]
 name = "Reverse Edge (Charged)"
-name_ja = "リバースエッジ（溜め）"
+name_ja = "リバースエッジ（ホールド）"
 slug = "reverse-edge-charged"
 characterId = 17
 type = "special"
 hitCount = 1
-blockType = "high"
-input = "236+[hp]>2*k"
-parentSlug = "hooligan-combination"
+blockType = "mid"
+input = "2*k"
+parentSlug = "hooligan-combination-charged"
+
+startup = 18
+active = [18, 21, 36, 39]
+postLandingRecovery = 13
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 8
+block = -2
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -6000
+onPunishCounter = -5000
+
+# Reverse Edge (OD)
+[[moves]]
+name = "Reverse Edge (OD)"
+name_ja = "リバースエッジ（OD）"
+alternativeNames = ["OD Reverse Edge"]
+alternativeNames_ja = ["OD リバースエッジ"]
+slug = "reverse-edge-od"
+characterId = 17
+type = "special"
+hitCount = 1
+blockType = "mid"
+input = "236(pp)>2*k"
+parentSlug = "hooligan-combination-od"
+
+startup = 18
+active = [18, 21, 36, 39]
+postLandingRecovery = 13
+cancel = "SA2"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 8
+block = -2
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -7000
 
 # Fatal Leg Twister
 [[moves]]
@@ -601,18 +1595,66 @@ name_ja = "フェイタルレッグツイスター"
 slug = "fatal-leg-twister"
 characterId = 17
 type = "throw"
-input = "236*p>(lplk)"
+input = "(lplk)"
 parentSlug = "hooligan-combination"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+postLandingRecovery = 30
+damage = 1800
+superArt = 3000
+
+[moves.driveGauge]
+onHit = 3000
+onPunishCounter = -10000
 
 # Fatal Leg Twister (Charged)
 [[moves]]
 name = "Fatal Leg Twister (Charged)"
-name_ja = "フェイタルレッグツイスター（溜め）"
+name_ja = "フェイタルレッグツイスター（ホールド）"
 slug = "fatal-leg-twister-charged"
 characterId = 17
 type = "throw"
-input = "236+[hp]>(lplk)"
-parentSlug = "hooligan-combination"
+input = "(lplk)"
+parentSlug = "hooligan-combination-charged"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+postLandingRecovery = 30
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 3000
+onPunishCounter = -10000
+
+# Fatal Leg Twister (OD)
+[[moves]]
+name = "Fatal Leg Twister (OD)"
+name_ja = "フェイタルレッグツイスター（OD）"
+alternativeNames = ["OD Fatal Leg Twister"]
+alternativeNames_ja = ["OD フェイタルレッグツイスター"]
+slug = "fatal-leg-twister-od"
+characterId = 17
+type = "throw"
+input = "(lplk)"
+parentSlug = "hooligan-combination-od"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+postLandingRecovery = 30
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Silent Step
 [[moves]]
@@ -621,8 +1663,36 @@ name_ja = "サイレントステップ"
 slug = "silent-step"
 characterId = 17
 type = "action"
-input = "236*p"
+input = "*p"
 parentSlug = "hooligan-combination"
+
+postLandingRecovery = 10
+
+# Silent Step (Charged)
+[[moves]]
+name = "Silent Step (Charged)"
+name_ja = "サイレントステップ（ホールド）"
+slug = "silent-step-charged"
+characterId = 17
+type = "action"
+input = "*p"
+parentSlug = "hooligan-combination-charged"
+
+postLandingRecovery = 10
+
+# Silent Step (OD)
+[[moves]]
+name = "Silent Step (OD)"
+name_ja = "サイレントステップ（OD）"
+alternativeNames = ["OD Silent Step"]
+alternativeNames_ja = ["OD サイレントステップ"]
+slug = "silent-step-od"
+characterId = 17
+type = "action"
+input = "*p"
+parentSlug = "hooligan-combination-od"
+
+postLandingRecovery = 10
 
 # Spin Drive Smasher
 [[moves]]
@@ -634,6 +1704,21 @@ blockType = "high"
 hitCount = 7
 type = "super1"
 input = "236236*k"
+properties = ["knockdown"]
+notes = ["The 6th attack is only performed if the 5th attack hits"]
+notes_ja = ["6段目以降は5段目ヒット時のみ派生"]
+
+startup = 9
+active = [9, 19]
+recovery = 38
+damage = 2000
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Killer Bee Spin
 [[moves]]
@@ -646,6 +1731,25 @@ hitCount = 3
 type = "super2"
 input = "214214*k"
 
+properties = ["knockdown"]
+notes = [
+  "Attack does not transition into the cinematic attack when hitting an airborne opponent",
+  "Damage is 220 x n (multiple hits until Cammy lands on the ground)",
+]
+notes_ja = ["空中ヒット時は非ロック技に性能が変化する", "ダメージ220×n（着地まで連続ヒット）"]
+
+startup = 13
+active = [13, 21]
+recovery = 37
+damage = 2800
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
+
 # Aerial Killer Bee Spin
 [[moves]]
 name = "Aerial Killer Bee Spin"
@@ -656,6 +1760,24 @@ blockType = "high"
 hitCount = 3
 type = "super2"
 input = "9>214214*k"
+properties = ["knockdown"]
+notes = [
+  "Attack does not transition into the cinematic attack when hitting an airborne opponent",
+  "Damage is 220 x n (multiple hits until Cammy lands on the ground)",
+]
+notes_ja = ["空中ヒット時は非ロック技に性能が変化する", "ダメージ220×n（着地まで連続ヒット）"]
+
+startup = 13
+active = [13]
+recovery = 37
+damage = 2800
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Delta Red Assault
 [[moves]]
@@ -667,6 +1789,36 @@ blockType = "high"
 hitCount = 1
 type = "super3"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frames 1 - 13",
+  "Considered airborn from frames 9 - 27",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-13F 完全無敵",
+  "9-27F 空中判定",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 9
+active = [9, 23]
+recovery = 4
+postLandingRecovery = 34
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Delta Red Assault (Critical Art)
 [[moves]]
@@ -678,6 +1830,36 @@ blockType = "high"
 hitCount = 1
 type = "super3"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frames 1 - 13",
+  "Considered airborn from frames 9 - 27",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-13F 完全無敵",
+  "9-27F 空中判定",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 9
+active = [9, 23]
+recovery = 4
+postLandingRecovery = 34
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Rough Landing
 [[moves]]
@@ -689,6 +1871,26 @@ slug = "rough-landing"
 characterId = 17
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Delta Throw
 [[moves]]
@@ -701,6 +1903,27 @@ characterId = 17
 type = "throw"
 input = "(2lplk)"
 
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
 # Leg Scissors Choke
 [[moves]]
 name = "Leg Scissors Choke"
@@ -711,3 +1934,21 @@ slug = "leg-scissors-choke"
 characterId = 17
 type = "throw"
 input = "j>(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+postLandingRecovery = 3
+damage = 1200
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
