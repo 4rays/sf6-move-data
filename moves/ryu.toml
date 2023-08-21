@@ -592,6 +592,8 @@ active = [2, 23]
 recovery = 19
 damage = 600
 superArt = 500
+notes = ["An overhead attack that cannot be blocked while crouching."]
+notes_ja = ["しゃがみでガードできない中段攻撃。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -621,6 +623,10 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
+notes = [
+  "A forward-moving attack that allows you to act before an opponent even if blocked.",
+]
+notes_ja = ["前進して繰り出す、ガードされても相手より先に動ける突き。"]
 
 [moves.frameAdvantage]
 hit = 6
@@ -643,11 +649,11 @@ input = "4hp"
 hitCount = 1
 properties = ["forcesStanding"]
 notes = [
+  "A quick strike that can be canceled into special moves.",
   "Can only be canceled on the 1st active frame if the attack hits",
   "Forces the opponent into a standing position",
 ]
-notes_ja = ["キャンセルは持続の1F目がヒットした時のみ", "強制立ち効果"]
-
+notes_ja = ["技の出が早い必殺技キャンセル可能な突き。", "キャンセルは持続の1F目がヒットした時のみ", "強制立ち効果"]
 capcom_skill_id = 403
 startup = 7
 active = [7, 10]
@@ -675,9 +681,11 @@ type = "commandNormal"
 blockType = "high"
 input = "6hk"
 hitCount = 1
-notes = ["Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku"]
-notes_ja = ["※OD空中竜巻旋風脚でのみキャンセル可能"]
-
+notes = [
+  "A kick with long reach. Useful as a counter to an opponent's sweeps.",
+  "Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku",
+]
+notes_ja = ["相手の足払いに対して強いリーチの長い蹴り。", "※OD空中竜巻旋風脚でのみキャンセル可能"]
 capcom_skill_id = 405
 startup = 16
 active = [16, 19]
@@ -705,9 +713,11 @@ type = "commandNormal"
 blockType = "high"
 input = "4hk"
 hitCount = 2
-notes = ["First attack Forces the opponent into a standing position"]
-notes_ja = ["1段目強制立ち効果"]
-
+notes = [
+  "A multi-hit kick that can be canceled into special moves.",
+  "First attack Forces the opponent into a standing position",
+]
+notes_ja = ["必殺技キャンセル可能な連続でヒットする蹴り。", "1段目強制立ち効果"]
 capcom_skill_id = 404
 startup = 10
 active = [10, 14, 20, 23]
@@ -743,6 +753,8 @@ active = [9, 12]
 recovery = 20
 damage = 1000
 superArt = 1000
+notes = ["A multi-hit attack with a lenient input window for follow-ups."]
+notes_ja = ["連係を出す入力猶予が長く、続けてヒットする攻撃。"]
 
 [moves.frameAdvantage]
 block = -8
@@ -768,6 +780,10 @@ active = [5, 7]
 recovery = 16
 damage = 300
 superArt = 500
+notes = [
+  "A multi-hit attack that doesn't leave you wide open even if stopped partway through.",
+]
+notes_ja = ["連係を途中で止めても隙が少ない連続攻撃。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -796,6 +812,10 @@ active = [17, 20]
 recovery = 20
 damage = 900
 superArt = 1000
+notes = [
+  "A multi-hit attack that doesn't leave you wide open even if stopped partway through.",
+]
+notes_ja = ["連係を途中で止めても隙が少ない連続攻撃。"]
 
 [moves.frameAdvantage]
 block = -8
@@ -823,6 +843,10 @@ totalFrames = 47
 cancel = "SA3"
 damage = 600
 superArt = 600
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 hit = -1
@@ -852,6 +876,10 @@ cancel = "SA3"
 damage = 600
 superArt = 600
 capcom_skill_id = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -881,6 +909,10 @@ cancel = "SA3"
 damage = 600
 superArt = 600
 capcom_skill_id = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 hit = -5
@@ -913,6 +945,10 @@ scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
 capcom_skill_id = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = -1
@@ -944,6 +980,10 @@ scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
 capcom_skill_id = 507
+notes = [
+  "Envelop your fists with the Power of Nothingness, enhancing moves such as the Hadoken and Hashogeki. Leaves you wide open, making the timing of its usage critical.",
+]
+notes_ja = ["拳に無の波動を纏い「波動拳」「波掌撃」などの技を強化する技。隙が大きいので使用するタイミングを見極める必要がある。"]
 
 [moves.frameAdvantage]
 block = -3
@@ -997,12 +1037,17 @@ blockType = "high"
 input = "623lp"
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and perform a powerful uppercut. A Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Considered airborne from frames 7 - 34",
   "Note: After the 3rd active frame this move deals only 800 damage",
 ]
-notes_ja = ["1-14F 空中判定の攻撃に対して無敵", "7-34F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
-
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-14F 空中判定の攻撃に対して無敵",
+  "7-34F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
 startup = 5
 active = [5, 14]
 recovery = 21
@@ -1037,12 +1082,17 @@ hitCount = 1
 
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and perform a powerful uppercut. A Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 8 - 44",
   "Note: After the 3rd active frame this move deals only 800 damage",
 ]
-notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-44F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
-
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-9F 空中判定の攻撃に対して無敵",
+  "8-44F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
 startup = 6
 active = [6, 15]
 recovery = 30
@@ -1076,12 +1126,17 @@ input = "623hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and perform a powerful uppercut. A Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
   "Invincible to mid-air attacks from frames 1 - 8.",
   "Considered airborne from frames 9 - 49.",
   "Note: After the 2nd active frame this move deals only 800 damage.",
 ]
-notes_ja = ["1-8F 空中判定の攻撃に対して無敵", "9-49F 空中判定", "※持続の2F目以降は個別ダメージ（800）"]
-
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-8F 空中判定の攻撃に対して無敵",
+  "9-49F 空中判定",
+  "※持続の2F目以降は個別ダメージ（800）",
+]
 startup = 7
 active = [7, 16]
 recovery = 34
@@ -1115,11 +1170,15 @@ input = "623(pp)"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and perform a powerful uppercut. A Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
   "Completely invincible from frames 1 - 10.",
   "Considered airborne from frames 8 - 51.",
 ]
-notes_ja = ["1-10F 完全無敵", "8-51F 空中判定"]
-
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-10F 完全無敵",
+  "8-51F 空中判定",
+]
 startup = 6
 active = [6, 7, 8, 15]
 recovery = 37
@@ -1147,9 +1206,11 @@ blockType = "high"
 input = "214lk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 5 - 28."]
-notes_ja = ["5-28F 空中判定"]
-
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. A useful attack for knocking opponents away.",
+  "Considered airborne from frames 5 - 28.",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。相手を吹き飛ばすことに長けた回転蹴り。", "5-28F 空中判定"]
 startup = 12
 active = [12, 14]
 recovery = 14
@@ -1180,11 +1241,11 @@ input = "214mk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Unleash a series of roundhouse kicks while moving forward. A useful attack for knocking opponents away.",
   "Considered airborne from frames 8 - 41.",
   "Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit.",
 ]
-notes_ja = ["8-41F 空中判定"]
-
+notes_ja = ["前進する連続回し蹴りを繰り出す技。相手を吹き飛ばすことに長けた回転蹴り。", "8-41F 空中判定"]
 startup = 14
 active = [14, 15, 29, 30]
 recovery = 11
@@ -1215,11 +1276,11 @@ input = "214hk"
 hitCount = 3
 properties = ["knockdown"]
 notes = [
+  "Unleash a series of roundhouse kicks while moving forward. A useful attack for knocking opponents away.",
   "Considered airborne from frames 10 - 61.",
   "Values listed for Super Art gauge increases and Parry or Drive Block induced Drive Gauge increases are per hit.",
 ]
-notes_ja = ["10-61F 空中判定"]
-
+notes_ja = ["前進する連続回し蹴りを繰り出す技。相手を吹き飛ばすことに長けた回転蹴り。", "10-61F 空中判定"]
 startup = 16
 active = [16, 17, 31, 32, 46, 47]
 recovery = 14
@@ -1257,6 +1318,10 @@ postLandingRecovery = 13
 damage = 1000
 superArt = 1000
 capcom_skill_id = 503
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. A useful attack for knocking opponents away.",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。相手を吹き飛ばすことに長けた回転蹴り。"]
 
 [moves.frameAdvantage]
 block = -14
@@ -1287,6 +1352,10 @@ scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 600
 capcom_skill_id = 504
+notes = [
+  "A Tatsumaki Senpu-kyaku performed while airborne. Useful for altering the trajectory of your jump, or for staging a surprise attack from above.",
+]
+notes_ja = ["ジャンプ中に繰り出す竜巻旋風脚。ジャンプの軌道を変えたり空中からの奇襲に長けた技。"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1315,6 +1384,10 @@ scaling = ["Combo scaling 25%"]
 scaling_ja = ["コンボ補正25%"]
 superArt = 600
 capcom_skill_id = 504
+notes = [
+  "A Tatsumaki Senpu-kyaku performed while airborne. Useful for altering the trajectory of your jump, or for staging a surprise attack from above.",
+]
+notes_ja = ["ジャンプ中に繰り出す竜巻旋風脚。ジャンプの軌道を変えたり空中からの奇襲に長けた技。"]
 
 [moves.driveGauge]
 onBlock = -4000
@@ -1341,6 +1414,10 @@ cancel = "SA3"
 damage = 1000
 superArt = 1200
 capcom_skill_id = 505
+notes = [
+  "A thrust kick that quickly closes distance, and can be used to surprise an opponent between their attacks. Strike with the tip of the foot for maximum effectiveness.",
+]
+notes_ja = ["素早く間合いを詰める突進蹴り。相手の攻撃の隙を突いたり奇襲を狙える蹴り技で、蹴り足の先端を相手に当てるように繰り出すと有効。"]
 
 [moves.frameAdvantage]
 block = -11
@@ -1371,6 +1448,10 @@ cancel = "SA3"
 damage = 1100
 superArt = 1200
 capcom_skill_id = 505
+notes = [
+  "A thrust kick that quickly closes distance, and can be used to surprise an opponent between their attacks. Strike with the tip of the foot for maximum effectiveness.",
+]
+notes_ja = ["素早く間合いを詰める突進蹴り。相手の攻撃の隙を突いたり奇襲を狙える蹴り技で、蹴り足の先端を相手に当てるように繰り出すと有効。"]
 
 [moves.frameAdvantage]
 block = -8
@@ -1393,9 +1474,14 @@ blockType = "high"
 input = "236hk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Juggle state time is extended when attack lands as a Punish Counter."]
-notes_ja = ["パニッシュカウンター時吹き飛び時間延長"]
-
+notes = [
+  "A thrust kick that quickly closes distance, and can be used to surprise an opponent between their attacks. Strike with the tip of the foot for maximum effectiveness.",
+  "Juggle state time is extended when attack lands as a Punish Counter.",
+]
+notes_ja = [
+  "素早く間合いを詰める突進蹴り。相手の攻撃の隙を突いたり奇襲を狙える蹴り技で、蹴り足の先端を相手に当てるように繰り出すと有効。",
+  "パニッシュカウンター時吹き飛び時間延長",
+]
 startup = 29
 active = [29, 37]
 recovery = 16
@@ -1435,6 +1521,10 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1200
 capcom_skill_id = 505
+notes = [
+  "A thrust kick that quickly closes distance, and can be used to surprise an opponent between their attacks. Strike with the tip of the foot for maximum effectiveness.",
+]
+notes_ja = ["素早く間合いを詰める突進蹴り。相手の攻撃の隙を突いたり奇襲を狙える蹴り技で、蹴り足の先端を相手に当てるように繰り出すと有効。"]
 
 [moves.frameAdvantage]
 block = -18
@@ -1456,10 +1546,13 @@ blockType = "high"
 input = "214lp"
 hitCount = 1
 notes = [
+  "Concentrate ki in the palm and unleash it directly forward. Useful as a follow-up after blocks and combos.",
   "Forces a juggle state when the attack lands as a counter or Punish Counter.",
 ]
-notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
-
+notes_ja = [
+  "掌に集中させた気を凝縮し前方に放つ技。ガード時の連係やコンボ後の攻め継続として有効。",
+  "カウンター/パニッシュカウンター時吹き飛びダウン",
+]
 startup = 12
 active = [12, 17]
 recovery = 18
@@ -1490,10 +1583,13 @@ blockType = "high"
 input = "214mp"
 hitCount = 1
 notes = [
+  "Concentrate ki in the palm and unleash it directly forward. Useful as a follow-up after blocks and combos.",
   "Forces a juggle state when the attack lands as a counter or Punish Counter.",
 ]
-notes_ja = ["カウンター/パニッシュカウンター時吹き飛びダウン"]
-
+notes_ja = [
+  "掌に集中させた気を凝縮し前方に放つ技。ガード時の連係やコンボ後の攻め継続として有効。",
+  "カウンター/パニッシュカウンター時吹き飛びダウン",
+]
 startup = 19
 active = [19, 24]
 recovery = 17
@@ -1524,9 +1620,11 @@ blockType = "high"
 input = "214hp"
 hitCount = 2
 properties = ["knockdown"]
-notes = ["Produces a crumple stun for 39 frames when the attack lands."]
-notes_ja = ["ヒット時に膝崩れダウンに＋39"]
-
+notes = [
+  "Concentrate ki in the palm and unleash it directly forward. Useful as a follow-up after blocks and combos.",
+  "Produces a crumple stun for 39 frames when the attack lands.",
+]
+notes_ja = ["掌に集中させた気を凝縮し前方に放つ技。ガード時の連係やコンボ後の攻め継続として有効。", "ヒット時に膝崩れダウンに＋39"]
 startup = 18
 active = [18, 23]
 recovery = 19
@@ -1564,6 +1662,10 @@ scaling = ["Combo scaling 20％"]
 scaling_ja = ["コンボ補正20％"]
 superArt = 900
 capcom_skill_id = 506
+notes = [
+  "Concentrate ki in the palm and unleash it directly forward. Useful as a follow-up after blocks and combos.",
+]
+notes_ja = ["掌に集中させた気を凝縮し前方に放つ技。ガード時の連係やコンボ後の攻め継続として有効。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1644,12 +1746,14 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "A Hadoken in which the body's ki is concentrated and condensed into your palms before firing. Its swift speed and invulnerability can quickly turn the tables on an opponent.",
   "Completely invincible on the 1st frame.",
   "Invincible to strikes and throws from frame 2 to frame 8.",
   "Values do not change when the attack lands as a counter or Punish Counter.",
   "The minimum guaranteed damage is 30%.",
 ]
 notes_ja = [
+  "掌に体内の気を集中させ、圧縮して放つ波動拳。攻撃の出が早く、無敵もあるので切り返しとしても使える。",
   "1F 完全無敵",
   "2-8F 打撃・投げに対して無敵",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1681,12 +1785,14 @@ hitCount = 4
 parentSlug = "denjin-charge"
 properties = ["stockDecrement", "knockdown"]
 notes = [
+  "A Hadoken in which the body's ki is concentrated and condensed into your palms before firing. Its swift speed and invulnerability can quickly turn the tables on an opponent.",
   "Completely invincible on the 1st frame.",
   "Invincible to strikes and throws from frame 2 to frame 8.",
   "Values do not change when the attack lands as a counter or Punish Counter.",
   "The minimum guaranteed damage is 30%.",
 ]
 notes_ja = [
+  "掌に体内の気を集中させ、圧縮して放つ波動拳。攻撃の出が早く、無敵もあるので切り返しとしても使える。",
   "1F 完全無敵",
   "2-8F 打撃・投げに対して無敵",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1717,6 +1823,7 @@ input = "214214*p"
 hitCount = 1
 properties = ["armorBreak", "knockdown"]
 notes = [
+  "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power.",
   "Completely invincible from frame 1 to frame 13.",
   "Hold down the button to change the properties of this move.",
   "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
@@ -1726,6 +1833,7 @@ notes = [
   "The minimum guaranteed damage is 40%.",
 ]
 notes_ja = [
+  "精神集中により強化された波掌撃。ボタンをホールドする事で溜めを行い威力を上げることができる。",
   "1-13F 完全無敵",
   "ボタンをホールドする事で性能変化",
   "8F以上ボタンを押して離すとLv2が発動",
@@ -1759,6 +1867,7 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power.",
   "Completely invincible from frame 1 to frame 9.",
   "Hold down the button to change the properties of this move.",
   "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
@@ -1768,6 +1877,7 @@ notes = [
   "The minimum guaranteed damage is 40%.",
 ]
 notes_ja = [
+  "精神集中により強化された波掌撃。ボタンをホールドする事で溜めを行い威力を上げることができる。",
   "1-9F 完全無敵",
   "ボタンをホールドする事で性能変化",
   "8F以上ボタンを押して離すとLv2が発動",
@@ -1801,6 +1911,7 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power.",
   "Completely invincible from frame 1 to frame 9.",
   "Hold down the button to change the properties of this move.",
   "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
@@ -1810,6 +1921,7 @@ notes = [
   "The minimum guaranteed damage is 40%.",
 ]
 notes_ja = [
+  "精神集中により強化された波掌撃。ボタンをホールドする事で溜めを行い威力を上げることができる。",
   "1-9F 完全無敵",
   "ボタンをホールドする事で性能変化",
   "8F以上ボタンを押して離すとLv2が発動",
@@ -1844,6 +1956,7 @@ input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
 parentSlug = "denjin-charge"
 notes = [
+  "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power.",
   "Completely invincible from frame 1 to frame 9.",
   "Hold down the button to change the properties of this move.",
   "Changes to Level 2 version if the button is held for more than 8 frames and then released.",
@@ -1853,6 +1966,7 @@ notes = [
   "The minimum guaranteed damage is 40%.",
 ]
 notes_ja = [
+  "精神集中により強化された波掌撃。ボタンをホールドする事で溜めを行い威力を上げることができる。",
   "1-9F 完全無敵",
   "ボタンをホールドする事で性能変化",
   "8F以上ボタンを押して離すとLv2が発動",
@@ -1970,12 +2084,14 @@ input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "A powerful Shoryuken unleashed at short range. An overwhelming technique that aims for an opponent's vitals.",
   "Completely invincible from frame 1 to frame 16.",
   "Values do not change when the attack lands as a counter or Punish Counter.",
   "The minimum guaranteed damage is 50%.",
   "Note: Can only be canceled into from special moves.",
 ]
 notes_ja = [
+  "近距離で繰り出す高威力の昇龍拳。相手の急所を狙い確実に倒す切り札。",
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2009,12 +2125,14 @@ input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "A powerful Shoryuken unleashed at short range. An overwhelming technique that aims for an opponent's vitals.",
   "Completely invincible from frame 1 to frame 16.",
   "Values do not change when the attack lands as a counter or Punish Counter.",
   "The minimum guaranteed damage is 50%.",
   "Note: Can only be canceled into from special moves.",
 ]
 notes_ja = [
+  "近距離で繰り出す高威力の昇龍拳。相手の急所を狙い確実に倒す切り札。",
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2049,13 +2167,19 @@ hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent and—bearing the brunt of their weight with your arm and back—toss them forward. Throws your opponent without switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手を掴み、腕を支点に背負う形から前方へ投げ落とす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2082,13 +2206,19 @@ hitCount = 1
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent, place your foot on their torso, and throw them behind you as you fall backwards. Throws your opponent while switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手を掴み、体に足を掛けて後方へ倒れ込むように投げる技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2112,10 +2242,14 @@ type = "special"
 input = "22*p"
 properties = ["stockIncrement"]
 notes = [
+  "Envelop your fists with the Power of Nothingness, enhancing moves such as the Hadoken and Hashogeki. Leaves you wide open, making the timing of its usage critical.",
   "Denjin Charge stock added on the 51st frame. Only 1 Denjin Charge stock can be held at a time.",
   "Hadoken, Hashogeki, Shinku Hadoken, and Shin Hashogeki’s properties are enhanced when a Denjin Charge is held.",
 ]
-notes_ja = ["51F目で電刃錬気を1つストック ※1までストック可能", "波動拳、波衝撃、真空波動拳、真波衝撃の性能が強化される"]
-
+notes_ja = [
+  "拳に無の波動を纏い「波動拳」「波掌撃」などの技を強化する技。隙が大きいので使用するタイミングを見極める必要がある。",
+  "51F目で電刃錬気を1つストック ※1までストック可能",
+  "波動拳、波衝撃、真空波動拳、真波衝撃の性能が強化される",
+]
 totalFrames = 52
 capcom_skill_id = 507

@@ -602,9 +602,14 @@ blockType = "high"
 input = "214*p"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Hold down the button to continue that attack"]
-notes_ja = ["発動後にボタンホールドで延長可能"]
-
+notes = [
+  "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves.",
+  "Hold down the button to continue that attack",
+]
+notes_ja = [
+  "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
+  "発動後にボタンホールドで延長可能",
+]
 startup = 10
 active = [10, 11, 15, 16, 20, 21]
 recovery = 17
@@ -632,8 +637,14 @@ blockType = "high"
 input = "214*p"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Hold down the button to continue that attack"]
-notes_ja = ["発動後にボタンホールドで延長可能"]
+notes = [
+  "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves.",
+  "Hold down the button to continue that attack",
+]
+notes_ja = [
+  "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
+  "発動後にボタンホールドで延長可能",
+]
 parentSlug = "lightning-beast"
 
 startup = 10
@@ -668,9 +679,14 @@ blockType = "high"
 input = "214(pp)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Hold down the button to continue that attack"]
-notes_ja = ["発動後にボタンホールドで延長可能"]
-
+notes = [
+  "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves.",
+  "Hold down the button to continue that attack",
+]
+notes_ja = [
+  "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
+  "発動後にボタンホールドで延長可能",
+]
 startup = 10
 active = [10, 11, 15, 16, 17, 18]
 recovery = 17
@@ -697,8 +713,14 @@ blockType = "high"
 input = "214(pp)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Hold down the button to continue that attack"]
-notes_ja = ["発動後にボタンホールドで延長可能"]
+notes = [
+  "Envelop your entire body with electricity to shock your opponent. This move executes quickly, making it useful to combo into from normal moves.",
+  "Hold down the button to continue that attack",
+]
+notes_ja = [
+  "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
+  "発動後にボタンホールドで延長可能",
+]
 parentSlug = "lightning-beast"
 
 startup = 10
@@ -728,9 +750,11 @@ blockType = "high"
 input = "[4]>6lp"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 10 - 23"]
-notes_ja = ["10-23F 空中判定"]
-
+notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
+  "Considered airborne from frames 10 - 23",
+]
+notes_ja = ["身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。", "10-23F 空中判定"]
 startup = 10
 active = [10, 20]
 recovery = 11
@@ -759,11 +783,17 @@ input = "[4]>6lp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 10 - 23",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["10-23F 空中判定", "SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
+  "10-23F 空中判定",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
 startup = 10
@@ -797,12 +827,17 @@ input = "[4]>6mp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 12 - 23",
   "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can cancel into Level 3 Super Art until active frame 11",
 ]
-notes_ja = ["12-32F 空中判定", "パニッシュカウンター時吹き飛び時間延長", "持続の11F目までSA3でキャンセル可"]
-
+notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
+  "12-32F 空中判定",
+  "パニッシュカウンター時吹き飛び時間延長",
+  "持続の11F目までSA3でキャンセル可",
+]
 startup = 12
 active = [12, 30]
 recovery = 11
@@ -831,12 +866,14 @@ input = "[4]>6mp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 12 - 23",
   "Consumes 100 of the Super Art 2 timer",
   "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can transition to Rolling Cannon on hit or block",
 ]
 notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
   "12-32F 空中判定",
   "SA2タイマー100消費",
   "パニッシュカウンター時吹き飛び時間延長",
@@ -875,12 +912,17 @@ input = "[4]>6hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 20 - 42",
   "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can cancel into Level 3 Super Art until active frame 6",
 ]
-notes_ja = ["20-42F 空中判定", "パニッシュカウンター時吹き飛び時間延長", "持続の6F目までSA3でキャンセル可"]
-
+notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
+  "20-42F 空中判定",
+  "パニッシュカウンター時吹き飛び時間延長",
+  "持続の6F目までSA3でキャンセル可",
+]
 startup = 22
 active = [22, 41]
 recovery = 26
@@ -911,12 +953,14 @@ input = "[4]>6hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 20 - 42",
   "Consumes 100 of the Super Art 2 timer",
   "Juggle state time is extended when attack hits for a Punish Counter.",
   "Can transition to Rolling Cannon on hit or block",
 ]
 notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
   "20-42F 空中判定",
   "SA2タイマー100消費",
   "パニッシュカウンター時吹き飛び時間延長",
@@ -953,11 +997,15 @@ input = "[4]>6(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 18 - 40",
   "Can cancel into Level 3 Super Art until active frame 2",
 ]
-notes_ja = ["18-40F 空中判定", "持続の2F目までSA2、SA3でキャンセル可"]
-
+notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
+  "18-40F 空中判定",
+  "持続の2F目までSA2、SA3でキャンセル可",
+]
 startup = 18
 active = [18, 39]
 recovery = 17
@@ -987,11 +1035,17 @@ input = "[4]>6(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away.",
   "Considered airborne from frames 18 - 40",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["18-40F 空中判定", "SA2タイマー100消費", "ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技。",
+  "18-40F 空中判定",
+  "SA2タイマー100消費",
+  "ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
 startup = 18
@@ -1023,11 +1077,15 @@ input = "[2]>8lk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
-notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
-
+notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
 startup = 8
 active = [8, 27]
 recovery = 31
@@ -1056,12 +1114,14 @@ input = "[2]>8lk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
 notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
@@ -1100,11 +1160,15 @@ input = "[2]>8mk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
-notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
-
+notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
 startup = 8
 active = [8, 27]
 recovery = 31
@@ -1133,12 +1197,14 @@ input = "[2]>8mk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
 notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
@@ -1177,11 +1243,15 @@ input = "[2]>8hk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
-notes_ja = ["6-57F 空中判定", "8-26F 空中判定の攻撃に対して無敵"]
-
+notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
+  "6-57F 空中判定",
+  "8-26F 空中判定の攻撃に対して無敵",
+]
 startup = 8
 active = [8, 27]
 recovery = 31
@@ -1210,12 +1280,14 @@ input = "[2]>8hk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
   "Invincible to mid-air attacks from frames 8 - 26",
 ]
 notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
@@ -1258,11 +1330,15 @@ input = "[2]>8(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Considered airborne from frames 4 - 53",
   "Completely invincible to attacks from frames 1 - 10",
 ]
-notes_ja = ["4-53F 空中判定", "1-10F 完全無敵"]
-
+notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
+  "4-53F 空中判定",
+  "1-10F 完全無敵",
+]
 startup = 7
 active = [7, 14, 17, 22]
 recovery = 31
@@ -1289,12 +1365,19 @@ input = "[2]>8(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 4 - 53",
   "Completely invincible to attacks from frames 1 - 10",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット時ローリングキャノンへ派生可", "4-53F 空中判定", "1-10F 完全無敵"]
+notes_ja = [
+  "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる。",
+  "SA2タイマー100消費",
+  "ヒット時ローリングキャノンへ派生可",
+  "4-53F 空中判定",
+  "1-10F 完全無敵",
+]
 parentSlug = "lightning-beast"
 
 startup = 7
@@ -1332,6 +1415,10 @@ postLandingRecovery = 5
 damage = 1000
 superArt = 1000
 capcom_skill_id = 504
+notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
+]
+notes_ja = ["後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。"]
 
 [moves.frameAdvantage]
 hit = 9
@@ -1353,10 +1440,15 @@ blockType = "high"
 input = "63214lk"
 hitCount = 1
 notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
 startup = 41
@@ -1395,6 +1487,10 @@ postLandingRecovery = 5
 damage = 1000
 superArt = 1000
 capcom_skill_id = 504
+notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
+]
+notes_ja = ["後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -1416,10 +1512,15 @@ blockType = "high"
 input = "63214mk"
 hitCount = 1
 notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
 startup = 41
@@ -1457,6 +1558,10 @@ postLandingRecovery = 5
 damage = 1000
 superArt = 1000
 capcom_skill_id = 504
+notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
+]
+notes_ja = ["後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -1478,10 +1583,15 @@ blockType = "high"
 input = "63214hk"
 hitCount = 1
 notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可"]
+notes_ja = [
+  "後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+]
 parentSlug = "lightning-beast"
 
 startup = 41
@@ -1518,11 +1628,15 @@ blockType = "high"
 input = "63214(pp)"
 hitCount = 1
 notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "First attack produces a juggle state knockdown",
   "Can be canceled into Level 2 or 3 Super Art until the 3rd active frame of the first attack",
 ]
-notes_ja = ["初段ヒット時吹き飛びダウン", "初段の持続3F目までSA2、SA3でキャンセル可"]
-
+notes_ja = [
+  "後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。",
+  "初段ヒット時吹き飛びダウン",
+  "初段の持続3F目までSA2、SA3でキャンセル可",
+]
 startup = 8
 active = [8, 12, 41, 61, 63, 66]
 postLandingRecovery = 4
@@ -1551,12 +1665,17 @@ input = "63214(pp)"
 hitCount = 1
 parentSlug = "lightning-beast"
 notes = [
+  "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "First attack produces a juggle state knockdown",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon when the rotating part hits or is blocked",
 ]
-notes_ja = ["初段ヒット時吹き飛びダウン", "SA2タイマー100消費", "回転部分のヒット、ガード時ローリングキャノンへ派生可"]
-
+notes_ja = [
+  "後方へ下がった後、山なりの軌道で回転体当たりを繰り出す攻撃。相手をかく乱しながら攻め込む手段として有効。",
+  "初段ヒット時吹き飛びダウン",
+  "SA2タイマー100消費",
+  "回転部分のヒット、ガード時ローリングキャノンへ派生可",
+]
 startup = 8
 active = [8, 12, 41, 61, 63, 66]
 postLandingRecovery = 4
@@ -1587,9 +1706,11 @@ blockType = "high"
 input = "j>[4]>6lp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
-
+notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。", "めくり性能"]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1615,12 +1736,17 @@ hitCount = 1
 parentSlug = "lightning-beast"
 properties = ["knockdown"]
 notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-
+notes_ja = [
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1647,9 +1773,11 @@ blockType = "high"
 input = "j>[4]>6mp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
-
+notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。", "めくり性能"]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1675,12 +1803,17 @@ hitCount = 1
 parentSlug = "lightning-beast"
 properties = ["knockdown"]
 notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-
+notes_ja = [
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1707,9 +1840,11 @@ blockType = "high"
 input = "j>[4]>6hp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
-
+notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。", "めくり性能"]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1735,12 +1870,17 @@ hitCount = 1
 parentSlug = "lightning-beast"
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-
+notes_ja = [
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1767,9 +1907,11 @@ blockType = "high"
 input = "j>[4]>6(pp)"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
-notes = ["Has cross-up attack properties"]
-notes_ja = ["めくり性能"]
-
+notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。", "めくり性能"]
 startup = 13
 active = [13]
 postLandingRecovery = 10
@@ -1794,12 +1936,17 @@ hitCount = 1
 parentSlug = "lightning-beast"
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Has cross-up attack properties",
 ]
-notes_ja = ["SA2タイマー100消費", "ヒット、ガード時ローリングキャノンへ派生可", "めくり性能"]
-
+notes_ja = [
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的。",
+  "SA2タイマー100消費",
+  "ヒット、ガード時ローリングキャノンへ派生可",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 10
@@ -1824,9 +1971,15 @@ type = "commandThrow"
 input = "236lk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 9 - 26"]
-notes_ja = ["9-26F 空中判定", "パニッシュカウンター時個別ダメージ（1840）"]
-
+notes = [
+  "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking.",
+  "Considered airborne from frames 9 - 26",
+]
+notes_ja = [
+  "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効。",
+  "9-26F 空中判定",
+  "パニッシュカウンター時個別ダメージ（1840）",
+]
 startup = 34
 active = [34, 36]
 recovery = 57
@@ -1850,9 +2003,15 @@ type = "commandThrow"
 input = "236mk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 14 - 36"]
-notes_ja = ["14-36F 空中判定", "パニッシュカウンター時個別ダメージ（1955）"]
-
+notes = [
+  "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking.",
+  "Considered airborne from frames 14 - 36",
+]
+notes_ja = [
+  "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効。",
+  "14-36F 空中判定",
+  "パニッシュカウンター時個別ダメージ（1955）",
+]
 startup = 39
 active = [39, 41]
 recovery = 57
@@ -1876,9 +2035,15 @@ type = "commandThrow"
 input = "236hk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 18 - 36"]
-notes_ja = ["18-36F 空中判定", "パニッシュカウンター時個別ダメージ（2070）"]
-
+notes = [
+  "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking.",
+  "Considered airborne from frames 18 - 36",
+]
+notes_ja = [
+  "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効。",
+  "18-36F 空中判定",
+  "パニッシュカウンター時個別ダメージ（2070）",
+]
 startup = 43
 active = [43, 45]
 recovery = 57
@@ -1902,9 +2067,15 @@ type = "commandThrow"
 input = "236(pp)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 9 - 36"]
-notes_ja = ["9-28F 空中判定", "パニッシュカウンター時個別ダメージ（2300）"]
-
+notes = [
+  "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking.",
+  "Considered airborne from frames 9 - 36",
+]
+notes_ja = [
+  "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効。",
+  "9-28F 空中判定",
+  "パニッシュカウンター時個別ダメージ（2300）",
+]
 startup = 32
 active = [32, 34]
 recovery = 57
@@ -1924,11 +2095,13 @@ characterId = 8
 type = "special"
 input = "22*p"
 notes = [
+  "Toss out a Blanka-chan doll designed to resemble Blanka himself. Once it lands on the ground, touching it with an electrical special move will cause it to run toward and attack your opponent.",
   "Disappears 1000 frames after landing on the ground",
   "Works as a projectile attack when activated by any special moves that produces electricity or comes in contact with a Super Art until the 1000th frame",
   "The trajectory of the thrown doll changes if it touches the edge of the screen",
 ]
 notes_ja = [
+  "ブランカ自身を模した人形であるブランカちゃんを投げる技。地面に接地した人形へ電撃を発する必殺技を接触させると、人形が相手に向かって突撃して攻撃する。",
   "人形の接地後1000F経過で消滅",
   "1000F間に電撃を発する必殺技、SAを接触させると人形が飛び道具攻撃として起動する",
   "投擲した人形がステージ端に接触時、跳ね返りによる軌道変化",
@@ -1954,12 +2127,14 @@ input = "236236*p"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos.",
   "Completely invincible from frame 1",
   "Invincible to strikes and throws from frames 2 - 10",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "跳び上がった勢いで地面を叩き、強力な電撃を発生させる技。無敵時間を活かした切り返しやコンボなど、狙える場面が多い。",
   "1F 完全無敵",
   "2-10F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
@@ -1992,12 +2167,14 @@ hitCount = 1
 parentSlug = "lightning-beast"
 properties = ["knockdown"]
 notes = [
+  "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos.",
   "Completely invincible from frame 1",
   "Invincible to strikes and throws from frames 2 - 10",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "跳び上がった勢いで地面を叩き、強力な電撃を発生させる技。無敵時間を活かした切り返しやコンボなど、狙える場面が多い。",
   "1F 完全無敵",
   "2-10F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
@@ -2026,6 +2203,7 @@ characterId = 8
 type = "super2"
 input = "214214*p"
 notes = [
+  "Electrically charge your own body to power up your special moves and Super Arts. It also enables the use of Rolling Cannon from all rolling-type special moves.",
   "Super Art 2 timer is set to 1500",
   "Changes the properties of special moves except for Wild Hunt while active",
   "Allows any Rolling-type attack to cancel into Rolling Cannon while active",
@@ -2035,6 +2213,7 @@ notes = [
   "- Aerial Rolling Attack",
 ]
 notes_ja = [
+  "自身の身体に電撃を帯電させて必殺技やSAを強化する技。ローリング系の必殺技からローリングキャノンへ派生可能となる。",
   "SA2タイマー1500",
   "発動中、ワイルドハント以外の必殺技が性質変化",
   "発動中、ローリング系必殺技から「ローリングキャノン」が派生可能になる",
@@ -2061,12 +2240,14 @@ input = "236236*p"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Leap onto your opponent and bite them multiple times before slamming into them with an electrically charged spinning tackle. The leap performed upon activation can be used to deal with projectiles.",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "相手に組み付き、噛み付きから電撃を纏った回転攻撃へ繋ぐ技。発動時の飛び掛かりは飛び道具対策に使える。",
   "1-12F 完全無敵",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2100,12 +2281,14 @@ input = "236236*p"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Leap onto your opponent and bite them multiple times before slamming into them with an electrically charged spinning tackle. The leap performed upon activation can be used to deal with projectiles.",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "相手に組み付き、噛み付きから電撃を纏った回転攻撃へ繋ぐ技。発動時の飛び掛かりは飛び道具対策に使える。",
   "1-12F 完全無敵",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2138,9 +2321,15 @@ blockType = "high"
 input = "d+*p"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Can transition into any Rolling-style attack a maximum of 3 times"]
-notes_ja = ["ローリング系必殺技から最大3回連続で派生可能", "めくり性能"]
-
+notes = [
+  "A spinning attack that can be used while Lightning Beast is active. It allows for rolling-type special moves to be followed up with up to three additional attacks.",
+  "Can transition into any Rolling-style attack a maximum of 3 times",
+]
+notes_ja = [
+  "ライトニングビースト発動中に使用可能となる回転攻撃。ローリング系必殺技からの追加攻撃で、連続で3回まで派生可能。",
+  "ローリング系必殺技から最大3回連続で派生可能",
+  "めくり性能",
+]
 startup = 3
 active = [3, 27]
 recovery = 9
@@ -2169,6 +2358,8 @@ recovery = 20
 damage = 600
 superArt = 500
 capcom_skill_id = 401
+notes = ["An overhead attack that cannot be blocked while crouching."]
+notes_ja = ["しゃがみでガードできない中段攻撃。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -2196,6 +2387,8 @@ recovery = 18
 damage = 600
 superArt = 500
 capcom_skill_id = 402
+notes = ["A combination attack consisting of two forward-moving knee strikes."]
+notes_ja = ["続けてヒットする、前進しながら繰り出す連続膝蹴り。"]
 
 [moves.frameAdvantage]
 hit = 6
@@ -2224,6 +2417,8 @@ cancel = "C"
 damage = 600
 superArt = 500
 capcom_skill_id = 403
+notes = ["A special-cancelable kick. Useful against jumping opponents."]
+notes_ja = ["相手のジャンプに対して強く、必殺技キャンセル可能な蹴り。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -2247,12 +2442,14 @@ hitCount = 1
 
 properties = ["knockdown"]
 notes = [
+  "An attack with long reach that slams an opponent into the ground. Can be followed up with a Coward Crouch on hit or on block.",
   "Can transition to Coward Crouch between frames 33 - 34",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Produces a crumple stun if the opponent is standing on the ground",
   "- Forces a floor bound if the attack hits a mid-air opponent",
 ]
 notes_ja = [
+  "相手を叩きつける、リーチの長い攻撃。ヒット、ガードさせた場合はフィアーダウンへ派生可能。",
   "※33-34F フィアーダウンへ派生可",
   "パニッシュカウンターで以下の性能変化",
   "・地上ヒット時膝崩れ",
@@ -2288,9 +2485,11 @@ blockType = "high"
 input = "3hp"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Forces a Hard Knockdown on Punish Counter"]
-notes_ja = ["パニッシュカウンター時ハードノックダウン"]
-
+notes = [
+  "Slide along the ground toward your opponent. This is a low attack that cannot be blocked standing.",
+  "Forces a Hard Knockdown on Punish Counter",
+]
+notes_ja = ["前方へ低姿勢で滑り込む、立ってガードできない下段攻撃。", "パニッシュカウンター時ハードノックダウン"]
 startup = 14
 active = [14, 23]
 recovery = 22
@@ -2315,11 +2514,13 @@ characterId = 8
 type = "action"
 input = "c(pp)"
 notes = [
+  "Crouch in place and adopt a low stance. From this stance you can perform Wild Lift (an attack), or Raid Jump (a special jump).",
   "Hold down on the stick during the move to continue the technique for 48 more frames",
   "During the crouch, press up on the stick to cancel the technique",
   "Can transition to Surprise Forward Hop or Surprise Backward Hop from frames 18 - 111 (longest time)",
 ]
 notes_ja = [
+  "その場に伏せて低姿勢となる動作。打撃技のワイルドリフト、移動技のレイドジャンプへ派生可能。",
   "動作中に下方向入力を続けた場合伏せ部分の動作を48F延長可",
   "伏せ動作中に上方向入力で動作を中断可",
   "18F-111F(最延長時) 専用技及びサプライズフォワード、サプライズバックへ派生可",
@@ -2346,6 +2547,8 @@ recovery = 31
 damage = 600
 superArt = 500
 capcom_skill_id = 407
+notes = ["A launching attack performed from Coward Crouch."]
+notes_ja = ["フィアーダウンから派生する、相手を打ち上げる攻撃。"]
 
 [moves.frameAdvantage]
 block = -21
@@ -2365,11 +2568,15 @@ type = "followUp"
 input = "*k"
 parentSlug = "coward-crouch"
 notes = [
+  "A forward jump performed from Coward Crouch.",
   "Considered airborne from frames 9 - 43",
   "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43",
 ]
-notes_ja = ["9-43F 空中判定", "15-43F 空中での通常技及び必殺技へ派生可"]
-
+notes_ja = [
+  "フィアーダウンから派生する、前方へジャンプする動作。",
+  "9-43F 空中判定",
+  "15-43F 空中での通常技及び必殺技へ派生可",
+]
 recovery = 43
 postLandingRecovery = 12
 capcom_skill_id = 408
@@ -2382,9 +2589,11 @@ slug = "surprise-forward-hop"
 characterId = 8
 type = "action"
 input = "6(kkk)"
-notes = ["Can be canceled into any special-canceable normal or unique attack"]
-notes_ja = ["必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
-
+notes = [
+  "A movement technique that allows you to swiftly advance toward your opponent. Useful for surprise attacks.",
+  "Can be canceled into any special-canceable normal or unique attack",
+]
+notes_ja = ["素早く前進する、奇襲に適した移動動作。", "必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
 totalFrames = 27
 capcom_skill_id = 409
 
@@ -2397,11 +2606,15 @@ characterId = 8
 type = "action"
 input = "4(kkk)"
 notes = [
+  "A movement technique that allows you to swiftly fall back and place distance between you and your opponent.",
   "Considered airborne from frames 11 - 21",
   "Can be canceled into any special-canceable normal or unique attack",
 ]
-notes_ja = ["11-21F 空中判定", "必殺技キャンセル可能な通常技及び特殊技からキャンセル可能"]
-
+notes_ja = [
+  "素早く後退する、間合いを取るのに優れた移動動作。",
+  "11-21F 空中判定",
+  "必殺技キャンセル可能な通常技及び特殊技からキャンセル可能",
+]
 totalFrames = 32
 capcom_skill_id = 410
 
@@ -2418,13 +2631,19 @@ input = "(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Latch onto your opponent, bite them a few times, and kick off of them. Throws your opponent without switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手に組み付き、噛み付き攻撃を浴びせた後に蹴り飛ばす投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2451,13 +2670,19 @@ input = "(4lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Place your hands on your opponent's shoulders, climb on top of them, then send them tumbling as you kick off their back. Throws your opponent while switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手の肩に手を付いて跳び越え、背面を蹴り飛ばす投げ技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2484,13 +2709,19 @@ input = "j>(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "Grab an airborne opponent, bite them while falling to the ground, and then bite them once again. Throws your opponent without switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "空中で相手に喰らいついて落下し、さらに噛み付きを浴びせる技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 damage = 1200

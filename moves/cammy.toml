@@ -571,6 +571,8 @@ cancel = "C"
 damage = 500
 superArt = 500
 capcom_skill_id = 401
+notes = ["A quick uppercut. Useful against jumping opponents."]
+notes_ja = ["相手のジャンプに対して強く、技の出が早いアッパー攻撃。"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -592,9 +594,11 @@ hitCount = 1
 blockType = "high"
 input = "6hk"
 properties = ["knockdown"]
-notes = ["Increase juggle state time when attack lands as a Punish Counter"]
-notes_ja = ["パニッシュカウンター時吹き飛び時間増加"]
-
+notes = [
+  "A kick unleashed after stepping backward. Can be canceled into special moves.",
+  "Increase juggle state time when attack lands as a Punish Counter",
+]
+notes_ja = ["後方へ下がった後に繰り出す必殺技キャンセル可能な蹴り。", "パニッシュカウンター時吹き飛び時間増加"]
 startup = 18
 active = [18, 20]
 recovery = 25
@@ -624,9 +628,11 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 properties = ["knockdown"]
-notes = ["Can only be canceled into a jump if the attack hits"]
-notes_ja = ["ヒット時のみジャンプキャンセル可能"]
-
+notes = [
+  "A launching kick that can be canceled into special moves. It can be jumped out of on hit.",
+  "Can only be canceled into a jump if the attack hits",
+]
+notes_ja = ["必殺技キャンセル可能な、相手を打ち上げる回し蹴り。攻撃が当たると即座にジャンプできる。", "ヒット時のみジャンプキャンセル可能"]
 startup = 9
 active = [9, 11]
 recovery = 18
@@ -656,9 +662,11 @@ hitCount = 2
 blockType = "high"
 input = "4mp>6hk"
 properties = ["knockdown"]
-notes = ["Can only be canceled into a jump if the attack hits"]
-notes_ja = ["ヒット時のみジャンプキャンセル可能"]
-
+notes = [
+  "A two-hit combination attack that can be canceled into special moves. If it connects, the second hit can be jumped out of.",
+  "Can only be canceled into a jump if the attack hits",
+]
+notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃。2段目が当たると即座にジャンプできる。", "ヒット時のみジャンプキャンセル可能"]
 startup = 9
 active = [9, 11]
 recovery = 23
@@ -686,9 +694,11 @@ hitCount = 3
 blockType = "high"
 input = "4hp>6hk"
 properties = ["knockdown"]
-notes = ["Only the first hit can be canceled into a special move"]
-notes_ja = ["1段目のみ必殺技キャンセル可能"]
-
+notes = [
+  "A series of attacks, the first and second of which can be canceled into special moves.",
+  "Only the first hit can be canceled into a special move",
+]
+notes_ja = ["2段目まで必殺技でキャンセル可能な連続攻撃。", "1段目のみ必殺技キャンセル可能"]
 startup = 13
 active = [13, 15, 29, 31]
 recovery = 29
@@ -720,8 +730,11 @@ hitCount = 1
 blockType = "high"
 input = "236lk"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 9 - 24"]
-notes_ja = ["9-24F 空中判定"]
+notes = [
+  "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos.",
+  "Considered airborne from frames 9 - 24",
+]
+notes_ja = ["回転しながらの両足蹴りで低空を突進する技。離れた間合いの奇襲や通常技をキャンセルしてのコンボで有効。", "9-24F 空中判定"]
 url = "https://www.streetfighter.com/6/assets/images/character/cammy/skill/movie/501.mp4"
 
 startup = 9
@@ -753,9 +766,11 @@ blockType = "high"
 input = "236mk"
 
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 9 - 26"]
-notes_ja = ["9-26F 空中判定"]
-
+notes = [
+  "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos.",
+  "Considered airborne from frames 9 - 26",
+]
+notes_ja = ["回転しながらの両足蹴りで低空を突進する技。離れた間合いの奇襲や通常技をキャンセルしてのコンボで有効。", "9-26F 空中判定"]
 startup = 9
 active = [9, 23]
 recovery = 21
@@ -784,9 +799,11 @@ hitCount = 2
 blockType = "high"
 input = "236hk"
 properties = ["chargeable", "knockdown"]
-notes = ["Considered airborne from frames 18 - 33"]
-notes_ja = ["18-33F 空中判定"]
-
+notes = [
+  "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos.",
+  "Considered airborne from frames 18 - 33",
+]
+notes_ja = ["回転しながらの両足蹴りで低空を突進する技。離れた間合いの奇襲や通常技をキャンセルしてのコンボで有効。", "18-33F 空中判定"]
 startup = 15
 active = [15, 17, 19, 30]
 recovery = 21
@@ -815,11 +832,15 @@ blockType = "high"
 input = "236+[hk]"
 properties = ["knockdown"]
 notes = [
+  "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos.",
   "Hold the button for more than 16 frames to change its properties",
   "Considered airborne from frames 30 - 45",
 ]
-notes_ja = ["16F以上ホールドすると性能変化", "30-45F 空中判定"]
-
+notes_ja = [
+  "回転しながらの両足蹴りで低空を突進する技。離れた間合いの奇襲や通常技をキャンセルしてのコンボで有効。",
+  "16F以上ホールドすると性能変化",
+  "30-45F 空中判定",
+]
 startup = 27
 active = [27, 29, 31, 33, 34, 36, 37, 39, 40, 42]
 recovery = 20
@@ -849,9 +870,11 @@ hitCount = 5
 input = "236(kk)"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 16 - 32"]
-notes_ja = ["16-32F 空中判定"]
-
+notes = [
+  "A spinning kick with both legs that travels low along the ground. Useful for launching surprise attacks from a distance or used out of normal moves to create combos.",
+  "Considered airborne from frames 16 - 32",
+]
+notes_ja = ["回転しながらの両足蹴りで低空を突進する技。離れた間合いの奇襲や通常技をキャンセルしてのコンボで有効。", "16-32F 空中判定"]
 startup = 13
 active = [13, 15, 17, 19, 20, 22, 23, 25, 26, 28]
 recovery = 20
@@ -883,12 +906,17 @@ blockType = "high"
 input = "623lk"
 properties = ["knockdown"]
 notes = [
+  "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack.",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Considered airborne from frames 7 - 40",
   "Does 800 individual damage after the 3rd active frame",
 ]
-notes_ja = ["1-14F 空中判定の攻撃に対して無敵", "7-40F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
-
+notes_ja = [
+  "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-14F 空中判定の攻撃に対して無敵",
+  "7-40F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
 startup = 5
 active = [5, 16]
 recovery = 24
@@ -920,12 +948,17 @@ blockType = "high"
 input = "623mk"
 properties = ["knockdown"]
 notes = [
+  "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack.",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 8 - 42",
   "Does 800 individual damage after the 3rd active frame",
 ]
-notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-42F 空中判定", "※持続の3F目以降は個別ダメージ（800）"]
-
+notes_ja = [
+  "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-9F 空中判定の攻撃に対して無敵",
+  "8-42F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
 startup = 6
 active = [6, 17]
 recovery = 25
@@ -957,12 +990,14 @@ blockType = "high"
 input = "623hk"
 properties = ["chargeable", "knockdown"]
 notes = [
+  "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack.",
   "Hold down the button for over 23 frames to change its properties",
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 10 - 36",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
+  "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "15F以上ホールドすると性能変化",
   "1-8F 空中判定の攻撃に対して無敵",
   "10-36F 空中判定",
@@ -998,12 +1033,14 @@ blockType = "high"
 input = "623+[hk]"
 properties = ["knockdown"]
 notes = [
+  "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack.",
   "Invincible to mid-air attacks from frames 1 - 7",
   "Completely invincible from frames 20 - 25",
   "Considered airborne from frames 26 - 64",
   "Does 900 individual damage after the 5th active frame",
 ]
 notes_ja = [
+  "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-7F 空中判定の攻撃に対して無敵",
   "20-25F 完全無敵",
   "26-64F 空中判定",
@@ -1041,12 +1078,17 @@ blockType = "high"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
+  "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack.",
   "Completely invincible from frames 1 - 7",
   "Considered airborne from frames 8 - 47",
   "Does 900 individual damage after the 5th active frame",
 ]
-notes_ja = ["1-7F 完全無敵", "8-47F 空中判定", "※持続の5F目以降は個別ダメージ（900）"]
-
+notes_ja = [
+  "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-7F 完全無敵",
+  "8-47F 空中判定",
+  "※持続の5F目以降は個別ダメージ（900）",
+]
 startup = 6
 active = [6, 17]
 recovery = 30
@@ -1081,6 +1123,10 @@ cancel = "SA3"
 damage = 800
 superArt = 800
 capcom_skill_id = 503
+notes = [
+  "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard.",
+]
+notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1103,9 +1149,11 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mk"
-notes = ["Invincible to projectiles from frames 6 - 20"]
-notes_ja = ["6-20F 飛び道具無敵"]
-
+notes = [
+  "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard.",
+  "Invincible to projectiles from frames 6 - 20",
+]
+notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効。", "6-20F 飛び道具無敵"]
 startup = 24
 active = [24, 27]
 recovery = 16
@@ -1137,9 +1185,11 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hk"
-notes = ["Invincible to projectiles from frames 6 - 24"]
-notes_ja = ["6-24F 飛び道具無敵"]
-
+notes = [
+  "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard.",
+  "Invincible to projectiles from frames 6 - 24",
+]
+notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効。", "6-24F 飛び道具無敵"]
 startup = 28
 active = [28, 31]
 recovery = 17
@@ -1172,11 +1222,16 @@ hitCount = 1
 blockType = "high"
 input = "214(pp)"
 notes = [
+  "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard.",
   "Invincible to projectiles from frames 3 - 24",
   "When performed at close range, Cammy will go behind her opponent and attack. In this situation, start up is 3 frames later",
 ]
-notes_ja = ["3-24F 飛び道具無敵", "近距離で発動すると、相手の背後に回り込んでから攻撃を行う。", "その場合発生が3F遅くなる。"]
-
+notes_ja = [
+  "前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効。",
+  "3-24F 飛び道具無敵",
+  "近距離で発動すると、相手の背後に回り込んでから攻撃を行う。",
+  "その場合発生が3F遅くなる。",
+]
 startup = 25
 active = [25, 28]
 recovery = 17
@@ -1206,10 +1261,10 @@ hitCount = 1
 blockType = "high"
 input = "9>214*k"
 notes = [
+  "A descending kick performed while airborne. Useful as a way to approach an opponent or as a means of continuing your offensive pressure.",
   "Recovery value difference is when the attack is performed at its fastest",
 ]
-notes_ja = ["硬直差の数値は最速で発動した際のもの"]
-
+notes_ja = ["空中から急降下しながらの蹴りを繰り出す技。接近手段や攻めの継続手段として有効。", "硬直差の数値は最速で発動した際のもの"]
 startup = 13
 active = [13, 23]
 postLandingRecovery = 12
@@ -1239,10 +1294,10 @@ hitCount = 1
 blockType = "high"
 input = "9>214(kk)"
 notes = [
+  "A descending kick performed while airborne. Useful as a way to approach an opponent or as a means of continuing your offensive pressure.",
   "Recovery value difference is when the attack is performed at its fastest",
 ]
-notes_ja = ["硬直差の数値は最速で発動した際のもの"]
-
+notes_ja = ["空中から急降下しながらの蹴りを繰り出す技。接近手段や攻めの継続手段として有効。", "硬直差の数値は最速で発動した際のもの"]
 startup = 13
 active = [13, 22]
 postLandingRecovery = 12
@@ -1271,9 +1326,14 @@ type = "special"
 input = "236*p"
 properties = ["chargeable"]
 notes = [
+  "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one.",
   "From frame 21 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 7 or later. Is considered airborne.",
 ]
-notes_ja = ["21F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
+notes_ja = [
+  "放物線を描く軌道で回転しながら跳び込む技。空中動作中は、各種派生技へ移行可能。",
+  "21F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能",
+  "7F以降、空中判定",
+]
 capcom_skill_id = 505
 
 # Hooligan Combination (Charged)
@@ -1285,10 +1345,12 @@ characterId = 17
 type = "special"
 input = "236+[hp]"
 notes = [
+  "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one.",
   "Hold the button for more than 18 frames to change its properties",
   "From frame 41 until landing, can be canceled into any offshoot attacks except for Razor’s Edge Slicer on frame 27 or later. Is considered airborne.",
 ]
 notes_ja = [
+  "放物線を描く軌道で回転しながら跳び込む技。空中動作中は、各種派生技へ移行可能。",
   "18F以上ホールドすると性能変化",
   "41F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能",
   "27F以降、空中判定",
@@ -1306,9 +1368,14 @@ characterId = 17
 type = "special"
 input = "236(pp)"
 notes = [
+  "Perform a spinning jump through the air in a parabolic arc. While airborne, many other moves can be performed out of this one.",
   "From frame 21 until landing, can be canceled into any offshoot attacks except for Overdrive Razor’s Edge Slicer on frame 7 or later. Is considered airborne.",
 ]
-notes_ja = ["21F～着地まで、ODレイザーエッジスライサーを除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
+notes_ja = [
+  "放物線を描く軌道で回転しながら跳び込む技。空中動作中は、各種派生技へ移行可能。",
+  "21F～着地まで、ODレイザーエッジスライサーを除いた各種派生技でキャンセル可能",
+  "7F以降、空中判定",
+]
 capcom_skill_id = 505
 
 # Razor's Edge Slicer
@@ -1333,6 +1400,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcom_skill_id = 506
+notes = [
+  "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination.",
+]
+notes_ja = ["フーリガンコンビネーションから着地時に下段蹴りを繰り出す技。フーリガンコンビネーションから無派生の場合に移行する。"]
 
 [moves.frameAdvantage]
 block = 2
@@ -1355,10 +1426,13 @@ input = "5"
 parentSlug = "hooligan-combination-charged"
 properties = ["knockdown"]
 notes = [
+  "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination.",
   "Only the final attack can be canceled into a Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["最終段のみSA3/CAでキャンセル可能"]
-
+notes_ja = [
+  "フーリガンコンビネーションから着地時に下段蹴りを繰り出す技。フーリガンコンビネーションから無派生の場合に移行する。",
+  "最終段のみSA3/CAでキャンセル可能",
+]
 startup = 10
 active = [10, 18, 29, 33]
 recovery = 17
@@ -1391,9 +1465,13 @@ type = "special"
 input = "5"
 properties = ["knockdown"]
 notes = [
+  "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination.",
   "Only the final attack can be canceled into a Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["最終段のみSA2/SA3/CAでキャンセル可能"]
+notes_ja = [
+  "フーリガンコンビネーションから着地時に下段蹴りを繰り出す技。フーリガンコンビネーションから無派生の場合に移行する。",
+  "最終段のみSA2/SA3/CAでキャンセル可能",
+]
 parentSlug = "hooligan-combination-od"
 
 startup = 10
@@ -1425,10 +1503,13 @@ blockType = "high"
 input = "*k"
 parentSlug = "hooligan-combination"
 notes = [
+  "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
-notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
-
+notes_ja = [
+  "フーリガンコンビネーションから派生する急降下蹴り。派生前に位置が入れ替わっても相手方向へ向き直る性質を持つ。",
+  "ヒット・ガードさせた高度によって硬直差が変化",
+]
 startup = 13
 active = [13, 23]
 postLandingRecovery = 12
@@ -1461,10 +1542,13 @@ blockType = "high"
 input = "*k"
 parentSlug = "hooligan-combination-charged"
 notes = [
+  "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
-notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
-
+notes_ja = [
+  "フーリガンコンビネーションから派生する急降下蹴り。派生前に位置が入れ替わっても相手方向へ向き直る性質を持つ。",
+  "ヒット・ガードさせた高度によって硬直差が変化",
+]
 startup = 13
 active = [13, 22]
 postLandingRecovery = 12
@@ -1499,10 +1583,13 @@ blockType = "high"
 input = "*k"
 parentSlug = "hooligan-combination-od"
 notes = [
+  "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
-notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
-
+notes_ja = [
+  "フーリガンコンビネーションから派生する急降下蹴り。派生前に位置が入れ替わっても相手方向へ向き直る性質を持つ。",
+  "ヒット・ガードさせた高度によって硬直差が変化",
+]
 startup = 13
 active = [13, 22]
 postLandingRecovery = 12
@@ -1535,10 +1622,13 @@ blockType = "mid"
 input = "2*k"
 parentSlug = "hooligan-combination"
 notes = [
+  "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
-notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化"]
-
+notes_ja = [
+  "フーリガンコンビネーションから派生する振り下ろし蹴り。しゃがみガードできない中段属性で、ガード崩しに有効。",
+  "ヒット・ガードさせた高度によって硬直差が変化",
+]
 startup = 18
 active = [18, 21]
 postLandingRecovery = 13
@@ -1579,6 +1669,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
 capcom_skill_id = 508
+notes = [
+  "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する振り下ろし蹴り。しゃがみガードできない中段属性で、ガード崩しに有効。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -1612,6 +1706,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
 capcom_skill_id = 508
+notes = [
+  "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する振り下ろし蹴り。しゃがみガードできない中段属性で、ガード崩しに有効。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -1638,6 +1736,10 @@ postLandingRecovery = 30
 damage = 1800
 superArt = 3000
 capcom_skill_id = 509
+notes = [
+  "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する投げ技。地上で立ち状態の相手を投げる事ができ、ダメージが大きい。"]
 
 [moves.driveGauge]
 onHit = 3000
@@ -1662,6 +1764,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcom_skill_id = 509
+notes = [
+  "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する投げ技。地上で立ち状態の相手を投げる事ができ、ダメージが大きい。"]
 
 [moves.driveGauge]
 onHit = 3000
@@ -1688,6 +1794,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcom_skill_id = 509
+notes = [
+  "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する投げ技。地上で立ち状態の相手を投げる事ができ、ダメージが大きい。"]
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1704,6 +1814,10 @@ parentSlug = "hooligan-combination"
 
 postLandingRecovery = 10
 capcom_skill_id = 510
+notes = [
+  "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する急降下移動技。隙が小さく、攻撃派生を警戒させてのフェイントで使いやすい。"]
 
 # Silent Step (Charged)
 [[moves]]
@@ -1717,6 +1831,10 @@ parentSlug = "hooligan-combination-charged"
 
 postLandingRecovery = 10
 capcom_skill_id = 510
+notes = [
+  "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する急降下移動技。隙が小さく、攻撃派生を警戒させてのフェイントで使いやすい。"]
 
 # Silent Step (OD)
 [[moves]]
@@ -1732,6 +1850,10 @@ parentSlug = "hooligan-combination-od"
 
 postLandingRecovery = 10
 capcom_skill_id = 510
+notes = [
+  "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack.",
+]
+notes_ja = ["フーリガンコンビネーションから派生する急降下移動技。隙が小さく、攻撃派生を警戒させてのフェイントで使いやすい。"]
 
 # Spin Drive Smasher
 [[moves]]
@@ -1744,9 +1866,14 @@ hitCount = 7
 type = "super1"
 input = "236236*k"
 properties = ["knockdown"]
-notes = ["The 6th attack is only performed if the 5th attack hits"]
-notes_ja = ["6段目以降は5段目ヒット時のみ派生"]
-
+notes = [
+  "A forward-moving combination attack consisting of a Spiral Arrow followed by a Cannon Spike. It has invincibility on startup, making it useful for turning the tables.",
+  "The 6th attack is only performed if the 5th attack hits",
+]
+notes_ja = [
+  "スパイラルアローからキャノンスパイクへ繋ぐ突進技。技の出始めに無敵時間があり、切り返しに使える。",
+  "6段目以降は5段目ヒット時のみ派生",
+]
 startup = 9
 active = [9, 19]
 recovery = 38
@@ -1773,11 +1900,15 @@ input = "214214*k"
 
 properties = ["knockdown"]
 notes = [
+  "Jump into the air, seize your opponent with a quick descending kick, and perform a chokehold on them. This move executes quickly, making it easy to combo into from grounded moves.",
   "Attack does not transition into the cinematic attack when hitting an airborne opponent",
   "Damage is 220 x n (multiple hits until Cammy lands on the ground)",
 ]
-notes_ja = ["空中ヒット時は非ロック技に性能が変化する", "ダメージ220×n（着地まで連続ヒット）"]
-
+notes_ja = [
+  "跳び上がりからの急降下蹴りで捕捉し、絞め技を極める技。技の出が早く、地上技からのコンボに繋ぎやすい。",
+  "空中ヒット時は非ロック技に性能が変化する",
+  "ダメージ220×n（着地まで連続ヒット）",
+]
 startup = 13
 active = [13, 21]
 recovery = 37
@@ -1803,11 +1934,15 @@ type = "super2"
 input = "9>214214*k"
 properties = ["knockdown"]
 notes = [
+  "Performed while airborne, seize your opponent with a quick descending kick and perform a chokehold on them. Easy to combo into from aerial specials.",
   "Attack does not transition into the cinematic attack when hitting an airborne opponent",
   "Damage is 220 x n (multiple hits until Cammy lands on the ground)",
 ]
-notes_ja = ["空中ヒット時は非ロック技に性能が変化する", "ダメージ220×n（着地まで連続ヒット）"]
-
+notes_ja = [
+  "空中から発動し、急降下蹴りからの絞め技を極める技。空中必殺技からのコンボとして使いやすい。",
+  "空中ヒット時は非ロック技に性能が変化する",
+  "ダメージ220×n（着地まで連続ヒット）",
+]
 startup = 13
 active = [13]
 recovery = 37
@@ -1833,6 +1968,7 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "Send your opponent to their knees with a series of high-speed attacks and finish with a powerful kick. A highly versatile move, useful both in combos and as a way of dealing with projectiles.",
   "Completely invincible from frames 1 - 13",
   "Considered airborn from frames 9 - 27",
   "Minimum guaranteed damage is set to 50%",
@@ -1840,6 +1976,7 @@ notes = [
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "高速での連撃で崩れ落ちた相手に渾身の蹴りを叩き込む高威力技。コンボや飛び道具対策など、幅広い場面で狙える。",
   "1-13F 完全無敵",
   "9-27F 空中判定",
   "最低保障ダメージ50％",
@@ -1875,6 +2012,7 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "Send your opponent to their knees with a series of high-speed attacks and finish with a powerful kick. A highly versatile move, useful both in combos and as a way of dealing with projectiles.",
   "Completely invincible from frames 1 - 13",
   "Considered airborn from frames 9 - 27",
   "Minimum guaranteed damage is set to 50%",
@@ -1882,6 +2020,7 @@ notes = [
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "高速での連撃で崩れ落ちた相手に渾身の蹴りを叩き込む高威力技。コンボや飛び道具対策など、幅広い場面で狙える。",
   "1-13F 完全無敵",
   "9-27F 空中判定",
   "最低保障ダメージ50％",
@@ -1917,13 +2056,19 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "Latch onto your opponent and whirl around them before smashing their face into the ground. Throws your opponent without switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手の背後に回りながら組み付き、顔面を叩き付ける投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1950,13 +2095,19 @@ input = "(2lplk)"
 
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent's head between your legs and perform a spin that tosses them behind you, switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "相手の頭部を両脚で挟み、勢いを付けて投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1982,13 +2133,19 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab an airborne opponent between your legs and drive their head into the ground. Throws your opponent without switching places with them.",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "空中で相手の体を両脚で挟み、落下しながら頭部を叩き付ける技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 postLandingRecovery = 3
