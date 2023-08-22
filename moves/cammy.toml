@@ -1388,7 +1388,7 @@ hitCount = 1
 blockType = "low"
 type = "special"
 input = "5"
-parentSlug = "hooligan-combination"
+parentSlugs = ["hooligan-combination"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1423,7 +1423,7 @@ hitCount = 1
 blockType = "low"
 type = "special"
 input = "5"
-parentSlug = "hooligan-combination-charged"
+parentSlugs = ["hooligan-combination-charged"]
 properties = ["knockdown"]
 notes = [
   "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination.",
@@ -1472,7 +1472,7 @@ notes_ja = [
   "フーリガンコンビネーションから着地時に下段蹴りを繰り出す技。フーリガンコンビネーションから無派生の場合に移行する。",
   "最終段のみSA2/SA3/CAでキャンセル可能",
 ]
-parentSlug = "hooligan-combination-od"
+parentSlugs = ["hooligan-combination-od"]
 
 startup = 10
 active = [10, 18, 29, 33]
@@ -1501,7 +1501,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlug = "hooligan-combination"
+parentSlugs = ["hooligan-combination"]
 notes = [
   "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
@@ -1540,7 +1540,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlug = "hooligan-combination-charged"
+parentSlugs = ["hooligan-combination-charged"]
 notes = [
   "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
@@ -1581,7 +1581,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlug = "hooligan-combination-od"
+parentSlugs = ["hooligan-combination-od"]
 notes = [
   "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
@@ -1620,7 +1620,7 @@ type = "special"
 hitCount = 1
 blockType = "mid"
 input = "2*k"
-parentSlug = "hooligan-combination"
+parentSlugs = ["hooligan-combination"]
 notes = [
   "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard.",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
@@ -1659,7 +1659,7 @@ type = "special"
 hitCount = 1
 blockType = "mid"
 input = "2*k"
-parentSlug = "hooligan-combination-charged"
+parentSlugs = ["hooligan-combination-charged"]
 
 startup = 18
 active = [18, 21, 36, 39]
@@ -1695,7 +1695,7 @@ type = "special"
 hitCount = 1
 blockType = "mid"
 input = "236(pp)>2*k"
-parentSlug = "hooligan-combination-od"
+parentSlugs = ["hooligan-combination-od"]
 
 startup = 18
 active = [18, 21, 36, 39]
@@ -1727,7 +1727,7 @@ slug = "fatal-leg-twister"
 characterId = 17
 type = "throw"
 input = "(lplk)"
-parentSlug = "hooligan-combination"
+parentSlugs = ["hooligan-combination"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1753,7 +1753,7 @@ slug = "fatal-leg-twister-charged"
 characterId = 17
 type = "throw"
 input = "(lplk)"
-parentSlug = "hooligan-combination-charged"
+parentSlugs = ["hooligan-combination-charged"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1783,7 +1783,7 @@ slug = "fatal-leg-twister-od"
 characterId = 17
 type = "throw"
 input = "(lplk)"
-parentSlug = "hooligan-combination-od"
+parentSlugs = ["hooligan-combination-od"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1810,7 +1810,7 @@ slug = "silent-step"
 characterId = 17
 type = "action"
 input = "*p"
-parentSlug = "hooligan-combination"
+parentSlugs = ["hooligan-combination"]
 
 postLandingRecovery = 10
 capcom_skill_id = 510
@@ -1827,7 +1827,7 @@ slug = "silent-step-charged"
 characterId = 17
 type = "action"
 input = "*p"
-parentSlug = "hooligan-combination-charged"
+parentSlugs = ["hooligan-combination-charged"]
 
 postLandingRecovery = 10
 capcom_skill_id = 510
@@ -1846,7 +1846,7 @@ slug = "silent-step-od"
 characterId = 17
 type = "action"
 input = "*p"
-parentSlug = "hooligan-combination-od"
+parentSlugs = ["hooligan-combination-od"]
 
 postLandingRecovery = 10
 capcom_skill_id = 510

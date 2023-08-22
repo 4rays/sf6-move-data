@@ -37,7 +37,7 @@ abbreviation = "DR"
 abbeviation_ja = "DR"
 type = "action"
 input = "(6mpmk)6"
-parentSlug = "drive-parry"
+parentSlugs = ["drive-parry"]
 
 # Drive Impact
 [[moves]]

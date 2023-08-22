@@ -55,7 +55,7 @@ characterId = 13
 blockType = "high"
 type = "commandNormal"
 input = "5(hp)"
-parentSlug = "marisa-stand-heavy-punch"
+parentSlugs = ["marisa-stand-heavy-punch"]
 
 # Standing Light Kick
 [[moves]]
@@ -111,7 +111,7 @@ characterId = 13
 blockType = "low"
 type = "commandNormal"
 input = "5(hk)"
-parentSlug = "marisa-stand-heavy-kick"
+parentSlugs = ["marisa-stand-heavy-kick"]
 
 # Crouching Light Punch
 [[moves]]
@@ -168,7 +168,7 @@ characterId = 13
 blockType = "high"
 type = "commandNormal"
 input = "2+[hp]"
-parentSlug = "marisa-crouch-heavy-punch"
+parentSlugs = ["marisa-crouch-heavy-punch"]
 
 # Crouching Light Kick
 [[moves]]
@@ -225,7 +225,7 @@ characterId = 13
 blockType = "low"
 type = "commandNormal"
 input = "2+[hk]"
-parentSlug = "marisa-crouch-heavy-kick"
+parentSlugs = ["marisa-crouch-heavy-kick"]
 
 # Jumping Light Punch
 [[moves]]
@@ -282,7 +282,7 @@ characterId = 13
 blockType = "high"
 type = "commandNormal"
 input = "j>[hp]"
-parentSlug = "marisa-jump-heavy-punch"
+parentSlugs = ["marisa-jump-heavy-punch"]
 
 # Jumping Light Kick
 [[moves]]
@@ -339,7 +339,7 @@ characterId = 13
 blockType = "high"
 type = "commandNormal"
 input = "j>[hk]"
-parentSlug = "marisa-jump-heavy-kick"
+parentSlugs = ["marisa-jump-heavy-kick"]
 
 # Light Two Hitter
 [[moves]]
@@ -626,7 +626,7 @@ characterId = 13
 blockType = "mid"
 type = "special"
 input = "*p>*p"
-parentSlug = "scutum"
+parentSlugs = ["scutum"]
 
 # Procella
 [[moves]]
@@ -637,7 +637,7 @@ blockType = "low"
 characterId = 13
 type = "special"
 input = "*k"
-parentSlug = "scutum"
+parentSlugs = ["scutum"]
 
 # Enfold
 [[moves]]
@@ -648,7 +648,7 @@ characterId = 13
 blockType = "high"
 type = "commandThrow"
 input = "(lplk)"
-parentSlug = "scutum"
+parentSlugs = ["scutum"]
 
 # Javelin of Marisa
 [[moves]]

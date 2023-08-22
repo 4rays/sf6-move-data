@@ -474,7 +474,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "236*k>*p>*p"
-parentSlug = "sumo-dash"
+parentSlugs = ["sumo-dash"]
 
 # Teppo Triple Slap (OD)
 [[moves]]
@@ -486,7 +486,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "236(kk)>*p>*p"
-parentSlug = "sumo-dash-od"
+parentSlugs = ["sumo-dash-od"]
 
 # Taiho Cannon Lift
 [[moves]]
@@ -498,7 +498,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "236*k>2*p"
-parentSlug = "sumo-dash"
+parentSlugs = ["sumo-dash"]
 
 # Taiho Cannon Lift (OD)
 [[moves]]
@@ -510,7 +510,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "236(kk)>2*p"
-parentSlug = "sumo-dash-od"
+parentSlugs = ["sumo-dash-od"]
 
 # Neko Damashi
 [[moves]]

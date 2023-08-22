@@ -554,7 +554,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlug = "shiku-sen"
+parentSlugs = ["shiku-sen"]
 
 # Shiren-sen (OD)
 [[moves]]
@@ -566,7 +566,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "(kk)"
-parentSlug = "shiku-sen-od"
+parentSlugs = ["shiku-sen-od"]
 
 # Sakkai Fuhazan
 [[moves]]

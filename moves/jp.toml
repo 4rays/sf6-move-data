@@ -372,7 +372,7 @@ characterId = 14
 type = "followUp"
 blockType = "high"
 input = "214+{lp|mp}"
-parentSlug = "departure"
+parentSlugs = ["departure"]
 hitCount = 1
 
 # Departure: Shadow 
@@ -384,7 +384,7 @@ characterId = 14
 type = "followUp"
 blockType = "high"
 input = "214hp"
-parentSlug = "departure"
+parentSlugs = ["departure"]
 hitCount = 1
 
 # Amnesia

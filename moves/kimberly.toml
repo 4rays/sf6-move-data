@@ -311,7 +311,7 @@ slug = "step-up"
 characterId = 5
 type = "commandNormal"
 input = "6hk>7|8|9"
-parentSlug = "hisen-kick"
+parentSlugs = ["hisen-kick"]
 
 # Elbow Drop
 [[moves]]
@@ -482,7 +482,7 @@ slug = "kimberly-emergency-stop"
 characterId = 5
 type = "special"
 input = "236*k>*p"
-parentSlug = "sprint"
+parentSlugs = ["sprint"]
 
 # Emergency Stop (OD)
 [[moves]]
@@ -492,7 +492,7 @@ slug = "kimberly-emergency-stop-od"
 characterId = 5
 type = "special"
 input = "236(kk)>*p"
-parentSlug = "sprint-od"
+parentSlugs = ["sprint-od"]
 
 # Torso Cleaver
 [[moves]]
@@ -504,7 +504,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236*k>*k"
-parentSlug = "sprint"
+parentSlugs = ["sprint"]
 
 # Torso Cleaver (OD)
 [[moves]]
@@ -516,7 +516,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(kk)>*k"
-parentSlug = "sprint-od"
+parentSlugs = ["sprint-od"]
 
 # Shadow Slide
 [[moves]]
@@ -528,7 +528,7 @@ type = "special"
 hitCount = 1
 blockType = "low"
 input = "236*k>mk"
-parentSlug = "sprint"
+parentSlugs = ["sprint"]
 
 # Shadow Slide (OD)
 [[moves]]
@@ -540,7 +540,7 @@ type = "special"
 hitCount = 1
 blockType = "low"
 input = "236(kk)>mk"
-parentSlug = "sprint-od"
+parentSlugs = ["sprint-od"]
 
 # Neck Hunter
 [[moves]]
@@ -552,7 +552,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236*k>hk"
-parentSlug = "sprint"
+parentSlugs = ["sprint"]
 
 # Neck Hunter (OD)
 [[moves]]
@@ -564,7 +564,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(kk)>hk"
-parentSlug = "sprint-od"
+parentSlugs = ["sprint-od"]
 
 # Arc Step
 [[moves]]
@@ -574,7 +574,7 @@ slug = "arc-step"
 characterId = 5
 type = "special"
 input = "236*k"
-parentSlug = "sprint"
+parentSlugs = ["sprint"]
 notes = ["Auto when close."]
 notes_ja = ["近距離で自動発動"]
 
@@ -586,7 +586,7 @@ slug = "arc-step-od"
 characterId = 5
 type = "special"
 input = "236(kk)"
-parentSlug = "sprint-od"
+parentSlugs = ["sprint-od"]
 notes = ["Auto when close."]
 notes_ja = ["近距離で自動発動"]
 
@@ -598,7 +598,7 @@ slug = "bushin-izuna-otoshi"
 characterId = 5
 type = "special"
 input = "*p"
-parentSlug = "arc-step"
+parentSlugs = ["arc-step"]
 
 # Bushin Hojin Kick
 [[moves]]
@@ -608,7 +608,7 @@ slug = "bushin-hojin-kick"
 characterId = 5
 type = "special"
 input = "*k"
-parentSlug = "arc-step"
+parentSlugs = ["arc-step"]
 
 # Vagabond Edge (Light)
 [[moves]]
@@ -696,7 +696,7 @@ type = "special"
 input = "22*p"
 notes = ["Strength used affects the distance."]
 notes_ja = ["強さで飛距離が変化"]
-parentSlug = "genius-at-play"
+parentSlugs = ["genius-at-play"]
 
 # Shuriken Bomb Spread
 [[moves]]
@@ -708,7 +708,7 @@ type = "special"
 input = "22(pp)"
 notes = ["Strength used affects the distance."]
 notes_ja = ["強さで飛距離が変化"]
-parentSlug = "genius-at-play-od"
+parentSlugs = ["genius-at-play-od"]
 
 # Nue Twister
 [[moves]]

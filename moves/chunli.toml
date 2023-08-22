@@ -416,7 +416,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>lp"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Snake Strike
 [[moves]]
@@ -427,7 +427,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>mp"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Lotus Fist
 [[moves]]
@@ -438,7 +438,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>hp"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Forward Strike
 [[moves]]
@@ -449,7 +449,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>lk"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Senpu Kick
 [[moves]]
@@ -460,7 +460,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>mk"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Tenku Kick
 [[moves]]
@@ -471,7 +471,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "214*p>hk"
-parentSlug = "serenity-stream"
+parentSlugs = ["serenity-stream"]
 
 # Hundred Lightning Kicks (Light)
 [[moves]]
@@ -522,7 +522,7 @@ characterId = 3
 type = "special"
 hitCount = 1
 input = "236(kk)>(kk)"
-parentSlug = "hundred-lightning-kicks-od"
+parentSlugs = ["hundred-lightning-kicks-od"]
 
 # Aerial Hundred Lightning Kicks (Light)
 [[moves]]

@@ -547,7 +547,7 @@ type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "214*k>lk"
-parentSlug = "jus-cool"
+parentSlugs = ["jus-cool"]
 
 # Waning Moon
 [[moves]]
@@ -559,7 +559,7 @@ type = "followUp"
 hitCount = 1
 blockType = "mid"
 input = "214*k>mk"
-parentSlug = "jus-cool"
+parentSlugs = ["jus-cool"]
 
 # Maximum Strike
 [[moves]]
@@ -571,7 +571,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "214*k>hk"
-parentSlug = "jus-cool"
+parentSlugs = ["jus-cool"]
 
 # Juggling Dash
 [[moves]]
@@ -581,7 +581,7 @@ slug = "juggling-dash"
 characterId = 11
 type = "followUp"
 input = "214*k>6*p"
-parentSlug = "jus-cool"
+parentSlugs = ["jus-cool"]
 
 # Juggling Sway
 [[moves]]
@@ -591,7 +591,7 @@ slug = "juggling-sway"
 characterId = 11
 type = "followUp"
 input = "214*k>6*p>4*p"
-parentSlug = "juggling-dash"
+parentSlugs = ["juggling-dash"]
 
 # The Greatest Sobat
 [[moves]]
@@ -647,7 +647,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "hp"
-parentSlug = "marvelous-sunrise-festival"
+parentSlugs = ["marvelous-sunrise-festival"]
 
 # Encore Beat
 [[moves]]
@@ -659,7 +659,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlug = "headliner-sunrise-festival"
+parentSlugs = ["headliner-sunrise-festival"]
 
 # Weekend Pleasure
 [[moves]]

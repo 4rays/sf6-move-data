@@ -645,7 +645,7 @@ notes_ja = [
   "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
   "発動後にボタンホールドで延長可能",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 10
 active = [10, 11, 15, 16, 20, 21]
@@ -721,7 +721,7 @@ notes_ja = [
   "身体を覆うように放電して相手を感電させる攻撃。隙が少ないので近距離で通常技から連係させるのが有効。",
   "発動後にボタンホールドで延長可能",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 10
 active = [10, 11, 15, 16, 17, 18]
@@ -794,7 +794,7 @@ notes_ja = [
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 10
 active = [10, 20]
@@ -879,7 +879,7 @@ notes_ja = [
   "パニッシュカウンター時吹き飛び時間延長",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 12
 active = [12, 30]
@@ -966,7 +966,7 @@ notes_ja = [
   "パニッシュカウンター時吹き飛び時間延長",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 22
 active = [22, 41]
@@ -1046,7 +1046,7 @@ notes_ja = [
   "SA2タイマー100消費",
   "ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 18
 active = [18, 39]
@@ -1127,7 +1127,7 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 8
 active = [8, 27]
@@ -1210,7 +1210,7 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 8
 active = [8, 27]
@@ -1293,7 +1293,7 @@ notes_ja = [
   "6-57F 空中判定",
   "8-26F 空中判定の攻撃に対して無敵",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 8
 active = [8, 27]
@@ -1378,7 +1378,7 @@ notes_ja = [
   "4-53F 空中判定",
   "1-10F 完全無敵",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 7
 active = [7, 14, 17, 22]
@@ -1449,7 +1449,7 @@ notes_ja = [
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 41
 active = [41]
@@ -1521,7 +1521,7 @@ notes_ja = [
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 41
 active = [41]
@@ -1592,7 +1592,7 @@ notes_ja = [
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
 ]
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 
 startup = 41
 active = [41]
@@ -1663,7 +1663,7 @@ type = "special"
 blockType = "high"
 input = "63214(pp)"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 notes = [
   "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent.",
   "First attack produces a juggle state knockdown",
@@ -1733,7 +1733,7 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6lp"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 properties = ["knockdown"]
 notes = [
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
@@ -1800,7 +1800,7 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6mp"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 properties = ["knockdown"]
 notes = [
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
@@ -1867,7 +1867,7 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6hp"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 properties = ["knockdown", "canCrossUp"]
 notes = [
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
@@ -1933,7 +1933,7 @@ type = "special"
 blockType = "high"
 input = "j>[4]>6(pp)"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 properties = ["knockdown", "canCrossUp"]
 notes = [
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump.",
@@ -2164,7 +2164,7 @@ type = "super1"
 blockType = "high"
 input = "236236*pp"
 hitCount = 1
-parentSlug = "lightning-beast"
+parentSlugs = ["lightning-beast"]
 properties = ["knockdown"]
 notes = [
   "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos.",
@@ -2537,7 +2537,7 @@ slug = "wild-lift"
 characterId = 8
 type = "followUp"
 input = "*p"
-parentSlug = "coward-crouch"
+parentSlugs = ["coward-crouch"]
 hitCount = 1
 properties = ["knockdown"]
 
@@ -2566,7 +2566,7 @@ slug = "raid-jump"
 characterId = 8
 type = "followUp"
 input = "*k"
-parentSlug = "coward-crouch"
+parentSlugs = ["coward-crouch"]
 notes = [
   "A forward jump performed from Coward Crouch.",
   "Considered airborne from frames 9 - 43",

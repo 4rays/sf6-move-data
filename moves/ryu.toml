@@ -970,7 +970,7 @@ blockType = "high"
 input = "236*p"
 hitCount = 2
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 
 startup = 12
 totalFrames = 42
@@ -1006,7 +1006,7 @@ blockType = "high"
 input = "236(pp)"
 hitCount = 3
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 
 startup = 12
 totalFrames = 38
@@ -1686,7 +1686,7 @@ blockType = "high"
 input = "214*p"
 hitCount = 2
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 
 startup = 21
 active = [21, 25, 26]
@@ -1718,7 +1718,7 @@ hitCount = 1
 properties = ["stockDecrement", "knockdown"]
 notes = ["Produces a crumple stun for 39 frames when the attack lands."]
 notes_ja = ["ヒット時に膝崩れダウンに＋39"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 
 startup = 18
 active = [18, 23]
@@ -1782,7 +1782,7 @@ type = "super1"
 blockType = "high"
 input = "236236*p"
 hitCount = 4
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 properties = ["stockDecrement", "knockdown"]
 notes = [
   "A Hadoken in which the body's ki is concentrated and condensed into your palms before firing. Its swift speed and invulnerability can quickly turn the tables on an opponent.",
@@ -1954,7 +1954,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 notes = [
   "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power.",
   "Completely invincible from frame 1 to frame 9.",
@@ -1998,7 +1998,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 notes = [
   "Completely invincible from frame 1 to frame 9.",
   "Hold down the button to change the properties of this move.",
@@ -2040,7 +2040,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlug = "denjin-charge"
+parentSlugs = ["denjin-charge"]
 notes = [
   "Completely invincible from frame 1 to frame 9.",
   "Hold down the button to change the properties of this move.",

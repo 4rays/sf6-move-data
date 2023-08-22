@@ -531,7 +531,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 input = "214*p>6*p"
-parentSlug = "swagger-step"
+parentSlugs = ["swagger-step"]
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
 
@@ -544,7 +544,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 input = "214(pp)>6*p"
-parentSlug = "swagger-step-od"
+parentSlugs = ["swagger-step-od"]
 notes = ["Requires drink level 4."]
 notes_ja = ["酔いレベル4必要"]
 

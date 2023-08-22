@@ -616,7 +616,7 @@ characterId = 7
 type = "action"
 hitCount = 0
 input = "lk"
-parentSlug = "quick-dash"
+parentSlugs = ["quick-dash"]
 
 totalFrames = 16
 capcom_skill_id = 402
@@ -633,7 +633,7 @@ slug = "thunder-kick"
 characterId = 7
 type = "followUp"
 input = "mk"
-parentSlug = "quick-dash"
+parentSlugs = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
@@ -666,7 +666,7 @@ slug = "forward-step-kick"
 characterId = 7
 type = "followUp"
 input = "hk"
-parentSlug = "quick-dash"
+parentSlugs = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
@@ -1090,7 +1090,7 @@ characterId = 7
 type = "special"
 blockType = "high"
 input = "623*p"
-parentSlug = "quick-dash"
+parentSlugs = ["quick-dash"]
 hitCount = 5
 properties = ["knockdown"]
 notes = [
@@ -1254,7 +1254,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "214*k"
-parentSlug = "quick-dash"
+parentSlugs = ["quick-dash"]
 notes = [
   "Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits",
   "Considered airborne from frames 10 - 61",
@@ -1751,7 +1751,7 @@ notes_ja = [
   "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的。",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlug = "jinrai-kick"
+parentSlugs = ["jinrai-kick"]
 
 startup = 6
 active = [6, 9]
@@ -1794,7 +1794,7 @@ notes_ja = [
   "11F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlug = "jinrai-kick-od"
+parentSlugs = ["jinrai-kick-od"]
 
 startup = 6
 active = [6, 8]
@@ -1830,7 +1830,7 @@ notes_ja = [
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る。",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlug = "kazekama-shin-kick-od"
+parentSlugs = ["kazekama-shin-kick-od"]
 
 startup = 15
 active = [15, 17]
@@ -1867,7 +1867,7 @@ notes_ja = [
   "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的。",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlug = "jinrai-kick"
+parentSlugs = ["jinrai-kick"]
 
 startup = 18
 active = [18, 20]
@@ -1908,7 +1908,7 @@ notes_ja = [
   "24F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlug = "jinrai-kick-od"
+parentSlugs = ["jinrai-kick-od"]
 
 startup = 17
 active = [17, 19]
@@ -1937,7 +1937,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "6*k"
-parentSlug = "gorai-axe-kick-od"
+parentSlugs = ["gorai-axe-kick-od"]
 properties = ["knockdown"]
 notes = [
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage.",
@@ -1973,7 +1973,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "6hk"
-parentSlug = "jinrai-kick"
+parentSlugs = ["jinrai-kick"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
@@ -2013,7 +2013,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "6hk"
-parentSlug = "jinrai-kick-od"
+parentSlugs = ["jinrai-kick-od"]
 properties = ["knockdown"]
 notes = [
   "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick.",
@@ -2049,7 +2049,7 @@ characterId = 7
 type = "special"
 hitCount = 2
 input = "6*k"
-parentSlug = "senka-snap-kick-od"
+parentSlugs = ["senka-snap-kick-od"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
@@ -2258,6 +2258,7 @@ name = "Knee Strikes"
 name_ja = "掴み膝蹴り"
 slug = "knee-strikes"
 alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
 characterId = 7
 type = "throw"
 hitCount = 1
@@ -2296,6 +2297,7 @@ name = "Hell Wheel"
 name_ja = "地獄車"
 slug = "hell-wheel"
 alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後投げ"]
 characterId = 7
 type = "throw"
 hitCount = 1

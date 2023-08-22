@@ -523,7 +523,7 @@ hitCount = 1
 blockType = "high"
 type = "special"
 input = "*k"
-parentSlug = "renverse-feint"
+parentSlugs = ["renverse-feint"]
 
 # Arabesque
 [[moves]]
