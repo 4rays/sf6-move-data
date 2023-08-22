@@ -1,0 +1,2066 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "rashid-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 5]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "rashid-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5mp"
+
+startup = 6
+active = [6, 8]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 5
+block = 1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "rashid-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5hp"
+
+startup = 9
+active = [9, 11]
+recovery = 21
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = 4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "rashid-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5lk"
+
+startup = 4
+active = [4, 6]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "rashid-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5mk"
+
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 8
+active = [8, 10]
+recovery = 17
+damage = 600
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 6
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "rashid-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent", "Forces a juggle state when the attack lands as a Punish Counter"]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン"]
+
+startup = 13
+active = [13, 20]
+recovery = 18
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = 5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "rashid-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "rashid-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2mp"
+
+startup = 6
+active = [6, 9]
+recovery = 13
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "rashid-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 12
+active = [12, 14]
+recovery = 21
+cancel = "SA"
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 5
+block = 6
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -8000
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "rashid-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 8
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "rashid-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2mk"
+
+startup = 7
+active = [7, 9]
+recovery = 18
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "rashid-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2hk"
+
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 9
+active = [9, 11]
+recovery = 24
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 11
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "rashid-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "j>lp"
+
+startup = 4
+active = [4, 8]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中P"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+slug = "rashid-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 9
+active = [9, 13]
+postLandingRecovery = 3
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "rashid-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>hp"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent on the 2nd attack"]
+notes_ja = ["2段目空中ヒット時叩き付けダウン"]
+
+startup = 8
+active = [8, 10, 14, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
+slug = "rashid-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>lk"
+
+startup = 5
+active = [5, 9]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "rashid-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "rashid-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 18
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>hk"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent when transitioning from Wing Stroke or Arabian Skyhigh"]
+notes_ja = ["ウイング・ストローク、アラビアン・スカイハイからの派生した場合、", "空中ヒット時叩き付けダウン"]
+
+startup = 10
+active = [10, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Run
+[[moves]]
+name = "Run"
+name_ja = "ラン"
+slug = "rashid-run"
+characterId = 18
+type = "action"
+input = "6[6]"
+notes = ["Movement can be stoppped from frames 2 - 60", "Can transition to either a branching attack or forward jump from frames 8 - 60", "5 frames of recovery added when movement is stopped", "Can be affected by air currents from frames 1 - 60"]
+notes_ja = ["2F-60F間で移動の停止が可能", "8F-60F 専用技、前方ジャンプに派生可", "停止時は5Fの硬直", "1F-60F 気流干渉可"]
+
+# Backup
+[[moves]]
+name = "Backup"
+name_ja = "バックアップ"
+slug = "rashid-backup"
+characterId = 18
+input = "6*p"
+type = "followUp"
+hitCount = 2
+blockType = "low"
+parentSlugs = ["rashid-run"]
+notes = ["Considered airborne from frames 1 - 17"]
+notes_ja = ["1F-17F 気流干渉可"]
+
+startup = 8
+active = [8, 17]
+recovery = 17
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 7
+block = 10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -7500
+
+# Tempest Moon
+[[moves]]
+name = "Tempest Moon"
+name_ja = "テンペスト・ムーン"
+slug = "tempest-moon"
+characterId = 18
+input = "6*k"
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parentSlugs = ["rashid-run"]
+notes = ["Can be affected by air currents from frames 1 - 15", "Considered airborne from frames 6 - 21"]
+notes_ja = ["2-4F 気流干渉により性能変化", "6-21F 空中判定"]
+
+startup = 16
+active = [16, 17, 22, 24]
+recovery = 21
+damage = 1200
+scaling = ["Starter scaling 15%"]
+scaling_ja = ["始動補正15%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = 4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
+# [Air Current Boosted] Tempest Moon
+[[moves]]
+name = "[Air Current Boosted] Tempest Moon"
+name_ja = "【気流強化】 テンペスト・ムーン"
+slug = "air-current-boosted-tempest-moon"
+characterId = 18
+input = "6*k"
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parentSlugs = ["rashid-run"]
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 20 - 35"]
+notes_ja = ["20-35F 空中判定"]
+
+startup = 9
+active = [9, 11, 33, 34, 38, 40]
+recovery = 22
+damage = 1400
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -7000
+onPunishCounter = -10000
+
+# Flapping Spin
+[[moves]]
+name = "Flapping Spin"
+name_ja = "フラップ・スピン"
+slug = "flapping-spin"
+characterId = 18
+input = "6mp"
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+notes = ["Forces a juggle state when hitting a mid-air opponent on the 1st attack", "Can be affected by air currents from frames 3 - 10"]
+notes_ja = ["初段空中ヒット時吹き飛びダウン", "3-10F 気流干渉可"]
+
+startup = 8
+active = [8, 9, 24, 25]
+recovery = 18
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = 3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -5000
+
+# Beak Assault
+[[moves]]
+name = "Beak Assault"
+name_ja = "アサルト・ビーク"
+slug = "beak-assault"
+characterId = 18
+input = "6hp"
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+notes = ["Can be affected by air currents from frames 4 - 25"]
+notes_ja = ["4-25F 気流干渉可"]
+
+startup = 22
+active = [22, 24]
+recovery = 21
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Crescent Kick
+[[moves]]
+name = "Crescent Kick"
+name_ja = "クレセントキック"
+slug = "crescent-kick"
+characterId = 18
+input = "6hk"
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+notes = ["3 frames of recovery added when the attack misses", "Can be affected by air currents from frames 6 - 19"]
+notes_ja = ["空振り時硬直3F増加", "6-19F 気流干渉可"]
+
+startup = 16
+active = [16, 19]
+recovery = 20
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = 3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+# Blitz Strike
+[[moves]]
+name = "Blitz Strike"
+name_ja = "ブリッツストライク"
+slug = "blitz-strike"
+characterId = 18
+input = "j>2hp"
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+notes = ["Can transition to a mid-air special move from frames 12 - 23 when the attack hits or is blocked", "Can transition to any mid-air normal attack or special move from frame 24 until landing on the ground", "Produces a floor bound when hitting a mid-air opponent"]
+notes_ja = ["ヒット、ガード時12-23F 空中での必殺技へ派生可", "24-着地まで 空中での通常技及び必殺技へ派生可", "空中ヒット時床バウンド"]
+
+startup = 10
+active = [10, 14]
+postLandingRecovery = 3
+cancel = "C"
+damage = 850
+scaling = ["Starter scaling 15%"]
+scaling_ja = ["始動補正15%"]
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Aerial Shot
+[[moves]]
+name = "Aerial Shot"
+name_ja = "エリアルシュート"
+slug = "aerial-shot"
+characterId = 18
+input = "j>8hk"
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Rising Kick
+[[moves]]
+name = "Rising Kick"
+name_ja = "ライジング・キック"
+slug = "rising-kick"
+characterId = 18
+input = "mp>hk"
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 16]
+recovery = 36
+cancel = "C"
+damage = 400
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+block = 20
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -1000
+onPunishCounter = -10000
+
+# Side Flip
+[[moves]]
+name = "Side Flip"
+name_ja = "サイド・フリップ"
+slug = "side-flip"
+characterId = 18
+input = "6(kk)"
+type = "action"
+notes = ["Can transition to Front Flip from frames 18 - 24", "Can be affected by air currents from frames 2 - 20"]
+notes_ja = ["18-24F フロント・フリップへ派生可", "2F-20F 気流干渉可"]
+
+totalFrames = 32
+
+# Front Flip
+[[moves]]
+name = "Front Flip"
+name_ja = "フロント・フリップ"
+slug = "front-flip"
+characterId = 18
+input = "{4|5|6}(kk)"
+type = "followUp"
+parentSlugs = ["side-flip"]
+notes = ["Considered airborne from frames 11 - 43", "Can transition to any mid-air normal attack, unique attack or special move from frame 22 - 40", "Can be affected by air currents from frames 1 - 36"]
+notes_ja = ["11-43F 空中判定", "22-40F 空中での通常技、特殊技及び必殺技へ派生可", "1F-36F 気流干渉可"]
+
+postLandingRecovery = 8
+
+# Spinning Mixer (Light)
+[[moves]]
+name = "Spinning Mixer (Light)"
+name_ja = "スピニング・ミキサー (弱)"
+alternativeNames = ["L Spinning Mixer"]
+alternativeNames_ja = ["弱 スピニング・ミキサー"]
+slug = "spinning-mixer-light"
+characterId = 18
+input = "236lp"
+type = "special"
+hitCount = 1
+blockType = "high"
+notes = ["Attack properties changed by air currents are active from frames 2 - 17", "5 frames of recovery added when the attack misses"]
+notes_ja = ["2-17F 気流干渉により性能変化", "空振り時硬直5F増加"]
+
+startup = 8
+active = [8, 16, 17, 22, 23]
+recovery = 19
+cancel = "SA3"
+damage = 700
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 2
+block = 3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# [Air Current Boosted] Spinning Mixer (Light)
+[[moves]]
+name = "[Air Current Boosted] Spinning Mixer (Light)"
+name_ja = "[気流強化] スピニング・ミキサー (弱)"
+slug = "air-current-boosted-spinning-mixer-light"
+characterId = 18
+input = "236lp"
+type = "special"
+blockType = "high"
+
+startup = 6
+active = [6, 12, 14, 18, 20, 25, 27, 31, 33, 38, 40, 44, 46, 51, 53, 57, 59]
+recovery = 15
+cancel = "SA3"
+damage = 1000
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = 2
+
+[moves.driveGauge]
+onHit = 900
+onBlock = -5000
+onPunishCounter = -5000
+
+# Spinning Mixer (Medium)
+[[moves]]
+name = "Spinning Mixer (Medium)"
+name_ja = "スピニング・ミキサー (中)"
+alternativeNames = ["M Spinning Mixer"]
+alternativeNames_ja = ["中 スピニング・ミキサー"]
+slug = "spinning-mixer-medium"
+characterId = 18
+input = "236mp"
+type = "special"
+hitCount = 2
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Invincible to mid-air attacks from frames 6 - 10", "Considered airborne from frames 13 - 60", "Attack properties changed by air currents are active from frames 2 - 9", "11 frames of landing recovery can be canceled by a special move or Super Art when the attack hits"]
+notes_ja = ["6-10F 空中判定の攻撃に対して無敵", "13-60F 空中判定", "2-9F 気流干渉により性能変化", "ヒット時のみ、着地硬直11F間を必殺技、SAでキャンセル可"]
+
+startup = 8
+active = [8, 9, 10, 13, 14, 20, 21, 25, 26]
+postLandingRecovery = 11
+cancel = "SA3"
+damage = 800
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 800
+
+[moves.frameAdvantage]
+block = 45
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -5000
+
+# [Air Current Boosted] Spinning Mixer (Medium)
+[[moves]]
+name = "[Air Current Boosted] Spinning Mixer (Medium)"
+name_ja = "[気流強化] スピニング・ミキサー (中)"
+slug = "air-current-boosted-spinning-mixer-medium"
+characterId = 18
+input = "236mp"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 10 -97"]
+notes_ja = ["10-97F 空中判定"]
+
+startup = 5
+active = [5, 6, 7, 10, 11, 16, 17, 21, 22, 29, 30, 34, 35, 41, 42, 46, 47, 53, 54, 58, 59]
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1400
+superArt = 800
+
+[moves.frameAdvantage]
+block = 78
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6250
+onPunishCounter = -5000
+
+# Spinning Mixer (Heavy)
+[[moves]]
+name = "Spinning Mixer (Heavy)"
+name_ja = "スピニング・ミキサー (強)"
+alternativeNames = ["H Spinning Mixer"]
+alternativeNames_ja = ["強 スピニング・ミキサー"]
+slug = "spinning-mixer-heavy"
+characterId = 18
+input = "236hp"
+type = "special"
+hitCount = 3
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Invincible to mid-air attacks from frames 6 - 12", "Considered airborne from frames 13 - 63", "Attack properties changed by air currents are active from frames 2 - 6"]
+notes_ja = ["6-12F 空中判定の攻撃に対して無敵", "13-63F 空中判定", "2-6F 気流干渉により性能変化"]
+
+startup = 6
+active = [6, 7, 10, 12, 16, 18, 23, 25, 30, 32, 37, 39]
+postLandingRecovery = 14
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 55
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# [Air Current Boosted] Spinning Mixer (Heavy)
+[[moves]]
+name = "[Air Current Boosted] Spinning Mixer (Heavy)"
+name_ja = "[気流強化] スピニング・ミキサー (強)"
+slug = "air-current-boosted-spinning-mixer-heavy"
+characterId = 18
+input = "236hp"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Invincible to mid-air attacks from frames 6 - 12", "Considered airborne from frames 9 - 91"]
+notes_ja = ["6-12F 空中判定の攻撃に対して無敵", "8-91F 空中判定"]
+
+startup = 5
+active = [5, 7, 9, 11, 15, 17, 22, 24, 28, 30, 33, 35, 38, 40, 43, 45, 49, 51]
+postLandingRecovery = 14
+damage = 1800
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 83
+
+[moves.driveGauge]
+onHit = 2600
+onBlock = -5000
+onPunishCounter = -5000
+
+# Spinning Mixer (OD)
+[[moves]]
+name = "Spinning Mixer (OD)"
+name_ja = "スピニング・ミキサー (OD)"
+alternativeNames = ["OD Spinning Mixer", "EX Spinning Mixer"]
+alternativeNames_ja = ["OD スピニング・ミキサー", "EX スピニング・ミキサー"]
+slug = "spinning-mixer-od"
+characterId = 18
+input = "236(pp)"
+type = "special"
+hitCount = 4
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Completely invincible from frames 1 - 8", "Can be affected by air currents from frames 2 - 9"]
+notes_ja = ["1-8F 完全無敵", "2-9F 気流干渉により性能変化"]
+
+startup = 6
+active = [6, 7, 8, 11, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 48]
+postLandingRecovery = 15
+damage = 1400
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 42
+
+[moves.driveGauge]
+onBlock = -7500
+
+# [Air Current Boosted] Spinning Mixer (OD)
+[[moves]]
+name = "[Air Current Boosted] Spinning Mixer (OD)"
+name_ja = "[気流強化] スピニング・ミキサー (OD)"
+slug = "air-current-boosted-spinning-mixer-od"
+characterId = 18
+input = "236(pp)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Completely invincible from frames 1 - 8", "Can transition to mid-air special moves from frames 67 - 71", "Considered airborne from frames 10 - 97"]
+notes_ja = ["1-8F 完全無敵", "10-97F 空中判定", "67-71F 空中での必殺技へ派生可"]
+
+startup = 4
+active = [4, 5, 6, 9, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59]
+postLandingRecovery = 15
+damage = 1400
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 650
+
+[moves.frameAdvantage]
+block = 72
+
+[moves.driveGauge]
+onBlock = -7500
+
+# Eagle Spike (Light)
+[[moves]]
+name = "Eagle Spike (Light)"
+name_ja = "イーグル・スパイク (弱)"
+alternativeNames = ["L Eagle Spike"]
+alternativeNames_ja = ["弱 イーグル・スパイク"]
+slug = "eagle-spike-light"
+characterId = 18
+input = "214lk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Attack properties changed by air currents are active from frames 4 - 15", "Considered airborne from frames 9 - 38"]
+notes_ja = ["4-15F 気流干渉により性能変化", "9-38F 空中判定"]
+
+startup = 15
+active = [15, 27]
+recovery = 31
+damage = 1100
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
+# [Air Current Boosted] Eagle Spike (Light)
+[[moves]]
+name = "[Air Current Boosted] Eagle Spike (Light)"
+name_ja = "[気流強化] イーグル・スパイク (弱)"
+slug = "air-current-boosted-eagle-spike-light"
+characterId = 18
+input = "214lk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 38"]
+notes_ja = ["9-38F 空中判定"]
+
+startup = 14
+active = [14, 26]
+recovery = 33
+damage = 1300
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 24
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -6000
+
+# Eagle Spike (Medium)
+[[moves]]
+name = "Eagle Spike (Medium)"
+name_ja = "イーグル・スパイク (中)"
+alternativeNames = ["M Eagle Spike"]
+alternativeNames_ja = ["中 イーグル・スパイク"]
+slug = "eagle-spike-medium"
+characterId = 18
+input = "214mk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Attack properties changed by air currents are active from frames 6 - 28", "Considered airborne from frames 12 - 38"]
+notes_ja = ["6-28F 気流干渉により性能変化", "12-38F 空中判定"]
+
+startup = 21
+active = [21, 33]
+recovery = 26
+damage = 1300
+superArt = 1100
+
+[moves.frameAdvantage]
+block = 36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -8000
+
+# [Air Current Boosted] Eagle Spike (Medium)
+[[moves]]
+name = "[Air Current Boosted] Eagle Spike (Medium)"
+name_ja = "[気流強化] イーグル・スパイク (中)"
+slug = "air-current-boosted-eagle-spike-medium"
+characterId = 18
+input = "214mk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 17 - 45"]
+notes_ja = ["17-45F 空中判定"]
+
+startup = 17
+active = [17, 31]
+recovery = 50
+damage = 1500
+superArt = 1200
+
+[moves.frameAdvantage]
+block = 15
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -8000
+
+# Eagle Spike (Heavy)
+[[moves]]
+name = "Eagle Spike (Heavy)"
+name_ja = "イーグル・スパイク (強)"
+alternativeNames = ["H Eagle Spike"]
+alternativeNames_ja = ["強 イーグル・スパイク"]
+slug = "eagle-spike-heavy"
+characterId = 18
+input = "214hk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Attack properties changed by air currents are active from frames 6 - 31", "Considered airborne from frames 15 - 44"]
+notes_ja = ["6-31F 気流干渉により性能変化", "15-44F 空中判定"]
+
+startup = 26
+active = [26, 38]
+recovery = 27
+damage = 1500
+superArt = 1200
+
+[moves.frameAdvantage]
+block = 36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -10000
+
+# [Air Current Boosted] Eagle Spike (Heavy)
+[[moves]]
+name = "[Air Current Boosted] Eagle Spike (Heavy)"
+name_ja = "[気流強化] イーグル・スパイク (強)"
+slug = "air-current-boosted-eagle-spike-heavy"
+characterId = 18
+input = "214hk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 17 - 45"]
+notes_ja = ["8-45F 空中判定"]
+
+startup = 17
+active = [17, 31]
+recovery = 50
+damage = 1500
+superArt = 1200
+
+[moves.frameAdvantage]
+block = 15
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -8000
+
+# Eagle Spike (OD)
+[[moves]]
+name = "Eagle Spike (OD)"
+name_ja = "イーグル・スパイク (OD)"
+slug = "eagle-spike-od"
+characterId = 18
+input = "214(kk)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Attack properties changed by air currents are active from frames 6 - 30", "Considered airborne from frames 12 - 40"]
+notes_ja = ["6-30F 気流干渉により性能変化", "12-40F 空中判定"]
+
+startup = 21
+active = [21, 33]
+recovery = 26
+damage = 1000
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 36
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -8000
+
+# [Air Current Boosted] Eagle Spike (OD)
+[[moves]]
+name = "[Air Current Boosted] Eagle Spike (OD)"
+name_ja = "[気流強化] イーグル・スパイク (OD)"
+slug = "air-current-boosted-eagle-spike-od"
+characterId = 18
+input = "214(kk)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 12 - 40", "Invincible to projectiles from frames 1 - 40"]
+notes_ja = ["12-40F 空中判定", "1-40F 飛び道具に対して無敵"]
+
+startup = 18
+active = [18, 31]
+recovery = 22
+damage = 1300
+superArt = 500
+
+[moves.frameAdvantage]
+block = 24
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -8000
+
+# Whirlwind Shot (Light)
+[[moves]]
+name = "Whirlwind Shot (Light)"
+name_ja = "ワールウィンド・ショット (弱)"
+alternativeNames = ["L Whirlwind Shot"]
+alternativeNames_ja = ["弱 ワールウィンド・ショット"]
+slug = "whirlwind-shot-light"
+characterId = 18
+input = "236lk"
+type = "special"
+blockType = "high"
+properties = ["chargeable", "knockdown"]
+notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
+notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
+
+startup = 17
+totalFrames = 52
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = 9
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Charged Whirlwind Shot (Light)
+[[moves]]
+name = "Charged Whirlwind Shot (Light)"
+name_ja = "ホールド ワールウィンド・ショット (弱)"
+slug = "charged-whirlwind-shot-light"
+characterId = 18
+input = "236[lk]"
+type = "special"
+blockType = "high"
+
+startup = 34
+cancel = "SA3"
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Fully Charged Whirlwind Shot (Light)
+[[moves]]
+name = "Fully Charged Whirlwind Shot (Light)"
+name_ja = "ホールドMAX ワールウィンド・ショット (弱)"
+slug = "fully-charged-whirlwind-shot-light"
+characterId = 18
+input = "236[lk]"
+type = "special"
+blockType = "high"
+notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes_ja = ["動作後、60F間気流が発生"]
+
+startup = 53
+cancel = "SA3"
+damage = 1000
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 16
+block = 8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Whirlwind Shot (Medium)
+[[moves]]
+name = "Whirlwind Shot (Medium)"
+name_ja = "ワールウィンド・ショット (中)"
+alternativeNames = ["M Whirlwind Shot"]
+alternativeNames_ja = ["中 ワールウィンド・ショット"]
+slug = "whirlwind-shot-medium"
+characterId = 18
+input = "236mk"
+type = "special"
+blockType = "high"
+notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
+notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
+
+startup = 17
+totalFrames = 52
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = 9
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Charged Whirlwind Shot (Medium)
+[[moves]]
+name = "Charged Whirlwind Shot (Medium)"
+name_ja = "ホールド ワールウィンド・ショット (中)"
+slug = "charged-whirlwind-shot-medium"
+characterId = 18
+input = "236[mk]"
+type = "special"
+blockType = "high"
+
+startup = 34
+cancel = "SA3"
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Fully Charged Whirlwind Shot (Medium)
+[[moves]]
+name = "Fully Charged Whirlwind Shot (Medium)"
+name_ja = "ホールドMAX ワールウィンド・ショット (中)"
+slug = "fully-charged-whirlwind-shot-medium"
+characterId = 18
+input = "236[mk]"
+type = "special"
+blockType = "high"
+
+notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes_ja = ["動作後、60F間気流が発生"]
+
+startup = 53
+cancel = "SA3"
+damage = 1000
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 16
+block = 8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Whirlwind Shot (Heavy)
+[[moves]]
+name = "Whirlwind Shot (Heavy)"
+name_ja = "ワールウィンド・ショット (強)"
+alternativeNames = ["H Whirlwind Shot"]
+alternativeNames_ja = ["強 ワールウィンド・ショット"]
+slug = "whirlwind-shot-heavy"
+characterId = 18
+input = "236hk"
+type = "special"
+blockType = "high"
+notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
+notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
+
+startup = 17
+totalFrames = 52
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = 9
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Charged Whirlwind Shot (Heavy)
+[[moves]]
+name = "Charged Whirlwind Shot (Heavy)"
+name_ja = "ホールド ワールウィンド・ショット (強)"
+slug = "charged-whirlwind-shot-heavy"
+characterId = 18
+input = "236[hk]"
+type = "special"
+blockType = "high"
+
+startup = 34
+cancel = "SA3"
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Fully Charged Whirlwind Shot (Heavy)
+[[moves]]
+name = "Fully Charged Whirlwind Shot (Heavy)"
+name_ja = "ホールドMAX ワールウィンド・ショット (強)"
+slug = "fully-charged-whirlwind-shot-heavy"
+characterId = 18
+input = "236[hk]"
+type = "special"
+blockType = "high"
+notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes_ja = ["動作後、60F間気流が発生"]
+
+startup = 53
+cancel = "SA3"
+damage = 1000
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 16
+block = 8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Whirlwind Shot (OD)
+[[moves]]
+name = "Whirlwind Shot (OD)"
+name_ja = "ワールウィンド・ショット (OD)"
+alternativeNames = ["OD Whirlwind Shot"]
+alternativeNames_ja = ["OD ワールウィンド・ショット"]
+slug = "whirlwind-shot-od"
+characterId = 18
+input = "236(kk)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Transition to variation attack by holding the button for 36 frames"]
+notes_ja = ["36Fまでボタンホールドでホールド版へ派生"]
+
+startup = 17
+totalFrames = 52
+cancel = "SA2"
+damage = 700
+scaling = ["Starter scaling 25%", "Combo scaling 25%"]
+scaling_ja = ["始動補正25%", "コンボ補正25%"]
+superArt = 600
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -3000
+
+# Charged Whirlwind Shot (OD)
+[[moves]]
+name = "Charged Whirlwind Shot (OD)"
+name_ja = "ホールド ワールウィンド・ショット (OD)"
+slug = "charged-whirlwind-shot-od"
+characterId = 18
+input = "236(kk)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes_ja = ["動作後、60F間気流が発生"]
+
+startup = 44
+cancel = "SA2"
+damage = 1200
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+block = 10
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -3000
+
+# Arabian Cyclone (Light)
+[[moves]]
+name = "Arabian Cyclone (Light)"
+name_ja = "アラビアン・サイクロン (弱)"
+slug = "arabian-cyclone-light"
+characterId = 18
+input = "214lp"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can transition to branching attacks from frames 21 - 22"]
+notes_ja = ["21-22F 専用技へ派生可"]
+
+startup = 15
+active = [15, 17]
+recovery = 28
+cancel = "SA3"
+damage = 800
+superArt = 600
+
+[moves.frameAdvantage]
+block = 9
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
+
+# Arabian Cyclone (Medium)
+[[moves]]
+name = "Arabian Cyclone (Medium)"
+name_ja = "アラビアン・サイクロン (中)"
+slug = "arabian-cyclone-medium"
+characterId = 18
+input = "214mp"
+type = "special"
+blockType = "high"
+
+properties = ["knockdown"]
+notes = ["Can transition to branching attacks from frames 26- 27"]
+notes_ja = ["26-27F 専用技へ派生可"]
+
+startup = 20
+active = [20, 22]
+recovery = 26
+cancel = "SA3"
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+block = 7
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Arabian Cyclone (Heavy)
+[[moves]]
+name = "Arabian Cyclone (Heavy)"
+name_ja = "アラビアン・サイクロン (強)"
+slug = "arabian-cyclone-heavy"
+characterId = 18
+input = "214hp"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can transition to branching attacks from frames 33 - 34"]
+notes_ja = ["33-34F 専用技へ派生可"]
+
+startup = 27
+active = [27, 29]
+totalFrames = 69
+cancel = "SA3"
+damage = 1000
+superArt = 600
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -8000
+
+# Arabian Cyclone (OD)
+[[moves]]
+name = "Arabian Cyclone (OD)"
+name_ja = "アラビアン・サイクロン (OD)"
+alternativeNames = ["OD Arabian Cyclone"]
+alternativeNames_ja = ["OD アラビアン・サイクロン"]
+slug = "arabian-cyclone-od"
+characterId = 18
+input = "214(kk)"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can transition to branching attacks from frames 26 - 27", "3 frames of recovery added when the attack is blocked", "After technique is finished, an air current that lasts 60 frames will be generated"]
+notes_ja = ["26-27F 専用技へ派生可", "ガード時硬直3F増加", "動作後、60F間気流が発生"]
+
+startup = 20
+active = [20, 22]
+totalFrames = 53
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+block = 10
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -6500
+
+# Wing Stroke
+[[moves]]
+name = "Wing Stroke"
+name_ja = "ウィング・ストローク"
+slug = "wing-stroke-light"
+characterId = 18
+input = "4*k"
+type = "special"
+blockType = "high"
+parentSlugs = ["arabian-cyclone-light", "arabian-cyclone-medium", "arabian-cyclone-heavy", "arabian-cyclone-od"]
+
+notes = ["Considered airborne from frames 22 - 61", "Can transition to normal mid-air attacks from frames 32 - 51", "Can be affected by air currents from frames 23 - 47"]
+notes_ja = ["22-61F 空中判定", "32-51F 空中での通常技へ派生可", "23F-47F 気流干渉可"]
+
+postLandingRecovery = 6
+
+# Rolling Assault
+[[moves]]
+name = "Rolling Assault"
+name_ja = "アサルト・ロール"
+slug = "rolling-assault"
+characterId = 18
+input = "6*k"
+type = "special"
+blockType = "high"
+parentSlugs = ["arabian-cyclone-light", "arabian-cyclone-medium", "arabian-cyclone-heavy", "arabian-cyclone-od"]
+notes = ["Can transition to branching attacks from frames 17 - 20", "Can be affected by air currents from frames 8 - 25"]
+notes_ja = ["17-20F 専用技へ派生可", "8F-25F 気流干渉可"]
+
+totalFrames = 33
+
+# Nail Assault
+[[moves]]
+name = "Nail Assault"
+name_ja = "アサルト・ネイル"
+slug = "nail-assault"
+characterId = 18
+input = "*k"
+type = "special"
+blockType = "high"
+parentSlugs = ["rolling-assault"]
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 19]
+recovery = 26
+cancel = "SA3"
+damage = 600
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+block = 9
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Arabian Skyhigh (Light)
+[[moves]]
+name = "Arabian Skyhigh (Light)"
+name_ja = "アラビアン・スカイハイ (弱)"
+alternativeNames = ["L Arabian Skyhigh"]
+alternativeNames_ja = ["弱 アラビアン・スカイハイ"]
+slug = "arabian-skyhigh-light"
+characterId = 18
+input = "j>214lk"
+type = "special"
+blockType = "high"
+notes = ["Can be affected by air currents from frames 1 - 13", "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground", "Can hit an opponent outside of a combo from frames 14 - 21"]
+notes_ja = ["1F-13F 気流干渉可", "51F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "14-21F コンボ中以外にもヒットする"]
+
+startup = 13
+active = [13, 21]
+postLandingRecovery = 3
+damage = 600
+superArt = 500
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -9000
+
+# Arabian Skyhigh (Medium)
+[[moves]]
+name = "Arabian Skyhigh (Medium)"
+name_ja = "アラビアン・スカイハイ (中)"
+alternativeNames = ["M Arabian Skyhigh"]
+alternativeNames_ja = ["中 アラビアン・スカイハイ"]
+slug = "arabian-skyhigh-medium"
+characterId = 18
+input = "j>214mk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can be affected by air currents from frames 1 - 18", "Can transition to any mid-air normal attack, unique attack or special move from frame 59 until landing on the ground", "Can hit an opponent outside of a combo from frames 19 - 26"]
+notes_ja = ["1F-18F 気流干渉可", "59F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "19-26F コンボ中以外にもヒットする"]
+
+startup = 18
+active = [18, 26]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -9000
+
+# Arabian Skyhigh (Heavy)
+[[moves]]
+name = "Arabian Skyhigh (Heavy)"
+name_ja = "アラビアン・スカイハイ (強)"
+alternativeNames = ["H Arabian Skyhigh"]
+alternativeNames_ja = ["強 アラビアン・スカイハイ"]
+slug = "arabian-skyhigh-heavy"
+characterId = 18
+input = "j>214hk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can be affected by air currents from frames 1 - 21", "Can transition to any mid-air normal attack, unique attack or special move from frame 62 until landing on the ground", "Can hit an opponent outside of a combo from frames 21 - 29"]
+notes_ja = ["1F-21F 気流干渉可", "65F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "22-29F コンボ中以外にもヒットする"]
+
+startup = 21
+active = [21, 29]
+postLandingRecovery = 3
+damage = 800
+superArt = 500
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -9000
+
+# Arabian Skyhigh (OD)
+[[moves]]
+name = "Arabian Skyhigh (OD)"
+name_ja = "アラビアン・スカイハイ (OD)"
+alternativeNames = ["OD Arabian Skyhigh", "EX Arabian Skyhigh"]
+alternativeNames_ja = ["OD アラビアン・スカイハイ", "EX アラビアン・スカイハイ"]
+slug = "arabian-skyhigh-od"
+characterId = 18
+input = "j>214kk"
+type = "special"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Can be affected by air currents from frames 1 - 13", "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground only when the attack is blocked or misses", "Can hit an opponent outside of a combo from frames 14 - 21"]
+notes_ja = ["1F-13F 気流干渉可", "ガード、空振り時のみ 47F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "14-21F コンボ中以外にもヒットする"]
+
+startup = 13
+active = [13, 21]
+postLandingRecovery = 3
+damage = 1500
+superArt = 1000
+
+[moves.driveGauge]
+onBlock = -7000
+onPunishCounter = -9000
+
+# Super Rashid Kick
+[[moves]]
+name = "Super Rashid Kick"
+name_ja = "スーパー・ラシード・キック"
+slug = "super-rashid-kick"
+characterId = 18
+input = "236236*k"
+type = "super1"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Invincible to strikes and throws from frames 1 - 16", "During the attack’s active frames from frames 3 - 7 on hit, when the attack hits an airborne opponent, the properties change and damage is set to 1800", "Considered airborne from frames 10 - 36", "The minimum guaranteed damage is 30%", "Values do not change when the attack lands as a counter or Punish Counter"]
+notes_ja = ["1-16F 打撃・投げに対して無敵", "攻撃持続3-7Fのヒット時、攻撃判定全ての空中ヒット時は非ロックに性能が変化する/ダメージ1800", "10-36F 空中判定", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 9
+active = [9, 15]
+recovery = 76
+damage = 2100
+
+[moves.frameAdvantage]
+block = 53
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Ysaar
+[[moves]]
+name = "Ysaar"
+name_ja = "イサール"
+slug = "ysaar"
+characterId = 18
+input = "214214*k"
+type = "super2"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["An air current is generated during the attack’s entire active frame duration and for 100 frames after the active frames are finished", "Ysaar becomes faster if Arabian Cyclone’s first hit is collides with the attack during the active frames", "The minimum guaranteed damage is 40%", "Values do not change when the attack lands as a counter or Punish Counter"]
+notes_ja = ["攻撃持続中全て、持続終了後100F間は気流の干渉判定が発生", "攻撃持続中、アラビアン・サイクロン初段部分を干渉させるとイウサールを加速させる", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 11
+totalFrames = 33
+damage = 1000
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+
+[moves.frameAdvantage]
+block = 33
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
+
+# Altair
+[[moves]]
+name = "Altair"
+name_ja = "アルタイル"
+slug = "altair"
+characterId = 18
+input = "236236*p"
+type = "super3"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Completely invincible from frame 1 to frame 16.", "Values do not change when the attack lands as a counter or Punish Counter.", "The minimum guaranteed damage is 50%.", "Note: Can only be canceled into from special moves."]
+notes_ja = ["1-16F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 11
+active = [11, 28]
+recovery = 82
+damage = 4000
+
+[moves.frameAdvantage]
+block = 75
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
+
+# Altair (Critical Art)
+[[moves]]
+name = "Altair (Critical Art)"
+name_ja = "アルタイル (CA)"
+slug = "altair-ca"
+characterId = 18
+input = "236236*p"
+blockType = "high"
+type = "super3"
+properties = ["knockdown"]
+notes = ["Completely invincible from frame 1 to frame 16.", "Values do not change when the attack lands as a counter or Punish Counter.", "The minimum guaranteed damage is 50%.", "Note: Can only be canceled into from special moves."]
+notes_ja = ["1-16F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 11
+active = [11, 28]
+recovery = 82
+damage = 4500
+
+[moves.frameAdvantage]
+block = 75
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
+
+# Riding Glider
+[[moves]]
+name = "Riding Glider"
+name_ja = "ライディング・グライド"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "riding-glider"
+characterId = 18
+type = "throw"
+input = "(lplk)"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Sunset Drop
+[[moves]]
+name = "Sunset Drop"
+name_ja = "サンセット・ドロップ"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "sunset-drop"
+characterId = 18
+type = "throw"
+input = "(4lplk)"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Desert Slider
+[[moves]]
+name = "Desert Slider"
+name_ja = "デザート・スライダー"
+alternativeNames = ["Air Throw"]
+alternativeNames_ja = ["空中投げ"]
+slug = "desert-slider"
+characterId = 18
+type = "throw"
+input = "j>(lplk)"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 3
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
