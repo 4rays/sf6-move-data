@@ -175,7 +175,10 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["Forces a juggle state when hitting a mid-air opponent", "Forces a juggle state when the attack lands as a Punish Counter"]
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Forces a juggle state when the attack lands as a Punish Counter",
+]
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン"]
 
 startup = 13
@@ -377,7 +380,9 @@ blockType = "low"
 input = "2hk"
 
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 9
@@ -464,7 +469,9 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
-notes = ["Forces a slam knockdown when hitting a mid-air opponent on the 2nd attack"]
+notes = [
+  "Forces a slam knockdown when hitting a mid-air opponent on the 2nd attack",
+]
 notes_ja = ["2段目空中ヒット時叩き付けダウン"]
 
 startup = 8
@@ -544,7 +551,9 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hk"
-notes = ["Forces a slam knockdown when hitting a mid-air opponent when transitioning from Wing Stroke or Arabian Skyhigh"]
+notes = [
+  "Forces a slam knockdown when hitting a mid-air opponent when transitioning from Wing Stroke or Arabian Skyhigh",
+]
 notes_ja = ["ウイング・ストローク、アラビアン・スカイハイからの派生した場合、", "空中ヒット時叩き付けダウン"]
 
 startup = 10
@@ -566,8 +575,21 @@ slug = "rashid-run"
 characterId = 18
 type = "action"
 input = "6[6]"
-notes = ["Movement can be stoppped from frames 2 - 60", "Can transition to either a branching attack or forward jump from frames 8 - 60", "5 frames of recovery added when movement is stopped", "Can be affected by air currents from frames 1 - 60"]
-notes_ja = ["2F-60F間で移動の停止が可能", "8F-60F 専用技、前方ジャンプに派生可", "停止時は5Fの硬直", "1F-60F 気流干渉可"]
+notes = [
+  "Continue to hold forward and Rashid will break out into a sprint. Rashid will stop after covering a certain distance or if you release the input.",
+  "Movement can be stoppped from frames 2 - 60",
+  "Can transition to either a branching attack or forward jump from frames 8 - 60",
+  "5 frames of recovery added when movement is stopped",
+  "Can be affected by air currents from frames 1 - 60",
+]
+notes_ja = [
+  "前方への方向入力を続ける間、走る動作を行う。方向入力を止めるか、一定距離の移動で走る動作を停止する。",
+  "2F-60F間で移動の停止が可能",
+  "8F-60F 専用技、前方ジャンプに派生可",
+  "停止時は5Fの硬直",
+  "1F-60F 気流干渉可",
+]
+capcom_skill_id = 401
 
 # Backup
 [[moves]]
@@ -580,14 +602,17 @@ type = "followUp"
 hitCount = 2
 blockType = "low"
 parentSlugs = ["rashid-run"]
-notes = ["Considered airborne from frames 1 - 17"]
-notes_ja = ["1F-17F 気流干渉可"]
-
+notes = [
+  "A low attack that can be performed during Run. Moves you behind the opponent when it hits.",
+  "Considered airborne from frames 1 - 17",
+]
+notes_ja = ["ラン動作から派生する下段攻撃。ヒット時は位置が入れ替わる。", "1F-17F 気流干渉可"]
 startup = 8
 active = [8, 17]
 recovery = 17
 damage = 800
 superArt = 1000
+capcom_skill_id = 402
 
 [moves.frameAdvantage]
 hit = 7
@@ -609,9 +634,12 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 parentSlugs = ["rashid-run"]
-notes = ["Can be affected by air currents from frames 1 - 15", "Considered airborne from frames 6 - 21"]
-notes_ja = ["2-4F 気流干渉により性能変化", "6-21F 空中判定"]
-
+notes = [
+  "An attack that can be performed during Run. This multi-hitting attack lets you expand your mix-up game.",
+  "Can be affected by air currents from frames 1 - 15",
+  "Considered airborne from frames 6 - 21",
+]
+notes_ja = ["ラン動作から派生する、上下への攻撃範囲が広い連続攻撃。", "2-4F 気流干渉により性能変化", "6-21F 空中判定"]
 startup = 16
 active = [16, 17, 22, 24]
 recovery = 21
@@ -619,6 +647,7 @@ damage = 1200
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 1000
+capcom_skill_id = 403
 
 [moves.frameAdvantage]
 hit = 3
@@ -670,15 +699,19 @@ input = "6mp"
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-notes = ["Forces a juggle state when hitting a mid-air opponent on the 1st attack", "Can be affected by air currents from frames 3 - 10"]
-notes_ja = ["初段空中ヒット時吹き飛びダウン", "3-10F 気流干渉可"]
-
+notes = [
+  "A two-hit combination attack. The first attack can be canceled into special moves.",
+  "Forces a juggle state when hitting a mid-air opponent on the 1st attack",
+  "Can be affected by air currents from frames 3 - 10",
+]
+notes_ja = ["続けてヒットする、初段が必殺技キャンセル可能な連続攻撃。", "初段空中ヒット時吹き飛びダウン", "3-10F 気流干渉可"]
 startup = 8
 active = [8, 9, 24, 25]
 recovery = 18
 cancel = "C"
 damage = 600
 superArt = 500
+capcom_skill_id = 404
 
 [moves.frameAdvantage]
 hit = 1
@@ -699,14 +732,17 @@ input = "6hp"
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
-notes = ["Can be affected by air currents from frames 4 - 25"]
-notes_ja = ["4-25F 気流干渉可"]
-
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Can be affected by air currents from frames 4 - 25",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "4-25F 気流干渉可"]
 startup = 22
 active = [22, 24]
 recovery = 21
 damage = 800
 superArt = 1000
+capcom_skill_id = 405
 
 [moves.frameAdvantage]
 hit = 3
@@ -727,9 +763,12 @@ input = "6hk"
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-notes = ["3 frames of recovery added when the attack misses", "Can be affected by air currents from frames 6 - 19"]
-notes_ja = ["空振り時硬直3F増加", "6-19F 気流干渉可"]
-
+notes = [
+  "An advancing attack that's great against an opponent's low kicks.",
+  "3 frames of recovery added when the attack misses",
+  "Can be affected by air currents from frames 6 - 19",
+]
+notes_ja = ["相手の足払いに対して強い、前進する攻撃。", "空振り時硬直3F増加", "6-19F 気流干渉可"]
 startup = 16
 active = [16, 19]
 recovery = 20
@@ -737,6 +776,7 @@ damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
+capcom_skill_id = 406
 
 [moves.frameAdvantage]
 hit = 2
@@ -757,9 +797,18 @@ input = "j>2hp"
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
-notes = ["Can transition to a mid-air special move from frames 12 - 23 when the attack hits or is blocked", "Can transition to any mid-air normal attack or special move from frame 24 until landing on the ground", "Produces a floor bound when hitting a mid-air opponent"]
-notes_ja = ["ヒット、ガード時12-23F 空中での必殺技へ派生可", "24-着地まで 空中での通常技及び必殺技へ派生可", "空中ヒット時床バウンド"]
-
+notes = [
+  "A jump attack that sends you bounding forward over your opponent when it hits or is blocked.",
+  "Can transition to a mid-air special move from frames 12 - 23 when the attack hits or is blocked",
+  "Can transition to any mid-air normal attack or special move from frame 24 until landing on the ground",
+  "Produces a floor bound when hitting a mid-air opponent",
+]
+notes_ja = [
+  "ヒット、ガードさせると前方へ跳ねて移動するジャンプ攻撃。",
+  "ヒット、ガード時12-23F 空中での必殺技へ派生可",
+  "24-着地まで 空中での通常技及び必殺技へ派生可",
+  "空中ヒット時床バウンド",
+]
 startup = 10
 active = [10, 14]
 postLandingRecovery = 3
@@ -768,6 +817,7 @@ damage = 850
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 1000
+capcom_skill_id = 407
 
 [moves.driveGauge]
 onHit = 2000
@@ -784,14 +834,17 @@ input = "j>8hk"
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
-notes = ["Forces a juggle state when hitting a mid-air opponent"]
-notes_ja = ["空中ヒット時吹き飛びダウン"]
-
+notes = [
+  "A powerful move for dealing with opponents up above that can be performed during a neutral jump.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["垂直ジャンプ中に繰り出す、上方向に対して強い攻撃。", "空中ヒット時吹き飛びダウン"]
 startup = 8
 active = [8, 12]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
+capcom_skill_id = 408
 
 [moves.driveGauge]
 onHit = 2000
@@ -818,6 +871,11 @@ damage = 400
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
+capcom_skill_id = 409
+notes = [
+  "A two-hit combination attack that can be canceled into special moves.",
+]
+notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃。"]
 
 [moves.frameAdvantage]
 block = 20
@@ -835,10 +893,18 @@ slug = "side-flip"
 characterId = 18
 input = "6(kk)"
 type = "action"
-notes = ["Can transition to Front Flip from frames 18 - 24", "Can be affected by air currents from frames 2 - 20"]
-notes_ja = ["18-24F フロント・フリップへ派生可", "2F-20F 気流干渉可"]
-
+notes = [
+  "A quick, advancing side flip. You can perform Front Flip from this move.",
+  "Can transition to Front Flip from frames 18 - 24",
+  "Can be affected by air currents from frames 2 - 20",
+]
+notes_ja = [
+  "側転で素早く移動する前進動作。フロント・フリップへ派生可能。",
+  "18-24F フロント・フリップへ派生可",
+  "2F-20F 気流干渉可",
+]
 totalFrames = 32
+capcom_skill_id = 410
 
 # Front Flip
 [[moves]]
@@ -849,10 +915,20 @@ characterId = 18
 input = "{4|5|6}(kk)"
 type = "followUp"
 parentSlugs = ["side-flip"]
-notes = ["Considered airborne from frames 11 - 43", "Can transition to any mid-air normal attack, unique attack or special move from frame 22 - 40", "Can be affected by air currents from frames 1 - 36"]
-notes_ja = ["11-43F 空中判定", "22-40F 空中での通常技、特殊技及び必殺技へ派生可", "1F-36F 気流干渉可"]
-
+notes = [
+  "Flip through the air towards the opponent. Jump attacks can be performed while in mid-air.",
+  "Considered airborne from frames 11 - 43",
+  "Can transition to any mid-air normal attack, unique attack or special move from frame 22 - 40",
+  "Can be affected by air currents from frames 1 - 36",
+]
+notes_ja = [
+  "前方へ宙返りで跳び上がる動作。空中攻撃での行動が可能。",
+  "11-43F 空中判定",
+  "22-40F 空中での通常技、特殊技及び必殺技へ派生可",
+  "1F-36F 気流干渉可",
+]
 postLandingRecovery = 8
+capcom_skill_id = 411
 
 # Spinning Mixer (Light)
 [[moves]]
@@ -866,9 +942,16 @@ input = "236lp"
 type = "special"
 hitCount = 1
 blockType = "high"
-notes = ["Attack properties changed by air currents are active from frames 2 - 17", "5 frames of recovery added when the attack misses"]
-notes_ja = ["2-17F 気流干渉により性能変化", "空振り時硬直5F増加"]
-
+notes = [
+  "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack.",
+  "Attack properties changed by air currents are active from frames 2 - 17",
+  "5 frames of recovery added when the attack misses",
+]
+notes_ja = [
+  "回転しながら手刀で攻撃する技。連係やコンボ、対空と幅広い用途で使える。",
+  "2-17F 気流干渉により性能変化",
+  "空振り時硬直5F増加",
+]
 startup = 8
 active = [8, 16, 17, 22, 23]
 recovery = 19
@@ -877,6 +960,7 @@ damage = 700
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 800
+capcom_skill_id = 501
 
 [moves.frameAdvantage]
 hit = 2
@@ -928,9 +1012,20 @@ type = "special"
 hitCount = 2
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Invincible to mid-air attacks from frames 6 - 10", "Considered airborne from frames 13 - 60", "Attack properties changed by air currents are active from frames 2 - 9", "11 frames of landing recovery can be canceled by a special move or Super Art when the attack hits"]
-notes_ja = ["6-10F 空中判定の攻撃に対して無敵", "13-60F 空中判定", "2-9F 気流干渉により性能変化", "ヒット時のみ、着地硬直11F間を必殺技、SAでキャンセル可"]
-
+notes = [
+  "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack.",
+  "Invincible to mid-air attacks from frames 6 - 10",
+  "Considered airborne from frames 13 - 60",
+  "Attack properties changed by air currents are active from frames 2 - 9",
+  "11 frames of landing recovery can be canceled by a special move or Super Art when the attack hits",
+]
+notes_ja = [
+  "回転しながら手刀で攻撃する技。連係やコンボ、対空と幅広い用途で使える。",
+  "6-10F 空中判定の攻撃に対して無敵",
+  "13-60F 空中判定",
+  "2-9F 気流干渉により性能変化",
+  "ヒット時のみ、着地硬直11F間を必殺技、SAでキャンセル可",
+]
 startup = 8
 active = [8, 9, 10, 13, 14, 20, 21, 25, 26]
 postLandingRecovery = 11
@@ -939,6 +1034,7 @@ damage = 800
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 800
+capcom_skill_id = 501
 
 [moves.frameAdvantage]
 block = 45
@@ -962,7 +1058,29 @@ notes = ["Considered airborne from frames 10 -97"]
 notes_ja = ["10-97F 空中判定"]
 
 startup = 5
-active = [5, 6, 7, 10, 11, 16, 17, 21, 22, 29, 30, 34, 35, 41, 42, 46, 47, 53, 54, 58, 59]
+active = [
+  5,
+  6,
+  7,
+  10,
+  11,
+  16,
+  17,
+  21,
+  22,
+  29,
+  30,
+  34,
+  35,
+  41,
+  42,
+  46,
+  47,
+  53,
+  54,
+  58,
+  59,
+]
 postLandingRecovery = 15
 cancel = "SA3"
 damage = 1400
@@ -989,14 +1107,24 @@ type = "special"
 hitCount = 3
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Invincible to mid-air attacks from frames 6 - 12", "Considered airborne from frames 13 - 63", "Attack properties changed by air currents are active from frames 2 - 6"]
-notes_ja = ["6-12F 空中判定の攻撃に対して無敵", "13-63F 空中判定", "2-6F 気流干渉により性能変化"]
-
+notes = [
+  "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack.",
+  "Invincible to mid-air attacks from frames 6 - 12",
+  "Considered airborne from frames 13 - 63",
+  "Attack properties changed by air currents are active from frames 2 - 6",
+]
+notes_ja = [
+  "回転しながら手刀で攻撃する技。連係やコンボ、対空と幅広い用途で使える。",
+  "6-12F 空中判定の攻撃に対して無敵",
+  "13-63F 空中判定",
+  "2-6F 気流干渉により性能変化",
+]
 startup = 6
 active = [6, 7, 10, 12, 16, 18, 23, 25, 30, 32, 37, 39]
 postLandingRecovery = 14
 damage = 1200
 superArt = 1000
+capcom_skill_id = 501
 
 [moves.frameAdvantage]
 block = 55
@@ -1016,7 +1144,10 @@ input = "236hp"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Invincible to mid-air attacks from frames 6 - 12", "Considered airborne from frames 9 - 91"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 12",
+  "Considered airborne from frames 9 - 91",
+]
 notes_ja = ["6-12F 空中判定の攻撃に対して無敵", "8-91F 空中判定"]
 
 startup = 5
@@ -1046,9 +1177,16 @@ type = "special"
 hitCount = 4
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Completely invincible from frames 1 - 8", "Can be affected by air currents from frames 2 - 9"]
-notes_ja = ["1-8F 完全無敵", "2-9F 気流干渉により性能変化"]
-
+notes = [
+  "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack.",
+  "Completely invincible from frames 1 - 8",
+  "Can be affected by air currents from frames 2 - 9",
+]
+notes_ja = [
+  "回転しながら手刀で攻撃する技。連係やコンボ、対空と幅広い用途で使える。",
+  "1-8F 完全無敵",
+  "2-9F 気流干渉により性能変化",
+]
 startup = 6
 active = [6, 7, 8, 11, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 48]
 postLandingRecovery = 15
@@ -1056,6 +1194,7 @@ damage = 1400
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
+capcom_skill_id = 501
 
 [moves.frameAdvantage]
 block = 42
@@ -1073,11 +1212,37 @@ input = "236(pp)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Completely invincible from frames 1 - 8", "Can transition to mid-air special moves from frames 67 - 71", "Considered airborne from frames 10 - 97"]
+notes = [
+  "Completely invincible from frames 1 - 8",
+  "Can transition to mid-air special moves from frames 67 - 71",
+  "Considered airborne from frames 10 - 97",
+]
 notes_ja = ["1-8F 完全無敵", "10-97F 空中判定", "67-71F 空中での必殺技へ派生可"]
 
 startup = 4
-active = [4, 5, 6, 9, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59]
+active = [
+  4,
+  5,
+  6,
+  9,
+  11,
+  14,
+  17,
+  20,
+  23,
+  26,
+  29,
+  32,
+  35,
+  38,
+  41,
+  44,
+  47,
+  50,
+  53,
+  56,
+  59,
+]
 postLandingRecovery = 15
 damage = 1400
 scaling = ["Starter scaling 20%"]
@@ -1102,14 +1267,22 @@ input = "214lk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Attack properties changed by air currents are active from frames 4 - 15", "Considered airborne from frames 9 - 38"]
-notes_ja = ["4-15F 気流干渉により性能変化", "9-38F 空中判定"]
-
+notes = [
+  "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo.",
+  "Attack properties changed by air currents are active from frames 4 - 15",
+  "Considered airborne from frames 9 - 38",
+]
+notes_ja = [
+  "強力な跳び蹴りを繰り出しながら、前方に突進する技。ダメージが高く、コンボ中の追撃として使いやすい。",
+  "4-15F 気流干渉により性能変化",
+  "9-38F 空中判定",
+]
 startup = 15
 active = [15, 27]
 recovery = 31
 damage = 1100
 superArt = 1000
+capcom_skill_id = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1158,14 +1331,22 @@ input = "214mk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Attack properties changed by air currents are active from frames 6 - 28", "Considered airborne from frames 12 - 38"]
-notes_ja = ["6-28F 気流干渉により性能変化", "12-38F 空中判定"]
-
+notes = [
+  "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo.",
+  "Attack properties changed by air currents are active from frames 6 - 28",
+  "Considered airborne from frames 12 - 38",
+]
+notes_ja = [
+  "強力な跳び蹴りを繰り出しながら、前方に突進する技。ダメージが高く、コンボ中の追撃として使いやすい。",
+  "6-28F 気流干渉により性能変化",
+  "12-38F 空中判定",
+]
 startup = 21
 active = [21, 33]
 recovery = 26
 damage = 1300
 superArt = 1100
+capcom_skill_id = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1214,14 +1395,22 @@ input = "214hk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Attack properties changed by air currents are active from frames 6 - 31", "Considered airborne from frames 15 - 44"]
-notes_ja = ["6-31F 気流干渉により性能変化", "15-44F 空中判定"]
-
+notes = [
+  "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo.",
+  "Attack properties changed by air currents are active from frames 6 - 31",
+  "Considered airborne from frames 15 - 44",
+]
+notes_ja = [
+  "強力な跳び蹴りを繰り出しながら、前方に突進する技。ダメージが高く、コンボ中の追撃として使いやすい。",
+  "6-31F 気流干渉により性能変化",
+  "15-44F 空中判定",
+]
 startup = 26
 active = [26, 38]
 recovery = 27
 damage = 1500
 superArt = 1200
+capcom_skill_id = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1268,9 +1457,16 @@ input = "214(kk)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Attack properties changed by air currents are active from frames 6 - 30", "Considered airborne from frames 12 - 40"]
-notes_ja = ["6-30F 気流干渉により性能変化", "12-40F 空中判定"]
-
+notes = [
+  "Bound forward while delivering a powerful flying kick. Deals high damage and is easy to use to tack on an additional hit at the end of a combo.",
+  "Attack properties changed by air currents are active from frames 6 - 30",
+  "Considered airborne from frames 12 - 40",
+]
+notes_ja = [
+  "強力な跳び蹴りを繰り出しながら、前方に突進する技。ダメージが高く、コンボ中の追撃として使いやすい。",
+  "6-30F 気流干渉により性能変化",
+  "12-40F 空中判定",
+]
 startup = 21
 active = [21, 33]
 recovery = 26
@@ -1278,6 +1474,7 @@ damage = 1000
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
+capcom_skill_id = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1296,7 +1493,10 @@ input = "214(kk)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 12 - 40", "Invincible to projectiles from frames 1 - 40"]
+notes = [
+  "Considered airborne from frames 12 - 40",
+  "Invincible to projectiles from frames 1 - 40",
+]
 notes_ja = ["12-40F 空中判定", "1-40F 飛び道具に対して無敵"]
 
 startup = 18
@@ -1324,14 +1524,22 @@ input = "236lk"
 type = "special"
 blockType = "high"
 properties = ["chargeable", "knockdown"]
-notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
-notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
-
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+  "Transition to variation attack by releasing the button between frames 29 and 48",
+  "Transition to maximum attack version by holding the button for over 48 frames",
+]
+notes_ja = [
+  "高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。",
+  "29-48Fでボタンを放すとホールド版へ派生",
+  "48F以降はホールドMAXへ派生",
+]
 startup = 17
 totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1356,6 +1564,11 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
+capcom_skill_id = 503
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+]
+notes_ja = ["高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1374,7 +1587,9 @@ characterId = 18
 input = "236[lk]"
 type = "special"
 blockType = "high"
-notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes = [
+  "After technique is finished, an air current that lasts 60 frames will be generated",
+]
 notes_ja = ["動作後、60F間気流が発生"]
 
 startup = 53
@@ -1402,14 +1617,22 @@ characterId = 18
 input = "236mk"
 type = "special"
 blockType = "high"
-notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
-notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
-
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+  "Transition to variation attack by releasing the button between frames 29 and 48",
+  "Transition to maximum attack version by holding the button for over 48 frames",
+]
+notes_ja = [
+  "高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。",
+  "29-48Fでボタンを放すとホールド版へ派生",
+  "48F以降はホールドMAXへ派生",
+]
 startup = 17
 totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1434,6 +1657,11 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
+capcom_skill_id = 503
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+]
+notes_ja = ["高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1452,8 +1680,9 @@ characterId = 18
 input = "236[mk]"
 type = "special"
 blockType = "high"
-
-notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes = [
+  "After technique is finished, an air current that lasts 60 frames will be generated",
+]
 notes_ja = ["動作後、60F間気流が発生"]
 
 startup = 53
@@ -1481,14 +1710,22 @@ characterId = 18
 input = "236hk"
 type = "special"
 blockType = "high"
-notes = ["Transition to variation attack by releasing the button between frames 29 and 48", "Transition to maximum attack version by holding the button for over 48 frames"]
-notes_ja = ["29-48Fでボタンを放すとホールド版へ派生", "48F以降はホールドMAXへ派生"]
-
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+  "Transition to variation attack by releasing the button between frames 29 and 48",
+  "Transition to maximum attack version by holding the button for over 48 frames",
+]
+notes_ja = [
+  "高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。",
+  "29-48Fでボタンを放すとホールド版へ派生",
+  "48F以降はホールドMAXへ派生",
+]
 startup = 17
 totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1513,6 +1750,11 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
+capcom_skill_id = 503
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+]
+notes_ja = ["高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1531,7 +1773,9 @@ characterId = 18
 input = "236[hk]"
 type = "special"
 blockType = "high"
-notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
+notes = [
+  "After technique is finished, an air current that lasts 60 frames will be generated",
+]
 notes_ja = ["動作後、60F間気流が発生"]
 
 startup = 53
@@ -1560,9 +1804,11 @@ input = "236(kk)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Transition to variation attack by holding the button for 36 frames"]
-notes_ja = ["36Fまでボタンホールドでホールド版へ派生"]
-
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+  "Transition to variation attack by holding the button for 36 frames",
+]
+notes_ja = ["高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。", "36Fまでボタンホールドでホールド版へ派生"]
 startup = 17
 totalFrames = 52
 cancel = "SA2"
@@ -1570,6 +1816,7 @@ damage = 700
 scaling = ["Starter scaling 25%", "Combo scaling 25%"]
 scaling_ja = ["始動補正25%", "コンボ補正25%"]
 superArt = 600
+capcom_skill_id = 503
 
 [moves.frameAdvantage]
 block = 2
@@ -1588,15 +1835,18 @@ input = "236(kk)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["After technique is finished, an air current that lasts 60 frames will be generated"]
-notes_ja = ["動作後、60F間気流が発生"]
-
+notes = [
+  "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button.",
+  "After technique is finished, an air current that lasts 60 frames will be generated",
+]
+notes_ja = ["高速回転で竜巻を起こし、蹴りで放つ技。ボタンをホールドすると攻撃性能が上がる。", "動作後、60F間気流が発生"]
 startup = 44
 cancel = "SA2"
 damage = 1200
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
+capcom_skill_id = 503
 
 [moves.frameAdvantage]
 block = 10
@@ -1615,15 +1865,18 @@ input = "214lp"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can transition to branching attacks from frames 21 - 22"]
-notes_ja = ["21-22F 専用技へ派生可"]
-
+notes = [
+  "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques.",
+  "Can transition to branching attacks from frames 21 - 22",
+]
+notes_ja = ["回し蹴りで前方につむじ風を起こし、攻撃する技。攻撃後は2種の移動技へ派生可能。", "21-22F 専用技へ派生可"]
 startup = 15
 active = [15, 17]
 recovery = 28
 cancel = "SA3"
 damage = 800
 superArt = 600
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = 9
@@ -1644,15 +1897,18 @@ type = "special"
 blockType = "high"
 
 properties = ["knockdown"]
-notes = ["Can transition to branching attacks from frames 26- 27"]
-notes_ja = ["26-27F 専用技へ派生可"]
-
+notes = [
+  "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques.",
+  "Can transition to branching attacks from frames 26- 27",
+]
+notes_ja = ["回し蹴りで前方につむじ風を起こし、攻撃する技。攻撃後は2種の移動技へ派生可能。", "26-27F 専用技へ派生可"]
 startup = 20
 active = [20, 22]
 recovery = 26
 cancel = "SA3"
 damage = 900
 superArt = 600
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = 7
@@ -1672,15 +1928,18 @@ input = "214hp"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can transition to branching attacks from frames 33 - 34"]
-notes_ja = ["33-34F 専用技へ派生可"]
-
+notes = [
+  "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques.",
+  "Can transition to branching attacks from frames 33 - 34",
+]
+notes_ja = ["回し蹴りで前方につむじ風を起こし、攻撃する技。攻撃後は2種の移動技へ派生可能。", "33-34F 専用技へ派生可"]
 startup = 27
 active = [27, 29]
 totalFrames = 69
 cancel = "SA3"
 damage = 1000
 superArt = 600
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = 2
@@ -1702,9 +1961,18 @@ input = "214(kk)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can transition to branching attacks from frames 26 - 27", "3 frames of recovery added when the attack is blocked", "After technique is finished, an air current that lasts 60 frames will be generated"]
-notes_ja = ["26-27F 専用技へ派生可", "ガード時硬直3F増加", "動作後、60F間気流が発生"]
-
+notes = [
+  "A spinning kick attack that summons up a whirlwind in front of you. The move can be followed up with two different movement techniques.",
+  "Can transition to branching attacks from frames 26 - 27",
+  "3 frames of recovery added when the attack is blocked",
+  "After technique is finished, an air current that lasts 60 frames will be generated",
+]
+notes_ja = [
+  "回し蹴りで前方につむじ風を起こし、攻撃する技。攻撃後は2種の移動技へ派生可能。",
+  "26-27F 専用技へ派生可",
+  "ガード時硬直3F増加",
+  "動作後、60F間気流が発生",
+]
 startup = 20
 active = [20, 22]
 totalFrames = 53
@@ -1713,6 +1981,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = 10
@@ -1730,12 +1999,26 @@ characterId = 18
 input = "4*k"
 type = "special"
 blockType = "high"
-parentSlugs = ["arabian-cyclone-light", "arabian-cyclone-medium", "arabian-cyclone-heavy", "arabian-cyclone-od"]
-
-notes = ["Considered airborne from frames 22 - 61", "Can transition to normal mid-air attacks from frames 32 - 51", "Can be affected by air currents from frames 23 - 47"]
-notes_ja = ["22-61F 空中判定", "32-51F 空中での通常技へ派生可", "23F-47F 気流干渉可"]
-
+parentSlugs = [
+  "arabian-cyclone-light",
+  "arabian-cyclone-medium",
+  "arabian-cyclone-heavy",
+  "arabian-cyclone-od",
+]
+notes = [
+  "A majestic mid-air forward dash performed from Arabian Cyclone. Allows you to break into a jump attack at any point of the dash.",
+  "Considered airborne from frames 22 - 61",
+  "Can transition to normal mid-air attacks from frames 32 - 51",
+  "Can be affected by air currents from frames 23 - 47",
+]
+notes_ja = [
+  "アラビアン・サイクロンから派生する、空中を前方に移動する技。動作中は空中攻撃での再行動が可能。",
+  "22-61F 空中判定",
+  "32-51F 空中での通常技へ派生可",
+  "23F-47F 気流干渉可",
+]
 postLandingRecovery = 6
+capcom_skill_id = 505
 
 # Rolling Assault
 [[moves]]
@@ -1746,11 +2029,24 @@ characterId = 18
 input = "6*k"
 type = "special"
 blockType = "high"
-parentSlugs = ["arabian-cyclone-light", "arabian-cyclone-medium", "arabian-cyclone-heavy", "arabian-cyclone-od"]
-notes = ["Can transition to branching attacks from frames 17 - 20", "Can be affected by air currents from frames 8 - 25"]
-notes_ja = ["17-20F 専用技へ派生可", "8F-25F 気流干渉可"]
-
+parentSlugs = [
+  "arabian-cyclone-light",
+  "arabian-cyclone-medium",
+  "arabian-cyclone-heavy",
+  "arabian-cyclone-od",
+]
+notes = [
+  "A move performed from Arabian Cyclone that sends you rolling forward. A great technique for closing the distance from far or keeping the pressure on when you're up close.",
+  "Can transition to branching attacks from frames 17 - 20",
+  "Can be affected by air currents from frames 8 - 25",
+]
+notes_ja = [
+  "アラビアン・サイクロンから派生する、前転での移動を行う技。離れた位置からの接近や近距離での攻め継続手段として有効。",
+  "17-20F 専用技へ派生可",
+  "8F-25F 気流干渉可",
+]
 totalFrames = 33
+capcom_skill_id = 506
 
 # Nail Assault
 [[moves]]
@@ -1772,6 +2068,11 @@ damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 300
+capcom_skill_id = 507
+notes = [
+  "A rolling kick delivered out of Rolling Assault. Very effective as a follow up attack on opponents launched by Arabian Cyclone.",
+]
+notes_ja = ["アサルト・ロールから派生する、回し蹴りを繰り出す技。アラビアン・サイクロンで浮かせた相手への追撃として有効。"]
 
 [moves.frameAdvantage]
 block = 9
@@ -1792,14 +2093,24 @@ characterId = 18
 input = "j>214lk"
 type = "special"
 blockType = "high"
-notes = ["Can be affected by air currents from frames 1 - 13", "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground", "Can hit an opponent outside of a combo from frames 14 - 21"]
-notes_ja = ["1F-13F 気流干渉可", "51F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "14-21F コンボ中以外にもヒットする"]
-
+notes = [
+  "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump.",
+  "Can be affected by air currents from frames 1 - 13",
+  "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground",
+  "Can hit an opponent outside of a combo from frames 14 - 21",
+]
+notes_ja = [
+  "空中で回し蹴りによって気流を発生させ、再度ジャンプする技。ジャンプ後、空中攻撃での再行動が可能。",
+  "1F-13F 気流干渉可",
+  "51F-着地まで 空中での通常技、特殊技及び必殺技へ派生可",
+  "14-21F コンボ中以外にもヒットする",
+]
 startup = 13
 active = [13, 21]
 postLandingRecovery = 3
 damage = 600
 superArt = 500
+capcom_skill_id = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -1818,14 +2129,24 @@ input = "j>214mk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can be affected by air currents from frames 1 - 18", "Can transition to any mid-air normal attack, unique attack or special move from frame 59 until landing on the ground", "Can hit an opponent outside of a combo from frames 19 - 26"]
-notes_ja = ["1F-18F 気流干渉可", "59F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "19-26F コンボ中以外にもヒットする"]
-
+notes = [
+  "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump.",
+  "Can be affected by air currents from frames 1 - 18",
+  "Can transition to any mid-air normal attack, unique attack or special move from frame 59 until landing on the ground",
+  "Can hit an opponent outside of a combo from frames 19 - 26",
+]
+notes_ja = [
+  "空中で回し蹴りによって気流を発生させ、再度ジャンプする技。ジャンプ後、空中攻撃での再行動が可能。",
+  "1F-18F 気流干渉可",
+  "59F-着地まで 空中での通常技、特殊技及び必殺技へ派生可",
+  "19-26F コンボ中以外にもヒットする",
+]
 startup = 18
 active = [18, 26]
 postLandingRecovery = 3
 damage = 700
 superArt = 500
+capcom_skill_id = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -1844,14 +2165,24 @@ input = "j>214hk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can be affected by air currents from frames 1 - 21", "Can transition to any mid-air normal attack, unique attack or special move from frame 62 until landing on the ground", "Can hit an opponent outside of a combo from frames 21 - 29"]
-notes_ja = ["1F-21F 気流干渉可", "65F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "22-29F コンボ中以外にもヒットする"]
-
+notes = [
+  "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump.",
+  "Can be affected by air currents from frames 1 - 21",
+  "Can transition to any mid-air normal attack, unique attack or special move from frame 62 until landing on the ground",
+  "Can hit an opponent outside of a combo from frames 21 - 29",
+]
+notes_ja = [
+  "空中で回し蹴りによって気流を発生させ、再度ジャンプする技。ジャンプ後、空中攻撃での再行動が可能。",
+  "1F-21F 気流干渉可",
+  "65F-着地まで 空中での通常技、特殊技及び必殺技へ派生可",
+  "22-29F コンボ中以外にもヒットする",
+]
 startup = 21
 active = [21, 29]
 postLandingRecovery = 3
 damage = 800
 superArt = 500
+capcom_skill_id = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -1870,14 +2201,24 @@ input = "j>214kk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Can be affected by air currents from frames 1 - 13", "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground only when the attack is blocked or misses", "Can hit an opponent outside of a combo from frames 14 - 21"]
-notes_ja = ["1F-13F 気流干渉可", "ガード、空振り時のみ 47F-着地まで 空中での通常技、特殊技及び必殺技へ派生可", "14-21F コンボ中以外にもヒットする"]
-
+notes = [
+  "Perform a spinning kick in mid-air that creates an air current that you then use to perform a mid-air jump. It's possible to perform jump attacks after the mid-air jump.",
+  "Can be affected by air currents from frames 1 - 13",
+  "Can transition to any mid-air normal attack, unique attack or special move from frame 51 until landing on the ground only when the attack is blocked or misses",
+  "Can hit an opponent outside of a combo from frames 14 - 21",
+]
+notes_ja = [
+  "空中で回し蹴りによって気流を発生させ、再度ジャンプする技。ジャンプ後、空中攻撃での再行動が可能。",
+  "1F-13F 気流干渉可",
+  "ガード、空振り時のみ 47F-着地まで 空中での通常技、特殊技及び必殺技へ派生可",
+  "14-21F コンボ中以外にもヒットする",
+]
 startup = 13
 active = [13, 21]
 postLandingRecovery = 3
 damage = 1500
 superArt = 1000
+capcom_skill_id = 508
 
 [moves.driveGauge]
 onBlock = -7000
@@ -1893,13 +2234,27 @@ input = "236236*k"
 type = "super1"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Invincible to strikes and throws from frames 1 - 16", "During the attack’s active frames from frames 3 - 7 on hit, when the attack hits an airborne opponent, the properties change and damage is set to 1800", "Considered airborne from frames 10 - 36", "The minimum guaranteed damage is 30%", "Values do not change when the attack lands as a counter or Punish Counter"]
-notes_ja = ["1-16F 打撃・投げに対して無敵", "攻撃持続3-7Fのヒット時、攻撃判定全ての空中ヒット時は非ロックに性能が変化する/ダメージ1800", "10-36F 空中判定", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Offload a devastating kick while soaring forward and up through the air. Landing the initial hit on a grounded opponent will increase the move's damage.",
+  "Invincible to strikes and throws from frames 1 - 16",
+  "During the attack’s active frames from frames 3 - 7 on hit, when the attack hits an airborne opponent, the properties change and damage is set to 1800",
+  "Considered airborne from frames 10 - 36",
+  "The minimum guaranteed damage is 30%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+]
+notes_ja = [
+  "斜め上前方へ上昇しながら強力な蹴りを繰り出す技。地上の相手に出始めをヒットさせると、ダメージが上がる。",
+  "1-16F 打撃・投げに対して無敵",
+  "攻撃持続3-7Fのヒット時、攻撃判定全ての空中ヒット時は非ロックに性能が変化する/ダメージ1800",
+  "10-36F 空中判定",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 9
 active = [9, 15]
 recovery = 76
 damage = 2100
+capcom_skill_id = 601
 
 [moves.frameAdvantage]
 block = 53
@@ -1918,14 +2273,26 @@ input = "214214*k"
 type = "super2"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["An air current is generated during the attack’s entire active frame duration and for 100 frames after the active frames are finished", "Ysaar becomes faster if Arabian Cyclone’s first hit is collides with the attack during the active frames", "The minimum guaranteed damage is 40%", "Values do not change when the attack lands as a counter or Punish Counter"]
-notes_ja = ["攻撃持続中全て、持続終了後100F間は気流の干渉判定が発生", "攻撃持続中、アラビアン・サイクロン初段部分を干渉させるとイウサールを加速させる", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Kick out with both legs to create a large advancing whirlwind. Movements or special moves that make contact with the whirlwind will have their properties changed.",
+  "An air current is generated during the attack’s entire active frame duration and for 100 frames after the active frames are finished",
+  "Ysaar becomes faster if Arabian Cyclone’s first hit is collides with the attack during the active frames",
+  "The minimum guaranteed damage is 40%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+]
+notes_ja = [
+  "両脚での蹴り上げで大きな竜巻を発生させる技。移動行動や必殺技を竜巻に接触させると性能が変化する。",
+  "攻撃持続中全て、持続終了後100F間は気流の干渉判定が発生",
+  "攻撃持続中、アラビアン・サイクロン初段部分を干渉させるとイウサールを加速させる",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 11
 totalFrames = 33
 damage = 1000
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
+capcom_skill_id = 602
 
 [moves.frameAdvantage]
 block = 33
@@ -1944,13 +2311,24 @@ input = "236236*p"
 type = "super3"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Completely invincible from frame 1 to frame 16.", "Values do not change when the attack lands as a counter or Punish Counter.", "The minimum guaranteed damage is 50%.", "Note: Can only be canceled into from special moves."]
-notes_ja = ["1-16F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Twirl around and summon a whirlwind that lifts up your opponent, before Rashid barrages them with a series of powerful blows. A versatile move, perfect for combos, reversals, and as a way of dealing with projectiles.",
+  "Completely invincible from frame 1 to frame 16.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 50%.",
+  "Note: Can only be canceled into from special moves.",
+]
+notes_ja = [
+  "回転で発生させた竜巻で相手を巻き上げ、強力な連撃を見舞う技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 11
 active = [11, 28]
 recovery = 82
 damage = 4000
+capcom_skill_id = 603
 
 [moves.frameAdvantage]
 block = 75
@@ -1969,7 +2347,12 @@ input = "236236*p"
 blockType = "high"
 type = "super3"
 properties = ["knockdown"]
-notes = ["Completely invincible from frame 1 to frame 16.", "Values do not change when the attack lands as a counter or Punish Counter.", "The minimum guaranteed damage is 50%.", "Note: Can only be canceled into from special moves."]
+notes = [
+  "Completely invincible from frame 1 to frame 16.",
+  "Values do not change when the attack lands as a counter or Punish Counter.",
+  "The minimum guaranteed damage is 50%.",
+  "Note: Can only be canceled into from special moves.",
+]
 notes_ja = ["1-16F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない"]
 
 startup = 11
@@ -1996,9 +2379,20 @@ type = "throw"
 input = "(lplk)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab the opponent, get them off balance, then send them tumbling with a kick. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を掴んで体勢を崩し、蹴り飛ばす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2006,6 +2400,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -2023,9 +2418,20 @@ type = "throw"
 input = "(4lplk)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab the opponent, disrupt their balance, then flip up before coming down with both feet to stomp them into the ground. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を掴んで体勢を崩しながらジャンプし、両足で踏み付ける技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2033,6 +2439,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -2050,9 +2457,20 @@ type = "throw"
 input = "j>(lplk)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab the opponent, ride on their back as you descend, then send them skidding along the ground on impact. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "空中で相手の背中に乗りながら落下し、地面を滑って攻撃する技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 3
@@ -2060,6 +2478,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 103
 
 [moves.driveGauge]
 onHit = 2000
