@@ -691,6 +691,7 @@ startup = 16
 active = [16, 19]
 recovery = 20
 cancel = "*"
+cancelsInto = ["aerial-ryu-tatsumaki-senpukyaku-od"]
 damage = 800
 superArt = 1000
 
@@ -1334,7 +1335,7 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Tatsumaki Senpu-kyaku"
 name_ja = "空中竜巻旋風脚"
-slug = "aerial-tatsumaki-senpukyaku"
+slug = "aerial-ryu-tatsumaki-senpukyaku"
 alternativeNames = ["Air Tatsu"]
 alternativeNames_ja = ["空中竜巻"]
 characterId = 0

@@ -85,6 +85,7 @@ startup = 13
 active = [13, 15]
 recovery = 20
 cancel = "*"
+cancelsInto = ["serenity-stream"]
 damage = 800
 superArt = 800
 
@@ -175,6 +176,7 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+properties = ["juggle"]
 notes = [
   "Can be canceled into Serenity Stream on hit or block",
   "Forces a juggle state when hitting a mid-air opponent",
@@ -185,6 +187,7 @@ startup = 14
 active = [14, 16]
 recovery = 18
 cancel = "*"
+cancelsInto = ["serenity-stream"]
 damage = 900
 superArt = 1000
 
@@ -377,7 +380,7 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
-properties = ["knockdown"]
+properties = ["knockdown", "juggle"]
 notes = [
   "Can be canceled into Serenity Stream on hit or block",
   "Knockdown time extended when attack lands as a counter or Punish Counter",
@@ -393,6 +396,7 @@ startup = 9
 active = [9, 14]
 recovery = 19
 cancel = "*"
+cancelsInto = ["serenity-stream"]
 damage = 900
 superArt = 1000
 
@@ -663,7 +667,7 @@ slug = "water-lotus-fist"
 characterId = 3
 type = "commandNormal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "3hp"
 notes = [
   "An overhead attack that cannot be blocked while crouching.",
@@ -675,6 +679,7 @@ startup = 21
 active = [21, 24]
 recovery = 14
 cancel = "*"
+cancelsInto = ["serenity-stream"]
 damage = 800
 superArt = 1000
 capcom_skill_id = 403
@@ -698,6 +703,7 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hk"
+properties = ["crumple", "juggle"]
 notes = [
   "A jumping kick with long reach that is effective against an opponent's sweeps.",
   "Can be canceled into Serenity Stream on hit or block",
@@ -715,6 +721,7 @@ startup = 16
 active = [16, 17]
 recovery = 23
 cancel = "*"
+cancelsInto = ["serenity-stream"]
 damage = 800
 superArt = 1000
 capcom_skill_id = 404
@@ -918,6 +925,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Kikoken (Light)"
 name_ja = "気功拳 (弱)"
+alternativeNames = ["Light Fireball", "L Kikoken"]
+alternativeNames_ja = ["弱 気功拳"]
 slug = "kikoken-light"
 characterId = 3
 type = "special"
@@ -949,6 +958,8 @@ onPunishCounter = -3000
 [[moves]]
 name = "Kikoken (Medium)"
 name_ja = "気功拳 (中)"
+alternativeNames = ["Medium Fireball", "M Kikoken"]
+alternativeNames_ja = ["中 気功拳"]
 slug = "kikoken-medium"
 characterId = 3
 type = "special"
@@ -980,6 +991,8 @@ onPunishCounter = -3000
 [[moves]]
 name = "Kikoken (Heavy)"
 name_ja = "気功拳 (強)"
+alternativeNames = ["Heavy Fireball", "H Kikoken"]
+alternativeNames_ja = ["強 気功拳"]
 slug = "kikoken-heavy"
 characterId = 3
 type = "special"
@@ -1011,6 +1024,8 @@ onPunishCounter = -3000
 [[moves]]
 name = "Kikoken (OD)"
 name_ja = "気功拳 (OD)"
+alternativeNames = ["OD Fireball", "OD Kikoken", "EX Kikoken"]
+alternativeNames_ja = ["OD 気功拳", "EX 気功拳"]
 slug = "kikoken-od"
 characterId = 3
 type = "special"
@@ -1067,7 +1082,7 @@ slug = "orchid-palm"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>lp"
+input = "lp"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A quick strike, performed during Serenity Stream.",
@@ -1101,7 +1116,7 @@ slug = "snake-strike"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>mp"
+input = "mp"
 parentSlugs = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
@@ -1138,7 +1153,8 @@ slug = "lotus-fist"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>hp"
+input = "hp"
+blockType = "mid"
 parentSlugs = ["serenity-stream"]
 
 startup = 23
@@ -1170,7 +1186,7 @@ slug = "forward-strike"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>lk"
+input = "lk"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A quick, low kick, performed during Serenity Stream.",
@@ -1204,7 +1220,7 @@ slug = "senpu-kick"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>mk"
+input = "mk"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A low kick with long reach, performed during Serenity Stream.",
@@ -1238,7 +1254,7 @@ slug = "tenku-kick"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "214*p>hk"
+input = "hk"
 parentSlugs = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
@@ -1251,6 +1267,7 @@ startup = 8
 active = [8, 12]
 recovery = 24
 cancel = "*"
+cancelsInto = ["jump"]
 damage = 700
 superArt = 300
 capcom_skill_id = 415
@@ -1267,6 +1284,8 @@ onPunishCounter = -10000
 [[moves]]
 name = "Hundred Lightning Kicks (Light)"
 name_ja = "百裂脚 (弱)"
+alternativeNames = ["Light Legs", "L Hundred Lightning Kicks"]
+alternativeNames_ja = ["弱 百裂脚"]
 slug = "hundred-lightning-kicks-light"
 characterId = 3
 type = "special"
@@ -1299,6 +1318,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hundred Lightning Kicks (Medium)"
 name_ja = "百裂脚 (中)"
+alternativeNames = ["Medium Legs", "M Hundred Lightning Kicks"]
+alternativeNames_ja = ["中 百裂脚"]
 slug = "hundred-lightning-kicks-medium"
 characterId = 3
 type = "special"
@@ -1331,6 +1352,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hundred Lightning Kicks (Heavy)"
 name_ja = "百裂脚 (強)"
+alternativeNames = ["Heavy Legs", "H Hundred Lightning Kicks"]
+alternativeNames_ja = ["強 百裂脚"]
 slug = "hundred-lightning-kicks-heavy"
 characterId = 3
 type = "special"
@@ -1363,6 +1386,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hundred Lightning Kicks (OD)"
 name_ja = "百裂脚 (OD)"
+alternativeNames = ["OD Legs", "OD Hundred Lightning Kicks", "EX Hundred Lightning Kicks"]
+alternativeNames_ja = ["OD 百裂脚", "EX 百裂脚"]
 slug = "hundred-lightning-kicks-od"
 characterId = 3
 type = "special"
@@ -1429,6 +1454,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Hundred Lightning Kicks (Light)"
 name_ja = "空中百裂脚 (弱)"
+alternativeNames = ["Air Light Legs", "L Aerial Hundred Lightning Kicks"]
+alternativeNames_ja = ["弱 空中百裂脚"]
 slug = "aerial-hundred-lightning-kicks-light"
 characterId = 3
 type = "special"
@@ -1456,6 +1483,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Hundred Lightning Kicks (Medium)"
 name_ja = "空中百裂脚 (中)"
+alternativeNames = ["Air Medium Legs", "M Aerial Hundred Lightning Kicks"]
+alternativeNames_ja = ["中 空中百裂脚"]
 slug = "aerial-hundred-lightning-kicks-medium"
 characterId = 3
 type = "special"
@@ -1483,6 +1512,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Hundred Lightning Kicks (Heavy)"
 name_ja = "空中百裂脚 (強)"
+alternativeNames = ["Air Heavy Legs", "H Aerial Hundred Lightning Kicks"]
+alternativeNames_ja = ["強 空中百裂脚"]
 slug = "aerial-hundred-lightning-kicks-heavy"
 characterId = 3
 type = "special"
@@ -1510,6 +1541,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Hundred Lightning Kicks (OD)"
 name_ja = "空中百裂脚 (OD)"
+alternativeNames = ["OD Air Legs", "OD Aerial Hundred Lightning Kicks", "EX Aerial Hundred Lightning Kicks"]
+alternativeNames_ja = ["OD 空中百裂脚", "EX 空中百裂脚"]
 slug = "aerial-hundred-lightning-kicks-od"
 characterId = 3
 type = "special"
@@ -1536,6 +1569,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Spinning Bird Kick (Light)"
 name_ja = "スピニングバードキック (弱)"
+alternativeNames = ["L Spinning Bird Kick"]
+alternativeNames_ja = ["弱 スピニングバードキック"]
 slug = "spinning-bird-kick-light"
 characterId = 3
 type = "special"
@@ -1571,6 +1606,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Spinning Bird Kick (Medium)"
 name_ja = "スピニングバードキック (中)"
+alternativeNames = ["M Spinning Bird Kick"]
+alternativeNames_ja = ["中 スピニングバードキック"]
 slug = "spinning-bird-kick-medium"
 characterId = 3
 type = "special"
@@ -1606,6 +1643,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Spinning Bird Kick (Heavy)"
 name_ja = "スピニングバードキック (強)"
+alternativeNames = ["H Spinning Bird Kick"]
+alternativeNames_ja = ["強 スピニングバードキック"]
 slug = "spinning-bird-kick-heavy"
 characterId = 3
 type = "special"
@@ -1641,6 +1680,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Spinning Bird Kick (OD)"
 name_ja = "スピニングバードキック (OD)"
+alternativeNames = ["OD Spinning Bird Kick", "EX Spinning Bird Kick"]
+alternativeNames_ja = ["OD スピニングバードキック", "EX スピニングバードキック"]
 slug = "spinning-bird-kick-od"
 characterId = 3
 type = "special"
@@ -1675,6 +1716,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hazanshu (Light)"
 name_ja = "覇山蹴 (弱)"
+alternativeNames = ["L Hazanshu"]
+alternativeNames_ja = ["弱 覇山蹴"]
 slug = "hazanshu-light"
 characterId = 3
 type = "special"
@@ -1714,6 +1757,8 @@ onPunishCounter = -4000
 [[moves]]
 name = "Hazanshu (Medium)"
 name_ja = "覇山蹴 (中)"
+alternativeNames = ["M Hazanshu"]
+alternativeNames_ja = ["中 覇山蹴"]
 slug = "hazanshu-medium"
 characterId = 3
 type = "special"
@@ -1753,6 +1798,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hazanshu (Heavy)"
 name_ja = "覇山蹴 (強)"
+alternativeNames = ["H Hazanshu"]
+alternativeNames_ja = ["強 覇山蹴"]
 slug = "hazanshu-heavy"
 characterId = 3
 type = "special"
@@ -1832,6 +1879,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Tensho Kicks (Light)"
 name_ja = "天翔脚 (弱)"
+alternativeNames = ["L Tensho Kicks"]
+alternativeNames_ja = ["弱 天翔脚"]
 slug = "tensho-kicks-light"
 characterId = 3
 type = "special"
@@ -1869,6 +1918,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Tensho Kicks (Medium)"
 name_ja = "天翔脚 (中)"
+alternativeNames = ["M Tensho Kicks"]
+alternativeNames_ja = ["中 天翔脚"]
 slug = "tensho-kicks-medium"
 characterId = 3
 type = "special"
@@ -1906,6 +1957,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Tensho Kicks (Heavy)"
 name_ja = "天翔脚 (強)"
+alternativeNames = ["H Tensho Kicks"]
+alternativeNames_ja = ["強 天翔脚"]
 slug = "tensho-kicks-heavy"
 characterId = 3
 type = "special"
@@ -1943,6 +1996,8 @@ onPunishCounter = -5000
 [[moves]]
 name = "Tensho Kicks (OD)"
 name_ja = "天翔脚 (OD)"
+alternativeNames = ["OD Tensho Kicks", "EX Tensho Kicks"]
+alternativeNames_ja = ["OD 天翔脚", "EX 天翔脚"]
 slug = "tensho-kicks-od"
 characterId = 3
 type = "special"
@@ -2109,6 +2164,7 @@ active = [
 ]
 recovery = 48
 cancel = "*"
+cancelsInto = ["jump"]
 damage = 2000
 scaling = ["Starter scaling 40%", "Combo scaling 40%"]
 scaling_ja = ["始動補正40%", "コンボ補正40%"]

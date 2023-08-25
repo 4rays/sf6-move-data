@@ -12,8 +12,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +48,21 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 14
+active = [14, 16]
+recovery = 19
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -2
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -6000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +77,24 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+
+notes = ["Forces a juggle state on Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛びダウン"]
+
+startup = 16
+active = [16, 19]
+recovery = 27
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -6
+block = -11
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +111,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 9
+active = [9, 12]
+recovery = 11
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -6
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -75,6 +144,21 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 12
+active = [12, 14]
+recovery = 18
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -6000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -89,6 +173,24 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent", "Adds 21 frames of advantage on Punish Counter"]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+21F"]
+
+startup = 17
+active = [17, 19]
+recovery = 20
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -8000
 
 # Crouching Light Punch
 [[moves]]
@@ -105,6 +207,27 @@ hitCount = 1
 blockType = "high"
 input = "2lp"
 
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Crouching Medium Punch
 [[moves]]
 name = "Crouching Medium Punch"
@@ -119,6 +242,22 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2mp"
+
+startup = 12
+active = [12, 14]
+recovery = 16
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 0
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -6000
 
 # Crouching Heavy Punch
 [[moves]]
@@ -135,6 +274,21 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 
+startup = 19
+active = [19, 22]
+recovery = 24
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -1
+block = -12
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -4000
+onPunishCounter = -8000
+
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
@@ -149,6 +303,21 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+
+startup = 4
+active = [4, 10]
+recovery = 16
+damage = 200
+superArt = 300
+
+[moves.frameAdvantage]
+hit = -5
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +334,23 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 10
+active = [10, 22]
+recovery = 14
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -3
+block = -10
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +365,23 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 12
+active = [12, 27]
+recovery = 20
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +398,17 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 4
+active = [4, 7]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 750
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -210,6 +424,20 @@ hitCount = 1
 blockType = "high"
 input = "j>mp"
 
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+cancel = "C"
+damage = 700
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Jumping Heavy Punch
 [[moves]]
 name = "Jumping Heavy Punch"
@@ -224,6 +452,21 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩きつけダウン"]
+
+startup = 13
+active = [13, 16]
+postLandingRecovery = 3
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
 
 # Jumping Light Kick
 [[moves]]
@@ -239,6 +482,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 6
+active = [6, 9]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 750
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -255,6 +511,19 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 
+startup = 11
+active = [11, 16]
+postLandingRecovery = 3
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
@@ -270,6 +539,19 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
+startup = 10
+active = [10, 19]
+postLandingRecovery = 3
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Yoga Uppercut
 [[moves]]
 name = "Yoga Uppercut"
@@ -281,6 +563,22 @@ hitCount = 1
 blockType = "high"
 input = "4mp"
 
+startup = 8
+active = [8, 13]
+recovery = 16
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Yoga Lance
 [[moves]]
 name = "Yoga Lance"
@@ -291,6 +589,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hp"
+notes = ["Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"]
+notes_ja = ["空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+
+startup = 14
+active = [14, 20]
+recovery = 29
+cancel = "C"
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -9
+block = -16
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -8000
 
 # Nirvana Punch
 [[moves]]
@@ -303,6 +621,22 @@ hitCount = 1
 blockType = "high"
 input = "1hp"
 
+startup = 10
+active = [10, 13]
+recovery = 20
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Agile Kick
 [[moves]]
 name = "Agile Kick"
@@ -313,6 +647,25 @@ type = "commandNormal"
 hitCount = 1
 blockType = "low"
 input = "1lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 10
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Divine Kick
 [[moves]]
@@ -325,6 +678,21 @@ hitCount = 1
 blockType = "high"
 input = "4mk"
 
+startup = 7
+active = [7, 10]
+recovery = 17
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Thrust Kick
 [[moves]]
 name = "Thrust Kick"
@@ -336,6 +704,24 @@ hitCount = 1
 blockType = "low"
 input = "1mk"
 
+startup = 8
+active = [8, 10]
+recovery = 20
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -3
+block = -7
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Yoga Mountain
 [[moves]]
 name = "Yoga Mountain"
@@ -346,6 +732,23 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"]
+notes_ja = ["空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+
+startup = 14
+active = [14, 19]
+recovery = 20
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -9
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Karma Kick
 [[moves]]
@@ -357,6 +760,23 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "1hk"
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 9
+active = [9, 11]
+recovery = 22
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -7
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -10000
 
 # Yoga Mummy
 [[moves]]
@@ -369,181 +789,784 @@ hitCount = 1
 blockType = "mid"
 input = "j>2lp"
 
-# Drill Kick
+startup = 10
+active = [10]
+postLandingRecovery = 9
+cancel = "C"
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Drill Kick (Light)
 [[moves]]
-name = "Drill Kick"
-name_ja = "ドリルキック"
-slug = "drill-kick"
+name = "Drill Kick (Light)"
+name_ja = "ドリルキック (弱)"
+alternativeNames = ["L Drill Kick"]
+alternativeNames_ja = ["弱 ドリルキック"]
+slug = "drill-kick-light"
 characterId = 9
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
-input = "j>2*k"
+input = "j>2lk"
 
-# Yoga Fire
+startup = 9
+active = [9]
+postLandingRecovery = 11
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Drill Kick (Medium)
 [[moves]]
-name = "Yoga Fire"
-name_ja = "ヨガファイア"
-slug = "yoga-fire"
+name = "Drill Kick (Medium)"
+name_ja = "ドリルキック (中)"
+alternativeNames = ["M Drill Kick"]
+alternativeNames_ja = ["中 ドリルキック"]
+slug = "drill-kick-medium"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+input = "j>2mk"
+
+startup = 9
+active = [9]
+postLandingRecovery = 11
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Drill Kick (Heavy)
+[[moves]]
+name = "Drill Kick (Heavy)"
+name_ja = "ドリルキック (強)"
+alternativeNames = ["H Drill Kick"]
+alternativeNames_ja = ["強 ドリルキック"]
+slug = "drill-kick-heavy"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+input = "j>2hk"
+
+startup = 9
+active = [9]
+postLandingRecovery = 11
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Yoga Fire (Light)
+[[moves]]
+name = "Yoga Fire (Light)"
+name_ja = "ヨガファイア (弱)"
+alternativeNames = ["L Yoga Fire"]
+alternativeNames_ja = ["弱 ヨガファイア"]
+slug = "yoga-fire-light"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236*p"
+input = "236lp"
 properties = ["chargeable"]
 
-# Yoga Fire (OD)
+startup = 15
+totalFrames = 48
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Fire (Medium)
 [[moves]]
-name = "Yoga Fire (OD)"
-name_ja = "ヨガファイア（OD）"
-slug = "yoga-fire-od"
+name = "Yoga Fire (Medium)"
+name_ja = "ヨガファイア (中)"
+alternativeNames = ["M Yoga Fire"]
+alternativeNames_ja = ["中 ヨガファイア"]
+slug = "yoga-fire-medium"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(pp)"
+input = "236mp"
 properties = ["chargeable"]
 
-# Yoga Arch
-[[moves]]
-name = "Yoga Arch"
-name_ja = "ヨガアーチ"
-slug = "yoga-arch"
-characterId = 9
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "236*p"
+startup = 15
+totalFrames = 48
+cancel = "SA3"
+damage = 600
+superArt = 600
 
-# Yoga Arch (OD)
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Fire (Heavy)
 [[moves]]
-name = "Yoga Arch (OD)"
-name_ja = "ヨガアーチ（OD）"
-slug = "yoga-arch-od"
+name = "Yoga Fire (Heavy)"
+name_ja = "ヨガファイア (強)"
+alternativeNames = ["H Yoga Fire"]
+alternativeNames_ja = ["強 ヨガファイア"]
+slug = "yoga-fire-heavy"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(pp)"
+input = "236hp"
+properties = ["chargeable"]
+
+startup = 15
+totalFrames = 48
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Fire (Light OD)
+[[moves]]
+name = "Yoga Fire (Light OD)"
+name_ja = "ヨガファイア (弱OD)"
+alternativeNames = ["L Yoga Fire (OD)"]
+alternativeNames_ja = ["弱 ヨガファイア (OD)"]
+slug = "yoga-fire-od-light"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(lpmp)"
+properties = ["chargeable", "knockdown"]
+
+startup = 13
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+superArt = 800
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# Yoga Fire (Medium OD)
+[[moves]]
+name = "Yoga Fire (Medium OD)"
+name_ja = "ヨガファイア (中OD)"
+alternativeNames = ["M Yoga Fire (OD)"]
+alternativeNames_ja = ["中 ヨガファイア (OD)"]
+slug = "yoga-fire-od-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(lphp)"
+properties = ["chargeable", "knockdown"]
+
+startup = 13
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+superArt = 800
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# Yoga Fire (Heavy OD)
+[[moves]]
+name = "Yoga Fire (Heavy OD)"
+name_ja = "ヨガファイア (強OD)"
+alternativeNames = ["H Yoga Fire (OD)"]
+alternativeNames_ja = ["強 ヨガファイア (OD)"]
+slug = "yoga-fire-od-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(mphp)"
+properties = ["chargeable", "knockdown"]
+
+startup = 13
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+superArt = 800
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# Yoga Arch (Light)
+[[moves]]
+name = "Yoga Arch (Light)"
+name_ja = "ヨガアーチ (弱)"
+alternativeNames = ["L Yoga Arch"]
+alternativeNames_ja = ["弱 ヨガアーチ"]
+slug = "yoga-arch-light"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236lk"
+
+startup = 18
+totalFrames = 45
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Arch (Medium)
+[[moves]]
+name = "Yoga Arch (Medium)"
+name_ja = "ヨガアーチ (中)"
+alternativeNames = ["M Yoga Arch"]
+alternativeNames_ja = ["中 ヨガアーチ"]
+slug = "yoga-arch-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236mk"
+
+startup = 18
+totalFrames = 45
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Arch (Heavy)
+[[moves]]
+name = "Yoga Arch (Heavy)"
+name_ja = "ヨガアーチ (強)"
+alternativeNames = ["H Yoga Arch"]
+alternativeNames_ja = ["強 ヨガアーチ"]
+slug = "yoga-arch-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236hk"
+
+startup = 18
+totalFrames = 45
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Arch (Light OD)
+[[moves]]
+name = "Yoga Arch (Light OD)"
+name_ja = "ヨガアーチ (弱OD)"
+alternativeNames = ["L Yoga Arch (OD)"]
+alternativeNames_ja = ["弱 ヨガアーチ (OD)"]
+slug = "yoga-arch-od-light"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(lkmk)"
+
+startup = 18
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Yoga Arch (Medium OD)
+[[moves]]
+name = "Yoga Arch (Medium OD)"
+name_ja = "ヨガアーチ (中OD)"
+alternativeNames = ["M Yoga Arch (OD)"]
+alternativeNames_ja = ["中 ヨガアーチ (OD)"]
+slug = "yoga-arch-od-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(lkhk)"
+
+startup = 18
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Yoga Arch (Heavy OD)
+[[moves]]
+name = "Yoga Arch (Heavy OD)"
+name_ja = "ヨガアーチ (強OD)"
+alternativeNames = ["H Yoga Arch (OD)"]
+alternativeNames_ja = ["強 ヨガアーチ (OD)"]
+slug = "yoga-arch-od-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(mkhk)"
+
+startup = 18
+totalFrames = 45
+cancel = "SA2"
+damage = 1000
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Yoga Flame (Light)
 [[moves]]
 name = "Yoga Flame (Light)"
 name_ja = "ヨガフレイム（弱）"
+alternativeNames = ["L Yoga Flame"]
+alternativeNames_ja = ["弱 ヨガフレイム"]
 slug = "yoga-flame-light"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214lp"
+properties = ["knockdown"]
+
+startup = 16
+active = [16, 30]
+totalFrames = 45
+cancel = "SA3"
+damage = 800
+superArt = 900
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Yoga Flame (Medium)
 [[moves]]
 name = "Yoga Flame (Medium)"
 name_ja = "ヨガフレイム（中）"
+alternativeNames = ["M Yoga Flame"]
+alternativeNames_ja = ["中 ヨガフレイム"]
 slug = "yoga-flame-medium"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214mp"
+properties = ["knockdown"]
+
+startup = 20
+active = [19, 34]
+totalFrames = 51
+cancel = "SA3"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2400
+onBlock = -5000
+onPunishCounter = -5000
 
 # Yoga Flame (Heavy)
 [[moves]]
 name = "Yoga Flame (Heavy)"
 name_ja = "ヨガフレイム（強）"
+alternativeNames = ["H Yoga Flame"]
+alternativeNames_ja = ["強 ヨガフレイム"]
 slug = "yoga-flame-heavy"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214hp"
+properties = ["knockdown"]
+
+startup = 26
+active = [26, 42]
+totalFrames = 58
+cancel = "SA3"
+damage = 1200
+superArt = 1100
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2700
+onBlock = -6000
+onPunishCounter = -5000
 
 # Yoga Flame (OD)
 [[moves]]
 name = "Yoga Flame (OD)"
 name_ja = "ヨガフレイム（OD）"
+alternativeNames = ["OD Yoga Flame", "EX Yoga Flame"]
+alternativeNames_ja = ["OD ヨガフレイム", "EX ヨガフレイム"]
 slug = "yoga-flame-od"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214(pp)"
+properties = ["knockdown"]
+
+startup = 18
+active = [18, 42]
+totalFrames = 66
+cancel = "SA2"
+damage = 800
+superArt = 1100
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Yoga Blast (Light)
 [[moves]]
 name = "Yoga Blast (Light)"
 name_ja = "ヨガブラスト（弱）"
+alternativeNames = ["L Yoga Blast"]
+alternativeNames_ja = ["弱 ヨガブラスト"]
 slug = "yoga-blast-light"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214lk"
+properties = ["knockdown"]
+notes = ["Clashes with projectiles"]
+notes_ja = ["飛び道具相殺判定あり"]
+
+startup = 12
+active = [12, 21]
+totalFrames = 44
+cancel = "SA3"
+damage = 1000
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -6000
 
 # Yoga Blast (Medium)
 [[moves]]
 name = "Yoga Blast (Medium)"
 name_ja = "ヨガブラスト（中）"
+alternativeNames = ["M Yoga Blast"]
+alternativeNames_ja = ["中 ヨガブラスト"]
 slug = "yoga-blast-medium"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214mk"
+properties = ["knockdown"]
+notes = ["Clashes with projectiles"]
+notes_ja = ["飛び道具相殺判定あり"]
+
+startup = 15
+active = [15, 24]
+totalFrames = 44
+cancel = "SA3"
+damage = 1200
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -6000
 
 # Yoga Blast (Heavy)
 [[moves]]
 name = "Yoga Blast (Heavy)"
 name_ja = "ヨガブラスト（強）"
+alternativeNames = ["H Yoga Blast"]
+alternativeNames_ja = ["強 ヨガブラスト"]
 slug = "yoga-blast-heavy"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214hk"
+properties = ["knockdown"]
+notes = ["Clashes with projectiles"]
+notes_ja = ["飛び道具相殺判定あり"]
+
+startup = 15
+active = [15, 24]
+totalFrames = 44
+cancel = "SA3"
+damage = 1200
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -6000
 
 # Yoga Blast (OD)
 [[moves]]
 name = "Yoga Blast (OD)"
 name_ja = "ヨガブラスト（OD）"
+alternativeNames = ["OD Yoga Blast", "EX Yoga Blast"]
+alternativeNames_ja = ["OD ヨガブラスト", "EX ヨガブラスト"]
 slug = "yoga-blast-od"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "63214(pp)"
+properties = ["knockdown"]
+notes = ["Clashes with projectiles"]
+notes_ja = ["飛び道具相殺判定あり"]
 
-# Yoga Comet
+startup = 12
+active = [12, 21]
+totalFrames = 41
+cancel = "SA2"
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1200
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
+# Yoga Comet (Light)
 [[moves]]
-name = "Yoga Comet"
-name_ja = "ヨガコメット"
-slug = "yoga-comet"
+name = "Yoga Comet (Light)"
+name_ja = "ヨガコメット (弱)"
+slug = "yoga-comet-light"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>63214*p"
+input = "j>63214lp"
+
+startup = 30
+postLandingRecovery = 8
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Comet (Medium)
+[[moves]]
+name = "Yoga Comet (Medium)"
+name_ja = "ヨガコメット (中)"
+slug = "yoga-comet-medium"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j>63214mp"
+
+startup = 30
+postLandingRecovery = 8
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Comet (Heavy)
+[[moves]]
+name = "Yoga Comet (Heavy)"
+name_ja = "ヨガコメット (強)"
+slug = "yoga-comet-heavy"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "j>63214hp"
+
+startup = 30
+postLandingRecovery = 8
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
 
 # Yoga Comet (OD)
 [[moves]]
 name = "Yoga Comet (OD)"
 name_ja = "ヨガコメット（OD）"
+alternativeNames = ["OD Yoga Comet", "EX Yoga Comet"]
+alternativeNames_ja = ["OD ヨガコメット", "EX ヨガコメット"]
 slug = "yoga-comet-od"
 characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>63214(pp)"
+notes = ["Can perform moves from frame 50"]
+notes_ja = ["50Fから行動可"]
 
-# Yoga Float
+startup = 30
+postLandingRecovery = 3
+damage = 1200
+superArt = 1000
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# Yoga Float (Immediate)
 [[moves]]
-name = "Yoga Float"
-name_ja = "ヨガフロート"
-slug = "yoga-float"
+name = "Yoga Float (Immediate)"
+name_ja = "ヨガフロート (その場)"
+slug = "yoga-float-immediate"
 characterId = 9
 type = "action"
-input = "{2(kk)|3(kk)}"
+input = "2(kk)"
+notes = ["Considered airborne from frame 13", "Can perform moves from frame 36"]
+notes_ja = ["13Fから空中判定", "36Fから行動可"]
+
+totalFrames = 35
+
+# Yoga Float (Forward)
+[[moves]]
+name = "Yoga Float (Forward)"
+name_ja = "ヨガフロート (前)"
+slug = "yoga-float-forward"
+characterId = 9
+type = "action"
+input = "3(kk)"
+notes = ["Considered airborne on frame 13", "Can perform moves from frame 36"]
+notes_ja = ["13F空中判定", "36Fから行動可"]
+
+totalFrames = 35
 
 # Aerial Yoga Float
 [[moves]]
@@ -553,46 +1576,249 @@ slug = "aerial-yoga-float"
 characterId = 9
 type = "action"
 input = "j>2(kk)"
+notes = ["Can perform moves from frame 16"]
+notes_ja = ["16Fから行動可"]
 
-# Yoga Teleport
+totalFrames = 15
+
+# Yoga Teleport (Punch)
 [[moves]]
-name = "Yoga Teleport"
-name_ja = "ヨガテレポート"
-slug = "yoga-teleport"
+name = "Yoga Teleport (Punch)"
+name_ja = "ヨガテレポート (パンチ)"
+slug = "yoga-teleport-punch"
 characterId = 9
 type = "action"
-input = "{4(ppp)(kkk)|6(ppp)(kkk)}"
+input = "6(ppp)"
+notes = ["Completely invincible from frames 5 - 15"]
+notes_ja = ["5-15F 完全無敵"]
 
-# Aerial Yoga Teleport
+totalFrames = 39
+
+# Yoga Teleport (Kick)
 [[moves]]
-name = "Aerial Yoga Teleport"
-name_ja = "空中ヨガテレポート"
-slug = "aerial-yoga-teleport"
+name = "Yoga Teleport (Kick)"
+name_ja = "ヨガテレポート (キック)"
+slug = "yoga-teleport-kick"
 characterId = 9
 type = "action"
-input = "j>{4(ppp)(kkk)|6(ppp)(kkk)}"
+input = "6(kkk)"
+notes = ["Completely invincible from frames 5 - 15"]
+notes_ja = ["5-15F 完全無敵"]
 
-# Yoga Inferno
+totalFrames = 39
+
+# Aerial Yoga Teleport (Punch)
 [[moves]]
-name = "Yoga Inferno"
-name_ja = "ヨガインフェルノ"
-slug = "yoga-inferno"
+name = "Aerial Yoga Teleport (Punch)"
+name_ja = "空中ヨガテレポート (パンチ)"
+slug = "aerial-yoga-teleport-punch"
+characterId = 9
+type = "action"
+input = "j>6(ppp)"
+notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 30"]
+notes_ja = ["10-15F 完全無敵", "30Fから行動可"]
+
+totalFrames = 29
+
+# Aerial Yoga Teleport (Kick)
+[[moves]]
+name = "Aerial Yoga Teleport (Kick)"
+name_ja = "空中ヨガテレポート (キック)"
+slug = "aerial-yoga-teleport-kick"
+characterId = 9
+type = "action"
+input = "j>6(kkk)"
+notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 30"]
+notes_ja = ["10-15F 完全無敵", "30Fから行動可"]
+
+totalFrames = 29
+
+# Yoga Teleport (Backward)
+[[moves]]
+name = "Yoga Teleport (Backward)"
+name_ja = "ヨガテレポート (後方)"
+slug = "yoga-teleport-backward"
+characterId = 9
+type = "action"
+input = "4+{(ppp)|(kkk)}"
+notes = ["Completely invincible from frames 5 - 15"]
+notes_ja = ["5-15F 完全無敵"]
+
+totalFrames = 46
+
+# Aerial Yoga Teleport (Backward Punch)
+[[moves]]
+name = "Aerial Yoga Teleport (Backward Punch)"
+name_ja = "空中ヨガテレポート (後方パンチ)"
+slug = "aerial-yoga-teleport-backward-punch"
+characterId = 9
+type = "action"
+input = "j>4(ppp)"
+notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 35"]
+notes_ja = ["10-15F 完全無敵", "35Fから行動可"]
+
+totalFrames = 34
+
+# Aerial Yoga Teleport (Backward Kick)
+[[moves]]
+name = "Aerial Yoga Teleport (Backward Kick)"
+name_ja = "空中ヨガテレポート (後ろキック)"
+slug = "aerial-yoga-teleport-backward-kick"
+characterId = 9
+type = "action"
+input = "j>4(kkk)"
+
+notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 35"]
+notes_ja = ["10-15F 完全無敵", "35Fから行動可"]
+
+totalFrames = 34
+
+# Yoga Inferno (Light)
+[[moves]]
+name = "Yoga Inferno (Light)"
+name_ja = "ヨガインフェルノ (弱)"
+alternativeNames = ["L Yoga Inferno"]
+alternativeNames_ja = ["弱 ヨガインフェルノ"]
+slug = "yoga-inferno-light"
 characterId = 9
 type = "super1"
 hitCount = 1
 blockType = "high"
-input = "236236*p"
+input = "236236lp"
+properties = ["knockdown"]
+notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
+notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
 
-# Yoga Sunburst
+startup = 10
+active = [10, 93]
+totalFrames = 133
+damage = 1920
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onBlock = -2520
+onPunishCounter = -5040
+
+# Yoga Inferno (Medium)
 [[moves]]
-name = "Yoga Sunburst"
-name_ja = "ヨガサンバースト"
-slug = "yoga-sunburst"
+name = "Yoga Inferno (Medium)"
+name_ja = "ヨガインフェルノ (中)"
+alternativeNames = ["M Yoga Inferno"]
+alternativeNames_ja = ["中 ヨガインフェルノ"]
+slug = "yoga-inferno-medium"
+characterId = 9
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236mp"
+properties = ["knockdown"]
+notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
+notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 10
+active = [10, 93]
+totalFrames = 133
+damage = 2100
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onBlock = -2520
+onPunishCounter = -5040
+
+# Yoga Inferno (Heavy)
+[[moves]]
+name = "Yoga Inferno (Heavy)"
+name_ja = "ヨガインフェルノ (強)"
+alternativeNames = ["H Yoga Inferno"]
+alternativeNames_ja = ["強 ヨガインフェルノ"]
+slug = "yoga-inferno-heavy"
+characterId = 9
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236hp"
+properties = ["knockdown"]
+notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
+notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 10
+active = [10, 93]
+totalFrames = 133
+damage = 2040
+
+[moves.frameAdvantage]
+block = -22
+
+[moves.driveGauge]
+onBlock = -2520
+onPunishCounter = -5040
+
+# Yoga Sunburst (Lv1)
+[[moves]]
+name = "Yoga Sunburst (Lv1)"
+name_ja = "ヨガサンバースト (Lv1)"
+slug = "yoga-sunburst-lv1"
 characterId = 9
 type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*k"
+notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Level 1 activates if the button is released within 139 frames"]
+notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "139F以下でボタンホールドをやめるとLv1が発動"]
+
+startup = 7
+totalFrames = 67
+damage = 2800
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -10000
+
+# Yoga Sunburst (Lv2)
+[[moves]]
+name = "Yoga Sunburst (Lv2)"
+name_ja = "ヨガサンバースト (Lv2)"
+slug = "yoga-sunburst-lv2"
+characterId = 9
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214[*k]"
+notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Hold the button for over 140 frames to activate the Level 2 version"]
+notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "140F以上ボタンホールドしているとLv2が発動"]
+
+startup = 7
+totalFrames = 80
+damage = 3100
+
+[moves.driveGauge]
+onBlock = -3500
+onPunishCounter = -14000
+
+# Yoga Sunburst (Lv3)
+[[moves]]
+name = "Yoga Sunburst (Lv3)"
+name_ja = "ヨガサンバースト (Lv3)"
+slug = "yoga-sunburst-lv3"
+characterId = 9
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214[*k]"
+notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Hold the button for over 188 frames to activate the Level 2 version"]
+notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "188F以上ボタンホールドしているとLv3が発動、また209Fで自動で射出する"]
+
+startup = 7
+totalFrames = 128
+damage = 4000
+
+[moves.driveGauge]
+onBlock = -4500
+onPunishCounter = -18000
 
 # Yoga Sunburst
 [[moves]]
@@ -604,6 +1830,23 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
+notes = ["Completely invincible from frames 1 - 14", "Minimum guaranteed damage is 50%", "Values do not change on counter or Punish Counter", "* Can only be canceled into from special moves"]
+notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
+
+startup = 10
+active = [10, 14]
+recovery = 75
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -62
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Merciless Yoga (Critical Art)
 [[moves]]
@@ -615,6 +1858,23 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
+notes = ["Completely invincible from frames 1 - 14", "Minimum guaranteed damage is 50%", "Values do not change on counter or Punish Counter", "* Can only be canceled into from special moves"]
+notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
+
+startup = 10
+active = [10, 14]
+recovery = 75
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -62
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Yoga Smash
 [[moves]]
@@ -626,6 +1886,21 @@ slug = "yoga-smash"
 characterId = 9
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Yoga Throw
 [[moves]]
@@ -638,6 +1913,21 @@ characterId = 9
 type = "throw"
 hitCount = 1
 input = "(5lplk)"
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Yoga Splash
 [[moves]]
@@ -648,3 +1938,18 @@ characterId = 9
 type = "throw"
 hitCount = 1
 input = "(2lplk)"
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000

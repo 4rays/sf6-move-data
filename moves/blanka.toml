@@ -2440,7 +2440,7 @@ blockType = "high"
 input = "6hp"
 hitCount = 1
 
-properties = ["knockdown"]
+properties = ["knockdown", "crumple"]
 notes = [
   "An attack with long reach that slams an opponent into the ground. Can be followed up with a Coward Crouch on hit or on block.",
   "Can transition to Coward Crouch between frames 33 - 34",
@@ -2460,6 +2460,7 @@ startup = 18
 active = [18, 21]
 recovery = 31
 cancel = "*"
+cancelsInto = ["coward-crouch"]
 damage = 1100
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
