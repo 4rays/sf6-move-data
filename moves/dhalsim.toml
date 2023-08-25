@@ -173,7 +173,10 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["Forces a juggle state when hitting a mid-air opponent", "Adds 21 frames of advantage on Punish Counter"]
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Adds 21 frames of advantage on Punish Counter",
+]
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+21F"]
 
 startup = 17
@@ -366,7 +369,9 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 12
@@ -569,6 +574,9 @@ recovery = 16
 cancel = "C"
 damage = 700
 superArt = 500
+capcom_skill_id = 401
+notes = ["An anti-air attack that can be canceled into special moves."]
+notes_ja = ["相手のジャンプに対して強い、必殺技キャンセル可能な攻撃。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -589,9 +597,11 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hp"
-notes = ["Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"]
-notes_ja = ["空中カウンター/パニッシュカウンター時吹き飛びダウン"]
-
+notes = [
+  "A punch with long reach. Useful against opponents who jump diagonally forward.",
+  "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
+]
+notes_ja = ["相手の斜め前方のジャンプに対して強く、リーチの長いパンチ。", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
 startup = 14
 active = [14, 20]
 recovery = 29
@@ -600,6 +610,7 @@ damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
+capcom_skill_id = 402
 
 [moves.frameAdvantage]
 hit = -9
@@ -627,6 +638,9 @@ recovery = 20
 cancel = "C"
 damage = 800
 superArt = 1000
+capcom_skill_id = 403
+notes = ["A damaging punch that can be canceled into special moves."]
+notes_ja = ["ダメージが高く、必殺技キャンセル可能なパンチ。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -647,9 +661,11 @@ type = "commandNormal"
 hitCount = 1
 blockType = "low"
 input = "1lk"
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
-
+notes = [
+  "A quick low attack that cannot be blocked standing.",
+  "Can be rapid canceled",
+]
+notes_ja = ["技の出が早く、立ってガードできない下段攻撃。", "連打キャンセル対応"]
 startup = 5
 active = [5, 7]
 recovery = 10
@@ -657,6 +673,7 @@ damage = 200
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 300
+capcom_skill_id = 404
 
 [moves.frameAdvantage]
 hit = 1
@@ -684,6 +701,9 @@ recovery = 17
 cancel = "C"
 damage = 600
 superArt = 500
+capcom_skill_id = 405
+notes = ["A quick kick that can be canceled into special moves."]
+notes_ja = ["技の出が早く、必殺技キャンセル可能な蹴り。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -712,6 +732,11 @@ damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
+capcom_skill_id = 406
+notes = [
+  "A low attack that cannot be blocked standing and can be canceled into special moves.",
+]
+notes_ja = ["必殺技キャンセル可能な、立ってガードできない下段攻撃。"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -732,14 +757,17 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hk"
-notes = ["Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter"]
-notes_ja = ["空中カウンター/パニッシュカウンター時吹き飛びダウン"]
-
+notes = [
+  "A kick that is useful against an opponent's neutral jumps and blows the opponent back on hit.",
+  "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
+]
+notes_ja = ["相手の真上方向のジャンプに対して強く、相手を吹き飛ばす蹴り。", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
 startup = 14
 active = [14, 19]
 recovery = 20
 damage = 1000
 superArt = 1000
+capcom_skill_id = 407
 
 [moves.frameAdvantage]
 hit = 0
@@ -761,14 +789,17 @@ hitCount = 1
 blockType = "high"
 input = "1hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
-notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
-
+notes = [
+  "A low attack that cannot be blocked standing and knocks an opponent down.",
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["相手を転ばせる、立ってガードできない下段攻撃。", "カウンター/パニッシュカウンター時ダウン時間延長"]
 startup = 9
 active = [9, 11]
 recovery = 22
 damage = 900
 superArt = 1000
+capcom_skill_id = 408
 
 [moves.frameAdvantage]
 block = -7
@@ -795,6 +826,11 @@ postLandingRecovery = 9
 cancel = "C"
 damage = 500
 superArt = 500
+capcom_skill_id = 409
+notes = [
+  "A special-cancelable descending attack that be performed while jumping.",
+]
+notes_ja = ["ジャンプ中に繰り出す、必殺技キャンセル可能な急降下攻撃。"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -821,6 +857,11 @@ damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
+capcom_skill_id = 410
+notes = [
+  "A descending attack with a long duration that can be performed while jumping.",
+]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -847,6 +888,11 @@ damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
+capcom_skill_id = 410
+notes = [
+  "A descending attack with a long duration that can be performed while jumping.",
+]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -873,6 +919,11 @@ damage = 500
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
+capcom_skill_id = 410
+notes = [
+  "A descending attack with a long duration that can be performed while jumping.",
+]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -898,6 +949,11 @@ totalFrames = 48
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -927,6 +983,11 @@ totalFrames = 48
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -956,6 +1017,11 @@ totalFrames = 48
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -985,6 +1051,11 @@ totalFrames = 45
 cancel = "SA2"
 damage = 1000
 superArt = 800
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1012,6 +1083,11 @@ totalFrames = 45
 cancel = "SA2"
 damage = 1000
 superArt = 800
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1039,6 +1115,11 @@ totalFrames = 45
 cancel = "SA2"
 damage = 1000
 superArt = 800
+capcom_skill_id = 501
+notes = [
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1065,6 +1146,11 @@ totalFrames = 45
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1093,6 +1179,11 @@ totalFrames = 45
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1121,6 +1212,11 @@ totalFrames = 45
 cancel = "SA3"
 damage = 600
 superArt = 600
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1151,6 +1247,11 @@ damage = 1000
 scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1180,6 +1281,11 @@ damage = 1000
 scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1209,6 +1315,11 @@ damage = 1000
 scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
+capcom_skill_id = 502
+notes = [
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1238,6 +1349,11 @@ totalFrames = 45
 cancel = "SA3"
 damage = 800
 superArt = 900
+capcom_skill_id = 503
+notes = [
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1267,6 +1383,11 @@ totalFrames = 51
 cancel = "SA3"
 damage = 900
 superArt = 1000
+capcom_skill_id = 503
+notes = [
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1296,6 +1417,11 @@ totalFrames = 58
 cancel = "SA3"
 damage = 1200
 superArt = 1100
+capcom_skill_id = 503
+notes = [
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1325,6 +1451,11 @@ totalFrames = 66
 cancel = "SA2"
 damage = 800
 superArt = 1100
+capcom_skill_id = 503
+notes = [
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
 
 [moves.frameAdvantage]
 block = -11
@@ -1346,15 +1477,18 @@ hitCount = 1
 blockType = "high"
 input = "63214lk"
 properties = ["knockdown"]
-notes = ["Clashes with projectiles"]
-notes_ja = ["飛び道具相殺判定あり"]
-
+notes = [
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Clashes with projectiles",
+]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
 startup = 12
 active = [12, 21]
 totalFrames = 44
 cancel = "SA3"
 damage = 1000
 superArt = 1200
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = -6
@@ -1377,15 +1511,18 @@ hitCount = 1
 blockType = "high"
 input = "63214mk"
 properties = ["knockdown"]
-notes = ["Clashes with projectiles"]
-notes_ja = ["飛び道具相殺判定あり"]
-
+notes = [
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Clashes with projectiles",
+]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
 startup = 15
 active = [15, 24]
 totalFrames = 44
 cancel = "SA3"
 damage = 1200
 superArt = 1200
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = -3
@@ -1408,15 +1545,18 @@ hitCount = 1
 blockType = "high"
 input = "63214hk"
 properties = ["knockdown"]
-notes = ["Clashes with projectiles"]
-notes_ja = ["飛び道具相殺判定あり"]
-
+notes = [
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Clashes with projectiles",
+]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
 startup = 15
 active = [15, 24]
 totalFrames = 44
 cancel = "SA3"
 damage = 1200
 superArt = 1200
+capcom_skill_id = 504
 
 [moves.frameAdvantage]
 block = -3
@@ -1439,9 +1579,11 @@ hitCount = 1
 blockType = "high"
 input = "63214(pp)"
 properties = ["knockdown"]
-notes = ["Clashes with projectiles"]
-notes_ja = ["飛び道具相殺判定あり"]
-
+notes = [
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Clashes with projectiles",
+]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
 startup = 12
 active = [12, 21]
 totalFrames = 41
@@ -1450,6 +1592,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1200
+capcom_skill_id = 504
 
 [moves.driveGauge]
 onBlock = -5000
@@ -1470,6 +1613,11 @@ startup = 30
 postLandingRecovery = 8
 damage = 800
 superArt = 1000
+capcom_skill_id = 505
+notes = [
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1491,6 +1639,11 @@ startup = 30
 postLandingRecovery = 8
 damage = 800
 superArt = 1000
+capcom_skill_id = 505
+notes = [
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1512,6 +1665,11 @@ startup = 30
 postLandingRecovery = 8
 damage = 800
 superArt = 1000
+capcom_skill_id = 505
+notes = [
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1530,13 +1688,16 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>63214(pp)"
-notes = ["Can perform moves from frame 50"]
-notes_ja = ["50Fから行動可"]
-
+notes = [
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+  "Can perform moves from frame 50",
+]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。", "50Fから行動可"]
 startup = 30
 postLandingRecovery = 3
 damage = 1200
 superArt = 1000
+capcom_skill_id = 505
 
 [moves.driveGauge]
 onBlock = -4000
@@ -1550,10 +1711,18 @@ slug = "yoga-float-immediate"
 characterId = 9
 type = "action"
 input = "2(kk)"
-notes = ["Considered airborne from frame 13", "Can perform moves from frame 36"]
-notes_ja = ["13Fから空中判定", "36Fから行動可"]
-
+notes = [
+  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating.",
+  "Considered airborne from frame 13",
+  "Can perform moves from frame 36",
+]
+notes_ja = [
+  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "13Fから空中判定",
+  "36Fから行動可",
+]
 totalFrames = 35
+capcom_skill_id = 506
 
 # Yoga Float (Forward)
 [[moves]]
@@ -1563,10 +1732,18 @@ slug = "yoga-float-forward"
 characterId = 9
 type = "action"
 input = "3(kk)"
-notes = ["Considered airborne on frame 13", "Can perform moves from frame 36"]
-notes_ja = ["13F空中判定", "36Fから行動可"]
-
+notes = [
+  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating.",
+  "Considered airborne on frame 13",
+  "Can perform moves from frame 36",
+]
+notes_ja = [
+  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "13F空中判定",
+  "36Fから行動可",
+]
 totalFrames = 35
+capcom_skill_id = 506
 
 # Aerial Yoga Float
 [[moves]]
@@ -1576,10 +1753,13 @@ slug = "aerial-yoga-float"
 characterId = 9
 type = "action"
 input = "j>2(kk)"
-notes = ["Can perform moves from frame 16"]
-notes_ja = ["16Fから行動可"]
-
+notes = [
+  "While airborne, transition into a float. Jumping attacks and aerial special moves can be used while floating.",
+  "Can perform moves from frame 16",
+]
+notes_ja = ["空中からそのまま浮遊へ移行する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。", "16Fから行動可"]
 totalFrames = 15
+capcom_skill_id = 507
 
 # Yoga Teleport (Punch)
 [[moves]]
@@ -1589,10 +1769,13 @@ slug = "yoga-teleport-punch"
 characterId = 9
 type = "action"
 input = "6(ppp)"
-notes = ["Completely invincible from frames 5 - 15"]
-notes_ja = ["5-15F 完全無敵"]
-
+notes = [
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Completely invincible from frames 5 - 15",
+]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
 totalFrames = 39
+capcom_skill_id = 508
 
 # Yoga Teleport (Kick)
 [[moves]]
@@ -1602,10 +1785,13 @@ slug = "yoga-teleport-kick"
 characterId = 9
 type = "action"
 input = "6(kkk)"
-notes = ["Completely invincible from frames 5 - 15"]
-notes_ja = ["5-15F 完全無敵"]
-
+notes = [
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Completely invincible from frames 5 - 15",
+]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
 totalFrames = 39
+capcom_skill_id = 508
 
 # Aerial Yoga Teleport (Punch)
 [[moves]]
@@ -1615,10 +1801,18 @@ slug = "aerial-yoga-teleport-punch"
 characterId = 9
 type = "action"
 input = "j>6(ppp)"
-notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 30"]
-notes_ja = ["10-15F 完全無敵", "30Fから行動可"]
-
+notes = [
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Completely invincible from frames 10 - 15",
+  "Can perform moves from frame 30",
+]
+notes_ja = [
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "10-15F 完全無敵",
+  "30Fから行動可",
+]
 totalFrames = 29
+capcom_skill_id = 509
 
 # Aerial Yoga Teleport (Kick)
 [[moves]]
@@ -1628,10 +1822,18 @@ slug = "aerial-yoga-teleport-kick"
 characterId = 9
 type = "action"
 input = "j>6(kkk)"
-notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 30"]
-notes_ja = ["10-15F 完全無敵", "30Fから行動可"]
-
+notes = [
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Completely invincible from frames 10 - 15",
+  "Can perform moves from frame 30",
+]
+notes_ja = [
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "10-15F 完全無敵",
+  "30Fから行動可",
+]
 totalFrames = 29
+capcom_skill_id = 509
 
 # Yoga Teleport (Backward)
 [[moves]]
@@ -1641,10 +1843,13 @@ slug = "yoga-teleport-backward"
 characterId = 9
 type = "action"
 input = "4+{(ppp)|(kkk)}"
-notes = ["Completely invincible from frames 5 - 15"]
-notes_ja = ["5-15F 完全無敵"]
-
+notes = [
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Completely invincible from frames 5 - 15",
+]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
 totalFrames = 46
+capcom_skill_id = 508
 
 # Aerial Yoga Teleport (Backward Punch)
 [[moves]]
@@ -1654,10 +1859,18 @@ slug = "aerial-yoga-teleport-backward-punch"
 characterId = 9
 type = "action"
 input = "j>4(ppp)"
-notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 35"]
-notes_ja = ["10-15F 完全無敵", "35Fから行動可"]
-
+notes = [
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Completely invincible from frames 10 - 15",
+  "Can perform moves from frame 35",
+]
+notes_ja = [
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "10-15F 完全無敵",
+  "35Fから行動可",
+]
 totalFrames = 34
+capcom_skill_id = 509
 
 # Aerial Yoga Teleport (Backward Kick)
 [[moves]]
@@ -1667,11 +1880,18 @@ slug = "aerial-yoga-teleport-backward-kick"
 characterId = 9
 type = "action"
 input = "j>4(kkk)"
-
-notes = ["Completely invincible from frames 10 - 15", "Can perform moves from frame 35"]
-notes_ja = ["10-15F 完全無敵", "35Fから行動可"]
-
+notes = [
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Completely invincible from frames 10 - 15",
+  "Can perform moves from frame 35",
+]
+notes_ja = [
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "10-15F 完全無敵",
+  "35Fから行動可",
+]
 totalFrames = 34
+capcom_skill_id = 509
 
 # Yoga Inferno (Light)
 [[moves]]
@@ -1686,13 +1906,23 @@ hitCount = 1
 blockType = "high"
 input = "236236lp"
 properties = ["knockdown"]
-notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
-notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Invincible to throws from frames 1 - 11",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "1-11F 投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 10
 active = [10, 93]
 totalFrames = 133
 damage = 1920
+capcom_skill_id = 601
 
 [moves.frameAdvantage]
 block = -15
@@ -1714,13 +1944,23 @@ hitCount = 1
 blockType = "high"
 input = "236236mp"
 properties = ["knockdown"]
-notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
-notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Invincible to throws from frames 1 - 11",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "1-11F 投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 10
 active = [10, 93]
 totalFrames = 133
 damage = 2100
+capcom_skill_id = 601
 
 [moves.frameAdvantage]
 block = -15
@@ -1742,13 +1982,23 @@ hitCount = 1
 blockType = "high"
 input = "236236hp"
 properties = ["knockdown"]
-notes = ["Invincible to throws from frames 1 - 11", "Minimum guaranteed damage is 30%", "Values do not change on counter or Punish Counter"]
-notes_ja = ["1-11F 投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Invincible to throws from frames 1 - 11",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "1-11F 投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 10
 active = [10, 93]
 totalFrames = 133
 damage = 2040
+capcom_skill_id = 601
 
 [moves.frameAdvantage]
 block = -22
@@ -1767,12 +2017,24 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*k"
-notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Level 1 activates if the button is released within 139 frames"]
-notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "139F以下でボタンホールドをやめるとLv1が発動"]
-
+notes = [
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Completely invincible from frames 1 - 9",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+  "Level 1 activates if the button is released within 139 frames",
+]
+notes_ja = [
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "1-9F 完全無敵",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "139F以下でボタンホールドをやめるとLv1が発動",
+]
 startup = 7
 totalFrames = 67
 damage = 2800
+capcom_skill_id = 602
 
 [moves.driveGauge]
 onBlock = -2500
@@ -1788,12 +2050,24 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214[*k]"
-notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Hold the button for over 140 frames to activate the Level 2 version"]
-notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "140F以上ボタンホールドしているとLv2が発動"]
-
+notes = [
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Completely invincible from frames 1 - 9",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+  "Hold the button for over 140 frames to activate the Level 2 version",
+]
+notes_ja = [
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "1-9F 完全無敵",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "140F以上ボタンホールドしているとLv2が発動",
+]
 startup = 7
 totalFrames = 80
 damage = 3100
+capcom_skill_id = 602
 
 [moves.driveGauge]
 onBlock = -3500
@@ -1809,12 +2083,24 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214[*k]"
-notes = ["Completely invincible from frames 1 - 9", "Minimum guaranteed damage is 40%", "Values do not change on counter or Punish Counter", "Hold the button for over 188 frames to activate the Level 2 version"]
-notes_ja = ["1-9F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "188F以上ボタンホールドしているとLv3が発動、また209Fで自動で射出する"]
-
+notes = [
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Completely invincible from frames 1 - 9",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+  "Hold the button for over 188 frames to activate the Level 2 version",
+]
+notes_ja = [
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "1-9F 完全無敵",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "188F以上ボタンホールドしているとLv3が発動、また209Fで自動で射出する",
+]
 startup = 7
 totalFrames = 128
 damage = 4000
+capcom_skill_id = 602
 
 [moves.driveGauge]
 onBlock = -4500
@@ -1831,15 +2117,27 @@ hitCount = 1
 blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
-notes = ["Completely invincible from frames 1 - 14", "Minimum guaranteed damage is 50%", "Values do not change on counter or Punish Counter", "* Can only be canceled into from special moves"]
-notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
-
+notes = [
+  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure.",
+  "Completely invincible from frames 1 - 14",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "1-14F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 startup = 10
 active = [10, 14]
 recovery = 75
 damage = 4000
 scaling = ["*Immediate scaling 10%"]
 scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 603
 
 [moves.frameAdvantage]
 block = -62
@@ -1859,15 +2157,27 @@ hitCount = 1
 blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
-notes = ["Completely invincible from frames 1 - 14", "Minimum guaranteed damage is 50%", "Values do not change on counter or Punish Counter", "* Can only be canceled into from special moves"]
-notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
-
+notes = [
+  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure.",
+  "Completely invincible from frames 1 - 14",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "1-14F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 startup = 10
 active = [10, 14]
 recovery = 75
 damage = 4500
 scaling = ["*Immediate scaling 10%"]
 scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 603
 
 [moves.frameAdvantage]
 block = -62
@@ -1887,9 +2197,20 @@ characterId = 9
 type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab and punch your opponent's head twice before sending them flying with a palm strike. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の頭を掴み、後頭部を殴り付けた後に平手で吹き飛ばす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1897,6 +2218,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -1914,9 +2236,20 @@ type = "throw"
 hitCount = 1
 input = "(5lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab your opponent with both arms and toss them behind you. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を両手で掴み、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1924,6 +2257,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -1939,9 +2273,20 @@ type = "throw"
 hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "Grab an opponent's legs to disrupt their balance and send them flying. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の脚を捕らえて転ばせ、そのまま両脚を掴んで投げ飛ばす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1949,6 +2294,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
+capcom_skill_id = 103
 
 [moves.driveGauge]
 onHit = 2000
