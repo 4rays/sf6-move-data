@@ -12,8 +12,61 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 7
+active = [7, 9]
+recovery = 9
+cancel = "C"
+damage = 400
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = 2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Light Punch (Rapid Cancel)
+[[moves]]
+name = "Standing Light Punch (Rapid Cancel)"
+name_ja = "立ち弱P (連打版)"
+alternativeNames = ["Jab (Rapid Cancel)"]
+alternativeNames_ja = ["小パン (連打版)", "コパン (連打版)"]
+slug = "zangief-stand-light-punch-rapid-cancel"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P (連打版)"
+characterId = 15
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 9
+cancel = "C"
+damage = 400
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = 2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +83,21 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 9
+active = [9, 12]
+recovery = 17
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +112,69 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+properties = ["chargeable"]
+notes = [
+  "Forces a juggle state when the attack lands as a Punish Counter",
+  "5 frames of recovery added when the attack misses",
+  "When the button is held, 1 hit of super armor is added to the upper half of the body from frame 4",
+  "Hold down the button for over 23 frames to change its properties",
+]
+notes_ja = [
+  "カウンター/パニッシュカウンター時吹き飛びダウン",
+  "空振り時硬直2F増加",
+  "ボタンホールド時、4F～上半身アーマー判定（1回）",
+  "23F以上ホールドすると性能変化",
+]
+startup = 16
+active = [16, 18]
+recovery = 22
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 3500
+onBlock = -6000
+onPunishCounter = -8000
+
+# Standing Heavy Punch (Charged)
+[[moves]]
+name = "Standing Heavy Punch (Charged)"
+name_ja = "立ち強P (ホールド)"
+alternativeNames = ["Fierce (Charged)"]
+alternativeNames_ja = ["大パン (ホールド)"]
+slug = "zangief-stand-heavy-punch-charged"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P (ホールド)"
+characterId = 15
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5[hp]"
+properties = ["knockdown"]
+notes = [
+  "Super Armor for 1 attack from frames 4 - 34",
+  "juggle state time increased when attack lands as a Punish Counter",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["4-34F 上半身アーマー判定（1回）", "パニッシュカウンター時吹き飛び時間増加", "空振り時硬直2F増加"]
+
+startup = 32
+active = [32, 34]
+recovery = 22
+damage = 1400
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 3
+
+[moves.driveGauge]
+onHit = 5000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +191,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 7
+active = [7, 8]
+recovery = 17
+cancel = "C"
+damage = 400
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = -2
+block = -4
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -75,6 +224,21 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 10
+active = [10, 13]
+recovery = 19
+damage = 800
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -89,6 +253,26 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Force a juggle state and increase juggle state time when attack lands as a Punish Counter",
+]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン&吹き飛び時間増加"]
+
+startup = 13
+active = [13, 16]
+recovery = 21
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = 1
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -7000
+onPunishCounter = -11000
 
 # Crouching Light Punch
 [[moves]]
@@ -104,6 +288,61 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 6
+active = [6, 7]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 6
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Light Punch (Rapid Cancel)
+[[moves]]
+name = "Crouching Light Punch (Rapid Cancel)"
+name_ja = "しゃがみ弱P (連打版)"
+alternativeNames = ["Crouching jab (Rapid Cancel)"]
+alternativeNames_ja = ["しゃがみ小パン (連打版)", "しゃがみコパン (連打版)"]
+slug = "zangief-crouch-light-punch-rapid-cancel"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P (連打版)"
+characterId = 15
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 3
+active = [3, 4]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 6
+block = 1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +359,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 8
+active = [8, 10]
+recovery = 16
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -134,6 +389,23 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["knockdown"]
+notes = ["Increase juggle state time when attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛び時間増加"]
+
+startup = 12
+active = [12, 19]
+recovery = 35
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -19
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -7000
+onPunishCounter = -11000
 
 # Crouching Light Kick
 [[moves]]
@@ -149,6 +421,59 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 12
+damage = 250
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Light Kick (Rapid Cancel)
+[[moves]]
+name = "Crouching Light Kick (Rapid Cancel)"
+name_ja = "しゃがみ弱K (連打版)"
+alternativeNames = ["Crouching short (Rapid Cancel)"]
+alternativeNames_ja = ["しゃがみ小足 (連打版)", "しゃがみコアシ (連打版)"]
+slug = "zangief-crouch-light-kick-rapid-cancel"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K (連打版)"
+characterId = 15
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 3
+active = [3, 5]
+recovery = 12
+damage = 250
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +490,21 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 9
+active = [9, 11]
+recovery = 18
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +519,26 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = [
+  "Changes juggle state on Punish Counter",
+  "Increases knockdown time on Punish Counter",
+]
+notes_ja = ["パニッシュカウンター時吹き飛び変化", "パニッシュカウンター時ダウン時間増加"]
+
+startup = 12
+active = [12, 14]
+recovery = 27
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 3500
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +555,17 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 5
+active = [5, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -209,6 +580,17 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "j>mp"
+
+startup = 8
+active = [8, 12]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -225,6 +607,20 @@ hitCount = 1
 blockType = "mid"
 input = "j>hp"
 
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩きつけダウン"]
+
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
@@ -239,6 +635,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 5
+active = [5, 14]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -255,6 +664,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 
+startup = 8
+active = [8, 15]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
@@ -269,6 +689,50 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hk"
+notes = ["Hold down the button for over 20 frames to change its properties"]
+notes_ja = ["20F以上ホールドすると性能変化"]
+
+startup = 10
+active = [10, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Jumping Heacy Punch (Charged)
+[[moves]]
+name = "Jumping Heacy Punch (Charged)"
+name_ja = "ジャンプ強P (ホールド)"
+alternativeNames = ["Jumping fierce (Charged)"]
+alternativeNames_ja = ["ジャンプ大パン (ホールド)"]
+slug = "zangief-jump-heavy-punch-charged"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P (ホールド)"
+characterId = 15
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>[hp]"
+notes = [
+  "Transitions to unique hit and block action, and adds 10 frames to landing recovery",
+  "Forces a wall bound on Punish Counter",
+]
+notes_ja = ["ヒット/ガード時専用アクションに移行し、着地硬直が10F増加", "パニッシュカウンター時壁バウンド"]
+
+startup = 32
+active = [32, 37]
+postLandingRecovery = 20
+damage = 1500
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Double Lariat
 [[moves]]
@@ -279,184 +743,515 @@ characterId = 15
 type = "special"
 blockType = "high"
 input = "(pp)"
+properties = ["knockdown"]
+notes = [
+  "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin.",
+  "Projectile invincibility from frames 6 - 45",
+  "Press left or right during the attack to move",
+]
+notes_ja = [
+  "腕を広げて回転しながらのラリアットで攻撃する技。回転中は相手の飛び道具攻撃に対して無敵となる。",
+  "6-45F 飛び道具無敵",
+  "攻撃動作中、左右に移動可能",
+]
+startup = 15
+active = [15, 16, 26, 27, 36, 37, 44, 45]
+recovery = 27
+cancel = "SA3"
+damage = 1200
+superArt = 1150
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Double Lariat (OD)
 [[moves]]
 name = "Double Lariat (OD)"
 name_ja = "ダブルラリアット (OD)"
+alternativeNames = ["OD Double Lariat, EX Double Lariat"]
+alternativeNames_ja = ["ODダブルラリアット", "EXダブルラリアット"]
 slug = "double-lariat-od"
 characterId = 15
 type = "special"
 blockType = "high"
 input = "(ppp)"
+properties = ["knockdown"]
+notes = [
+  "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin.",
+  "Projectile invincibility from frames 1 - 36",
+  "Invincible to mid-air attacks from frames 6 - 12",
+]
+notes_ja = [
+  "腕を広げて回転しながらのラリアットで攻撃する技。回転中は相手の飛び道具攻撃に対して無敵となる。",
+  "1-36F 飛び道具無敵",
+  "6-12F 空中判定の攻撃に対して無敵",
+  "攻撃動作中、左右に移動可能",
+]
+startup = 12
+active = [12, 13, 16, 17, 21, 22, 29, 30, 35, 36]
+recovery = 26
+cancel = "SA2"
+damage = 1500
+superArt = 1150
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Screw Piledriver (Light)
 [[moves]]
 name = "Screw Piledriver (Light)"
 name_ja = "スクリューパイルドライバー (弱)"
+alternativeNames = ["Light SPD", "L SPD", "L Screw Piledriver"]
+alternativeNames_ja = ["弱 スクリューパイルドライバー"]
 slug = "screw-piledriver-light"
 characterId = 15
-type = "special"
-blockType = "high"
+type = "commandThrow"
 input = "{360}+lp"
+properties = ["knockdown"]
+notes = [
+  "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal.",
+  "Does 2875 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
+  "パニッシュカウンター時個別ダメージ（2875）",
+]
+startup = 5
+active = [5, 7]
+recovery = 54
+damage = 2500
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 3300
+capcom_skill_id = 502
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Screw Piledriver (Medium)
 [[moves]]
 name = "Screw Piledriver (Medium)"
 name_ja = "スクリューパイルドライバー (中)"
+alternativeNames = ["Medium SPD", "M SPD", "M Screw Piledriver"]
+alternativeNames_ja = ["中 スクリューパイルドライバー"]
 slug = "screw-piledriver-medium"
 characterId = 15
-type = "special"
-blockType = "high"
+type = "commandThrow"
 input = "{360}+mp"
+properties = ["knockdown"]
+notes = [
+  "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal.",
+  "Does 3335 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
+  "パニッシュカウンター時個別ダメージ（3335）",
+]
+startup = 5
+active = [5, 7]
+recovery = 54
+damage = 2900
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 3300
+capcom_skill_id = 502
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Screw Piledriver (Heavy)
 [[moves]]
 name = "Screw Piledriver (Heavy)"
 name_ja = "スクリューパイルドライバー (強)"
+alternativeNames = ["Heavy SPD", "H SPD", "H Screw Piledriver"]
+alternativeNames_ja = ["強 スクリューパイルドライバー"]
 slug = "screw-piledriver-heavy"
 characterId = 15
-type = "special"
-blockType = "high"
+type = "commandThrow"
 input = "{360}+hp"
+properties = ["knockdown"]
+notes = [
+  "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal.",
+  "With Classic Controls",
+  "Does 3795 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3795 individual damage when the attack lands as a Punish Counter",
+  "*Does 3036 individual damage using simplified inputs",
+]
+notes_ja = [
+  "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3795）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3795）",
+  "※簡易入力時(3036)",
+]
+startup = 5
+active = [5, 7]
+recovery = 54
+damage = 3300
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 3300
+capcom_skill_id = 502
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Screw Piledriver (OD)
 [[moves]]
 name = "Screw Piledriver (OD)"
 name_ja = "スクリューパイルドライバー (OD)"
+alternativeNames = [
+  "OD Screw Piledriver",
+  "OD SPD",
+  "EX Screw Piledriver",
+  "EX SPD",
+]
+alternativeNames_ja = ["OD スクリューパイルドライバー", "EX スクリューパイルドライバー", "OD SPD"]
 slug = "screw-piledriver-od"
 characterId = 15
-type = "special"
-blockType = "high"
+type = "commandThrow"
 input = "{360}+pp"
+properties = ["knockdown"]
+notes = [
+  "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal.",
+  "With Classic Controls",
+  "Does 3910 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3910 individual damage when the attack lands as a Punish Counter",
+  "*Does 3128 individual damage using simplified inputs",
+]
+notes_ja = [
+  "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3910）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3910）",
+  "※簡易入力時(3128)",
+]
+startup = 5
+active = [5, 7]
+recovery = 54
+damage = 3400
+superArt = 3300
+capcom_skill_id = 502
 
-# Borscht Dynamite (Light)
+[moves.driveGauge]
+onPunishCounter = -10000
+
+# Borscht Dynamite
 [[moves]]
-name = "Borscht Dynamite (Light)"
-name_ja = "ボルシチダイナマイト (弱)"
-slug = "borscht-dynamite-light"
+name = "Borscht Dynamite"
+name_ja = "ボルシチダイナマイト"
+slug = "borscht-dynamite"
 characterId = 15
 type = "special"
-blockType = "high"
-input = "j>{360}+lp"
+input = "j>{360}+*p"
+properties = ["knockdown"]
+notes = [
+  "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents.",
+  "Only hits airborne opponents",
+  "With Classic Controls",
+  "Does 3260 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3260 individual damage when the attack lands as a Punish Counter",
+  "*Does 2608 individual damage using simplified inputs",
+]
+notes_ja = [
+  "空中で相手を掴み、打撃で打ち上げた後に回転して叩き付ける技。空中の相手にのみヒットさせる事が可能。",
+  "空中の相手にのみヒットする",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3260）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3260）",
+  "※簡易入力時(2608)",
+]
+startup = 4
+active = [4, 6]
+postLandingRecovery = 16
+damage = 2900
+superArt = 3300
+capcom_skill_id = 503
 
-# Borscht Dynamite (Medium)
-[[moves]]
-name = "Borscht Dynamite (Medium)"
-name_ja = "ボルシチダイナマイト (中)"
-slug = "borscht-dynamite-medium"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "j>{360}+mp"
-
-# Borscht Dynamite (Heavy)
-[[moves]]
-name = "Borscht Dynamite (Heavy)"
-name_ja = "ボルシチダイナマイト (強)"
-slug = "borscht-dynamite-heavy"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "j>{360}+hp"
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Borscht Dynamite (OD)
 [[moves]] 
 name = "Borscht Dynamite (OD)"
 name_ja = "ボルシチダイナマイト (OD)"
+alternativeNames = ["OD Borscht Dynamite", "EX Borscht Dynamite"]
+alternativeNames_ja = ["ODボルシチダイナマイト", "EXボルシチダイナマイト"]
 slug = "borscht-dynamite-od"
 characterId = 15
 type = "special"
-blockType = "high"
 input = "j>{360}+pp"
+properties = ["knockdown"]
+notes = [
+  "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents.",
+  "Only hits airborne opponents",
+  "With Classic Controls",
+  "Does 3375 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3375 individual damage when the attack lands as a Punish Counter",
+  "*Does 2700 individual damage using simplified inputs",
+]
+notes_ja = [
+  "空中で相手を掴み、打撃で打ち上げた後に回転して叩き付ける技。空中の相手にのみヒットさせる事が可能。",
+  "空中の相手にのみヒットする",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3375）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3375）",
+  "※簡易入力時(2700)",
+]
+startup = 4
+active = [4, 6]
+postLandingRecovery = 16
+damage = 3000
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 3300
+capcom_skill_id = 503
 
-# Russian Suplex (Light)
+[moves.driveGauge]
+onPunishCounter = -10000
+
+# Russian Suplex
 [[moves]]
-name = "Russian Suplex (Light)"
-name_ja = "ロシアンスープレックス (弱)"
-slug = "russian-suplex-light"
+name = "Russian Suplex"
+name_ja = "ロシアンスープレックス"
+slug = "russian-suplex"
 characterId = 15
 type = "special"
-blockType = "high"
-input = "63214lk"
-notes = ["When near opponent"]
-notes_ja = ["近距離で"]
+input = "63214*k"
+properties = ["knockdown"]
+notes = [
+  "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead.",
+  "With Classic Controls",
+  "Does 3335 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3335 individual damage when the attack lands as a Punish Counter",
+  "*Does 2668 individual damage using simplified inputs",
+]
+notes_ja = [
+  "相手を掴み、強力なスープレックスを2回叩き込む投げ技。近距離のみ発動し、離れるとシベリアンエクスプレスが発動する。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3335）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2668）",
+]
+startup = 10
+active = [10, 11]
+recovery = 50
+damage = 2900
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 3300
+capcom_skill_id = 504
 
-# Russian Suplex (Medium)
-[[moves]]
-name = "Russian Suplex (Medium)"
-name_ja = "ロシアンスープレックス (中)"
-slug = "russian-suplex-medium"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "63214mk"
-notes = ["When near opponent"]
-notes_ja = ["近距離で"]
-
-# Russian Suplex (Heavy)
-[[moves]]
-name = "Russian Suplex (Heavy)"
-name_ja = "ロシアンスープレックス (強)"
-slug = "russian-suplex-heavy"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "63214hk"
-notes = ["When near opponent"]
-notes_ja = ["近距離で"]
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Russian Suplex (OD)
 [[moves]]
 name = "Russian Suplex (OD)"
 name_ja = "ロシアンスープレックス (OD)"
+alternativeNames = ["OD Russian Suplex", "EX Russian Suplex"]
+alternativeNames_ja = ["ODロシアンスープレックス", "EXロシアンスープレックス"]
 slug = "russian-suplex-od"
 characterId = 15
 type = "special"
-blockType = "high"
 input = "63214(kk)"
-notes = ["When near opponent"]
-notes_ja = ["近距離で"]
+properties = ["knockdown"]
+notes = [
+  "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead.",
+  "With Classic Controls",
+  "Does 3680 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2944 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手を掴み、強力なスープレックスを2回叩き込む投げ技。近距離のみ発動し、離れるとシベリアンエクスプレスが発動する。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3680）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2944）",
+]
+startup = 10
+active = [10, 11]
+recovery = 50
+damage = 3200
+superArt = 5000
+capcom_skill_id = 504
 
-# Siberian Express (Light)
+[moves.driveGauge]
+onPunishCounter = -10000
+
+# Siberian Express
 [[moves]]
-name = "Siberian Express (Light)"
-name_ja = "シベリアンエクスプレス (弱)"
-slug = "siberian-express-light"
+name = "Siberian Express"
+name_ja = "シベリアンエクスプレス"
+slug = "siberian-express"
 characterId = 15
 type = "special"
-blockType = "high"
-input = "63214lk"
+input = "63214*k"
+properties = ["knockdown"]
+notes = [
+  "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks.",
+  "With Classic Controls",
+  "Does 3105 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2484 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3105）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2484）",
+]
+startup = 28
+active = [28, 29]
+recovery = 41
+damage = 2700
+superArt = 3300
+capcom_skill_id = 505
 
-# Siberian Express (Medium)
-[[moves]]
-name = "Siberian Express (Medium)"
-name_ja = "シベリアンエクスプレス (中)"
-slug = "siberian-express-medium"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "63214mk"
-
-# Siberian Express (Heavy)
-[[moves]]
-name = "Siberian Express (Heavy)"
-name_ja = "シベリアンエクスプレス (強)"
-slug = "siberian-express-heavy"
-characterId = 15
-type = "special"
-blockType = "high"
-input = "63214hk"
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Siberian Express (OD)
 [[moves]]
 name = "Siberian Express (OD)"
 name_ja = "シベリアンエクスプレス (OD)"
+alternativeNames = ["OD Siberian Express", "EX Siberian Express"]
+alternativeNames_ja = ["ODシベリアンエクスプレス", "EXシベリアンエクスプレス"]
 slug = "siberian-express-od"
 characterId = 15
-type = "special"
-blockType = "high"
+type = "commandThrow"
 input = "63214(kk)"
+properties = ["knockdown"]
+notes = [
+  "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks.",
+  "With Classic Controls",
+  "Does 3450 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2760 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3450）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2760）",
+]
+startup = 23
+active = [23, 24]
+recovery = 44
+damage = 3000
+superArt = 3300
+capcom_skill_id = 505
+
+[moves.driveGauge]
+onPunishCounter = -10000
+
+# Siberian Express (Far Range)
+[[moves]]
+name = "Siberian Express (Far Range)"
+name_ja = "シベリアンエクスプレス (遠距離版)"
+slug = "siberian-express-far-range"
+characterId = 15
+type = "commandThrow"
+input = "63214*k"
+properties = ["knockdown"]
+notes = [
+  "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks.",
+  "Super Armor for 1 attack from frames 10 - 56",
+  "Travel distance changes depending on the distance from the opponent",
+  "*Frame data displays the shortest distance",
+  "With Classic Controls",
+  "Does 3105 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2484 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
+  "10-56F アーマー判定（1回）",
+  "相手との間合いによって移動距離が変化",
+  "※フレームデータは最短距離の場合",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3105）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2484）",
+]
+startup = 55
+active = [55, 56]
+recovery = 40
+damage = 2700
+superArt = 3300
+capcom_skill_id = 505
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
+
+# Siberian Express (Far Range OD)
+[[moves]]
+name = "Siberian Express (Far Range OD)"
+name_ja = "シベリアンエクスプレス (遠距離版 OD)"
+slug = "siberian-express-far-range-od"
+characterId = 15
+type = "commandThrow"
+input = "63214(kk)"
+properties = ["knockdown"]
+notes = [
+  "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks.",
+  "Super Armor for 2 attacks from frames 3 - 55",
+  "Travel distance changes depending on the distance from the opponent",
+  "*Frame data displays the shortest distance",
+  "With Classic Controls",
+  "Does 3450 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2760 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
+  "3-55F アーマー判定（2回）",
+  "相手との間合いによって移動距離が変化",
+  "※フレームデータは最短距離の場合",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（3450）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2760）",
+]
+startup = 54
+active = [54, 55]
+recovery = 40
+damage = 3000
+superArt = 3300
+capcom_skill_id = 505
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Tundra Storm
 [[moves]]
@@ -467,6 +1262,24 @@ characterId = 15
 type = "special"
 blockType = "high"
 input = "22hk"
+properties = ["knockdown"]
+notes_ja = [
+  "相手の立ち状態のキック攻撃を受け止めて投げる当身技。受け止められる攻撃が限定されている分、ダメージも高い。",
+  "当身判定は地上の蹴り技にのみ反応する",
+]
+startup = 5
+active = [5, 55]
+recovery = 24
+damage = 2400
+superArt = 2000
+capcom_skill_id = 506
+notes = [
+  "Counter an opponent's grounded kick and throw them. Can only be used against certain attacks, but makes up for that limitation with its big damage.",
+]
+
+[moves.driveGauge]
+onHit = 15000
+onPunishCounter = -10000
 
 # Aerial Russian Slam
 [[moves]]
@@ -477,16 +1290,144 @@ characterId = 15
 type = "super1"
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "Jump diagonally upward, grabbing an airborne opponent before viciously slamming them into the ground. Useful as an anti-air counter when predicting your opponent's jumps or when worked into combos.",
+  "Completely invincible from frames 1- 17",
+  "Considered airborne from frames 2 - 30",
+  "Can only work on mid-air opponents",
+  "Does 2100 individual damage on shortcut input",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "斜め上に跳び上がり、空中の相手を掴んで痛烈に叩き付ける技。相手のジャンプを読んだ時やコンボに組み込むのが有効。",
+  "1-17F 完全無敵",
+  "2-30F 空中判定",
+  "空中の相手にのみヒットする",
+  "簡易入力時個別ダメージ（2100）",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 11
+active = [11, 17]
+recovery = 60
+damage = 3500
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+capcom_skill_id = 601
 
-# Cyclone Lariat
+[moves.driveGauge]
+onPunishCounter = -5000
+
+# Cyclone Lariat (Charged)
 [[moves]]
-name = "Cyclone Lariat"
-name_ja = "サイクロンラリアット"
-slug = "cyclone-lariat"
+name = "Cyclone Lariat (Charged)"
+name_ja = "サイクロンラリアット (ホールド)"
+slug = "cyclone-lariat-charged"
+characterId = 15
+type = "super2"
+blockType = "high"
+input = "236236[*p]"
+properties = ["knockdown"]
+notes = [
+  "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw.",
+  "Completely invincible from frames 1- 18",
+  "Projectile invincibility from frames 19 - 122",
+  "Shifts to throw when the button is not held down",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+  "* Active vaccuum hitbox",
+]
+notes_ja = [
+  "高速回転で相手を吸い寄せて掴み、投げで強烈に叩き付ける技。投げ中に移動操作の左右入力で投げる位置を調整する事が可能。",
+  "1-18F 完全無敵",
+  "19-122F 飛び道具無敵",
+  "ボタンホールドしなかった場合投げに移行",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※吸い込み判定の持続",
+]
+startup = 18
+active = [
+  18,
+  111,
+  33,
+  35,
+  41,
+  42,
+  50,
+  51,
+  60,
+  61,
+  69,
+  70,
+  79,
+  80,
+  90,
+  91,
+  99,
+  100,
+  110,
+  111,
+  120,
+  122,
+]
+recovery = 52
+damage = 1100
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = 5000
+onPunishCounter = -10000
+
+# Cyclone Lariat (Immediate)
+[[moves]]
+name = "Cyclone Lariat (Immediate)"
+name_ja = "サイクロンラリアット (その場)"
+slug = "cyclone-lariat-immediate"
 characterId = 15
 type = "super2"
 blockType = "high"
 input = "236236*p"
+properties = ["knockdown"]
+
+damage = 3100
+capcom_skill_id = 602
+notes = [
+  "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw.",
+]
+notes_ja = ["高速回転で相手を吸い寄せて掴み、投げで強烈に叩き付ける技。投げ中に移動操作の左右入力で投げる位置を調整する事が可能。"]
+
+[moves.driveGauge]
+onPunishCounter = -10000
+
+# Cyclone Lariat (Movement)
+[[moves]]
+name = "Cyclone Lariat (Movement)"
+name_ja = "サイクロンラリアット (移動)"
+slug = "cyclone-lariat-movement"
+characterId = 15
+type = "super2"
+blockType = "high"
+input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw.",
+  "Press left or right to move",
+]
+notes_ja = [
+  "高速回転で相手を吸い寄せて掴み、投げで強烈に叩き付ける技。投げ中に移動操作の左右入力で投げる位置を調整する事が可能。",
+  "左右入力で移動方向を指定可能",
+]
+damage = 3000
+capcom_skill_id = 602
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Bolshoi Storm Buster
 [[moves]]
@@ -497,6 +1438,27 @@ characterId = 15
 type = "super3"
 blockType = "high"
 input = "{720}+*p"
+properties = ["knockdown"]
+notes = [
+  "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage.",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "プロレスさながらのフィニッシュホールドを決める強烈な投げ技。接近戦のガード崩しで一気に大きなダメージを奪える。",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 6
+active = [6, 7]
+recovery = 116
+damage = 4800
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcom_skill_id = 603
+
+[moves.driveGauge]
+onPunishCounter = -15000
 
 # Bolshoi Storm Buster (Critical Art)
 [[moves]]
@@ -507,6 +1469,27 @@ characterId = 15
 type = "super3"
 blockType = "high"
 input = "{720}+*p"
+properties = ["knockdown"]
+notes = [
+  "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage.",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "プロレスさながらのフィニッシュホールドを決める強烈な投げ技。接近戦のガード崩しで一気に大きなダメージを奪える。",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 6
+active = [6, 7]
+recovery = 116
+damage = 5300
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcom_skill_id = 603
+
+[moves.driveGauge]
+onPunishCounter = -20000
 
 # Hellstab
 [[moves]]
@@ -517,6 +1500,27 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "3mp"
+notes = [
+  "A quick thrust that can be canceled into special moves.",
+  "Forces the opponent into a standing position",
+]
+notes_ja = ["技の出が早く、必殺技キャンセル可能な突き。", "強制立ち効果"]
+startup = 7
+active = [7, 9]
+recovery = 21
+cancel = "C"
+damage = 800
+superArt = 500
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = -1
+block = -3
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
 
 # Knee Hammer
 [[moves]]
@@ -528,6 +1532,24 @@ type = "commandNormal"
 blockType = "high"
 input = "6mk"
 
+startup = 14
+active = [14, 20]
+recovery = 14
+damage = 600
+superArt = 700
+capcom_skill_id = 402
+notes = ["A knee strike with long reach and quick recovery time."]
+notes_ja = ["リーチが長く、隙の小さい膝蹴り。"]
+
+[moves.frameAdvantage]
+hit = 0
+block = -4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -6000
+
 # Headbutt
 [[moves]]
 name = "Headbutt"
@@ -537,6 +1559,27 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "6hp"
+notes = [
+  "A headbutt that can be canceled into a special move and lets you act before your opponent, even if they block it.",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["必殺技キャンセル可能でガード時も相手より先に動ける頭突き。", "空振り時硬直2F増加"]
+startup = 14
+active = [14, 18]
+recovery = 15
+cancel = "C"
+damage = 900
+superArt = 500
+capcom_skill_id = 403
+
+[moves.frameAdvantage]
+hit = 6
+block = 4
+
+[moves.driveGauge]
+onHit = 3500
+onBlock = -6000
+onPunishCounter = -8000
 
 # Cyclone Wheel Kick
 [[moves]]
@@ -547,6 +1590,28 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "6hk"
+properties = ["knockdown"]
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Adds a floor bounding effect on Punish Counter",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "パニッシュカウンター時床バウンド"]
+startup = 22
+active = [22, 28]
+recovery = 25
+damage = 1300
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 404
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 3500
+onBlock = -4000
+onPunishCounter = -11000
 
 # Smetana Dropkick
 [[moves]]
@@ -557,6 +1622,27 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "3hk"
+properties = ["knockdown"]
+notes = [
+  "A dropkick that is effective at countering an opponent's sweep.",
+  "Throw invincible from frames 5 - 26",
+  "Wall splat effect added on Punish Counter",
+]
+notes_ja = ["相手の足払いに対して強いドロップキック。", "5-26F 投げ無敵", "パニッシュカウンター時壁張り付け効果"]
+startup = 16
+active = [16, 19]
+recovery = 40
+damage = 1000
+superArt = 1000
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+block = -18
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -10000
 
 # Flying Body Press
 [[moves]]
@@ -567,6 +1653,24 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "2hp"
+notes = [
+  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス。", "めくり性能"]
+startup = 9
+active = [9, 17]
+postLandingRecovery = 8
+damage = 800
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 406
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Flying Headbutt
 [[moves]]
@@ -577,31 +1681,178 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "j>8hp"
-notes = ["During neutral jump"]
+notes = [
+  "A headbutt that can be canceled into aerial special moves.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["空中必殺技へキャンセル可能な頭突き。", "空中ヒット時吹き飛びダウン"]
+startup = 8
+active = [8, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 800
+superArt = 1000
+capcom_skill_id = 407
 
-# Machine Gun Chops
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
+
+# Machine Gun Chops (2)
 [[moves]]
-name = "Machine Gun Chops"
-name_ja = "マシンガンチョップ"
-slug = "machine-gun-chops"
+name = "Machine Gun Chops (2)"
+name_ja = "マシンガンチョップ (2)"
+slug = "machine-gun-chops-2"
+characterId = 15
+type = "targetCombo"
+blockType = "high"
+input = "5mp>5mp"
+
+startup = 9
+active = [9, 12]
+recovery = 20
+damage = 600
+superArt = 500
+capcom_skill_id = 408
+notes = [
+  "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit.",
+]
+notes_ja = ["ダメージが高い連続チョップ攻撃。初段のカウンターヒット時に続けてヒットする。"]
+
+[moves.frameAdvantage]
+hit = 2
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Machine Gun Chops (3)
+[[moves]]
+name = "Machine Gun Chops (3)"
+name_ja = "マシンガンチョップ (3)"
+slug = "machine-gun-chops-3"
 characterId = 15
 type = "targetCombo"
 blockType = "high"
 input = "5mp>5mp>5mp"
+properties = ["knockdown"]
 
-# Stomping
+startup = 15
+active = [15, 17]
+recovery = 32
+damage = 900
+superArt = 500
+capcom_skill_id = 408
+notes = [
+  "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit.",
+]
+notes_ja = ["ダメージが高い連続チョップ攻撃。初段のカウンターヒット時に続けてヒットする。"]
+
+[moves.frameAdvantage]
+block = -17
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Power Stomps (1)
 [[moves]]
-name = "Stomping"
-name_ja = "ストンピング"
-slug = "stomping"
+name = "Power Stomps (1)"
+name_ja = "ストンピング (1)"
+slug = "power-stomp-1"
+characterId = 15
+type = "targetCombo"
+blockType = "high"
+input = "22mk"
+
+startup = 9
+active = [9, 11]
+recovery = 17
+damage = 500
+superArt = 700
+capcom_skill_id = 409
+notes = [
+  "A series of attacks, the third of which can be canceled into special moves.",
+]
+notes_ja = ["3段目が必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Power Stomps (2)
+[[moves]]
+name = "Power Stomps (2)"
+name_ja = "ストンピング (2)"
+slug = "power-stomp-2"
+characterId = 15
+type = "targetCombo"
+blockType = "high"
+input = "22mk>5mk"
+
+startup = 9
+active = [9, 11]
+recovery = 19
+damage = 500
+superArt = 700
+capcom_skill_id = 409
+notes = [
+  "A series of attacks, the third of which can be canceled into special moves.",
+]
+notes_ja = ["3段目が必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -3
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Power Stomps (3)
+[[moves]]
+name = "Power Stomps (3)"
+name_ja = "ストンピング (3)"
+slug = "power-stomp-3"
 characterId = 15
 type = "targetCombo"
 blockType = "high"
 input = "22mk>5mk>5mk"
 
-# Body Slam
+startup = 10
+active = [10, 12]
+recovery = 24
+cancel = "C"
+damage = 700
+superArt = 700
+capcom_skill_id = 409
+notes = [
+  "A series of attacks, the third of which can be canceled into special moves.",
+]
+notes_ja = ["3段目が必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -2
+block = -10
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Bodyslam
 [[moves]]
-name = "Body Slam"
+name = "Bodyslam"
 name_ja = "ボディスラム"
 alternativeNames = ["Front Throw"]
 alternativeNames_ja = ["前投げ"]
@@ -609,10 +1860,38 @@ slug = "body-slam"
 characterId = 15
 type = "throw"
 input = "(lplk)"
+notes = [
+  "Lift an opponent above your head and toss them into the ground back-first. Throws your opponent without switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 2040",
+  "- Super Art gauge increases by 3800",
+  "- Produces a Hard Knockdown",
+  "Press the throw button again during the animation for 600 extra damage",
+]
+notes_ja = [
+  "相手を抱え上げ、背面から投げ落とす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ3800増加",
+  "・ハードノックダウン",
+  "動作中ボタンホールドで追加ダメージ（600）",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 1800
+capcom_skill_id = 101
 
-# Capture
+[moves.driveGauge]
+onHit = 1500
+onPunishCounter = -10000
+
+# Capture Suplex
 [[moves]]
-name = "Capture"
+name = "Capture Suplex"
 name_ja = "キャプチュード"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
@@ -620,6 +1899,32 @@ slug = "capture"
 characterId = 15
 type = "throw"
 input = "(4lplk)"
+notes = [
+  "Grab an opponent and slam them to the ground while leaping backwards. Throws your opponent while switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 2380",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "相手を掴み、後方に反り投げて叩き付ける技。相手との位置を入れ替えながら投げる",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2380",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1400
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # German Suplex
 [[moves]]
@@ -629,6 +1934,32 @@ slug = "german-suplex"
 characterId = 15
 type = "throw"
 input = "(6lplk)"
+notes = [
+  "Grab an opponent from behind and, arching your back, smash them into the ground. Throws your opponent without switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 2550",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "相手を背後から掴み、ブリッジしながら反り投げて叩き付ける技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2550",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1500
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 103
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Spinebuster
 [[moves]]
@@ -638,6 +1969,32 @@ slug = "spinebuster"
 characterId = 15
 type = "throw"
 input = "(3lplk)"
+notes = [
+  "Lift your opponent up and fall on top of them with their back to the ground. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を掴み上げ、倒れ込みながら背中を叩き付ける投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 104
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Russian Drop
 [[moves]]
@@ -647,6 +2004,32 @@ slug = "russian-drop"
 characterId = 15
 type = "throw"
 input = "(1lplk)"
+notes = [
+  "Disrupt your opponent's balance with a kick, then smash their head into the ground as you fall backwards. Throws your opponent while switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 2550",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "相手を蹴りで怯ませて掴み、後方に倒れて頭部を打ち付ける技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2550",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1500
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 105
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Brainbuster
 [[moves]]
@@ -656,3 +2039,29 @@ slug = "brainbuster"
 characterId = 15
 type = "throw"
 input = "(2lplk)"
+notes = [
+  "Lift your opponent upside-down and send them flying to the ground behind you back-first. Throws your opponent while switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 2550",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "相手を逆さまに持ち上げて後方に投げ、背面を叩き付ける技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2550",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1500
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 106
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
