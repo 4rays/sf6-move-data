@@ -16,7 +16,7 @@ def validate(move, file_name):
         }:
             pass
         case _:
-            print("❗ Validation error: {} on {}".format(move["name"], file_name))
+            print("❗ Validation error: Missing name, name_ja, input, slug, or type on {} for {}".format(move["name"], file_name))
             return False
 
     if characterId := move.get("characterId"):
@@ -154,6 +154,7 @@ def validate(move, file_name):
                                 "armorBreak",
                                 "tumble",
                                 "juggle",
+                                "crumple",
                                 "knockdown",
                                 "forcesStanding",
                                 "stockIncrement",
@@ -162,7 +163,7 @@ def validate(move, file_name):
                                 "chainable",
                             ]:
                                 print(
-                                    "❗ Validation error: property on {} should be one of the following values: canCrossUp, armorBreak, tumble, juggle, knockdown, forcesStanding, chargeable, stockIncrement, or stockDecrement but was {} instead.".format(
+                                    "❗ Validation error: property on {} should be one of the following values: canCrossUp, armorBreak, tumble, crumple, juggle, knockdown, forcesStanding, chargeable, stockIncrement, or stockDecrement but was {} instead.".format(
                                         move["name"], property
                                     )
                                 )

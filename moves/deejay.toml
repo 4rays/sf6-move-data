@@ -1288,6 +1288,7 @@ type = "special"
 hitCount = 2
 blockType = "high"
 properties = ["knockdown"]
+input = "236(kk)"
 notes = [
   "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos.",
   "Can be canceled into a Level 2 or 3 Super Art or Critical Art only on the 2nd attack",
