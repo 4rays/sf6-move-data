@@ -12,8 +12,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +48,21 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 7
+active = [7, 9]
+recovery = 15
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 6
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +77,24 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+notes = ["Punish counter +14"]
+notes_ja = ["パニッシュカウンターヒット時+14"]
+
+startup = 7
+active = [7, 9]
+recovery = 23
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -1
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +111,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 5
+active = [5, 6]
+recovery = 12
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -74,6 +143,21 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5mk"
+
+startup = 7
+active = [7, 11]
+recovery = 18
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Standing Heavy Kick
 [[moves]]
@@ -90,6 +174,22 @@ hitCount = 1
 blockType = "low"
 input = "5hk"
 
+startup = 13
+active = [13, 15]
+recovery = 21
+cancel = "SA"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # Crouching Light Punch
 [[moves]]
 name = "Crouching Light Punch"
@@ -104,6 +204,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +240,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 6
+active = [6, 8]
+recovery = 13
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -135,6 +271,21 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 
+startup = 9
+active = [9, 13]
+recovery = 20
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -9
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
@@ -149,6 +300,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 6]
+recovery = 13
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +335,23 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 8
+active = [8, 10]
+recovery = 18
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 4
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +366,28 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+
+properties = ["knockdown"]
+notes = [
+  "Forces a juggle state when the first attack lands as a Punish Counter",
+]
+notes_ja = ["初段パニッシュカウンターヒット時吹き飛びダウン"]
+
+startup = 9
+active = [9, 10, 27, 29]
+recovery = 21
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -2000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +404,17 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 4
+active = [4, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -209,6 +429,19 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 9]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -224,6 +457,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = ["Forces a juggle state when hitting a mid-air opponent for a counter"]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 9
+active = [9, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Light Kick
 [[moves]]
@@ -239,6 +485,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 6
+active = [6, 15]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -255,6 +514,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 
+startup = 7
+active = [7, 13]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
@@ -270,6 +540,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
+startup = 10
+active = [10, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Full Bullet Magnum
 [[moves]]
 name = "Full Bullet Magnum"
@@ -280,6 +561,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6mp"
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Forces a slam knockdown when hitting a mid-air opponent",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時叩きつけダウン"]
+startup = 20
+active = [20, 22]
+recovery = 19
+damage = 800
+superArt = 500
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Burning Straight
 [[moves]]
@@ -292,6 +593,25 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 
+startup = 9
+active = [9, 11]
+recovery = 21
+cancel = "C"
+damage = 800
+superArt = 1000
+capcom_skill_id = 402
+notes = ["A quick strike that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な突き。"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Spinning Back Knuckle
 [[moves]]
 name = "Spinning Back Knuckle"
@@ -302,6 +622,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hp"
+
+startup = 16
+active = [16, 18]
+recovery = 20
+damage = 800
+superArt = 500
+capcom_skill_id = 403
+notes = [
+  "Move forward while striking with the back of your fist. Allows you to move before your opponent even if blocked.",
+]
+notes_ja = ["ガードされても相手より先に動ける、前進して繰り出す裏拳。"]
+
+[moves.frameAdvantage]
+hit = 5
+block = 3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -12000
 
 # Knee Bazooka
 [[moves]]
@@ -314,16 +654,92 @@ hitCount = 1
 blockType = "low"
 input = "4lk"
 
-# Rolling Sobat
+startup = 8
+active = [8, 11]
+recovery = 15
+damage = 500
+superArt = 1000
+capcom_skill_id = 404
+notes = [
+  "A forward-moving knee strike that's quick and difficult to counterattack. Can be performed while maintaining your backward charge.",
+]
+notes_ja = ["前進して繰り出す、隙の小さい膝蹴り。後ろ方向の溜めを維持しながら移動可能。"]
+
+[moves.frameAdvantage]
+hit = 0
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -3000
+
+# Rolling Sobat (Backward)
 [[moves]]
-name = "Rolling Sobat"
-name_ja = "ローリングソバット"
-slug = "rolling-sobat"
+name = "Rolling Sobat (Backward)"
+name_ja = "ローリングソバット (後ろ)"
+slug = "rolling-sobat-backward"
 characterId = 4
 type = "commandNormal"
 hitCount = 1
 blockType = "low"
-input = "{4mk|6mk}"
+input = "4mk"
+notes = [
+  "A quick hop kick that's difficult to counterattack. Depending on what direction you hold, you can move either forward or backward while performing it",
+  "Invincible to low attacks from frames 7 - 17",
+]
+notes_ja = ["リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る。", "7-17F 足元無敵"]
+startup = 11
+active = [11, 13]
+recovery = 18
+damage = 700
+superArt = 700
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -6000
+
+# Rolling Sobat (Forward)
+[[moves]]
+name = "Rolling Sobat (Forward)"
+name_ja = "ローリングソバット (前方)"
+slug = "rolling-sobat-forward"
+characterId = 4
+type = "commandNormal"
+hitCount = 1
+blockType = "low"
+input = "6mk"
+notes = [
+  "A quick hop kick that's difficult to counterattack. Depending on what direction you hold, you can move either forward or backward while performing it",
+  "Invincible to low attacks from frames 7 - 17",
+  "23 frames of recovery (34 frames overall) added if the attack misses",
+]
+notes_ja = [
+  "リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る。",
+  "7-17F 足元無敵",
+  "空振り時硬直21F/全体34F",
+]
+startup = 11
+active = [11, 13]
+recovery = 18
+damage = 700
+superArt = 700
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -6000
 
 # Reverse Spin Kick
 [[moves]]
@@ -335,6 +751,33 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hk"
+notes = [
+  "An attack with long reach that is useful against an opponent's sweeps.",
+  "Invincible to throws and low attacks on frames 4 - 28",
+  "Forces a juggle state knockdown on counter hit",
+  "Produces a crumple stun on PunisH Counter",
+]
+notes_ja = [
+  "相手の足払いに対して強く、リーチの長い攻撃。",
+  "4F-28F 投げ無敵/足元無敵",
+  "カウンターヒット時吹き飛びダウン",
+  "パニッシュカウンターヒット時膝崩れ",
+]
+startup = 17
+active = [17, 19]
+recovery = 26
+damage = 1000
+superArt = 1000
+capcom_skill_id = 406
+
+[moves.frameAdvantage]
+hit = -1
+block = -8
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Guile High Kick
 [[moves]]
@@ -346,6 +789,34 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "3hk"
+notes = [
+  "A high kick that is useful against jumping opponents. Can be performed while maintaining your downward charge.",
+  "Forces a juggle state when the attack lands for a Punish Counter",
+  "Forces a juggle state when hitting a mid-air opponent for a counter",
+  "Can be canceled into a special move from frames 18 - 19",
+]
+notes_ja = [
+  "相手のジャンプに対して強いハイキック。下方向の溜めを維持しながら攻撃可能。",
+  "パニッシュカウンターヒット時吹き飛びダウン",
+  "空中ヒット時、カウンター以上で吹き飛びダウン",
+  "18-19F 必殺技キャンセル可能",
+]
+startup = 10
+active = [10, 12]
+recovery = 23
+cancel = "C"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 407
+
+[moves.frameAdvantage]
+hit = 0
+block = -9
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Recoil Cannon
 [[moves]]
@@ -357,6 +828,27 @@ type = "targetCombo"
 hitCount = 1
 blockType = "high"
 input = "6hp>4hp"
+properties = ["knockdown"]
+notes = [
+  "A combination attack that sends an opponent flying.",
+  "Can cancel into a special move or Super Art from frames 8 - 9",
+]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。", "8-9F 必殺技、SAで空振りキャンセル可能"]
+startup = 16
+active = [16, 18]
+recovery = 26
+cancel = "C"
+damage = 600
+superArt = 800
+capcom_skill_id = 408
+
+[moves.frameAdvantage]
+block = -9
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -7000
 
 # Double Shot
 [[moves]]
@@ -368,6 +860,27 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "2mp>2mp"
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 14]
+recovery = 16
+cancel = "C"
+damage = 400
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 250
+capcom_skill_id = 409
+notes = ["A quick series of attacks that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -4000
 
 # Drake Fang
 [[moves]]
@@ -380,6 +893,24 @@ hitCount = 1
 blockType = "high"
 input = "2mk>6mp"
 
+startup = 20
+active = [20, 22]
+recovery = 21
+damage = 800
+superArt = 500
+capcom_skill_id = 410
+notes = ["A low attack followed by an overhead attack."]
+notes_ja = ["下段攻撃から中段攻撃に連係する連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Phantom Cutter
 [[moves]]
 name = "Phantom Cutter"
@@ -390,6 +921,27 @@ type = "targetCombo"
 hitCount = 1
 blockType = "high"
 input = "2hk>3hk"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+recovery = 25
+cancel = "C"
+damage = 600
+superArt = 500
+capcom_skill_id = 411
+notes = [
+  "A low attack into a high kick that launches an opponent into the air. These two hits form a combo if done as a Punish Counter.",
+]
+notes_ja = ["下段攻撃からのハイキックで相手を打ち上げる連続攻撃。パニッシュカウンター時に続けてヒットする。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -7000
+onPunishCounter = -7000
 
 # Dragon Suplex
 [[moves]]
@@ -403,6 +955,31 @@ type = "throw"
 hitCount = 1
 blockType = "high"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Whirl behind your opponent and, while grabbing one of their arms and their head, slam them into the ground with a suplex. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の背後へ回り、腕と首を捕らえて反り投げで叩き付ける技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Judo Throw
 [[moves]]
@@ -416,6 +993,31 @@ type = "throw"
 hitCount = 1
 blockType = "high"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent and toss them behind you, placing their weight on your arm and shoulder. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を掴み、腕を支点に背負う形から地面へ投げ付ける技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Flying Mare
 [[moves]]
@@ -429,6 +1031,31 @@ type = "throw"
 hitCount = 1
 blockType = "high"
 input = "j>(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab an airborne opponent and toss them to the ground below. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "空中で相手を掴み、下方向へ投げ飛ばして叩き付ける技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+postLandingRecovery = 3
+damage = 1200
+superArt = 2000
+capcom_skill_id = 103
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Flying Buster Drop
 [[moves]]
@@ -442,6 +1069,31 @@ type = "throw"
 hitCount = 1
 blockType = "high"
 input = "j>(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab an airborne opponent and smash their back with your shoulder as you descend. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "空中で相手を掴み、落下すると同時に背中を肩に打ち付ける技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+postLandingRecovery = 3
+damage = 1200
+superArt = 2000
+capcom_skill_id = 104
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Sonic Boom (Light)
 [[moves]]
@@ -453,6 +1105,61 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6lp"
+notes = [
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = [
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
+]
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 550
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Boom (Light)
+[[moves]]
+name = "[Perfect timing] Sonic Boom (Light)"
+name_ja = "【ジャスト】ソニックブーム (弱)"
+alternativeNames = ["Perfect Light Sonic Boom"]
+alternativeNames_ja = ["ジャストソニックブーム"]
+slug = "perfect-timing-sonic-boom-light"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[4]>6lp"
+notes = [
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = ["12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"]
+
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Sonic Boom (Medium)
 [[moves]]
@@ -464,6 +1171,61 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6mp"
+notes = [
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = [
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
+]
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 550
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Boom (Medium)
+[[moves]]
+name = "[Perfect timing] Sonic Boom (Medium)"
+name_ja = "【ジャスト】ソニックブーム (中)"
+alternativeNames = ["Perfect Medium Sonic Boom"]
+alternativeNames_ja = ["ジャストソニックブーム"]
+slug = "perfect-timing-sonic-boom-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[4]>6mp"
+notes = [
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = ["12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"]
+
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Sonic Boom (Heavy)
 [[moves]]
@@ -475,28 +1237,177 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6hp"
+notes = [
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = [
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
+]
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 550
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Boom (Heavy)
+[[moves]]
+name = "[Perfect timing] Sonic Boom (Heavy)"
+name_ja = "【ジャスト】ソニックブーム (強)"
+alternativeNames = ["Perfect Heavy Sonic Boom"]
+alternativeNames_ja = ["ジャストソニックブーム"]
+slug = "perfect-timing-sonic-boom-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[4]>6hp"
+notes = [
+  "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = ["12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能"]
+
+startup = 10
+totalFrames = 40
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Sonic Boom (OD)
 [[moves]]
 name = "Sonic Boom (OD)"
 name_ja = "ソニックブーム (OD)"
+alternativeNames = ["OD Sonic Boom", "EX Sonic Boom"]
+alternativeNames_ja = ["ODソニックブーム", "EXソニックブーム"]
 slug = "sonic-boom-od"
 characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6(pp)"
+notes = [
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Can transition to Overdrive Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
+]
+notes_ja = [
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "12-20F OD版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
+]
+startup = 10
+totalFrames = 38
+cancel = "SA2"
+damage = 1000
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = 3
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -5000
 
 # Somersault Kick (Light)
 [[moves]]
 name = "Somersault Kick (Light)"
 name_ja = "サマーソルトキック (弱)"
+alternativeNames = ["Light Flash Kick"]
+alternativeNames_ja = ["弱 サマーソルトキック"]
 slug = "somersault-kick-light"
 characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8lk"
+properties = ["knockdown"]
+notes = [
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 7",
+  "Considered airborne from frames 8 - 36",
+  "* Does 800 individual damage after the 3rd active frame",
+]
+notes_ja = [
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-7F 空中判定の攻撃に対して無敵",
+  "8-36F 空中判定",
+  "※持続の3F目以降は個別ダメージ(800)",
+]
+startup = 5
+active = [5, 10]
+recovery = 26
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1000
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -30
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Perfect timing] Somersault Kick (Light)
+[[moves]]
+name = "[Perfect timing] Somersault Kick (Light)"
+name_ja = "【ジャスト】サマーソルトキック (弱)"
+alternativeNames = ["Perfect Light Flash Kick"]
+alternativeNames_ja = ["ジャスト 弱 サマーソルトキック"]
+slug = "perfect-timing-somersault-kick-light"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[2]>8lk"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 7",
+  "Considered airborne from frames 8 - 36",
+  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+]
+notes_ja = ["1-7F 空中判定の攻撃に対して無敵", "8-36F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+
+startup = 5
+active = [5, 10]
+recovery = 26
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1200
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -30
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Somersault Kick (Medium)
 [[moves]]
@@ -508,6 +1419,75 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8mk"
+properties = ["knockdown"]
+notes = [
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 8 - 38",
+  "* Does 800 individual damage after the 3rd active frame",
+]
+notes_ja = [
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-8F 空中判定の攻撃に対しては無敵",
+  "8-38F 空中判定",
+  "※持続の3F目以降は個別ダメージ(800)",
+]
+startup = 6
+active = [6, 11]
+recovery = 27
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1100
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -31
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Perfect timing] Somersault Kick (Medium)
+[[moves]]
+name = "[Perfect timing] Somersault Kick (Medium)"
+name_ja = "【ジャスト】サマーソルトキック (中)"
+alternativeNames = ["Perfect Medium Flash Kick"]
+alternativeNames_ja = ["ジャスト 中 サマーソルトキック"]
+slug = "perfect-timing-somersault-kick-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[2]>8mk"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 8 - 38",
+  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+]
+notes_ja = ["1-8F 空中判定の攻撃に対しては無敵", "8-38F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+
+startup = 6
+active = [6, 11]
+recovery = 27
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -31
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Somersault Kick (Heavy)
 [[moves]]
@@ -519,6 +1499,75 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8hk"
+properties = ["knockdown"]
+notes = [
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 9",
+  "Considered airborne from frames 8 - 40",
+  "* Does 800 individual damage after the 3rd active frame",
+]
+notes_ja = [
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-9F 空中判定の攻撃に対して無敵",
+  "8-40F 空中判定",
+  "※持続の3F目以降は個別ダメージ(800)",
+]
+startup = 7
+active = [7, 12]
+recovery = 28
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1200
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -32
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Perfect timing] Somersault Kick (Heavy)
+[[moves]]
+name = "[Perfect timing] Somersault Kick (Heavy)"
+name_ja = "【ジャスト】サマーソルトキック (強)"
+alternativeNames = ["Perfect Heavy Flash Kick"]
+alternativeNames_ja = ["ジャスト 強 サマーソルトキック"]
+slug = "perfect-timing-somersault-kick-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "[2]>8hk"
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 1 - 9",
+  "Considered airborne from frames 8 - 40",
+  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+]
+notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-40F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+
+startup = 7
+active = [7, 12]
+recovery = 28
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1400
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -32
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Somersault Kick (OD)
 [[moves]]
@@ -530,6 +1579,32 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8(kk)"
+properties = ["knockdown"]
+notes = [
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Completely invincible from frames 1 - 11",
+  "Considered airborne from frames 8 - 37",
+  "* Does 700 individual damage from frames 3 - 4",
+]
+notes_ja = [
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-11F 完全無敵",
+  "8-37F 空中判定",
+  "※持続の3-4F目は個別ダメージ(700)",
+]
+startup = 6
+active = [6, 11]
+recovery = 26
+postLandingRecovery = 20
+damage = 1600
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onBlock = -2000
 
 # Sonic Blade (Light)
 [[moves]]
@@ -541,6 +1616,30 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lp"
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to all Sonic Break variations from frames 35 - 40",
+]
+notes_ja = [
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "35-40F 各種ソニッククロスへ派生可能",
+]
+startup = 16
+active = [16, 60]
+totalFrames = 42
+cancel = "SA3"
+damage = 400
+superArt = 600
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = -3
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Sonic Blade (Medium)
 [[moves]]
@@ -552,6 +1651,30 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mp"
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to any Sonic Cross from frames 40 - 46",
+]
+notes_ja = [
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "40-46F 各種ソニッククロスへ派生可能",
+]
+startup = 21
+active = [21, 105]
+totalFrames = 50
+cancel = "SA3"
+damage = 400
+superArt = 600
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = -6
+block = -7
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Sonic Blade (Heavy)
 [[moves]]
@@ -563,6 +1686,30 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hp"
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to any Sonic Cross from frames 50 - 54",
+]
+notes_ja = [
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "50-54F 各種ソニッククロスへ派生可能",
+]
+startup = 31
+active = [31, 130]
+totalFrames = 54
+cancel = "SA3"
+damage = 500
+superArt = 600
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = 1
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -3000
 
 # Sonic Blade (OD)
 [[moves]]
@@ -574,41 +1721,346 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214pp"
+properties = ["knockdown"]
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to any Sonic Cross from frames 34 - 39",
+]
+notes_ja = [
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "34-39F 各種ODソニッククロスへ派生可能",
+]
+startup = 15
+active = [15, 114]
+totalFrames = 39
+cancel = "SA2"
+damage = 600
+superArt = 600
+capcom_skill_id = 503
 
-# Sonic Cross
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -3000
+
+# Sonic Cross (Light)
 [[moves]]
-name = "Sonic Cross"
-name_ja = "ソニッククロス"
-slug = "sonic-cross"
+name = "Sonic Cross (Light)"
+name_ja = "ソニッククロス (弱)"
+alternativeNames = ["Light Sonic Cross"]
+alternativeNames_ja = ["弱 ソニッククロス"]
+slug = "sonic-cross-light"
 characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214*p>6*p"
+input = "6lp"
 parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
 
-# Sonic Cross (OD)
+startup = 10
+totalFrames = 38
+damage = 1000
+superArt = 600
+capcom_skill_id = 504
+notes = [
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Cross (Light)
 [[moves]]
-name = "Sonic Cross (OD)"
-name_ja = "ソニッククロス (OD)"
-slug = "sonic-cross-od"
+name = "[Perfect timing] Sonic Cross (Light)"
+name_ja = "【ジャスト】ソニッククロス (弱)"
+alternativeNames = ["Perfect Light Sonic Cross"]
+alternativeNames_ja = ["ジャストソニッククロス"]
+slug = "perfect-timing-sonic-cross-light"
 characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214pp>6*p"
-parentSlugs = ["sonic-blade-od"]
+input = "6lp"
+parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
 
-# Sonic Hurricane
+startup = 10
+totalFrames = 38
+damage = 1200
+superArt = 600
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# Sonic Cross (Medium)
 [[moves]]
-name = "Sonic Hurricane"
-name_ja = "ソニックハリケーン"
-slug = "sonic-hurricane"
+name = "Sonic Cross (Medium)"
+name_ja = "ソニッククロス (中)"
+alternativeNames = ["Medium Sonic Cross"]
+alternativeNames_ja = ["中 ソニッククロス"]
+slug = "sonic-cross-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "6mp"
+parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
+
+startup = 10
+totalFrames = 38
+damage = 1000
+superArt = 600
+capcom_skill_id = 504
+notes = [
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Cross (Medium)
+[[moves]]
+name = "[Perfect timing] Sonic Cross (Medium)"
+name_ja = "【ジャスト】ソニッククロス (中)"
+alternativeNames = ["Perfect Medium Sonic Cross"]
+alternativeNames_ja = ["ジャストソニッククロス"]
+slug = "perfect-timing-sonic-cross-medium"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "6mp"
+parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
+
+startup = 10
+totalFrames = 38
+damage = 1200
+superArt = 600
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# Sonic Cross (Heavy)
+[[moves]]
+name = "Sonic Cross (Heavy)"
+name_ja = "ソニッククロス (強)"
+alternativeNames = ["Heavy Sonic Cross"]
+alternativeNames_ja = ["強 ソニッククロス"]
+slug = "sonic-cross-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "6hp"
+parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
+
+startup = 10
+totalFrames = 38
+damage = 1000
+superArt = 600
+capcom_skill_id = 504
+notes = [
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# [Perfect timing] Sonic Cross (Heavy)
+[[moves]]
+name = "[Perfect timing] Sonic Cross (Heavy)"
+name_ja = "【ジャスト】ソニッククロス (強)"
+alternativeNames = ["Perfect Heavy Sonic Cross"]
+alternativeNames_ja = ["ジャストソニッククロス"]
+slug = "perfect-timing-sonic-cross-heavy"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "6hp"
+parentSlugs = ["sonic-blade"]
+properties = ["knockdown"]
+
+startup = 10
+totalFrames = 38
+damage = 1200
+superArt = 600
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3500
+onPunishCounter = -3000
+
+# Sonic Cross (OD 1)
+[[moves]]
+name = "Sonic Cross (OD 1)"
+name_ja = "ソニッククロス (OD 1)"
+slug = "sonic-cross-od-1"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "{pp|*p}"
+parentSlugs = ["sonic-blade", "sonic-cross-od"]
+properties = ["knockdown"]
+
+startup = 10
+totalFrames = 38
+damage = 1300
+superArt = 600
+capcom_skill_id = 504
+notes = [
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -5000
+
+# Sonic Cross (OD 2)
+[[moves]]
+name = "Sonic Cross (OD 2)"
+name_ja = "ソニッククロス (OD 2)"
+slug = "sonic-cross-od-2"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "pp"
+parentSlugs = ["sonic-cross-od"]
+properties = ["knockdown"]
+notes = [
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Produces a wall splat after it hits",
+]
+notes_ja = [
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。",
+  "ヒット後壁やられ",
+]
+startup = 10
+totalFrames = 38
+damage = 1700
+superArt = 800
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onBlock = -8500
+onPunishCounter = -6000
+
+# Sonic Hurricane (Up)
+[[moves]]
+name = "Sonic Hurricane (Up)"
+name_ja = "ソニックハリケーン (上)"
+slug = "sonic-hurricane-up"
 characterId = 4
 type = "super1"
 hitCount = 1
 blockType = "high"
-input = "[4]>646*p"
+input = "[4]>646hp"
+notes = [
+  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input.",
+  "Invincible to throws and strikes on frame 1",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能。",
+  "1F目 打撃/投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 7
+active = [7, 58]
+totalFrames = 75
+damage = 1800
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onBlock = -2520
+onPunishCounter = -5000
+
+# Sonic Hurricane (Side)
+[[moves]]
+name = "Sonic Hurricane (Side)"
+name_ja = "ソニックハリケーン (横)"
+slug = "sonic-hurricane-side"
+characterId = 4
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "[4]>646+{lp|mp}"
+properties = ["knockdown"]
+notes = [
+  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input.",
+  "Invincible to throws and strikes from frames 1 - 8",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能。",
+  "1-8F 打撃/投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 8
+active = [8, 58]
+totalFrames = 89
+damage = 2000
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -26
+
+[moves.driveGauge]
+onBlock = -2520
+onPunishCounter = -5000
 
 # Solid Puncher
 [[moves]]
@@ -618,20 +2070,85 @@ slug = "solid-puncher"
 characterId = 4
 type = "super2"
 hitCount = 1
-blockType = "high"
 input = "214214*p"
+notes = [
+  "Envelop both arms in aerial slashes and enables the use of Sonic Break.",
+  "Sonic Break can be performed after this technique is activated",
+]
+notes_ja = [
+  "両腕に真空波を纏い、必殺技を開放する技。発動後は、ソニックブレイクが使用可能となる。",
+  "発動後ソニックブレイク(SA2発動中使用可能技)が発動可能。",
+]
+totalFrames = 6
+capcom_skill_id = 602
 
-# Sonic Break
+# Sonic Break (Single Shot)
 [[moves]]
 name = "Sonic Break"
-name_ja = "ソニックブレイク"
-slug = "sonic-break"
+name_ja = "ソニックブレイク（単発）"
+slug = "sonic-break-single-shot"
 characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214*p>{(pp)|[4]>6*p}"
+input = "pp"
 parentSlugs = ["sonic-puncher"]
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21",
+]
+notes_ja = [
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "13-21F通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能",
+]
+startup = 11
+totalFrames = 36
+damage = 600
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Sonic Break (Variation)
+[[moves]]
+name = "Sonic Break (Variation)"
+name_ja = "ソニックブレイク（派生）"
+slug = "sonic-break-variation"
+characterId = 4
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "*p"
+parentSlugs = ["sonic-puncher", "sonic-break-single-shot"]
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21, up to 3 times",
+  "* The last transition’s recovery is reduced by 1 frame",
+]
+notes_ja = [
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "13-21F 通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能(3回まで)",
+  "※派生最終段のみ、硬直1F減少",
+]
+startup = 11
+totalFrames = 36
+damage = 600
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
 
 # Sonic Break (OD)
 [[moves]]
@@ -642,8 +2159,28 @@ characterId = 4
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214214pp>{(pp)|[4]>6(pp)}"
+input = "*p"
 parentSlugs = ["sonic-puncher"]
+properties = ["knockdown"]
+notes = [
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Can transition to Overdrive Sonic Break (available while Level 2 Super Art is active) once from frames 13 - 21",
+]
+notes_ja = [
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "13-21F OD版ソニックブレイク (SA2発動中発動可能技)へ派生可能(1回のみ)",
+]
+startup = 11
+totalFrames = 35
+damage = 1000
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = 3
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
 
 # Crossfire Somersault
 [[moves]]
@@ -655,6 +2192,40 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "[4]>646*k"
+properties = ["knockdown"]
+notes = [
+  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
+  "Completely invincible from frames 1 - 14",
+  "Considered airborne from frames 12 - 44",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Does 3000 individual damage when the attack lands after the 3rd active frame",
+  "Applied only when canceling a special move",
+]
+notes_ja = [
+  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える。",
+  "1-14F 完全無敵",
+  "12-44F 空中判定",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※持続の3F目以降は個別ダメージ(3000)",
+  "必殺技キャンセル時のみ適用",
+]
+startup = 9
+active = [9, 14]
+recovery = 30
+postLandingRecovery = 40
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -59
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Crossfire Somersault (Critical Art)
 [[moves]]
@@ -666,3 +2237,37 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "[4]>646*k"
+properties = ["knockdown"]
+notes = [
+  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
+  "Completely invincible from frames 1 - 14",
+  "Considered airborne from frames 12 - 44",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "*Does 3500 individual damage when the attack lands after the 3rd active frame",
+  "Applied only when canceling a special move",
+]
+notes_ja = [
+  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える。",
+  "1-14F 完全無敵",
+  "12-44F 空中判定",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※持続の3F目以降は個別ダメージ(3500)",
+  "必殺技キャンセル時のみ適用",
+]
+startup = 9
+active = [9, 14]
+recovery = 30
+postLandingRecovery = 40
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -59
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
