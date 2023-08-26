@@ -12,8 +12,24 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+
+startup = 5
+active = [5, 7]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +46,22 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 10
+active = [10, 13]
+recovery = 13
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +76,33 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+notes = [
+  "Produces a crumple stun on Punish Counter if the opponent is standing on the ground",
+  "Forces a juggle state on Punish Counter when hitting a mid-air opponent",
+  "Can be canceled up until the 3rd active frame",
+  "*Can be canceled by Hundred Hand Slap from frames 8 - 14 if Sumo Spirit is active",
+]
+notes_ja = [
+  "地上パニッシュカウンター時膝崩れ",
+  "空中パニッシュカウンター時床バウンド",
+  "キャンセルは持続の3F目まで",
+  "※8-14F 肩屋入り中、百裂張り手でのみキャンセル可能",
+]
+startup = 8
+active = [8, 14]
+recovery = 20
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -1
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +119,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 4
+active = [4, 5]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -75,6 +152,21 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 10
+active = [10, 13]
+recovery = 16
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -89,6 +181,24 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 9, 11, 14]
+recovery = 22
+cancel = "C"
+damage = 800
+superArt = 800
+
+[moves.frameAdvantage]
+hit = -1
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Crouching Light Punch
 [[moves]]
@@ -104,6 +214,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +250,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 8
+active = [8, 11]
+recovery = 16
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -134,6 +280,27 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+notes = [
+  "Adds +2 frames of recovery on armor hit or if the attack misses",
+  "* Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
+]
+notes_ja = ["空振り、アーマーヒット時硬直2F増加", "※肩屋入り中、百裂張り手でのみキャンセル可能"]
+
+startup = 11
+active = [11, 14]
+recovery = 17
+cancel = "*"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Crouching Light Kick
 [[moves]]
@@ -149,6 +316,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 6]
+recovery = 9
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +351,21 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 9
+active = [9, 11]
+recovery = 17
+damage = 500
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +380,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 11
+active = [11, 13, 20, 24]
+recovery = 14
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +415,17 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 5
+active = [5, 10]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -210,6 +441,17 @@ hitCount = 1
 blockType = "high"
 input = "j>mp"
 
+startup = 6
+active = [6, 13]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Jumping Heavy Punch
 [[moves]]
 name = "Jumping Heavy Punch"
@@ -223,7 +465,46 @@ characterId = 10
 type = "normal"
 hitCount = 1
 blockType = "mid"
-input = "j>hp"
+input = "{7|9}>hp"
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 9
+active = [9, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Neutral Jumping Heavy Punch
+[[moves]]
+name = "Neutral Jumping Heavy Punch"
+name_ja = "垂直ジャンプ強P"
+alternativeNames = ["Neutral jump fierce"]
+alternativeNames_ja = ["垂直ジャンプ大パン"]
+slug = "ehonda-neutral-jump-heavy-punch"
+characterId = 10
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "8>hp"
+
+startup = 10
+active = [10, 17]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Light Kick
 [[moves]]
@@ -240,6 +521,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>lk"
 
+startup = 6
+active = [6, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Kick
 [[moves]]
 name = "Jumping Medium Kick"
@@ -254,6 +546,17 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -270,49 +573,403 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
+startup = 10
+active = [10, 17]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Hundred Hand Slap (Light)
 [[moves]]
 name = "Hundred Hand Slap (Light)"
 name_ja = "百裂張り手 (弱)"
+alternativeNames = ["L Hundred Hand Slap", "Light Hands"]
+alternativeNames_ja = ["弱 百裂張り手"]
 slug = "hundred-hand-slap-light"
 characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lp"
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 12
+active = [12, 13, 18, 19, 22, 25, 26, 28, 30, 31]
+recovery = 14
+cancel = "SA3"
+damage = 800
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# Sumo Spirit Hundred Hand Slap (Light)
+[[moves]]
+name = "Sumo Spirit Hundred Hand Slap (Light)"
+name_ja = "[肩屋入り]百裂張り手 (弱)"
+alternativeNames = [
+  "Sumo Spirit L Hundred Hand Slap",
+  "Sumo Spirit Light Hands",
+]
+alternativeNames_ja = ["[肩屋入り]弱 百裂張り手"]
+slug = "sumo-spirit-hundred-hand-slap-light"
+characterId = 10
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214lp"
+parentSlugs = ["sumo-spirit"]
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Only transitions into the final hit if the 2nd hit connects",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "2段目ヒット時のみ最終段に派生",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 12
+active = [12, 13, 18, 19, 22, 25, 26, 28, 30, 31]
+recovery = 14
+cancel = "SA3"
+damage = 850
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 4
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Hundred Hand Slap (Medium)
 [[moves]]
 name = "Hundred Hand Slap (Medium)"
 name_ja = "百裂張り手 (中)"
+alternativeNames = ["M Hundred Hand Slap", "Medium Hands"]
+alternativeNames_ja = ["中 百裂張り手"]
 slug = "hundred-hand-slap-medium"
 characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mp"
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 18
+active = [18, 19, 24, 25, 27, 31, 34, 38, 42, 45, 48, 49]
+recovery = 17
+cancel = "SA3"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 2
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Sumo Spirit Hundred Hand Slap (Medium)
+[[moves]]
+name = "Sumo Spirit Hundred Hand Slap (Medium)"
+name_ja = "[肩屋入り]百裂張り手 (中)"
+alternativeNames = [
+  "Sumo Spirit M Hundred Hand Slap",
+  "Sumo Spirit Medium Hands",
+]
+alternativeNames_ja = ["[肩屋入り]中 百裂張り手"]
+slug = "sumo-spirit-hundred-hand-slap-medium"
+characterId = 10
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214mp"
+parentSlugs = ["sumo-spirit"]
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Only transitions into the final hit if the 5th hit connects",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "5段目ヒット時のみ最終段に派生",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 18
+active = [18, 19, 24, 25, 27, 31, 34, 38, 42, 45, 48, 49]
+recovery = 17
+cancel = "SA3"
+damage = 1050
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 4
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Hundred Hand Slap (Heavy)
 [[moves]]
 name = "Hundred Hand Slap (Heavy)"
 name_ja = "百裂張り手 (強)"
+alternativeNames = ["H Hundred Hand Slap", "Heavy Hands"]
+alternativeNames_ja = ["強 百裂張り手"]
 slug = "hundred-hand-slap-heavy"
 characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hp"
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 21
+active = [21, 22, 27, 28, 32, 36, 40, 44, 48, 52, 55, 58, 61, 63, 64]
+recovery = 17
+cancel = "SA3"
+damage = 1200
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 2
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Sumo Spirit Hundred Hand Slap (Heavy)
+[[moves]]
+name = "Sumo Spirit Hundred Hand Slap (Heavy)"
+name_ja = "[肩屋入り]百裂張り手 (強)"
+alternativeNames = [
+  "Sumo Spirit H Hundred Hand Slap",
+  "Sumo Spirit Heavy Hands",
+]
+alternativeNames_ja = ["[肩屋入り]強 百裂張り手"]
+slug = "sumo-spirit-hundred-hand-slap-heavy"
+characterId = 10
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214hp"
+parentSlugs = ["sumo-spirit"]
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Only transitions into the final hit if the 8th hit connects",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "8段目ヒット時のみ最終段に派生",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 21
+active = [21, 22, 27, 28, 32, 36, 40, 44, 48, 52, 55, 58, 61, 63, 64]
+recovery = 17
+cancel = "SA3"
+damage = 1250
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 4
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Hundred Hand Slap (OD)
 [[moves]]
 name = "Hundred Hand Slap (OD)"
 name_ja = "百裂張り手 (OD)"
+alternativeNames = [
+  "OD Hundred Hand Slap",
+  "OD Hands",
+  "EX Hundred Hand Slap",
+  "EX Hands",
+]
+alternativeNames_ja = ["OD 百裂張り手", "EX 百裂張り手"]
 slug = "hundred-hand-slap-od"
 characterId = 10
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみキャンセル可能",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 19
+active = [
+  19,
+  22,
+  29,
+  30,
+  34,
+  35,
+  39,
+  40,
+  45,
+  46,
+  49,
+  50,
+  53,
+  54,
+  57,
+  58,
+  60,
+  61,
+]
+recovery = 12
+cancel = "SA2"
+damage = 800
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
+# Sumo Spirit Hundred Hand Slap (OD)
+[[moves]]
+name = "Sumo Spirit Hundred Hand Slap (OD)"
+name_ja = "[肩屋入り]百裂張り手 (OD)"
+alternativeNames = [
+  "Sumo Spirit OD Hundred Hand Slap",
+  "Sumo Spirit OD Hands",
+  "Sumo Spirit EX Hundred Hand Slap",
+  "Sumo Spirit EX Hands",
+]
+alternativeNames_ja = ["[肩屋入り]OD 百裂張り手", "[肩屋入り]EX 百裂張り手"]
+slug = "sumo-spirit-hundred-hand-slap-od"
+characterId = 10
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214(pp)"
+parentSlugs = ["sumo-spirit"]
+notes = [
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Only the last hit can be canceled",
+  "Only transitions into the final hit if the 5th hit connects",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "最終段のみでキャンセル可能",
+  "5段目ヒット時のみ最終段に派生",
+  "空中ヒット時吹き飛びダウン",
+]
+startup = 19
+active = [
+  19,
+  22,
+  29,
+  30,
+  34,
+  35,
+  39,
+  40,
+  45,
+  46,
+  49,
+  50,
+  53,
+  54,
+  57,
+  58,
+  60,
+  61,
+]
+recovery = 12
+cancel = "SA2"
+damage = 850
+scaling = ["Combo scaling 10%"]
+scaling_ja = ["コンボ補正10%"]
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+hit = 6
+block = -3
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
 
 # Sumo Headbutt (Light)
 [[moves]]
@@ -324,6 +981,38 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6lp"
+properties = ["knockdown"]
+notes = [
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Can be canceled until the 4th active frame",
+  "Invincible to mid-air attacks from frames 4 - 13",
+  "Considered airborne from frames 14 - 33",
+  "Does 1000 damage after the 5th active frame",
+]
+notes_ja = [
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "キャンセルは持続の4F目まで",
+  "4-13F 空中判定の攻撃に対して無敵",
+  "14-33F 空中判定",
+  "持続5F目以降は個別ダメージ(1000)",
+]
+startup = 10
+active = [10, 31]
+recovery = 20
+cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -12500
 
 # Sumo Headbutt (Medium)
 [[moves]]
@@ -335,6 +1024,38 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6mp"
+properties = ["knockdown"]
+notes = [
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Can be canceled until the 4th active frame",
+  "Invincible to mid-air attacks from frames 5 - 13",
+  "Considered airborne from frames 14 - 35",
+  "Does 1100 damage after the 5th active frame",
+]
+notes_ja = [
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "キャンセルは持続の4F目まで",
+  "5-13F 空中判定の攻撃に対して無敵",
+  "14-35F 空中判定",
+  "持続5F目以降は個別ダメージ（1100）",
+]
+startup = 10
+active = [10, 33]
+recovery = 20
+cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7500
+onPunishCounter = -12500
 
 # Sumo Headbutt (Heavy)
 [[moves]]
@@ -346,6 +1067,40 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6hp"
+properties = ["knockdown"]
+notes = [
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Can be canceled until the 4th active frame",
+  "Invincible to mid-air attacks from frames 6 - 16",
+  "Considered airborne from frames 18 - 40",
+  "Does 1300 damage after the 5th active frame",
+  "If Honda and the opponent switch sides after the 19th frame, transitions into ending animation action",
+]
+notes_ja = [
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "キャンセルは持続の4F目まで",
+  "6-16F 空中判定の攻撃に対して無敵",
+  "18-40F 空中判定",
+  "持続5F目以降は個別ダメージ（1300）",
+  "19F目以降で相手との位置が入れ替わった際に終了準備アクションへ移行",
+]
+startup = 14
+active = [14, 36]
+recovery = 20
+cancel = "SA3"
+damage = 1400
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -10000
+onPunishCounter = -12500
 
 # Sumo Headbutt (OD)
 [[moves]]
@@ -357,6 +1112,34 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[4]>6(pp)"
+properties = ["knockdown"]
+notes = [
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Super Armor for 2 hits from the 1st frame until the end of the active frames",
+  "If Honda and the opponent switch sides after the 27th frame, transitions into ending animation action",
+  "Considered airborne from frame 14",
+  "Always in Punish Counter state during execution.",
+]
+notes_ja = [
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "1-持続終了 アーマー判定（2回）",
+  "26F目以降で相手との位置関係が入れ替わった場合、画面端に到達した場合、終了アクションへ移行",
+  "14- 空中判定",
+  "動作中常に被パニッシュカウンター判定",
+]
+startup = 9
+active = [9, 13, 14, 56]
+recovery = 20
+damage = 1600
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -3000
 
 # Sumo Smash (Light)
 [[moves]]
@@ -368,6 +1151,35 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8lp"
+properties = ["knockdown"]
+notes = [
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Has cross-up attack properties",
+  "Produces a wall bounce only when the falling attack hits as a Punish Counter",
+  "If the falling attack hits as a cross-up, damage is 800",
+]
+notes_ja = [
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "めくり性能",
+  "下降部分のみパニッシュカウンターで、床バウンド",
+  "下降のめくり部分は個別ダメージ（800）",
+]
+startup = 11
+active = [11, 14, 41, 48]
+postLandingRecovery = 17
+damage = 1400
+scaling = ["Starter scaling 25%"]
+scaling_ja = ["始動補正25%"]
+superArt = 1200
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -12000
+onPunishCounter = -10000
 
 # Sumo Smash (Medium)
 [[moves]]
@@ -379,6 +1191,35 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8mp"
+properties = ["knockdown"]
+notes = [
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Has cross-up attack properties",
+  "Produces a wall bounce only when the falling attack hits as a Punish Counter",
+  "If the falling attack hits as a cross-up, damage is 800",
+]
+notes_ja = [
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "めくり性能",
+  "下降部分のみパニッシュカウンターで、床バウンド",
+  "下降のめくり部分は個別ダメージ（800）",
+]
+startup = 11
+active = [11, 14, 39, 45]
+postLandingRecovery = 17
+damage = 1400
+scaling = ["Starter scaling 25%"]
+scaling_ja = ["始動補正25%"]
+superArt = 1200
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -12000
+onPunishCounter = -10000
 
 # Sumo Smash (Heavy)
 [[moves]]
@@ -390,6 +1231,35 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8hp"
+properties = ["knockdown"]
+notes = [
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Has cross-up attack properties",
+  "Produces a wall bounce only when the falling attack hits as a Punish Counter",
+  "If the falling attack hits as a cross-up, damage is 800",
+]
+notes_ja = [
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "めくり性能",
+  "下降部分のみパニッシュカウンターで、床バウンド",
+  "下降のめくり部分は個別ダメージ（800）",
+]
+startup = 11
+active = [11, 14, 37, 42]
+postLandingRecovery = 17
+damage = 1400
+scaling = ["Starter scaling 25%"]
+scaling_ja = ["始動補正25%"]
+superArt = 1200
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -12000
+onPunishCounter = -10000
 
 # Sumo Smash (OD)
 [[moves]]
@@ -401,50 +1271,183 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "[2]>8(pp)"
+properties = ["knockdown"]
+notes = [
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Has cross-up attack properties",
+  "Invincible to mid-air attacks from frames 5 - 17",
+  "Produces a wall bounce only when the falling attack hits as a Punish Counter",
+  "If the falling attack hits as a cross-up, damage is 800",
+]
+notes_ja = [
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "めくり性能",
+  "5-17F 空中判定の攻撃に対して無敵",
+  "下降部分のみパニッシュカウンターで、床バウンド",
+  "下降のめくり部分は個別ダメージ（800）",
+]
+startup = 6
+active = [6, 17, 31, 49]
+postLandingRecovery = 17
+damage = 1400
+scaling = ["Starter scaling 25%"]
+scaling_ja = ["始動補正25%"]
+superArt = 1200
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onBlock = -12000
+onPunishCounter = -10000
 
 # Oicho Throw (Light)
 [[moves]]
 name = "Oicho Throw (Light)"
 name_ja = "大銀杏投げ (弱)"
+alternativeNames = ["L Oicho Throw", "Light Oicho"]
+alternativeNames_ja = ["弱 大銀杏投げ"]
 slug = "oicho-throw-light"
 characterId = 10
 type = "commandThrow"
 hitCount = 1
 blockType = "high"
 input = "63214lp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Damage set to 2300 on Punish Counter",
+]
+notes_ja = [
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "パニッシュカウンター時ダメージ（2300）",
+]
+startup = 7
+active = [7, 9]
+recovery = 52
+damage = 2000
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 3000
+capcom_skill_id = 504
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Oicho Throw (Medium)
 [[moves]]
 name = "Oicho Throw (Medium)"
 name_ja = "大銀杏投げ (中)"
+alternativeNames = ["M Oicho Throw", "Medium Oicho"]
+alternativeNames_ja = ["中 大銀杏投げ"]
 slug = "oicho-throw-medium"
 characterId = 10
 type = "commandThrow"
 hitCount = 1
 blockType = "high"
 input = "63214mp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Damage set to 2645 on Punish Counter",
+]
+notes_ja = [
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "パニッシュカウンター時ダメージ（2645）",
+]
+startup = 7
+active = [7, 9]
+recovery = 52
+damage = 2200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 3000
+capcom_skill_id = 504
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Oicho Throw (Heavy)
 [[moves]]
 name = "Oicho Throw (Heavy)"
 name_ja = "大銀杏投げ (強)"
+alternativeNames = ["H Oicho Throw", "Heavy Oicho"]
+alternativeNames_ja = ["強 大銀杏投げ"]
 slug = "oicho-throw-heavy"
 characterId = 10
 type = "commandThrow"
 hitCount = 1
 blockType = "high"
 input = "63214hp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "With Classic Controls",
+  "Does 2760 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2208 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時ダメージ（2760）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2208）",
+]
+startup = 7
+active = [7, 9]
+recovery = 52
+damage = 2400
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 3000
+capcom_skill_id = 504
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Oicho Throw (OD)
 [[moves]]
 name = "Oicho Throw (OD)"
 name_ja = "大銀杏投げ (OD)"
+alternativeNames = ["OD Oicho Throw", "OD Oicho", "EX Oicho Throw", "EX Oicho"]
+alternativeNames_ja = ["OD 大銀杏投げ", "EX 大銀杏投げ"]
 slug = "oicho-throw-od"
 characterId = 10
 type = "commandThrow"
 hitCount = 1
 blockType = "high"
 input = "63214(pp)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "With Classic Controls",
+  "Does 3220 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2576 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時ダメージ（3220）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2576）",
+]
+startup = 7
+active = [7, 9]
+recovery = 52
+damage = 2800
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 3000
+capcom_skill_id = 504
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Sumo Dash
 [[moves]]
@@ -454,6 +1457,13 @@ slug = "sumo-dash"
 characterId = 10
 type = "action"
 input = "236*k"
+notes = [
+  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent.",
+  "Can transition to Taiho Cannon Lift or Teppo Triple Slap from frames 14 - 43",
+]
+notes_ja = ["相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効。", "14-43F 鉄砲、大砲へ派生可能"]
+totalFrames = 51
+capcom_skill_id = 505
 
 # Sumo Dash (OD)
 [[moves]]
@@ -463,30 +1473,152 @@ slug = "sumo-dash-od"
 characterId = 10
 type = "action"
 input = "236(kk)"
+notes = [
+  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent.",
+  "Can transition to Teppo Triple Slap from frames 13 - 27",
+  "Can transition to Taiho Cannon Lift from frames 11 - 27",
+]
+notes_ja = [
+  "相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効。",
+  "13-27F OD 鉄砲へ派生可能",
+  "11-27F OD 大砲へ派生可能",
+]
+totalFrames = 34
+capcom_skill_id = 505
 
-# Teppo Triple Slap
+# Teppo Triple Slap (1)
 [[moves]]
-name = "Teppo Triple Slap"
-name_ja = "鉄砲"
-slug = "teppo-triple-slap"
+name = "Teppo Triple Slap (1)"
+name_ja = "鉄砲 (１段目)"
+slug = "teppo-triple-slap-1"
 characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236*k>*p>*p"
+input = "*p"
 parentSlugs = ["sumo-dash"]
+properties = ["knockdown"]
+notes = [
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "Can only transition to the last hit on frame 34 if the attack hits",
+]
+notes_ja = [
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。",
+  "ヒット時のみ34F目で最終段へ派生可能",
+]
+startup = 9
+active = [9, 11, 25, 27]
+recovery = 22
+cancel = "SA3"
+damage = 800
+superArt = 1000
+capcom_skill_id = 506
 
-# Teppo Triple Slap (OD)
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Teppo Triple Slap (2)
 [[moves]]
-name = "Teppo Triple Slap (OD)"
-name_ja = "鉄砲 (OD)"
-slug = "teppo-triple-slap-od"
+name = "Teppo Triple Slap (2)"
+name_ja = "鉄砲 (２段目)"
+slug = "teppo-triple-slap-2"
 characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236(kk)>*p>*p"
+input = "*p>*p"
+parentSlugs = ["sumo-dash"]
+properties = ["knockdown"]
+
+startup = 14
+active = [14, 16]
+recovery = 38
+damage = 600
+superArt = 1000
+capcom_skill_id = 506
+notes = [
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+]
+notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。"]
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Teppo Triple Slap (OD 1)
+[[moves]]
+name = "Teppo Triple Slap (OD 1)"
+name_ja = "鉄砲 (OD 1段目)"
+slug = "teppo-triple-slap-od-1"
+characterId = 10
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "*p"
 parentSlugs = ["sumo-dash-od"]
+properties = ["knockdown"]
+notes = [
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "Can only transition to the last hit on frame 34 if the attack hits",
+]
+notes_ja = [
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。",
+  "ヒット時のみ34F目で最終段へ派生可能",
+]
+startup = 9
+active = [9, 11, 25, 27]
+recovery = 17
+cancel = "SA2"
+damage = 800
+superArt = 1000
+capcom_skill_id = 506
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
+# Teppo Triple Slap (OD 2)
+[[moves]]
+name = "Teppo Triple Slap (OD 2)"
+name_ja = "鉄砲 (OD 2段目)"
+slug = "teppo-triple-slap-od-2"
+characterId = 10
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "*p>*p"
+parentSlugs = ["sumo-dash-od"]
+properties = ["knockdown"]
+
+startup = 14
+active = [14, 16]
+recovery = 38
+damage = 800
+superArt = 1000
+capcom_skill_id = 506
+notes = [
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+]
+notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。"]
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
 
 # Taiho Cannon Lift
 [[moves]]
@@ -497,8 +1629,32 @@ characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236*k>2*p"
+input = "2*p"
 parentSlugs = ["sumo-dash"]
+properties = ["knockdown"]
+notes = [
+  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open.",
+  "On hit, recovery is 15 frames and the total attack is 49 frames",
+]
+notes_ja = [
+  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える。",
+  "ヒット時は硬直15F、全体49F",
+]
+startup = 12
+active = [12, 13, 31, 33]
+recovery = 32
+cancel = "SA3"
+damage = 800
+superArt = 1000
+capcom_skill_id = 507
+
+[moves.frameAdvantage]
+block = -22
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Taiho Cannon Lift (OD)
 [[moves]]
@@ -509,8 +1665,31 @@ characterId = 10
 type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236(kk)>2*p"
+input = "2*p"
 parentSlugs = ["sumo-dash-od"]
+properties = ["knockdown"]
+notes = [
+  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open.",
+  "On hit, recovery is 15 frames and the total attack is 49 frames",
+]
+notes_ja = [
+  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える。",
+  "ヒット時は硬直15F、全体49F",
+]
+startup = 12
+active = [12, 13, 31, 33]
+recovery = 32
+cancel = "SA2"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 507
+
+[moves.frameAdvantage]
+block = -22
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -2500
 
 # Neko Damashi
 [[moves]]
@@ -522,6 +1701,32 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "22*p"
+notes = [
+  "Clap the palms of both hands together in front of your face. Not only can it be used as an attack, but it can also be used to negate projectiles.",
+  "Has a clash hitbox from frames 11 - 15",
+  "* Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
+]
+notes_ja = [
+  "目の前に両手を突き出し、掌を合わせて叩く技。打撃技としても使える他、飛び道具を打ち消す効果も備える。",
+  "11-15F 相殺判定",
+  "※肩屋入り中、百裂張り手でキャンセル可能",
+]
+startup = 11
+active = [11, 15]
+recovery = 14
+cancel = "SA3*"
+damage = 600
+superArt = 1000
+capcom_skill_id = 508
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Sumo Spirit
 [[moves]]
@@ -531,6 +1736,18 @@ slug = "sumo-spirit"
 characterId = 10
 type = "action"
 input = "22*k"
+notes = [
+  "Perform a sumo kata that enhances your next Hundred Hand Slap. This enhancement will be maintained until a Hundred Hand Slap is used.",
+  "Stocks Sumo Spirit on frame 51",
+  "Changes the properties of the next Hundred Hand Slap performed",
+]
+notes_ja = [
+  "相撲の型を行い、次に出す百裂張り手を強化する技。強化の効果は、次の百裂張り手を出すまで継続する。",
+  "51F目で肩屋入りをストック",
+  "次回発動する百裂張り手の性質変化",
+]
+totalFrames = 52
+capcom_skill_id = 509
 
 # Show of Force
 [[moves]]
@@ -542,6 +1759,31 @@ type = "super1"
 hitCount = 1
 blockType = "high"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Push your opponent out of the sumo ring with a mighty shove. This move is invincible at the beginning, making it useful for turning the tables on your opponent.",
+  "Invincible to strikes and projectiles from frames 1 - 11",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "相撲の仕切りから相手を強烈に押し出す打撃を繰り出す技。技の出始めに無敵時間があり、切り返しに使える。",
+  "1-11F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 7
+active = [7, 11]
+recovery = 48
+damage = 2000
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Ultimate Killer Head Ram
 [[moves]]
@@ -553,6 +1795,39 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "[4]>646*k"
+properties = ["knockdown"]
+notes = [
+  "Perform a headbutt followed by a sequence of slaps, and finish off with a final twisting headbutt. The initial headbutt travels a long distance, making it excellent both in combos and as a way of dealing with projectiles.",
+  "Completely invincible from frames 1 - 18",
+  "Invincible to projectiles from frames 19 - 36",
+  "Transitions to hand slaps if the second hit of the headbutt connects",
+  "Transitions again during the last hit of the hand slaps",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+  "If Honda and the opponent switch sides after the 24th frame, transitions into ending animation action",
+]
+notes_ja = [
+  "頭突きの突進と張り手連打から、捻りを加えた頭突きに繋ぐ技。突進する距離が長く、飛び道具対策やコンボに使いやすい。",
+  "1-18F 完全無敵",
+  "19-36F 飛び道具に対して無敵",
+  "頭突き部分2段目ヒット時に張り手に派生",
+  "張り手部分の最終段ヒット時にさらに派生",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "24F目以降で相手との位置が入れ替わった場合終了アクションへ",
+]
+startup = 12
+active = [12, 13, 16, 36]
+recovery = 45
+damage = 2850
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # The Final Bout
 [[moves]]
@@ -564,6 +1839,34 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
+  "Completely invincible from frames 1 - 11",
+  "Minimum guaranteed damage is set to 50%",
+  "* Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+startup = 9
+active = [9, 11, 20, 22]
+recovery = 51
+damage = 4000
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -34
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # The Final Bout (Critical Art)
 [[moves]]
@@ -575,6 +1878,34 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
+  "Completely invincible from frames 1 - 11",
+  "Minimum guaranteed damage is set to 50%",
+  "* Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+startup = 9
+active = [9, 11, 20, 22]
+recovery = 51
+damage = 4500
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -34
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Harai Kick
 [[moves]]
@@ -584,8 +1915,28 @@ slug = "harai-kick"
 characterId = 10
 type = "commandNormal"
 hitCount = 1
-blockType = "high"
+blockType = "low"
 input = "6hk"
+notes = [
+  "A low attack with long reach that cannot be blocked standing.",
+  "Forces a juggle state on Punish Counter",
+]
+notes_ja = ["リーチが長く、立ってガードできない下段攻撃。", "パニッシュカウンター時吹き飛びダウン"]
+startup = 14
+active = [14, 16]
+recovery = 21
+damage = 900
+superArt = 1000
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Power Stomp
 [[moves]]
@@ -595,8 +1946,34 @@ slug = "power-stomp"
 characterId = 10
 type = "commandNormal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "3hk"
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
+  "* Can cancel into a special move or Super Art on frame 15 when the attack misses",
+]
+notes_ja = [
+  "しゃがみでガードできない中段攻撃。",
+  "空中ヒット時床バウンド、ハードノックダウン",
+  "※15F目で必殺技、SAで空振りキャンセル可能",
+]
+startup = 22
+active = [22, 27]
+recovery = 18
+cancel = "*"
+damage = 800
+superArt = 1000
+capcom_skill_id = 402
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Flying Sumo Press
 [[moves]]
@@ -606,8 +1983,24 @@ slug = "flying-sumo-press"
 characterId = 10
 type = "commandNormal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "2mk"
+notes = [
+  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス。", "めくり性能"]
+startup = 11
+active = [11, 19]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+capcom_skill_id = 403
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Double Slaps
 [[moves]]
@@ -619,6 +2012,25 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5lp>5mp"
+properties = ["knockdown"]
+
+startup = 4
+active = [4, 7]
+recovery = 20
+cancel = "C"
+damage = 600
+superArt = 500
+capcom_skill_id = 404
+notes = ["A quick series of attacks that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
 
 # Toko Shizume
 [[moves]]
@@ -628,8 +2040,34 @@ slug = "toko-shizume"
 characterId = 10
 type = "targetCombo"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "5mp>3hk"
+notes = [
+  "A series of attacks, the second of which cannot be blocked crouching.",
+  "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
+  "* Can cancel into a special move or Super Art on frame 15 when the attack misses",
+]
+notes_ja = [
+  "2段目がしゃがみでガードできない連続攻撃。",
+  "空中ヒット時床バウンド、ハードノックダウン",
+  "※15F目で必殺技、SAで空振りキャンセル可能",
+]
+startup = 22
+active = [22, 27]
+recovery = 18
+cancel = "*"
+damage = 800
+superArt = 1000
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Saba Ori
 [[moves]]
@@ -641,6 +2079,33 @@ slug = "saba-ori"
 type = "throw"
 characterId = 10
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Clasp both arms around your opponent's back, squeeze them, and slam them to the ground. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の背に両腕を回して絞め上げ、地面へ投げ付ける技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Tawara Throw
 [[moves]]
@@ -652,3 +2117,30 @@ slug = "tawara-throw"
 type = "throw"
 characterId = 10
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Clasp both arms around your opponent's back and toss them behind you. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の背に両腕を回して組み付き、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
