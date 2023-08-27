@@ -12,8 +12,22 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+startup = 6
+active = [6, 8]
+recovery = 11
+damage = 400
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 0
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -29,6 +43,23 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5mp"
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 7
+active = [7, 10]
+recovery = 15
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 2
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Standing Heavy Punch
 [[moves]]
@@ -45,6 +76,25 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 properties = ["chargeable"]
+notes = ["Hold the button for more than 21 frames to change its properties"]
+notes_ja = ["21F以上ホールドすると性能変化"]
+
+startup = 12
+active = [12, 13]
+recovery = 23
+damage = 1000
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Heavy Punch (Charged)
 [[moves]]
@@ -53,9 +103,28 @@ name_ja = "立ち強P (ホールド)"
 slug = "marisa-stand-heavy-punch-charged"
 characterId = 13
 blockType = "high"
-type = "commandNormal"
+type = "normal"
 input = "5(hp)"
 parentSlugs = ["marisa-stand-heavy-punch"]
+notes = ["Forces a juggle state when hitting a mid-air opponent", "Punish counter +14F"]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+14F"]
+
+startup = 26
+active = [26, 27]
+recovery = 22
+damage = 1200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 6
+block = 3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Standing Light Kick
 [[moves]]
@@ -72,6 +141,24 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 6
+active = [6, 7]
+recovery = 14
+cancel = "C"
+damage = 400
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 0
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -87,6 +174,21 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 11
+active = [11, 14]
+recovery = 16
+damage = 800
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -101,6 +203,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = ["Hold the button for more than 17 frames to change its properties", "Forces a juggle state knockdown when hitting a mid-air opponent", "Forces a juggle state knockdown when the attack lands for a Punish Counter"]
+notes_ja = ["17F以上ホールドすると性能変化", "空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン"]
+
+startup = 15
+active = [15, 16]
+recovery = 25
+damage = 1000
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Standing Heavy Kick (Charged) 
 [[moves]]
@@ -109,9 +230,28 @@ name_ja = "立ち強K (ホールド)"
 slug = "marisa-stand-heavy-kick-charged"
 characterId = 13
 blockType = "low"
-type = "commandNormal"
+type = "normal"
 input = "5(hk)"
 parentSlugs = ["marisa-stand-heavy-kick"]
+properties = ["knockdown"]
+notes = ["Increase juggle state time when attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛び時間増加"]
+
+startup = 27
+active = [27, 28]
+recovery = 25
+damage = 1200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Crouching Light Punch
 [[moves]]
@@ -127,6 +267,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 5]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -143,6 +303,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 8
+active = [8, 10]
+recovery = 16
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -157,7 +333,23 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = ["Hold the button for more than 17 frames to change its properties"]
+notes_ja = ["17F以上ホールドすると性能変化"]
+
+startup = 9
+active = [9, 13]
+recovery = 23
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = 5000
+onPunishCounter = -8000
 
 # Crouching Heavy Punch (Charged)
 [[moves]]
@@ -166,9 +358,24 @@ name_ja = "しゃがみ強P (ホールド)"
 slug = "marisa-crouch-heavy-punch-charged"
 characterId = 13
 blockType = "high"
-type = "commandNormal"
+type = "normal"
 input = "2+[hp]"
 parentSlugs = ["marisa-crouch-heavy-punch"]
+properties = ["knockdown"]
+
+startup = 21
+active = [21, 26]
+recovery = 21
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Crouching Light Kick
 [[moves]]
@@ -184,6 +391,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 12
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -200,6 +426,21 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 9
+active = [9, 11]
+recovery = 18
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -214,7 +455,23 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = ["Hold the button for more than 20 frames to change its properties", "Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["20F以上ホールドすると性能変化", "カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 11
+active = [11, 13]
+recovery = 26
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = 3000
+onPunishCounter = -10000
 
 # Chrouching Heavy Kick (Charged)
 [[moves]]
@@ -223,9 +480,25 @@ name_ja = "しゃがみ強K (ホールド)"
 slug = "marisa-crouch-heavy-kick-charged"
 characterId = 13
 blockType = "low"
-type = "commandNormal"
+type = "normal"
 input = "2+[hk]"
 parentSlugs = ["marisa-crouch-heavy-kick"]
+properties = ["knockdown"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 23
+active = [23, 25]
+recovery = 23
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Jumping Light Punch
 [[moves]]
@@ -239,8 +512,19 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 13
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lp"
+
+startup = 4
+active = [4, 10]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Punch
 [[moves]]
@@ -254,8 +538,21 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 13
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 10]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -272,6 +569,19 @@ hitCount = 1
 blockType = "mid"
 input = "j>hp"
 properties = ["chargeable"]
+notes = ["Hold the button for more than 20 frames to change its properties", "Produces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["20F以上ホールドすると性能変化", "空中ヒット時叩きつけダウン"]
+
+startup = 10
+active = [10, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = 4000
+onPunishCounter = -5000
 
 # Jumping Heavy Punch (Charged)
 [[moves]]
@@ -279,10 +589,22 @@ name = "Jumping Heavy Punch (Charged)"
 name_ja = "ジャンプ強P (ホールド)"
 slug = "marisa-jump-heavy-punch-charged"
 characterId = 13
-blockType = "high"
-type = "commandNormal"
+blockType = "mid"
+type = "normal"
 input = "j>[hp]"
 parentSlugs = ["marisa-jump-heavy-punch"]
+properties = ["knockdown"]
+
+startup = 28
+active = [28, 33]
+postLandingRecovery = 6
+damage = 1500
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -15000
 
 # Jumping Light Kick
 [[moves]]
@@ -299,6 +621,20 @@ hitCount = 1
 blockType = "mid"
 input = "j>lk"
 
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 5
+active = [5, 14]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Kick
 [[moves]]
 name = "Jumping Medium Kick"
@@ -313,6 +649,17 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+
+startup = 8
+active = [8, 15]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -329,6 +676,19 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 properties = ["chargeable"]
+notes = ["Hold down the button for over 20 frames to change its properties"]
+notes_ja = ["20F以上ホールドすると性能変化"]
+
+startup = 10
+active = [10, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Heavy Kick (Charged)
 [[moves]]
@@ -336,10 +696,22 @@ name = "Jumping Heavy Kick (Charged)"
 name_ja = "ジャンプ強K (ホールド)"
 slug = "marisa-jump-heavy-kick-charged"
 characterId = 13
-blockType = "high"
-type = "commandNormal"
+blockType = "mid"
+type = "normal"
 input = "j>[hk]"
 parentSlugs = ["marisa-jump-heavy-kick"]
+properties = ["knockdown"]
+
+startup = 29
+active = [29, 34]
+postLandingRecovery = 6
+damage = 1500
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -15000
 
 # Light Two Hitter
 [[moves]]

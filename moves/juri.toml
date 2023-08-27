@@ -12,8 +12,57 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 7]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Chain combo] Standing Light Punch
+name = "[Chain combo] Standing Light Punch"
+name_ja = "[チェーンコンボ] 立ち弱P"
+alternateNames = ["[Chain combo] Jab"]
+alternateNames_ja = ["[チェーンコンボ] 小パン", "[チェーンコンボ] コパン"]
+slug = "juri-chain-stand-light-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lp"
+notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
+
+startup = 4
+active = [4, 7]
+recovery = 7
+cancel = "C"
+damage = 100
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 62
+onBlock = -125
+onPunishCounter = -500
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +79,52 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 6
+active = [6, 9]
+recovery = 12
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 7
+block = 2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# [Chain combo] Standing Medium Punch
+[[moves]]
+name = "[Chain combo] Standing Medium Punch"
+name_ja = "[チェーンコンボ] 立ち中P"
+alternateNames = ["[Chain combo] Strong"]
+alternateNames_ja = ["[チェーンコンボ] 中パン"]
+slug = "juri-chain-stand-medium-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 6
+active = [6, 9]
+recovery = 12
+cancel = "C"
+damage = 400
+
+[moves.frameAdvantage]
+hit = 7
+block = 2
+
+[moves.driveGauge]
+onHit = 375
+onBlock = -750
+onPunishCounter = -1000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -44,6 +139,50 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+
+startup = 10
+active = [10, 12]
+recovery = 24
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = -1
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# [Chain combo] Standing Heavy Punch
+[[moves]]
+name = "[Chain combo] Standing Heavy Punch"
+name_ja = "[チェーンコンボ] 立ち強P"
+alternateNames = ["[Chain combo] Fierce"]
+alternateNames_ja = ["[チェーンコンボ] 大パン"]
+slug = "juri-chain-stand-heavy-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5hp"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+recovery = 24
+cancel = "C"
+damage = 600
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1250
+onPunishCounter = -2000
 
 # Standing Light Kick
 [[moves]]
@@ -60,6 +199,56 @@ hitCount = 1
 blockType = "low"
 input = "5lk"
 
+startup = 5
+active = [5, 7]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Chain combo] Standing Light Kick
+[[moves]]
+name = "[Chain combo] Standing Light Kick"
+name_ja = "[チェーンコンボ] 立ち弱K"
+alternateNames = ["[Chain combo] Short"]
+alternateNames_ja = ["[チェーンコンボ] 小足", "[チェーンコンボ] コアシ"]
+slug = "juri-chain-stand-light-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5lk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 9
+cancel = "C"
+damage = 100
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 62
+onBlock = -125
+onPunishCounter = -500
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -75,6 +264,52 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 5
+active = [5, 6, 8, 10]
+recovery = 17
+cancel = "C"
+damage = 700
+superArt = 1050
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
+# [Chain combo] Standing Medium Kick
+[[moves]]
+name = "[Chain combo] Standing Medium Kick"
+name_ja = "[チェーンコンボ] 立ち中K"
+alternateNames = ["[Chain combo] Forward"]
+alternateNames_ja = ["[チェーンコンボ] 中足", "[チェーンコンボ] 中アシ"]
+slug = "juri-chain-stand-medium-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5mk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 5
+active = [5, 6, 8, 10]
+recovery = 17
+cancel = "C"
+damage = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -1500
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -89,6 +324,55 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = ["Forces a juggle state knockdown on Punish Counter, or when it hits as a mid-air Counter or Punish Counter"]
+notes_ja = ["パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン", "空中ヒットでパニッシュカウンター時吹き飛び時間延長"]
+
+startup = 17
+active = [17, 20]
+recovery = 19
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+# [Chain combo] Standing Heavy Kick
+[[moves]]
+name = "[Chain combo] Standing Heavy Kick"
+name_ja = "[チェーンコンボ] 立ち強K"
+alternateNames = ["[Chain combo] Roundhouse"]
+alternateNames_ja = ["[チェーンコンボ] 大足", "[チェーンコンボ] 大アシ"]
+slug = "juri-chain-stand-heavy-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5hk"
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 20]
+recovery = 19
+cancel = "C"
+damage = 700
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 750
+onBlock = -1500
+onPunishCounter = -2500
 
 # Crouching Light Punch
 [[moves]]
@@ -104,6 +388,58 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Chain combo] Crouching Light Punch
+[[moves]]
+name = "[Chain combo] Crouching Light Punch"
+name_ja = "[チェーンコンボ] しゃがみ弱P"
+alternateNames = ["[Chain combo] Crouching jab"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ小パン", "[チェーンコンボ] しゃがみコパン"]
+slug = "juri-chain-crouch-light-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 100
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 62
+onBlock = -125
+onPunishCounter = -500
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +456,52 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 6
+active = [6, 9]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# [Chain combo] Crouching Medium Punch
+[[moves]]
+name = "[Chain combo] Crouching Medium Punch"
+name_ja = "[チェーンコンボ] しゃがみ中P"
+alternateNames = ["[Chain combo] Crouching strong"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ中P"]
+slug = "juri-chain-crouch-medium-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 6
+active = [6, 9]
+recovery = 14
+cancel = "C"
+damage = 400
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 375
+onBlock = -750
+onPunishCounter = -1000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -135,6 +517,52 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 
+startup = 8
+active = [8, 11]
+recovery = 23
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -11
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# [Chain combo] Crouching Heavy Punch
+[[moves]]
+name = "[Chain combo] Crouching Heavy Punch"
+name_ja = "[チェーンコンボ] しゃがみ強P"
+alternateNames = ["[Chain combo] Crouching fierce"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ大パン"]
+slug = "juri-chain-crouch-heavy-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+properties = ["knockdown"]
+notes = ["Can be canceled into a jump if the attack hits"]
+notes_ja = ["ヒット時ジャンプキャンセル可"]
+
+startup = 8
+active = [8, 11]
+recovery = 23
+cancel = "C"
+damage = 700
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1250
+onPunishCounter = -2000
+
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
@@ -149,6 +577,57 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 8
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Chain combo] Crouching Light Kick
+[[moves]]
+name = "[Chain combo] Crouching Light Kick"
+name_ja = "[チェーンコンボ] しゃがみ弱K"
+alternateNames = ["[Chain combo] Crouching short"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ小足", "[チェーンコンボ] しゃがみコアシ"]
+slug = "juri-chain-crouch-light-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2lk"
+notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 8
+cancel = "C"
+damage = 100
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 62
+onBlock = -125
+onPunishCounter = -500
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +644,56 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 8
+active = [8, 10]
+recovery = 19
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# [Chain combo] Crouching Medium Kick
+[[moves]]
+name = "[Chain combo] Crouching Medium Kick"
+name_ja = "[チェーンコンボ] しゃがみ中K"
+alternateNames = ["[Chain combo] Crouching forward"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ中足", "[チェーンコンボ] しゃがみ中アシ"]
+slug = "juri-chain-crouch-medium-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2mk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 10]
+recovery = 19
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -1000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +708,53 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 10
+active = [10, 12]
+recovery = 23
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# [Chain combo] Crouching Heavy Kick
+[[moves]]
+name = "[Chain combo] Crouching Heavy Kick"
+name_ja = "[チェーンコンボ] しゃがみ強K"
+alternateNames = ["[Chain combo] Crouching roundhouse"]
+alternateNames_ja = ["[チェーンコンボ] しゃがみ大足", "[チェーンコンボ] しゃがみ大アシ"]
+slug = "juri-chain-crouch-heavy-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2hk"
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 10
+active = [10, 12]
+recovery = 23
+cancel = "C"
+damage = 700
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 750
+onBlock = -1000
+onPunishCounter = -2500
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +771,43 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 5
+active = [5, 10]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# [Chain combo] Jumping Light Punch
+[[moves]]
+name = "[Chain combo] Jumping Light Punch"
+name_ja = "[チェーンコンボ] ジャンプ弱P"
+alternateNames = ["[Chain combo] Jumping forward"]
+alternateNames_ja = ["[チェーンコンボ] ジャンプ小パン", "[チェーンコンボ] ジャンプコパン"]
+slug = "juri-chain-jump-light-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "j>lp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 5
+active = [5, 10]
+postLandingRecovery = 3
+cancel = "C"
+damage = 100
+
+[moves.driveGauge]
+onHit = 125
+onBlock = -375
+onPunishCounter = -500
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -209,6 +822,46 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# [Chain combo] Jumping Medium Punch
+[[moves]]
+name = "[Chain combo] Jumping Medium Punch"
+name_ja = "[チェーンコンボ] ジャンプ中P"
+alternateNames = ["[Chain combo] Jumping strong"]
+alternateNames_ja = ["[チェーンコンボ] ジャンプ中パン", "[チェーンコンボ] ジャンプチュウパン"]
+slug = "juri-chain-jump-medium-punch"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 500
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -625
+onPunishCounter = -1000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -224,6 +877,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = ["Has cross-up attack properties", "Produces a slam knockdown"]
+notes_ja = ["めくり性能", "叩きつけダウン"]
+
+startup = 12
+active = [12, 17]
+postLandingRecovery = 3
+damage = 900
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Light Kick
 [[moves]]
@@ -239,6 +905,45 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 4
+active = [4, 9]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# [Chain combo] Jumping Light Kick
+[[moves]]
+name = "[Chain combo] Jumping Light Kick"
+name_ja = "[チェーンコンボ] ジャンプ弱K"
+alternateNames = ["[Chain combo] Jumping short"]
+alternateNames_ja = ["[チェーンコンボ] ジャンプ小足", "[チェーンコンボ] ジャンプコアシ"]
+slug = "juri-chain-jump-light-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>lk"
+notes = ["Has cross-up attack properties", "Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["めくり性能", "空中ヒット時吹き飛びダウン"]
+
+startup = 4
+active = [4, 9]
+postLandingRecovery = 3
+cancel = "C"
+damage = 100
+
+[moves.driveGauge]
+onHit = 125
+onBlock = -375
+onPunishCounter = -500
 
 # Jumping Medium Kick
 [[moves]]
@@ -254,6 +959,45 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 6
+active = [6, 11]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# [Chain combo] Jumping Medium Kick
+[[moves]]
+name = "[Chain combo] Jumping Medium Kick"
+name_ja = "[チェーンコンボ] ジャンプ中K"
+alternateNames = ["[Chain combo] Jumping forward"]
+alternateNames_ja = ["[チェーンコンボ] ジャンプ中足", "[チェーンコンボ] ジャンプ中アシ"]
+slug = "juri-chain-jump-medium-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+notes = ["Has cross-up attack properties", "Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["めくり性能", "空中ヒット時吹き飛びダウン"]
+
+startup = 6
+active = [6, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 300
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -625
+onPunishCounter = -1000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -268,7 +1012,96 @@ characterId = 6
 type = "normal"
 hitCount = 1
 blockType = "mid"
-input = "j>hk"
+input = "{7|9}>hk"
+
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Chain combo] Jumping Heavy Kick
+[[moves]]
+name = "[Chain combo] Jumping Heavy Kick"
+name_ja = "[チェーンコンボ] ジャンプ強K"
+alternateNames = ["[Chain combo] Jumping roundhouse"]
+alternateNames_ja = ["[チェーンコンボ] ジャンプ大足", "[チェーンコンボ] ジャンプ大アシ"]
+slug = "juri-chain-jump-heavy-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "{7|9}>hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+cancel = "C"
+damage = 600
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -1250
+
+# Neutral Jumping Heavy Kick
+[[moves]]
+name = "Neutral Jumping Heavy Kick"
+name_ja = "垂直ジャンプ強K"
+alternativeNames = ["Neutral Jumping roundhouse"]
+alternativeNames_ja = ["垂直ジャンプ大足", "垂直ジャンプ大アシ"]
+slug = "juri-neutral-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "垂直ジャンプ強K"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "8>hk"
+
+startup = 10
+active = [10, 13]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Chain combo] Neutral Jumping Heavy Kick
+[[moves]]
+name = "[Chain combo] Neutral Jumping Heavy Kick"
+name_ja = "[チェーンコンボ] 垂直ジャンプ強K"
+alternateNames = ["[Chain combo] Neutral Jumping roundhouse"]
+alternateNames_ja = ["[チェーンコンボ] 垂直ジャンプ大足", "[チェーンコンボ] 垂直ジャンプ大アシ"]
+slug = "juri-chain-neutral-jump-heavy-kick"
+characterId = 6
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "8>hk"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 10
+active = [10, 13]
+postLandingRecovery = 3
+cancel = "C"
+damage = 600
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -1250
 
 # Kyosesho
 [[moves]]

@@ -12,8 +12,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = []
-notes_ja = []
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 6
+active = [6, 8]
+recovery = 8
+cancel = "C"
+damage = 350
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 6
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Punch
 [[moves]]
@@ -30,6 +48,21 @@ hitCount = 1
 blockType = "high"
 input = "5mp"
 
+startup = 9
+active = [9, 12]
+recovery = 17
+damage = 800
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Standing Heavy Punch
 [[moves]]
 name = "Standing Heavy Punch"
@@ -45,6 +78,25 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 
+notes = ["Produces a crumple stun on Punish Counter if the opponent is standing on the ground", "Forces a juggle state on Punish Counter when hitting a mid-air opponent"]
+notes_ja = ["地上パニッシュカウンター時膝崩れ", "空中パニッシュカウンター時吹き飛びダウン"]
+
+startup = 11
+active = [11, 13]
+recovery = 22
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
@@ -59,6 +111,26 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 12
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Kick
 [[moves]]
@@ -75,6 +147,22 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 7
+active = [7, 9]
+recovery = 15
+cancel = "C"
+damage = 600
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 2
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -89,6 +177,23 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+notes = ["Forces a juggle state on Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛びダウン"]
+
+startup = 14
+active = [14, 17]
+recovery = 21
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
 
 # Crouching Light Punch
 [[moves]]
@@ -104,6 +209,26 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 6
+active = [6, 8]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -120,6 +245,22 @@ hitCount = 1
 blockType = "high"
 input = "2mp"
 
+startup = 8
+active = [8, 10]
+recovery = 18
+cancel = "SA"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -134,6 +275,24 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+notes = ["Forces a juggle state on counter or Punish Counter when hitting a mid-air opponent"]
+notes_ja = ["空中カウンター/空中パニッシュカウンター時吹き飛びダウン"]
+
+startup = 10
+active = [10, 11, 12, 15]
+recovery = 22
+cancel = "C"
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Crouching Light Kick
 [[moves]]
@@ -149,6 +308,25 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 6]
+recovery = 12
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -165,6 +343,24 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 10
+active = [10, 12]
+recovery = 18
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -179,6 +375,24 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+
+startup = 11
+active = [11, 12, 19, 20]
+recovery = 24
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -195,6 +409,17 @@ hitCount = 1
 blockType = "high"
 input = "j>lp"
 
+startup = 5
+active = [5, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -209,6 +434,19 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 9
+active = [9, 12]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -224,6 +462,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩きつけダウン"]
+
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Jumping Light Kick
 [[moves]]
@@ -239,6 +490,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 6
+active = [6, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -254,6 +518,19 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 8
+active = [8, 12]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Kick
 [[moves]]
@@ -269,6 +546,17 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hk"
+
+startup = 11
+active = [11, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Condor Wind (Light)
 [[moves]]
