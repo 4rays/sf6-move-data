@@ -675,9 +675,9 @@ input = "22*p"
 # Freeflow Strikes (Light)
 [[moves]]
 name = "Freeflow Strikes (Light)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔拳 (弱)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-strikes-light"
 characterId = 2
 type = "special"
@@ -687,9 +687,9 @@ input = "236lp>6*p>6*p"
 # Freeflow Strikes (Medium)
 [[moves]]
 name = "Freeflow Strikes (Medium)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔拳 (中)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-strikes-medium"
 characterId = 2
 type = "special"
@@ -699,9 +699,9 @@ input = "236mp>6*p>6*p"
 # Freeflow Strikes (Heavy)
 [[moves]]
 name = "Freeflow Strikes (Heavy)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔拳 (強)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-strikes-heavy"
 characterId = 2
 type = "special"
@@ -711,9 +711,9 @@ input = "236hp>6*p>6*p"
 # Freeflow Strikes (OD)
 [[moves]]
 name = "Freeflow Strikes (OD)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔拳 (OD)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-strikes-od"
 characterId = 2
 type = "special"
@@ -723,9 +723,9 @@ input = "236(pp)>6*p>6*p"
 # Freeflow Kicks (Light)
 [[moves]]
 name = "Freeflow Kicks (Light)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔脚 (弱)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-kicks-light"
 characterId = 2
 type = "special"
@@ -735,9 +735,9 @@ input = "236lp>6*k>6*k"
 # Freeflow Kicks (Medium)
 [[moves]]
 name = "Freeflow Kicks (Medium)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔脚 (中)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-kicks-medium"
 characterId = 2
 type = "special"
@@ -747,9 +747,9 @@ input = "236mp>6*k>6*k"
 # Freeflow Kicks (Heavy)
 [[moves]]
 name = "Freeflow Kicks (Heavy)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔脚 (強)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-kicks-heavy"
 characterId = 2
 type = "special"
@@ -759,9 +759,9 @@ input = "236hp>6*k>6*k"
 # Freeflow Kicks (OD)
 [[moves]]
 name = "Freeflow Kicks (OD)"
-alternateNames = ["Rekkas"]
+alternativeNames = ["Rekkas"]
 name_ja = "流酔脚 (OD)"
-alternateNames_ja = ["烈火"]
+alternativeNames_ja = ["烈火"]
 slug = "freeflow-kicks-od"
 characterId = 2
 type = "special"

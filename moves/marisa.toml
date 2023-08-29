@@ -106,7 +106,10 @@ blockType = "high"
 type = "normal"
 input = "5(hp)"
 parentSlugs = ["marisa-stand-heavy-punch"]
-notes = ["Forces a juggle state when hitting a mid-air opponent", "Punish counter +14F"]
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Punish counter +14F",
+]
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+14F"]
 
 startup = 26
@@ -203,7 +206,11 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["Hold the button for more than 17 frames to change its properties", "Forces a juggle state knockdown when hitting a mid-air opponent", "Forces a juggle state knockdown when the attack lands for a Punish Counter"]
+notes = [
+  "Hold the button for more than 17 frames to change its properties",
+  "Forces a juggle state knockdown when hitting a mid-air opponent",
+  "Forces a juggle state knockdown when the attack lands for a Punish Counter",
+]
 notes_ja = ["17F以上ホールドすると性能変化", "空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン"]
 
 startup = 15
@@ -456,7 +463,10 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["chargeable", "knockdown"]
-notes = ["Hold the button for more than 20 frames to change its properties", "Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Hold the button for more than 20 frames to change its properties",
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["20F以上ホールドすると性能変化", "カウンター/パニッシュカウンター時ダウン時間延長"]
 
 startup = 11
@@ -569,7 +579,10 @@ hitCount = 1
 blockType = "mid"
 input = "j>hp"
 properties = ["chargeable"]
-notes = ["Hold the button for more than 20 frames to change its properties", "Produces a slam knockdown when hitting a mid-air opponent"]
+notes = [
+  "Hold the button for more than 20 frames to change its properties",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+]
 notes_ja = ["20F以上ホールドすると性能変化", "空中ヒット時叩きつけダウン"]
 
 startup = 10
@@ -723,6 +736,27 @@ blockType = "high"
 type = "targetCombo"
 input = "lp>lp"
 
+startup = 14
+active = [14, 16]
+recovery = 22
+cancel = "C"
+damage = 600
+scaling = ["Starter scaling 10%", "Combo scaling 25%"]
+scaling_ja = ["始動補正10%", "コンボ補正25%"]
+superArt = 1000
+capcom_skill_id = 402
+notes = ["A rapid series of attacks."]
+notes_ja = ["技の出が早い連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -3
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -1000
+onPunishCounter = -5000
+
 # Medium Two Hitter
 [[moves]]
 name = "Medium Two Hitter"
@@ -733,6 +767,27 @@ blockType = "high"
 type = "targetCombo"
 input = "mp>mp"
 
+startup = 14
+active = [14, 15]
+recovery = 23
+cancel = "C"
+damage = 600
+superArt = 1000
+capcom_skill_id = 403
+notes = [
+  "A two-hit combination attack that can be canceled into special moves.",
+]
+notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -3
+block = -8
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -5000
+
 # Heavy Two Hitter
 [[moves]]
 name = "Heavy Two Hitter"
@@ -742,6 +797,26 @@ characterId = 13
 blockType = "high"
 type = "targetCombo"
 input = "hp>hp"
+properties = ["knockdown"]
+
+startup = 24
+active = [24, 26]
+recovery = 19
+damage = 1000
+superArt = 1000
+capcom_skill_id = 404
+notes = [
+  "A two-hit combination attack that allows you to move first even if blocked.",
+]
+notes_ja = ["ガードされても相手より先に動ける連続攻撃。"]
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Volare Combo
 [[moves]]
@@ -749,9 +824,23 @@ name = "Volare Combo"
 name_ja = "ヴォラーレコンボ"
 slug = "volare-combo"
 characterId = 13
-blockType = "high"
+blockType = "mid"
 type = "targetCombo"
 input = "j>mp>mp"
+
+startup = 10
+active = [10, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 500
+capcom_skill_id = 405
+notes = ["A series of attacks performed while jumping."]
+notes_ja = ["ジャンプ中に繰り出す、続けてヒットする連続攻撃。"]
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -5000
 
 # Caelum Arc
 [[moves]]
@@ -759,9 +848,59 @@ name = "Caelum Arc"
 name_ja = "カエルムアーク"
 slug = "caelum-arc"
 characterId = 13
-blockType = "high"
+blockType = "mid"
 type = "commandNormal"
 input = "j>2hp"
+notes = [
+  "A move with an area of attack so wide that it can even hit opponents who are behind you.",
+  "Hold down the button for over 20 frames to change its properties",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+  "Has cross-up attack properties",
+]
+notes_ja = [
+  "攻撃範囲が広く、相手が後方に位置してもヒットする攻撃。",
+  "20F以上ホールドすると性能変化",
+  "空中ヒット時叩きつけダウン",
+  "めくり性能",
+]
+startup = 9
+active = [9, 17]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+capcom_skill_id = 406
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Caelum Arc (Charged)
+[[moves]]
+name = "Caelum Arc (Charged)"
+name_ja = "カエルムアーク (ホールド)"
+slug = "caelum-arc-charged"
+characterId = 13
+blockType = "mid"
+type = "commandNormal"
+input = "j>2[hp]"
+properties = ["canCrossUp"]
+notes = [
+  "A move with an area of attack so wide that it can even hit opponents who are behind you.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["攻撃範囲が広く、相手が後方に位置してもヒットする攻撃。", "めくり性能"]
+startup = 28
+active = [28, 36]
+postLandingRecovery = 6
+damage = 1500
+superArt = 1000
+capcom_skill_id = 406
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -15000
 
 # Magna Bunker
 [[moves]]
@@ -772,6 +911,59 @@ characterId = 13
 blockType = "high"
 type = "commandNormal"
 input = "4hp"
+notes = [
+  "A forward-moving attack that can be canceled into special moves.",
+  "Hold down the button for over 17 frames to change its properties",
+  "3 frames of recovery added if the attack misses",
+]
+notes_ja = ["前進して繰り出す、必殺技キャンセル可能な攻撃。", "17F以上ホールドすると性能変化", "空振り時硬直3F増加"]
+startup = 8
+active = [8, 9]
+recovery = 21
+cancel = "C"
+damage = 900
+superArt = 500
+capcom_skill_id = 407
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Magna Bunker (Charged)
+[[moves]]
+name = "Magna Bunker (Charged)"
+name_ja = "マグナバンカー (ホールド)"
+slug = "magna-bunker-charged"
+characterId = 13
+blockType = "high"
+type = "commandNormal"
+input = "4[hp]"
+notes = [
+  "A forward-moving attack that can be canceled into special moves.",
+  "6 frames of recovery added when the attack misses",
+]
+notes_ja = ["前進して繰り出す、必殺技キャンセル可能な攻撃。", "空振り時硬直6F増加"]
+startup = 20
+active = [20, 21]
+recovery = 24
+cancel = "C"
+damage = 1000
+superArt = 500
+capcom_skill_id = 407
+
+[moves.frameAdvantage]
+hit = 13
+block = 4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -10000
 
 # Novacula Swipe
 [[moves]]
@@ -779,9 +971,27 @@ name = "Novacula Swipe"
 name_ja = "ノバキュラスワイプ"
 slug = "novacula-swipe"
 characterId = 13
-blockType = "high"
+blockType = "low"
 type = "targetCombo"
 input = "6mp>5hp"
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 12]
+recovery = 26
+damage = 800
+superArt = 1000
+capcom_skill_id = 408
+notes = ["A two-hit combination attack that can knock an opponent down."]
+notes_ja = ["続けてヒットする、相手を転ばせる攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
 
 # Novacula Thrust
 [[moves]]
@@ -793,192 +1003,1063 @@ blockType = "high"
 type = "targetCombo"
 input = "6mp>5hk"
 
-# Malleus Breaker
+properties = ["knockdown"]
+notes = [
+  "A combination attack that hits twice against standing opponents.",
+  "Can be canceled into a Super Art",
+  "Does not hit crouching opponents",
+]
+notes_ja = ["立ち状態の相手に続けてヒットする連続攻撃。", "スーパーアーツキャンセル可能", "しゃがみ状態の相手に当たらない"]
+startup = 11
+active = [11, 14]
+recovery = 23
+cancel = "SA"
+damage = 800
+superArt = 1000
+capcom_skill_id = 409
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -10000
+
+# Malleus Breaker (1)
 [[moves]]
-name = "Malleus Breaker"
-name_ja = "マレウスビート"
-slug = "malleus-breaker"
+name = "Malleus Breaker (1)"
+name_ja = "マレウスビート（1段目）"
+slug = "malleus-breake-1"
 characterId = 13
 blockType = "mid"
-type = "targetCombo"
+type = "commandNormal"
+input = "3hp"
+notes = [
+  "A two-hit combination attack that cannot be blocked crouching.",
+  "Hold down the button for over 17 frames to change its properties",
+  "Produces a floor bound when hitting a mid-air opponent",
+]
+notes_ja = ["続けてヒットする、しゃがみでガードできない連続攻撃。", "17F以上ホールドすると性能変化", "空中ヒット時床バウンド"]
+startup = 21
+active = [21, 22]
+recovery = 21
+damage = 900
+superArt = 500
+capcom_skill_id = 410
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Malleus Breaker (1 Charged)
+[[moves]]
+name = "Malleus Breaker (1 Charged)"
+name_ja = "マレウスビート（1段目 ホールド）"
+slug = "malleus-breake-1-charged"
+characterId = 13
+blockType = "mid"
+type = "commandNormal"
+input = "3[hp]"
+notes = [
+  "A two-hit combination attack that cannot be blocked crouching.",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = ["続けてヒットする、しゃがみでガードできない連続攻撃。", "空中ヒット時床バウンド"]
+startup = 31
+active = [31, 32]
+recovery = 19
+damage = 1000
+superArt = 500
+capcom_skill_id = 410
+
+[moves.frameAdvantage]
+hit = 5
+block = 2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -5000
+onPunishCounter = -12000
+
+# Malleus Breaker (2)
+[[moves]]
+name = "Malleus Breaker (2)"
+name_ja = "マレウスビート（2段目）"
+slug = "malleus-breake-2"
+characterId = 13
+blockType = "mid"
+type = "commandNormal"
 input = "3hp>3hp"
 
-# Falx Crusher
+startup = 18
+active = [18, 19]
+recovery = 24
+damage = 900
+superArt = 500
+capcom_skill_id = 410
+notes = ["A two-hit combination attack that cannot be blocked crouching."]
+notes_ja = ["続けてヒットする、しゃがみでガードできない連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -3
+block = -12
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Falx Crusher (1)
 [[moves]]
-name = "Falx Crusher"
-name_ja = "ファルクスクラッシュ"
-slug = "falx-crusher"
+name = "Falx Crusher (1)"
+name_ja = "ファルクスクラッシュ（1段目）"
+slug = "falx-crusher-1"
 characterId = 13
-type = "targetCombo"
+type = "commandNormal"
+input = "6hk"
+blockType = "high"
+notes = [
+  "A two-hit combination attack with long reach.",
+  "Hold the button for more than 21 frames to change its properties",
+]
+notes_ja = ["続けてヒットする、リーチの長い連続攻撃。", "21F以上ホールドすると性能変化"]
+startup = 14
+active = [14, 17]
+recovery = 21
+cancel = "C"
+damage = 900
+superArt = 1000
+capcom_skill_id = 411
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -8000
+
+# Falx Crusher (1 Charged)
+[[moves]]
+name = "Falx Crusher (1 Charged)"
+name_ja = "ファルクスクラッシュ（1段目 ホールド）"
+slug = "falx-crusher-1-charged"
+characterId = 13
+type = "commandNormal"
+input = "6[hk]"
+blockType = "high"
+notes = [
+  "A two-hit combination attack with long reach.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["続けてヒットする、リーチの長い連続攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 27
+active = [27, 30]
+recovery = 19
+cancel = "C"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 411
+
+[moves.frameAdvantage]
+hit = 10
+block = 3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -12000
+
+# Falx Crusher (2)
+[[moves]]
+name = "Falx Crusher (2)"
+name_ja = "ファルクスクラッシュ（2段目）"
+slug = "falx-crusher-2"
+characterId = 13
+type = "commandNormal"
 input = "6hk>6hk"
+blockType = "high"
+properties = ["knockdown"]
+
+startup = 16
+active = [16, 20]
+recovery = 25
+damage = 1000
+superArt = 1000
+capcom_skill_id = 411
+notes = ["A two-hit combination attack with long reach."]
+notes_ja = ["続けてヒットする、リーチの長い連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -3000
+onPunishCounter = -5000
 
 # Gladius (Light)
 [[moves]]
 name = "Gladius (Light)"
-name_ja = "グラディウス（小）"
+name_ja = "グラディウス（弱）"
+alternativeNames = ["L Gladius"]
+alternativeNames_ja = ["弱 グラディウス"]
 slug = "gladius-light"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236lp"
-notes = ["Hold to change effect"]
-notes_ja = ["ボタンホールドで性質変化"]
+properties = ["knockdown"]
+notes = [
+  "A devastating straight punch. Can be powered up by holding the attack button.",
+  "Hold down the button for over 26 frames to change its properties",
+  "Upper body has Super Armor for 1 hit from frames 5 - 10",
+]
+notes_ja = [
+  "強烈なストレートを繰り出し、相手を打ち抜く技。ボタンをホールドすると攻撃性能が上がる。",
+  "26F以上ホールドすると性能変化",
+  "5-10F 上半身アーマー判定(1回)",
+]
+startup = 17
+active = [17, 20]
+recovery = 21
+cancel = "SA3"
+damage = 1200
+superArt = 1150
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
+
+# Gladius (Light Charged)
+[[moves]]
+name = "Gladius (Light Charged)"
+name_ja = "グラディウス（弱 ホールド）"
+alternativeNames = ["L Gladius Charged"]
+alternativeNames_ja = ["弱 グラディウス ホールド"]
+slug = "gladius-light-charged"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236[lp]"
+properties = ["knockdown"]
+notes = [
+  "Upper body has Super Armor for 1 hit from frames 5 - 26",
+  "Has armor break properties",
+]
+notes_ja = ["5-26F 上半身アーマー判定(1回)", "アーマーブレイク属性"]
+
+startup = 30
+active = [30, 33]
+recovery = 20
+cancel = "SA3"
+damage = 2400
+superArt = 2650
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Gladius (Medium)
 [[moves]]
 name = "Gladius (Medium)"
 name_ja = "グラディウス（中）"
+alternativeNames = ["M Gladius"]
+alternativeNames_ja = ["中 グラディウス"]
 slug = "gladius-medium"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236mp"
-notes = ["Hold to change effect"]
-notes_ja = ["ボタンホールドで性質変化"]
+properties = ["knockdown"]
+notes = [
+  "A devastating straight punch. Can be powered up by holding the attack button.",
+  "Hold down the button for over 29 frames to change its properties",
+  "Upper body has Super Armor for 1 hit from frames 5 - 12",
+]
+notes_ja = [
+  "強烈なストレートを繰り出し、相手を打ち抜く技。ボタンをホールドすると攻撃性能が上がる。",
+  "29F以上ホールドすると性能変化",
+  "5-12F 上半身アーマー判定(1回)",
+]
+startup = 19
+active = [19, 22]
+recovery = 21
+cancel = "SA3"
+damage = 1400
+superArt = 1150
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
+
+# Gladius (Medium Charged)
+[[moves]]
+name = "Gladius (Medium Charged)"
+name_ja = "グラディウス（中 ホールド）"
+alternativeNames = ["M Gladius Charged"]
+alternativeNames_ja = ["中 グラディウス ホールド"]
+slug = "gladius-medium-charged"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236[mp]"
+properties = ["knockdown"]
+notes = [
+  "Upper body has Super Armor for 1 hit from frames 5 - 29",
+  "Has armor break properties",
+]
+notes_ja = ["5-29F 上半身アーマー判定(1回)", "アーマーブレイク属性"]
+
+startup = 35
+active = [35, 38]
+recovery = 20
+cancel = "SA3"
+damage = 2600
+superArt = 2650
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Gladius (Heavy)
 [[moves]]
 name = "Gladius (Heavy)"
 name_ja = "グラディウス（大）"
+alternativeNames = ["H Gladius"]
+alternativeNames_ja = ["大 グラディウス"]
 slug = "gladius-heavy"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236hp"
-notes = ["Hold to change effect"]
-notes_ja = ["ボタンホールドで性質変化"]
+properties = ["knockdown"]
+notes = [
+  "A devastating straight punch. Can be powered up by holding the attack button.",
+  "Hold down the button for over 35 frames to change its properties",
+  "Upper body has Super Armor for 1 hit from frames 5 - 15",
+]
+notes_ja = [
+  "強烈なストレートを繰り出し、相手を打ち抜く技。ボタンをホールドすると攻撃性能が上がる。",
+  "35F以上ホールドすると性能変化",
+  "5-15F 上半身アーマー判定(1回)",
+]
+startup = 22
+active = [22, 25]
+recovery = 21
+cancel = "SA3"
+damage = 1600
+superArt = 1150
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
+
+# Gladius (Heavy Charged)
+[[moves]]
+name = "Gladius (Heavy Charged)"
+name_ja = "グラディウス（大 ホールド）"
+alternativeNames = ["H Gladius Charged"]
+alternativeNames_ja = ["大 グラディウス ホールド"]
+slug = "gladius-heavy-charged"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "236[hp]"
+properties = ["knockdown"]
+notes = ["Upper body has Super Armor for 1 hit from frames 5 - 35"]
+notes_ja = ["5-35F 上半身アーマー判定(1回)"]
+
+startup = 41
+active = [41, 44]
+recovery = 20
+cancel = "SA3"
+damage = 2800
+superArt = 2650
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -8000
+onPunishCounter = -12000
 
 # Gladius (OD)
 [[moves]]
 name = "Gladius (OD)"
 name_ja = "グラディウス（OD）"
+alternativeNames = ["OD Gladius", "EX Gladius"]
+alternativeNames_ja = ["OD グラディウス", "EX グラディウス"]
 slug = "gladius-od"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236(pp)"
-notes = ["Hold to change effect"]
-notes_ja = ["ボタンホールドで性質変化"]
+properties = ["knockdown"]
+notes = [
+  "A devastating straight punch. Can be powered up by holding the attack button.",
+  "Hold down the button for over 29 frames to change its properties",
+  "Upper body has Super Armor for 2 hits from frames 1 - 22",
+  "Has armor break properties",
+]
+notes_ja = [
+  "強烈なストレートを繰り出し、相手を打ち抜く技。ボタンをホールドすると攻撃性能が上がる。",
+  "29F以上ホールドすると性能変化",
+  "1-22F 上半身アーマー判定(2回)",
+  "アーマーブレイク属性",
+]
+startup = 19
+active = [19, 22]
+recovery = 21
+cancel = "SA2"
+damage = 1700
+superArt = 1150
+capcom_skill_id = 501
 
-# Dimachaerus (Light)
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -12000
+
+# Gladius (OD Charged)
 [[moves]]
-name = "Dimachaerus (Light)"
-name_ja = "ディマカイルス（小）"
-slug = "dimachaerus-light"
+name = "Gladius (OD Charged)"
+name_ja = "グラディウス（OD ホールド）"
+alternativeNames = ["OD Gladius Charged", "EX Gladius Charged"]
+alternativeNames_ja = ["OD グラディウス ホールド", "EX グラディウス ホールド"]
+slug = "gladius-od-charged"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "214lp>*p"
+input = "236[pp]"
+properties = ["knockdown"]
+notes = [
+  "Upper body has Super Armor for 2 hits from frames 1 - 38",
+  "Has armor break properties",
+]
+notes_ja = ["1-38F 上半身アーマー判定(2回)", "アーマーブレイク属性"]
 
-# Dimachaerus (Medium)
+startup = 35
+active = [35, 38]
+recovery = 20
+cancel = "SA2"
+damage = 2900
+superArt = 2650
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -12000
+
+# Dimachaerus (Light 1)
 [[moves]]
-name = "Dimachaerus (Medium)"
-name_ja = "ディマカイルス（中）"
-slug = "dimachaerus-medium"
+name = "Dimachaerus (Light 1)"
+name_ja = "ディマカイルス（弱 1段目）"
+alternativeNames = ["L Dimachaerus"]
+alternativeNames_ja = ["弱 ディマカイルス"]
+slug = "dimachaerus-light-1"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "214mp>*p"
+input = "214lp"
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+  "Hold down the button for over 35 frames to change its properties",
+  "Can transition to branching attacks from frames 22 - 32",
+]
+notes_ja = [
+  "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。",
+  "5-15F 空中判定の攻撃に対して無敵",
+  "22-32F ヒット時専用技に派生可",
+]
+startup = 12
+active = [12, 15]
+recovery = 30
+cancel = "SA3"
+damage = 600
+superArt = 575
+capcom_skill_id = 502
 
-# Dimachaerus (Heavy)
+[moves.frameAdvantage]
+hit = -3
+block = -16
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (Light 2)
 [[moves]]
-name = "Dimachaerus (Heavy)"
-name_ja = "ディマカイルス（大）"
-slug = "dimachaerus-heavy"
+name = "Dimachaerus (Light 2)"
+name_ja = "ディマカイルス（弱 2段目）"
+alternativeNames = ["L Dimachaerus"]
+alternativeNames_ja = ["弱 ディマカイルス"]
+slug = "dimachaerus-light-2"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "214hp>*p"
+input = "214lp>6*p"
+properties = ["knockdown"]
 
-# Dimachaerus (OD)
+startup = 13
+active = [13, 17]
+recovery = 23
+damage = 600
+superArt = 575
+capcom_skill_id = 502
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+]
+notes_ja = ["大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。"]
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (Medium 1)
 [[moves]]
-name = "Dimachaerus (OD)"
-name_ja = "ディマカイルス（OD）"
-slug = "dimachaerus-od"
+name = "Dimachaerus (Medium 1)"
+name_ja = "ディマカイルス（中 1段目）"
+alternativeNames = ["M Dimachaerus"]
+alternativeNames_ja = ["中 ディマカイルス"]
+slug = "dimachaerus-medium-1"
 characterId = 13
 type = "special"
 blockType = "high"
-input = "214(pp)>*p"
+input = "214mp"
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+  "Can transition to branching attacks from frames 27 - 36",
+]
+notes_ja = [
+  "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。",
+  "27-36F ヒット時専用技に派生可",
+]
+startup = 16
+active = [16, 20]
+recovery = 30
+cancel = "SA3"
+damage = 700
+superArt = 575
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+hit = 0
+block = -16
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (Medium 2)
+[[moves]]
+name = "Dimachaerus (Medium 2)"
+name_ja = "ディマカイルス（中 2段目）"
+alternativeNames = ["M Dimachaerus"]
+alternativeNames_ja = ["中 ディマカイルス"]
+slug = "dimachaerus-medium-2"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214mp>6*p"
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 17]
+recovery = 24
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 575
+capcom_skill_id = 502
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+]
+notes_ja = ["大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。"]
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (Heavy 1)
+[[moves]]
+name = "Dimachaerus (Heavy 1)"
+name_ja = "ディマカイルス（大 1段目）"
+alternativeNames = ["H Dimachaerus"]
+alternativeNames_ja = ["大 ディマカイルス"]
+slug = "dimachaerus-heavy-1"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214hp"
+properties = ["knockdown"]
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+  "Can transition to branching attacks from frames 35 - 42",
+]
+notes_ja = [
+  "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。",
+  "35-42F ヒット時専用技に派生可",
+]
+startup = 22
+active = [22, 25]
+recovery = 30
+cancel = "SA3"
+damage = 800
+superArt = 575
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (Heavy 2)
+[[moves]]
+name = "Dimachaerus (Heavy 2)"
+name_ja = "ディマカイルス（大 2段目）"
+alternativeNames = ["H Dimachaerus"]
+alternativeNames_ja = ["大 ディマカイルス"]
+slug = "dimachaerus-heavy-2"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214hp>6*p"
+properties = ["knockdown"]
+
+startup = 18
+active = [18, 22]
+recovery = 23
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 575
+capcom_skill_id = 502
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+]
+notes_ja = ["大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。"]
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 1250
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (OD 1)
+[[moves]]
+name = "Dimachaerus (OD 1)"
+name_ja = "ディマカイルス（OD 1段目）"
+alternativeNames = ["OD Dimachaerus", "EX Dimachaerus"]
+alternativeNames_ja = ["OD ディマカイルス", "EX ディマカイルス"]
+slug = "dimachaerus-od-1"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214(pp)"
+
+properties = ["knockdown"]
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+  "Invincible to mid-air attacks from frames 5 - 19",
+  "Can transition to branching attacks from frames 31 - 39",
+  "Has armor break properties",
+]
+notes_ja = [
+  "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。",
+  "5-19F 空中判定の攻撃に対して無敵",
+  "31-39F ヒット時専用技に派生可",
+  "アーマーブレイク属性",
+]
+startup = 16
+active = [16, 19]
+recovery = 26
+cancel = "SA2"
+damage = 600
+superArt = 575
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
+# Dimachaerus (OD 2)
+[[moves]]
+name = "Dimachaerus (OD 2)"
+name_ja = "ディマカイルス（OD 2段目）"
+alternativeNames = ["OD Dimachaerus", "EX Dimachaerus"]
+alternativeNames_ja = ["OD ディマカイルス", "EX ディマカイルス"]
+slug = "dimachaerus-od-2"
+characterId = 13
+type = "special"
+blockType = "high"
+input = "214(pp)>6*p"
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 17]
+recovery = 23
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 575
+capcom_skill_id = 502
+notes = [
+  "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos.",
+]
+notes_ja = ["大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効。"]
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
 
 # Phalanx (Light)
 [[moves]]
 name = "Phalanx (Light)"
-name_ja = "ファランクス（小）"
+name_ja = "ファランクス（弱）"
+alternativeNames = ["L Phalanx"]
+alternativeNames_ja = ["弱 ファランクス"]
 slug = "phalanx-light"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "623lp"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure.",
+  "Upper body has Super Armor from frames 7 - 11",
+  "Invincible to projectiles from frames 12 - 27",
+  "Considered airborne from frames 11 - 29",
+]
+notes_ja = [
+  "前方へ跳び込んで、強烈なパンチで殴り掛かる技。ガードされても相手より先に動けるので、攻めの継続に有効。",
+  "7-11F 上半身アーマー判定",
+  "12-27F 下半身飛び道具無敵",
+  "11-29F 空中判定",
+]
+startup = 25
+active = [25, 27]
+recovery = 18
+damage = 1500
+superArt = 1150
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Phalanx (Medium)
 [[moves]]
 name = "Phalanx (Medium)"
 name_ja = "ファランクス（中）"
+alternativeNames = ["M Phalanx"]
+alternativeNames_ja = ["中 ファランクス"]
 slug = "phalanx-medium"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "623mp"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure.",
+  "Upper body has Super Armor for 1 hit from frames 7 - 13",
+  "Lower body is invincible to projectiles from frames 12 - 30",
+  "Considered airborne from frames 14 - 32",
+]
+notes_ja = [
+  "前方へ跳び込んで、強烈なパンチで殴り掛かる技。ガードされても相手より先に動けるので、攻めの継続に有効。",
+  "7- 13F 上半身アーマー判定(1回)",
+  "12-30F 下半身飛び道具無敵",
+  "14-32F 空中判定",
+]
+startup = 28
+active = [28, 30]
+recovery = 18
+damage = 1600
+superArt = 1150
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Phalanx (Heavy)
 [[moves]]
 name = "Phalanx (Heavy)"
 name_ja = "ファランクス（大）"
+alternativeNames = ["H Phalanx"]
+alternativeNames_ja = ["大 ファランクス"]
 slug = "phalanx-heavy"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "623hp"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure.",
+  "Upper body has Super Armor from frames 10 - 15",
+  "Invincible to projectiles from frames 12 - 34",
+  "Considered airborne from frames 17 - 36",
+]
+notes_ja = [
+  "前方へ跳び込んで、強烈なパンチで殴り掛かる技。ガードされても相手より先に動けるので、攻めの継続に有効。",
+  "10-15F 上半身アーマー判定",
+  "12-34F 下半身飛び道具無敵",
+  "17-36F 空中判定",
+]
+startup = 32
+active = [32, 34]
+recovery = 18
+damage = 1700
+superArt = 1150
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Phalanx (OD)
 [[moves]]
 name = "Phalanx (OD)"
 name_ja = "ファランクス（OD）"
+alternativeNames = ["OD Phalanx", "EX Phalanx"]
+alternativeNames_ja = ["OD ファランクス", "EX ファランクス"]
 slug = "phalanx-od"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air and come down with a powerful downward punch. Allows you to move first even if it is blocked, making it effective for continuing offensive pressure.",
+  "Upper body has Super Armor from frames 6 - 12",
+  "Invincible to projectiles from frames 12 - 30",
+  "Considered airborne from frames 14 - 32",
+  "Produces a wall splat if the opponent reaches the wall",
+  "Has armor break properties",
+]
+notes_ja = [
+  "前方へ跳び込んで、強烈なパンチで殴り掛かる技。ガードされても相手より先に動けるので、攻めの継続に有効。",
+  "6-12F 上半身アーマー判定",
+  "12-30F 下半身飛び道具無敵",
+  "14-32F 空中判定",
+  "壁到達時に壁やられ",
+  "アーマーブレイク属性",
+]
+startup = 28
+active = [28, 30]
+recovery = 18
+damage = 1400
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1150
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -12000
 
 # Quadriga (Light)
 [[moves]]
 name = "Quadriga (Light)"
-name_ja = "クアドリガ（小）"
+name_ja = "クアドリガ（弱）"
+alternativeNames = ["L Quadriga"]
+alternativeNames_ja = ["弱 クアドリガ"]
 slug = "quadriga-light"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236lk"
+properties = ["knockdown"]
+
+startup = 20
+active = [20, 23]
+recovery = 24
+cancel = "SA3"
+damage = 1400
+superArt = 1150
+capcom_skill_id = 504
+notes = [
+  "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos.",
+]
+notes_ja = ["前方へ踏み込んで強烈な前蹴りを繰り出す技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。"]
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Quadriga (Medium)
 [[moves]]
 name = "Quadriga (Medium)"
 name_ja = "クアドリガ（中）"
+alternativeNames = ["M Quadriga"]
+alternativeNames_ja = ["中 クアドリガ"]
 slug = "quadriga-medium"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236mk"
+properties = ["knockdown"]
+
+startup = 24
+active = [24, 27]
+recovery = 22
+cancel = "SA3"
+damage = 1500
+superArt = 1150
+capcom_skill_id = 504
+notes = [
+  "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos.",
+]
+notes_ja = ["前方へ踏み込んで強烈な前蹴りを繰り出す技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。"]
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Quadriga (Heavy)
 [[moves]]
 name = "Quadriga (Heavy)"
 name_ja = "クアドリガ（大）"
+alternativeNames = ["H Quadriga"]
+alternativeNames_ja = ["大 クアドリガ"]
 slug = "quadriga-heavy"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236hk"
+properties = ["knockdown"]
+
+startup = 29
+active = [29, 32]
+recovery = 21
+cancel = "SA3"
+damage = 1600
+superArt = 1150
+capcom_skill_id = 504
+notes = [
+  "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos.",
+]
+notes_ja = ["前方へ踏み込んで強烈な前蹴りを繰り出す技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。"]
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -12000
 
 # Quadriga (OD)
 [[moves]]
 name = "Quadriga (OD)"
 name_ja = "クアドリガ（OD）"
+alternativeNames = ["OD Quadriga", "EX Quadriga"]
+alternativeNames_ja = ["OD クアドリガ", "EX クアドリガ"]
 slug = "quadriga-od"
 characterId = 13
 type = "special"
 blockType = "high"
 input = "236(kk)"
+properties = ["knockdown"]
+notes = [
+  "Hop forward with a powerful front kick. Useful as a surprise attack that allows you to close the distance with your opponent, and can also be used to tack on additional hits in combos.",
+  "Produces a wall splat on hit",
+]
+notes_ja = ["前方へ踏み込んで強烈な前蹴りを繰り出す技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。", "ヒット時壁やられ"]
+startup = 24
+active = [24, 27]
+recovery = 24
+cancel = "SA2"
+damage = 1500
+superArt = 1150
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -12000
 
 # Scutum
 [[moves]]
@@ -988,17 +2069,179 @@ slug = "scutum"
 characterId = 13
 type = "special"
 input = "214*k"
+notes = [
+  "A defensive maneuver in which you cover your head with both arms, giving armor to your upper body and automatically countering your opponent's attacks if hit. If you continue holding the button following a counter, you will return to the Scutum stance.",
+  "Upper body has Super Armor for 1 hit from frames 3 - 28",
+  "Automatically transitions into a special attack when the Super Armor absorbs the opponent’s attack",
+  "Can transition to branching attacks from frames 9 - 14",
+  "Hold down the button to extend the technique",
+]
+notes_ja = [
+  "両腕で頭部を覆うようにして防御を固める技。上半身のアーマー判定で相手の攻撃を受けると反撃動作を行い、反撃後にボタンをホールドし続けると構え動作を継続する。",
+  "動作中常に被パニッシュカウンター判定",
+  "3-28 上半身アーマー判定(1回)",
+  "アーマー判定で攻撃を受け止めた際、専用技に自動派生",
+  "9-14F 各派生技に移行可",
+  "ボタンホールドで動作延長可",
+]
+totalFrames = 54
+capcom_skill_id = 505
 
-# Tonitrus
+# Scutum (Physical Counter)
 [[moves]]
-name = "Tonitrus"
-name_ja = "トニトルス"
-slug = "tonitrus"
+name = "Scutum (Physical Counter)"
+name_ja = "スクトゥム（当身派生版）"
+slug = "scutum-physical-counter"
+characterId = 13
+type = "special"
+input = "214*k"
+notes = [
+  "Take an attack during Scutum",
+  "Always in Punish Counter state during execution",
+  "Scutum stance continues while the button is held",
+]
+notes_ja = ["スクトゥム中に打撃を受ける", "動作中常に被パニッシュカウンター判定", "ボタンホールド時、スクトゥムの構え動作を継続"]
+startup = 7
+active = [7, 10]
+recovery = 20
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -1
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+
+# Scutum (OD)
+[[moves]]
+name = "Scutum (OD)"
+name_ja = "スクトゥム（OD）"
+alternativeNames = ["OD Scutum", "EX Scutum"]
+alternativeNames_ja = ["OD スクトゥム", "EX スクトゥム"]
+slug = "scutum-od"
+characterId = 13
+type = "special"
+input = "214(kk)"
+notes = [
+  "A defensive maneuver in which you cover your head with both arms, giving armor to your upper body and automatically countering your opponent's attacks if hit. If you continue holding the button following a counter, you will return to the Scutum stance.",
+  "Upper body has Super Armor for 2 hits from frames 1 - 28",
+  "Automatically transitions into a special attack when the Super Armor absorbs the opponent’s attack",
+  "Can transition to branching attacks from frames 9 - 14",
+  "Hold down the button to extend the technique",
+]
+notes_ja = [
+  "両腕で頭部を覆うようにして防御を固める技。上半身のアーマー判定で相手の攻撃を受けると反撃動作を行い、反撃後にボタンをホールドし続けると構え動作を継続する。",
+  "動作中常に被パニッシュカウンター判定",
+  "1-28F アーマー判定(2回)",
+  "アーマー判定で攻撃を受け止めた際、専用技に自動派生",
+  "9-14F 各派生技に移行可",
+  "ボタンホールドで動作延長可",
+]
+totalFrames = 57
+capcom_skill_id = 505
+
+# Scutum (OD Physical Counter)
+[[moves]]
+name = "Scutum (OD Physical Counter)"
+name_ja = "スクトゥム（OD 当身派生版）"
+slug = "scutum-od-physical-counter"
+characterId = 13
+type = "special"
+input = "214(kk)"
+notes = [
+  "Take an attack during OD Scutum",
+  "Always in Punish Counter state during execution",
+  "Scutum stance continues while the button is held",
+]
+notes_ja = ["ODスクトゥム中に打撃を受ける", "動作中常に被パニッシュカウンター判定", "ボタンホールド時、スクトゥムの構え動作を継続"]
+
+startup = 7
+active = [7, 10]
+recovery = 20
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -1
+block = -5
+
+[moves.driveGauge]
+onBlock = -2500
+
+# Tonitrus (1)
+[[moves]]
+name = "Tonitrus (1)"
+name_ja = "トニトルス (1段目)"
+slug = "tonitrus-1"
+characterId = 13
+blockType = "mid"
+type = "special"
+input = "*p"
+parentSlugs = ["scutum"]
+notes = [
+  "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses.",
+  "Always in Punish Counter state during execution",
+  "2 frames of recovery added if the attack misses",
+  "Can transition to branching attacks on hit or block",
+]
+notes_ja = [
+  "スクトゥムから派生する、両腕で繰り出す連続攻撃。初段がしゃがみガード不可の中段攻撃で、ガード崩しに有効。",
+  "動作中常に被パニッシュカウンター判定",
+  "空振り時硬直2F増加",
+  "ヒット・ガード時、専用技に派生可",
+]
+startup = 15
+active = [15, 17]
+recovery = 23
+damage = 900
+superArt = 500
+capcom_skill_id = 506
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Tonitrus (2)
+[[moves]]
+name = "Tonitrus (2)"
+name_ja = "トニトルス (2段目)"
+slug = "tonitrus-2"
 characterId = 13
 blockType = "mid"
 type = "special"
 input = "*p>*p"
 parentSlugs = ["scutum"]
+properties = ["knockdown"]
+notes = [
+  "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses.",
+  "Always in Punish Counter state during execution",
+]
+notes_ja = [
+  "スクトゥムから派生する、両腕で繰り出す連続攻撃。初段がしゃがみガード不可の中段攻撃で、ガード崩しに有効。",
+  "動作中常に被パニッシュカウンター判定",
+]
+startup = 20
+active = [20, 22]
+recovery = 36
+damage = 1000
+superArt = 1150
+capcom_skill_id = 506
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -5000
 
 # Procella
 [[moves]]
@@ -1010,6 +2253,29 @@ characterId = 13
 type = "special"
 input = "*k"
 parentSlugs = ["scutum"]
+properties = ["knockdown"]
+notes = [
+  "A sweeping kick that can be performed from Scutum. It is a low attack with long reach that cannot be blocked standing, making it useful for surprise attacks.",
+  "Always in Punish Counter state during execution",
+]
+notes_ja = [
+  "スクトゥムから派生する、相手の足元を蹴り払う技。立ちガード不可の下段攻撃でリーチが長く、奇襲に有効。",
+  "動作中常に被パニッシュカウンター判定",
+]
+startup = 16
+active = [16, 18]
+recovery = 37
+damage = 1200
+superArt = 1000
+capcom_skill_id = 507
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -10000
 
 # Enfold
 [[moves]]
@@ -1017,10 +2283,36 @@ name = "Enfold"
 name_ja = "エンフォルド"
 slug = "enfold"
 characterId = 13
-blockType = "high"
 type = "commandThrow"
 input = "(lplk)"
 parentSlugs = ["scutum"]
+properties = ["knockdown"]
+notes = [
+  "A throw that can be performed from Scutum. Pin your opponent to the ground and pound them with a single powerful punch. Useful as a way to break through the guard of an opponent who is expecting Scutum to be followed by a punch or kick.",
+  "Always in Punish Counter state during execution",
+  "With Classic Controls",
+  "Does 2875 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 2300 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "スクトゥムから派生する、相手を押し倒して一撃を加える投げ技。他の打撃派生技を警戒させてからのガード崩しとして有効。",
+  "動作中常に被パニッシュカウンター判定",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（2875）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（2300）",
+]
+startup = 5
+active = [5, 7]
+recovery = 54
+damage = 2500
+superArt = 3000
+capcom_skill_id = 508
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Javelin of Marisa
 [[moves]]
@@ -1031,6 +2323,106 @@ characterId = 13
 blockType = "high"
 type = "super1"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage.",
+  "Hold down the button for over 27 frames to change its properties",
+  "Completely invincible on frame 1",
+  "Super Armor for 2 hits from frames 2 - 23",
+]
+notes_ja = [
+  "大きく振りかぶってから全力でパンチを打ち下ろす技。ボタンをホールドして溜めるとダメージが上がる。",
+  "27F以上ホールドすると性能変化",
+  "1F 完全無敵",
+  "2-23F 全身アーマー判定(2回)",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 19
+active = [19, 23]
+recovery = 60
+damage = 2200
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -43
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Javelin of Marisa (Charged)
+[[moves]]
+name = "Javelin of Marisa (Charged)"
+name_ja = "マリーザジャベリン（ホールド）"
+slug = "javelin-of-marisa-charged"
+characterId = 13
+blockType = "high"
+type = "super1"
+input = "236236[*p]"
+properties = ["knockdown"]
+notes = [
+  "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage.",
+  "Completely invincible on frame 1",
+  "Transitions to attack when hit by an opponent’s attack between frames 2 - 27",
+  "Upper body has Super Armor for 2 hits from frames 28 - 47",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+  "Properties change to the following if the attack lands on frames 46 - 47",
+  "- Damage is 2600",
+  "- Does not go into full cinematic animation",
+]
+notes_ja = [
+  "大きく振りかぶってから全力でパンチを打ち下ろす技。ボタンをホールドして溜めるとダメージが上がる。",
+  "1F 完全無敵",
+  "2-27F 打撃当身、当身時派生技に移行",
+  "28-47F 全身アーマー判定(2回)",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "46-47Fでヒット時、以下の性能変化",
+  "・ダメージ2600",
+  "・非ロック演出",
+]
+startup = 42
+active = [42, 47]
+recovery = 60
+damage = 2900
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -42
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Javelin of Marisa (Physical Counter)
+[[moves]]
+name = "Javelin of Marisa (Physical Counter)"
+name_ja = "マリーザジャベリン（当身派生版）"
+slug = "javelin-of-marisa-physical-counter"
+characterId = 13
+blockType = "high"
+type = "super1"
+input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage.",
+  "Completely invincible from frames 1 - 10",
+]
+notes_ja = ["大きく振りかぶってから全力でパンチを打ち下ろす技。ボタンをホールドして溜めるとダメージが上がる。", "1-10F 完全無敵"]
+startup = 7
+active = [7, 9]
+recovery = 54
+damage = 2640
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -37
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Meteorite
 [[moves]]
@@ -1041,6 +2433,41 @@ characterId = 13
 blockType = "high"
 type = "super2"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air with a tackle and descend with a single devastating punch. Useful as an anti-air attack or as a way to tack on big damage at the end of a combo.",
+  "Completely invincible from frames 1 - 15",
+  "Minimum guaranteed damage is set to 40%",
+  "Considered airborne from frames 16 - 48",
+  "Values do not change on counter or Punish Counter",
+  "Properties change to the following if the attack lands between frames 49 - 51",
+  "- Damage is 2500",
+  "- Does not go into full cinematic animation",
+]
+notes_ja = [
+  "タックルで上空高く飛び、落下と同時に強烈な一撃を加える技。対空やコンボの締めで使うと高ダメージを奪える。",
+  "1-15F 完全無敵",
+  "最低保障ダメージ40％",
+  "16-48F 空中判定",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "49-51F目ヒット時、以下の性能変化",
+  "・ダメージ2500",
+  "・非ロック演出",
+]
+startup = 9
+active = [9, 15, 49, 51]
+recovery = 59
+damage = 3000
+scaling = ["Immediate scaling 15%"]
+scaling_ja = ["即時補正15%"]
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -44
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Goddess of the Hunt
 [[moves]]
@@ -1051,6 +2478,31 @@ characterId = 13
 blockType = "high"
 type = "super3"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "After sending your opponent to their knees with a vicious tackle, hit them with a devastating punch that sends them flying against the wall. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+  "Completely invincible from frames 1 - 19",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 50%",
+]
+notes_ja = [
+  "強力な突進で怯ませた後、渾身の一撃で相手を壁に叩き付ける技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "1-19F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 13
+active = [13, 19]
+recovery = 60
+damage = 4000
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -39
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Goddess of the Hunt (Critical Art)
 [[moves]]
@@ -1061,6 +2513,31 @@ characterId = 13
 blockType = "high"
 type = "super3"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "After sending your opponent to their knees with a vicious tackle, hit them with a devastating punch that sends them flying against the wall. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+  "Completely invincible from frames 1 - 19",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 50%",
+]
+notes_ja = [
+  "強力な突進で怯ませた後、渾身の一撃で相手を壁に叩き付ける技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "1-19F 全身無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 13
+active = [13, 19]
+recovery = 60
+damage = 4500
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -39
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Mounted Grace
 [[moves]]
@@ -1072,6 +2549,31 @@ alternativeNames_ja = ["前投げ"]
 characterId = 13
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab an opponent by the leg to send them tumbling to the ground, and punch them from above. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の脚を取って転ばせ、上からパンチを振り下ろす投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Ponte Milvio
 [[moves]]
@@ -1083,3 +2585,24 @@ alternativeNames_ja = ["後ろ投げ"]
 characterId = 13
 type = "throw"
 input = "4(lplk)"
+properties = ["knockdown"]
+notes_ja = [
+  "相手を下から肩で持ち上げ、後方に放り投げる技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcom_skill_id = 102
+notes = [
+  "Lift an opponent up on your shoulders and then toss them behind you. Throws your opponent while switching places with them.",
+]
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
