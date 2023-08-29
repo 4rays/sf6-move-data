@@ -34,6 +34,7 @@ onBlock = -500
 onPunishCounter = -2000
 
 # [Chain combo] Standing Light Punch
+[[moves]]
 name = "[Chain combo] Standing Light Punch"
 name_ja = "[チェーンコンボ] 立ち弱P"
 alternativeNames = ["[Chain combo] Jab"]
