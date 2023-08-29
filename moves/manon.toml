@@ -175,7 +175,10 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["* Adds +17 frames of advantage on a standing opponent during a Punish Counter", "Forces a juggle state when hitting a mid-air opponent for a Punish Counter"]
+notes = [
+  "* Adds +17 frames of advantage on a standing opponent during a Punish Counter",
+  "Forces a juggle state when hitting a mid-air opponent for a Punish Counter",
+]
 notes_ja = ["※地上パニッシュカウンター時+17F", "空中パニッシュカウンター時吹き飛びダウン"]
 
 startup = 15
@@ -370,7 +373,9 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
 
 startup = 11
@@ -561,6 +566,27 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hp"
+notes = [
+  "A quick attack that can be canceled into special moves.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["技の出が早い必殺技キャンセル可能な攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 8
+active = [8, 13]
+recovery = 17
+cancel = "C"
+damage = 800
+superArt = 1000
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Tomoe Derrière
 [[moves]]
@@ -573,6 +599,28 @@ hitCount = 1
 blockType = "high"
 input = "3hk"
 
+notes = [
+  "A kick with long reach that launches opponents into the air.",
+  "juggle state changes when attack lands as a Punish Counter on a grounded opponent",
+  "Forces a juggle state when the attack lands as a Punish Counter on a mid-air opponent",
+]
+notes_ja = ["リーチが長く、相手を吹き飛ばす蹴り。", "地上パニッシュカウンター時吹き飛び変化", "空中パニッシュカウンター時吹き飛びダウン"]
+startup = 11
+active = [11, 19]
+recovery = 32
+damage = 1000
+superArt = 500
+capcom_skill_id = 402
+
+[moves.frameAdvantage]
+hit = 26
+block = -23
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # À Terre
 [[moves]]
 name = "À Terre"
@@ -584,16 +632,86 @@ hitCount = 2
 blockType = "high"
 input = "6mp>6mk"
 
-# En Haut
+startup = 10
+active = [10, 11]
+recovery = 17
+damage = 500
+superArt = 700
+capcom_skill_id = 403
+notes = ["A quick combination attack that pulls your opponent toward you."]
+notes_ja = ["技の出が早く、相手を引き寄せる連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 2
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# En Haut (1)
 [[moves]]
-name = "En Haut"
-name_ja = "アン・オー"
-slug = "en-haut"
+name = "En Haut (1)"
+name_ja = "アン・オー（1段目）"
+slug = "en-haut-1"
+characterId = 12
+type = "targetCombo"
+hitCount = 1
+blockType = "high"
+input = "4mk"
+notes = [
+  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 10
+active = [10, 13]
+recovery = 19
+damage = 600
+superArt = 700
+capcom_skill_id = 404
+
+[moves.frameAdvantage]
+hit = -1
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -4000
+
+# En Haut (2)
+[[moves]]
+name = "En Haut (2)"
+name_ja = "アン・オー（2段目）"
+slug = "en-haut-2"
 characterId = 12
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "4mk>5mk"
+notes = [
+  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 14
+active = [14, 20]
+recovery = 21
+cancel = "C"
+damage = 500
+superArt = 700
+capcom_skill_id = 404
+
+[moves.frameAdvantage]
+hit = -3
+block = -11
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Temps Lié
 [[moves]]
@@ -605,6 +723,26 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5hp>5hp"
+notes = [
+  "A two-hit combination attack that pulls your opponent toward you.",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["続けてヒットし、相手を引き寄せる連続攻撃。", "ガード時硬直2F増加"]
+startup = 5
+active = [5, 6]
+recovery = 20
+damage = 600
+superArt = 1000
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 3
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Allongé
 [[moves]]
@@ -617,182 +755,792 @@ hitCount = 2
 blockType = "high"
 input = "2hp>5hp"
 
+startup = 4
+active = [4, 7]
+recovery = 26
+damage = 500
+superArt = 1000
+capcom_skill_id = 406
+notes = ["A two-hit combination attack. Useful against jumping opponents."]
+notes_ja = ["相手のジャンプに対して強い、続けてヒットする連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -10
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -5000
+onPunishCounter = -7000
+
 # Manège Doré (Light)
 [[moves]]
 name = "Manège Doré (Light)"
 name_ja = "マネージュ・ドレ（弱）"
+alternativeNames = ["L Manège Doré"]
+alternativeNames_ja = ["弱 マネージュ・ドレ"]
 slug = "manege-dore-light"
 characterId = 12
 type = "commandThrow"
 input = "63214lp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 2000 (2300)",
+  "Medal Level 2: 2300 (2645)",
+  "Medal Level 3: 2700 (3105)",
+  "Medal Level 4: 3000 (3450)",
+  "Medal level 5: 3700 (4255)",
+  "Values in parentheses represent damage on Punish Counter",
+]
+notes_ja = [
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 2000（2300）",
+  "メダルLv2 2300（2645）",
+  "メダルLv3 2700（3105）",
+  "メダルLv4 3000（3450）",
+  "メダルLv5 3700（4255）",
+  "（）内はパニッシュカウンター時のダメージ",
+]
+
+startup = 10
+active = [10, 11]
+recovery = 49
+damage = 2000
+superArt = 3000
+capcom_skill_id = 501
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Manège Doré (Medium)
 [[moves]]
 name = "Manège Doré (Medium)"
 name_ja = "マネージュ・ドレ（中）"
+alternativeNames = ["M Manège Doré"]
+alternativeNames_ja = ["中 マネージュ・ドレ"]
 slug = "manege-dore-medium"
 characterId = 12
 type = "commandThrow"
 input = "63214mp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 2000 (2300)",
+  "Medal Level 2: 2300 (2645)",
+  "Medal Level 3: 2700 (3105)",
+  "Medal Level 4: 3000 (3450)",
+  "Medal level 5: 3700 (4255)",
+  "Values in parentheses represent damage on Punish Counter",
+]
+notes_ja = [
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 2000（2300）",
+  "メダルLv2 2300（2645）",
+  "メダルLv3 2700（3105）",
+  "メダルLv4 3000（3450）",
+  "メダルLv5 3700（4255）",
+  "（）内はパニッシュカウンター時のダメージ",
+]
+
+startup = 8
+active = [8, 9]
+recovery = 51
+damage = 2000
+superArt = 3000
+capcom_skill_id = 501
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Manège Doré (Heavy)
 [[moves]]
 name = "Manège Doré (Heavy)"
 name_ja = "マネージュ・ドレ（強）"
+alternativeNames = ["H Manège Doré"]
+alternativeNames_ja = ["強 マネージュ・ドレ"]
 slug = "manege-dore-heavy"
 characterId = 12
 type = "commandThrow"
 input = "63214hp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "With Classic Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 2000 (2300)",
+  "Medal Level 2: 2300 (2645)",
+  "Medal Level 3: 2700 (3105)",
+  "Medal Level 4: 3000 (3450)",
+  "Medal level 5: 3700 (4255)",
+  "Values in parentheses represent damage on Punish Counter",
+  "With Modern Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1600 (2000) / 1840 (2300)",
+  "Medal Level 2: 1840 (2300) / 2116 (2645)",
+  "Medal Level 3: 2160 (2700) / 2484 (3105)",
+  "Medal Level 4: 2400 (3000) / 2760 (3450)",
+  "Medal level 5: 2960 (3700) / 3404 (4255)",
+  "Values after the backslash represent damage on Punish Counter",
+]
+notes_ja = [
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "■クラシック操作",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 2000（2300）",
+  "メダルLv2 2300（2645）",
+  "メダルLv3 2700（3105）",
+  "メダルLv4 3000（3450）",
+  "メダルLv5 3700（4255）",
+  "（）内はパニッシュカウンター時のダメージ",
+  "■モダン操作時",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1600（2000）/1840（2300）",
+  "メダルLv2 1840（2300）/2116（2645）",
+  "メダルLv3 2160（2700）/2484（3105）",
+  "メダルLv4 2400（3000）/2760（3450）",
+  "メダルLv5 2960（3700）/3404（4255）",
+  "※/の後ろがパニッシュカウンター時のダメージ",
+]
+
+startup = 5
+active = [5, 6]
+recovery = 54
+damage = 2000
+superArt = 3000
+capcom_skill_id = 501
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Manège Doré (OD)
 [[moves]]
 name = "Manège Doré (OD)"
 name_ja = "マネージュ・ドレ（OD）"
+alternativeNames = ["OD Manège Doré", "EX Manège Doré"]
+alternativeNames_ja = ["OD マネージュ・ドレ", "EX マネージュ・ドレ"]
 slug = "manege-dore-od"
 characterId = 12
 type = "commandThrow"
 input = "63214(pp)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "With Classic Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 2000 (2300)",
+  "Medal Level 2: 2300 (2645)",
+  "Medal Level 3: 2700 (3105)",
+  "Medal Level 4: 3000 (3450)",
+  "Medal Level 5: 3700 (4255)",
+  "Values in parentheses represent damage on Punish Counter",
+  "With Modern Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1600 (2000) / 1840 (2300)",
+  "Medal Level 2: 1840 (2300) / 2116 (2645)",
+  "Medal Level 3: 2160 (2700) / 2484 (3105)",
+  "Medal Level 4: 2400 (3000) / 2760 (3450)",
+  "Medal Level 5: 2960 (3700) / 3404 (4255)",
+  "Values after the backslash represent damage on Punish Counter",
+]
+notes_ja = [
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "■クラシック操作",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 2000（2300）",
+  "メダルLv2 2300（2645）",
+  "メダルLv3 2700（3105）",
+  "メダルLv4 3000（3450）",
+  "メダルLv5 3700（4255）",
+  "（）内はパニッシュカウンター時のダメージ",
+  "■モダン操作時",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1600（2000）/1840（2300）",
+  "メダルLv2 1840（2300）/2116（2645）",
+  "メダルLv3 2160（2700）/2484（3105）",
+  "メダルLv4 2400（3000）/2760（3450）",
+  "メダルLv5 2960（3700）/3404（4255）",
+  "※/の後ろがパニッシュカウンター時のダメージ",
+]
+
+startup = 8
+active = [8, 9]
+recovery = 51
+damage = 2000
+superArt = 3000
+capcom_skill_id = 501
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Rond-point (Light)
 [[moves]]
 name = "Rond-point (Light)"
 name_ja = "ロン・ポワン（弱）"
+alternativeNames = ["L Rond-point"]
+alternativeNames_ja = ["弱 ロン・ポワン"]
 slug = "rond-point-light"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "236lp"
+properties = ["knockdown"]
+notes = [
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "The upper part of Manon’s body is invincible against mid-air attacks from frames 5 - 15",
+]
+notes_ja = [
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "5-15F 上半身のみ空中判定の攻撃に対して無敵",
+]
+startup = 9
+active = [9, 11, 14, 15]
+recovery = 29
+cancel = "SA3"
+damage = 900
+superArt = 1350
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -4000
 
 # Rond-point (Medium)
 [[moves]]
 name = "Rond-point (Medium)"
 name_ja = "ロン・ポワン（中）"
+alternativeNames = ["M Rond-point"]
+alternativeNames_ja = ["中 ロン・ポワン"]
 slug = "rond-point-medium"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "236mp"
+properties = ["knockdown"]
+notes = [
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "The upper part of Manon’s body is invincible against mid-air attacks from frames 7 - 19",
+]
+notes_ja = [
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "7-19F 上半身のみ空中判定の攻撃に対して無敵",
+]
+startup = 11
+active = [11, 13, 17, 19]
+recovery = 27
+cancel = "SA3"
+damage = 1000
+superArt = 1350
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -4000
 
 # Rond-point (Heavy)
 [[moves]]
 name = "Rond-point (Heavy)"
 name_ja = "ロン・ポワン（強）"
+alternativeNames = ["H Rond-point"]
+alternativeNames_ja = ["強 ロン・ポワン"]
 slug = "rond-point-heavy"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "236hp"
+properties = ["knockdown"]
+notes = [
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "The upper part of Manon’s body is invincible against mid-air attacks from frames 9 - 22",
+  "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 44 - 46",
+]
+notes_ja = [
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "9-22F 上半身のみ空中判定の攻撃に対して無敵",
+  "44-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
+]
+
+startup = 14
+active = [14, 16, 20, 22]
+recovery = 24
+cancel = "SA3"
+damage = 800
+superArt = 1350
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -4000
 
 # Rond-point (OD)
 [[moves]]
 name = "Rond-point (OD)"
 name_ja = "ロン・ポワン（OD）"
+alternativeNames = ["OD Rond-point", "EX Rond-point"]
+alternativeNames_ja = ["OD ロン・ポワン", "EX ロン・ポワン"]
 slug = "rond-point-od"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "236(pp)"
+properties = ["knockdown"]
+notes = [
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "Invincible against mid-air attacks from frames 4 - 16",
+  "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 41 - 46",
+]
+notes_ja = [
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "4-16F 空中判定の攻撃に対して無敵",
+  "41-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
+]
+startup = 8
+active = [8, 11, 14, 16]
+recovery = 30
+cancel = "SA2"
+damage = 800
+superArt = 1350
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -19
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -4000
 
 # Dégagé (Light)
 [[moves]]
 name = "Dégagé (Light)"
 name_ja = "デガジェ（弱）"
+alternativeNames = ["L Dégagé"]
+alternativeNames_ja = ["弱 デガジェ"]
 slug = "degage-light"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "214lp"
+properties = ["knockdown"]
+
+startup = 16
+active = [16, 17, 28, 31]
+recovery = 36
+damage = 1000
+superArt = 800
+capcom_skill_id = 503
+notes = [
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+]
+notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。"]
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -4000
+onPunishCounter = -8000
 
 # Dégagé (Medium)
 [[moves]]
 name = "Dégagé (Medium)"
 name_ja = "デガジェ（中）"
+alternativeNames = ["M Dégagé"]
+alternativeNames_ja = ["中 デガジェ"]
 slug = "degage-medium"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "214mp"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 15 - 39"]
+notes_ja = ["15-39F 空中判定"]
+
+startup = 16
+active = [16, 19, 34, 39]
+recovery = 22
+damage = 1200
+superArt = 800
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Dégagé (Heavy)
 [[moves]]
 name = "Dégagé (Heavy)"
 name_ja = "デガジェ（強）"
+alternativeNames = ["H Dégagé"]
+alternativeNames_ja = ["強 デガジェ"]
 slug = "degage-heavy"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "214hp"
+properties = ["knockdown"]
+notes = [
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+  "Low attack invincibility from frames 9 - 19",
+]
+notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。", "9-19F 足元無敵"]
+startup = 20
+active = [20, 22]
+recovery = 24
+damage = 1000
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -9
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Dégagé (OD)
 [[moves]]
 name = "Dégagé (OD)"
 name_ja = "デガジェ（OD）"
+alternativeNames = ["OD Dégagé", "EX Dégagé"]
+alternativeNames_ja = ["OD デガジェ", "EX デガジェ"]
 slug = "degage-od"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
 input = "214(pp)"
+properties = ["knockdown"]
+notes = [
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+  "Low attack invincibility from frames 11 - 12, as well as throw invincibility",
+  "Considered airborne from frames 9 - 21",
+]
+notes_ja = [
+  "バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。",
+  "11-24F 足元無敵、投げ無敵",
+  "9-21F 空中判定",
+]
+startup = 22
+active = [22, 24]
+recovery = 22
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Renversé (Light)
 [[moves]]
 name = "Renversé (Light)"
 name_ja = "ランヴェルセ（弱）"
+alternativeNames = ["L Renversé"]
+alternativeNames_ja = ["弱 ランヴェルセ"]
 slug = "renverse-light"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
 input = "623lp"
+properties = ["knockdown"]
+notes = [
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "With Classic Controls",
+  "Projectile invincibility from frames 3 - 21",
+  "Transition into feint by holding the button (total 33 frames)",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1350 (1360)",
+  "Medal Level 2: 1500 (1510)",
+  "Medal Level 3: 1650 (1660)",
+  "Medal Level 4: 1800 (1810)",
+  "Medal Level 5: 1950 (1960)",
+  "Values in parentheses represent damage on Punish Counter",
+  "With Modern Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1080 / 1088",
+  "Medal Level 2: 1200 / 1208",
+  "Medal Level 3: 1320 / 1328",
+  "Medal Level 4: 1440 / 1448",
+  "Medal Level 5: 1560 / 1568",
+  "Values after the backslash represent damage on Punish Counter",
+]
+notes_ja = [
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "■クラシック操作",
+  "3-21F 飛び道具に対して無敵",
+  "ボタンホールドでフェイントに派生（全体33F）",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1350（1360）",
+  "メダルLv2 1500（1510）",
+  "メダルLv3 1650（1660）",
+  "メダルLv4 1800（1810）",
+  "メダルLv5 1950（1960）",
+  "（）内はパニッシュカウンター時のダメージ",
+  "■モダン操作時",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1080/1088",
+  "メダルLv2 1200/1208",
+  "メダルLv3 1320/1328",
+  "メダルLv4 1440/1448",
+  "メダルLv5 1560/1568",
+  "※/の後ろがパニッシュカウンター時のダメージ",
+]
+
+startup = 22
+active = [22, 23]
+recovery = 37
+cancel = "SA3"
+damage = 1350
+superArt = 2150
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -8000
 
 # Renversé (Medium)
 [[moves]]
 name = "Renversé (Medium)"
 name_ja = "ランヴェルセ（中）"
+alternativeNames = ["M Renversé"]
+alternativeNames_ja = ["中 ランヴェルセ"]
 slug = "renverse-medium"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
 input = "623mp"
+properties = ["knockdown"]
+notes = [
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Projectile invincibility from frames 3 - 24",
+  "Transition into feint by holding the button (total 34 frames)",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1400 (1420)",
+  "Medal Level 2: 1550 (1570)",
+  "Medal Level 3: 1700 (1720)",
+  "Medal Level 4: 1850 (1870)",
+  "Medal Level 5: 2000 (2020)",
+  "Values in parentheses represent damage on Punish Counter",
+]
+notes_ja = [
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "3-24F 飛び道具に対して無敵",
+  "ボタンホールドでフェイントに派生（全体34F）",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1400（1420）",
+  "メダルLv2 1550（1570）",
+  "メダルLv3 1700（1720）",
+  "メダルLv4 1850（1870）",
+  "メダルLv5 2000（2020）",
+  "（）内はパニッシュカウンター時のダメージ",
+]
+
+startup = 25
+active = [25, 26]
+recovery = 34
+cancel = "SA3"
+damage = 1400
+superArt = 2150
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -8000
 
 # Renversé (Heavy)
 [[moves]]
 name = "Renversé (Heavy)"
 name_ja = "ランヴェルセ（強）"
+alternativeNames = ["H Renversé"]
+alternativeNames_ja = ["強 ランヴェルセ"]
 slug = "renverse-heavy"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
 input = "623hp"
+properties = ["knockdown"]
+notes = [
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Projectile invincibility from frames 3 - 28",
+  "Transition into feint by holding the button (total 35 frames)",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1500 (1540)",
+  "Medal Level 2: 1650 (1690)",
+  "Medal Level 3: 1800 (1840)",
+  "Medal Level 4: 1950 (1990)",
+  "Medal Level 5: 2100 (2140)",
+  "Values in parentheses represent damage on Punish Counter",
+]
+notes_ja = [
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "3-28F 飛び道具に対して無敵",
+  "ボタンホールドでフェイントに派生（全体35F）",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1500（1540）",
+  "メダルLv2 1650（1690）",
+  "メダルLv3 1800（1840）",
+  "メダルLv4 1950（1990）",
+  "メダルLv5 2100（2140）",
+  "（）内はパニッシュカウンター時のダメージ",
+]
+
+startup = 29
+active = [29, 30]
+recovery = 30
+cancel = "SA3"
+damage = 1500
+superArt = 2150
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -8000
 
 # Renversé (OD)
 [[moves]]
 name = "Renversé (OD)"
 name_ja = "ランヴェルセ（OD）"
+alternativeNames = ["OD Renversé", "EX Renversé"]
+alternativeNames_ja = ["OD ランヴェルセ", "EX ランヴェルセ"]
 slug = "renverse-od"
 characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "With Classic Controls",
+  "Invincible against strikes from the knee and up from frames 3 - 26",
+  "Invincible against projectiles from frames 3 - 26",
+  "Transition into feint by holding the button (total 35 frames)",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1500 (1540)",
+  "Medal Level 2: 1650 (1690)",
+  "Medal Level 3: 1800 (1840)",
+  "Medal Level 4: 1950 (1990)",
+  "Medal Level 5: 2100 (2140)",
+  "Values in parentheses represent damage on Punish Counter",
+  "With Modern Controls",
+  "Medal level increases by a single level on hit",
+  "*Damage increases the higher the Medal level",
+  "Medal Level 1: 1200 / 1232",
+  "Medal Level 2: 1320 / 1352",
+  "Medal Level 3: 1440 / 1472",
+  "Medal Level 4: 1560 / 1592",
+  "Medal Level 5: 1680 / 1712",
+  "Values after the backslash represent damage on Punish Counter",
+]
+notes_ja = [
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "■クラシック操作",
+  "3-26F 膝から上打撃に対して無敵",
+  "3-26F 飛び道具に対して無敵",
+  "ボタンホールドでフェイントに派生（全体34F）",
+  "ヒット時にメダルLvが1上昇",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1500（1540）",
+  "メダルLv2 1650（1690）",
+  "メダルLv3 1800（1840）",
+  "メダルLv4 1950（1990）",
+  "メダルLv5 2100（2140）",
+  "（）内はパニッシュカウンター時のダメージ",
+  "■モダン操作時",
+  "※メダルLvに応じてダメージが上昇",
+  "メダルLv1 1200/1232",
+  "メダルLv2 1320/1352",
+  "メダルLv3 1440/1472",
+  "メダルLv4 1560/1592",
+  "メダルLv5 1680/1712",
+  "※/の後ろがパニッシュカウンター時のダメージ",
+]
 
-# Renversé (Feint)
-[[moves]]
-name = "Renversé (Feint)"
-name_ja = "ランヴェルセ（フェイント）"
-slug = "renverse-feint"
-characterId = 12
-type = "action"
-input = "623*p"
+startup = 25
+active = [25, 26]
+recovery = 34
+damage = 1500
+superArt = 2150
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -8000
 
 # Grand Fouetté
 [[moves]]
@@ -804,7 +1552,66 @@ hitCount = 1
 blockType = "high"
 type = "special"
 input = "*k"
-parentSlugs = ["renverse-feint"]
+parentSlugs = ["renverse-light", "renverse-medium", "renverse-heavy"]
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 16]
+recovery = 22
+cancel = "SA3"
+damage = 800
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 1150
+capcom_skill_id = 505
+notes = [
+  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
+]
+notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい。"]
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -10000
+
+# Grand Fouetté (OD)
+[[moves]]
+name = "Grand Fouetté (OD)"
+name_ja = "グラン・フェッテ（OD）"
+alternativeNames = ["OD Grand Fouetté", "EX Grand Fouetté"]
+alternativeNames_ja = ["OD グラン・フェッテ", "EX グラン・フェッテ"]
+slug = "grand-fouette-od"
+characterId = 12
+hitCount = 1
+blockType = "high"
+type = "special"
+input = "*k"
+parentSlugs = ["renverse-od"]
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 16]
+recovery = 22
+cancel = "SA2"
+damage = 800
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 1150
+capcom_skill_id = 505
+notes = [
+  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
+]
+notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Arabesque
 [[moves]]
@@ -816,6 +1623,30 @@ hitCount = 1
 blockType = "high"
 type = "super1"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "A kick performed while sliding forward along the ground that sends your opponent flying. This move is invincible on startup, making it useful as a way to turn the tables.",
+  "Invincible against strikes and throws from frames 1 - 13",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "前方へ高速で滑り込みながらの蹴りで相手を吹き飛ばす技。技の出始めに無敵時間があり、切り返しに使える。",
+  "1-13F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 10
+active = [10, 13]
+recovery = 65
+damage = 2000
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -49
+
+[moves.driveGauge]
+onBlock = -2500
 
 # Étoile
 [[moves]]
@@ -827,6 +1658,34 @@ hitCount = 1
 blockType = "high"
 type = "super2"
 input = "214214*k"
+properties = ["knockdown"]
+notes = [
+  "Launch your opponent into the air with a quick one-two combination of kicks, and follow up with a powerful leaping kick. This move executes quickly, making it useful as an anti-air attack or as a way to combo airborne opponents.",
+  "Completely invincible from frames 1 - 9",
+  "Considered airborne from frames 21 - 36 and 68 - 118",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "連続蹴りで相手を打ち上げ、舞い上がりながらの蹴りで締める技。技の出が早く、対空や浮かせてからのコンボで使いやすい。",
+  "1-9F 完全無敵",
+  "21-36F、68-118F 空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 7
+active = [7, 9, 21, 26, 72, 80]
+recovery = 38
+postLandingRecovery = 34
+damage = 2700
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -61
+
+[moves.driveGauge]
+onBlock = -1000
 
 # Pas de Deux
 [[moves]]
@@ -839,6 +1698,30 @@ blockType = "high"
 type = "super3"
 input = "236236*p"
 
+properties = ["knockdown"]
+notes = [
+  "Attack as though performing a ballet dance and then smash your opponent into the ground with a devastating slam. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "Completely invincible from frames 1 - 8",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into standing heavy punch and Rond-point",
+]
+notes_ja = [
+  "バレエのリズムで舞うように攻撃を加え、強烈に投げ落とす技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "1-8F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※立ち強P、ロン・ポワンからキャンセル時のみ15％",
+]
+
+startup = 7
+active = [7, 8]
+recovery = 72
+damage = 4000
+scaling = ["*Immediate scaling 5％"]
+scaling_ja = ["※即時補正5％"]
+capcom_skill_id = 603
+
 # Pas de Deux (Critical Art)
 [[moves]]
 name = "Pas de Deux (Critical Art)"
@@ -849,10 +1732,30 @@ hitCount = 1
 blockType = "high"
 type = "super3"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frames 1 - 8",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into standing heavy punch and Rond-point",
+]
+notes_ja = [
+  "1-8F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※立ち強P、ロン・ポワンからキャンセル時のみ15％",
+]
 
-# Ouchigari
+startup = 7
+active = [7, 8]
+recovery = 72
+damage = 4500
+scaling = ["*Immediate scaling 5％"]
+scaling_ja = ["※即時補正5％"]
+
+# Ouchi Gari
 [[moves]]
-name = "Ouchigari"
+name = "Ouchi Gari"
 name_ja = "オーウチガリ"
 alternativeNames = ["Forward Throw"]
 alternativeNames_ja = ["前投げ"]
@@ -860,10 +1763,37 @@ slug = "ouchigari"
 characterId = 12
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grapple with your opponent, slipping your leg between theirs and tossing them to the ground. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手に組み付き、脚を内から刈り倒して投げる技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Uchimata
 [[moves]]
-name = "Uchimata"
+name = "Uchi Mata"
 name_ja = "ウチマタ"
 alternativeNames = ["Back Throw"]
 alternativeNames_ja = ["後ろ投げ"]
@@ -871,3 +1801,30 @@ slug = "uchimata"
 characterId = 12
 type = "throw"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grapple with your opponent, slipping your leg between theirs and lifting them over you. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手に組み付き、股の間から脚を跳ね飛ばして投げる技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
