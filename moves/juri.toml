@@ -45,7 +45,10 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
-notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes = [
+  "Can be rapid canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
 notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
 
 startup = 4
@@ -325,8 +328,13 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["Forces a juggle state knockdown on Punish Counter, or when it hits as a mid-air Counter or Punish Counter"]
-notes_ja = ["パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン", "空中ヒットでパニッシュカウンター時吹き飛び時間延長"]
+notes = [
+  "Forces a juggle state knockdown on Punish Counter, or when it hits as a mid-air Counter or Punish Counter",
+]
+notes_ja = [
+  "パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン",
+  "空中ヒットでパニッシュカウンター時吹き飛び時間延長",
+]
 
 startup = 17
 active = [17, 20]
@@ -422,7 +430,10 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2lp"
-notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes = [
+  "Can be rapid canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
 notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
 
 startup = 4
@@ -610,7 +621,10 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
-notes = ["Can be rapid canceled", "Forces a juggle state when hitting a mid-air opponent"]
+notes = [
+  "Can be rapid canceled",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
 notes_ja = ["連打キャンセル対応", "空中ヒット時吹き飛びダウン"]
 
 startup = 5
@@ -710,7 +724,9 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
 
 startup = 10
@@ -740,7 +756,9 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
 
 startup = 10
@@ -932,7 +950,10 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
-notes = ["Has cross-up attack properties", "Forces a juggle state when hitting a mid-air opponent"]
+notes = [
+  "Has cross-up attack properties",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
 notes_ja = ["めくり性能", "空中ヒット時吹き飛びダウン"]
 
 startup = 4
@@ -986,7 +1007,10 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
-notes = ["Has cross-up attack properties", "Forces a juggle state when hitting a mid-air opponent"]
+notes = [
+  "Has cross-up attack properties",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
 notes_ja = ["めくり性能", "空中ヒット時吹き飛びダウン"]
 
 startup = 6
@@ -1115,6 +1139,53 @@ hitCount = 1
 blockType = "high"
 input = "6mp"
 
+startup = 8
+active = [8, 10]
+recovery = 17
+cancel = "C"
+damage = 600
+superArt = 500
+capcom_skill_id = 401
+notes = ["A forward-moving attack that can be canceled into special moves."]
+notes_ja = ["前進して繰り出す、必殺技キャンセル可能な攻撃。"]
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# [Chain combo] Kyosesho
+[[moves]]
+name = "[Chain combo] Kyosesho"
+name_ja = "[チェーンコンボ] 狂背掌"
+slug = "chain-kyosesho"
+characterId = 6
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 10]
+recovery = 17
+cancel = "C"
+damage = 400
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 375
+onBlock = -750
+onPunishCounter = -1000
+
 # Senkai Kick
 [[moves]]
 name = "Senkai Kick"
@@ -1125,6 +1196,58 @@ type = "commandNormal"
 hitCount = 1
 blockType = "mid"
 input = "6mk"
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "空振り時硬直2F増加"]
+startup = 21
+active = [21, 22]
+recovery = 23
+damage = 600
+superArt = 700
+capcom_skill_id = 402
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2500
+onPunishCounter = -5000
+
+# [Chain combo] Senkai Kick
+[[moves]]
+name = "[Chain combo] Senkai Kick"
+name_ja = "[チェーンコンボ] 殲廻脚"
+slug = "chain-senkai-kick"
+characterId = 6
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+input = "6mk"
+properties = ["knockdown"]
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "2 frames of recovery added when the attack misses",
+  "Produces a slam knockdown",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "空振り時硬直2F増加", "叩きつけダウン"]
+startup = 21
+active = [21, 22]
+recovery = 23
+cancel = "C"
+damage = 400
+capcom_skill_id = 402
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 375
+onBlock = -625
+onPunishCounter = -1250
 
 # Renko Kicks
 [[moves]]
@@ -1136,6 +1259,56 @@ type = "commandNormal"
 hitCount = 2
 blockType = "high"
 input = "6hp"
+notes = [
+  "A two-hit sequence of kicks that can be canceled into special moves.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["必殺技キャンセル可能な踏み込み連続蹴り。", "空中ヒット時吹き飛びダウン"]
+startup = 15
+active = [15, 17, 23, 25]
+recovery = 20
+cancel = "C"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 403
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -10000
+
+# [Chain combo] Renko Kicks
+[[moves]]
+name = "[Chain combo] Renko Kicks"
+name_ja = "[チェーンコンボ] 連剋脚"
+slug = "chain-renko-kicks"
+characterId = 6
+type = "commandNormal"
+hitCount = 2
+blockType = "high"
+input = "6hp"
+properties = ["knockdown"]
+
+startup = 15
+active = [15, 17, 23, 25]
+recovery = 20
+cancel = "C"
+damage = 800
+capcom_skill_id = 403
+notes = ["A two-hit sequence of kicks that can be canceled into special moves."]
+notes_ja = ["必殺技キャンセル可能な踏み込み連続蹴り。"]
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 625
+onBlock = -1250
+onPunishCounter = -2500
 
 # Korenzan
 [[moves]]
@@ -1147,61 +1320,270 @@ type = "commandNormal"
 hitCount = 2
 blockType = "high"
 input = "4hk"
+notes = [
+  "A multi-hit kick that can be canceled into special moves.",
+  "Forces a juggle state knockdown on the 1st mid-air hit, and a slam knockdown on the 2nd mid-air hit",
+]
+notes_ja = ["必殺技キャンセル可能な連続でヒットする蹴り。", "初段空中ヒット時吹き飛びダウン、2段目空中ヒット時叩きつけダウン"]
+startup = 10
+active = [10, 12, 19, 21]
+recovery = 19
+cancel = "C"
+damage = 800
+superArt = 1000
+capcom_skill_id = 404
 
-# Death Crest
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -8000
+
+# [Chain combo] Korenzan
 [[moves]]
-name = "Death Crest"
-name_ja = "死紋蹴"
-slug = "death-crest"
+name = "[Chain combo] Korenzan"
+name_ja = "[チェーンコンボ] 鉤鎌斬"
+slug = "chain-korenzan"
+characterId = 6
+type = "commandNormal"
+hitCount = 2
+blockType = "high"
+input = "4hk"
+properties = ["knockdown"]
+notes = ["Forces a slam knockdown when the 2nd attack hits a mid-air opponent"]
+notes_ja = ["2段目空中ヒット時叩きつけダウン"]
+
+startup = 10
+active = [10, 12, 19, 21]
+recovery = 19
+cancel = "C"
+damage = 600
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 375
+onBlock = -750
+onPunishCounter = -2000
+
+# Death Crest (2)
+[[moves]]
+name = "Death Crest (2)"
+name_ja = "死紋蹴（2段目）"
+slug = "death-crest-2"
 characterId = 6
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
+input = "5mp>4hp"
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 14]
+recovery = 19
+damage = 500
+superArt = 1000
+capcom_skill_id = 405
+notes = ["A combination attack that sends an opponent flying."]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -7000
+
+# Death Crest (3)
+[[moves]]
+name = "Death Crest (3)"
+name_ja = "死紋蹴（3段目）"
+slug = "death-crest-3"
+characterId = 6
+type = "targetCombo"
+hitCount = 3
+blockType = "high"
 input = "5mp>4hp>5hp"
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 19]
+recovery = 27
+damage = 600
+superArt = 500
+capcom_skill_id = 405
+notes = ["A combination attack that sends an opponent flying."]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -1000
+onPunishCounter = -7000
 
 # Fuhajin (Light)
 [[moves]]
 name = "Fuhajin (Light)"
 name_ja = "風破刃（弱）"
+alternativeNames = ["L Fuhajin", "Light Fireball"]
+alternativeNames_ja = ["弱 風破刃"]
 slug = "fuhajin-light"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lk"
+properties = ["knockdown"]
+notes = [
+  "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion.",
+  "Has a clash hitbox from frames 8 - 13",
+  "Adds 1 Fuha stock on frame 10",
+  "* 2 frames of recovery added when the attack misses.",
+]
+notes_ja = [
+  "蹴り上げでの攻撃と同時に周囲の気を絡めとる技。技後は風破ストックが1増加する。",
+  "8-13F 相殺判定",
+  "10F目で風破ストックが1増加",
+  "※空振り時硬直2F増加",
+]
+startup = 10
+active = [10, 13]
+recovery = 21
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Fuhajin (Medium)
 [[moves]]
 name = "Fuhajin (Medium)"
 name_ja = "風破刃（中）"
+alternativeNames = ["M Fuhajin", "Medium Fireball"]
+alternativeNames_ja = ["中 風破刃"]
 slug = "fuhajin-medium"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mk"
+properties = ["knockdown"]
+notes = [
+  "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion.",
+  "Has a clash hitbox from frames 11 - 16",
+  "Adds 1 Fuha stock on frame 13",
+]
+notes_ja = [
+  "蹴り上げでの攻撃と同時に周囲の気を絡めとる技。技後は風破ストックが1増加する。",
+  "11-16F 相殺判定",
+  "13F目で風破ストックが1増加",
+]
+startup = 13
+active = [13, 16]
+recovery = 21
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Fuhajin (Heavy)
 [[moves]]
 name = "Fuhajin (Heavy)"
 name_ja = "風破刃（強）"
+alternativeNames = ["H Fuhajin", "Heavy Fireball"]
+alternativeNames_ja = ["強 風破刃"]
 slug = "fuhajin-heavy"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hk"
+properties = ["knockdown"]
+notes = [
+  "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion.",
+  "Has a clash hitbox from frames 23 - 28",
+  "Adds 1 Fuha stock on frame 25",
+]
+notes_ja = [
+  "蹴り上げでの攻撃と同時に周囲の気を絡めとる技。技後は風破ストックが1増加する。",
+  "23-28F 相殺判定",
+  "25F目で風破ストックが1増加",
+]
+startup = 25
+active = [25, 28]
+recovery = 20
+cancel = "SA3"
+damage = 500
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Fuhajin (OD)
 [[moves]]
 name = "Fuhajin (OD)"
 name_ja = "風破刃（OD）"
+alternativeNames = ["OD Fuhajin", "EX Fireball", "OD Fireball"]
+alternativeNames_ja = ["OD 風破刃"]
 slug = "fuhajin-od"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
+properties = ["knockdown"]
+notes = [
+  "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion.",
+  "Has a clash hitbox from frames 14 - 19",
+  "Adds 1 Fuha stock on frame 16",
+]
+notes_ja = [
+  "蹴り上げでの攻撃と同時に周囲の気を絡めとる技。技後は風破ストックが1増加する。",
+  "14-19F 相殺判定",
+  "16F目で風破ストックが1増加",
+]
+startup = 16
+active = [16, 19]
+recovery = 23
+cancel = "SA2"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Saihasho
 [[moves]]
@@ -1214,34 +1596,102 @@ hitCount = 1
 blockType = "high"
 input = "236lk"
 properties = ["stockDecrement"]
-notes = ["Can be followed up with an Ankensatsu or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に暗剣殺 or 五黄殺 に派生可能"]
+notes = [
+  "A roundhouse kick that fires a projectile low to the ground. Useful for checking your opponents, in combos, or as a way to start offensive pressure.",
+  "Can be followed up with an Ankensatsu or Go Ohsatsu when a Fuha is stocked",
+]
+notes_ja = [
+  "回し蹴りから地を這う気弾を放つ技。けん制や連係など、攻めの起点として使いやすい。",
+  "風破ストックがある時に暗剣殺 or 五黄殺 に派生可能",
+]
+startup = 16
+totalFrames = 45
+cancel = "SA3"
+damage = 400
+superArt = 600
+capcom_skill_id = 502
 
-# Saihasho (Fuha Stock)
+[moves.frameAdvantage]
+hit = -2
+block = -8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
+# [Boosted] Saihasho
 [[moves]]
-name = "Saihasho (Fuha Stock)"
-name_ja = "歳破衝（風破ストック）"
-slug = "saihasho-fuha-stock"
+name = "[Boosted] Saihasho"
+name_ja = "[強化版]歳破衝"
+slug = "boosted-saihasho"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "236lk"
-notes = ["Can be followed up with an Ankensatsu or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に暗剣殺 or 五黄殺 に派生可能"]
+notes = [
+  "A roundhouse kick that fires a projectile low to the ground. Useful for checking your opponents, in combos, or as a way to start offensive pressure.",
+  "Can transition to boosted Ankenstatsu or boosted Go Ohsatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+]
+notes_ja = [
+  "回し蹴りから地を這う気弾を放つ技。けん制や連係など、攻めの起点として使いやすい。",
+  "風破ストックがある時に[強化版]暗剣殺 or [強化版]五黄殺 に派生可能",
+  "同じ技は2回使えない",
+]
+startup = 16
+totalFrames = 45
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Saihasho (OD)
 [[moves]]
 name = "Saihasho (OD)"
 name_ja = "歳破衝（OD）"
+alternativeNames = ["OD Saihasho", "EX Saihasho"]
+alternativeNames_ja = ["OD 歳破衝", "EX 歳破衝"]
 slug = "saihasho-od"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(pp)"
-notes = ["Can be followed up with an Ankensatsu or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に暗剣殺 or 五黄殺 に派生可能"]
+input = "236(lkmk)"
+properties = ["knockdown"]
+notes = [
+  "A roundhouse kick that fires a projectile low to the ground. Useful for checking your opponents, in combos, or as a way to start offensive pressure.",
+  "Can transition to Overdrive Ankensatsu or Overdrive Go Ohsatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+]
+notes_ja = [
+  "回し蹴りから地を這う気弾を放つ技。けん制や連係など、攻めの起点として使いやすい。",
+  "風破ストックがある時にOD暗剣殺 or OD五黄殺 に派生可能",
+  "同じ技は2回使えない",
+]
+startup = 11
+totalFrames = 38
+cancel = "SA2"
+damage = 800
+superArt = 600
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
 
 # Ankensatsu
 [[moves]]
@@ -1253,34 +1703,121 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
-notes = ["Can be followed up with a Saihasho or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に歳破衝 or 五黄殺 に派生可能"]
+notes = [
+  "Leap forward in a low arc and come down with an axe kick. Useful as a way to approach while avoiding attacks targeted at your feet, and can also be used in combos.",
+  "Invincible to mid-air attacks from frames 8 - 27",
+  "Produces a slam knockdown on a mid-air hit",
+]
+notes_ja = [
+  "前方に低い軌道で跳び上がり、踵落としを繰り出す技。足元への攻撃を避けながらの接近手段やコンボの中継に使える。",
+  "8-27F空中判定",
+  "空中ヒット時叩きつけダウン",
+]
+startup = 24
+active = [24, 27]
+recovery = 19
+cancel = "SA3"
+damage = 600
+superArt = 800
+capcom_skill_id = 503
 
-# Ankensatsu (Fuha Stock)
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# [Boosted] Ankensatsu
 [[moves]]
-name = "Ankensatsu (Fuha Stock)"
-name_ja = "暗剣殺（風破ストック）"
-slug = "ankensatsu-fuha-stock"
+name = "[Boosted] Ankensatsu"
+name_ja = "[強化版]暗剣殺"
+slug = "boosted-ankensatsu"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
-notes = ["Can be followed up with a Saihasho or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に歳破衝 or 五黄殺 に派生可能"]
+notes = [
+  "Leap forward in a low arc and come down with an axe kick. Useful as a way to approach while avoiding attacks targeted at your feet, and can also be used in combos.",
+  "Considered airborne from frames 8 - 27",
+  "* Can transition to boosted Saihasho or boosted Go Ohsatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+  "Produces a floor bound during a mid-air hit",
+]
+notes_ja = [
+  "前方に低い軌道で跳び上がり、踵落としを繰り出す技。足元への攻撃を避けながらの接近手段やコンボの中継に使える。",
+  "8-27F空中判定",
+  "※風破ストックがある時に[強化版]歳破衝 or [強化版]五黄殺 に派生可能",
+  "同じ技は2回使えない",
+  "空中ヒット時叩きつけダウン",
+]
+
+startup = 24
+active = [24, 27]
+recovery = 19
+cancel = "SA3"
+damage = 600
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = 8
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Ankensatsu (OD)
 [[moves]]
 name = "Ankensatsu (OD)"
 name_ja = "暗剣殺（OD）"
+alternativeNames = ["OD Ankensatsu", "EX Ankensatsu"]
+alternativeNames_ja = ["OD 暗剣殺", "EX 暗剣殺"]
 slug = "ankensatsu-od"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(pp)"
-notes = ["Can be followed up with a Saihasho or Go Ohsatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に歳破衝 or 五黄殺 に派生可能"]
+input = "236(lkhk)"
+notes = [
+  "Leap forward in a low arc and come down with an axe kick. Useful as a way to approach while avoiding attacks targeted at your feet, and can also be used in combos.",
+  "Considered airborne from frames 8 - 27",
+  "* Can transition to Overdrive Saihasho or Overdrive Go Ohsatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+  "Produces a floor bound during a mid-air hit",
+]
+notes_ja = [
+  "前方に低い軌道で跳び上がり、踵落としを繰り出す技。足元への攻撃を避けながらの接近手段やコンボの中継に使える。",
+  "8-27F空中判定",
+  "※風破ストックがある時にOD歳破衝 or OD五黄殺 に派生可能",
+  "同じ技は2回使えない",
+  "空中ヒット時床バウンド",
+]
+
+startup = 24
+active = [24, 27]
+recovery = 19
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = 9
+block = -10
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
 
 # Go Ohsatsu
 [[moves]]
@@ -1292,48 +1829,183 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
-notes = ["Can be followed up with a Saihasho or Ankensatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に歳破衝 or 暗剣殺 に派生可能"]
+properties = ["knockdown"]
 
-# Go Ohsatsu (Fuha Stock)
+startup = 18
+active = [18, 21]
+recovery = 27
+cancel = "SA3"
+damage = 1000
+superArt = 700
+capcom_skill_id = 504
+notes = [
+  "Lunge forward and let fly a swift overhead roundhouse. Its long reach makes it effective when used for surprise attacks from a distance, and it can also be canceled into from normal moves to make combos.",
+]
+notes_ja = ["前方に踏み込んで鋭い上段回し蹴りを繰り出す技。リーチを活かした奇襲や通常技キャンセルからのコンボで有効。"]
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Boosted] Go Ohsatsu
 [[moves]]
-name = "Go Ohsatsu (Fuha Stock)"
-name_ja = "五黄殺（風破ストック）"
+name = "[Boosted] Go Ohsatsu"
+name_ja = "[強化版]五黄殺"
 slug = "go-ohsatsu-fuha-stock"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
-notes = ["Can be followed up with a Saihasho or Ankensatsu when a Fuha is stocked"]
-notes_ja = ["風破ストックがある時に歳破衝 or 暗剣殺 に派生可能"]
+properties = ["knockdown"]
+notes = [
+  "Lunge forward and let fly a swift overhead roundhouse. Its long reach makes it effective when used for surprise attacks from a distance, and it can also be canceled into from normal moves to make combos.",
+  "Can transition to boosted Saihasho or boosted Ankensatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+]
+notes_ja = [
+  "前方に踏み込んで鋭い上段回し蹴りを繰り出す技。リーチを活かした奇襲や通常技キャンセルからのコンボで有効。",
+  "風破ストックがある時に[強化版]歳破衝 or[強化版] 暗剣殺 に派生可能",
+  "同じ技は2回使えない",
+]
+startup = 18
+active = [18, 21, 34, 36]
+recovery = 27
+cancel = "SA3"
+damage = 1200
+superArt = 700
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Go Ohsatsu (OD)
+[[moves]]
+name = "Go Ohsatsu (OD)"
+name_ja = "五黄殺（OD）"
+alternativeNames = ["OD Go Ohsatsu", "EX Go Ohsatsu"]
+alternativeNames_ja = ["OD 五黄殺", "EX 五黄殺"]
+slug = "go-ohsatsu-od"
+characterId = 6
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(mkhk)"
+properties = ["knockdown"]
+notes = [
+  "Lunge forward and let fly a swift overhead roundhouse. Its long reach makes it effective when used for surprise attacks from a distance, and it can also be canceled into from normal moves to make combos.",
+  "* Can transition to Overdrive Saihasho or Overdrive Ankensatsu when Fuha is stocked",
+  "Cannot use the same attack twice",
+]
+notes_ja = [
+  "前方に踏み込んで鋭い上段回し蹴りを繰り出す技。リーチを活かした奇襲や通常技キャンセルからのコンボで有効。",
+  "※風破ストックがある時にOD歳破衝 or OD 暗剣殺 に派生可能",
+  "同じ技は2回使えない",
+]
+startup = 18
+active = [18, 21, 34, 36, 65, 69]
+recovery = 28
+cancel = "SA2*"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -5000
 
 # Tensenrin (Light)
 [[moves]]
 name = "Tensenrin (Light)"
 name_ja = "天穿輪（弱）"
+alternativeNames = ["L Tensenrin", "Light Pinwheel"]
+alternativeNames_ja = ["弱 天穿輪"]
 slug = "tensenrin-light"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 13, 16, 17]
+recovery = 22
+cancel = "SA3"
+damage = 800
+superArt = 1000
+capcom_skill_id = 505
+notes = [
+  "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage.",
+]
+notes_ja = ["風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える。"]
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tensenrin (Medium)
 [[moves]]
 name = "Tensenrin (Medium)"
 name_ja = "天穿輪（中）"
+alternativeNames = ["M Tensenrin", "Medium Pinwheel"]
+alternativeNames_ja = ["中 天穿輪"]
 slug = "tensenrin-medium"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623mp"
+properties = ["knockdown"]
+notes = [
+  "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage.",
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 8 - 48",
+]
+notes_ja = [
+  "風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える。",
+  "1-8F 空中判定の攻撃に対して無敵",
+  "8-48F 空中判定",
+]
+startup = 5
+active = [5, 12, 18, 19, 23, 24]
+postLandingRecovery = 14
+damage = 1200
+superArt = 1000
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -37
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tensenrin (Heavy)
 [[moves]]
 name = "Tensenrin (Heavy)"
 name_ja = "天穿輪（強）"
+alternativeNames = ["H Tensenrin", "Heavy Pinwheel"]
+alternativeNames_ja = ["強 天穿輪"]
 slug = "tensenrin-heavy"
 characterId = 6
 type = "special"
@@ -1341,16 +2013,67 @@ hitCount = 1
 blockType = "high"
 input = "623hp"
 
+properties = ["knockdown"]
+notes = [
+  "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage.",
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 8 - 48",
+]
+notes_ja = [
+  "風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える。",
+  "1-8F 空中判定の攻撃に対して無敵",
+  "8-48F 空中判定",
+]
+startup = 5
+active = [5, 12, 18, 19, 23, 24]
+postLandingRecovery = 14
+damage = 1200
+superArt = 1000
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -37
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Tensenrin (OD)
 [[moves]]
 name = "Tensenrin (OD)"
 name_ja = "天穿輪（OD）"
+alternativeNames = ["OD Tensenrin", "EX Pinwheel"]
+alternativeNames_ja = ["OD 天穿輪", "EX 天穿輪"]
 slug = "tensenrin-od"
 characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage.",
+  "Completely invincible from frames 1 - 9",
+  "Only transitions to the final attack if the attack hits",
+]
+notes_ja = [
+  "風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える。",
+  "1-9F 完全無敵",
+  "ヒット時のみ最終段に派生",
+]
+startup = 6
+active = [6, 9, 11, 12, 19, 20, 23, 24]
+postLandingRecovery = 19
+damage = 1600
+superArt = 900
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -48
+
+[moves.driveGauge]
+onBlock = -4000
 
 # Shiku-sen
 [[moves]]
@@ -1361,9 +2084,23 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k"
-notes = ["During a forward jump"]
-notes_ja = ["前ジャンプ中に"]
+input = "9>214*k"
+
+startup = 18
+active = [18]
+postLandingRecovery = 18
+damage = 400
+superArt = 600
+capcom_skill_id = 506
+notes = [
+  "A surprise attack performed by kicking while airborne. Useful for surprise attacks or as a way to approach your opponent.",
+]
+notes_ja = ["空中からの飛び蹴りで急襲する技。相手への奇襲や接近手段として有効。"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Shiku-sen (OD)
 [[moves]]
@@ -1374,9 +2111,22 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214(kk)"
-notes = ["During a forward jump"]
-notes_ja = ["前ジャンプ中に"]
+input = "9>214(kk)"
+
+startup = 16
+active = [16]
+postLandingRecovery = 18
+damage = 300
+superArt = 600
+capcom_skill_id = 506
+notes = [
+  "A surprise attack performed by kicking while airborne. Useful for surprise attacks or as a way to approach your opponent.",
+]
+notes_ja = ["空中からの飛び蹴りで急襲する技。相手への奇襲や接近手段として有効。"]
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
 
 # Shiren-sen
 [[moves]]
@@ -1390,6 +2140,20 @@ blockType = "high"
 input = "*k"
 parentSlugs = ["shiku-sen"]
 
+startup = 6
+active = [6, 9, 14, 17, 35, 38]
+postLandingRecovery = 12
+damage = 1200
+superArt = 600
+capcom_skill_id = 507
+notes = [
+  "A series of kicks performed from Shiku-sen that tack on additional damage and knock the opponent down.",
+]
+notes_ja = ["疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える。"]
+
+[moves.driveGauge]
+onHit = 1800
+
 # Shiren-sen (OD)
 [[moves]]
 name = "Shiren-sen (OD)"
@@ -1402,6 +2166,19 @@ blockType = "high"
 input = "(kk)"
 parentSlugs = ["shiku-sen-od"]
 
+startup = 6
+active = [6, 9, 14, 17, 35, 38]
+postLandingRecovery = 7
+damage = 900
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 600
+capcom_skill_id = 507
+notes = [
+  "A series of kicks performed from Shiku-sen that tack on additional damage and knock the opponent down.",
+]
+notes_ja = ["疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える。"]
+
 # Sakkai Fuhazan
 [[moves]]
 name = "Sakkai Fuhazan"
@@ -1412,6 +2189,33 @@ type = "super1"
 hitCount = 1
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "Fire multiple ki blasts with a kick and follow it up with another giant ki blast to knock an opponent away. Easy to work into aerial combos against opponents who have been launched into the air.",
+  "Invincible to strikes and throws from frames 1 - 8",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+  "Hold down the button to increase damage by 300",
+]
+notes_ja = [
+  "蹴りで気弾を数発放った後に大きい気弾を撃って吹き飛ばす技。相手を浮かせてからの空中コンボに使いやすい。",
+  "1-8F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "ボタンホールドで風破ストックを1つ消費し300ダメージアップ",
+]
+
+startup = 7
+totalFrames = 201
+damage = 1800
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -32
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Feng Shui Engine
 [[moves]]
@@ -1423,6 +2227,64 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+notes = [
+  "Power up your abilities by unleashing the power of the Feng Shui Engine embedded in your eye. Once powered up, you will be able to cancel normal moves into other normal moves or even unique attacks.",
+  "Allows you to perform chain combos on the ground or in the air while the technique is active",
+  "Can use the same strength attack button or a stronger attack button, but cannot chain down to weaker attacks",
+  "All normal attacks and some unique attacks can now cancel into special moves",
+  "Hold down the button during startup to rush forward",
+]
+notes_ja = [
+  "眼に埋め込まれた風水エンジンの力を開放し、自身を強化する技。強化後は、通常技を他の通常技や特殊技でキャンセル可能となる。",
+  "発動中地上、空中でチェーンコンボが可能",
+  "同じ強度もしくは上の強度のPorKに移行可能、逆走は出来ない",
+  "全ての通常技と、一部の特殊技が必殺技キャンセル可能になる",
+  "暗転中ボタンホールドで突進に派生",
+]
+
+totalFrames = 7
+capcom_skill_id = 602
+
+# Feng Shui Engine (Rush)
+[[moves]]
+name = "Feng Shui Engine (Rush)"
+name_ja = "風水エンジン（突進）"
+slug = "feng-shui-engine-rush"
+characterId = 6
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214[*p]"
+notes = [
+  "Power up your abilities by unleashing the power of the Feng Shui Engine embedded in your eye. Once powered up, you will be able to cancel normal moves into other normal moves or even unique attacks.",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+  "Hold down the button to rush forward",
+  "Forces a juggle state knockdown when hitting a mid-air opponent",
+]
+notes_ja = [
+  "眼に埋め込まれた風水エンジンの力を開放し、自身を強化する技。強化後は、通常技を他の通常技や特殊技でキャンセル可能となる。",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "ボタンホールドで突進",
+  "空中ヒット時吹き飛びダウン",
+  "通常技、特殊技、必殺技、SA、ドライブインパクトでキャンセル可能",
+]
+
+startup = 9
+active = [9, 19]
+recovery = 26
+cancel = "*"
+damage = 300
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+hit = -4
+block = -17
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Kaisen Dankai Raku
 [[moves]]
@@ -1434,6 +2296,36 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "214214*k"
+properties = ["knockdown"]
+notes = [
+  "Unleash the full power of the Feng Shui Engine to perform a powerful sequence of attacks. Useful when trying to tack on big damage during combos or when turning the tables on your opponent.",
+  "Completely invincible from frames 1 - 13",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "風水エンジンの力を最大限に開放した強力な連撃を繰り出す技。大きいダメージを奪いたい時のコンボや切り返しに有効。",
+  "1-13F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 13]
+recovery = 52
+damage = 4000
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -31
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Kaisen Dankai Raku (Critical Art)
 [[moves]]
@@ -1445,6 +2337,36 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "214214*k"
+properties = ["knockdown"]
+notes = [
+  "Unleash the full power of the Feng Shui Engine to perform a powerful sequence of attacks. Useful when trying to tack on big damage during combos or when turning the tables on your opponent.",
+  "Completely invincible from frames 1 - 13",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "風水エンジンの力を最大限に開放した強力な連撃を繰り出す技。大きいダメージを奪いたい時のコンボや切り返しに有効。",
+  "1-13F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 13]
+recovery = 52
+damage = 4500
+scaling = ["*Immediate scaling 10％"]
+scaling_ja = ["※即時補正10％"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -31
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Spider Fang Throw
 [[moves]]
@@ -1456,6 +2378,33 @@ alternativeNames_ja = ["前投げ"]
 characterId = 6
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent's head with your foot to make them hunch over, and send them flying with two kicks. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の体勢を足で押し下げ、2連蹴りで吹き飛ばす投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Shadow Kick Throw
 [[moves]]
@@ -1467,6 +2416,33 @@ alternativeNames_ja = ["後ろ投げ"]
 characterId = 6
 type = "throw"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Use one foot to knock your opponent down, and follow up by stepping on their back. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の体勢を足で押し下げて転ばせ、背中を踏み付ける投げ技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Zanka-sen
 [[moves]]
@@ -1478,3 +2454,28 @@ alternativeNames_ja = ["空中投げ"]
 characterId = 6
 type = "throw"
 input = "j>(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Latch onto an airborne opponent's back and kick them to the ground behind you. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "空中で相手の背中に乗り、その状態から後方へ蹴り飛ばす投げ技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+postLandingRecovery = 3
+damage = 1200
+superArt = 2000
+capcom_skill_id = 103
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
