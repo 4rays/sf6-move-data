@@ -171,7 +171,11 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
-notes = ["Forces a juggle state when hitting a mid-air opponent", "Forces a juggle state when the attack lands as a Punish Counter.", "Feet are Invincible from frame 8 to frame 15."]
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Forces a juggle state when the attack lands as a Punish Counter.",
+  "Feet are Invincible from frame 8 to frame 15.",
+]
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン", "8-15F足元無敵"]
 
 startup = 10
@@ -269,7 +273,10 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
-notes = ["Forces the opponent into a standing position", "This move can be canceled until the 1st active frame."]
+notes = [
+  "Forces the opponent into a standing position",
+  "This move can be canceled until the 1st active frame.",
+]
 notes_ja = ["強制立ち効果", "キャンセルは持続の1F目まで"]
 
 startup = 7
@@ -369,7 +376,9 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 10
@@ -455,7 +464,9 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
-notes = ["Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"]
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
 notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
 
 startup = 9
@@ -562,6 +573,26 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6mp"
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Forces a slam knockdown when hitting a mid-air opponent",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時叩きつけダウン"]
+startup = 21
+active = [21, 22]
+recovery = 21
+damage = 600
+superArt = 500
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2500
+onPunishCounter = -5000
 
 # Suppressor
 [[moves]]
@@ -574,6 +605,27 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 
+startup = 16
+active = [16, 18]
+recovery = 20
+cancel = "C"
+damage = 800
+superArt = 1000
+capcom_skill_id = 402
+notes = [
+  "A strike unleashed after stepping backward. Can be canceled into special moves.",
+]
+notes_ja = ["後方へ下がった後に繰り出す必殺技キャンセル可能な突き。"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # Outlaw Kick
 [[moves]]
 name = "Outlaw Kick"
@@ -584,28 +636,153 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hk"
+notes = [
+  "A powerful anti-air high kick.",
+  "19 frames of advantage added when the attack lands as a Punish Counter.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["相手のジャンプに対して強いハイキック。", "パニッシュカウンター時+19F", "空中ヒット時吹き飛びダウン"]
+startup = 12
+active = [12, 15]
+recovery = 24
+damage = 1000
+superArt = 1000
+capcom_skill_id = 403
 
-# Double Impact
+[moves.frameAdvantage]
+hit = 4
+block = -5
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+# Double Impact (1)
 [[moves]]
-name = "Double Impact"
-name_ja = "ダブルインパクト"
-slug = "double-impact"
+name = "Double Impact (1)"
+name_ja = "ダブルインパクト (1)"
+slug = "double-impact-1"
+characterId = 1
+type = "commandNormal"
+hitCount = 1
+blockType = "high"
+input = "6hp"
+notes = [
+  "A series of attacks performed while moving forward. The second attack can be canceled into special moves.",
+  "4 frames of recovery added when the attack misses",
+]
+notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃。", "空振り時硬直4F増加"]
+startup = 16
+active = [16, 18]
+recovery = 15
+damage = 800
+superArt = 500
+capcom_skill_id = 404
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
+
+# Double Impact (2)
+[[moves]]
+name = "Double Impact (2)"
+name_ja = "ダブルインパクト (2)"
+slug = "double-impact-2"
 characterId = 1
 type = "commandNormal"
 hitCount = 2
 blockType = "high"
 input = "6hp>hp"
+properties = ["knockdown"]
 
-# Triple Impact
+startup = 11
+active = [11, 12]
+recovery = 34
+cancel = "C"
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 500
+capcom_skill_id = 404
+notes = [
+  "A series of attacks performed while moving forward. The second attack can be canceled into special moves.",
+]
+notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -19
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -7000
+
+# Triple Impact (2)
 [[moves]]
-name = "Triple Impact"
-name_ja = "トリプルインパクト"
-slug = "triple-impact"
+name = "Triple Impact (2)"
+name_ja = "トリプルインパクト (2)"
+slug = "triple-impact-2"
+characterId = 1
+type = "commandNormal"
+hitCount = 4
+blockType = "high"
+input = "lp>mp"
+
+startup = 8
+active = [8, 11]
+recovery = 20
+damage = 400
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+superArt = 400
+capcom_skill_id = 405
+notes = ["A quick series of attacks that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -2
+block = -9
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -4000
+
+# Triple Impact (3)
+[[moves]]
+name = "Triple Impact (3)"
+name_ja = "トリプルインパクト (3)"
+slug = "triple-impact-3"
 characterId = 1
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
 input = "lp>mp>hp"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+recovery = 27
+cancel = "C"
+damage = 600
+superArt = 400
+capcom_skill_id = 405
+notes = ["A quick series of attacks that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -4000
 
 # Nose Breaker
 [[moves]]
@@ -618,21 +795,126 @@ hitCount = 1
 blockType = "low"
 input = "2mk>2hp"
 
-# Snapback Combo
+startup = 9
+active = [9, 11]
+recovery = 25
+damage = 600
+superArt = 600
+capcom_skill_id = 406
+notes = [
+  "An attack consisting of multiple hits, the first of which cannot be blocked while standing.",
+]
+notes_ja = ["続けてヒットする、初段が立ってガードできない連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Snapback Combo (2)
 [[moves]]
-name = "Snapback Combo"
-name_ja = "スナップバックコンボ"
-slug = "snapback-combo"
+name = "Snapback Combo (2)"
+name_ja = "スナップバックコンボ (2)"
+slug = "snapback-combo-2"
+characterId = 1
+type = "commandNormal"
+hitCount = 2
+blockType = "high"
+input = "mp>mp"
+
+startup = 12
+active = [12, 13]
+recovery = 23
+cancel = "SA"
+damage = 300
+superArt = 300
+capcom_skill_id = 407
+notes = [
+  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 0
+block = -8
+
+[moves.driveGauge]
+onHit = 400
+onBlock = -1000
+onPunishCounter = -4000
+
+# Snapback Combo (3)
+[[moves]]
+name = "Snapback Combo (3)"
+name_ja = "スナップバックコンボ (3)"
+slug = "snapback-combo-3"
+characterId = 1
+type = "commandNormal"
+hitCount = 3
+blockType = "high"
+input = "mp>mp>mp"
+
+startup = 11
+active = [11, 12]
+recovery = 29
+damage = 300
+superArt = 300
+capcom_skill_id = 407
+notes = [
+  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = -6
+block = -14
+
+[moves.driveGauge]
+onHit = 400
+onBlock = -1000
+onPunishCounter = -4000
+
+# Snapback Combo (4)
+[[moves]]
+name = "Snapback Combo (4)"
+name_ja = "スナップバックコンボ (4)"
+slug = "snapback-combo-4"
 characterId = 1
 type = "commandNormal"
 hitCount = 4
 blockType = "high"
 input = "mp>mp>mp>mp"
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 12]
+recovery = 27
+damage = 500
+superArt = 500
+capcom_skill_id = 407
+notes = [
+  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -4000
 
 # Sand Blast (Light)
 [[moves]]
 name = "Sand Blast (Light)"
 name_ja = "サンドブラスト (弱)"
+alternativeNames = ["L Sand Blast"]
+alternativeNames_ja = ["弱 サンドブラスト"]
 slug = "sand-blast-light"
 characterId = 1
 type = "special"
@@ -640,10 +922,33 @@ hitCount = 1
 blockType = "high"
 input = "236lp"
 
+startup = 14
+active = [14, 18]
+totalFrames = 47
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+
+[moves.frameAdvantage]
+hit = -3
+block = -8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
 # Sand Blast (Medium)
 [[moves]]
 name = "Sand Blast (Medium)"
 name_ja = "サンドブラスト (中)"
+alternativeNames = ["M Sand Blast"]
+alternativeNames_ja = ["中 サンドブラスト"]
 slug = "sand-blast-medium"
 characterId = 1
 type = "special"
@@ -651,10 +956,33 @@ hitCount = 1
 blockType = "high"
 input = "236mp"
 
+startup = 17
+active = [17, 23]
+totalFrames = 47
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+
+[moves.frameAdvantage]
+hit = 0
+block = -5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
 # Sand Blast (Heavy)
 [[moves]]
 name = "Sand Blast (Heavy)"
 name_ja = "サンドブラスト (強)"
+alternativeNames = ["H Sand Blast"]
+alternativeNames_ja = ["強 サンドブラスト"]
 slug = "sand-blast-heavy"
 characterId = 1
 type = "special"
@@ -662,16 +990,60 @@ hitCount = 1
 blockType = "high"
 input = "236hp"
 
+startup = 20
+active = [20, 29]
+totalFrames = 47
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
 # Sand Blast (OD)
 [[moves]]
 name = "Sand Blast (OD)"
 name_ja = "サンドブラスト (OD)"
+alternativeNames = ["OD Sand Blast", "EX Sand Blast"]
+alternativeNames_ja = ["OD サンドブラスト", "EX サンドブラスト"]
 slug = "sand-blast-od"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(pp)"
+properties = ["knockdown"]
+
+startup = 16
+totalFrames = 40
+cancel = "SA2"
+damage = 800
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 501
+notes = [
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -5000
 
 # Fatal Shot
 [[moves]]
@@ -684,23 +1056,152 @@ hitCount = 1
 blockType = "high"
 input = "236(pp)>(pp)"
 parentSlugs = ["sand-blast-od"]
+properties = ["knockdown"]
+notes = [
+  "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles.",
+  "Consumes 10000 of the Drive gauge on activation.",
+]
+notes_ja = [
+  "ODサンドブラストから続けて衝撃波を飛ばす技。飛び道具の撃ち合いからダメージを上乗せするのに有効。",
+  "発動時にドライブゲージを10000消費",
+]
+startup = 12
+totalFrames = 54
+cancel = "SA2"
+damage = 750
+superArt = 400
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -21
+
+[moves.driveGauge]
+onBlock = -1000
+onPunishCounter = -2000
 
 # Flash Knuckle (Light)
 [[moves]]
 name = "Flash Knuckle (Light)"
 name_ja = "フラッシュナックル (弱)"
+alternativeNames = ["L Flash Knuckle"]
+alternativeNames_ja = ["弱 フラッシュナックル"]
 slug = "flash-knuckle-light"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lp"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Hold the button for more than 18 frames to change properties",
+  "Perform the Perfect version by releasing the button between frames 18 - 20",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "18F以上ボタンホールドすると性能変化",
+  "18-20Fの間に離すとジャスト版が発生",
+]
+startup = 13
+active = [13, 15]
+recovery = 31
+cancel = "SA3"
+damage = 700
+superArt = 500
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -18
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# Charged Flash Knuckle (Light)
+[[moves]]
+name = "Charged Flash Knuckle (Light)"
+name_ja = "フラッシュナックル（弱）（ホールド）"
+alternativeNames = ["Charged L Flash Knuckle"]
+alternativeNames_ja = ["弱 フラッシュナックル（ホールド）"]
+slug = "charged-flash-knuckle-light"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[lp]"
+properties = ["knockdown"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Has a clash hitbox from frame 28 to frame 29.",
+  "Combo scaling added to 2nd hit.",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "28-29F 相殺判定",
+  "2段目にコンボ補正がかかる",
+]
+startup = 26
+active = [26, 29]
+recovery = 25
+cancel = "SA3"
+damage = 800
+superArt = 600
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2250
+onBlock = -4000
+onPunishCounter = -6000
+
+# Perfect Flash Knuckle (Light)
+[[moves]]
+name = "Perfect Flash Knuckle (Light)"
+name_ja = "フラッシュナックル（弱）（ジャスト）"
+alternativeNames = ["Perfect L Flash Knuckle"]
+alternativeNames_ja = ["弱 フラッシュナックル（ジャスト）"]
+slug = "perfect-flash-knuckle-light"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[lp]"
+properties = ["knockdown"]
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "Has a clash hitbox from frame 28 to frame 29.",
+  "Combo scaling added to 2nd hit.",
+]
+notes_ja = [
+  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。",
+  "28-29F 相殺判定",
+  "2段目にコンボ補正がかかる",
+]
+startup = 26
+active = [26, 29]
+recovery = 25
+cancel = "SA3"
+damage = 900
+superArt = 700
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2250
+onBlock = -4000
+onPunishCounter = -6000
 
 # Flash Knuckle (Medium)
 [[moves]]
 name = "Flash Knuckle (Medium)"
 name_ja = "フラッシュナックル (中)"
+alternativeNames = ["M Flash Knuckle"]
+alternativeNames_ja = ["中 フラッシュナックル"]
 slug = "flash-knuckle-medium"
 characterId = 1
 type = "special"
@@ -708,6 +1209,110 @@ hitCount = 1
 blockType = "high"
 input = "214mp"
 properties = ["chargeable"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Hold the button for more than 18 frames to change properties",
+  "Perform the Perfect version by releasing the button between frames 18 - 20",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "18F以上ボタンホールドすると性能変化",
+  "18-20Fの間に離すとジャスト版が発生",
+]
+startup = 19
+active = [19, 21]
+recovery = 27
+cancel = "SA3"
+damage = 900
+superArt = 700
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# Charged Flash Knuckle (Medium)
+[[moves]]
+name = "Charged Flash Knuckle (Medium)"
+name_ja = "フラッシュナックル（中）（ホールド）"
+alternativeNames = ["Charged M Flash Knuckle"]
+alternativeNames_ja = ["中 フラッシュナックル（ホールド）"]
+slug = "charged-flash-knuckle-medium"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[mp]"
+properties = ["knockdown"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Has a clash hitbox from frame 32 to frame 33.",
+  "Combo scaling added to 2nd hit.",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "32-33F 相殺判定",
+  "2段目にコンボ補正がかかる",
+]
+startup = 30
+active = [30, 33]
+recovery = 26
+cancel = "SA3"
+damage = 1000
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -8000
+
+# Perfect Flash Knuckle (Medium)
+[[moves]]
+name = "Perfect Flash Knuckle (Medium)"
+name_ja = "フラッシュナックル（中）（ジャスト）"
+alternativeNames = ["Perfect M Flash Knuckle"]
+alternativeNames_ja = ["中 フラッシュナックル（ジャスト）"]
+slug = "perfect-flash-knuckle-medium"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[mp]"
+properties = ["knockdown"]
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "Has a clash hitbox from frame 31 to frame 32.",
+  "Combo scaling added to 2nd hit.",
+]
+notes_ja = [
+  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。",
+  "31-32F 相殺判定",
+  "2段目にコンボ補正がかかる",
+]
+startup = 29
+active = [29, 32]
+recovery = 26
+cancel = "SA3"
+damage = 1100
+superArt = 900
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Flash Knuckle (Heavy)
 [[moves]]
@@ -719,7 +1324,103 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hp"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Hold the button for more than 18 frames to change properties",
+  "Perform the Perfect version by releasing the button between frames 18 - 20",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "18F以上ボタンホールドすると性能変化",
+  "18-20Fの間に離すとジャスト版が発生",
+]
+startup = 22
+active = [22, 24]
+recovery = 21
+cancel = "SA3"
+damage = 1000
+superArt = 800
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -8000
+
+# Charged Flash Knuckle (Heavy)
+[[moves]]
+name = "Charged Flash Knuckle (Heavy)"
+name_ja = "フラッシュナックル（強）（ホールド）"
+alternativeNames = ["Charged H Flash Knuckle"]
+alternativeNames_ja = ["強 フラッシュナックル（ホールド）"]
+slug = "charged-flash-knuckle-heavy"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[hp]"
+properties = ["knockdown"]
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Has a clash hitbox from frame 35 to frame 36.",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "35-36F 相殺判定",
+]
+startup = 33
+active = [33, 36]
+recovery = 24
+cancel = "SA3"
+damage = 1300
+superArt = 1100
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -7000
+onPunishCounter = -9000
+
+# Perfect Flash Knuckle (Heavy)
+[[moves]]
+name = "Perfect Flash Knuckle (Heavy)"
+name_ja = "フラッシュナックル（強）（ジャスト）"
+alternativeNames = ["Perfect H Flash Knuckle"]
+alternativeNames_ja = ["強 フラッシュナックル（ジャスト）"]
+slug = "perfect-flash-knuckle-heavy"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214[hp]"
+properties = ["knockdown"]
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "Has a clash hitbox from frame 35 to frame 36.",
+]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。", "35-36F 相殺判定"]
+startup = 33
+active = [33, 36]
+recovery = 24
+cancel = "SA3"
+damage = 1300
+superArt = 1200
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -7000
+onPunishCounter = -9000
 
 # Flash Knuckle (OD)
 [[moves]]
@@ -731,6 +1432,59 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "Transitions to 2nd attack on hit",
+  "Can only be canceled into DDT on the 1st hit",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "ヒット時2段目に派生",
+  "初段ヒット時のみDDTへ派生可",
+]
+startup = 15
+active = [15]
+recovery = 39
+cancel = "SA2"
+damage = 400
+superArt = 500
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -22
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -3000
+
+# Flash Knuckle (OD) (2)
+[[moves]]
+name = "Flash Knuckle (OD) (2)"
+name_ja = "フラッシュナックル (OD) (2)"
+slug = "flash-knuckle-od-2"
+characterId = 1
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214(pp)"
+properties = ["knockdown"]
+
+startup = 33
+active = [33, 36]
+recovery = 16
+cancel = "SA2"
+damage = 400
+superArt = 350
+capcom_skill_id = 503
+notes = [
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+]
+notes_ja = [
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+]
+
+[moves.driveGauge]
+onPunishCounter = -3000
 
 # DDT
 [[moves]]
@@ -741,8 +1495,22 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214(pp)>(pp)"
+input = "(pp)"
 parentSlugs = ["flash-knuckle-od"]
+properties = ["knockdown"]
+notes = [
+  "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage.",
+  "Consumes 10000 of the Drive gauge on activation.",
+]
+notes_ja = [
+  "ODフラッシュナックル初段から派生する強力な投げ技。確実にダメージを奪いたい状況で使いやすい。",
+  "発動時にドライブゲージを10000消費",
+]
+startup = 1
+active = [1]
+damage = 2000
+superArt = 1500
+capcom_skill_id = 504
 
 # Aerial Flash Knuckle
 [[moves]]
@@ -754,7 +1522,23 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>214*p"
-properties = ["chargeable"]
+properties = ["chargeable", "knockdown"]
+
+startup = 14
+active = [14, 18]
+postLandingRecovery = 13
+damage = 700
+superArt = 800
+capcom_skill_id = 505
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Aerial Flash Knuckle (Charged)
 [[moves]]
@@ -765,8 +1549,25 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>214*p"
+input = "j>214[*p]"
 parentSlugs = ["aerial-flash-knuckle"]
+properties = ["knockdown"]
+
+startup = 23
+active = [23, 28]
+postLandingRecovery = 15
+damage = 1000
+superArt = 800
+capcom_skill_id = 505
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7000
+onPunishCounter = -9000
 
 # Aerial Flash Knuckle (OD)
 [[moves]]
@@ -778,6 +1579,22 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>214(pp)"
+properties = ["knockdown"]
+
+startup = 14
+active = [14, 19]
+postLandingRecovery = 15
+damage = 1300
+superArt = 800
+capcom_skill_id = 505
+notes = [
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+
+[moves.driveGauge]
+onBlock = -7000
+onPunishCounter = -5000
 
 # Avenger
 [[moves]]
@@ -789,17 +1606,38 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214*k"
+notes = [
+  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation.",
+  "Can transition to branching attacks from frames 13 - 31",
+]
+notes_ja = ["前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する。", "13-31F 専用技に派生可"]
+totalFrames = 45
+capcom_skill_id = 506
 
 # Avenger (OD)
 [[moves]]
 name = "Avenger (OD)"
 name_ja = "アベンジャー (OD)"
+alternativeNames = ["OD Avenger", "EX Avenger"]
+alternativeNames_ja = ["OD アベンジャー", "EX アベンジャー"]
 slug = "avenger-od"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(kk)"
+notes = [
+  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation.",
+  "Super Armor for 1 attack from frames 3 - 35",
+  "Can transition to branching attacks from frames 12 - 31",
+]
+notes_ja = [
+  "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する。",
+  "3-35F アーマー判定（1回）",
+  "12-31F 専用技に派生可",
+]
+totalFrames = 45
+capcom_skill_id = 506
 
 # No Chaser
 [[moves]]
@@ -810,8 +1648,29 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k>*p"
+input = "*p"
 parentSlugs = ["avenger"]
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 14]
+recovery = 19
+cancel = "SA3"
+damage = 900
+superArt = 1000
+capcom_skill_id = 507
+notes = [
+  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent.",
+]
+notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効。"]
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # No Chaser (OD)
 [[moves]]
@@ -822,8 +1681,30 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214(kk)>*p"
+input = "*p"
 parentSlugs = ["avenger-od"]
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 14]
+recovery = 19
+cancel = "SA2"
+damage = 1300
+scaling = ["Starter scaling 50%"]
+scaling_ja = ["始動補正50%"]
+superArt = 1250
+capcom_skill_id = 507
+notes = [
+  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent.",
+]
+notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効。"]
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
 
 # Impaler
 [[moves]]
@@ -834,8 +1715,31 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214*k>*k"
+input = "*k"
 parentSlugs = ["avenger"]
+properties = ["knockdown"]
+notes = [
+  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo.",
+  "5 frames of recovery added when the attack misses",
+]
+notes_ja = [
+  "アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効。",
+  "空振り時硬直5F増加",
+]
+startup = 13
+active = [13]
+recovery = 22
+damage = 1200
+superArt = 1200
+capcom_skill_id = 508
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2200
+onBlock = -4000
+onPunishCounter = -5000
 
 # Impaler (OD)
 [[moves]]
@@ -846,52 +1750,194 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214(kk)>*k"
+input = "*k"
 parentSlugs = ["avenger-od"]
+properties = ["knockdown"]
+
+startup = 13
+active = [13]
+recovery = 19
+damage = 1200
+scaling = ["Starter scaling 50%"]
+scaling_ja = ["始動補正50%"]
+superArt = 1250
+capcom_skill_id = 508
+notes = [
+  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo.",
+]
+notes_ja = ["アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効。"]
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rising Uppercut (Light)
 [[moves]]
 name = "Rising Uppercut (Light)"
 name_ja = "ライジングアッパー (弱)"
+alternativeNames = ["L Rising Uppercut"]
+alternativeNames_ja = ["弱 ライジングアッパー"]
 slug = "rising-uppercut-light"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
+properties = ["knockdown"]
+notes = [
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 14",
+  "Considered airborne from frames 8 - 36",
+  "* Does 800 individual damage from the 3rd active frame and on",
+]
+notes_ja = [
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-14F 空中判定の攻撃に対して無敵",
+  "8-36F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
+startup = 5
+active = [5, 14]
+recovery = 22
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 900
+superArt = 800
+capcom_skill_id = 509
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rising Uppercut (Medium)
 [[moves]]
 name = "Rising Uppercut (Medium)"
 name_ja = "ライジングアッパー (中)"
+alternativeNames = ["M Rising Uppercut"]
+alternativeNames_ja = ["中 ライジングアッパー"]
 slug = "rising-uppercut-medium"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623mp"
+properties = ["knockdown"]
+notes = [
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 8",
+  "Considered airborne from frames 9 - 39",
+  "* Does 800 individual damage from the 3rd active frame and on",
+]
+notes_ja = [
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-8F 空中判定の攻撃に対して無敵",
+  "9-39F 空中判定",
+  "※持続の3F目以降は個別ダメージ（800）",
+]
+startup = 6
+active = [6, 15]
+recovery = 24
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 1000
+superArt = 800
+capcom_skill_id = 509
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rising Uppercut (Heavy)
 [[moves]]
 name = "Rising Uppercut (Heavy)"
 name_ja = "ライジングアッパー (強)"
+alternativeNames = ["H Rising Uppercut"]
+alternativeNames_ja = ["強 ライジングアッパー"]
 slug = "rising-uppercut-heavy"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623hp"
+properties = ["knockdown"]
+notes = [
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Invincible to mid-air attacks from frames 1 - 9",
+  "Considered airborne from frames 11 - 43",
+  "* Does 800 individual damage from the 3rd active frame and on",
+]
+notes_ja = [
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-9F 空中判定の攻撃に対して無敵",
+  "11-43F 空中判定",
+  "※持続の2F目以降は個別ダメージ（800）",
+]
+startup = 9
+active = [9, 18]
+recovery = 25
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1200
+superArt = 800
+capcom_skill_id = 509
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rising Uppercut (OD)
 [[moves]]
 name = "Rising Uppercut (OD)"
 name_ja = "ライジングアッパー (OD)"
+alternativeNames = ["OD Rising Uppercut", "EX Rising Uppercut"]
+alternativeNames_ja = ["OD ライジングアッパー", "EX ライジングアッパー"]
 slug = "rising-uppercut-od"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Completely invincible from frames 1 - 10",
+  "Considered airborne from frames 8 - 50",
+  "Can only transition to Slam Dunk on hit",
+]
+notes_ja = [
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 完全無敵",
+  "8-50F 空中判定",
+  "ヒット時のみスラムダンクへ派生可",
+]
+startup = 6
+active = [6, 8, 9, 15]
+recovery = 35
+postLandingRecovery = 15
+damage = 1400
+superArt = 1000
+capcom_skill_id = 509
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onBlock = -2000
 
 # Slam Dunk
 [[moves]]
@@ -902,8 +1948,27 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623(pp)>(pp)"
+input = "(pp)"
 parentSlugs = ["rising-uppercut-od"]
+properties = ["knockdown"]
+notes = [
+  "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward.",
+  "Consumes 10000 of the Drive gauge on activation.",
+]
+notes_ja = [
+  "ODライジングアッパーからさらに叩き付け攻撃を行う技。ダメージの大きさとヒット後の状況に優れる。",
+  "発動時にドライブゲージを10000消費",
+]
+startup = 16
+active = [16, 18]
+recovery = 14
+postLandingRecovery = 16
+damage = 600
+superArt = 700
+capcom_skill_id = 510
+
+[moves.driveGauge]
+onBlock = -4000
 
 # Vulcan Blast
 [[moves]]
@@ -914,7 +1979,31 @@ characterId = 1
 type = "super1"
 hitCount = 1
 blockType = "high"
-input = "236(pp)"
+input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Fire multiple high-speed Sand Blasts. Its swift speed makes it useful in projectile wars and in combos.",
+  "Invincible to strikes and throws from frames 1 - 6",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "サンドブラストを高速で連打する技。攻撃の出が早く、飛び道具の撃ち合いやコンボに使いやすい。",
+  "1-6F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 6
+totalFrames = 108
+damage = 2000
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Eraser
 [[moves]]
@@ -925,7 +2014,35 @@ characterId = 1
 type = "super2"
 hitCount = 1
 blockType = "high"
-input = "214pp"
+input = "214214*p"
+notes = [
+  "A series of punches punctuated by a powerful finishing blow that sends an opponent flying. Connecting with the first hit is enough to activate the combination attack that follows.",
+  "Completely invincible from frames 1 - 7",
+  "Transitions to full attack after the 2nd hit",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "パンチの連続攻撃から強烈なフィニッシュブローで吹き飛ばす技。初段がヒットする事でその後の連続攻撃が発動する。",
+  "1-7F 完全無敵",
+  "ヒット時2段目以降に派生",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 5
+active = [5, 7]
+recovery = 51
+damage = 2800
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+hit = 2
+block = -26
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Pale Rider
 [[moves]]
@@ -936,7 +2053,45 @@ characterId = 1
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "236(kk)"
+input = "236236*k"
+notes = [
+  "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles.",
+  "Start up and invincibility changes depending on the distance from the opponent",
+  "When activated from close range",
+  "Start up is 10 frames, and completely invincible from frames 1 - 13",
+  "When activated from furthest possible range",
+  "Start up is 27 frames, and completely invincible from frames 1 - 30",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "突進からマウントポジションを取って渾身のパンチを叩き込む技。前進距離が長く、コンボへの組み込みや飛び道具対策に使える。",
+  "相手との距離に応じて発生・無敵時間が変化",
+  "密着発動時",
+  "発生10F 1-13F完全無敵",
+  "最遠距離発動時",
+  "発生27F 1-30F完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 13]
+recovery = 92
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+hit = 18
+block = -42
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Pale Rider (Critical Art)
 [[moves]]
@@ -947,7 +2102,42 @@ characterId = 1
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "236(kk)"
+input = "236236*p"
+notes = [
+  "Start up and invincibility changes depending on the distance from the opponent",
+  "When activated from close range",
+  "Start up is 10 frames, and completely invincible from frames 1 - 13",
+  "When activated from furthest possible range",
+  "Start up is 27 frames, and completely invincible from frames 1 - 30",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手との距離に応じて発生・無敵時間が変化",
+  "密着発動時",
+  "発生10F 1-13F完全無敵",
+  "最遠距離発動時",
+  "発生27F 1-30F完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 13]
+recovery = 92
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+hit = 18
+block = -42
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Sweeper
 [[moves]]
@@ -960,6 +2150,33 @@ characterId = 1
 type = "throw"
 hitCount = 1
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent, lift them up, and slam them onto their back. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手を掴んで持ち上げ、背中から叩き付ける投げ技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Scrapper
 [[moves]]
@@ -972,3 +2189,30 @@ characterId = 1
 type = "throw"
 hitCount = 1
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent's head and send them flying with two knee strikes. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の頭を掴み、2発の膝蹴りで相手を吹き飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
