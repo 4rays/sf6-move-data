@@ -78,7 +78,10 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 
-notes = ["Produces a crumple stun on Punish Counter if the opponent is standing on the ground", "Forces a juggle state on Punish Counter when hitting a mid-air opponent"]
+notes = [
+  "Produces a crumple stun on Punish Counter if the opponent is standing on the ground",
+  "Forces a juggle state on Punish Counter when hitting a mid-air opponent",
+]
 notes_ja = ["地上パニッシュカウンター時膝崩れ", "空中パニッシュカウンター時吹き飛びダウン"]
 
 startup = 11
@@ -275,7 +278,9 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
-notes = ["Forces a juggle state on counter or Punish Counter when hitting a mid-air opponent"]
+notes = [
+  "Forces a juggle state on counter or Punish Counter when hitting a mid-air opponent",
+]
 notes_ja = ["空中カウンター/空中パニッシュカウンター時吹き飛びダウン"]
 
 startup = 10
@@ -377,7 +382,9 @@ blockType = "low"
 input = "2hk"
 
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
 
 startup = 11
@@ -562,135 +569,743 @@ onPunishCounter = -5000
 [[moves]]
 name = "Condor Wind (Light)"
 name_ja = "コンドルウィンド（弱）"
+alternativeNames = ["L Condor Spire"]
+alternativeNames_ja = ["弱 コンドルスパイア"]
 slug = "condor-wind-light"
 characterId = 16
 type = "special"
-blockType = "high"
 input = "214lp"
 properties = ["chargeable", "stockIncrement"]
+notes = [
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
+  "Adds 1 stock of Windclad on frame 46 if the button is released in the fastest situation.",
+  "Adds 1 stock on frames 71 and 91 if the button is held.",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+]
+notes_ja = [
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "最速でボタンを離した場合46F目で風纏いを1つストック",
+  "ボタンホールド時71F目で2つ目、91F目で3つ目をストック",
+  "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
+]
+
+totalFrames = 47
+capcom_skill_id = 501
 
 # Condor Wind (Medium)
 [[moves]]
 name = "Condor Wind (Medium)"
 name_ja = "コンドルウィンド（中）"
+alternativeNames = ["M Condor Spire"]
+alternativeNames_ja = ["中 コンドルスパイア"]
 slug = "condor-wind-medium"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "214mp"
-properties = ["chargeable", "stockIncrement"]
+properties = ["chargeable", "stockIncrement", "knockdown"]
+notes = [
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45.",
+  "If the button is held, adds a Windclad stock on frames 46, 71 and 91.",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = [
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "発動から45F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
+  "ボタンホールド時46F目で1つ目、71F目で2つ目、91F目で3つ目をストック",
+  "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
+  "空中ヒット時吹き飛びダウン",
+]
+
+startup = 23
+active = [23, 26]
+recovery = 25
+cancel = "SA3"
+damage = 900
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
 
 # Condor Wind (Heavy)
 [[moves]]
 name = "Condor Wind (Heavy)"
 name_ja = "コンドルウィンド（強）"
+alternativeNames = ["H Condor Spire"]
+alternativeNames_ja = ["強 コンドルスパイア"]
 slug = "condor-wind-heavy"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "214hp"
-properties = ["chargeable", "stockIncrement"]
+properties = ["chargeable", "stockIncrement", "knockdown"]
+notes = [
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45.",
+  "If the button is held, adds a Windclad stock on frames 46, 71 and 91.",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+]
+notes_ja = [
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "発動から45F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
+  "ボタンホールド時46F目で1つ目、71F目で2つ目、91F目で3つ目をストック",
+  "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
+]
+
+startup = 25
+active = [25, 28]
+recovery = 25
+cancel = "SA3"
+damage = 1100
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
 
 # Condor Wind (OD)
 [[moves]]
 name = "Condor Wind (OD)"
 name_ja = "コンドルウィンド (OD)"
+alternativeNames = ["OD Condor Spire", "EX Condor Spire"]
+alternativeNames_ja = ["OD コンドルスパイア", "EX コンドルスパイア"]
 slug = "condor-wind-od"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "214(kk)"
-properties = ["chargeable", "stockIncrement"]
+properties = ["chargeable", "stockIncrement", "knockdown"]
+notes = [
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 25.",
+  "If the button is held, adds a Windclad stock on frames 38, or for the full 40 frames of the move.",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+]
+notes_ja = [
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "発動から25F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
+  "ボタンホールド時は38F目でストック、全体40F",
+  "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
+]
+
+startup = 21
+active = [21, 24]
+recovery = 23
+cancel = "SA2"
+damage = 1200
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -8000
 
 # Condor Spire (Light)
 [[moves]]
 name = "Condor Spire (Light)"
 name_ja = "コンドルスパイア (弱)"
+alternativeNames = ["L Condor Spire"]
+alternativeNames_ja = ["弱 コンドルスパイア"]
 slug = "condor-spire-light"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "236lk"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Considered airborne from frames 8 - 30",
+]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "8-30F 空中判定"]
+startup = 17
+active = [17, 29]
+recovery = 16
+damage = 800
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Condor Spire (Medium)
 [[moves]]
 name = "Condor Spire (Medium)"
 name_ja = "コンドルスパイア (中)"
+alternativeNames = ["M Condor Spire"]
+alternativeNames_ja = ["中 コンドルスパイア"]
 slug = "condor-spire-medium"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "236mk"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Considered airborne from frames 9 - 35",
+]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "9-35F 空中判定"]
+startup = 21
+active = [21, 33]
+recovery = 16
+damage = 900
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Condor Spire (Heavy)
 [[moves]]
 name = "Condor Spire (Heavy)"
 name_ja = "コンドルスパイア (強)"
+alternativeNames = ["H Condor Spire"]
+alternativeNames_ja = ["強 コンドルスパイア"]
 slug = "condor-spire-heavy"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "236hk"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Considered airborne from frames 11 - 39",
+]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "11-39F 空中判定"]
+startup = 25
+active = [25, 37]
+recovery = 16
+damage = 1000
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
 
 # Condor Spire (OD)
 [[moves]]
 name = "Condor Spire (OD)"
 name_ja = "コンドルスパイア (OD)"
+alternativeNames = ["OD Condor Spire", "EX Condor Spire"]
+alternativeNames_ja = ["OD コンドルスパイア", "EX コンドルスパイア"]
 slug = "condor-spire-od"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "236(kk)"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Considered airborne from frames 7 - 29",
+  "* Can only be canceled by Level 2 Super Art Thunderbird",
+]
+notes_ja = [
+  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
+  "7-29F 空中判定",
+  "※SA2 スカイサンダーバードでのみキャンセル可能",
+]
+startup = 15
+active = [15, 27]
+recovery = 16
+cancel = "*"
+damage = 1000
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -7000
+
+# [Windclad] Condor Spire (Light)
+[[moves]]
+name = "[Windclad] Condor Spire (Light)"
+name_ja = "[風纏い] コンドルスパイア (弱)"
+alternativeNames = ["L Condor Spire"]
+alternativeNames_ja = ["弱 コンドルスパイア"]
+slug = "windclad-condor-spire-light"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236lk"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 9 - 39"]
+notes_ja = ["9-39F 空中判定"]
+
+startup = 9
+active = [9, 13, 20, 30, 31, 37]
+recovery = 14
+damage = 1000
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1100
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# [Windclad] Condor Spire (Medium)
+[[moves]]
+name = "[Windclad] Condor Spire (Medium)"
+name_ja = "[風纏い] コンドルスパイア (中)"
+alternativeNames = ["M Condor Spire"]
+alternativeNames_ja = ["中 コンドルスパイア"]
+slug = "windclad-condor-spire-medium"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236mk"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 13 - 43"]
+notes_ja = ["13-43F 空中判定"]
+
+startup = 13
+active = [13, 17, 24, 34, 35, 41]
+recovery = 14
+damage = 1100
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1100
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# [Windclad] Condor Spire (Heavy)
+[[moves]]
+name = "[Windclad] Condor Spire (Heavy)"
+name_ja = "[風纏い] コンドルスパイア (強)"
+alternativeNames = ["H Condor Spire"]
+alternativeNames_ja = ["強 コンドルスパイア"]
+slug = "windclad-condor-spire-heavy"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236hk"
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 17 - 47"]
+notes_ja = ["17-47F 空中判定"]
+
+startup = 17
+active = [17, 21, 28, 38, 39, 45]
+recovery = 14
+damage = 1200
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1100
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# [Windclad] Condor Spire (OD)
+[[moves]]
+name = "[Windclad] Condor Spire (OD)"
+name_ja = "[風纏い] コンドルスパイア (OD)"
+alternativeNames = ["OD Condor Spire", "EX Condor Spire"]
+alternativeNames_ja = ["OD コンドルスパイア", "EX コンドルスパイア"]
+slug = "windclad-condor-spire-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "236(kk)"
+properties = ["knockdown"]
+notes = [
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Considered airborne from frames 9 - 34",
+  "Invincible to projectiles from frames 9 - 32",
+  "* Can only be canceled by level 2 Super Art Sky Thunderbird",
+]
+notes_ja = [
+  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
+  "9-34F 空中判定",
+  "9-32F 飛び道具に対して無敵",
+  "※SA2 スカイサンダーバードでのみキャンセル可能",
+]
+startup = 9
+active = [9, 22, 23, 25, 26, 32]
+recovery = 14
+cancel = "*"
+damage = 1200
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1100
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -7000
 
 # Tomahawk Buster (Light)
 [[moves]]
 name = "Tomahawk Buster (Light)"
 name_ja = "トマホークバスター (弱)"
+alternativeNames = ["L Tomahawk Buster"]
+alternativeNames_ja = ["弱 トマホークバスター"]
 slug = "tomahawk-buster-light"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "623lp"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 10",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 空中判定の攻撃に対して無敵",
+  "7-37F 空中判定",
+]
+startup = 6
+active = [6, 16]
+recovery = 20
+postLandingRecovery = 12
+damage = 900
+superArt = 1000
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tomahawk Buster (Medium)
 [[moves]]
 name = "Tomahawk Buster (Medium)"
 name_ja = "トマホークバスター (中)"
+alternativeNames = ["M Tomahawk Buster"]
+alternativeNames_ja = ["中 トマホークバスター"]
 slug = "tomahawk-buster-medium"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "623mp"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 12",
+  "Considered airborne from frames 9 - 44",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-12F 空中判定の攻撃に対して無敵",
+  "9-44F 空中判定",
+]
+startup = 8
+active = [8, 19]
+recovery = 24
+postLandingRecovery = 12
+damage = 1000
+superArt = 1000
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -32
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tomahawk Buster (Heavy)
 [[moves]]
 name = "Tomahawk Buster (Heavy)"
 name_ja = "トマホークバスター (強)"
+alternativeNames = ["H Tomahawk Buster"]
+alternativeNames_ja = ["強 トマホークバスター"]
 slug = "tomahawk-buster-heavy"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "623hp"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks on frames 1- 14",
+  "Considered airborne from frames 11 - 49",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-14F 空中判定の攻撃に対して無敵",
+  "11-49F 空中判定",
+]
+startup = 10
+active = [10, 23]
+recovery = 25
+postLandingRecovery = 12
+damage = 1200
+superArt = 1000
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tomahawk Buster (OD)
 [[moves]]
 name = "Tomahawk Buster (OD)"
 name_ja = "トマホークバスター (OD)"
+alternativeNames = ["OD Tomahawk Buster", "EX Tomahawk Buster"]
+alternativeNames_ja = ["OD トマホークバスター", "EX トマホークバスター"]
 slug = "tomahawk-buster-od"
 characterId = 16
 type = "special"
 blockType = "high"
 input = "623(pp)"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
 cancelsInto = ["condor-dive-od"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 11 - 14",
+  "Invincible to throws from frames 1 - 10",
+  "Considered airborne from frames 7 - 45",
+  "Can only transition into Overdrive Condor Dive",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 投げに対して無敵",
+  "7-45F 空中判定",
+  "※OD コンドルダイブへのみ派生可能",
+]
+
+startup = 6
+active = [6, 17]
+recovery = 27
+postLandingRecovery = 15
 cancel = "*"
+damage = 1400
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1000
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Windclad] Tomahawk Buster (Light)
+[[moves]]
+name = "[Windclad] Tomahawk Buster (Light)"
+name_ja = "[風纏い] トマホークバスター (弱)"
+alternativeNames = ["L Tomahawk Buster"]
+alternativeNames_ja = ["弱 トマホークバスター"]
+slug = "windclad-tomahawk-buster-light"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623lp"
+
+properties = ["knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 10",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 空中判定の攻撃に対して無敵",
+  "7-37F 空中判定",
+]
+startup = 4
+active = [4, 7, 8, 16]
+recovery = 20
+postLandingRecovery = 12
+damage = 1000
+superArt = 1100
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Windclad] Tomahawk Buster (Medium)
+[[moves]]
+name = "[Windclad] Tomahawk Buster (Medium)"
+name_ja = "[風纏い] トマホークバスター (中)"
+alternativeNames = ["M Tomahawk Buster"]
+alternativeNames_ja = ["中 トマホークバスター"]
+slug = "windclad-tomahawk-buster-medium"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623mp"
+properties = ["knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 12",
+  "Considered airborne from frames 9 - 44",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-12F 空中判定の攻撃に対して無敵",
+  "9-44F 空中判定",
+]
+startup = 6
+active = [6, 9, 19]
+recovery = 24
+postLandingRecovery = 12
+damage = 1200
+superArt = 1100
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -30
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Windclad] Tomahawk Buster (Heavy)
+[[moves]]
+name = "[Windclad] Tomahawk Buster (Heavy)"
+name_ja = "[風纏い] トマホークバスター (強)"
+alternativeNames = ["H Tomahawk Buster"]
+alternativeNames_ja = ["強 トマホークバスター"]
+slug = "windclad-tomahawk-buster-heavy"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623hp"
+properties = ["knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 14",
+  "Considered airborne from frames 11 - 49",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-14F 空中判定の攻撃に対して無敵",
+  "11-49F 空中判定",
+]
+startup = 8
+active = [8, 11, 12, 23]
+recovery = 25
+postLandingRecovery = 12
+damage = 1400
+superArt = 1100
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -33
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Windclad] Tomahawk Buster (OD)
+[[moves]]
+name = "[Windclad] Tomahawk Buster (OD)"
+name_ja = "[風纏い] トマホークバスター (OD)"
+alternativeNames = ["OD Tomahawk Buster", "EX Tomahawk Buster"]
+alternativeNames_ja = ["OD トマホークバスター", "EX トマホークバスター"]
+slug = "windclad-tomahawk-buster-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 11 - 14",
+  "Invincible to throws from frames 1 - 10",
+  "Considered airborne from frames 7 - 45",
+  "* Can only transition into Overdrive Condor Dive",
+]
+notes_ja = [
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 投げに対して無敵",
+  "7-45F 空中判定",
+  "※OD コンドルダイブへのみ派生可能",
+]
+
+startup = 4
+active = [4, 5, 6, 7, 8, 17]
+recovery = 27
+postLandingRecovery = 15
+cancel = "*"
+damage = 1600
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1100
+capcom_skill_id = 503
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
 
 # Condor Dive
 [[moves]]
@@ -701,6 +1316,29 @@ characterId = 16
 type = "special"
 blockType = "high"
 input = "{8|9}+(pp)"
+properties = ["knockdown"]
+notes = [
+  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile.",
+  "Has cross-up attack properties",
+]
+notes_ja = [
+  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効。",
+  "めくり性能",
+]
+startup = 12
+active = [12]
+postLandingRecovery = 24
+damage = 800
+superArt = 1000
+capcom_skill_id = 504
+
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Condor Dive (OD)
 [[moves]]
@@ -711,16 +1349,247 @@ characterId = 16
 type = "special"
 blockType = "high"
 input = "{8|9}+(ppp)"
+properties = ["knockdown"]
+notes = [
+  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile.",
+  "Has cross-up attack properties",
+  "* If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
+]
+notes_ja = [
+  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効。",
+  "めくり性能",
+  "※OD トマホークバスターからの派生版はコンボ補正35%",
+]
+startup = 12
+active = [12]
+postLandingRecovery = 24
+damage = 1400
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+superArt = 1000
+capcom_skill_id = 504
 
-# Mexican Typhoon
+[moves.frameAdvantage]
+block = -24
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# [Windclad] Condor Dive
 [[moves]]
-name = "Mexican Typhoon"
-name_ja = "メキシカンタイフーン"
-slug = "mexican-typhoon"
+name = "[Windclad] Condor Dive"
+name_ja = "[風纏い] コンドルダイブ"
+slug = "windclad-condor-dive"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "{8|9}+(pp)"
+hitCount = 2
+properties = ["knockdown"]
+notes = [
+  "A more powerful Condor Dive. Can also be used after an OD Tomahawk Buster.",
+  "Has cross-up attack properties",
+  "When the first attack hits, the 2nd hit will happen on the next frame",
+]
+notes_ja = [
+  "全体的な性能が強化されたコンドルダイブ。ODトマホークバスターから派生させる事も可能となる。",
+  "めくり性能",
+  "初段ヒット時、次のフレームで2段目が発生",
+]
+startup = 12
+active = [12]
+postLandingRecovery = 24
+damage = 1000
+superArt = 1100
+capcom_skill_id = 505
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -5000
+onPunishCounter = -5000
+
+# [Windclad] Condor Dive (OD)
+[[moves]]
+name = "[Windclad] Condor Dive (OD)"
+name_ja = "[風纏い] コンドルダイブ (OD)"
+slug = "windclad-condor-dive-od"
+characterId = 16
+type = "special"
+blockType = "high"
+input = "{8|9}+(ppp)"
+hitCount = 2
+properties = ["knockdown"]
+notes = [
+  "Has cross-up attack properties",
+  "When the first attack hits, the 2nd hit will happen on the next frame",
+  "* If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
+]
+notes_ja = ["めくり性能", "初段ヒット時、次のフレームで2段目が発生", "※OD トマホークバスターからの派生版はコンボ補正35%"]
+
+startup = 12
+active = [12]
+postLandingRecovery = 24
+damage = 1600
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+superArt = 1100
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
+# Mexican Typhoon (Light)
+[[moves]]
+name = "Mexican Typhoon (Light)"
+name_ja = "メキシカンタイフーン (弱)"
+alternativeNames = ["L Mexican Typhoon"]
+alternativeNames_ja = ["弱 メキシカンタイフーン"]
+slug = "mexican-typhoon-light"
 characterId = 16
 type = "commandThrow"
-blockType = "high"
-input = "{360}+*p"
+input = "{360}+lp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Damage set to 2300 on Punish Counter",
+]
+notes_ja = [
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "パニッシュカウンター時ダメージ（2300）",
+]
+startup = 5
+active = [5, 7]
+recovery = 53
+damage = 2000
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 3000
+capcom_skill_id = 506
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
+
+# Mexican Typhoon (Medium)
+[[moves]]
+name = "Mexican Typhoon (Medium)"
+name_ja = "メキシカンタイフーン (中)"
+alternativeNames = ["M Mexican Typhoon"]
+alternativeNames_ja = ["中 メキシカンタイフーン"]
+slug = "mexican-typhoon-medium"
+characterId = 16
+type = "commandThrow"
+input = "{360}+mp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Damage set to 2760 on Punish Counter",
+]
+notes_ja = [
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "パニッシュカウンター時ダメージ（2760）",
+]
+startup = 5
+active = [5, 7]
+recovery = 53
+damage = 2400
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 3000
+capcom_skill_id = 506
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
+
+# Mexican Typhoon (Heavy)
+[[moves]]
+name = "Mexican Typhoon (Heavy)"
+name_ja = "メキシカンタイフーン (強)"
+alternativeNames = ["H Mexican Typhoon"]
+alternativeNames_ja = ["強 メキシカンタイフーン"]
+slug = "mexican-typhoon-heavy"
+characterId = 16
+type = "commandThrow"
+input = "{360}+hp"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "With Classic Controls",
+  "Does 3220 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3220 individual damage when the attack lands as a Punish Counter",
+  "*Does 2576 individual damage using simplified inputs",
+]
+notes_ja = [
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時ダメージ（3220）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3220）",
+  "※簡易入力時（2576）",
+]
+
+startup = 5
+active = [5, 7]
+recovery = 53
+damage = 2800
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 3000
+capcom_skill_id = 506
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
+
+# Mexican Typhoon (OD)
+[[moves]]
+name = "Mexican Typhoon (OD)"
+name_ja = "メキシカンタイフーン (OD)"
+alternativeNames = ["OD Mexican Typhoon", "EX Mexican Typhoon"]
+alternativeNames_ja = ["OD メキシカンタイフーン", "EX メキシカンタイフーン"]
+slug = "mexican-typhoon-od"
+characterId = 16
+type = "commandThrow"
+input = "{360}+(pp)"
+properties = ["knockdown"]
+notes = [
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "With Classic Controls",
+  "Does 3350 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 3350 individual damage when the attack lands as a Punish Counter",
+  "*Does 2680 individual damage using simplified inputs",
+]
+notes_ja = [
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時ダメージ（3350）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（3350）",
+  "※簡易入力時（2680）",
+]
+
+startup = 5
+active = [5, 7]
+recovery = 53
+damage = 2900
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 3000
+capcom_skill_id = 506
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10000
 
 # Breezing Hawk
 [[moves]]
@@ -731,6 +1600,34 @@ characterId = 16
 type = "super1"
 blockType = "high"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "After the attack begins, you'll unleash a series of spinning attacks centered around your opponent. It is slow to come out, but it does lots of damage and is invincible at the start.",
+  "Invincible to strikes and throws from frames 1 - 14",
+  "Transitions to the full animation on the 2nd hit",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 30%",
+]
+notes_ja = [
+  "始動の攻撃後、相手を支点に周囲を回転しながら攻撃する技。技の出が遅い代わりにダメージが高く、出始めに無敵時間もある。",
+  "1-14F 打撃・投げに対して無敵",
+  "2段目ヒット時に派生",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 13
+active = [13, 14, 20, 21, 29, 30, 39, 40, 49, 50]
+recovery = 54
+damage = 2200
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Thunderbird
 [[moves]]
@@ -741,7 +1638,101 @@ characterId = 16
 type = "super2"
 blockType = "high"
 input = "236236*k"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Remaining in place, leap directly upwards while unleashing a series of spinning attacks. It executes quickly, making it useful as an anti-air attack or as a way to turn the tables while doing lots of damage.",
+  "Fully invincible from frames 1 - 41",
+  "Considered airborne from frames 7 - 80",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 40%",
+]
+notes_ja = [
+  "その場から真上方向に回転しながら跳び上がって連続攻撃する技。技の出が早く、対空や切り返しで高ダメージを狙える。",
+  "1-41F 完全無敵",
+  "7-80F 空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 9
+active = [9, 10, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30, 40, 41]
+recovery = 39
+postLandingRecovery = 24
+damage = 2500
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -48
+
+[moves.driveGauge]
+onBlock = -7000
+onPunishCounter = -10000
+
+# [Windclad] Thunderbird
+[[moves]]
+name = "[Windclad] Thunderbird"
+name_ja = "[風纏い] サンダーバード"
+slug = "windclad-thunderbird"
+characterId = 16
+type = "super2"
+blockType = "high"
+input = "236236*k"
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Fully invincible from frames 1 - 41",
+  "Considered airborne from frames 7 - 80",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 40%",
+]
+notes_ja = [
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "1-41F 完全無敵",
+  "7-80F 空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 9
+active = [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  40,
+  41,
+]
+recovery = 39
+postLandingRecovery = 24
+damage = 2800
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -48
+
+[moves.driveGauge]
+onBlock = -8250
+onPunishCounter = -10000
 
 # Soaring Thunderbird
 [[moves]]
@@ -752,7 +1743,97 @@ characterId = 16
 type = "super2"
 blockType = "high"
 input = "j>236236*k"
-properties = ["stockDecrement"]
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Fully invincible from frames 1 - 41",
+  "Considered airborne",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 40%",
+]
+notes_ja = [
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "1-41F 完全無敵",
+  "空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 9
+active = [9, 10, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30, 40, 41]
+postLandingRecovery = 25
+damage = 2500
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -54
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
+
+# [Windclad] Soaring Thunderbird
+[[moves]]
+name = "[Windclad] Soaring Thunderbird"
+name_ja = "[風纏い] スカイサンダーバード"
+slug = "windclad-soaring-thunderbird"
+characterId = 16
+type = "super2"
+blockType = "high"
+input = "j>236236*k"
+properties = ["stockDecrement", "knockdown"]
+notes = [
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Fully invincible from frames 1 - 41",
+  "Considered airborne",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 40%",
+]
+notes_ja = [
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "1-41F 完全無敵",
+  "空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 9
+active = [
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  33,
+  40,
+  41,
+]
+postLandingRecovery = 25
+damage = 2800
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -51
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -10000
 
 # Raging Typhoon
 [[moves]]
@@ -763,6 +1844,29 @@ characterId = 16
 type = "super3"
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "Fully invincible from frames 1 - 8",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 50%",
+]
+notes_ja = [
+  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "1-8F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 7
+active = [7, 8]
+recovery = 106
+damage = 4500
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcom_skill_id = 604
+
+[moves.driveGauge]
+onPunishCounter = -15000
 
 # Raging Typhoon (Critical Art)
 [[moves]]
@@ -773,26 +1877,90 @@ characterId = 16
 type = "super3"
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "Fully invincible from frames 1 - 8",
+  "Values do not change on counter or Punish Counter",
+  "Minimum guaranteed damage is set to 50%",
+]
+notes_ja = [
+  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "1-8F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+startup = 7
+active = [7, 8]
+recovery = 106
+damage = 5000
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcom_skill_id = 604
+
+[moves.driveGauge]
+onPunishCounter = -20000
 
 # Ridge Thrust
 [[moves]]
-name = "Ridge Thrust HK"
+name = "Ridge Thrust"
 name_ja = "スラストリッジ"
-slug = "ridge-thrust-hk"
+slug = "ridge-thrust"
 characterId = 16
 type = "commandNormal"
-blockType = "high"
+blockType = "mid"
 input = "3hk"
+hitCount = 1
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Invincible to low attacks from frames 5 - 19",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "5-19F足元無敵", "強制しゃがみ効果", "空中ヒット時叩きつけダウン"]
+startup = 25
+active = [25, 27]
+recovery = 18
+damage = 900
+superArt = 1000
+capcom_skill_id = 401
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Horn Breaker
 [[moves]]
-name = "Horn Breaker HP"
+name = "Horn Breaker"
 name_ja = "ホーンブレイク"
-slug = "horn-breaker-hp"
+slug = "horn-breaker"
 characterId = 16
 type = "commandNormal"
 blockType = "high"
 input = "4hp"
+hitCount = 1
+
+startup = 14
+active = [14, 17]
+recovery = 18
+cancel = "C"
+damage = 1000
+superArt = 1000
+capcom_skill_id = 402
+notes = ["An attack with long reach that can be canceled into special moves."]
+notes_ja = ["リーチが長く、必殺技キャンセル可能な攻撃。"]
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
 
 # Great Spin
 [[moves]]
@@ -801,8 +1969,25 @@ name_ja = "グレートスピン"
 slug = "great-spin"
 characterId = 16
 type = "commandNormal"
-blockType = "high"
+blockType = "mid"
 input = "2hp"
+hitCount = 1
+notes = [
+  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス。", "めくり性能"]
+startup = 9
+active = [9, 19]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+capcom_skill_id = 403
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Double Arrow
 [[moves]]
@@ -811,18 +1996,119 @@ name_ja = "ダブルアロー"
 slug = "double-arrow"
 characterId = 16
 type = "targetCombo"
-blockType = "high"
+blockType = "mid"
 input = "j>5mp>5mp"
+hitCount = 2
+notes = [
+  "A combination attack that is useful against jumping opponents.",
+  "Forces a juggle state on a mid-air hit",
+  "* Can only be canceled by Level 2 Super Art Thunderbird",
+]
+notes_ja = ["相手のジャンプに対して強い連続攻撃。", "空中ヒット時吹き飛びダウン", "※SA2 スカイサンダーバードでのみキャンセル可能"]
+startup = 10
+active = [10, 12]
+postLandingRecovery = 3
+cancel = "*"
+damage = 700
+superArt = 500
+capcom_skill_id = 404
 
-# Desert Storm
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Desert Storm (1)
 [[moves]]
-name = "Desert Storm"
-name_ja = "デザートストーム"
-slug = "desert-storm"
+name = "Desert Storm (1)"
+name_ja = "デザートストーム (1)"
+slug = "desert-storm-1"
+characterId = 16
+type = "targetCombo"
+blockType = "high"
+input = "6hp"
+hitCount = 1
+notes = [
+  "A sequence of attacks that deals big damage.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 18
+active = [18, 19]
+recovery = 24
+cancel = "C"
+damage = 900
+superArt = 1000
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Desert Storm (2)
+[[moves]]
+name = "Desert Storm (2)"
+name_ja = "デザートストーム (2)"
+slug = "desert-storm-2"
+characterId = 16
+type = "targetCombo"
+blockType = "high"
+input = "6hp>5hp"
+hitCount = 2
+notes = [
+  "A sequence of attacks that deals big damage.",
+  "Forces a juggle state when hitting a mid-air opponent",
+]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。", "空中ヒット時吹き飛びダウン"]
+startup = 20
+active = [20, 21]
+recovery = 27
+damage = 500
+superArt = 1000
+capcom_skill_id = 405
+
+[moves.frameAdvantage]
+hit = 0
+block = -9
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -5000
+
+# Desert Storm (3)
+[[moves]]
+name = "Desert Storm (3)"
+name_ja = "デザートストーム (3)"
+slug = "desert-storm-3"
 characterId = 16
 type = "targetCombo"
 blockType = "high"
 input = "6hp>5hp>5hp"
+hitCount = 3
+properties = ["knockdown"]
+
+startup = 20
+active = [20, 24]
+recovery = 42
+damage = 500
+superArt = 1000
+capcom_skill_id = 405
+notes = ["A sequence of attacks that deals big damage."]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -26
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -5000
 
 # Canyon Throw
 [[moves]]
@@ -834,6 +2120,33 @@ slug = "canyon-throw"
 characterId = 16
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab an opponent's leg with your war clubs and toss them into the air. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の脚をポカモガンで掴み、上方向に放り投げる技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Falling Cliff
 [[moves]]
@@ -845,3 +2158,30 @@ slug = "falling-cliff"
 characterId = 16
 type = "throw"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Grab an opponent's head between your war clubs and toss them behind you. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "相手の頭をポカモガンで掴んで挟み、後方に投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
