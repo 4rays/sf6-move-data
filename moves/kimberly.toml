@@ -12,6 +12,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5lp"
+
 startup = 5
 active = [5, 6]
 recovery = 8
@@ -44,6 +45,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5mp"
+
 startup = 6
 active = [6, 8]
 recovery = 18
@@ -363,7 +365,9 @@ hitCount = 1
 blockType = "low"
 input = "2hk"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 8
@@ -561,6 +565,11 @@ damage = 450
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 500
+capcom_skill_id = 401
+notes = [
+  "Slide along the ground toward your opponent. This is a low attack that cannot be blocked standing.",
+]
+notes_ja = ["前方へ低姿勢で滑り込む、立ってガードできない下段攻撃。"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -581,8 +590,11 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hk"
-notes = ["Forces opponent to crouch on hit"]
-notes_ja = ["強制しゃがみ効果"]
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Forces opponent to crouch on hit",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "強制しゃがみ効果"]
 
 startup = 22
 active = [22, 23]
@@ -591,6 +603,7 @@ damage = 720
 scaling = ["Starter scaling 25%"]
 scaling_ja = ["始動補正25%"]
 superArt = 1000
+capcom_skill_id = 402
 
 [moves.frameAdvantage]
 hit = 4
@@ -611,6 +624,36 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hk"
+notes = [
+  "A leaping kick with long reach. Useful as a counter to an opponent's sweeps.",
+  "Considered airborne from frames 18 - 32",
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Recovery is reduced by 8 frames when blocked",
+]
+notes_ja = [
+  "相手の足払いに対して強いリーチの長い飛び蹴り。",
+  "18-32F 空中判定",
+  "空中ヒット時吹き飛びダウン",
+  "ガード時硬直8F減少",
+]
+
+startup = 27
+active = [27, 29]
+recovery = 21
+damage = 720
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcom_skill_id = 403
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1200
+onBlock = -4000
+onPunishCounter = -7000
 
 # Step Up
 [[moves]]
@@ -621,6 +664,16 @@ characterId = 5
 type = "commandNormal"
 input = "6hk>7|8|9"
 parentSlugs = ["hisen-kick"]
+notes_ja = ["飛箭蹴から派生する、3方向へのジャンプ動作。", "ジャンプ動作中空中技でキャンセル可能"]
+postLandingRecovery = 3
+capcom_skill_id = 404
+notes = [
+  "Performed from Hisen Kick, this maneuver can be used to jump in one of three directions.",
+]
+
+[moves.frameAdvantage]
+hit = -10
+block = -22
 
 # Elbow Drop
 [[moves]]
@@ -632,6 +685,23 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "j>2mp"
+notes = [
+  "A descending attack with a long duration that can be performed while jumping.",
+  "Forces a slam knockdown when hitting a mid-air opponent",
+]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。", "空中ヒット時叩きつけダウン"]
+
+startup = 13
+active = [13, 25]
+postLandingRecovery = 8
+damage = 540
+superArt = 500
+capcom_skill_id = 405
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Bushin Tiger Fangs
 [[moves]]
@@ -643,28 +713,170 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "mp>hp"
+properties = ["knockdown"]
 
-# Bushin Prism Strikes
+startup = 10
+active = [10, 12]
+recovery = 26
+cancel = "C"
+damage = 360
+superArt = 800
+capcom_skill_id = 406
+notes = ["A quick series of attacks that can be canceled into special moves."]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -4000
+onPunishCounter = -8000
+
+# Bushin Prism Strikes (2)
 [[moves]]
-name = "Bushin Prism Strikes"
-name_ja = "武神天架拳"
-slug = "bushin-prism-strikes"
+name = "Bushin Prism Strikes (2)"
+name_ja = "武神天架拳（2段目）"
+slug = "bushin-prism-strikes-2"
+characterId = 5
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "lp>mp"
+
+startup = 6
+active = [6, 8]
+recovery = 18
+damage = 360
+superArt = 400
+capcom_skill_id = 407
+notes = ["A quick combination attack that hits multiple times."]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
+
+[moves.driveGauge]
+onHit = 800
+onBlock = -2000
+onPunishCounter = -4000
+
+# Bushin Prism Strikes (3)
+[[moves]]
+name = "Bushin Prism Strikes (3)"
+name_ja = "武神天架拳（3段目）"
+slug = "bushin-prism-strikes-3"
 characterId = 5
 type = "targetCombo"
 hitCount = 3
+blockType = "high"
+input = "lp>mp>hp"
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 13]
+recovery = 25
+damage = 440
+superArt = 700
+capcom_skill_id = 407
+notes = ["A quick combination attack that hits multiple times."]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
+onPunishCounter = -4000
+
+# Bushin Prism Strikes (4)
+[[moves]]
+name = "Bushin Prism Strikes (4)"
+name_ja = "武神天架拳（4段目）"
+slug = "bushin-prism-strikes-4"
+characterId = 5
+type = "targetCombo"
+hitCount = 4
 blockType = "high"
 input = "lp>mp>hp>hk"
+properties = ["knockdown"]
 
-# Bushin Hellchain
+startup = 26
+active = [26, 28]
+recovery = 24
+damage = 520
+superArt = 800
+capcom_skill_id = 407
+notes = ["A quick combination attack that hits multiple times."]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
+onPunishCounter = -4000
+
+# Bushin Hellchain (3)
 [[moves]]
-name = "Bushin Hellchain"
-name_ja = "武神獄鎖拳"
-slug = "bushin-hellchain"
+name = "Bushin Hellchain (3)"
+name_ja = "武神獄鎖拳（3段目）"
+slug = "bushin-hellchain-3"
 characterId = 5
 type = "targetCombo"
 hitCount = 3
 blockType = "high"
+input = "lp>mp>2hp"
+
+startup = 10
+active = [10, 11]
+recovery = 25
+damage = 580
+superArt = 700
+capcom_skill_id = 408
+notes = ["A combination attack that sends an opponent flying."]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+
+[moves.frameAdvantage]
+hit = 2
+block = -10
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
+onPunishCounter = -4000
+
+# Bushin Hellchain (4)
+[[moves]]
+name = "Bushin Hellchain (4)"
+name_ja = "武神獄鎖拳（4段目）"
+slug = "bushin-hellchain-4"
+characterId = 5
+type = "targetCombo"
+hitCount = 4
+blockType = "high"
 input = "lp>mp>2hp>2hk"
+properties = ["knockdown"]
+
+startup = 15
+active = [15, 17]
+recovery = 24
+damage = 750
+superArt = 800
+capcom_skill_id = 408
+notes = ["A combination attack that sends an opponent flying."]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
+onPunishCounter = -4000
 
 # Bushin Hellchain Throw
 [[moves]]
@@ -676,94 +888,258 @@ type = "targetCombo"
 hitCount = 4
 blockType = "high"
 input = "lp>mp>2hp>2hk"
+properties = ["knockdown"]
+
+startup = 15
+active = [15, 17]
+recovery = 23
+damage = 750
+superArt = 700
+capcom_skill_id = 409
+notes = ["A combination attack that switches places with your opponent."]
+notes_ja = ["続けてヒットし、相手との位置を入れ替える連続攻撃。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
 
 # Bunshin Senpu-kyaku (Light)
 [[moves]]
 name = "Bunshin Senpu-kyaku (Light)"
 name_ja = "武神旋風脚 (弱)"
+alternativeNames = ["L Bunshin Senpu-kyaku"]
+alternativeNames_ja = ["弱 武神旋風脚"]
 slug = "bunshin-senpukyaku-light"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lk"
+properties = ["knockdown"]
+notes = [
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 6 - 11",
+  "Considered airborne from frames 7 - 42",
+  "* Does 90 damage only if the first attack misses",
+]
+notes_ja = [
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "6-11F 空中判定の攻撃に対して無敵",
+  "7-42F 空中判定",
+  "※初段空振り時のみヒットする（90）",
+]
+
+startup = 6
+active = [6, 11, 13, 18, 20, 25, 34, 36]
+postLandingRecovery = 17
+damage = 990
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -30
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -1000
+onPunishCounter = -5000
 
 # Bunshin Senpu-kyaku (Medium)
 [[moves]]
 name = "Bunshin Senpu-kyaku (Medium)"
 name_ja = "武神旋風脚 (中)"
+alternativeNames = ["M Bunshin Senpu-kyaku"]
+alternativeNames_ja = ["中 武神旋風脚"]
 slug = "bunshin-senpukyaku-medium"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mk"
+properties = ["knockdown"]
+notes = [
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 7 - 12",
+  "Considered airborne from frames 8 - 45",
+  "* Does 90 damage only if the first attack misses",
+]
+notes_ja = [
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "7-12F 空中判定の攻撃に対して無敵",
+  "8-45F 空中判定",
+  "※初段空振り時のみヒットする（90）",
+]
+
+startup = 7
+active = [7, 12, 14, 19, 21, 26, 35, 37]
+postLandingRecovery = 17
+damage = 1080
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -32
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -1000
+onPunishCounter = -5000
 
 # Bunshin Senpu-kyaku (Heavy)
 [[moves]]
 name = "Bunshin Senpu-kyaku (Heavy)"
 name_ja = "武神旋風脚 (強)"
+alternativeNames = ["H Bunshin Senpu-kyaku"]
+alternativeNames_ja = ["強 武神旋風脚"]
 slug = "bunshin-senpukyaku-heavy"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hk"
+properties = ["knockdown"]
+notes = [
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 8 - 13",
+  "Considered airborne from frames 9 - 49",
+  "* Does 180 damage only if the first attack misses",
+]
+notes_ja = [
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "8-13F 空中判定の攻撃に対して無敵",
+  "9-49F 空中判定",
+  "※初段空振り時のみヒットする（180）",
+]
+
+startup = 8
+active = [8, 13, 15, 20, 22, 27, 36, 38]
+postLandingRecovery = 17
+damage = 1170
+superArt = 1000
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -1000
+onPunishCounter = -5000
 
 # Bunshin Senpu-kyaku (OD)
 [[moves]]
 name = "Bunshin Senpu-kyaku (OD)"
 name_ja = "武神旋風脚 (OD)"
+alternativeNames = ["OD Bunshin Senpu-kyaku", "EX Bunshin Senpu-kyaku"]
+alternativeNames_ja = ["OD 武神旋風脚", "EX 武神旋風脚"]
 slug = "bunshin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(kk)"
+properties = ["knockdown"]
+notes = [
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Invincible to mid-air attacks from frames 1 - 11",
+  "Considered airborne from frames 7 - 47",
+]
+notes_ja = [
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "1-11F 空中判定の攻撃に対して無敵",
+  "7-47F 空中判定",
+]
 
-# Aerial Bunshin Senpu-kyaku (Light)
+startup = 6
+active = [6, 11, 13, 18, 20, 25, 27, 32, 34, 35]
+postLandingRecovery = 17
+damage = 1350
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1200
+capcom_skill_id = 501
+
+[moves.frameAdvantage]
+block = -40
+
+[moves.driveGauge]
+onBlock = -1000
+onPunishCounter = -5000
+
+# Aerial Bunshin Senpu-kyaku
 [[moves]]
-name = "Aerial Bunshin Senpu-kyaku (Light)"
-name_ja = "空中武神旋風脚 (弱)"
-slug = "aerial-bunshin-senpukyaku-light"
+name = "Aerial Bunshin Senpu-kyaku"
+name_ja = "空中武神旋風脚"
+slug = "aerial-bunshin-senpukyaku"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>214lk"
+input = "j>214*k"
 
-# Aerial Bunshin Senpu-kyaku (Medium)
-[[moves]]
-name = "Aerial Bunshin Senpu-kyaku (Medium)"
-name_ja = "空中武神旋風脚 (中)"
-slug = "aerial-bunshin-senpukyaku-medium"
-characterId = 5
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "j>214mk"
+startup = 8
+active = [8, 9, 17, 18, 26, 27]
+postLandingRecovery = 12
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcom_skill_id = 502
+notes = [
+  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air.",
+]
+notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的。"]
 
-# Aerial Bunshin Senpu-kyaku (Heavy)
-[[moves]]
-name = "Aerial Bunshin Senpu-kyaku (Heavy)"
-name_ja = "空中武神旋風脚 (強)"
-slug = "aerial-bunshin-senpukyaku-heavy"
-characterId = 5
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "j>214hk"
+[moves.frameAdvantage]
+hit = 5
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerial Bunshin Senpu-kyaku (OD)
 [[moves]]
 name = "Aerial Bunshin Senpu-kyaku (OD)"
 name_ja = "空中武神旋風脚 (OD)"
+alternativeNames = [
+  "OD Aerial Bunshin Senpu-kyaku",
+  "EX Aerial Bunshin Senpu-kyaku",
+]
+alternativeNames_ja = ["OD 空中武神旋風脚", "EX 空中武神旋風脚"]
 slug = "aerial-bunshin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>214(kk)"
+notes = [
+  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air.",
+  "Has cross-up attack properties",
+]
+notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的。", "めくり性能"]
+
+startup = 8
+active = [8, 9, 12, 14, 17, 18, 21, 23, 26, 27]
+postLandingRecovery = 12
+cancel = "SA2"
+damage = 990
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1200
+capcom_skill_id = 502
+
+[moves.frameAdvantage]
+hit = 5
+block = 1
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
 
 # Sprint
 [[moves]]
@@ -773,6 +1149,18 @@ slug = "sprint"
 characterId = 5
 type = "special"
 input = "236*k"
+notes = [
+  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed.",
+  "Kimberly can transition to branching attacks from the 8th frame",
+  "After the 16th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
+]
+notes_ja = [
+  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能。",
+  "8Fから専用技に派生可",
+  "16F以降、相手が一定距離内にいると孤空に自動派生",
+]
+totalFrames = 55
+capcom_skill_id = 503
 
 # Sprint (OD)
 [[moves]]
@@ -782,6 +1170,20 @@ slug = "sprint-od"
 characterId = 5
 type = "special"
 input = "236(kk)"
+notes = [
+  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed.",
+  "Kimberly can transition to Emergency Stop from the 6th frame",
+  "Kimberly can transition to Torso Cleaver, Shadow Slide and Neck Hunter from the 8th frame",
+  "After the 14th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
+]
+notes_ja = [
+  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能。",
+  "6Fから急停止に派生可",
+  "8Fから胴刎ね、影すくい、首狩りに派生可",
+  "14F以降、相手が一定距離内にいると孤空に自動派生",
+]
+totalFrames = 54
+capcom_skill_id = 503
 
 # Emergency Stop
 [[moves]]
@@ -790,8 +1192,14 @@ name_ja = "急停止"
 slug = "kimberly-emergency-stop"
 characterId = 5
 type = "special"
-input = "236*k>*p"
+input = "*p"
 parentSlugs = ["sprint"]
+totalFrames = 14
+capcom_skill_id = 504
+notes = [
+  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint.",
+]
+notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える。"]
 
 # Emergency Stop (OD)
 [[moves]]
@@ -800,8 +1208,14 @@ name_ja = "急停止 (OD)"
 slug = "kimberly-emergency-stop-od"
 characterId = 5
 type = "special"
-input = "236(kk)>*p"
+input = "*p"
 parentSlugs = ["sprint-od"]
+totalFrames = 13
+capcom_skill_id = 504
+notes = [
+  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint.",
+]
+notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える。"]
 
 # Torso Cleaver
 [[moves]]
@@ -812,8 +1226,29 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236*k>*k"
+input = "lk"
 parentSlugs = ["sprint"]
+properties = ["knockdown"]
+
+startup = 21
+active = [21, 27]
+recovery = 16
+cancel = "SA3"
+damage = 900
+superArt = 1200
+capcom_skill_id = 505
+notes = [
+  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot.",
+]
+notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効。"]
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Torso Cleaver (OD)
 [[moves]]
@@ -824,8 +1259,28 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(kk)>*k"
+input = "lk"
 parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 18, 19, 23]
+recovery = 16
+cancel = "SA2"
+damage = 1080
+superArt = 1200
+capcom_skill_id = 505
+notes = [
+  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot.",
+]
+notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効。"]
+
+[moves.frameAdvantage]
+block = 3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -8000
 
 # Shadow Slide
 [[moves]]
@@ -836,20 +1291,67 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "low"
-input = "236*k>mk"
+input = "mk"
 parentSlugs = ["sprint"]
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 21]
+recovery = 19
+cancel = "SA3"
+damage = 720
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcom_skill_id = 506
+notes = [
+  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance.",
+]
+notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効。"]
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
 
 # Shadow Slide (OD)
 [[moves]]
 name = "Shadow Slide (OD)"
 name_ja = "影すくい (OD)"
+alternativeNames = ["OD Shadow Slide", "EX Shadow Slide"]
+alternativeNames_ja = ["OD 影すくい", "EX 影すくい"]
 slug = "shadow-slide-od"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "low"
-input = "236(kk)>mk"
+input = "mk"
 parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+
+startup = 8
+active = [8, 15, 16, 19]
+recovery = 19
+cancel = "SA2"
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcom_skill_id = 506
+notes = [
+  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance.",
+]
+notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効。"]
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -8000
 
 # Neck Hunter
 [[moves]]
@@ -860,20 +1362,67 @@ characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236*k>hk"
+input = "hk"
 parentSlugs = ["sprint"]
+properties = ["knockdown"]
+
+startup = 19
+active = [19, 23]
+recovery = 19
+cancel = "SA3"
+damage = 900
+superArt = 1200
+capcom_skill_id = 507
+notes = [
+  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard.",
+]
+notes_ja = ["疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効。"]
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -8000
 
 # Neck Hunter (OD)
 [[moves]]
 name = "Neck Hunter (OD)"
 name_ja = "首狩り (OD)"
+alternativeNames = ["OD Neck Hunter", "EX Neck Hunter"]
+alternativeNames_ja = ["OD 首狩り", "EX 首狩り"]
 slug = "neck-hunter-od"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(kk)>hk"
+input = "hk"
 parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+notes = [
+  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard.",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = [
+  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効。",
+  "空中ヒット時床バウンド",
+]
+
+startup = 15
+active = [15, 16, 17, 19]
+recovery = 19
+cancel = "SA2"
+damage = 1080
+superArt = 1200
+capcom_skill_id = 507
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -8000
 
 # Arc Step
 [[moves]]
@@ -882,22 +1431,74 @@ name_ja = "アークステップ"
 slug = "arc-step"
 characterId = 5
 type = "special"
-input = "236*k"
+input = "5"
+blockType = "high"
 parentSlugs = ["sprint"]
-notes = ["Auto when close."]
-notes_ja = ["近距離で自動発動"]
+notes = [
+  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap.",
+  "Considered airborne from frames 10 - 43",
+  "Can transition into branching attacks from frame 35",
+]
+notes_ja = [
+  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能。",
+  "10-43F 空中判定",
+  "35F 専用技に派生可",
+]
+
+startup = 8
+active = [8, 9, 16, 17]
+recovery = 26
+postLandingRecovery = 4
+damage = 450
+superArt = 200
+capcom_skill_id = 508
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Arc Step (OD)
 [[moves]]
 name = "Arc Step (OD)"
 name_ja = "アークステップ (OD)"
+alternativeNames = ["OD Arc Step", "EX Arc Step"]
+alternativeNames_ja = ["OD アークステップ", "EX アークステップ"]
 slug = "arc-step-od"
 characterId = 5
 type = "special"
-input = "236(kk)"
+input = "5"
 parentSlugs = ["sprint-od"]
-notes = ["Auto when close."]
-notes_ja = ["近距離で自動発動"]
+notes = [
+  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap.",
+  "Considered airborne from frames 10 - 43",
+  "Can transition into branching attacks from frame 35",
+]
+notes_ja = [
+  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能。",
+  "10-43F 空中判定",
+  "35F 専用技に派生可",
+]
+
+startup = 8
+active = [8, 9, 16, 17]
+recovery = 26
+postLandingRecovery = 4
+damage = 270
+superArt = 200
+capcom_skill_id = 508
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
 
 # Bushin Izuna Otoshi
 [[moves]]
@@ -905,9 +1506,74 @@ name = "Bushin Izuna Otoshi"
 name_ja = "武神飯綱落とし"
 slug = "bushin-izuna-otoshi"
 characterId = 5
-type = "special"
+type = "commandThrow"
 input = "*p"
 parentSlugs = ["arc-step"]
+properties = ["knockdown"]
+notes = [
+  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step.",
+  "With Classic Controls",
+  "Does 1656 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 1324 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（1656）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（1324）",
+]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 40
+damage = 1440
+superArt = 3000
+capcom_skill_id = 509
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Bushin Izuna Otoshi (OD)
+[[moves]]
+name = "Bushin Izuna Otoshi (OD)"
+name_ja = "武神飯綱落とし (OD)"
+alternativeNames = ["OD Bushin Izuna Otoshi", "EX Bushin Izuna Otoshi"]
+alternativeNames_ja = ["OD 武神飯綱落とし", "EX 武神飯綱落とし"]
+slug = "bushin-izuna-otoshi-od"
+characterId = 5
+type = "commandThrow"
+input = "*p"
+parentSlugs = ["arc-step-od"]
+properties = ["knockdown"]
+notes = [
+  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step.",
+  "With Classic Controls",
+  "Does 1035 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 828 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（1035）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（828）",
+]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 40
+damage = 900
+scaling = ["Starter scaling 20％"]
+scaling_ja = ["始動補正20％"]
+superArt = 1000
+capcom_skill_id = 509
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Bushin Hojin Kick
 [[moves]]
@@ -917,43 +1583,217 @@ slug = "bushin-hojin-kick"
 characterId = 5
 type = "special"
 input = "*k"
+blockType = "high"
 parentSlugs = ["arc-step"]
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 20
+damage = 630
+superArt = 1000
+capcom_skill_id = 510
+notes = [
+  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step.",
+]
+notes_ja = ["弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効。"]
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
+# Bushin Hojin Kick (OD)
+[[moves]]
+name = "Bushin Hojin Kick (OD)"
+name_ja = "武神鉾刃脚 (OD)"
+alternativeNames = ["OD Bushin Hojin Kick", "EX Bushin Hojin Kick"]
+alternativeNames_ja = ["OD 武神鉾刃脚", "EX 武神鉾刃脚"]
+slug = "bushin-hojin-kick-od"
+characterId = 5
+type = "special"
+input = "*k"
+blockType = "high"
+parentSlugs = ["arc-step-od"]
+properties = ["knockdown"]
+notes = [
+  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step.",
+  "Only transitions to the 2nd attack on hit",
+  "Produces a wall splat on hit",
+]
+notes_ja = [
+  "弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効。",
+  "ヒット時のみ2段目に派生",
+  "ヒット時壁やられ",
+]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 20
+cancel = "SA2"
+damage = 630
+superArt = 1000
+capcom_skill_id = 510
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -10000
 
 # Vagabond Edge (Light)
 [[moves]]
 name = "Vagabond Edge (Light)"
 name_ja = "逆転一文字 (弱)"
+alternativeNames = ["L Vagabond Edge"]
+alternativeNames_ja = ["弱 逆転一文字"]
 slug = "vagabond-edge-light"
 characterId = 5
 type = "special"
 input = "236*p"
+blockType = "high"
+
+startup = 10
+active = [10, 11]
+recovery = 22
+cancel = "SA3"
+damage = 810
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcom_skill_id = 511
+notes = [
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+]
+notes_ja = [
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+]
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Vagabond Edge (Medium)
 [[moves]]
 name = "Vagabond Edge (Medium)"
 name_ja = "逆転一文字 (中)"
+alternativeNames = ["M Vagabond Edge"]
+alternativeNames_ja = ["中 逆転一文字"]
 slug = "vagabond-edge-medium"
 characterId = 5
 type = "special"
 input = "236mp"
+blockType = "high"
+properties = ["knockdown"]
+notes = [
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "* Will only transition to 2nd attack if the first attack hits",
+]
+notes_ja = [
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "※ヒット時のみ2段目派生",
+]
+
+startup = 17
+active = [17, 18, 41, 43]
+recovery = 28
+cancel = "SA3"
+damage = 1080
+superArt = 1200
+capcom_skill_id = 511
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2400
+onBlock = -2000
+onPunishCounter = -8000
 
 # Vagabond Edge (Heavy)
 [[moves]]
 name = "Vagabond Edge (Heavy)"
 name_ja = "逆転一文字 (強)"
+alternativeNames = ["H Vagabond Edge"]
+alternativeNames_ja = ["強 逆転一文字"]
 slug = "vagabond-edge-heavy"
 characterId = 5
 type = "special"
 input = "236hp"
+properties = ["knockdown"]
+notes = [
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "* Will only transition to 2nd attack if the first attack hits",
+  "The 2nd attack can be canceled by a jump",
+]
+notes_ja = [
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "※ヒット時のみ2段目派生",
+  "2段目ジャンプキャンセル可",
+]
+
+startup = 24
+active = [24, 25, 45]
+recovery = 28
+cancel = "SA3"
+damage = 540
+superArt = 1000
+capcom_skill_id = 511
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2000
+onPunishCounter = -6000
 
 # Vagabond Edge (OD)
 [[moves]]
 name = "Vagabond Edge (OD)"
 name_ja = "逆転一文字 (OD)"
+alternativeNames = ["OD Vagabond Edge", "EX Vagabond Edge"]
+alternativeNames_ja = ["OD 逆転一文字", "EX 逆転一文字"]
 slug = "vagabond-edge-od"
 characterId = 5
 type = "special"
 input = "236(kk)"
+blockType = "high"
+properties = ["knockdown"]
+notes = [
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "* Will only transition to 2nd attack if the first attack hits",
+  "The 2nd attack can be canceled by a jump",
+]
+notes_ja = [
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "※ヒット時のみ2段目派生",
+  "2段目ジャンプキャンセル可",
+]
+
+startup = 17
+active = [17, 18, 38]
+recovery = 28
+cancel = "SA2"
+damage = 540
+superArt = 1000
+capcom_skill_id = 511
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -6000
 
 # Hidden Variable
 [[moves]]
@@ -963,6 +1803,18 @@ slug = "hidden-variable"
 characterId = 5
 type = "special"
 input = "214*p"
+notes = [
+  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive.",
+  "Completely invincible from frames 19 - 26",
+  "Can be canceled into anything except walk/dashes, Drive Parry, Block and Hidden Variable from the 34th frame",
+]
+notes_ja = [
+  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効。",
+  "19-26F 完全無敵",
+  "34F目から移動、パリィ、ガード、彩隠形以外でキャンセル可",
+]
+totalFrames = 43
+capcom_skill_id = 512
 
 # Hidden Variable (OD)
 [[moves]]
@@ -972,6 +1824,20 @@ slug = "hidden-variable-od"
 characterId = 5
 type = "special"
 input = "214(pp)"
+notes = [
+  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive.",
+  "Completely invincible from frames 20 - 27",
+  "Can be canceled into a mid-air attack from the 34th frame",
+  "* Landing recovery can be canceled by anything except walk/dashes",
+]
+notes_ja = [
+  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効。",
+  "20-27F 完全無敵",
+  "34F目から空中技でキャンセル可",
+  "※着地硬直は移動以外でキャンセル可",
+]
+postLandingRecovery = 3
+capcom_skill_id = 512
 
 # Genius at Play
 [[moves]]
@@ -981,8 +1847,16 @@ slug = "genius-at-play"
 characterId = 5
 type = "special"
 input = "22*p"
-notes = ["When shuriken count is zero."]
-notes_ja = ["手裏剣が0の時"]
+notes = [
+  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb.",
+  "Adds a Shuriken Bomb stock on frame 43",
+]
+notes_ja = [
+  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる。",
+  "43F目に細工手裏剣ストックが1増加",
+]
+totalFrames = 44
+capcom_skill_id = 513
 
 # Genius at Play (OD)
 [[moves]]
@@ -992,32 +1866,241 @@ slug = "genius-at-play-od"
 characterId = 5
 type = "special"
 input = "22(pp)"
-notes = ["When shuriken count is zero."]
-notes_ja = ["手裏剣が0の時"]
+notes = [
+  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb.",
+  "Adds 2 Shuriken Bomb stock on frame 43",
+]
+notes_ja = [
+  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる。",
+  "43F目に細工手裏剣ストックが2増加",
+]
+totalFrames = 44
+capcom_skill_id = 513
 
-# Shuriken Bomb
+# Shuriken Bomb (Light)
 [[moves]]
-name = "Shuriken Bomb"
-name_ja = "細工手裏剣"
-slug = "shuriken-bomb"
+name = "Shuriken Bomb (Light)"
+name_ja = "細工手裏剣 (弱)"
+alternativeNames = ["L Shuriken Bomb"]
+alternativeNames_ja = ["弱 細工手裏剣"]
+slug = "shuriken-bomb-light"
 characterId = 5
 type = "special"
-input = "22*p"
-notes = ["Strength used affects the distance."]
-notes_ja = ["強さで飛距離が変化"]
+input = "22lp"
+hitCount = 1
 parentSlugs = ["genius-at-play"]
+notes = [
+  "Toss out and set a spray can that will explode after a period of time. Best used to apply pressure that capitalizes on the duration between when the bomb is placed and its detonation.",
+  "Fires a projectile on the 18th frame",
+  "Decreases the Shuriken Bomb stock by 1",
+  "* Values represent when the attack is performed in the middle of the screen",
+]
+notes_ja = [
+  "スプレー缶を放って設置し、一定時間経過で炸裂させる技。設置してから炸裂するまでの時間差を利用しての攻めが有効。",
+  "18F目に飛び道具発射",
+  "細工手裏剣ストックを1消費",
+  "※画面中央で発動した際の数値",
+]
 
-# Shuriken Bomb Spread
+startup = 122
+active = [122, 131]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 514
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Shuriken Bomb (Medium)
 [[moves]]
-name = "Shuriken Bomb Spread"
-name_ja = "乱れ細工手裏剣"
-slug = "shuriken-bomb-spread"
+name = "Shuriken Bomb (Medium)"
+name_ja = "細工手裏剣 (中)"
+alternativeNames = ["M Shuriken Bomb"]
+alternativeNames_ja = ["中 細工手裏剣"]
+slug = "shuriken-bomb-medium"
+characterId = 5
+type = "special"
+input = "22mp"
+hitCount = 1
+parentSlugs = ["genius-at-play"]
+notes = [
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Fires a projectile on the 18th frame",
+  "Decreases the Shuriken Bomb stock by 1",
+  "* Values represent when the attack is performed in the middle of the screen",
+]
+notes_ja = [
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "18F目に飛び道具発射",
+  "細工手裏剣ストックを1消費",
+  "※画面中央で発動した際の数値",
+]
+
+startup = 124
+active = [124, 133]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 515
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Shuriken Bomb (Heavy)
+[[moves]]
+name = "Shuriken Bomb (Heavy)"
+name_ja = "細工手裏剣 (強)"
+alternativeNames = ["H Shuriken Bomb"]
+alternativeNames_ja = ["強 細工手裏剣"]
+slug = "shuriken-bomb-heavy"
+characterId = 5
+type = "special"
+input = "22hp"
+hitCount = 1
+parentSlugs = ["genius-at-play"]
+notes = [
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Fires a projectile on the 18th frame",
+  "Decreases the Shuriken Bomb stock by 1",
+  "* Values represent when the attack is performed in the middle of the screen",
+]
+notes_ja = [
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "18F目に飛び道具発射",
+  "細工手裏剣ストックを1消費",
+  "※画面中央で発動した際の数値",
+]
+
+startup = 128
+active = [128, 137]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 515
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Shuriken Bomb Spread (Light)
+[[moves]]
+name = "Shuriken Bomb Spread (Light)"
+name_ja = "乱れ細工手裏剣 (弱)"
+alternativeNames = ["L Shuriken Bomb Spread"]
+alternativeNames_ja = ["弱 乱れ細工手裏剣"]
+slug = "shuriken-bomb-spread-light"
 characterId = 5
 type = "special"
 input = "22(pp)"
-notes = ["Strength used affects the distance."]
-notes_ja = ["強さで飛距離が変化"]
+hitCount = 1
 parentSlugs = ["genius-at-play-od"]
+notes = [
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Fires 2 projectiles on the 18th frame (Light and Medium versions)",
+  "Decreases the Shuriken Bomb stock by 2",
+  "* Projectile properties are the same as the individual attacks",
+]
+notes_ja = [
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "18F目に飛び道具2つ発射（弱版+中版）",
+  "細工手裏剣ストックを2消費",
+  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 515
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Shuriken Bomb Spread (Medium)
+[[moves]]
+name = "Shuriken Bomb Spread (Medium)"
+name_ja = "乱れ細工手裏剣 (中)"
+alternativeNames = ["M Shuriken Bomb Spread"]
+alternativeNames_ja = ["中 乱れ細工手裏剣"]
+slug = "shuriken-bomb-spread-medium"
+characterId = 5
+type = "special"
+input = "22(kk)"
+hitCount = 1
+parentSlugs = ["genius-at-play-od"]
+notes = [
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Fires 2 projectiles on the 18th frame (Light and Heavy versions)",
+  "Decreases the Shuriken Bomb stock by 2",
+  "* Projectile properties are the same as the individual attacks",
+]
+notes_ja = [
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "18F目に飛び道具2つ発射（弱版+強版）",
+  "細工手裏剣ストックを2消費",
+  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 515
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Shuriken Bomb Spread (Heavy)
+[[moves]]
+name = "Shuriken Bomb Spread (Heavy)"
+name_ja = "乱れ細工手裏剣 (強)"
+alternativeNames = ["H Shuriken Bomb Spread"]
+alternativeNames_ja = ["強 乱れ細工手裏剣"]
+slug = "shuriken-bomb-spread-heavy"
+characterId = 5
+type = "special"
+input = "22(pp+kk)"
+hitCount = 1
+parentSlugs = ["genius-at-play-od"]
+notes = [
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Fires 2 projectiles on the 18th frame (Medium and Heavy versions)",
+  "Decreases the Shuriken Bomb stock by 2",
+  "* Projectile properties are the same as the individual attacks",
+]
+notes_ja = [
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "18F目に飛び道具2つ発射（中版+強版）",
+  "細工手裏剣ストックを2消費",
+  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+]
+totalFrames = 44
+damage = 450
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
+superArt = 600
+capcom_skill_id = 515
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Nue Twister
 [[moves]]
@@ -1027,6 +2110,30 @@ slug = "nue-twister"
 characterId = 5
 type = "special"
 input = "j>236*p"
+properties = ["knockdown"]
+notes = [
+  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
+  "*Does 1656 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（1656）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（1656）",
+  "※簡易入力時（1324）",
+]
+
+startup = 5
+active = [5, 7]
+postLandingRecovery = 20
+damage = 1440
+superArt = 2500
+capcom_skill_id = 516
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Nue Twister (OD)
 [[moves]]
@@ -1036,6 +2143,31 @@ slug = "nue-twister-od"
 characterId = 5
 type = "special"
 input = "j>236(pp)"
+properties = ["knockdown"]
+notes = [
+  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
+  "*Does 1035 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（1035）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（1035）",
+  "※簡易入力時（828）",
+]
+
+startup = 5
+active = [5, 7]
+postLandingRecovery = 20
+damage = 900
+scaling = ["Starter scaling 20％"]
+scaling_ja = ["始動補正20％"]
+superArt = 1000
+capcom_skill_id = 516
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Bushin Beats
 [[moves]]
@@ -1045,6 +2177,34 @@ slug = "bushin-beats"
 characterId = 5
 type = "super1"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "Rush forward and knock down an opponent, then follow up with a flurry of attacks. Use this as a part of a combo while on the ground, or as a follow-up attack if they're airborne.",
+  "Completely invincible on the 1st frame",
+  "Invincible to strikes and throws on frames 2 - 14",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "前方へ突進し、接触した相手を蹴りで転倒させ、連撃を加える技。地上技からのコンボや、空中へ浮かせてからの追撃で使いやすい。",
+  "1F 完全無敵",
+  "2-14F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 12
+active = [12, 26]
+recovery = 40
+damage = 1800
+capcom_skill_id = 601
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 
 # Bushin Thunderous Beats
 [[moves]]
@@ -1054,7 +2214,35 @@ slug = "bushin-thunderous-beats"
 characterId = 5
 type = "super1"
 input = "236236*k"
-notes = ["With 1+ shuriken."]
+properties = ["knockdown"]
+notes = [
+  "Adds a Shuriken Bomb follow-up attack after using Bushin Beats. Damage increases but requires one stock of Shuriken Bombs to activate.",
+  "Completely invincible on the 1st frame",
+  "Invincible to strikes and throws on frames 2 - 14",
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "武神乱拍子の連撃から、細工手裏剣での追撃を加える技。威力が上がるが、発動に細工手裏剣のストックを1つ使用する。",
+  "1F 完全無敵",
+  "2-14F 打撃・投げに対して無敵",
+  "細工手裏剣ストックを1消費",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 12
+active = [12, 26]
+recovery = 40
+damage = 2000
+capcom_skill_id = 602
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
 notes_ja = ["手裏剣が1本以上"]
 
 # Bushin Scramble
@@ -1065,6 +2253,34 @@ slug = "bushin-scramble"
 characterId = 5
 type = "super2"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "Ensnare the opponent with a dive bomb-like attack from the air, and then pelt them relentlessly with mid-air attacks. An excellent choice against projectiles or airborne opponents.",
+  "Completely invincible on the 1st frame",
+  "Considered airborne from frames 1- 20",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "跳び上がりからの急降下攻撃で捕捉し、空中で連撃を加える技。飛び道具対策や、空中の相手への追撃として有効。",
+  "1F 完全無敵",
+  "1-20F 空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 13
+active = [13, 20]
+postLandingRecovery = 39
+damage = 2600
+capcom_skill_id = 603
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Soaring Bushin Scramble
 [[moves]]
@@ -1074,6 +2290,31 @@ slug = "soaring-bushin-scramble"
 characterId = 5
 type = "super2"
 input = "j>214214*p"
+properties = ["knockdown"]
+notes = [
+  "Activate Bushin Scramble in mid-air to dive bomb the opponent and attack them relentlessly. Easy to use in a combo from a mid-air special move.",
+  "Completely invincible on the 1st frame",
+  "Considered airborne from frame 1 and on",
+  "Minimum guaranteed damage is 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "空中から発動し、急降下攻撃から空中で連撃を加える技。空中必殺技からのコンボとして使いやすい。",
+  "1F 完全無敵",
+  "1F～ 空中判定",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 13
+active = [13]
+postLandingRecovery = 39
+damage = 2600
+capcom_skill_id = 604
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
 
 # Bushin Ninjastar Cypher
 [[moves]]
@@ -1083,6 +2324,42 @@ slug = "bushin-ninjastar-cypher"
 characterId = 5
 type = "super3"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted.",
+  "Completely invincible from frames 1 - 13",
+  "On the first frame, the following boosts are activated and remain until the end of the match",
+  "- Attack damage up 111%",
+  "- Walk speed increased",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
+  "1-13F 完全無敵",
+  "1F目に以下のパワーアップ効果が発動し、試合終了まで継続",
+  "・攻撃力111％",
+  "・歩き速度アップ",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 13]
+recovery = 51
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 605
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
 
 # Bushin Ninjastar Cypher (Critical Art)
 [[moves]]
@@ -1092,6 +2369,42 @@ slug = "bushin-ninjastar-cypher-ca"
 characterId = 5
 type = "super3"
 input = "236236*p"
+properties = ["knockdown"]
+notes = [
+  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted.",
+  "Completely invincible from frames 1 - 13",
+  "On the first frame, the following boosts are activated and remain until the end of the match",
+  "- Attack damage up 111%",
+  "- Walk speed increased",
+  "Minimum guaranteed damage is 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
+  "1-13F 完全無敵",
+  "1F目に以下のパワーアップ効果が発動し、試合終了まで継続",
+  "・攻撃力111％",
+  "・歩き速度アップ",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 13]
+recovery = 51
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+capcom_skill_id = 605
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
 
 # Ripcord Throw
 [[moves]]
@@ -1103,6 +2416,34 @@ slug = "ripcord-throw"
 characterId = 5
 type = "throw"
 input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Break your opponent's poise with a chop, leap over them to disrupt their balance, and toss them aside. Throws your opponent without switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 1838 (1839)",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "手刀で相手を怯ませて跳び越え、体勢を崩して投げ飛ばす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ1838",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1082
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # Bell Ringer
 [[moves]]
@@ -1114,3 +2455,31 @@ slug = "bell-ringer"
 characterId = 5
 type = "throw"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Place both legs on your opponent's torso and perform a knee strike, then use the force of pulling them toward the ground to throw them behind you. Throws your opponent while switching places with them.",
+  "Punish Counter properties",
+  "- Damage set to 1838 (1839)",
+  "- Super Art gauge increases by 4000",
+  "- Produces a Hard Knockdown",
+]
+notes_ja = [
+  "膝蹴りと同時に両足を掛け、後ろに倒れ込む反動で投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ1839",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1082
+scaling = ["Immediate scaling 20％"]
+scaling_ja = ["即時補正20％"]
+superArt = 2000
+capcom_skill_id = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
