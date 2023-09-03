@@ -685,7 +685,7 @@ notes = [
   "A kick with long reach. Useful as a counter to an opponent's sweeps.",
   "Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku",
 ]
-notes_ja = ["相手の足払いに対して強いリーチの長い蹴り。", "※OD空中竜巻旋風脚でのみキャンセル可能"]
+notes_ja = ["相手の足払いに対して強いリーチの長い蹴り。", "OD空中竜巻旋風脚でのみキャンセル可能"]
 capcom_skill_id = 405
 startup = 16
 active = [16, 19]
@@ -1047,7 +1047,7 @@ notes_ja = [
   "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
   "1-14F 空中判定の攻撃に対して無敵",
   "7-34F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 5
 active = [5, 14]
@@ -1092,7 +1092,7 @@ notes_ja = [
   "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
   "1-9F 空中判定の攻撃に対して無敵",
   "8-44F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 6
 active = [6, 15]
@@ -1136,7 +1136,7 @@ notes_ja = [
   "強烈なアッパーと共に飛び上がる技。昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
   "1-8F 空中判定の攻撃に対して無敵",
   "9-49F 空中判定",
-  "※持続の2F目以降は個別ダメージ（800）",
+  "持続の2F目以降は個別ダメージ（800）",
 ]
 startup = 7
 active = [7, 16]
@@ -2096,15 +2096,15 @@ notes_ja = [
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2137,15 +2137,15 @@ notes_ja = [
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 5
 active = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 recovery = 71
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

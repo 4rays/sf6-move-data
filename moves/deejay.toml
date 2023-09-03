@@ -180,7 +180,7 @@ notes = [
   "4 frames of recovery are added if the attack misses",
   "Adds +18 of frame advantage on Punish Counter",
 ]
-notes_ja = ["※空振り時硬直4F増加", "パニッシュカウンター時+18F"]
+notes_ja = ["空振り時硬直4F増加", "パニッシュカウンター時+18F"]
 
 startup = 12
 active = [12, 14]
@@ -935,7 +935,7 @@ notes = [
 ]
 notes_ja = [
   "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
-  "※23F マラカスビートでキャンセル可",
+  "23F マラカスビートでキャンセル可",
 ]
 
 startup = 17
@@ -972,7 +972,7 @@ notes = [
 ]
 notes_ja = [
   "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
-  "※35-36F マラカスビートでキャンセル可",
+  "35-36F マラカスビートでキャンセル可",
 ]
 
 startup = 17
@@ -1009,7 +1009,7 @@ notes = [
 ]
 notes_ja = [
   "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
-  "※31F マラカスビートでキャンセル可",
+  "31F マラカスビートでキャンセル可",
 ]
 
 startup = 10
@@ -2920,21 +2920,21 @@ notes = [
   "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack.",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 9
 active = [9, 13]
 recovery = 48
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 607
 
 [moves.frameAdvantage]
@@ -2959,21 +2959,21 @@ notes = [
   "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack.",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 9
 active = [9, 13]
 recovery = 48
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 607
 
 [moves.frameAdvantage]

@@ -179,7 +179,7 @@ notes = [
   "2 frames of recovery added when the attack misses",
   "Forces a spinning knockdown on Punish Counter",
 ]
-notes_ja = ["※空振り/アーマーヒット時硬直2F増加", "パニッシュカウンター時きりもみダウン"]
+notes_ja = ["空振り/アーマーヒット時硬直2F増加", "パニッシュカウンター時きりもみダウン"]
 
 startup = 12
 active = [12, 13]
@@ -383,7 +383,7 @@ notes = [
   "Knockdown time extended when attack lands as a counter or Punish Counter",
   "1 frame of recovery added when blocked",
 ]
-notes_ja = ["ハードノックダウン", "カウンター/パニッシュカウンター時ダウン時間延長", "※ガード時硬直1F増加"]
+notes_ja = ["ハードノックダウン", "カウンター/パニッシュカウンター時ダウン時間延長", "ガード時硬直1F増加"]
 
 startup = 8
 active = [8, 10]
@@ -937,7 +937,7 @@ notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
   "1-14F 空中判定の攻撃に対して無敵",
   "8-35F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 5
 active = [5, 14]
@@ -2174,7 +2174,7 @@ notes = [
   "- Damage is 2100",
   "- Reduces Drive Gauge by 9000 on hit",
   "- Does not go into full cinematic animation",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "昇龍拳での連撃からさらに回転を加えた強烈な昇龍拳を繰り出す技。初段が空振りすると、連続で昇龍拳を繰り出す動作に変化する。",
@@ -2185,15 +2185,15 @@ notes_ja = [
   "・ダメージ2100",
   "・ヒット時のDゲージ減少量9000",
   "・非ロック演出",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 7
 active = [7, 9, 11, 13, 14, 16, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
 recovery = 45
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2223,7 +2223,7 @@ notes = [
   "- Damage is 2200",
   "- Reduces Drive Gauge by 16000 on hit",
   "- Does not go into full cinematic animation",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "昇龍拳での連撃からさらに回転を加えた強烈な昇龍拳を繰り出す技。初段が空振りすると、連続で昇龍拳を繰り出す動作に変化する。",
@@ -2234,15 +2234,15 @@ notes_ja = [
   "・ダメージ2300",
   "・ヒット時のDゲージ減少量16000",
   "・非ロック演出",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 7
 active = [7, 9, 11, 13, 14, 16, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
 recovery = 45
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

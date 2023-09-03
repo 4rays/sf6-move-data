@@ -387,7 +387,7 @@ notes = [
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "※ヒット・ガード時、行雲流水でキャンセル可能",
+  "ヒット・ガード時、行雲流水でキャンセル可能",
   "カウンター/パニッシュカウンター時ダウン時間延長",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -673,7 +673,7 @@ notes = [
   "An overhead attack that cannot be blocked while crouching.",
   "Can be canceled into Serenity Stream on hit or block",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "※ヒット・ガード時、行雲流水でキャンセル可能"]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "ヒット・ガード時、行雲流水でキャンセル可能"]
 
 startup = 21
 active = [21, 24]
@@ -712,7 +712,7 @@ notes = [
 ]
 notes_ja = [
   "相手の足払いに強く、リーチの長い跳び蹴り。",
-  "※ヒット・ガード時、行雲流水でキャンセル可能",
+  "ヒット・ガード時、行雲流水でキャンセル可能",
   "パニッシュカウンター時 膝崩れ",
   "空中パニッシュカウンター時吹き飛びダウン",
 ]
@@ -1086,10 +1086,10 @@ input = "lp"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A quick strike, performed during Serenity Stream.",
-  "*Values represent if Serenity Stream is held",
+  "Values represent if Serenity Stream is held",
   "Can start blocking from frame 17 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い突き。", "※行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
+notes_ja = ["行雲流水から派生する、技の出が早い突き。", "行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
 
 startup = 5
 active = [5, 9]
@@ -1121,12 +1121,12 @@ parentSlugs = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
   "A forward-moving, repeatable low profile strike, performed during Serenity Stream.",
-  "*Values represent if Serenity Stream is held",
+  "Values represent if Serenity Stream is held",
   "Can start blocking from frame 20 of recovery",
 ]
 notes_ja = [
   "行雲流水から派生する、低い姿勢で前進しながら繰り出す突き。",
-  "※行雲流水を継続した場合の数値",
+  "行雲流水を継続した場合の数値",
   "硬直20F目はガード可能な硬直",
 ]
 
@@ -1190,10 +1190,10 @@ input = "lk"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A quick, low kick, performed during Serenity Stream.",
-  "*Values represent if Serenity Stream is held",
+  "Values represent if Serenity Stream is held",
   "Can start blocking from frame 13 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い下段蹴り。", "※行雲流水を継続した場合の数値", "硬直13F目はガード可能な硬直"]
+notes_ja = ["行雲流水から派生する、技の出が早い下段蹴り。", "行雲流水を継続した場合の数値", "硬直13F目はガード可能な硬直"]
 
 startup = 8
 active = [8, 12]
@@ -1224,10 +1224,10 @@ input = "mk"
 parentSlugs = ["serenity-stream"]
 notes = [
   "A low kick with long reach, performed during Serenity Stream.",
-  "*Values represent if Serenity Stream is held",
+  "Values represent if Serenity Stream is held",
   "Can start blocking from frame 28 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、リーチの長い下段蹴り。", "※行雲流水を継続した場合の数値", "硬直28F目はガード可能な硬直"]
+notes_ja = ["行雲流水から派生する、リーチの長い下段蹴り。", "行雲流水を継続した場合の数値", "硬直28F目はガード可能な硬直"]
 
 startup = 10
 active = [10, 14]
@@ -1261,7 +1261,7 @@ notes = [
   "A launching kick, performed during Serenity Stream. Can immediately be canceled into a jump on hit.",
   "Can only be canceled into a jump if the attack hits",
 ]
-notes_ja = ["行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる。", "※ヒット時のみジャンプキャンセル可能"]
+notes_ja = ["行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる。", "ヒット時のみジャンプキャンセル可能"]
 
 startup = 8
 active = [8, 12]
@@ -2124,7 +2124,7 @@ notes_ja = [
   "1-12F 完全無敵",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※最終段ヒット時のみジャンプキャンセル可能",
+  "最終段ヒット時のみジャンプキャンセル可能",
 ]
 
 startup = 11
@@ -2192,22 +2192,22 @@ notes = [
   "Completely invincible on frames 1 - 9",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "回し蹴りからの連撃で相手を打ち上げ、渾身の蹴りを叩き込む技。大きいダメージを奪いたい時のコンボや切り返しに有効。",
   "1-9F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 8
 active = [8, 9, 34, 42]
 recovery = 40
 damage = 4000
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 604
 
 [moves.frameAdvantage]
@@ -2231,21 +2231,21 @@ notes = [
   "Completely invincible on frames 1 - 9",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "1-9F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 8
 active = [8, 9, 34, 42]
 recovery = 40
 damage = 4500
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 
 [moves.frameAdvantage]
 block = -24

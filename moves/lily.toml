@@ -829,12 +829,12 @@ properties = ["stockDecrement", "knockdown"]
 notes = [
   "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
   "Considered airborne from frames 7 - 29",
-  "* Can only be canceled by Level 2 Super Art Thunderbird",
+  "Can only be canceled by Level 2 Super Art Thunderbird",
 ]
 notes_ja = [
   "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
   "7-29F 空中判定",
-  "※SA2 スカイサンダーバードでのみキャンセル可能",
+  "SA2 スカイサンダーバードでのみキャンセル可能",
 ]
 startup = 15
 active = [15, 27]
@@ -962,13 +962,13 @@ notes = [
   "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
   "Considered airborne from frames 9 - 34",
   "Invincible to projectiles from frames 9 - 32",
-  "* Can only be canceled by level 2 Super Art Sky Thunderbird",
+  "Can only be canceled by level 2 Super Art Sky Thunderbird",
 ]
 notes_ja = [
   "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
   "9-34F 空中判定",
   "9-32F 飛び道具に対して無敵",
-  "※SA2 スカイサンダーバードでのみキャンセル可能",
+  "SA2 スカイサンダーバードでのみキャンセル可能",
 ]
 startup = 9
 active = [9, 22, 23, 25, 26, 32]
@@ -1126,7 +1126,7 @@ notes_ja = [
   "1-10F 空中判定の攻撃に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
-  "※OD コンドルダイブへのみ派生可能",
+  "OD コンドルダイブへのみ派生可能",
 ]
 
 startup = 6
@@ -1279,14 +1279,14 @@ notes = [
   "Invincible to mid-air attacks from frames 11 - 14",
   "Invincible to throws from frames 1 - 10",
   "Considered airborne from frames 7 - 45",
-  "* Can only transition into Overdrive Condor Dive",
+  "Can only transition into Overdrive Condor Dive",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-10F 空中判定の攻撃に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
-  "※OD コンドルダイブへのみ派生可能",
+  "OD コンドルダイブへのみ派生可能",
 ]
 
 startup = 4
@@ -1353,19 +1353,19 @@ properties = ["knockdown"]
 notes = [
   "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile.",
   "Has cross-up attack properties",
-  "* If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
+  "If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
 ]
 notes_ja = [
   "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効。",
   "めくり性能",
-  "※OD トマホークバスターからの派生版はコンボ補正35%",
+  "OD トマホークバスターからの派生版はコンボ補正35%",
 ]
 startup = 12
 active = [12]
 postLandingRecovery = 24
 damage = 1400
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 1000
 capcom_skill_id = 504
 
@@ -1426,16 +1426,16 @@ properties = ["knockdown"]
 notes = [
   "Has cross-up attack properties",
   "When the first attack hits, the 2nd hit will happen on the next frame",
-  "* If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
+  "If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
 ]
-notes_ja = ["めくり性能", "初段ヒット時、次のフレームで2段目が発生", "※OD トマホークバスターからの派生版はコンボ補正35%"]
+notes_ja = ["めくり性能", "初段ヒット時、次のフレームで2段目が発生", "OD トマホークバスターからの派生版はコンボ補正35%"]
 
 startup = 12
 active = [12]
 postLandingRecovery = 24
 damage = 1600
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 1100
 
 [moves.frameAdvantage]
@@ -1526,7 +1526,7 @@ notes = [
   "Does 3220 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3220 individual damage when the attack lands as a Punish Counter",
-  "*Does 2576 individual damage using simplified inputs",
+  "Does 2576 individual damage using simplified inputs",
 ]
 notes_ja = [
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
@@ -1534,7 +1534,7 @@ notes_ja = [
   "パニッシュカウンター時ダメージ（3220）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3220）",
-  "※簡易入力時（2576）",
+  "簡易入力時（2576）",
 ]
 
 startup = 5
@@ -1567,7 +1567,7 @@ notes = [
   "Does 3350 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3350 individual damage when the attack lands as a Punish Counter",
-  "*Does 2680 individual damage using simplified inputs",
+  "Does 2680 individual damage using simplified inputs",
 ]
 notes_ja = [
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
@@ -1575,7 +1575,7 @@ notes_ja = [
   "パニッシュカウンター時ダメージ（3350）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3350）",
-  "※簡易入力時（2680）",
+  "簡易入力時（2680）",
 ]
 
 startup = 5
@@ -2002,9 +2002,9 @@ hitCount = 2
 notes = [
   "A combination attack that is useful against jumping opponents.",
   "Forces a juggle state on a mid-air hit",
-  "* Can only be canceled by Level 2 Super Art Thunderbird",
+  "Can only be canceled by Level 2 Super Art Thunderbird",
 ]
-notes_ja = ["相手のジャンプに対して強い連続攻撃。", "空中ヒット時吹き飛びダウン", "※SA2 スカイサンダーバードでのみキャンセル可能"]
+notes_ja = ["相手のジャンプに対して強い連続攻撃。", "空中ヒット時吹き飛びダウン", "SA2 スカイサンダーバードでのみキャンセル可能"]
 startup = 10
 active = [10, 12]
 postLandingRecovery = 3

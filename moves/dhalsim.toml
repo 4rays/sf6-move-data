@@ -2122,21 +2122,21 @@ notes = [
   "Completely invincible from frames 1 - 14",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
   "1-14F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 startup = 10
 active = [10, 14]
 recovery = 75
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2162,21 +2162,21 @@ notes = [
   "Completely invincible from frames 1 - 14",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
   "1-14F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 startup = 10
 active = [10, 14]
 recovery = 75
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

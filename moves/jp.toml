@@ -1122,13 +1122,13 @@ notes = [
   "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent.",
   "Drive Gauge increases by 10,000 if the move is successful",
   "Fires a projectile if the move is successful",
-  "* Combo scaling occurs after the 3rd hit",
+  "Combo scaling occurs after the 3rd hit",
 ]
 notes_ja = [
   "相手の攻撃を受け流し、サイコパワーの爆弾を付与する当身技。付与した爆弾は一定時間の経過で爆発し、攻撃する。",
   "当身成立時にドライブゲージ10000増加",
   "当身成立時に飛び道具が発生",
-  "※コンボの3段目以降に補正がかかる",
+  "コンボの3段目以降に補正がかかる",
 ]
 startup = 3
 active = [3, 20]
@@ -1801,13 +1801,13 @@ notes = [
   "Generate clones to attack your opponent from all directions. Can be used to make combos utilizing your clones, or as a way of breaking through your opponent's guard.",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
-  "* Combo scaling occurs after the 3rd hit",
+  "Combo scaling occurs after the 3rd hit",
 ]
 notes_ja = [
   "相手を支点に四方から分身攻撃での連係を繰り出す技。分身と連係してのコンボやガード崩しに活用出来る。",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※コンボの3段目以降に補正がかかる",
+  "コンボの3段目以降に補正がかかる",
 ]
 startup = 29
 totalFrames = 8
@@ -1836,22 +1836,22 @@ notes = [
   "Completely invincible from frames 1 - 23",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える。",
   "1-23F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 18
 active = [18, 23]
 recovery = 62
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -1877,22 +1877,22 @@ notes = [
   "Completely invincible from frames 1 - 23",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える。",
   "1-23F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 18
 active = [18, 23]
 recovery = 62
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

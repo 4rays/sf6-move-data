@@ -80,13 +80,13 @@ notes = [
   "Produces a crumple stun on Punish Counter if the opponent is standing on the ground",
   "Forces a juggle state on Punish Counter when hitting a mid-air opponent",
   "Can be canceled up until the 3rd active frame",
-  "*Can be canceled by Hundred Hand Slap from frames 8 - 14 if Sumo Spirit is active",
+  "Can be canceled by Hundred Hand Slap from frames 8 - 14 if Sumo Spirit is active",
 ]
 notes_ja = [
   "地上パニッシュカウンター時膝崩れ",
   "空中パニッシュカウンター時床バウンド",
   "キャンセルは持続の3F目まで",
-  "※8-14F 肩屋入り中、百裂張り手でのみキャンセル可能",
+  "8-14F 肩屋入り中、百裂張り手でのみキャンセル可能",
 ]
 startup = 8
 active = [8, 14]
@@ -282,9 +282,9 @@ blockType = "high"
 input = "2hp"
 notes = [
   "Adds +2 frames of recovery on armor hit or if the attack misses",
-  "* Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
+  "Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
 ]
-notes_ja = ["空振り、アーマーヒット時硬直2F増加", "※肩屋入り中、百裂張り手でのみキャンセル可能"]
+notes_ja = ["空振り、アーマーヒット時硬直2F増加", "肩屋入り中、百裂張り手でのみキャンセル可能"]
 
 startup = 11
 active = [11, 14]
@@ -1704,12 +1704,12 @@ input = "22*p"
 notes = [
   "Clap the palms of both hands together in front of your face. Not only can it be used as an attack, but it can also be used to negate projectiles.",
   "Has a clash hitbox from frames 11 - 15",
-  "* Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
+  "Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
 ]
 notes_ja = [
   "目の前に両手を突き出し、掌を合わせて叩く技。打撃技としても使える他、飛び道具を打ち消す効果も備える。",
   "11-15F 相殺判定",
-  "※肩屋入り中、百裂張り手でキャンセル可能",
+  "肩屋入り中、百裂張り手でキャンセル可能",
 ]
 startup = 11
 active = [11, 15]
@@ -1844,21 +1844,21 @@ notes = [
   "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
   "Completely invincible from frames 1 - 11",
   "Minimum guaranteed damage is set to 50%",
-  "* Values do not change on counter or Punish Counter",
+  "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 startup = 9
 active = [9, 11, 20, 22]
 recovery = 51
 damage = 4000
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -1883,21 +1883,21 @@ notes = [
   "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
   "Completely invincible from frames 1 - 11",
   "Minimum guaranteed damage is set to 50%",
-  "* Values do not change on counter or Punish Counter",
+  "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 startup = 9
 active = [9, 11, 20, 22]
 recovery = 51
 damage = 4500
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -1951,12 +1951,12 @@ input = "3hk"
 notes = [
   "An overhead attack that cannot be blocked while crouching.",
   "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
-  "* Can cancel into a special move or Super Art on frame 15 when the attack misses",
+  "Can cancel into a special move or Super Art on frame 15 when the attack misses",
 ]
 notes_ja = [
   "しゃがみでガードできない中段攻撃。",
   "空中ヒット時床バウンド、ハードノックダウン",
-  "※15F目で必殺技、SAで空振りキャンセル可能",
+  "15F目で必殺技、SAで空振りキャンセル可能",
 ]
 startup = 22
 active = [22, 27]
@@ -2045,12 +2045,12 @@ input = "5mp>3hk"
 notes = [
   "A series of attacks, the second of which cannot be blocked crouching.",
   "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
-  "* Can cancel into a special move or Super Art on frame 15 when the attack misses",
+  "Can cancel into a special move or Super Art on frame 15 when the attack misses",
 ]
 notes_ja = [
   "2段目がしゃがみでガードできない連続攻撃。",
   "空中ヒット時床バウンド、ハードノックダウン",
-  "※15F目で必殺技、SAで空振りキャンセル可能",
+  "15F目で必殺技、SAで空振りキャンセル可能",
 ]
 startup = 22
 active = [22, 27]

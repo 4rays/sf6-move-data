@@ -176,10 +176,10 @@ hitCount = 1
 blockType = "low"
 input = "5hk"
 notes = [
-  "* Adds +17 frames of advantage on a standing opponent during a Punish Counter",
+  "Adds +17 frames of advantage on a standing opponent during a Punish Counter",
   "Forces a juggle state when hitting a mid-air opponent for a Punish Counter",
 ]
-notes_ja = ["※地上パニッシュカウンター時+17F", "空中パニッシュカウンター時吹き飛びダウン"]
+notes_ja = ["地上パニッシュカウンター時+17F", "空中パニッシュカウンター時吹き飛びダウン"]
 
 startup = 15
 active = [15, 17]
@@ -787,7 +787,7 @@ properties = ["knockdown"]
 notes = [
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
   "Medal Level 2: 2300 (2645)",
   "Medal Level 3: 2700 (3105)",
@@ -798,7 +798,7 @@ notes = [
 notes_ja = [
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
   "メダルLv2 2300（2645）",
   "メダルLv3 2700（3105）",
@@ -832,7 +832,7 @@ properties = ["knockdown"]
 notes = [
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
   "Medal Level 2: 2300 (2645)",
   "Medal Level 3: 2700 (3105)",
@@ -843,7 +843,7 @@ notes = [
 notes_ja = [
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
   "メダルLv2 2300（2645）",
   "メダルLv3 2700（3105）",
@@ -878,7 +878,7 @@ notes = [
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
   "Medal Level 2: 2300 (2645)",
   "Medal Level 3: 2700 (3105)",
@@ -887,7 +887,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
   "With Modern Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1600 (2000) / 1840 (2300)",
   "Medal Level 2: 1840 (2300) / 2116 (2645)",
   "Medal Level 3: 2160 (2700) / 2484 (3105)",
@@ -899,7 +899,7 @@ notes_ja = [
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
   "メダルLv2 2300（2645）",
   "メダルLv3 2700（3105）",
@@ -908,13 +908,13 @@ notes_ja = [
   "（）内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1600（2000）/1840（2300）",
   "メダルLv2 1840（2300）/2116（2645）",
   "メダルLv3 2160（2700）/2484（3105）",
   "メダルLv4 2400（3000）/2760（3450）",
   "メダルLv5 2960（3700）/3404（4255）",
-  "※/の後ろがパニッシュカウンター時のダメージ",
+  "/の後ろがパニッシュカウンター時のダメージ",
 ]
 
 startup = 5
@@ -943,7 +943,7 @@ notes = [
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
   "Medal Level 2: 2300 (2645)",
   "Medal Level 3: 2700 (3105)",
@@ -952,7 +952,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
   "With Modern Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1600 (2000) / 1840 (2300)",
   "Medal Level 2: 1840 (2300) / 2116 (2645)",
   "Medal Level 3: 2160 (2700) / 2484 (3105)",
@@ -964,7 +964,7 @@ notes_ja = [
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
   "メダルLv2 2300（2645）",
   "メダルLv3 2700（3105）",
@@ -973,13 +973,13 @@ notes_ja = [
   "（）内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1600（2000）/1840（2300）",
   "メダルLv2 1840（2300）/2116（2645）",
   "メダルLv3 2160（2700）/2484（3105）",
   "メダルLv4 2400（3000）/2760（3450）",
   "メダルLv5 2960（3700）/3404（4255）",
-  "※/の後ろがパニッシュカウンター時のダメージ",
+  "/の後ろがパニッシュカウンター時のダメージ",
 ]
 
 startup = 8
@@ -1298,7 +1298,7 @@ notes = [
   "Projectile invincibility from frames 3 - 21",
   "Transition into feint by holding the button (total 33 frames)",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1350 (1360)",
   "Medal Level 2: 1500 (1510)",
   "Medal Level 3: 1650 (1660)",
@@ -1307,7 +1307,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
   "With Modern Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1080 / 1088",
   "Medal Level 2: 1200 / 1208",
   "Medal Level 3: 1320 / 1328",
@@ -1321,7 +1321,7 @@ notes_ja = [
   "3-21F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体33F）",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1350（1360）",
   "メダルLv2 1500（1510）",
   "メダルLv3 1650（1660）",
@@ -1330,13 +1330,13 @@ notes_ja = [
   "（）内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1080/1088",
   "メダルLv2 1200/1208",
   "メダルLv3 1320/1328",
   "メダルLv4 1440/1448",
   "メダルLv5 1560/1568",
-  "※/の後ろがパニッシュカウンター時のダメージ",
+  "/の後ろがパニッシュカウンター時のダメージ",
 ]
 
 startup = 22
@@ -1373,7 +1373,7 @@ notes = [
   "Projectile invincibility from frames 3 - 24",
   "Transition into feint by holding the button (total 34 frames)",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1400 (1420)",
   "Medal Level 2: 1550 (1570)",
   "Medal Level 3: 1700 (1720)",
@@ -1386,7 +1386,7 @@ notes_ja = [
   "3-24F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体34F）",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1400（1420）",
   "メダルLv2 1550（1570）",
   "メダルLv3 1700（1720）",
@@ -1429,7 +1429,7 @@ notes = [
   "Projectile invincibility from frames 3 - 28",
   "Transition into feint by holding the button (total 35 frames)",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1500 (1540)",
   "Medal Level 2: 1650 (1690)",
   "Medal Level 3: 1800 (1840)",
@@ -1442,7 +1442,7 @@ notes_ja = [
   "3-28F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体35F）",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1500（1540）",
   "メダルLv2 1650（1690）",
   "メダルLv3 1800（1840）",
@@ -1487,7 +1487,7 @@ notes = [
   "Invincible against projectiles from frames 3 - 26",
   "Transition into feint by holding the button (total 35 frames)",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1500 (1540)",
   "Medal Level 2: 1650 (1690)",
   "Medal Level 3: 1800 (1840)",
@@ -1496,7 +1496,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
   "With Modern Controls",
   "Medal level increases by a single level on hit",
-  "*Damage increases the higher the Medal level",
+  "Damage increases the higher the Medal level",
   "Medal Level 1: 1200 / 1232",
   "Medal Level 2: 1320 / 1352",
   "Medal Level 3: 1440 / 1472",
@@ -1511,7 +1511,7 @@ notes_ja = [
   "3-26F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体34F）",
   "ヒット時にメダルLvが1上昇",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1500（1540）",
   "メダルLv2 1650（1690）",
   "メダルLv3 1800（1840）",
@@ -1519,13 +1519,13 @@ notes_ja = [
   "メダルLv5 2100（2140）",
   "（）内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
-  "※メダルLvに応じてダメージが上昇",
+  "メダルLvに応じてダメージが上昇",
   "メダルLv1 1200/1232",
   "メダルLv2 1320/1352",
   "メダルLv3 1440/1472",
   "メダルLv4 1560/1592",
   "メダルLv5 1680/1712",
-  "※/の後ろがパニッシュカウンター時のダメージ",
+  "/の後ろがパニッシュカウンター時のダメージ",
 ]
 
 startup = 25
@@ -1704,22 +1704,22 @@ notes = [
   "Completely invincible from frames 1 - 8",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into standing heavy punch and Rond-point",
+  "Can only be canceled into standing heavy punch and Rond-point",
 ]
 notes_ja = [
   "バレエのリズムで舞うように攻撃を加え、強烈に投げ落とす技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※立ち強P、ロン・ポワンからキャンセル時のみ15％",
+  "立ち強P、ロン・ポワンからキャンセル時のみ15％",
 ]
 
 startup = 7
 active = [7, 8]
 recovery = 72
 damage = 4000
-scaling = ["*Immediate scaling 5％"]
-scaling_ja = ["※即時補正5％"]
+scaling = ["Immediate scaling 5％"]
+scaling_ja = ["即時補正5％"]
 capcom_skill_id = 603
 
 # Pas de Deux (Critical Art)
@@ -1737,21 +1737,21 @@ notes = [
   "Completely invincible from frames 1 - 8",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into standing heavy punch and Rond-point",
+  "Can only be canceled into standing heavy punch and Rond-point",
 ]
 notes_ja = [
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※立ち強P、ロン・ポワンからキャンセル時のみ15％",
+  "立ち強P、ロン・ポワンからキャンセル時のみ15％",
 ]
 
 startup = 7
 active = [7, 8]
 recovery = 72
 damage = 4500
-scaling = ["*Immediate scaling 5％"]
-scaling_ja = ["※即時補正5％"]
+scaling = ["Immediate scaling 5％"]
+scaling_ja = ["即時補正5％"]
 
 # Ouchi Gari
 [[moves]]

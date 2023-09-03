@@ -923,13 +923,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
   "Invincible to mid-air attacks from frames 6 - 11",
   "Considered airborne from frames 7 - 42",
-  "* Does 90 damage only if the first attack misses",
+  "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
   "6-11F 空中判定の攻撃に対して無敵",
   "7-42F 空中判定",
-  "※初段空振り時のみヒットする（90）",
+  "初段空振り時のみヒットする（90）",
 ]
 
 startup = 6
@@ -964,13 +964,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
   "Invincible to mid-air attacks from frames 7 - 12",
   "Considered airborne from frames 8 - 45",
-  "* Does 90 damage only if the first attack misses",
+  "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
   "7-12F 空中判定の攻撃に対して無敵",
   "8-45F 空中判定",
-  "※初段空振り時のみヒットする（90）",
+  "初段空振り時のみヒットする（90）",
 ]
 
 startup = 7
@@ -1005,13 +1005,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
   "Invincible to mid-air attacks from frames 8 - 13",
   "Considered airborne from frames 9 - 49",
-  "* Does 180 damage only if the first attack misses",
+  "Does 180 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
   "8-13F 空中判定の攻撃に対して無敵",
   "9-49F 空中判定",
-  "※初段空振り時のみヒットする（180）",
+  "初段空振り時のみヒットする（180）",
 ]
 
 startup = 8
@@ -1696,11 +1696,11 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
-  "* Will only transition to 2nd attack if the first attack hits",
+  "Will only transition to 2nd attack if the first attack hits",
 ]
 notes_ja = [
   "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
-  "※ヒット時のみ2段目派生",
+  "ヒット時のみ2段目派生",
 ]
 
 startup = 17
@@ -1732,12 +1732,12 @@ input = "236hp"
 properties = ["knockdown"]
 notes = [
   "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
-  "* Will only transition to 2nd attack if the first attack hits",
+  "Will only transition to 2nd attack if the first attack hits",
   "The 2nd attack can be canceled by a jump",
 ]
 notes_ja = [
   "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
-  "※ヒット時のみ2段目派生",
+  "ヒット時のみ2段目派生",
   "2段目ジャンプキャンセル可",
 ]
 
@@ -1771,12 +1771,12 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
-  "* Will only transition to 2nd attack if the first attack hits",
+  "Will only transition to 2nd attack if the first attack hits",
   "The 2nd attack can be canceled by a jump",
 ]
 notes_ja = [
   "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
-  "※ヒット時のみ2段目派生",
+  "ヒット時のみ2段目派生",
   "2段目ジャンプキャンセル可",
 ]
 
@@ -1828,13 +1828,13 @@ notes = [
   "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive.",
   "Completely invincible from frames 20 - 27",
   "Can be canceled into a mid-air attack from the 34th frame",
-  "* Landing recovery can be canceled by anything except walk/dashes",
+  "Landing recovery can be canceled by anything except walk/dashes",
 ]
 notes_ja = [
   "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効。",
   "20-27F 完全無敵",
   "34F目から空中技でキャンセル可",
-  "※着地硬直は移動以外でキャンセル可",
+  "着地硬直は移動以外でキャンセル可",
 ]
 postLandingRecovery = 3
 capcom_skill_id = 512
@@ -1893,13 +1893,13 @@ notes = [
   "Toss out and set a spray can that will explode after a period of time. Best used to apply pressure that capitalizes on the duration between when the bomb is placed and its detonation.",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
-  "* Values represent when the attack is performed in the middle of the screen",
+  "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
   "スプレー缶を放って設置し、一定時間経過で炸裂させる技。設置してから炸裂するまでの時間差を利用しての攻めが有効。",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
-  "※画面中央で発動した際の数値",
+  "画面中央で発動した際の数値",
 ]
 
 startup = 122
@@ -1932,13 +1932,13 @@ notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
-  "* Values represent when the attack is performed in the middle of the screen",
+  "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
   "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
-  "※画面中央で発動した際の数値",
+  "画面中央で発動した際の数値",
 ]
 
 startup = 124
@@ -1971,13 +1971,13 @@ notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
-  "* Values represent when the attack is performed in the middle of the screen",
+  "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
   "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
-  "※画面中央で発動した際の数値",
+  "画面中央で発動した際の数値",
 ]
 
 startup = 128
@@ -2010,13 +2010,13 @@ notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
   "Fires 2 projectiles on the 18th frame (Light and Medium versions)",
   "Decreases the Shuriken Bomb stock by 2",
-  "* Projectile properties are the same as the individual attacks",
+  "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
   "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
   "18F目に飛び道具2つ発射（弱版+中版）",
   "細工手裏剣ストックを2消費",
-  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+  "飛び道具の性能は各強度の【細工手裏剣】と同等",
 ]
 totalFrames = 44
 damage = 450
@@ -2046,13 +2046,13 @@ notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
   "Fires 2 projectiles on the 18th frame (Light and Heavy versions)",
   "Decreases the Shuriken Bomb stock by 2",
-  "* Projectile properties are the same as the individual attacks",
+  "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
   "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
   "18F目に飛び道具2つ発射（弱版+強版）",
   "細工手裏剣ストックを2消費",
-  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+  "飛び道具の性能は各強度の【細工手裏剣】と同等",
 ]
 totalFrames = 44
 damage = 450
@@ -2082,13 +2082,13 @@ notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
   "Fires 2 projectiles on the 18th frame (Medium and Heavy versions)",
   "Decreases the Shuriken Bomb stock by 2",
-  "* Projectile properties are the same as the individual attacks",
+  "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
   "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
   "18F目に飛び道具2つ発射（中版+強版）",
   "細工手裏剣ストックを2消費",
-  "※飛び道具の性能は各強度の【細工手裏剣】と同等",
+  "飛び道具の性能は各強度の【細工手裏剣】と同等",
 ]
 totalFrames = 44
 damage = 450
@@ -2113,7 +2113,7 @@ input = "j>236*p"
 properties = ["knockdown"]
 notes = [
   "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
-  "*Does 1656 individual damage when the attack lands as a Punish Counter",
+  "Does 1656 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
   "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
@@ -2121,7 +2121,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（1656）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（1656）",
-  "※簡易入力時（1324）",
+  "簡易入力時（1324）",
 ]
 
 startup = 5
@@ -2146,7 +2146,7 @@ input = "j>236(pp)"
 properties = ["knockdown"]
 notes = [
   "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
-  "*Does 1035 individual damage when the attack lands as a Punish Counter",
+  "Does 1035 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
   "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
@@ -2154,7 +2154,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（1035）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（1035）",
-  "※簡易入力時（828）",
+  "簡易入力時（828）",
 ]
 
 startup = 5
@@ -2333,7 +2333,7 @@ notes = [
   "- Walk speed increased",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
@@ -2343,15 +2343,15 @@ notes_ja = [
   "・歩き速度アップ",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 8
 active = [8, 13]
 recovery = 51
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 605
 
 [moves.frameAdvantage]
@@ -2378,7 +2378,7 @@ notes = [
   "- Walk speed increased",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
@@ -2388,15 +2388,15 @@ notes_ja = [
   "・歩き速度アップ",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 8
 active = [8, 13]
 recovery = 51
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 605
 
 [moves.frameAdvantage]

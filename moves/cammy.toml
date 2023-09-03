@@ -915,7 +915,7 @@ notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-14F 空中判定の攻撃に対して無敵",
   "7-40F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 5
 active = [5, 16]
@@ -957,7 +957,7 @@ notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-9F 空中判定の攻撃に対して無敵",
   "8-42F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 6
 active = [6, 17]
@@ -1001,7 +1001,7 @@ notes_ja = [
   "15F以上ホールドすると性能変化",
   "1-8F 空中判定の攻撃に対して無敵",
   "10-36F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 
 startup = 7
@@ -1044,7 +1044,7 @@ notes_ja = [
   "1-7F 空中判定の攻撃に対して無敵",
   "20-25F 完全無敵",
   "26-64F 空中判定",
-  "※持続の5F目以降は個別ダメージ（900）",
+  "持続の5F目以降は個別ダメージ（900）",
 ]
 
 startup = 24
@@ -1087,7 +1087,7 @@ notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-7F 完全無敵",
   "8-47F 空中判定",
-  "※持続の5F目以降は個別ダメージ（900）",
+  "持続の5F目以降は個別ダメージ（900）",
 ]
 startup = 6
 active = [6, 17]
@@ -1973,7 +1973,7 @@ notes = [
   "Considered airborn from frames 9 - 27",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "高速での連撃で崩れ落ちた相手に渾身の蹴りを叩き込む高威力技。コンボや飛び道具対策など、幅広い場面で狙える。",
@@ -1981,7 +1981,7 @@ notes_ja = [
   "9-27F 空中判定",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 9
@@ -1989,8 +1989,8 @@ active = [9, 23]
 recovery = 4
 postLandingRecovery = 34
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 604
 
 [moves.frameAdvantage]
@@ -2025,7 +2025,7 @@ notes_ja = [
   "9-27F 空中判定",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 9
@@ -2033,8 +2033,8 @@ active = [9, 23]
 recovery = 4
 postLandingRecovery = 34
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 604
 
 [moves.frameAdvantage]

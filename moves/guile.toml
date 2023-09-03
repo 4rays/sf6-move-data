@@ -1344,13 +1344,13 @@ notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 7",
   "Considered airborne from frames 8 - 36",
-  "* Does 800 individual damage after the 3rd active frame",
+  "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-7F 空中判定の攻撃に対して無敵",
   "8-36F 空中判定",
-  "※持続の3F目以降は個別ダメージ(800)",
+  "持続の3F目以降は個別ダメージ(800)",
 ]
 startup = 5
 active = [5, 10]
@@ -1387,9 +1387,9 @@ properties = ["knockdown"]
 notes = [
   "Invincible to mid-air attacks from frames 1 - 7",
   "Considered airborne from frames 8 - 36",
-  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+  "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
-notes_ja = ["1-7F 空中判定の攻撃に対して無敵", "8-36F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+notes_ja = ["1-7F 空中判定の攻撃に対して無敵", "8-36F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
 
 startup = 5
 active = [5, 10]
@@ -1424,13 +1424,13 @@ notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 8 - 38",
-  "* Does 800 individual damage after the 3rd active frame",
+  "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-8F 空中判定の攻撃に対しては無敵",
   "8-38F 空中判定",
-  "※持続の3F目以降は個別ダメージ(800)",
+  "持続の3F目以降は個別ダメージ(800)",
 ]
 startup = 6
 active = [6, 11]
@@ -1467,9 +1467,9 @@ properties = ["knockdown"]
 notes = [
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 8 - 38",
-  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+  "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
-notes_ja = ["1-8F 空中判定の攻撃に対しては無敵", "8-38F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+notes_ja = ["1-8F 空中判定の攻撃に対しては無敵", "8-38F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
 
 startup = 6
 active = [6, 11]
@@ -1504,13 +1504,13 @@ notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 8 - 40",
-  "* Does 800 individual damage after the 3rd active frame",
+  "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-9F 空中判定の攻撃に対して無敵",
   "8-40F 空中判定",
-  "※持続の3F目以降は個別ダメージ(800)",
+  "持続の3F目以降は個別ダメージ(800)",
 ]
 startup = 7
 active = [7, 12]
@@ -1547,9 +1547,9 @@ properties = ["knockdown"]
 notes = [
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 8 - 40",
-  "* Does 1000 individual damage when the attack lands after the 3rd active frame",
+  "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
-notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-40F 空中判定", "※持続の3F目以降は個別ダメージ(1000)"]
+notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-40F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
 
 startup = 7
 active = [7, 12]
@@ -1584,13 +1584,13 @@ notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
   "Completely invincible from frames 1 - 11",
   "Considered airborne from frames 8 - 37",
-  "* Does 700 individual damage from frames 3 - 4",
+  "Does 700 individual damage from frames 3 - 4",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-11F 完全無敵",
   "8-37F 空中判定",
-  "※持続の3-4F目は個別ダメージ(700)",
+  "持続の3-4F目は個別ダメージ(700)",
 ]
 startup = 6
 active = [6, 11]
@@ -2129,12 +2129,12 @@ parentSlugs = ["sonic-puncher", "sonic-break-single-shot"]
 notes = [
   "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
   "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21, up to 3 times",
-  "* The last transition’s recovery is reduced by 1 frame",
+  "The last transition’s recovery is reduced by 1 frame",
 ]
 notes_ja = [
   "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
   "13-21F 通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能(3回まで)",
-  "※派生最終段のみ、硬直1F減少",
+  "派生最終段のみ、硬直1F減少",
 ]
 startup = 11
 totalFrames = 36
@@ -2199,7 +2199,7 @@ notes = [
   "Considered airborne from frames 12 - 44",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "*Does 3000 individual damage when the attack lands after the 3rd active frame",
+  "Does 3000 individual damage when the attack lands after the 3rd active frame",
   "Applied only when canceling a special move",
 ]
 notes_ja = [
@@ -2208,7 +2208,7 @@ notes_ja = [
   "12-44F 空中判定",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※持続の3F目以降は個別ダメージ(3000)",
+  "持続の3F目以降は個別ダメージ(3000)",
   "必殺技キャンセル時のみ適用",
 ]
 startup = 9
@@ -2216,8 +2216,8 @@ active = [9, 14]
 recovery = 30
 postLandingRecovery = 40
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2244,7 +2244,7 @@ notes = [
   "Considered airborne from frames 12 - 44",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "*Does 3500 individual damage when the attack lands after the 3rd active frame",
+  "Does 3500 individual damage when the attack lands after the 3rd active frame",
   "Applied only when canceling a special move",
 ]
 notes_ja = [
@@ -2253,7 +2253,7 @@ notes_ja = [
   "12-44F 空中判定",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※持続の3F目以降は個別ダメージ(3500)",
+  "持続の3F目以降は個別ダメージ(3500)",
   "必殺技キャンセル時のみ適用",
 ]
 startup = 9
@@ -2261,8 +2261,8 @@ active = [9, 14]
 recovery = 30
 postLandingRecovery = 40
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

@@ -889,7 +889,7 @@ notes = [
   "Does 3795 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3795 individual damage when the attack lands as a Punish Counter",
-  "*Does 3036 individual damage using simplified inputs",
+  "Does 3036 individual damage using simplified inputs",
 ]
 notes_ja = [
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
@@ -897,7 +897,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（3795）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3795）",
-  "※簡易入力時(3036)",
+  "簡易入力時(3036)",
 ]
 startup = 5
 active = [5, 7]
@@ -934,7 +934,7 @@ notes = [
   "Does 3910 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3910 individual damage when the attack lands as a Punish Counter",
-  "*Does 3128 individual damage using simplified inputs",
+  "Does 3128 individual damage using simplified inputs",
 ]
 notes_ja = [
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる。",
@@ -942,7 +942,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（3910）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3910）",
-  "※簡易入力時(3128)",
+  "簡易入力時(3128)",
 ]
 startup = 5
 active = [5, 7]
@@ -970,7 +970,7 @@ notes = [
   "Does 3260 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3260 individual damage when the attack lands as a Punish Counter",
-  "*Does 2608 individual damage using simplified inputs",
+  "Does 2608 individual damage using simplified inputs",
 ]
 notes_ja = [
   "空中で相手を掴み、打撃で打ち上げた後に回転して叩き付ける技。空中の相手にのみヒットさせる事が可能。",
@@ -979,7 +979,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（3260）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3260）",
-  "※簡易入力時(2608)",
+  "簡易入力時(2608)",
 ]
 startup = 4
 active = [4, 6]
@@ -1010,7 +1010,7 @@ notes = [
   "Does 3375 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 3375 individual damage when the attack lands as a Punish Counter",
-  "*Does 2700 individual damage using simplified inputs",
+  "Does 2700 individual damage using simplified inputs",
 ]
 notes_ja = [
   "空中で相手を掴み、打撃で打ち上げた後に回転して叩き付ける技。空中の相手にのみヒットさせる事が可能。",
@@ -1019,7 +1019,7 @@ notes_ja = [
   "パニッシュカウンター時個別ダメージ（3375）",
   "■モダン操作時",
   "パニッシュカウンター時個別ダメージ（3375）",
-  "※簡易入力時(2700)",
+  "簡易入力時(2700)",
 ]
 startup = 4
 active = [4, 6]
@@ -1197,7 +1197,7 @@ notes_ja = [
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
   "10-56F アーマー判定（1回）",
   "相手との間合いによって移動距離が変化",
-  "※フレームデータは最短距離の場合",
+  "フレームデータは最短距離の場合",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3105）",
   "■モダン操作時",
@@ -1237,7 +1237,7 @@ notes_ja = [
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効。",
   "3-55F アーマー判定（2回）",
   "相手との間合いによって移動距離が変化",
-  "※フレームデータは最短距離の場合",
+  "フレームデータは最短距離の場合",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3450）",
   "■モダン操作時",
@@ -1337,7 +1337,7 @@ notes = [
   "Shifts to throw when the button is not held down",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
-  "* Active vaccuum hitbox",
+  "Active vaccuum hitbox",
 ]
 notes_ja = [
   "高速回転で相手を吸い寄せて掴み、投げで強烈に叩き付ける技。投げ中に移動操作の左右入力で投げる位置を調整する事が可能。",
@@ -1346,7 +1346,7 @@ notes_ja = [
   "ボタンホールドしなかった場合投げに移行",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※吸い込み判定の持続",
+  "吸い込み判定の持続",
 ]
 startup = 18
 active = [

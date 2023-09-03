@@ -1149,7 +1149,7 @@ notes = [
   "Drink Level 2: 100%",
   "Drink Level 3: 105%",
   "Drink Level 4: 110%",
-  "* During The Devil’s Song, damage is scaled to 105%",
+  "During The Devil’s Song, damage is scaled to 105%",
 ]
 notes_ja = [
   "瓢箪を取り出し、気を開放する薬湯を飲む技。飲むと酔いLvが上昇し、上昇したLvに応じた技が開放される。",
@@ -1164,7 +1164,7 @@ notes_ja = [
   "酔いLv2 100%",
   "酔いLv3 105%",
   "酔いLv4 110%",
-  "※絶唱魔身中は酔いLv4であるが、ダメージ倍率は105%となる",
+  "絶唱魔身中は酔いLv4であるが、ダメージ倍率は105%となる",
 ]
 
 totalFrames = 50
@@ -2312,7 +2312,7 @@ notes = [
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
   "1-12F 空中判定の攻撃に対して無敵",
-  "※2段目以降は初段ヒット時のみ派生",
+  "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 6
 active = [6, 13, 42, 51]
@@ -2348,7 +2348,7 @@ notes = [
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
   "1-14F 空中判定の攻撃に対して無敵",
-  "※2段目以降は初段ヒット時のみ派生",
+  "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 8
 active = [8, 14, 39, 43]
@@ -2384,7 +2384,7 @@ notes = [
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
   "1-16F 空中判定の攻撃に対して無敵",
-  "※2段目以降は初段ヒット時のみ派生",
+  "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 10
 active = [10, 16, 41, 45, 54, 57]
@@ -2422,7 +2422,7 @@ notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
   "1-9F 完全無敵",
   "10-12F 空中判定の攻撃に対して無敵",
-  "※2段目以降は初段ヒット時のみ派生",
+  "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 6
 active = [6, 12, 37, 38, 50, 51]
@@ -2737,18 +2737,18 @@ input = "63214*k"
 notes = [
   "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack.",
   "Available at Drink Level 3 or higher",
-  "* Combo scaling starts from the 3rd hit",
+  "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
   "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる。",
   "酔いLv3以上で発動可能",
-  "※コンボの3段目以降に補正がかかる",
+  "コンボの3段目以降に補正がかかる",
 ]
 startup = 8
 active = [8, 9]
 recovery = 52
 scaling = ["*Starter scaling 20%"]
-scaling_ja = ["※始動補正20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcom_skill_id = 508
 
@@ -2770,13 +2770,13 @@ notes = [
   "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack.",
   "Available at Drink Level 3 or higher",
   "Produces a crumple stun on hit",
-  "* Combo scaling starts from the 3rd hit",
+  "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
   "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる。",
   "酔いLv3以上で発動可能",
   "ヒット時膝崩れ",
-  "※コンボの3段目以降に補正がかかる",
+  "コンボの3段目以降に補正がかかる",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（784）",
   "■モダン操作時",
@@ -2788,7 +2788,7 @@ active = [8, 9]
 recovery = 52
 damage = 650
 scaling = ["*Starter scaling 20%"]
-scaling_ja = ["※始動補正20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcom_skill_id = 508
 
@@ -2809,7 +2809,7 @@ notes = [
   "Invincible to throws and strikes from frames 2 - 12",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
-  "* While the attack is executed, continue to hold Down to change the attack’s properties and raise your Drink level by 1",
+  "While the attack is executed, continue to hold Down to change the attack’s properties and raise your Drink level by 1",
 ]
 notes_ja = [
   "アクロバティックな連続回転蹴りを高速で繰り出す技。動作中に、下方向を入力し続けると酔いLvを上昇させる。",
@@ -2817,7 +2817,7 @@ notes_ja = [
   "2-12 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する。",
+  "動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する。",
 ]
 
 startup = 10
@@ -2896,7 +2896,7 @@ notes = [
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "* Produces a hard knockdown",
+  "Produces a hard knockdown",
 ]
 notes_ja = [
   "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる。",
@@ -2904,15 +2904,15 @@ notes_ja = [
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "ハードノックダウン",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 12, 26, 28]
 recovery = 42
 damage = 2600
-scaling = ["*Immediate scaling 10％", "Combo scaling 20%"]
-scaling_ja = ["※即時補正10％", "コンボ補正20%"]
+scaling = ["Immediate scaling 10％", "Combo scaling 20%"]
+scaling_ja = ["即時補正10％", "コンボ補正20%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2937,7 +2937,7 @@ notes = [
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "* Forces a hard knockdown",
+  "Forces a hard knockdown",
 ]
 notes_ja = [
   "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる。",
@@ -2945,15 +2945,15 @@ notes_ja = [
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "ハードノックダウン",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 12, 26, 28]
 recovery = 42
 damage = 4500
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]

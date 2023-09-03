@@ -146,7 +146,7 @@ hitCount = 1
 blockType = "high"
 input = "5mk"
 notes = ["3 frames of recovery added when the attack misses"]
-notes_ja = ["※空振り時硬直3F増加"]
+notes_ja = ["空振り時硬直3F増加"]
 
 startup = 8
 active = [8, 10]
@@ -2244,22 +2244,22 @@ notes = [
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
-  "*Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手に組み付き、噛み付きから電撃を纏った回転攻撃へ繋ぐ技。発動時の飛び掛かりは飛び道具対策に使える。",
   "1-12F 完全無敵",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 12]
 recovery = 61
 damage = 4000
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2292,15 +2292,15 @@ notes_ja = [
   "1-12F 完全無敵",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 12]
 recovery = 61
 damage = 4500
-scaling = ["*Immediate scaling 10％"]
-scaling_ja = ["※即時補正10％"]
+scaling = ["Immediate scaling 10％"]
+scaling_ja = ["即時補正10％"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2450,7 +2450,7 @@ notes = [
 ]
 notes_ja = [
   "相手を叩きつける、リーチの長い攻撃。ヒット、ガードさせた場合はフィアーダウンへ派生可能。",
-  "※33-34F フィアーダウンへ派生可",
+  "33-34F フィアーダウンへ派生可",
   "パニッシュカウンターで以下の性能変化",
   "・地上ヒット時膝崩れ",
   "・空中ヒット時床バウンド",

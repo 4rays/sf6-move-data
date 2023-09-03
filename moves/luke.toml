@@ -1791,13 +1791,13 @@ notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Considered airborne from frames 8 - 36",
-  "* Does 800 individual damage from the 3rd active frame and on",
+  "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-14F 空中判定の攻撃に対して無敵",
   "8-36F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 5
 active = [5, 14]
@@ -1833,13 +1833,13 @@ notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 9 - 39",
-  "* Does 800 individual damage from the 3rd active frame and on",
+  "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-8F 空中判定の攻撃に対して無敵",
   "9-39F 空中判定",
-  "※持続の3F目以降は個別ダメージ（800）",
+  "持続の3F目以降は個別ダメージ（800）",
 ]
 startup = 6
 active = [6, 15]
@@ -1875,13 +1875,13 @@ notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 11 - 43",
-  "* Does 800 individual damage from the 3rd active frame and on",
+  "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
   "1-9F 空中判定の攻撃に対して無敵",
   "11-43F 空中判定",
-  "※持続の2F目以降は個別ダメージ（800）",
+  "持続の2F目以降は個別ダメージ（800）",
 ]
 startup = 9
 active = [9, 18]
@@ -2063,7 +2063,7 @@ notes = [
   "Start up is 27 frames, and completely invincible from frames 1 - 30",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "突進からマウントポジションを取って渾身のパンチを叩き込む技。前進距離が長く、コンボへの組み込みや飛び道具対策に使える。",
@@ -2074,15 +2074,15 @@ notes_ja = [
   "発生27F 1-30F完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 13]
 recovery = 92
 damage = 4000
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 capcom_skill_id = 603
 
 [moves.frameAdvantage]
@@ -2111,7 +2111,7 @@ notes = [
   "Start up is 27 frames, and completely invincible from frames 1 - 30",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
-  "* Can only be canceled into from special moves",
+  "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "相手との距離に応じて発生・無敵時間が変化",
@@ -2121,15 +2121,15 @@ notes_ja = [
   "発生27F 1-30F完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "※必殺技キャンセル時のみ適用",
+  "必殺技キャンセル時のみ適用",
 ]
 
 startup = 10
 active = [10, 13]
 recovery = 92
 damage = 4500
-scaling = ["*Immediate scaling 10%"]
-scaling_ja = ["※即時補正10%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 
 [moves.frameAdvantage]
 hit = 18
