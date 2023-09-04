@@ -178,6 +178,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hk"
+properties = ["forcesStanding"]
 notes = [
   "Forces a juggle state when the attack lands as a counter or Punish Counter on a mid-air opponent",
   "Forces the opponent into a standing position",
@@ -279,6 +280,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 notes = [
   "Forces a juggle state when the attack lands as a Punish Counter",
   "Forces the opponent into a standing position",

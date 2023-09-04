@@ -1500,6 +1500,7 @@ characterId = 15
 type = "commandNormal"
 blockType = "high"
 input = "3mp"
+properties = ["forcesStanding"]
 notes = [
   "A quick thrust that can be canceled into special moves.",
   "Forces the opponent into a standing position",

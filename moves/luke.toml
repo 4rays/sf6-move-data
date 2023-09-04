@@ -273,6 +273,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 notes = [
   "Forces the opponent into a standing position",
   "This move can be canceled until the 1st active frame.",

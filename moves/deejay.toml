@@ -77,6 +77,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+properties = ["frocesStanding"]
 notes = [
   "Can be canceled up until the 2nd active frame",
   "Forces the opponent into a standing position",
@@ -619,6 +620,7 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hk"
+properties = ["forcesStanding"]
 notes = [
   "A multi-hit kick that can be canceled into special moves.",
   "Does 800 individual damage when the attack lands on a mid-air opponent",
