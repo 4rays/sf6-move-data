@@ -560,3 +560,33 @@ name_ja = "択"
 [[characters.tags]]
 name = "rushdown"
 name_ja = "近距離"
+
+# Rashid
+[[characters]]
+id = 18
+name = "Rashid"
+slug = "rashid"
+name_ja = "ラシード"
+description = "A gadget enthusiast who uses wind-based attacks."
+description_ja = "風を操るガジェットマニア。"
+gameId = 0
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss05.jpg",
+]
+artwork = "https://www.streetfighter.com/6/assets/images/character/rashid/rashid.png"
+
+[[characters.tags]]
+name = "air-super"
+name_ja = "空中必殺技"
+
+[[characters.tags]]
+name = "air-grab"
+name_ja = "空中投げ"
+
+[[characters.tags]]
+name = "mixup"
+name_ja = "択"
