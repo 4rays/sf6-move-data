@@ -589,7 +589,7 @@ damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 700
-capcom_skill_id = 401
+capcomID = 401
 
 [moves.frameAdvantage]
 block = -8
@@ -616,7 +616,7 @@ active = [12, 14]
 recovery = 43
 damage = 500
 superArt = 1000
-capcom_skill_id = 402
+capcomID = 402
 notes = [
   "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete.",
 ]
@@ -651,7 +651,7 @@ notes_ja = [
   "酔いLv4時ドライブゲージ10000回復",
 ]
 totalFrames = 60
-capcom_skill_id = 402
+capcomID = 402
 
 # Falling Star Kick
 [[moves]]
@@ -669,7 +669,7 @@ active = [22, 24]
 recovery = 20
 damage = 600
 superArt = 500
-capcom_skill_id = 403
+capcomID = 403
 notes = ["An overhead attack that cannot be blocked while crouching."]
 notes_ja = ["しゃがみでガードできない中段攻撃。"]
 
@@ -699,7 +699,7 @@ recovery = 20
 cancel = "SA"
 damage = 800
 superArt = 1000
-capcom_skill_id = 404
+capcomID = 404
 notes = [
   "An elbow strike that can be canceled into Super Arts. This move's effect changes at drink level 3, making it more powerful.",
 ]
@@ -731,7 +731,7 @@ recovery = 20
 cancel = "SA"
 damage = 900
 superArt = 500
-capcom_skill_id = 405
+capcomID = 405
 notes = [
   "A lunging kick that can be canceled into Super Arts. This move's effect changes at drink level 4, making it more powerful.",
 ]
@@ -850,7 +850,7 @@ active = [22, 24]
 recovery = 20
 damage = 600
 superArt = 500
-capcom_skill_id = 407
+capcomID = 407
 notes = [
   "A sequence of attacks, the first of which cannot be blocked crouching. Your drink level will go up after the part of the attack where you take a drink is complete.",
 ]
@@ -932,7 +932,7 @@ recovery = 21
 cancel = "SA"
 damage = 800
 superArt = 1000
-capcom_skill_id = 408
+capcomID = 408
 
 [moves.frameAdvantage]
 hit = 1
@@ -964,7 +964,7 @@ recovery = 20
 cancel = "SA"
 damage = 600
 superArt = 1000
-capcom_skill_id = 408
+capcomID = 408
 
 [moves.frameAdvantage]
 hit = 1
@@ -996,7 +996,7 @@ active = [21, 23]
 recovery = 37
 damage = 800
 superArt = 1000
-capcom_skill_id = 408
+capcomID = 408
 
 [moves.frameAdvantage]
 block = -20
@@ -1168,7 +1168,7 @@ notes_ja = [
 ]
 
 totalFrames = 50
-capcom_skill_id = 501
+capcomID = 501
 
 # Freeflow Strikes (1) (Light)
 [[moves]]
@@ -1189,7 +1189,7 @@ recovery = 24
 cancel = "SA3"
 damage = 350
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
 ]
@@ -1254,7 +1254,7 @@ recovery = 24
 cancel = "SA3"
 damage = 400
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
 ]
@@ -1319,7 +1319,7 @@ recovery = 24
 cancel = "SA3"
 damage = 450
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
 ]
@@ -1384,7 +1384,7 @@ recovery = 24
 cancel = "SA2"
 damage = 450
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
 ]
@@ -1450,7 +1450,7 @@ active = [13, 14]
 recovery = 28
 damage = 350
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 hit = -3
@@ -1483,7 +1483,7 @@ active = [16, 17]
 recovery = 28
 damage = 400
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 hit = -3
@@ -1516,7 +1516,7 @@ active = [19, 20]
 recovery = 28
 damage = 450
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 hit = -3
@@ -1549,7 +1549,7 @@ active = [15, 16, 22, 23]
 recovery = 27
 damage = 450
 superArt = 1000
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 hit = -2
@@ -1582,7 +1582,7 @@ active = [13, 14]
 recovery = 28
 damage = 450
 superArt = 300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 hit = -3
@@ -1644,7 +1644,7 @@ active = [13, 14]
 recovery = 30
 damage = 550
 superArt = 400
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -17
@@ -1677,7 +1677,7 @@ active = [16, 17]
 recovery = 30
 damage = 600
 superArt = 400
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -15
@@ -1710,7 +1710,7 @@ active = [19, 20]
 recovery = 30
 damage = 650
 superArt = 400
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -13
@@ -1743,7 +1743,7 @@ active = [16, 17, 22, 23, 38, 40]
 recovery = 28
 damage = 600
 superArt = 900
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -14
@@ -1776,7 +1776,7 @@ active = [13, 14]
 recovery = 30
 damage = 750
 superArt = 400
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -13
@@ -1832,7 +1832,7 @@ active = [14, 15]
 recovery = 32
 damage = 250
 superArt = 300
-capcom_skill_id = 503
+capcomID = 503
 notes = [
   "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
 ]
@@ -1865,7 +1865,7 @@ active = [17, 18]
 recovery = 32
 damage = 300
 superArt = 300
-capcom_skill_id = 503
+capcomID = 503
 notes = [
   "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
 ]
@@ -1898,7 +1898,7 @@ active = [20, 21]
 recovery = 32
 damage = 300
 superArt = 300
-capcom_skill_id = 503
+capcomID = 503
 notes = [
   "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
 ]
@@ -1931,7 +1931,7 @@ active = [14, 15]
 recovery = 32
 damage = 350
 superArt = 300
-capcom_skill_id = 503
+capcomID = 503
 notes = [
   "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
 ]
@@ -1973,7 +1973,7 @@ active = [18, 19]
 recovery = 64
 damage = 450
 superArt = 400
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -49
@@ -2011,7 +2011,7 @@ active = [21, 22]
 recovery = 64
 damage = 500
 superArt = 400
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -49
@@ -2049,7 +2049,7 @@ active = [24, 25]
 recovery = 64
 damage = 550
 superArt = 400
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -49
@@ -2087,7 +2087,7 @@ active = [18, 19]
 recovery = 64
 damage = 600
 superArt = 400
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -49
@@ -2114,7 +2114,7 @@ recovery = 17
 cancel = "SA3"
 damage = 900
 superArt = 1000
-capcom_skill_id = 504
+capcomID = 504
 notes = [
   "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
 ]
@@ -2146,7 +2146,7 @@ recovery = 17
 cancel = "SA3"
 damage = 1000
 superArt = 1000
-capcom_skill_id = 504
+capcomID = 504
 notes = [
   "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
 ]
@@ -2178,7 +2178,7 @@ recovery = 17
 cancel = "SA3"
 damage = 1200
 superArt = 1000
-capcom_skill_id = 504
+capcomID = 504
 notes = [
   "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
 ]
@@ -2216,7 +2216,7 @@ damage = 1100
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.frameAdvantage]
 block = -1
@@ -2249,7 +2249,7 @@ damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 509
+capcomID = 509
 
 [moves.frameAdvantage]
 block = -23
@@ -2282,7 +2282,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 509
+capcomID = 509
 
 [moves.frameAdvantage]
 block = -23
@@ -2319,7 +2319,7 @@ active = [6, 13, 42, 51]
 recovery = 54
 damage = 1000
 superArt = 1000
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 block = -44
@@ -2355,7 +2355,7 @@ active = [8, 14, 39, 43]
 recovery = 53
 damage = 1200
 superArt = 1000
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 block = -43
@@ -2391,7 +2391,7 @@ active = [10, 16, 41, 45, 54, 57]
 recovery = 53
 damage = 1400
 superArt = 1000
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 block = -43
@@ -2429,7 +2429,7 @@ active = [6, 12, 37, 38, 50, 51]
 recovery = 53
 damage = 1500
 superArt = 1000
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 block = -43
@@ -2458,7 +2458,7 @@ active = [11, 14]
 postLandingRecovery = 13
 damage = 1000
 superArt = 600
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.driveGauge]
 onHit = 1000
@@ -2486,7 +2486,7 @@ active = [11, 14]
 postLandingRecovery = 13
 damage = 1000
 superArt = 600
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.driveGauge]
 onHit = 1000
@@ -2514,7 +2514,7 @@ active = [11, 14]
 postLandingRecovery = 13
 damage = 1000
 superArt = 600
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.driveGauge]
 onHit = 1000
@@ -2544,7 +2544,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正20%", "即時補正10%"]
 superArt = 800
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.driveGauge]
 onBlock = -2000
@@ -2581,7 +2581,7 @@ recovery = 24
 cancel = "SA3"
 damage = 1400
 superArt = 2000
-capcom_skill_id = 507
+capcomID = 507
 
 [moves.frameAdvantage]
 block = -12
@@ -2657,7 +2657,7 @@ recovery = 32
 cancel = "SA3"
 damage = 1800
 superArt = 3500
-capcom_skill_id = 507
+capcomID = 507
 
 [moves.frameAdvantage]
 block = -17
@@ -2717,7 +2717,7 @@ recovery = 62
 cancel = "SA2"
 damage = 2000
 superArt = 3200
-capcom_skill_id = 507
+capcomID = 507
 
 [moves.frameAdvantage]
 block = -46
@@ -2750,7 +2750,7 @@ recovery = 52
 scaling = ["*Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 508
+capcomID = 508
 
 [moves.frameAdvantage]
 hit = 8
@@ -2790,7 +2790,7 @@ damage = 650
 scaling = ["*Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 508
+capcomID = 508
 
 # Breakin'
 [[moves]]
@@ -2849,7 +2849,7 @@ active = [
 ]
 recovery = 74
 damage = 2100
-capcom_skill_id = 601
+capcomID = 601
 
 [moves.driveGauge]
 onBlock = -1500
@@ -2879,7 +2879,7 @@ notes_ja = [
 ]
 
 totalFrames = 6
-capcom_skill_id = 602
+capcomID = 602
 
 # Getsuga Saiho
 [[moves]]
@@ -2913,7 +2913,7 @@ recovery = 42
 damage = 2600
 scaling = ["Immediate scaling 10％", "Combo scaling 20%"]
 scaling_ja = ["即時補正10％", "コンボ補正20%"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.frameAdvantage]
 block = -27
@@ -2954,7 +2954,7 @@ recovery = 42
 damage = 4500
 scaling = ["Immediate scaling 10％"]
 scaling_ja = ["即時補正10％"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.frameAdvantage]
 block = -27
@@ -2996,7 +2996,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 101
+capcomID = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -3035,7 +3035,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 102
+capcomID = 102
 
 [moves.driveGauge]
 onHit = 2000

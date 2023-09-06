@@ -577,7 +577,7 @@ recovery = 17
 cancel = "C"
 damage = 800
 superArt = 1000
-capcom_skill_id = 401
+capcomID = 401
 
 [moves.frameAdvantage]
 hit = 3
@@ -610,7 +610,7 @@ active = [11, 19]
 recovery = 32
 damage = 1000
 superArt = 500
-capcom_skill_id = 402
+capcomID = 402
 
 [moves.frameAdvantage]
 hit = 26
@@ -637,7 +637,7 @@ active = [10, 11]
 recovery = 17
 damage = 500
 superArt = 700
-capcom_skill_id = 403
+capcomID = 403
 notes = ["A quick combination attack that pulls your opponent toward you."]
 notes_ja = ["技の出が早く、相手を引き寄せる連続攻撃。"]
 
@@ -670,7 +670,7 @@ active = [10, 13]
 recovery = 19
 damage = 600
 superArt = 700
-capcom_skill_id = 404
+capcomID = 404
 
 [moves.frameAdvantage]
 hit = -1
@@ -702,7 +702,7 @@ recovery = 21
 cancel = "C"
 damage = 500
 superArt = 700
-capcom_skill_id = 404
+capcomID = 404
 
 [moves.frameAdvantage]
 hit = -3
@@ -733,7 +733,7 @@ active = [5, 6]
 recovery = 20
 damage = 600
 superArt = 1000
-capcom_skill_id = 405
+capcomID = 405
 
 [moves.frameAdvantage]
 hit = 3
@@ -760,7 +760,7 @@ active = [4, 7]
 recovery = 26
 damage = 500
 superArt = 1000
-capcom_skill_id = 406
+capcomID = 406
 notes = ["A two-hit combination attack. Useful against jumping opponents."]
 notes_ja = ["相手のジャンプに対して強い、続けてヒットする連続攻撃。"]
 
@@ -812,7 +812,7 @@ active = [10, 11]
 recovery = 49
 damage = 2000
 superArt = 3000
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.driveGauge]
 onHit = 5000
@@ -857,7 +857,7 @@ active = [8, 9]
 recovery = 51
 damage = 2000
 superArt = 3000
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.driveGauge]
 onHit = 5000
@@ -922,7 +922,7 @@ active = [5, 6]
 recovery = 54
 damage = 2000
 superArt = 3000
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.driveGauge]
 onHit = 5000
@@ -987,7 +987,7 @@ active = [8, 9]
 recovery = 51
 damage = 2000
 superArt = 3000
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1019,7 +1019,7 @@ recovery = 29
 cancel = "SA3"
 damage = 900
 superArt = 1350
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -15
@@ -1056,7 +1056,7 @@ recovery = 27
 cancel = "SA3"
 damage = 1000
 superArt = 1350
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -14
@@ -1096,7 +1096,7 @@ recovery = 24
 cancel = "SA3"
 damage = 800
 superArt = 1350
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -11
@@ -1135,7 +1135,7 @@ recovery = 30
 cancel = "SA2"
 damage = 800
 superArt = 1350
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -19
@@ -1163,7 +1163,7 @@ active = [16, 17, 28, 31]
 recovery = 36
 damage = 1000
 superArt = 800
-capcom_skill_id = 503
+capcomID = 503
 notes = [
   "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
 ]
@@ -1230,7 +1230,7 @@ active = [20, 22]
 recovery = 24
 damage = 1000
 superArt = 800
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -9
@@ -1270,7 +1270,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -3
@@ -1345,7 +1345,7 @@ recovery = 37
 cancel = "SA3"
 damage = 1350
 superArt = 2150
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.frameAdvantage]
 block = -23
@@ -1401,7 +1401,7 @@ recovery = 34
 cancel = "SA3"
 damage = 1400
 superArt = 2150
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.frameAdvantage]
 block = -20
@@ -1457,7 +1457,7 @@ recovery = 30
 cancel = "SA3"
 damage = 1500
 superArt = 2150
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.frameAdvantage]
 block = -16
@@ -1533,7 +1533,7 @@ active = [25, 26]
 recovery = 34
 damage = 1500
 superArt = 2150
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.frameAdvantage]
 block = -20
@@ -1563,7 +1563,7 @@ damage = 800
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 1150
-capcom_skill_id = 505
+capcomID = 505
 notes = [
   "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
 ]
@@ -1600,7 +1600,7 @@ damage = 800
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 1150
-capcom_skill_id = 505
+capcomID = 505
 notes = [
   "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
 ]
@@ -1640,7 +1640,7 @@ startup = 10
 active = [10, 13]
 recovery = 65
 damage = 2000
-capcom_skill_id = 601
+capcomID = 601
 
 [moves.frameAdvantage]
 block = -49
@@ -1679,7 +1679,7 @@ active = [7, 9, 21, 26, 72, 80]
 recovery = 38
 postLandingRecovery = 34
 damage = 2700
-capcom_skill_id = 602
+capcomID = 602
 
 [moves.frameAdvantage]
 block = -61
@@ -1720,7 +1720,7 @@ recovery = 72
 damage = 4000
 scaling = ["Immediate scaling 5％"]
 scaling_ja = ["即時補正5％"]
-capcom_skill_id = 603
+capcomID = 603
 
 # Pas de Deux (Critical Art)
 [[moves]]
@@ -1785,7 +1785,7 @@ damage = 1200
 scaling = ["Immediate scaling 20％"]
 scaling_ja = ["即時補正20％"]
 superArt = 2000
-capcom_skill_id = 101
+capcomID = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -1823,7 +1823,7 @@ damage = 1200
 scaling = ["Immediate scaling 20％"]
 scaling_ja = ["即時補正20％"]
 superArt = 2000
-capcom_skill_id = 102
+capcomID = 102
 
 [moves.driveGauge]
 onHit = 2000

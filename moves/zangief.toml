@@ -760,7 +760,7 @@ recovery = 27
 cancel = "SA3"
 damage = 1200
 superArt = 1150
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.frameAdvantage]
 block = -12
@@ -799,7 +799,7 @@ recovery = 26
 cancel = "SA2"
 damage = 1500
 superArt = 1150
-capcom_skill_id = 501
+capcomID = 501
 
 [moves.frameAdvantage]
 block = -11
@@ -834,7 +834,7 @@ damage = 2500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 3300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.driveGauge]
 onHit = 5000
@@ -866,7 +866,7 @@ damage = 2900
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 3300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.driveGauge]
 onHit = 5000
@@ -906,7 +906,7 @@ damage = 3300
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 3300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.driveGauge]
 onHit = 5000
@@ -949,7 +949,7 @@ active = [5, 7]
 recovery = 54
 damage = 3400
 superArt = 3300
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -986,7 +986,7 @@ active = [4, 6]
 postLandingRecovery = 16
 damage = 2900
 superArt = 3300
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.driveGauge]
 onHit = 5000
@@ -1028,7 +1028,7 @@ damage = 3000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 3300
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1064,7 +1064,7 @@ damage = 2900
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 3300
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.driveGauge]
 onHit = 5000
@@ -1100,7 +1100,7 @@ active = [10, 11]
 recovery = 50
 damage = 3200
 superArt = 5000
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1133,7 +1133,7 @@ active = [28, 29]
 recovery = 41
 damage = 2700
 superArt = 3300
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.driveGauge]
 onHit = 5000
@@ -1169,7 +1169,7 @@ active = [23, 24]
 recovery = 44
 damage = 3000
 superArt = 3300
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1208,7 +1208,7 @@ active = [55, 56]
 recovery = 40
 damage = 2700
 superArt = 3300
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.driveGauge]
 onHit = 5000
@@ -1248,7 +1248,7 @@ active = [54, 55]
 recovery = 40
 damage = 3000
 superArt = 3300
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1272,7 +1272,7 @@ active = [5, 55]
 recovery = 24
 damage = 2400
 superArt = 2000
-capcom_skill_id = 506
+capcomID = 506
 notes = [
   "Counter an opponent's grounded kick and throw them. Can only be used against certain attacks, but makes up for that limitation with its big damage.",
 ]
@@ -1315,7 +1315,7 @@ recovery = 60
 damage = 3500
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
-capcom_skill_id = 601
+capcomID = 601
 
 [moves.driveGauge]
 onPunishCounter = -5000
@@ -1375,7 +1375,7 @@ active = [
 ]
 recovery = 52
 damage = 1100
-capcom_skill_id = 602
+capcomID = 602
 
 [moves.frameAdvantage]
 block = -35
@@ -1396,7 +1396,7 @@ input = "236236*p"
 properties = ["knockdown"]
 
 damage = 3100
-capcom_skill_id = 602
+capcomID = 602
 notes = [
   "Rotate at high speeds to pull in an opponent and grab them before slamming them into the ground with a powerful throw. You can choose what direction to throw your opponent by inputting left or right during the throw.",
 ]
@@ -1424,7 +1424,7 @@ notes_ja = [
   "左右入力で移動方向を指定可能",
 ]
 damage = 3000
-capcom_skill_id = 602
+capcomID = 602
 
 [moves.driveGauge]
 onPunishCounter = -10000
@@ -1455,7 +1455,7 @@ recovery = 116
 damage = 4800
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.driveGauge]
 onPunishCounter = -15000
@@ -1486,7 +1486,7 @@ recovery = 116
 damage = 5300
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.driveGauge]
 onPunishCounter = -20000
@@ -1512,7 +1512,7 @@ recovery = 21
 cancel = "C"
 damage = 800
 superArt = 500
-capcom_skill_id = 401
+capcomID = 401
 
 [moves.frameAdvantage]
 hit = -1
@@ -1538,7 +1538,7 @@ active = [14, 20]
 recovery = 14
 damage = 600
 superArt = 700
-capcom_skill_id = 402
+capcomID = 402
 notes = ["A knee strike with long reach and quick recovery time."]
 notes_ja = ["リーチが長く、隙の小さい膝蹴り。"]
 
@@ -1571,7 +1571,7 @@ recovery = 15
 cancel = "C"
 damage = 900
 superArt = 500
-capcom_skill_id = 403
+capcomID = 403
 
 [moves.frameAdvantage]
 hit = 6
@@ -1604,7 +1604,7 @@ damage = 1300
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
-capcom_skill_id = 404
+capcomID = 404
 
 [moves.frameAdvantage]
 block = -12
@@ -1635,7 +1635,7 @@ active = [16, 19]
 recovery = 40
 damage = 1000
 superArt = 1000
-capcom_skill_id = 405
+capcomID = 405
 
 [moves.frameAdvantage]
 block = -18
@@ -1666,7 +1666,7 @@ damage = 800
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
-capcom_skill_id = 406
+capcomID = 406
 
 [moves.driveGauge]
 onHit = 2000
@@ -1693,7 +1693,7 @@ postLandingRecovery = 3
 cancel = "C"
 damage = 800
 superArt = 1000
-capcom_skill_id = 407
+capcomID = 407
 
 [moves.driveGauge]
 onHit = 2000
@@ -1715,7 +1715,7 @@ active = [9, 12]
 recovery = 20
 damage = 600
 superArt = 500
-capcom_skill_id = 408
+capcomID = 408
 notes = [
   "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit.",
 ]
@@ -1746,7 +1746,7 @@ active = [15, 17]
 recovery = 32
 damage = 900
 superArt = 500
-capcom_skill_id = 408
+capcomID = 408
 notes = [
   "A potent series of chops. Hits repeatedly if the first hit connects as a counter hit.",
 ]
@@ -1775,7 +1775,7 @@ active = [9, 11]
 recovery = 17
 damage = 500
 superArt = 700
-capcom_skill_id = 409
+capcomID = 409
 notes = [
   "A series of attacks, the third of which can be canceled into special moves.",
 ]
@@ -1805,7 +1805,7 @@ active = [9, 11]
 recovery = 19
 damage = 500
 superArt = 700
-capcom_skill_id = 409
+capcomID = 409
 notes = [
   "A series of attacks, the third of which can be canceled into special moves.",
 ]
@@ -1836,7 +1836,7 @@ recovery = 24
 cancel = "C"
 damage = 700
 superArt = 700
-capcom_skill_id = 409
+capcomID = 409
 notes = [
   "A series of attacks, the third of which can be canceled into special moves.",
 ]
@@ -1884,7 +1884,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 1800
-capcom_skill_id = 101
+capcomID = 101
 
 [moves.driveGauge]
 onHit = 1500
@@ -1921,7 +1921,7 @@ damage = 1400
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 102
+capcomID = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -1956,7 +1956,7 @@ damage = 1500
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 103
+capcomID = 103
 
 [moves.driveGauge]
 onHit = 2000
@@ -1991,7 +1991,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 104
+capcomID = 104
 
 [moves.driveGauge]
 onHit = 2000
@@ -2026,7 +2026,7 @@ damage = 1500
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 105
+capcomID = 105
 
 [moves.driveGauge]
 onHit = 2000
@@ -2061,7 +2061,7 @@ damage = 1500
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 106
+capcomID = 106
 
 [moves.driveGauge]
 onHit = 2000

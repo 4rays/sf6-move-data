@@ -605,7 +605,7 @@ notes = [
 ]
 notes_ja = ["前方に向かって一定距離踏み込む移動技。", "12Fから各派生技に移行可"]
 totalFrames = 45
-capcom_skill_id = 401
+capcomID = 401
 
 # Emergency Stop
 [[moves]]
@@ -619,7 +619,7 @@ input = "lk"
 parentSlugs = ["quick-dash"]
 
 totalFrames = 16
-capcom_skill_id = 402
+capcomID = 402
 notes = [
   "Performed from Quick Dash, this maneuver will make you stop dead in your tracks.",
 ]
@@ -647,7 +647,7 @@ recovery = 20
 cancel = "SA3"
 damage = 1000
 superArt = 500
-capcom_skill_id = 403
+capcomID = 403
 
 [moves.frameAdvantage]
 hit = 3
@@ -680,7 +680,7 @@ recovery = 20
 cancel = "SA"
 damage = 800
 superArt = 1000
-capcom_skill_id = 404
+capcomID = 404
 
 [moves.frameAdvantage]
 hit = 3
@@ -711,7 +711,7 @@ damage = 400
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 300
-capcom_skill_id = 405
+capcomID = 405
 notes = ["A quick series of attacks that can be canceled into special moves."]
 notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
 
@@ -740,7 +740,7 @@ active = [11, 12]
 recovery = 27
 damage = 400
 superArt = 400
-capcom_skill_id = 406
+capcomID = 406
 notes = ["A sequence of three kicks with long reach."]
 notes_ja = ["続けてヒットするリーチの長い連続攻撃。"]
 
@@ -773,7 +773,7 @@ active = [13, 15]
 recovery = 28
 damage = 700
 superArt = 500
-capcom_skill_id = 406
+capcomID = 406
 
 [moves.frameAdvantage]
 block = -11
@@ -801,7 +801,7 @@ totalFrames = 49
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcom_skill_id = 501
+capcomID = 501
 notes = [
   "Fire a ki blast directly forward. Useful for attacking opponents at range.",
 ]
@@ -834,7 +834,7 @@ totalFrames = 49
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcom_skill_id = 501
+capcomID = 501
 notes = [
   "Fire a ki blast directly forward. Useful for attacking opponents at range.",
 ]
@@ -867,7 +867,7 @@ totalFrames = 49
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcom_skill_id = 501
+capcomID = 501
 notes = [
   "Fire a ki blast directly forward. Useful for attacking opponents at range.",
 ]
@@ -900,7 +900,7 @@ totalFrames = 40
 cancel = "SA2"
 damage = 800
 superArt = 600
-capcom_skill_id = 501
+capcomID = 501
 notes = [
   "Fire a ki blast directly forward. Useful for attacking opponents at range.",
 ]
@@ -948,7 +948,7 @@ damage = 1100
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -23
@@ -990,7 +990,7 @@ damage = 1300
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -28
@@ -1034,7 +1034,7 @@ damage = 1400
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1200
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -36
@@ -1071,7 +1071,7 @@ recovery = 35
 postLandingRecovery = 15
 damage = 1600
 superArt = 1500
-capcom_skill_id = 502
+capcomID = 502
 
 [moves.frameAdvantage]
 block = -40
@@ -1139,7 +1139,7 @@ active = [4, 5, 12, 14]
 recovery = 32
 damage = 700
 superArt = 800
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -14
@@ -1172,7 +1172,7 @@ active = [14, 15, 29, 30]
 recovery = 31
 damage = 900
 superArt = 1000
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -12
@@ -1203,7 +1203,7 @@ active = [16, 17, 31, 32, 46, 47]
 recovery = 31
 damage = 1000
 superArt = 1200
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -12
@@ -1235,7 +1235,7 @@ recovery = 22
 postLandingRecovery = 12
 damage = 1500
 superArt = 2000
-capcom_skill_id = 503
+capcomID = 503
 
 [moves.frameAdvantage]
 block = -61
@@ -1319,7 +1319,7 @@ damage = 900
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 600
-capcom_skill_id = 504
+capcomID = 504
 notes = [
   "A Tatsumaki Senpu-kyaku performed while airborne. Useful for altering the trajectory of your jump, or for staging a surprise attack from above.",
 ]
@@ -1367,7 +1367,7 @@ damage = 900
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-capcom_skill_id = 504
+capcomID = 504
 
 [moves.driveGauge]
 onBlock = -3000
@@ -1405,7 +1405,7 @@ damage = 1000
 scaling = ["Starter scaling 30%", "Combo scaling 30%"]
 scaling_ja = ["始動補正30%", "コンボ補正30%"]
 superArt = 1200
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 hit = 2
@@ -1445,7 +1445,7 @@ damage = 1100
 scaling = ["Starter scaling 30%", "Combo scaling 30%"]
 scaling_ja = ["始動補正30%", "コンボ補正30%"]
 superArt = 1200
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 hit = 3
@@ -1486,7 +1486,7 @@ damage = 1200
 scaling = ["Starter scaling 30%", "Combo scaling 30%"]
 scaling_ja = ["始動補正30%", "コンボ補正30%"]
 superArt = 800
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 hit = 3
@@ -1529,7 +1529,7 @@ damage = 1200
 scaling = ["Starter scaling 10%", "5% combo scaling on the 2nd hit"]
 scaling_ja = ["初段コンボ補正10%", "2段目コンボ補正5%"]
 superArt = 1200
-capcom_skill_id = 505
+capcomID = 505
 
 [moves.frameAdvantage]
 hit = 1
@@ -1606,7 +1606,7 @@ recovery = 28
 cancel = "SA3"
 damage = 500
 superArt = 550
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.frameAdvantage]
 hit = 1
@@ -1645,7 +1645,7 @@ recovery = 24
 cancel = "SA3"
 damage = 600
 superArt = 550
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.frameAdvantage]
 hit = 2
@@ -1685,7 +1685,7 @@ recovery = 19
 cancel = "SA3"
 damage = 700
 superArt = 550
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.frameAdvantage]
 block = -2
@@ -1723,7 +1723,7 @@ recovery = 25
 cancel = "SA2"
 damage = 600
 superArt = 400
-capcom_skill_id = 506
+capcomID = 506
 
 [moves.frameAdvantage]
 hit = -4
@@ -1761,7 +1761,7 @@ damage = 500
 scaling = ["Starter scaling 20%", "Combo scaling 15%"]
 scaling_ja = ["始動補正20%", "コンボ補正15%"]
 superArt = 400
-capcom_skill_id = 507
+capcomID = 507
 
 [moves.frameAdvantage]
 hit = 3
@@ -1802,7 +1802,7 @@ recovery = 20
 cancel = "SA2"
 damage = 500
 superArt = 400
-capcom_skill_id = 507
+capcomID = 507
 
 [moves.frameAdvantage]
 hit = 3
@@ -1840,7 +1840,7 @@ damage = 500
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
-capcom_skill_id = 510
+capcomID = 510
 
 [moves.frameAdvantage]
 block = -12
@@ -1875,7 +1875,7 @@ recovery = 20
 cancel = "SA3"
 damage = 1000
 superArt = 500
-capcom_skill_id = 508
+capcomID = 508
 
 [moves.frameAdvantage]
 hit = 3
@@ -1918,7 +1918,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 500
-capcom_skill_id = 508
+capcomID = 508
 
 [moves.frameAdvantage]
 hit = -3
@@ -1955,7 +1955,7 @@ damage = 500
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
-capcom_skill_id = 510
+capcomID = 510
 
 [moves.frameAdvantage]
 block = -12
@@ -1992,7 +1992,7 @@ recovery = 25
 cancel = "SA3"
 damage = 800
 superArt = 600
-capcom_skill_id = 509
+capcomID = 509
 
 [moves.frameAdvantage]
 block = -3
@@ -2031,7 +2031,7 @@ recovery = 20
 cancel = "SA2"
 damage = 800
 superArt = 600
-capcom_skill_id = 509
+capcomID = 509
 
 [moves.frameAdvantage]
 block = -4
@@ -2066,7 +2066,7 @@ recovery = 37
 cancel = "SA2"
 damage = 500
 superArt = 600
-capcom_skill_id = 510
+capcomID = 510
 
 [moves.frameAdvantage]
 block = -20
@@ -2105,7 +2105,7 @@ startup = 7
 active = [7, 9]
 recovery = 41
 damage = 2000
-capcom_skill_id = 601
+capcomID = 601
 
 [moves.frameAdvantage]
 block = -24
@@ -2144,7 +2144,7 @@ startup = 6
 active = [6, 7, 18, 20, 31, 33, 45, 47, 59, 60]
 recovery = 32
 damage = 2700
-capcom_skill_id = 602
+capcomID = 602
 
 [moves.frameAdvantage]
 block = -19
@@ -2194,7 +2194,7 @@ recovery = 45
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.frameAdvantage]
 block = -30
@@ -2243,7 +2243,7 @@ recovery = 45
 damage = 4500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcom_skill_id = 603
+capcomID = 603
 
 [moves.frameAdvantage]
 block = -30
@@ -2285,7 +2285,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 101
+capcomID = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -2324,7 +2324,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcom_skill_id = 102
+capcomID = 102
 
 [moves.driveGauge]
 onHit = 2000
