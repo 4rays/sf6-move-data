@@ -2243,7 +2243,6 @@ block = -25
 [moves.driveGauge]
 onBlock = -2500
 onPunishCounter = -5000
-notes_ja = ["手裏剣が1本以上"]
 
 # Bushin Scramble
 [[moves]]
