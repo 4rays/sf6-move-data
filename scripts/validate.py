@@ -243,3 +243,25 @@ for filename in os.listdir(moves_path):
                     exit(1)
                 else:
                     names.append(move_name_with_id)
+
+# Validate that move japanese name (name_ja) is unique per character
+names_ja = []
+
+for filename in os.listdir(moves_path):
+    if filename.endswith(".toml"):
+        with open(os.path.join(moves_path, filename)) as move_file:
+            moves = toml.load(move_file)
+            for move in moves["moves"]:
+                move_name_with_id = "{}-{}".format(
+                    move["name_ja"], move.get("characterId")
+                )
+
+                if move_name_with_id in names_ja:
+                    print(
+                        "❗ Validation error: Move name_ja {} is not unique.".format(
+                            move["name_ja"]
+                        )
+                    )
+                    exit(1)
+                else:
+                    names_ja.append(move_name_with_id)

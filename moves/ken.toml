@@ -541,9 +541,9 @@ onPunishCounter = -4000
 # Jumping Neutral Heavy Kick
 [[moves]]
 name = "Jumping Neutral Heavy Kick"
-name_ja = "ジャンプ強K"
-alternativeNames = ["Jumping roundhouse"]
-alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+name_ja = "垂直ジャンプ強K"
+alternativeNames = ["Neutral jumping roundhouse"]
+alternativeNames_ja = ["垂直ジャンプ大足", "垂直ジャンプ大アシ"]
 slug = "ken-jump-neutral-heavy-kick"
 abbreviation = "J.HK"
 abbeviation_ja = "ジャンプ強K"
