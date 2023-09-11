@@ -573,9 +573,9 @@ damage = 800
 superArt = 800
 capcomID = 501
 notes = [
-  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance.",
+  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance",
 ]
-notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -2
@@ -607,9 +607,9 @@ damage = 800
 superArt = 800
 capcomID = 501
 notes = [
-  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance.",
+  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance",
 ]
-notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -2
@@ -640,9 +640,9 @@ damage = 800
 superArt = 800
 capcomID = 501
 notes = [
-  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance.",
+  "Thrust your staff into the ground, causing thorns of Psycho Power to emerge at a distant location. Useful in combos and as a way to check opponents from a distance",
 ]
-notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["地面に杖を突き、離れた位置にサイコパワーの棘を出す攻撃。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -2
@@ -750,12 +750,12 @@ input = "236lp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you.",
+  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
 ]
 notes_ja = [
-  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効。",
+  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
 ]
@@ -789,12 +789,12 @@ input = "236mp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you.",
+  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
 ]
 notes_ja = [
-  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効。",
+  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
 ]
@@ -828,12 +828,12 @@ input = "236hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you.",
+  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
 ]
 notes_ja = [
-  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効。",
+  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
 ]
@@ -867,12 +867,12 @@ input = "236(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you.",
+  "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
 ]
 notes_ja = [
-  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効。",
+  "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
 ]
@@ -911,9 +911,9 @@ damage = 800
 superArt = 1000
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -940,9 +940,9 @@ damage = 800
 superArt = 1000
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -969,9 +969,9 @@ damage = 800
 superArt = 1000
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -998,9 +998,9 @@ damage = 1000
 superArt = 800
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onBlock = -3000
@@ -1026,9 +1026,9 @@ damage = 1000
 superArt = 800
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onBlock = -3000
@@ -1054,9 +1054,9 @@ damage = 1000
 superArt = 800
 capcomID = 503
 notes = [
-  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position.",
+  "Place a void of Psycho Power in the air from which thorns spawn. Useful as a way of limiting your opponent's movement when vying for position",
 ]
-notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効。"]
+notes_ja = ["上空にサイコパワーで構成された空間を設置し、棘を放出する技。相手の動きを制限しながら有利に立ち回る手段として有効"]
 
 [moves.driveGauge]
 onBlock = -3000
@@ -1074,13 +1074,13 @@ input = "214+{lp|mp}"
 parentSlugs = ["departure"]
 hitCount = 1
 notes = [
-  "Instantly warp to the active Departure. Jumping attacks can be used upon exiting the warp.",
+  "Instantly warp to the active Departure. Jumping attacks can be used upon exiting the warp",
   "Completely invincible from frames 6 - 25",
   "Considered airborne from frame 26",
   "Can perform moves from frame 31",
 ]
 notes_ja = [
-  "設置されたヴィーハトへ瞬時にワープする技。ワープでの移動後はジャンプ攻撃を出す事が可能。",
+  "設置されたヴィーハトへ瞬時にワープする技。ワープでの移動後はジャンプ攻撃を出す事が可能",
   "6-25F 完全無敵",
   "26F目から空中判定",
   "31F目から行動可",
@@ -1103,9 +1103,9 @@ hitCount = 1
 totalFrames = 40
 capcomID = 505
 notes = [
-  "Spawn thorns from a placed Departure at a timing of your choosing. Useful for checking opponents with thorns at a different timing than if they were left to spawn automatically.",
+  "Spawn thorns from a placed Departure at a timing of your choosing. Useful for checking opponents with thorns at a different timing than if they were left to spawn automatically",
 ]
-notes_ja = ["ヴィーハトの設置後、任意のタイミングで棘を放出する技。棘の自動放出タイミングを外したけん制として有効。"]
+notes_ja = ["ヴィーハトの設置後、任意のタイミングで棘を放出する技。棘の自動放出タイミングを外したけん制として有効"]
 
 # Amnesia
 [[moves]]
@@ -1119,13 +1119,13 @@ input = "22*p"
 hitCount = 2
 
 notes = [
-  "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent.",
+  "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent",
   "Drive Gauge increases by 10,000 if the move is successful",
   "Fires a projectile if the move is successful",
   "Combo scaling occurs after the 3rd hit",
 ]
 notes_ja = [
-  "相手の攻撃を受け流し、サイコパワーの爆弾を付与する当身技。付与した爆弾は一定時間の経過で爆発し、攻撃する。",
+  "相手の攻撃を受け流し、サイコパワーの爆弾を付与する当身技。付与した爆弾は一定時間の経過で爆発し、攻撃する",
   "当身成立時にドライブゲージ10000増加",
   "当身成立時に飛び道具が発生",
   "コンボの3段目以降に補正がかかる",
@@ -1157,12 +1157,12 @@ blockType = "high"
 input = "22(pp)"
 hitCount = 2
 notes = [
-  "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent.",
+  "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent",
   "Fires a projectile if the move is successful",
   "Combo scaling occurs after the 3rd hit",
 ]
 notes_ja = [
-  "相手の攻撃を受け流し、サイコパワーの爆弾を付与する当身技。付与した爆弾は一定時間の経過で爆発し、攻撃する。",
+  "相手の攻撃を受け流し、サイコパワーの爆弾を付与する当身技。付与した爆弾は一定時間の経過で爆発し、攻撃する",
   "当身成立時に飛び道具が発生",
   "コンボの3段目以降に補正がかかる",
 ]
@@ -1193,11 +1193,11 @@ input = "236lk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range.",
+  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range",
   "Start up value listed is when the attack is performed at close range",
 ]
 notes_ja = [
-  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効。",
+  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効",
   "発生は密着で発動した場合の数値",
 ]
 startup = 22
@@ -1228,11 +1228,11 @@ blockType = "mid"
 input = "236mk"
 hitCount = 1
 notes = [
-  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range.",
+  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range",
   "Start up value listed is when the attack is performed at close range",
 ]
 notes_ja = [
-  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効。",
+  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効",
   "発生は密着で発動した場合の数値",
 ]
 startup = 26
@@ -1264,11 +1264,11 @@ blockType = "low"
 input = "236hk"
 hitCount = 1
 notes = [
-  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range.",
+  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range",
   "Start up value listed is when the attack is performed at close range",
 ]
 notes_ja = [
-  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効。",
+  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効",
   "発生は密着で発動した場合の数値",
 ]
 startup = 26
@@ -1301,11 +1301,11 @@ input = "236(kk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range.",
+  "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range",
   "Start up value listed is when the attack is performed at close range",
 ]
 notes_ja = [
-  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効。",
+  "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効",
   "発生は密着で発動した場合の数値",
 ]
 startup = 22
@@ -1330,7 +1330,7 @@ characterId = 14
 type = "commandThrow"
 input = "214*k"
 notes = [
-  "A throw that sends a clone to grapple with the opponent and explode with Psycho Power. The amount of time it takes for the grab to execute depends on the distance from your opponent.",
+  "A throw that sends a clone to grapple with the opponent and explode with Psycho Power. The amount of time it takes for the grab to execute depends on the distance from your opponent",
   "With Classic Controls",
   "Does 2070 individual damage when the attack lands as a Punish Counter",
   "Start up value listed is when the attack is performed at close range",
@@ -1338,7 +1338,7 @@ notes = [
   "Does 1656 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "分身を飛ばして相手を掴み、サイコパワーを爆発させる投げ技。相手との距離によって掴むまでの時間が変化する。",
+  "分身を飛ばして相手を掴み、サイコパワーを爆発させる投げ技。相手との距離によって掴むまでの時間が変化する",
   "■クラシック操作",
   "パニッシュカウンター時のダメージ2070",
   "発生、全体は密着で発動した場合の数値",
@@ -1367,7 +1367,7 @@ characterId = 14
 type = "commandThrow"
 input = "214(kk)"
 notes = [
-  "A throw that sends a clone to grapple with the opponent and explode with Psycho Power. The amount of time it takes for the grab to execute depends on the distance from your opponent.",
+  "A throw that sends a clone to grapple with the opponent and explode with Psycho Power. The amount of time it takes for the grab to execute depends on the distance from your opponent",
   "With Classic Controls",
   "Does 2990 individual damage when the attack lands as a Punish Counter",
   "Start up value listed is when the attack is performed at close range",
@@ -1375,7 +1375,7 @@ notes = [
   "Does 2392 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "分身を飛ばして相手を掴み、サイコパワーを爆発させる投げ技。相手との距離によって掴むまでの時間が変化する。",
+  "分身を飛ばして相手を掴み、サイコパワーを爆発させる投げ技。相手との距離によって掴むまでの時間が変化する",
   "■クラシック操作",
   "パニッシュカウンター時のダメージ2990",
   "発生、全体は密着で発動した場合の数値",
@@ -1409,8 +1409,8 @@ recovery = 19
 damage = 700
 superArt = 500
 capcomID = 401
-notes = ["An overhead attack that cannot be blocked while crouching."]
-notes_ja = ["しゃがみでガードできない中段攻撃。"]
+notes = ["An overhead attack that cannot be blocked while crouching"]
+notes_ja = ["しゃがみでガードできない中段攻撃"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1433,10 +1433,10 @@ input = "3hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "An attack with long reach that knocks opponents down.",
+  "An attack with long reach that knocks opponents down",
   "Knockdown time extended when attack lands as a counter or Punish Counter",
 ]
-notes_ja = ["リーチが長く、相手を転ばせる攻撃。", "カウンター/パニッシュカウンター時ダウン時間延長"]
+notes_ja = ["リーチが長く、相手を転ばせる攻撃", "カウンター/パニッシュカウンター時ダウン時間延長"]
 startup = 16
 active = [16, 18]
 recovery = 31
@@ -1464,10 +1464,10 @@ input = "6hk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
-  "A launching kick that can be canceled into special moves.",
+  "A launching kick that can be canceled into special moves",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["必殺技キャンセル可能な、相手を打ち上げる蹴り技。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["必殺技キャンセル可能な、相手を打ち上げる蹴り技", "空中ヒット時吹き飛びダウン"]
 startup = 11
 active = [11, 12, 13, 16]
 recovery = 24
@@ -1502,8 +1502,8 @@ cancel = "C"
 damage = 500
 superArt = 400
 capcomID = 404
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い、必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1532,8 +1532,8 @@ cancel = "C"
 damage = 500
 superArt = 400
 capcomID = 404
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い、必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1563,9 +1563,9 @@ damage = 500
 superArt = 500
 capcomID = 405
 notes = [
-  "A two-hit combination attack that can be canceled into special moves.",
+  "A two-hit combination attack that can be canceled into special moves",
 ]
-notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃。"]
+notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1594,9 +1594,9 @@ damage = 1000
 superArt = 1000
 capcomID = 406
 notes = [
-  "An overhead attack performed out of Zilant that cannot be blocked crouching.",
+  "An overhead attack performed out of Zilant that cannot be blocked crouching",
 ]
-notes_ja = ["ジラントから連係する、しゃがみでガードできない中段攻撃。"]
+notes_ja = ["ジラントから連係する、しゃがみでガードできない中段攻撃"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1625,9 +1625,9 @@ damage = 1000
 superArt = 1000
 capcomID = 407
 notes = [
-  "A low attack performed out of Zilant that cannot be blocked standing.",
+  "A low attack performed out of Zilant that cannot be blocked standing",
 ]
-notes_ja = ["ジラントから連係する、立ってガードできない下段攻撃。"]
+notes_ja = ["ジラントから連係する、立ってガードできない下段攻撃"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1650,14 +1650,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the arm, disrupt their balance, and stab them with your staff. Throws your opponent without switching places with them.",
+  "Grab your opponent by the arm, disrupt their balance, and stab them with your staff. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の腕を取って体勢を崩し、杖で一撃を加える投げ技。相手との位置関係を変えずに投げる。",
+  "相手の腕を取って体勢を崩し、杖で一撃を加える投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1688,14 +1688,14 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the arm, push their back, and send them tumbling behind you. Throws your opponent while switching places with them.",
+  "Grab your opponent by the arm, push their back, and send them tumbling behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の腕を取った状態で後方に力を加え、投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "相手の腕を取った状態で後方に力を加え、投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1726,14 +1726,14 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent's arm while airborne and toss them to ground behind you. Throws your opponent while switching places with them.",
+  "Grab your opponent's arm while airborne and toss them to ground behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "空中で相手の腕を取り、巻き込みながら後方へ投げ落とす技。相手との位置を入れ替えながら投げる。",
+  "空中で相手の腕を取り、巻き込みながら後方へ投げ落とす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1764,13 +1764,13 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Fire two interlocked shockwaves of Psycho Power directly forward. Easy to work into combos or to use as a counter attack, even when performed at close range.",
+  "Fire two interlocked shockwaves of Psycho Power directly forward. Easy to work into combos or to use as a counter attack, even when performed at close range",
   "Invincible to strikes and throws from frames 1 - 10",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "前方にサイコパワーの衝撃波を交差させて射出する技。近距離においても、コンボや切り返しに使いやすい。",
+  "前方にサイコパワーの衝撃波を交差させて射出する技。近距離においても、コンボや切り返しに使いやすい",
   "1-10F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1798,13 +1798,13 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 notes = [
-  "Generate clones to attack your opponent from all directions. Can be used to make combos utilizing your clones, or as a way of breaking through your opponent's guard.",
+  "Generate clones to attack your opponent from all directions. Can be used to make combos utilizing your clones, or as a way of breaking through your opponent's guard",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
   "Combo scaling occurs after the 3rd hit",
 ]
 notes_ja = [
-  "相手を支点に四方から分身攻撃での連係を繰り出す技。分身と連係してのコンボやガード崩しに活用出来る。",
+  "相手を支点に四方から分身攻撃での連係を繰り出す技。分身と連係してのコンボやガード崩しに活用出来る",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "コンボの3段目以降に補正がかかる",
@@ -1832,14 +1832,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent and send Psycho Power flowing through their body, causing them to explode from within. You will instantly warp to your opponent upon activating this move, making it useful in a variety of situations.",
+  "Grab your opponent and send Psycho Power flowing through their body, causing them to explode from within. You will instantly warp to your opponent upon activating this move, making it useful in a variety of situations",
   "Completely invincible from frames 1 - 23",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える。",
+  "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える",
   "1-23F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1873,14 +1873,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent and send Psycho Power flowing through their body, causing them to explode from within. You will instantly warp to your opponent upon activating this move, making it useful in a variety of situations.",
+  "Grab your opponent and send Psycho Power flowing through their body, causing them to explode from within. You will instantly warp to your opponent upon activating this move, making it useful in a variety of situations",
   "Completely invincible from frames 1 - 23",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える。",
+  "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える",
   "1-23F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",

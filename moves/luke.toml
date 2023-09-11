@@ -173,8 +173,8 @@ blockType = "low"
 input = "5hk"
 notes = [
   "Forces a juggle state when hitting a mid-air opponent",
-  "Forces a juggle state when the attack lands as a Punish Counter.",
-  "Feet are Invincible from frame 8 to frame 15.",
+  "Forces a juggle state when the attack lands as a Punish Counter",
+  "Feet are Invincible from frame 8 to frame 15",
 ]
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン", "8-15F足元無敵"]
 
@@ -276,7 +276,7 @@ input = "2hp"
 properties = ["forcesStanding"]
 notes = [
   "Forces the opponent into a standing position",
-  "This move can be canceled until the 1st active frame.",
+  "This move can be canceled until the 1st active frame",
 ]
 notes_ja = ["強制立ち効果", "キャンセルは持続の1F目まで"]
 
@@ -575,10 +575,10 @@ hitCount = 1
 blockType = "high"
 input = "6mp"
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時叩きつけダウン"]
+notes_ja = ["しゃがみでガードできない中段攻撃", "空中ヒット時叩きつけダウン"]
 startup = 21
 active = [21, 22]
 recovery = 21
@@ -614,9 +614,9 @@ damage = 800
 superArt = 1000
 capcomID = 402
 notes = [
-  "A strike unleashed after stepping backward. Can be canceled into special moves.",
+  "A strike unleashed after stepping backward. Can be canceled into special moves",
 ]
-notes_ja = ["後方へ下がった後に繰り出す必殺技キャンセル可能な突き。"]
+notes_ja = ["後方へ下がった後に繰り出す必殺技キャンセル可能な突き"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -638,11 +638,11 @@ hitCount = 1
 blockType = "high"
 input = "4hk"
 notes = [
-  "A powerful anti-air high kick.",
-  "19 frames of advantage added when the attack lands as a Punish Counter.",
+  "A powerful anti-air high kick",
+  "19 frames of advantage added when the attack lands as a Punish Counter",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["相手のジャンプに対して強いハイキック。", "パニッシュカウンター時+19F", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["相手のジャンプに対して強いハイキック", "パニッシュカウンター時+19F", "空中ヒット時吹き飛びダウン"]
 startup = 12
 active = [12, 15]
 recovery = 24
@@ -670,10 +670,10 @@ hitCount = 1
 blockType = "high"
 input = "6hp"
 notes = [
-  "A series of attacks performed while moving forward. The second attack can be canceled into special moves.",
+  "A series of attacks performed while moving forward. The second attack can be canceled into special moves",
   "4 frames of recovery added when the attack misses",
 ]
-notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃。", "空振り時硬直4F増加"]
+notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃", "空振り時硬直4F増加"]
 startup = 16
 active = [16, 18]
 recovery = 15
@@ -712,9 +712,9 @@ scaling_ja = ["コンボ補正20%"]
 superArt = 500
 capcomID = 404
 notes = [
-  "A series of attacks performed while moving forward. The second attack can be canceled into special moves.",
+  "A series of attacks performed while moving forward. The second attack can be canceled into special moves",
 ]
-notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃。"]
+notes_ja = ["前進して繰り出す、2段目が必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -19
@@ -743,8 +743,8 @@ scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 400
 capcomID = 405
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -774,8 +774,8 @@ cancel = "C"
 damage = 600
 superArt = 400
 capcomID = 405
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -14
@@ -803,9 +803,9 @@ damage = 600
 superArt = 600
 capcomID = 406
 notes = [
-  "An attack consisting of multiple hits, the first of which cannot be blocked while standing.",
+  "An attack consisting of multiple hits, the first of which cannot be blocked while standing",
 ]
-notes_ja = ["続けてヒットする、初段が立ってガードできない連続攻撃。"]
+notes_ja = ["続けてヒットする、初段が立ってガードできない連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -835,9 +835,9 @@ damage = 300
 superArt = 300
 capcomID = 407
 notes = [
-  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+  "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
-notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -866,9 +866,9 @@ damage = 300
 superArt = 300
 capcomID = 407
 notes = [
-  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+  "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
-notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 hit = -6
@@ -898,9 +898,9 @@ damage = 500
 superArt = 500
 capcomID = 407
 notes = [
-  "A series of attacks, the first and second of which can be canceled into Super Arts.",
+  "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
-notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃。"]
+notes_ja = ["2段目までスーパーアーツでキャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -12
@@ -931,9 +931,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
-notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -965,9 +965,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
-notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -999,9 +999,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
-notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1035,9 +1035,9 @@ scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
 capcomID = 501
 notes = [
-  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+  "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
-notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["前方へ拳圧による衝撃波を飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -2
@@ -1059,11 +1059,11 @@ input = "236(pp)>(pp)"
 parentSlugs = ["sand-blast-od"]
 properties = ["knockdown"]
 notes = [
-  "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles.",
-  "Consumes 10000 of the Drive gauge on activation.",
+  "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles",
+  "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
-  "ODサンドブラストから続けて衝撃波を飛ばす技。飛び道具の撃ち合いからダメージを上乗せするのに有効。",
+  "ODサンドブラストから続けて衝撃波を飛ばす技。飛び道具の撃ち合いからダメージを上乗せするのに有効",
   "発動時にドライブゲージを10000消費",
 ]
 startup = 12
@@ -1094,12 +1094,12 @@ blockType = "high"
 input = "214lp"
 properties = ["chargeable", "knockdown"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
   "Hold the button for more than 18 frames to change properties",
   "Perform the Perfect version by releasing the button between frames 18 - 20",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "18F以上ボタンホールドすると性能変化",
   "18-20Fの間に離すとジャスト版が発生",
 ]
@@ -1133,12 +1133,12 @@ blockType = "high"
 input = "214[lp]"
 properties = ["knockdown"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
-  "Has a clash hitbox from frame 28 to frame 29.",
-  "Combo scaling added to 2nd hit.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+  "Has a clash hitbox from frame 28 to frame 29",
+  "Combo scaling added to 2nd hit",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "28-29F 相殺判定",
   "2段目にコンボ補正がかかる",
 ]
@@ -1172,12 +1172,12 @@ blockType = "high"
 input = "214[lp]"
 properties = ["knockdown"]
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
-  "Has a clash hitbox from frame 28 to frame 29.",
-  "Combo scaling added to 2nd hit.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+  "Has a clash hitbox from frame 28 to frame 29",
+  "Combo scaling added to 2nd hit",
 ]
 notes_ja = [
-  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。",
+  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効",
   "28-29F 相殺判定",
   "2段目にコンボ補正がかかる",
 ]
@@ -1211,12 +1211,12 @@ blockType = "high"
 input = "214mp"
 properties = ["chargeable"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
   "Hold the button for more than 18 frames to change properties",
   "Perform the Perfect version by releasing the button between frames 18 - 20",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "18F以上ボタンホールドすると性能変化",
   "18-20Fの間に離すとジャスト版が発生",
 ]
@@ -1251,12 +1251,12 @@ blockType = "high"
 input = "214[mp]"
 properties = ["knockdown"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
-  "Has a clash hitbox from frame 32 to frame 33.",
-  "Combo scaling added to 2nd hit.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+  "Has a clash hitbox from frame 32 to frame 33",
+  "Combo scaling added to 2nd hit",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "32-33F 相殺判定",
   "2段目にコンボ補正がかかる",
 ]
@@ -1290,12 +1290,12 @@ blockType = "high"
 input = "214[mp]"
 properties = ["knockdown"]
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
-  "Has a clash hitbox from frame 31 to frame 32.",
-  "Combo scaling added to 2nd hit.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+  "Has a clash hitbox from frame 31 to frame 32",
+  "Combo scaling added to 2nd hit",
 ]
 notes_ja = [
-  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。",
+  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効",
   "31-32F 相殺判定",
   "2段目にコンボ補正がかかる",
 ]
@@ -1327,12 +1327,12 @@ blockType = "high"
 input = "214hp"
 properties = ["chargeable", "knockdown"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
   "Hold the button for more than 18 frames to change properties",
   "Perform the Perfect version by releasing the button between frames 18 - 20",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "18F以上ボタンホールドすると性能変化",
   "18-20Fの間に離すとジャスト版が発生",
 ]
@@ -1366,11 +1366,11 @@ blockType = "high"
 input = "214[hp]"
 properties = ["knockdown"]
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
-  "Has a clash hitbox from frame 35 to frame 36.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
+  "Has a clash hitbox from frame 35 to frame 36",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "35-36F 相殺判定",
 ]
 startup = 33
@@ -1403,10 +1403,10 @@ blockType = "high"
 input = "214[hp]"
 properties = ["knockdown"]
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
-  "Has a clash hitbox from frame 35 to frame 36.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+  "Has a clash hitbox from frame 35 to frame 36",
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。", "35-36F 相殺判定"]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効", "35-36F 相殺判定"]
 startup = 33
 active = [33, 36]
 recovery = 24
@@ -1434,12 +1434,12 @@ hitCount = 1
 blockType = "high"
 input = "214(pp)"
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
   "Transitions to 2nd attack on hit",
   "Can only be canceled into DDT on the 1st hit",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "ヒット時2段目に派生",
   "初段ヒット時のみDDTへ派生可",
 ]
@@ -1478,10 +1478,10 @@ damage = 400
 superArt = 350
 capcomID = 503
 notes = [
-  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties.",
+  "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
 ]
 notes_ja = [
-  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される。",
+  "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
 ]
 
 [moves.driveGauge]
@@ -1500,11 +1500,11 @@ input = "(pp)"
 parentSlugs = ["flash-knuckle-od"]
 properties = ["knockdown"]
 notes = [
-  "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage.",
-  "Consumes 10000 of the Drive gauge on activation.",
+  "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage",
+  "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
-  "ODフラッシュナックル初段から派生する強力な投げ技。確実にダメージを奪いたい状況で使いやすい。",
+  "ODフラッシュナックル初段から派生する強力な投げ技。確実にダメージを奪いたい状況で使いやすい",
   "発動時にドライブゲージを10000消費",
 ]
 startup = 1
@@ -1532,9 +1532,9 @@ damage = 700
 superArt = 800
 capcomID = 505
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1561,9 +1561,9 @@ damage = 1000
 superArt = 800
 capcomID = 505
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1589,9 +1589,9 @@ damage = 1300
 superArt = 800
 capcomID = 505
 notes = [
-  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos.",
+  "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効。"]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効"]
 
 [moves.driveGauge]
 onBlock = -7000
@@ -1608,10 +1608,10 @@ hitCount = 1
 blockType = "high"
 input = "214*k"
 notes = [
-  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation.",
+  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
   "Can transition to branching attacks from frames 13 - 31",
 ]
-notes_ja = ["前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する。", "13-31F 専用技に派生可"]
+notes_ja = ["前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する", "13-31F 専用技に派生可"]
 totalFrames = 45
 capcomID = 506
 
@@ -1628,12 +1628,12 @@ hitCount = 1
 blockType = "high"
 input = "214(kk)"
 notes = [
-  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation.",
+  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
   "Super Armor for 1 attack from frames 3 - 35",
   "Can transition to branching attacks from frames 12 - 31",
 ]
 notes_ja = [
-  "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する。",
+  "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する",
   "3-35F アーマー判定（1回）",
   "12-31F 専用技に派生可",
 ]
@@ -1661,9 +1661,9 @@ damage = 900
 superArt = 1000
 capcomID = 507
 notes = [
-  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent.",
+  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効。"]
+notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1696,9 +1696,9 @@ scaling_ja = ["始動補正50%"]
 superArt = 1250
 capcomID = 507
 notes = [
-  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent.",
+  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効。"]
+notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1720,11 +1720,11 @@ input = "*k"
 parentSlugs = ["avenger"]
 properties = ["knockdown"]
 notes = [
-  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo.",
+  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
   "5 frames of recovery added when the attack misses",
 ]
 notes_ja = [
-  "アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効。",
+  "アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効",
   "空振り時硬直5F増加",
 ]
 startup = 13
@@ -1764,9 +1764,9 @@ scaling_ja = ["始動補正50%"]
 superArt = 1250
 capcomID = 508
 notes = [
-  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo.",
+  "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
 ]
-notes_ja = ["アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効。"]
+notes_ja = ["アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効"]
 
 [moves.frameAdvantage]
 block = -5
@@ -1789,13 +1789,13 @@ blockType = "high"
 input = "623lp"
 properties = ["knockdown"]
 notes = [
-  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Considered airborne from frames 8 - 36",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
-  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-14F 空中判定の攻撃に対して無敵",
   "8-36F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
@@ -1831,13 +1831,13 @@ blockType = "high"
 input = "623mp"
 properties = ["knockdown"]
 notes = [
-  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 9 - 39",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
-  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-8F 空中判定の攻撃に対して無敵",
   "9-39F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
@@ -1873,13 +1873,13 @@ blockType = "high"
 input = "623hp"
 properties = ["knockdown"]
 notes = [
-  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 11 - 43",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
-  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-9F 空中判定の攻撃に対して無敵",
   "11-43F 空中判定",
   "持続の2F目以降は個別ダメージ（800）",
@@ -1915,13 +1915,13 @@ blockType = "high"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
-  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
+  "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
   "Completely invincible from frames 1 - 10",
   "Considered airborne from frames 8 - 50",
   "Can only transition to Slam Dunk on hit",
 ]
 notes_ja = [
-  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-10F 完全無敵",
   "8-50F 空中判定",
   "ヒット時のみスラムダンクへ派生可",
@@ -1953,11 +1953,11 @@ input = "(pp)"
 parentSlugs = ["rising-uppercut-od"]
 properties = ["knockdown"]
 notes = [
-  "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward.",
-  "Consumes 10000 of the Drive gauge on activation.",
+  "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward",
+  "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
-  "ODライジングアッパーからさらに叩き付け攻撃を行う技。ダメージの大きさとヒット後の状況に優れる。",
+  "ODライジングアッパーからさらに叩き付け攻撃を行う技。ダメージの大きさとヒット後の状況に優れる",
   "発動時にドライブゲージを10000消費",
 ]
 startup = 16
@@ -1983,13 +1983,13 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Fire multiple high-speed Sand Blasts. Its swift speed makes it useful in projectile wars and in combos.",
+  "Fire multiple high-speed Sand Blasts. Its swift speed makes it useful in projectile wars and in combos",
   "Invincible to strikes and throws from frames 1 - 6",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "サンドブラストを高速で連打する技。攻撃の出が早く、飛び道具の撃ち合いやコンボに使いやすい。",
+  "サンドブラストを高速で連打する技。攻撃の出が早く、飛び道具の撃ち合いやコンボに使いやすい",
   "1-6F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2017,14 +2017,14 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 notes = [
-  "A series of punches punctuated by a powerful finishing blow that sends an opponent flying. Connecting with the first hit is enough to activate the combination attack that follows.",
+  "A series of punches punctuated by a powerful finishing blow that sends an opponent flying. Connecting with the first hit is enough to activate the combination attack that follows",
   "Completely invincible from frames 1 - 7",
   "Transitions to full attack after the 2nd hit",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "パンチの連続攻撃から強烈なフィニッシュブローで吹き飛ばす技。初段がヒットする事でその後の連続攻撃が発動する。",
+  "パンチの連続攻撃から強烈なフィニッシュブローで吹き飛ばす技。初段がヒットする事でその後の連続攻撃が発動する",
   "1-7F 完全無敵",
   "ヒット時2段目以降に派生",
   "最低保障ダメージ40％",
@@ -2056,7 +2056,7 @@ hitCount = 1
 blockType = "high"
 input = "236236*k"
 notes = [
-  "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles.",
+  "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles",
   "Start up and invincibility changes depending on the distance from the opponent",
   "When activated from close range",
   "Start up is 10 frames, and completely invincible from frames 1 - 13",
@@ -2067,7 +2067,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "突進からマウントポジションを取って渾身のパンチを叩き込む技。前進距離が長く、コンボへの組み込みや飛び道具対策に使える。",
+  "突進からマウントポジションを取って渾身のパンチを叩き込む技。前進距離が長く、コンボへの組み込みや飛び道具対策に使える",
   "相手との距離に応じて発生・無敵時間が変化",
   "密着発動時",
   "発生10F 1-13F完全無敵",
@@ -2153,14 +2153,14 @@ hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent, lift them up, and slam them onto their back. Throws your opponent without switching places with them.",
+  "Grab your opponent, lift them up, and slam them onto their back. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手を掴んで持ち上げ、背中から叩き付ける投げ技。相手との位置関係を変えずに投げる。",
+  "相手を掴んで持ち上げ、背中から叩き付ける投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2192,14 +2192,14 @@ hitCount = 1
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent's head and send them flying with two knee strikes. Throws your opponent while switching places with them.",
+  "Grab your opponent's head and send them flying with two knee strikes. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の頭を掴み、2発の膝蹴りで相手を吹き飛ばす技。相手との位置を入れ替えながら投げる。",
+  "相手の頭を掴み、2発の膝蹴りで相手を吹き飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

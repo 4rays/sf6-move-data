@@ -597,12 +597,12 @@ hitCount = 1
 blockType = "high"
 input = "214lp"
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -640,13 +640,13 @@ blockType = "high"
 input = "214lp"
 parentSlugs = ["sumo-spirit"]
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Only transitions into the final hit if the 2nd hit connects",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "2段目ヒット時のみ最終段に派生",
   "空中ヒット時吹き飛びダウン",
@@ -683,12 +683,12 @@ hitCount = 1
 blockType = "high"
 input = "214mp"
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -726,13 +726,13 @@ blockType = "high"
 input = "214mp"
 parentSlugs = ["sumo-spirit"]
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Only transitions into the final hit if the 5th hit connects",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "5段目ヒット時のみ最終段に派生",
   "空中ヒット時吹き飛びダウン",
@@ -769,12 +769,12 @@ hitCount = 1
 blockType = "high"
 input = "214hp"
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -812,13 +812,13 @@ blockType = "high"
 input = "214hp"
 parentSlugs = ["sumo-spirit"]
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Only transitions into the final hit if the 8th hit connects",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "8段目ヒット時のみ最終段に派生",
   "空中ヒット時吹き飛びダウン",
@@ -860,12 +860,12 @@ hitCount = 1
 blockType = "high"
 input = "214(pp)"
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみキャンセル可能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -923,13 +923,13 @@ blockType = "high"
 input = "214(pp)"
 parentSlugs = ["sumo-spirit"]
 notes = [
-  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves.",
+  "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
   "Only transitions into the final hit if the 5th hit connects",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい。",
+  "高速で張り手の連打を繰り出す技。通常技からのコンボや連係で使いやすい",
   "最終段のみでキャンセル可能",
   "5段目ヒット時のみ最終段に派生",
   "空中ヒット時吹き飛びダウン",
@@ -983,14 +983,14 @@ blockType = "high"
 input = "[4]>6lp"
 properties = ["knockdown"]
 notes = [
-  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
   "Invincible to mid-air attacks from frames 4 - 13",
   "Considered airborne from frames 14 - 33",
   "Does 1000 damage after the 5th active frame",
 ]
 notes_ja = [
-  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
   "4-13F 空中判定の攻撃に対して無敵",
   "14-33F 空中判定",
@@ -1026,14 +1026,14 @@ blockType = "high"
 input = "[4]>6mp"
 properties = ["knockdown"]
 notes = [
-  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
   "Invincible to mid-air attacks from frames 5 - 13",
   "Considered airborne from frames 14 - 35",
   "Does 1100 damage after the 5th active frame",
 ]
 notes_ja = [
-  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
   "5-13F 空中判定の攻撃に対して無敵",
   "14-35F 空中判定",
@@ -1069,7 +1069,7 @@ blockType = "high"
 input = "[4]>6hp"
 properties = ["knockdown"]
 notes = [
-  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
   "Invincible to mid-air attacks from frames 6 - 16",
   "Considered airborne from frames 18 - 40",
@@ -1077,7 +1077,7 @@ notes = [
   "If Honda and the opponent switch sides after the 19th frame, transitions into ending animation action",
 ]
 notes_ja = [
-  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
   "6-16F 空中判定の攻撃に対して無敵",
   "18-40F 空中判定",
@@ -1114,14 +1114,14 @@ blockType = "high"
 input = "[4]>6(pp)"
 properties = ["knockdown"]
 notes = [
-  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos.",
+  "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Super Armor for 2 hits from the 1st frame until the end of the active frames",
   "If Honda and the opponent switch sides after the 27th frame, transitions into ending animation action",
   "Considered airborne from frame 14",
-  "Always in Punish Counter state during execution.",
+  "Always in Punish Counter state during execution",
 ]
 notes_ja = [
-  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効。",
+  "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "1-持続終了 アーマー判定（2回）",
   "26F目以降で相手との位置関係が入れ替わった場合、画面端に到達した場合、終了アクションへ移行",
   "14- 空中判定",
@@ -1153,13 +1153,13 @@ blockType = "high"
 input = "[2]>8lp"
 properties = ["knockdown"]
 notes = [
-  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard",
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
 ]
 notes_ja = [
-  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
@@ -1193,13 +1193,13 @@ blockType = "high"
 input = "[2]>8mp"
 properties = ["knockdown"]
 notes = [
-  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard",
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
 ]
 notes_ja = [
-  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
@@ -1233,13 +1233,13 @@ blockType = "high"
 input = "[2]>8hp"
 properties = ["knockdown"]
 notes = [
-  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard",
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
 ]
 notes_ja = [
-  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
@@ -1273,14 +1273,14 @@ blockType = "high"
 input = "[2]>8(pp)"
 properties = ["knockdown"]
 notes = [
-  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard.",
+  "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard",
   "Has cross-up attack properties",
   "Invincible to mid-air attacks from frames 5 - 17",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
 ]
 notes_ja = [
-  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える。",
+  "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "5-17F 空中判定の攻撃に対して無敵",
   "下降部分のみパニッシュカウンターで、床バウンド",
@@ -1316,11 +1316,11 @@ blockType = "high"
 input = "63214lp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "Damage set to 2300 on Punish Counter",
 ]
 notes_ja = [
-  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2300）",
 ]
 startup = 7
@@ -1350,11 +1350,11 @@ blockType = "high"
 input = "63214mp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "Damage set to 2645 on Punish Counter",
 ]
 notes_ja = [
-  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2645）",
 ]
 startup = 7
@@ -1384,14 +1384,14 @@ blockType = "high"
 input = "63214hp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "With Classic Controls",
   "Does 2760 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 2208 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（2760）",
   "■モダン操作時",
@@ -1424,14 +1424,14 @@ blockType = "high"
 input = "63214(pp)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range.",
+  "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3220 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 2576 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効。",
+  "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3220）",
   "■モダン操作時",
@@ -1458,10 +1458,10 @@ characterId = 10
 type = "action"
 input = "236*k"
 notes = [
-  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent.",
+  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent",
   "Can transition to Taiho Cannon Lift or Teppo Triple Slap from frames 14 - 43",
 ]
-notes_ja = ["相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効。", "14-43F 鉄砲、大砲へ派生可能"]
+notes_ja = ["相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効", "14-43F 鉄砲、大砲へ派生可能"]
 totalFrames = 51
 capcomID = 505
 
@@ -1474,12 +1474,12 @@ characterId = 10
 type = "action"
 input = "236(kk)"
 notes = [
-  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent.",
+  "Move forward with a traditional sumo shuffle. Useful for closing the distance with your opponent",
   "Can transition to Teppo Triple Slap from frames 13 - 27",
   "Can transition to Taiho Cannon Lift from frames 11 - 27",
 ]
 notes_ja = [
-  "相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効。",
+  "相撲の動作である摺り足で前方に移動する技。離れた相手との間合いを詰めるのに有効",
   "13-27F OD 鉄砲へ派生可能",
   "11-27F OD 大砲へ派生可能",
 ]
@@ -1499,11 +1499,11 @@ input = "*p"
 parentSlugs = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
-  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
   "Can only transition to the last hit on frame 34 if the attack hits",
 ]
 notes_ja = [
-  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。",
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
   "ヒット時のみ34F目で最終段へ派生可能",
 ]
 startup = 9
@@ -1542,9 +1542,9 @@ damage = 600
 superArt = 1000
 capcomID = 506
 notes = [
-  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
 ]
-notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。"]
+notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効"]
 
 [moves.frameAdvantage]
 block = -24
@@ -1567,11 +1567,11 @@ input = "*p"
 parentSlugs = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
-  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
   "Can only transition to the last hit on frame 34 if the attack hits",
 ]
 notes_ja = [
-  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。",
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
   "ヒット時のみ34F目で最終段へ派生可能",
 ]
 startup = 9
@@ -1609,9 +1609,9 @@ damage = 800
 superArt = 1000
 capcomID = 506
 notes = [
-  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure.",
+  "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
 ]
-notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効。"]
+notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効"]
 
 [moves.frameAdvantage]
 block = -24
@@ -1633,11 +1633,11 @@ input = "2*p"
 parentSlugs = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
-  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open.",
+  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",
   "On hit, recovery is 15 frames and the total attack is 49 frames",
 ]
 notes_ja = [
-  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える。",
+  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える",
   "ヒット時は硬直15F、全体49F",
 ]
 startup = 12
@@ -1669,11 +1669,11 @@ input = "2*p"
 parentSlugs = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
-  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open.",
+  "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",
   "On hit, recovery is 15 frames and the total attack is 49 frames",
 ]
 notes_ja = [
-  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える。",
+  "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える",
   "ヒット時は硬直15F、全体49F",
 ]
 startup = 12
@@ -1702,12 +1702,12 @@ hitCount = 1
 blockType = "high"
 input = "22*p"
 notes = [
-  "Clap the palms of both hands together in front of your face. Not only can it be used as an attack, but it can also be used to negate projectiles.",
+  "Clap the palms of both hands together in front of your face. Not only can it be used as an attack, but it can also be used to negate projectiles",
   "Has a clash hitbox from frames 11 - 15",
   "Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
 ]
 notes_ja = [
-  "目の前に両手を突き出し、掌を合わせて叩く技。打撃技としても使える他、飛び道具を打ち消す効果も備える。",
+  "目の前に両手を突き出し、掌を合わせて叩く技。打撃技としても使える他、飛び道具を打ち消す効果も備える",
   "11-15F 相殺判定",
   "肩屋入り中、百裂張り手でキャンセル可能",
 ]
@@ -1737,12 +1737,12 @@ characterId = 10
 type = "action"
 input = "22*k"
 notes = [
-  "Perform a sumo kata that enhances your next Hundred Hand Slap. This enhancement will be maintained until a Hundred Hand Slap is used.",
+  "Perform a sumo kata that enhances your next Hundred Hand Slap. This enhancement will be maintained until a Hundred Hand Slap is used",
   "Stocks Sumo Spirit on frame 51",
   "Changes the properties of the next Hundred Hand Slap performed",
 ]
 notes_ja = [
-  "相撲の型を行い、次に出す百裂張り手を強化する技。強化の効果は、次の百裂張り手を出すまで継続する。",
+  "相撲の型を行い、次に出す百裂張り手を強化する技。強化の効果は、次の百裂張り手を出すまで継続する",
   "51F目で肩屋入りをストック",
   "次回発動する百裂張り手の性質変化",
 ]
@@ -1761,13 +1761,13 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Push your opponent out of the sumo ring with a mighty shove. This move is invincible at the beginning, making it useful for turning the tables on your opponent.",
+  "Push your opponent out of the sumo ring with a mighty shove. This move is invincible at the beginning, making it useful for turning the tables on your opponent",
   "Invincible to strikes and projectiles from frames 1 - 11",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "相撲の仕切りから相手を強烈に押し出す打撃を繰り出す技。技の出始めに無敵時間があり、切り返しに使える。",
+  "相撲の仕切りから相手を強烈に押し出す打撃を繰り出す技。技の出始めに無敵時間があり、切り返しに使える",
   "1-11F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1797,7 +1797,7 @@ blockType = "high"
 input = "[4]>646*k"
 properties = ["knockdown"]
 notes = [
-  "Perform a headbutt followed by a sequence of slaps, and finish off with a final twisting headbutt. The initial headbutt travels a long distance, making it excellent both in combos and as a way of dealing with projectiles.",
+  "Perform a headbutt followed by a sequence of slaps, and finish off with a final twisting headbutt. The initial headbutt travels a long distance, making it excellent both in combos and as a way of dealing with projectiles",
   "Completely invincible from frames 1 - 18",
   "Invincible to projectiles from frames 19 - 36",
   "Transitions to hand slaps if the second hit of the headbutt connects",
@@ -1807,7 +1807,7 @@ notes = [
   "If Honda and the opponent switch sides after the 24th frame, transitions into ending animation action",
 ]
 notes_ja = [
-  "頭突きの突進と張り手連打から、捻りを加えた頭突きに繋ぐ技。突進する距離が長く、飛び道具対策やコンボに使いやすい。",
+  "頭突きの突進と張り手連打から、捻りを加えた頭突きに繋ぐ技。突進する距離が長く、飛び道具対策やコンボに使いやすい",
   "1-18F 完全無敵",
   "19-36F 飛び道具に対して無敵",
   "頭突き部分2段目ヒット時に張り手に派生",
@@ -1841,13 +1841,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
+  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile",
   "Completely invincible from frames 1 - 11",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
+  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1880,13 +1880,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile.",
+  "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile",
   "Completely invincible from frames 1 - 11",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける。",
+  "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1918,10 +1918,10 @@ hitCount = 1
 blockType = "low"
 input = "6hk"
 notes = [
-  "A low attack with long reach that cannot be blocked standing.",
+  "A low attack with long reach that cannot be blocked standing",
   "Forces a juggle state on Punish Counter",
 ]
-notes_ja = ["リーチが長く、立ってガードできない下段攻撃。", "パニッシュカウンター時吹き飛びダウン"]
+notes_ja = ["リーチが長く、立ってガードできない下段攻撃", "パニッシュカウンター時吹き飛びダウン"]
 startup = 14
 active = [14, 16]
 recovery = 21
@@ -1949,12 +1949,12 @@ hitCount = 1
 blockType = "mid"
 input = "3hk"
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
   "Can cancel into a special move or Super Art on frame 15 when the attack misses",
 ]
 notes_ja = [
-  "しゃがみでガードできない中段攻撃。",
+  "しゃがみでガードできない中段攻撃",
   "空中ヒット時床バウンド、ハードノックダウン",
   "15F目で必殺技、SAで空振りキャンセル可能",
 ]
@@ -1986,10 +1986,10 @@ hitCount = 1
 blockType = "mid"
 input = "2mk"
 notes = [
-  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them.",
+  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
   "Has cross-up attack properties",
 ]
-notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス。", "めくり性能"]
+notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス", "めくり性能"]
 startup = 11
 active = [11, 19]
 postLandingRecovery = 3
@@ -2021,8 +2021,8 @@ cancel = "C"
 damage = 600
 superArt = 500
 capcomID = 404
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -10
@@ -2043,12 +2043,12 @@ hitCount = 1
 blockType = "mid"
 input = "5mp>3hk"
 notes = [
-  "A series of attacks, the second of which cannot be blocked crouching.",
+  "A series of attacks, the second of which cannot be blocked crouching",
   "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
   "Can cancel into a special move or Super Art on frame 15 when the attack misses",
 ]
 notes_ja = [
-  "2段目がしゃがみでガードできない連続攻撃。",
+  "2段目がしゃがみでガードできない連続攻撃",
   "空中ヒット時床バウンド、ハードノックダウン",
   "15F目で必殺技、SAで空振りキャンセル可能",
 ]
@@ -2081,14 +2081,14 @@ characterId = 10
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Clasp both arms around your opponent's back, squeeze them, and slam them to the ground. Throws your opponent without switching places with them.",
+  "Clasp both arms around your opponent's back, squeeze them, and slam them to the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の背に両腕を回して絞め上げ、地面へ投げ付ける技。相手との位置関係を変えずに投げる。",
+  "相手の背に両腕を回して絞め上げ、地面へ投げ付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2119,14 +2119,14 @@ characterId = 10
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Clasp both arms around your opponent's back and toss them behind you. Throws your opponent while switching places with them.",
+  "Clasp both arms around your opponent's back and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の背に両腕を回して組み付き、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "相手の背に両腕を回して組み付き、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

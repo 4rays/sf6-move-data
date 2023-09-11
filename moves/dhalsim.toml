@@ -575,8 +575,8 @@ cancel = "C"
 damage = 700
 superArt = 500
 capcomID = 401
-notes = ["An anti-air attack that can be canceled into special moves."]
-notes_ja = ["相手のジャンプに対して強い、必殺技キャンセル可能な攻撃。"]
+notes = ["An anti-air attack that can be canceled into special moves"]
+notes_ja = ["相手のジャンプに対して強い、必殺技キャンセル可能な攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -598,10 +598,10 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 notes = [
-  "A punch with long reach. Useful against opponents who jump diagonally forward.",
+  "A punch with long reach. Useful against opponents who jump diagonally forward",
   "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
 ]
-notes_ja = ["相手の斜め前方のジャンプに対して強く、リーチの長いパンチ。", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+notes_ja = ["相手の斜め前方のジャンプに対して強く、リーチの長いパンチ", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
 startup = 14
 active = [14, 20]
 recovery = 29
@@ -639,8 +639,8 @@ cancel = "C"
 damage = 800
 superArt = 1000
 capcomID = 403
-notes = ["A damaging punch that can be canceled into special moves."]
-notes_ja = ["ダメージが高く、必殺技キャンセル可能なパンチ。"]
+notes = ["A damaging punch that can be canceled into special moves"]
+notes_ja = ["ダメージが高く、必殺技キャンセル可能なパンチ"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -662,10 +662,10 @@ hitCount = 1
 blockType = "low"
 input = "1lk"
 notes = [
-  "A quick low attack that cannot be blocked standing.",
+  "A quick low attack that cannot be blocked standing",
   "Can be rapid canceled",
 ]
-notes_ja = ["技の出が早く、立ってガードできない下段攻撃。", "連打キャンセル対応"]
+notes_ja = ["技の出が早く、立ってガードできない下段攻撃", "連打キャンセル対応"]
 startup = 5
 active = [5, 7]
 recovery = 10
@@ -702,11 +702,12 @@ cancel = "C"
 damage = 600
 superArt = 500
 capcomID = 405
-notes = ["A quick kick that can be canceled into special moves."]
-notes_ja = ["技の出が早く、必殺技キャンセル可能な蹴り。"]
+notes = ["A quick kick that can be canceled into special moves"]
+notes_ja = ["技の出が早く、必殺技キャンセル可能な蹴り"]
 
 [moves.frameAdvantage]
 hit = 3
+block = 0
 
 [moves.driveGauge]
 onHit = 1500
@@ -734,9 +735,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 500
 capcomID = 406
 notes = [
-  "A low attack that cannot be blocked standing and can be canceled into special moves.",
+  "A low attack that cannot be blocked standing and can be canceled into special moves",
 ]
-notes_ja = ["必殺技キャンセル可能な、立ってガードできない下段攻撃。"]
+notes_ja = ["必殺技キャンセル可能な、立ってガードできない下段攻撃"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -758,10 +759,10 @@ hitCount = 1
 blockType = "high"
 input = "4hk"
 notes = [
-  "A kick that is useful against an opponent's neutral jumps and blows the opponent back on hit.",
+  "A kick that is useful against an opponent's neutral jumps and blows the opponent back on hit",
   "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
 ]
-notes_ja = ["相手の真上方向のジャンプに対して強く、相手を吹き飛ばす蹴り。", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+notes_ja = ["相手の真上方向のジャンプに対して強く、相手を吹き飛ばす蹴り", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
 startup = 14
 active = [14, 19]
 recovery = 20
@@ -790,10 +791,10 @@ blockType = "high"
 input = "1hk"
 properties = ["knockdown"]
 notes = [
-  "A low attack that cannot be blocked standing and knocks an opponent down.",
+  "A low attack that cannot be blocked standing and knocks an opponent down",
   "Knockdown time extended when attack lands as a counter or Punish Counter",
 ]
-notes_ja = ["相手を転ばせる、立ってガードできない下段攻撃。", "カウンター/パニッシュカウンター時ダウン時間延長"]
+notes_ja = ["相手を転ばせる、立ってガードできない下段攻撃", "カウンター/パニッシュカウンター時ダウン時間延長"]
 startup = 9
 active = [9, 11]
 recovery = 22
@@ -828,9 +829,9 @@ damage = 500
 superArt = 500
 capcomID = 409
 notes = [
-  "A special-cancelable descending attack that be performed while jumping.",
+  "A special-cancelable descending attack that be performed while jumping",
 ]
-notes_ja = ["ジャンプ中に繰り出す、必殺技キャンセル可能な急降下攻撃。"]
+notes_ja = ["ジャンプ中に繰り出す、必殺技キャンセル可能な急降下攻撃"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -859,9 +860,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 500
 capcomID = 410
 notes = [
-  "A descending attack with a long duration that can be performed while jumping.",
+  "A descending attack with a long duration that can be performed while jumping",
 ]
-notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -890,9 +891,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 500
 capcomID = 410
 notes = [
-  "A descending attack with a long duration that can be performed while jumping.",
+  "A descending attack with a long duration that can be performed while jumping",
 ]
-notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -921,9 +922,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 500
 capcomID = 410
 notes = [
-  "A descending attack with a long duration that can be performed while jumping.",
+  "A descending attack with a long duration that can be performed while jumping",
 ]
-notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。"]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -951,9 +952,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -985,9 +986,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -1019,9 +1020,9 @@ damage = 600
 superArt = 600
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -1053,9 +1054,9 @@ damage = 1000
 superArt = 800
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1085,9 +1086,9 @@ damage = 1000
 superArt = 800
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1117,9 +1118,9 @@ damage = 1000
 superArt = 800
 capcomID = 501
 notes = [
-  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance.",
+  "Spit a ball of flame from your mouth. Useful in combos and for checking opponents from a distance",
 ]
-notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効。"]
+notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いのけん制や連係の繋ぎとして有効"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1148,9 +1149,9 @@ damage = 600
 superArt = 600
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1181,9 +1182,9 @@ damage = 600
 superArt = 600
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1214,9 +1215,9 @@ damage = 600
 superArt = 600
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1249,9 +1250,9 @@ scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1283,9 +1284,9 @@ scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1317,9 +1318,9 @@ scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 800
 capcomID = 502
 notes = [
-  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover.",
+  "Spit a curving ball of flame from your mouth. Useful for filling space above you that's usually difficult to cover",
 ]
-notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい。"]
+notes_ja = ["放物線を描く軌道で火の玉を吹いて飛ばす技。上方向をカバーしながらダルシム本体と連係させやすい"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1351,9 +1352,9 @@ damage = 800
 superArt = 900
 capcomID = 503
 notes = [
-  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded",
 ]
-notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1385,9 +1386,9 @@ damage = 900
 superArt = 1000
 capcomID = 503
 notes = [
-  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded",
 ]
-notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1419,9 +1420,9 @@ damage = 1200
 superArt = 1100
 capcomID = 503
 notes = [
-  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded",
 ]
-notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1453,9 +1454,9 @@ damage = 800
 superArt = 1100
 capcomID = 503
 notes = [
-  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded.",
+  "Blow a large ball of flames from your mouth. Can be used both in combos and as a way to check your opponent while grounded",
 ]
-notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える。"]
+notes_ja = ["口から大きな炎を吹き出して放射する技。コンボへの組み込みや地上けん制に使える"]
 
 [moves.frameAdvantage]
 block = -11
@@ -1478,10 +1479,10 @@ blockType = "high"
 input = "63214lk"
 properties = ["knockdown"]
 notes = [
-  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
   "Clashes with projectiles",
 ]
-notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
 startup = 12
 active = [12, 21]
 totalFrames = 44
@@ -1512,10 +1513,10 @@ blockType = "high"
 input = "63214mk"
 properties = ["knockdown"]
 notes = [
-  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
   "Clashes with projectiles",
 ]
-notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
 startup = 15
 active = [15, 24]
 totalFrames = 44
@@ -1546,10 +1547,10 @@ blockType = "high"
 input = "63214hk"
 properties = ["knockdown"]
 notes = [
-  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
   "Clashes with projectiles",
 ]
-notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
 startup = 15
 active = [15, 24]
 totalFrames = 44
@@ -1580,10 +1581,10 @@ blockType = "high"
 input = "63214(pp)"
 properties = ["knockdown"]
 notes = [
-  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos.",
+  "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
   "Clashes with projectiles",
 ]
-notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える。", "飛び道具相殺判定あり"]
+notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
 startup = 12
 active = [12, 21]
 totalFrames = 41
@@ -1615,9 +1616,9 @@ damage = 800
 superArt = 1000
 capcomID = 505
 notes = [
-  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air",
 ]
-notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1641,9 +1642,9 @@ damage = 800
 superArt = 1000
 capcomID = 505
 notes = [
-  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air",
 ]
-notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1667,9 +1668,9 @@ damage = 800
 superArt = 1000
 capcomID = 505
 notes = [
-  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air",
 ]
-notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。"]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1689,10 +1690,10 @@ hitCount = 1
 blockType = "high"
 input = "j>63214(pp)"
 notes = [
-  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air.",
+  "Blow a ball of flame from mid-air aimed toward the ground. Useful as a way to check opponents from the air",
   "Can perform moves from frame 50",
 ]
-notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい。", "50Fから行動可"]
+notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい", "50Fから行動可"]
 startup = 30
 postLandingRecovery = 3
 damage = 1200
@@ -1712,12 +1713,12 @@ characterId = 9
 type = "action"
 input = "2(kk)"
 notes = [
-  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating.",
+  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating",
   "Considered airborne from frame 13",
   "Can perform moves from frame 36",
 ]
 notes_ja = [
-  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る",
   "13Fから空中判定",
   "36Fから行動可",
 ]
@@ -1733,12 +1734,12 @@ characterId = 9
 type = "action"
 input = "3(kk)"
 notes = [
-  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating.",
+  "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating",
   "Considered airborne on frame 13",
   "Can perform moves from frame 36",
 ]
 notes_ja = [
-  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る",
   "13F空中判定",
   "36Fから行動可",
 ]
@@ -1754,10 +1755,10 @@ characterId = 9
 type = "action"
 input = "j>2(kk)"
 notes = [
-  "While airborne, transition into a float. Jumping attacks and aerial special moves can be used while floating.",
+  "While airborne, transition into a float. Jumping attacks and aerial special moves can be used while floating",
   "Can perform moves from frame 16",
 ]
-notes_ja = ["空中からそのまま浮遊へ移行する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る。", "16Fから行動可"]
+notes_ja = ["空中からそのまま浮遊へ移行する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る", "16Fから行動可"]
 totalFrames = 15
 capcomID = 507
 
@@ -1770,10 +1771,10 @@ characterId = 9
 type = "action"
 input = "6(ppp)"
 notes = [
-  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
   "Completely invincible from frames 5 - 15",
 ]
-notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
 totalFrames = 39
 capcomID = 508
 
@@ -1786,10 +1787,10 @@ characterId = 9
 type = "action"
 input = "6(kkk)"
 notes = [
-  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
   "Completely invincible from frames 5 - 15",
 ]
-notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
 totalFrames = 39
 capcomID = 508
 
@@ -1802,12 +1803,12 @@ characterId = 9
 type = "action"
 input = "j>6(ppp)"
 notes = [
-  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
   "Completely invincible from frames 10 - 15",
   "Can perform moves from frame 30",
 ]
 notes_ja = [
-  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る",
   "10-15F 完全無敵",
   "30Fから行動可",
 ]
@@ -1823,12 +1824,12 @@ characterId = 9
 type = "action"
 input = "j>6(kkk)"
 notes = [
-  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
   "Completely invincible from frames 10 - 15",
   "Can perform moves from frame 30",
 ]
 notes_ja = [
-  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る",
   "10-15F 完全無敵",
   "30Fから行動可",
 ]
@@ -1844,10 +1845,10 @@ characterId = 9
 type = "action"
 input = "4+{(ppp)|(kkk)}"
 notes = [
-  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense.",
+  "Used to instantaneously warp set distances. Its invincibility on startup can be used to evade attacks, and can also be used to set up an offense",
   "Completely invincible from frames 5 - 15",
 ]
-notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える。", "5-15F 完全無敵"]
+notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
 totalFrames = 46
 capcomID = 508
 
@@ -1860,12 +1861,12 @@ characterId = 9
 type = "action"
 input = "j>4(ppp)"
 notes = [
-  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
   "Completely invincible from frames 10 - 15",
   "Can perform moves from frame 35",
 ]
 notes_ja = [
-  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る",
   "10-15F 完全無敵",
   "35Fから行動可",
 ]
@@ -1881,12 +1882,12 @@ characterId = 9
 type = "action"
 input = "j>4(kkk)"
 notes = [
-  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport.",
+  "Used to instantaneously warp set distances while in the air. Jumping attacks and aerial special moves can be used after completing the teleport",
   "Completely invincible from frames 10 - 15",
   "Can perform moves from frame 35",
 ]
 notes_ja = [
-  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る。",
+  "空中から一定距離を瞬時に移動する技。移動後はジャンプ攻撃や空中必殺技を出す事が出来る",
   "10-15F 完全無敵",
   "35Fから行動可",
 ]
@@ -1907,13 +1908,13 @@ blockType = "high"
 input = "236236lp"
 properties = ["knockdown"]
 notes = [
-  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1945,13 +1946,13 @@ blockType = "high"
 input = "236236mp"
 properties = ["knockdown"]
 notes = [
-  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1983,13 +1984,13 @@ blockType = "high"
 input = "236236hp"
 properties = ["knockdown"]
 notes = [
-  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input.",
+  "Blow flames in a variety of directions. Its quick execution makes it useful as a counterattack or as a way of converting normal attacks into combos. The direction of the flame will change depending on which button you input",
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する。",
+  "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2018,14 +2019,14 @@ hitCount = 1
 blockType = "high"
 input = "214214*k"
 notes = [
-  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
   "Completely invincible from frames 1 - 9",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
   "Level 1 activates if the button is released within 139 frames",
 ]
 notes_ja = [
-  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える",
   "1-9F 完全無敵",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2051,14 +2052,14 @@ hitCount = 1
 blockType = "high"
 input = "214214[*k]"
 notes = [
-  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
   "Completely invincible from frames 1 - 9",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
   "Hold the button for over 140 frames to activate the Level 2 version",
 ]
 notes_ja = [
-  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える",
   "1-9F 完全無敵",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2084,14 +2085,14 @@ hitCount = 1
 blockType = "high"
 input = "214214[*k]"
 notes = [
-  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air.",
+  "Blow an enormous mass of flames into the air which then fall to the ground. Can be used as an anti-air attack or in combos after knocking an opponent into the air",
   "Completely invincible from frames 1 - 9",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
   "Hold the button for over 188 frames to activate the Level 2 version",
 ]
 notes_ja = [
-  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える。",
+  "巨大な炎の塊を空中に吹き上げて落下させる技。対空や浮かせてからのコンボとして使える",
   "1-9F 完全無敵",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2118,14 +2119,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure.",
+  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure",
   "Completely invincible from frames 1 - 14",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "1-14F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2158,14 +2159,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure.",
+  "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure",
   "Completely invincible from frames 1 - 14",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "1-14F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2198,14 +2199,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab and punch your opponent's head twice before sending them flying with a palm strike. Throws your opponent without switching places with them.",
+  "Grab and punch your opponent's head twice before sending them flying with a palm strike. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の頭を掴み、後頭部を殴り付けた後に平手で吹き飛ばす技。相手との位置関係を変えずに投げる。",
+  "相手の頭を掴み、後頭部を殴り付けた後に平手で吹き飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2237,14 +2238,14 @@ hitCount = 1
 input = "(5lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent with both arms and toss them behind you. Throws your opponent while switching places with them.",
+  "Grab your opponent with both arms and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手を両手で掴み、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "相手を両手で掴み、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2274,14 +2275,14 @@ hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab an opponent's legs to disrupt their balance and send them flying. Throws your opponent without switching places with them.",
+  "Grab an opponent's legs to disrupt their balance and send them flying. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の脚を捕らえて転ばせ、そのまま両脚を掴んで投げ飛ばす技。相手との位置関係を変えずに投げる。",
+  "相手の脚を捕らえて転ばせ、そのまま両脚を掴んで投げ飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

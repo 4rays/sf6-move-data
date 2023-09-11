@@ -193,6 +193,7 @@ superArt = 1000
 
 [moves.frameAdvantage]
 hit = 4
+block = 0
 
 [moves.driveGauge]
 onHit = 3000
@@ -617,8 +618,8 @@ cancel = "C"
 damage = 600
 superArt = 500
 capcomID = 401
-notes = ["A strike with long reach that can be canceled into special moves."]
-notes_ja = ["リーチが長く、必殺技キャンセル可能な突き。"]
+notes = ["A strike with long reach that can be canceled into special moves"]
+notes_ja = ["リーチが長く、必殺技キャンセル可能な突き"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -647,8 +648,8 @@ cancel = "C"
 damage = 800
 superArt = 1000
 capcomID = 402
-notes = ["A strong attack with quick recovery time."]
-notes_ja = ["相手の攻撃に打ち勝ちやすく、隙の小さい攻撃。"]
+notes = ["A strong attack with quick recovery time"]
+notes_ja = ["相手の攻撃に打ち勝ちやすく、隙の小さい攻撃"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -670,10 +671,10 @@ hitCount = 1
 blockType = "mid"
 input = "3hp"
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Can be canceled into Serenity Stream on hit or block",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "ヒット・ガード時、行雲流水でキャンセル可能"]
+notes_ja = ["しゃがみでガードできない中段攻撃", "ヒット・ガード時、行雲流水でキャンセル可能"]
 
 startup = 21
 active = [21, 24]
@@ -705,13 +706,13 @@ blockType = "high"
 input = "6hk"
 properties = ["crumple", "juggle"]
 notes = [
-  "A jumping kick with long reach that is effective against an opponent's sweeps.",
+  "A jumping kick with long reach that is effective against an opponent's sweeps",
   "Can be canceled into Serenity Stream on hit or block",
   "Causes a crumple stun when the attack lands as a Punish Counter",
   "Forces a juggle state when the attack lands as a Punish Counter on a mid-air opponent",
 ]
 notes_ja = [
-  "相手の足払いに強く、リーチの長い跳び蹴り。",
+  "相手の足払いに強く、リーチの長い跳び蹴り",
   "ヒット・ガード時、行雲流水でキャンセル可能",
   "パニッシュカウンター時 膝崩れ",
   "空中パニッシュカウンター時吹き飛びダウン",
@@ -746,13 +747,13 @@ hitCount = 1
 blockType = "high"
 input = "3hk"
 notes = [
-  "A knee strike performed after placing yourself behind your opponent while leaping into the air.",
+  "A knee strike performed after placing yourself behind your opponent while leaping into the air",
   "Has cross-up attack properties",
   "Forces a juggle state when hitting a mid-air opponent",
   "Considered airborne from frames 7 - 39",
 ]
 notes_ja = [
-  "跳び上がりながら相手の背後に回り込んで繰り出す膝蹴り。",
+  "跳び上がりながら相手の背後に回り込んで繰り出す膝蹴り",
   "めくり性能",
   "空中ヒット時吹き飛びダウン",
   "7～39F 空中判定",
@@ -786,12 +787,12 @@ hitCount = 1
 blockType = "high"
 input = "j>2mk"
 notes = [
-  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent.",
+  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent",
   "Has cross-up attack properties",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能。",
+  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能",
   "めくり性能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -822,12 +823,12 @@ hitCount = 2
 blockType = "high"
 input = "j>2mk>2mk"
 notes = [
-  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent.",
+  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent",
   "Has cross-up attack properties",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能。",
+  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能",
   "めくり性能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -856,12 +857,12 @@ hitCount = 3
 blockType = "high"
 input = "j>2mk>2mk>2mk"
 notes = [
-  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent.",
+  "A stomping attack performed while jumping. Follow-ups can be performed after the first hit connects with or is blocked by the opponent",
   "Has cross-up attack properties",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能。",
+  "ジャンプ中に繰り出す、踏みつけ攻撃。相手にヒット、ガードさせると追加入力による派生が可能",
   "めくり性能",
   "空中ヒット時吹き飛びダウン",
 ]
@@ -890,8 +891,8 @@ hitCount = 0
 blockType = "high"
 input = "9"
 capcomID = 407
-notes = ["While jumping, kick off a wall to perform another jump."]
-notes_ja = ["ジャンプ中に壁を蹴った反動でさらにジャンプする動作。"]
+notes = ["While jumping, kick off a wall to perform another jump"]
+notes_ja = ["ジャンプ中に壁を蹴った反動でさらにジャンプする動作"]
 
 # Soaring Eagle Punches
 [[moves]]
@@ -904,10 +905,10 @@ hitCount = 2
 blockType = "high"
 input = "j>hp>hp"
 notes = [
-  "A series of attacks performed while jumping.",
+  "A series of attacks performed while jumping",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["ジャンプ中に繰り出す、続けてヒットする連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["ジャンプ中に繰り出す、続けてヒットする連続攻撃", "空中ヒット時吹き飛びダウン"]
 
 startup = 6
 active = [6, 9]
@@ -941,9 +942,9 @@ damage = 600
 superArt = 300
 capcomID = 501
 notes = [
-  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+  "Fire a ki blast directly forward. Useful for attacking opponents at range",
 ]
-notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効。"]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -974,9 +975,9 @@ damage = 600
 superArt = 300
 capcomID = 501
 notes = [
-  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+  "Fire a ki blast directly forward. Useful for attacking opponents at range",
 ]
-notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効。"]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効"]
 
 [moves.frameAdvantage]
 hit = -7
@@ -1007,9 +1008,9 @@ damage = 600
 superArt = 300
 capcomID = 501
 notes = [
-  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+  "Fire a ki blast directly forward. Useful for attacking opponents at range",
 ]
-notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効。"]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効"]
 
 [moves.frameAdvantage]
 hit = -2
@@ -1039,9 +1040,9 @@ damage = 800
 superArt = 400
 capcomID = 501
 notes = [
-  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+  "Fire a ki blast directly forward. Useful for attacking opponents at range",
 ]
-notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効。"]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃を与える手段として有効"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -1059,15 +1060,14 @@ slug = "serenity-stream"
 characterId = 3
 type = "special"
 input = "214*p"
-blockType = "mid"
 notes = [
-  "Adopt a very low, stationary fighting stance. While in this stance, each attack button produces different attacks.",
+  "Adopt a very low, stationary fighting stance. While in this stance, each attack button produces different attacks",
   "Can be canceled by any normal or unique attack that is consideres special-cancelable",
   "Can be canceled into any branching attacks from frame 15 of the technique, as well as block",
   "Position can be held by continually pressing down",
 ]
 notes_ja = [
-  "その場で屈みこんで構えを取る動作。構え中は各攻撃ボタンでそれぞれ異なる攻撃動作へ派生する。",
+  "その場で屈みこんで構えを取る動作。構え中は各攻撃ボタンでそれぞれ異なる攻撃動作へ派生する",
   "必殺技キャンセル可能な通常技・特殊技からキャンセル発動可能",
   "動作15F～各種派生技にキャンセル可能・ガード可能",
   "下方向を入力し続けると動作を継続する",
@@ -1085,11 +1085,11 @@ hitCount = 1
 input = "lp"
 parentSlugs = ["serenity-stream"]
 notes = [
-  "A quick strike, performed during Serenity Stream.",
+  "A quick strike, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 17 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い突き。", "行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
+notes_ja = ["行雲流水から派生する、技の出が早い突き", "行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
 
 startup = 5
 active = [5, 9]
@@ -1120,12 +1120,12 @@ input = "mp"
 parentSlugs = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
-  "A forward-moving, repeatable low profile strike, performed during Serenity Stream.",
+  "A forward-moving, repeatable low profile strike, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 20 of recovery",
 ]
 notes_ja = [
-  "行雲流水から派生する、低い姿勢で前進しながら繰り出す突き。",
+  "行雲流水から派生する、低い姿勢で前進しながら繰り出す突き",
   "行雲流水を継続した場合の数値",
   "硬直20F目はガード可能な硬直",
 ]
@@ -1165,9 +1165,9 @@ damage = 900
 superArt = 600
 capcomID = 412
 notes = [
-  "An overhead attack that cannot be blocked while crouching, performed during Serenity Stream.",
+  "An overhead attack that cannot be blocked while crouching, performed during Serenity Stream",
 ]
-notes_ja = ["行雲流水から派生する、しゃがみでガードできない中段攻撃。"]
+notes_ja = ["行雲流水から派生する、しゃがみでガードできない中段攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1189,11 +1189,11 @@ hitCount = 1
 input = "lk"
 parentSlugs = ["serenity-stream"]
 notes = [
-  "A quick, low kick, performed during Serenity Stream.",
+  "A quick, low kick, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 13 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い下段蹴り。", "行雲流水を継続した場合の数値", "硬直13F目はガード可能な硬直"]
+notes_ja = ["行雲流水から派生する、技の出が早い下段蹴り", "行雲流水を継続した場合の数値", "硬直13F目はガード可能な硬直"]
 
 startup = 8
 active = [8, 12]
@@ -1223,11 +1223,11 @@ hitCount = 1
 input = "mk"
 parentSlugs = ["serenity-stream"]
 notes = [
-  "A low kick with long reach, performed during Serenity Stream.",
+  "A low kick with long reach, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 28 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、リーチの長い下段蹴り。", "行雲流水を継続した場合の数値", "硬直28F目はガード可能な硬直"]
+notes_ja = ["行雲流水から派生する、リーチの長い下段蹴り", "行雲流水を継続した場合の数値", "硬直28F目はガード可能な硬直"]
 
 startup = 10
 active = [10, 14]
@@ -1258,16 +1258,15 @@ input = "hk"
 parentSlugs = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
-  "A launching kick, performed during Serenity Stream. Can immediately be canceled into a jump on hit.",
+  "A launching kick, performed during Serenity Stream. Can immediately be canceled into a jump on hit",
   "Can only be canceled into a jump if the attack hits",
 ]
-notes_ja = ["行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる。", "ヒット時のみジャンプキャンセル可能"]
+notes_ja = ["行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる", "ヒット時のみジャンプキャンセル可能"]
 
 startup = 8
 active = [8, 12]
 recovery = 24
-cancel = "*"
-cancelsInto = ["jump"]
+cancel = "J"
 damage = 700
 superArt = 300
 capcomID = 415
@@ -1292,10 +1291,10 @@ type = "special"
 hitCount = 1
 input = "236lk"
 notes = [
-  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks.",
+  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks",
   "Only the 2nd hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効。", "2段目のみSA3/CAでキャンセル可能"]
+notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効", "2段目のみSA3/CAでキャンセル可能"]
 
 startup = 8
 active = [8, 9, 15, 16, 22, 23]
@@ -1326,10 +1325,10 @@ type = "special"
 hitCount = 1
 input = "236mk"
 notes = [
-  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks.",
+  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks",
   "Only the 3rd hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効。", "3段目のみSA3/CAでキャンセル可能"]
+notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効", "3段目のみSA3/CAでキャンセル可能"]
 
 startup = 14
 active = [14, 15, 20, 21, 26, 27, 33, 34]
@@ -1361,10 +1360,10 @@ hitCount = 1
 input = "236hk"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks.",
+  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks",
   "Only the 4th hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効。", "4段目のみSA3/CAでキャンセル可能"]
+notes_ja = ["蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効", "4段目のみSA3/CAでキャンセル可能"]
 
 startup = 23
 active = [23, 24, 28, 29, 32, 33, 38, 39, 46, 47]
@@ -1394,12 +1393,12 @@ type = "special"
 hitCount = 1
 input = "236(kk)"
 notes = [
-  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks.",
+  "Unleash a series of high-speed kicks. Useful for creating combos out of normal attacks",
   "Only the 5th hit can be canceled into a Level 3 Super Art or Critical Art",
   "Can transition into Lightning Kick Barrage either on hit or block",
 ]
 notes_ja = [
-  "蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効。",
+  "蹴りによる連撃を高速で繰り出す技。通常技からコンボを繋ぐのに有効",
   "5段目のみSA2/SA3/CAでキャンセル可能",
   "ヒット・ガード時に百裂連脚に派生可能",
 ]
@@ -1439,9 +1438,9 @@ damage = 700
 superArt = 500
 capcomID = 503
 notes = [
-  "A series of kicks that can be performed following an OD Hundred Lightning Kicks. Useful for tacking on additional damage while also knocking down your opponent.",
+  "A series of kicks that can be performed following an OD Hundred Lightning Kicks. Useful for tacking on additional damage while also knocking down your opponent",
 ]
-notes_ja = ["OD百裂脚から続けてヒットする連続蹴り。OD百裂脚からさらにダメージを上乗せし、ダウンを奪える。"]
+notes_ja = ["OD百裂脚から続けてヒットする連続蹴り。OD百裂脚からさらにダメージを上乗せし、ダウンを奪える"]
 
 [moves.frameAdvantage]
 block = -13
@@ -1462,10 +1461,10 @@ type = "special"
 hitCount = 1
 input = "{8|9}>236lk"
 notes = [
-  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo.",
+  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的。", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
 
 startup = 8
 active = [8, 9, 14, 15, 20, 21]
@@ -1491,10 +1490,10 @@ type = "special"
 hitCount = 1
 input = "{8|9}>236mk"
 notes = [
-  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo.",
+  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的。", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
 
 startup = 10
 active = [10, 11, 16, 17, 22, 23, 29, 30]
@@ -1520,10 +1519,10 @@ type = "special"
 hitCount = 1
 input = "{8|9}>236hk"
 notes = [
-  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo.",
+  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的。", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
 
 startup = 12
 active = [12, 13, 18, 19, 23, 24, 29, 30, 34, 35]
@@ -1549,10 +1548,10 @@ type = "special"
 hitCount = 1
 input = "{8|9}>236(kk)"
 notes = [
-  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo.",
+  "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的。", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
 
 startup = 6
 active = [6, 7, 12, 13, 16, 17, 21, 22, 25, 26, 30, 31]
@@ -1578,11 +1577,11 @@ hitCount = 1
 input = "[2]>8lk"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Considered airborne from frames 8 - 32",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "8～32F 空中判定",
 ]
 
@@ -1615,11 +1614,11 @@ hitCount = 1
 input = "[2]>8mk"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Considered airborne from frames 15 - 56",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "15～56F 空中判定",
 ]
 
@@ -1652,11 +1651,11 @@ hitCount = 1
 input = "[2]>8hk"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Considered airborne from frames 19 -73",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "19～73F 空中判定",
 ]
 
@@ -1689,11 +1688,11 @@ hitCount = 1
 input = "[2]>8(kk)"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks with your legs extended wide. This move does lots of damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Considered airborne from frames 14 - 63",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で開脚し、連続した回転蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "14～63F 空中判定",
 ]
 
@@ -1724,12 +1723,12 @@ type = "special"
 hitCount = 1
 input = "214lk"
 notes = [
-  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance.",
+  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
   "Bottom half of the body is projectile invincible from frames 6 - 18",
   "Considered airborne from frames 5 - 20",
 ]
 notes_ja = [
-  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効。",
+  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
   "6～18F 下半分飛び道具無敵",
   "5～20F 空中判定",
 ]
@@ -1765,12 +1764,12 @@ type = "special"
 hitCount = 1
 input = "214mk"
 notes = [
-  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance.",
+  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
   "Bottom half of the body is projectile invincible from frames 6 - 21",
   "Considered airborne from frames 6 - 24",
 ]
 notes_ja = [
-  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効。",
+  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
   "6～21F 下半分飛び道具無敵",
   "6～24F 空中判定",
 ]
@@ -1806,12 +1805,12 @@ type = "special"
 hitCount = 1
 input = "214hk"
 notes = [
-  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance.",
+  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
   "Bottom half of the body is projectile invincible from frames 6 - 26",
   "Considered airborne from frames 6 - 29",
 ]
 notes_ja = [
-  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効。",
+  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
   "6～26F 下半分飛び道具無敵",
   "6～29F 空中判定",
 ]
@@ -1846,13 +1845,13 @@ hitCount = 1
 input = "214(kk)"
 properties = ["knockdown"]
 notes = [
-  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance.",
+  "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
   "Bottom half of the body is projectile invincible from frames 6 - 21",
   "Projectile invincible from frames 22 - 28",
   "Considered airborne from frames 6 - 23",
 ]
 notes_ja = [
-  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効。",
+  "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
   "6～21F 下半分飛び道具無敵",
   "22～28F 飛び道具無敵",
   "6～23F 空中判定",
@@ -1888,12 +1887,12 @@ hitCount = 1
 input = "22lk"
 properties = ["knockdown"]
 notes = [
-  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
   "Invincible against mid-air attacks from frames 1 - 10",
   "Considered airborne from frames 8 - 45",
 ]
 notes_ja = [
-  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1～10F 空中判定の攻撃に対して無敵",
   "8～45F 空中判定",
 ]
@@ -1927,12 +1926,12 @@ hitCount = 1
 input = "22mk"
 properties = ["knockdown"]
 notes = [
-  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
   "Invincible against mid-air attacks from frames 1 - 10",
   "Considered airborne from frames 8 - 51",
 ]
 notes_ja = [
-  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1～10F 空中判定の攻撃に対して無敵",
   "8～51F 空中判定",
 ]
@@ -1966,12 +1965,12 @@ hitCount = 1
 input = "22hk"
 properties = ["knockdown"]
 notes = [
-  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
   "Invincible against mid-air attacks from frames 1 - 10",
   "Considered airborne from frames 8 - 69",
 ]
 notes_ja = [
-  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1～10F 空中判定の攻撃に対して無敵",
   "8～69F 空中判定",
 ]
@@ -2005,13 +2004,13 @@ hitCount = 1
 input = "22(kk)"
 properties = ["knockdown"]
 notes = [
-  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
+  "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
   "Completely invincible from frames 1- 7",
   "Considered airborne from frames 8 - 32",
   "The 3rd hit of the attack comes out only if the 2nd attack hits",
 ]
 notes_ja = [
-  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1～7F 完全無敵",
   "8～32F 空中判定",
   "3段目以降は2段目ヒット時のみ派生",
@@ -2042,14 +2041,14 @@ hitCount = 1
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Create a mass of energy directly in front of you. Its swift speed and invulnerability can quickly turn the tables on an opponent.",
+  "Create a mass of energy directly in front of you. Its swift speed and invulnerability can quickly turn the tables on an opponent",
   "Completely invincible on frame 1",
   "Invincible to strikes and throws from frames 2 - 7",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "自身の目の前に気功の塊を発生させて攻撃する技。攻撃の出が早く、無敵もあるので切り返しとしても使える。",
+  "自身の目の前に気功の塊を発生させて攻撃する技。攻撃の出が早く、無敵もあるので切り返しとしても使える",
   "1F 完全無敵",
   "2-7 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
@@ -2080,13 +2079,13 @@ hitCount = 1
 input = "j>236236*p"
 properties = ["knockdown"]
 notes = [
-  "Fire a kikosho diagonally downward while jumping. Effective when used to convert a jumping attack into a combo.",
+  "Fire a kikosho diagonally downward while jumping. Effective when used to convert a jumping attack into a combo",
   "Completely invincible on frame 1",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "ジャンプ中に斜め下方向へ気功の塊を発生させる技。ジャンプ中の攻撃からコンボとして繋ぐと効果的。",
+  "ジャンプ中に斜め下方向へ気功の塊を発生させる技。ジャンプ中の攻撃からコンボとして繋ぐと効果的",
   "1F 完全無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2113,14 +2112,14 @@ hitCount = 1
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Move forward while unleashing a series of kicks and then launch your opponent into the air. The last hit can be immediately canceled into a jump.",
+  "Move forward while unleashing a series of kicks and then launch your opponent into the air. The last hit can be immediately canceled into a jump",
   "Completely invincible on frames 1 - 12",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
   "The final hit can be canceled into a jump",
 ]
 notes_ja = [
-  "前進しながら蹴りの連撃を繰り出した後に相手を打ち上げる技。最終段ヒット時は即座にジャンプでキャンセルできる。",
+  "前進しながら蹴りの連撃を繰り出した後に相手を打ち上げる技。最終段ヒット時は即座にジャンプでキャンセルできる",
   "1-12F 完全無敵",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2163,8 +2162,7 @@ active = [
   96,
 ]
 recovery = 48
-cancel = "*"
-cancelsInto = ["jump"]
+cancel = "J"
 damage = 2000
 scaling = ["Starter scaling 40%", "Combo scaling 40%"]
 scaling_ja = ["始動補正40%", "コンボ補正40%"]
@@ -2188,14 +2186,14 @@ hitCount = 1
 input = "214214*k"
 properties = ["knockdown"]
 notes = [
-  "Perform a roundhouse kick, knock your opponent into the air with a series of attacks, and then smash them with a devastating kick. Useful for tacking on big damage in a combo, or as a quick way to turn the tables.",
+  "Perform a roundhouse kick, knock your opponent into the air with a series of attacks, and then smash them with a devastating kick. Useful for tacking on big damage in a combo, or as a quick way to turn the tables",
   "Completely invincible on frames 1 - 9",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "回し蹴りからの連撃で相手を打ち上げ、渾身の蹴りを叩き込む技。大きいダメージを奪いたい時のコンボや切り返しに有効。",
+  "回し蹴りからの連撃で相手を打ち上げ、渾身の蹴りを叩き込む技。大きいダメージを奪いたい時のコンボや切り返しに有効",
   "1-9F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2266,14 +2264,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Seize your opponent by the arm, spin them around you, and throw them aside. Throws your opponent without switching places with them.",
+  "Seize your opponent by the arm, spin them around you, and throw them aside. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の腕を捕らえ、巻き込むように投げて叩き付ける技。相手との位置関係を変えずに投げる。",
+  "相手の腕を捕らえ、巻き込むように投げて叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2305,14 +2303,14 @@ type = "throw"
 input = "(4lphk)"
 properties = ["knockdown"]
 notes = [
-  "Disrupt your opponent's balance with an elbow strike, scoop them up, and toss them behind you. Throws your opponent while switching places with them.",
+  "Disrupt your opponent's balance with an elbow strike, scoop them up, and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手を肘打ちで怯ませ、掬い上げるように投げて叩き付ける技。相手との位置を入れ替えながら投げる。",
+  "相手を肘打ちで怯ませ、掬い上げるように投げて叩き付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2344,14 +2342,14 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Catch your opponent in mid-air and slam them into the ground. Throws your opponent without switching places with them.",
+  "Catch your opponent in mid-air and slam them into the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "空中で相手を捕らえ、落下しながら投げて叩き付ける技。相手との位置関係を変えずに投げる。",
+  "空中で相手を捕らえ、落下しながら投げて叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

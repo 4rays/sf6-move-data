@@ -567,10 +567,10 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 notes = [
-  "A quick attack that can be canceled into special moves.",
+  "A quick attack that can be canceled into special moves",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["技の出が早い必殺技キャンセル可能な攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な攻撃", "空中ヒット時吹き飛びダウン"]
 startup = 8
 active = [8, 13]
 recovery = 17
@@ -600,11 +600,11 @@ blockType = "high"
 input = "3hk"
 
 notes = [
-  "A kick with long reach that launches opponents into the air.",
+  "A kick with long reach that launches opponents into the air",
   "juggle state changes when attack lands as a Punish Counter on a grounded opponent",
   "Forces a juggle state when the attack lands as a Punish Counter on a mid-air opponent",
 ]
-notes_ja = ["リーチが長く、相手を吹き飛ばす蹴り。", "地上パニッシュカウンター時吹き飛び変化", "空中パニッシュカウンター時吹き飛びダウン"]
+notes_ja = ["リーチが長く、相手を吹き飛ばす蹴り", "地上パニッシュカウンター時吹き飛び変化", "空中パニッシュカウンター時吹き飛びダウン"]
 startup = 11
 active = [11, 19]
 recovery = 32
@@ -638,8 +638,8 @@ recovery = 17
 damage = 500
 superArt = 700
 capcomID = 403
-notes = ["A quick combination attack that pulls your opponent toward you."]
-notes_ja = ["技の出が早く、相手を引き寄せる連続攻撃。"]
+notes = ["A quick combination attack that pulls your opponent toward you"]
+notes_ja = ["技の出が早く、相手を引き寄せる連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -661,10 +661,10 @@ hitCount = 1
 blockType = "high"
 input = "4mk"
 notes = [
-  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+  "A two-hit series of attacks, the second of which cannot be blocked crouching",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["2段目がしゃがみでガードできない連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃", "空中ヒット時吹き飛びダウン"]
 startup = 10
 active = [10, 13]
 recovery = 19
@@ -692,10 +692,10 @@ hitCount = 2
 blockType = "high"
 input = "4mk>5mk"
 notes = [
-  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+  "A two-hit series of attacks, the second of which cannot be blocked crouching",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["2段目がしゃがみでガードできない連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃", "空中ヒット時吹き飛びダウン"]
 startup = 14
 active = [14, 20]
 recovery = 21
@@ -724,10 +724,10 @@ hitCount = 2
 blockType = "high"
 input = "5hp>5hp"
 notes = [
-  "A two-hit combination attack that pulls your opponent toward you.",
+  "A two-hit combination attack that pulls your opponent toward you",
   "2 frames of recovery added when the attack misses",
 ]
-notes_ja = ["続けてヒットし、相手を引き寄せる連続攻撃。", "ガード時硬直2F増加"]
+notes_ja = ["続けてヒットし、相手を引き寄せる連続攻撃", "ガード時硬直2F増加"]
 startup = 5
 active = [5, 6]
 recovery = 20
@@ -761,8 +761,8 @@ recovery = 26
 damage = 500
 superArt = 1000
 capcomID = 406
-notes = ["A two-hit combination attack. Useful against jumping opponents."]
-notes_ja = ["相手のジャンプに対して強い、続けてヒットする連続攻撃。"]
+notes = ["A two-hit combination attack. Useful against jumping opponents"]
+notes_ja = ["相手のジャンプに対して強い、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -785,7 +785,7 @@ type = "commandThrow"
 input = "63214lp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
@@ -796,7 +796,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
-  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
@@ -830,7 +830,7 @@ type = "commandThrow"
 input = "63214mp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
   "Medal Level 1: 2000 (2300)",
@@ -841,7 +841,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
-  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
   "メダルLv1 2000（2300）",
@@ -875,7 +875,7 @@ type = "commandThrow"
 input = "63214hp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
@@ -896,7 +896,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
-  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -940,7 +940,7 @@ type = "commandThrow"
 input = "63214(pp)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
@@ -961,7 +961,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
-  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -1006,11 +1006,11 @@ type = "special"
 input = "236lp"
 properties = ["knockdown"]
 notes = [
-  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 5 - 15",
 ]
 notes_ja = [
-  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "5-15F 上半身のみ空中判定の攻撃に対して無敵",
 ]
 startup = 9
@@ -1043,11 +1043,11 @@ type = "special"
 input = "236mp"
 properties = ["knockdown"]
 notes = [
-  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 7 - 19",
 ]
 notes_ja = [
-  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "7-19F 上半身のみ空中判定の攻撃に対して無敵",
 ]
 startup = 11
@@ -1080,12 +1080,12 @@ type = "special"
 input = "236hp"
 properties = ["knockdown"]
 notes = [
-  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 9 - 22",
   "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 44 - 46",
 ]
 notes_ja = [
-  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "9-22F 上半身のみ空中判定の攻撃に対して無敵",
   "44-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
 ]
@@ -1120,12 +1120,12 @@ type = "special"
 input = "236(pp)"
 properties = ["knockdown"]
 notes = [
-  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack.",
+  "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "Invincible against mid-air attacks from frames 4 - 16",
   "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 41 - 46",
 ]
 notes_ja = [
-  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい。",
+  "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "4-16F 空中判定の攻撃に対して無敵",
   "41-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
 ]
@@ -1165,9 +1165,9 @@ damage = 1000
 superArt = 800
 capcomID = 503
 notes = [
-  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
 ]
-notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。"]
+notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える"]
 
 [moves.frameAdvantage]
 block = -24
@@ -1221,10 +1221,10 @@ type = "special"
 input = "214hp"
 properties = ["knockdown"]
 notes = [
-  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
   "Low attack invincibility from frames 9 - 19",
 ]
-notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。", "9-19F 足元無敵"]
+notes_ja = ["バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える", "9-19F 足元無敵"]
 startup = 20
 active = [20, 22]
 recovery = 24
@@ -1254,12 +1254,12 @@ type = "special"
 input = "214(pp)"
 properties = ["knockdown"]
 notes = [
-  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard.",
+  "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
   "Low attack invincibility from frames 11 - 12, as well as throw invincibility",
   "Considered airborne from frames 9 - 21",
 ]
 notes_ja = [
-  "バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える。",
+  "バレエのしなやかさを活かした強力な突進蹴りを繰り出す技。相手の意表を突いた奇襲やガード崩しに使える",
   "11-24F 足元無敵、投げ無敵",
   "9-21F 空中判定",
 ]
@@ -1293,7 +1293,7 @@ type = "commandThrow"
 input = "623lp"
 properties = ["knockdown"]
 notes = [
-  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Projectile invincibility from frames 3 - 21",
   "Transition into feint by holding the button (total 33 frames)",
@@ -1316,7 +1316,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
-  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "3-21F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体33F）",
@@ -1369,7 +1369,7 @@ type = "commandThrow"
 input = "623mp"
 properties = ["knockdown"]
 notes = [
-  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Projectile invincibility from frames 3 - 24",
   "Transition into feint by holding the button (total 34 frames)",
   "Medal level increases by a single level on hit",
@@ -1382,7 +1382,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
-  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "3-24F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体34F）",
   "ヒット時にメダルLvが1上昇",
@@ -1425,7 +1425,7 @@ type = "commandThrow"
 input = "623hp"
 properties = ["knockdown"]
 notes = [
-  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Projectile invincibility from frames 3 - 28",
   "Transition into feint by holding the button (total 35 frames)",
   "Medal level increases by a single level on hit",
@@ -1438,7 +1438,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
-  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "3-28F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体35F）",
   "ヒット時にメダルLvが1上昇",
@@ -1481,7 +1481,7 @@ type = "commandThrow"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
-  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level.",
+  "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Invincible against strikes from the knee and up from frames 3 - 26",
   "Invincible against projectiles from frames 3 - 26",
@@ -1505,7 +1505,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
-  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する。",
+  "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "3-26F 膝から上打撃に対して無敵",
   "3-26F 飛び道具に対して無敵",
@@ -1565,9 +1565,9 @@ scaling_ja = ["即時補正10%"]
 superArt = 1150
 capcomID = 505
 notes = [
-  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
+  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range",
 ]
-notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい。"]
+notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい"]
 
 [moves.frameAdvantage]
 block = -5
@@ -1602,9 +1602,9 @@ scaling_ja = ["即時補正10%"]
 superArt = 1150
 capcomID = 505
 notes = [
-  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range.",
+  "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range",
 ]
-notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい。"]
+notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい"]
 
 [moves.frameAdvantage]
 block = -12
@@ -1625,13 +1625,13 @@ type = "super1"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "A kick performed while sliding forward along the ground that sends your opponent flying. This move is invincible on startup, making it useful as a way to turn the tables.",
+  "A kick performed while sliding forward along the ground that sends your opponent flying. This move is invincible on startup, making it useful as a way to turn the tables",
   "Invincible against strikes and throws from frames 1 - 13",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "前方へ高速で滑り込みながらの蹴りで相手を吹き飛ばす技。技の出始めに無敵時間があり、切り返しに使える。",
+  "前方へ高速で滑り込みながらの蹴りで相手を吹き飛ばす技。技の出始めに無敵時間があり、切り返しに使える",
   "1-13F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1660,14 +1660,14 @@ type = "super2"
 input = "214214*k"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air with a quick one-two combination of kicks, and follow up with a powerful leaping kick. This move executes quickly, making it useful as an anti-air attack or as a way to combo airborne opponents.",
+  "Launch your opponent into the air with a quick one-two combination of kicks, and follow up with a powerful leaping kick. This move executes quickly, making it useful as an anti-air attack or as a way to combo airborne opponents",
   "Completely invincible from frames 1 - 9",
   "Considered airborne from frames 21 - 36 and 68 - 118",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "連続蹴りで相手を打ち上げ、舞い上がりながらの蹴りで締める技。技の出が早く、対空や浮かせてからのコンボで使いやすい。",
+  "連続蹴りで相手を打ち上げ、舞い上がりながらの蹴りで締める技。技の出が早く、対空や浮かせてからのコンボで使いやすい",
   "1-9F 完全無敵",
   "21-36F、68-118F 空中判定",
   "最低保障ダメージ40％",
@@ -1700,14 +1700,14 @@ input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
-  "Attack as though performing a ballet dance and then smash your opponent into the ground with a devastating slam. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "Attack as though performing a ballet dance and then smash your opponent into the ground with a devastating slam. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Completely invincible from frames 1 - 8",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into standing heavy punch and Rond-point",
 ]
 notes_ja = [
-  "バレエのリズムで舞うように攻撃を加え、強烈に投げ落とす技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "バレエのリズムで舞うように攻撃を加え、強烈に投げ落とす技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1765,14 +1765,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grapple with your opponent, slipping your leg between theirs and tossing them to the ground. Throws your opponent without switching places with them.",
+  "Grapple with your opponent, slipping your leg between theirs and tossing them to the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手に組み付き、脚を内から刈り倒して投げる技。相手との位置関係を変えずに投げる。",
+  "相手に組み付き、脚を内から刈り倒して投げる技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1803,14 +1803,14 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grapple with your opponent, slipping your leg between theirs and lifting them over you. Throws your opponent while switching places with them.",
+  "Grapple with your opponent, slipping your leg between theirs and lifting them over you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手に組み付き、股の間から脚を跳ね飛ばして投げる技。相手との位置を入れ替えながら投げる。",
+  "相手に組み付き、股の間から脚を跳ね飛ばして投げる技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

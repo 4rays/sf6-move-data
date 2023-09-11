@@ -569,9 +569,9 @@ damage = 300
 superArt = 300
 capcomID = 401
 notes = [
-  "An attack that stays active for a long time and allows you to move first even if it is blocked.",
+  "An attack that stays active for a long time and allows you to move first even if it is blocked",
 ]
-notes_ja = ["攻撃時間が長く、ガードされても相手より先に動ける膝蹴り。"]
+notes_ja = ["攻撃時間が長く、ガードされても相手より先に動ける膝蹴り"]
 [moves.driveGauge]
 onHit = 500
 onBlock = -1500
@@ -588,10 +588,10 @@ hitCount = 1
 blockType = "high"
 input = "6mk"
 notes = [
-  "An axe kick with long reach that allows you to move first even if it is blocked.",
+  "An axe kick with long reach that allows you to move first even if it is blocked",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["ガードされても相手より先に動けるリーチの長い踵落とし。", "空中ヒット時叩き付けダウン"]
+notes_ja = ["ガードされても相手より先に動けるリーチの長い踵落とし", "空中ヒット時叩き付けダウン"]
 
 startup = 19
 active = [19, 23]
@@ -622,13 +622,13 @@ blockType = "high"
 input = "6hk"
 properties = ["forcesStanding"]
 notes = [
-  "A multi-hit kick that can be canceled into special moves.",
+  "A multi-hit kick that can be canceled into special moves",
   "Does 800 individual damage when the attack lands on a mid-air opponent",
   "Forces a juggle state when the first attack lands on a mid-air opponent",
   "Forces the opponent into a standing position",
 ]
 notes_ja = [
-  "必殺技キャンセル可能な連続でヒットする蹴り。",
+  "必殺技キャンセル可能な連続でヒットする蹴り",
   "2段目空中ヒット時個別ダメージ（800）",
   "初段空中ヒット時吹き飛びダウン",
   "強制立ち効果",
@@ -668,8 +668,8 @@ recovery = 18
 damage = 400
 superArt = 300
 capcomID = 404
-notes = ["A quick combination attack that hits multiple times."]
-notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+notes = ["A quick combination attack that hits multiple times"]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -697,8 +697,8 @@ recovery = 21
 damage = 626
 superArt = 400
 capcomID = 404
-notes = ["A quick combination attack that hits multiple times."]
-notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+notes = ["A quick combination attack that hits multiple times"]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -720,10 +720,10 @@ hitCount = 2
 blockType = "high"
 input = "mp>hp"
 notes = [
-  "A series of attacks, the third of which can be canceled into Super Arts.",
+  "A series of attacks, the third of which can be canceled into Super Arts",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["3段目がスーパーアーツでキャンセル可能な連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["3段目がスーパーアーツでキャンセル可能な連続攻撃", "空中ヒット時吹き飛びダウン"]
 
 startup = 11
 active = [11, 17]
@@ -761,9 +761,9 @@ damage = 600
 superArt = 1000
 capcomID = 405
 notes = [
-  "A series of attacks, the third of which can be canceled into Super Arts.",
+  "A series of attacks, the third of which can be canceled into Super Arts",
 ]
-notes_ja = ["3段目がスーパーアーツでキャンセル可能な連続攻撃。"]
+notes_ja = ["3段目がスーパーアーツでキャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -13
@@ -784,10 +784,10 @@ hitCount = 2
 blockType = "high"
 input = "mp>mp"
 notes = [
-  "A multi-hit attack that doesn't leave you wide open even if stopped partway through.",
+  "A multi-hit attack that doesn't leave you wide open even if stopped partway through",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["連係を途中で止めても隙が少ない連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["連係を途中で止めても隙が少ない連続攻撃", "空中ヒット時吹き飛びダウン"]
 
 startup = 12
 active = [12, 13]
@@ -824,9 +824,9 @@ damage = 900
 superArt = 1000
 capcomID = 406
 notes = [
-  "A multi-hit attack that doesn't leave you wide open even if stopped partway through.",
+  "A multi-hit attack that doesn't leave you wide open even if stopped partway through",
 ]
-notes_ja = ["連係を途中で止めても隙が少ない連続攻撃。"]
+notes_ja = ["連係を途中で止めても隙が少ない連続攻撃"]
 
 [moves.frameAdvantage]
 block = -8
@@ -849,9 +849,9 @@ input = "mp>mp>4hp"
 totalFrames = 23
 capcomID = 407
 notes = [
-  "A sequence of two attacks into a feint. Useful for confusing an opponent.",
+  "A sequence of two attacks into a feint. Useful for confusing an opponent",
 ]
-notes_ja = ["連続攻撃からのフェイントで相手を揺さぶる一連動作。"]
+notes_ja = ["連続攻撃からのフェイントで相手を揺さぶる一連動作"]
 # Party in the Air
 [[moves]]
 name = "Party in the Air"
@@ -863,10 +863,10 @@ hitCount = 2
 blockType = "mid"
 input = "j>mk>hk"
 notes = [
-  "A combination attack that is useful against jumping opponents.",
+  "A combination attack that is useful against jumping opponents",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["相手のジャンプに対して強い連続攻撃。", "空中ヒット時叩き付けダウン"]
+notes_ja = ["相手のジャンプに対して強い連続攻撃", "空中ヒット時叩き付けダウン"]
 
 startup = 8
 active = [8, 14]
@@ -890,13 +890,13 @@ hitCount = 1
 blockType = "high"
 input = "22(pp)"
 notes = [
-  "A special move that builds your Super Art Gauge for as long as the command used to perform it is held.",
+  "A special move that builds your Super Art Gauge for as long as the command used to perform it is held",
   "Super Art gauge increases by 2000 on frame 22",
   "Super Art gauge increases by 49 every frame after frame 46",
   "Extend the move by holding down the button during its execution",
 ]
 notes_ja = [
-  "ボタンを押し続ける事でSAゲージを溜め続けられる特殊動作。",
+  "ボタンを押し続ける事でSAゲージを溜め続けられる特殊動作",
   "22F SAゲージ2000増加",
   "46F以後1F経過毎にSAゲージ49増加",
   "動作中にボタンホールドで動作延長可",
@@ -916,9 +916,9 @@ input = "[4]>6lp"
 totalFrames = 21
 capcomID = 501
 notes = [
-  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range.",
+  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
 ]
-notes_ja = ["高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。"]
+notes_ja = ["高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効"]
 # Air Slasher (Medium)
 [[moves]]
 name = "Air Slasher (Medium)"
@@ -932,11 +932,11 @@ hitCount = 1
 blockType = "high"
 input = "[4]>6mp"
 notes = [
-  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range.",
+  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
   "Can be canceled into Speedy Maracas on frame 23",
 ]
 notes_ja = [
-  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
+  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効",
   "23F マラカスビートでキャンセル可",
 ]
 
@@ -969,11 +969,11 @@ hitCount = 2
 blockType = "high"
 input = "[4]>6hp"
 notes = [
-  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range.",
+  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
   "Can be canceled into Speedy Maracas on frames 35 - 36",
 ]
 notes_ja = [
-  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
+  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効",
   "35-36F マラカスビートでキャンセル可",
 ]
 
@@ -1006,11 +1006,11 @@ hitCount = 2
 blockType = "high"
 input = "[4]>6(pp)"
 notes = [
-  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range.",
+  "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
   "Can be canceled into Speedy Maracas on frames 31",
 ]
 notes_ja = [
-  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効。",
+  "高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効",
   "31F マラカスビートでキャンセル可",
 ]
 
@@ -1067,12 +1067,12 @@ characterId = 11
 type = "special"
 input = "[2]>8lp"
 notes = [
-  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack.",
+  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Considered airborne from frames 6 - 45",
   "Can be canceled into a normal jumping attack or a unique attack from frames 23 - 40",
 ]
 notes_ja = [
-  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい",
   "6-45F 空中判定",
   "23-40F ジャンプ中の通常技、特殊技でキャンセル可",
 ]
@@ -1092,12 +1092,12 @@ blockType = "high"
 input = "[2]>8mp"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack.",
+  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Considered airborne from frames 4 - 44",
   "Invincible to mid-air attacks from frames 1- 5",
 ]
 notes_ja = [
-  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい",
   "4-44F 空中判定",
   "1-5F 空中判定の攻撃に対して無敵",
 ]
@@ -1132,12 +1132,12 @@ blockType = "high"
 input = "[2]>8hp"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack.",
+  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Considered airborne from frames 4 - 51",
   "Invincible to mid-air attacks from frames 1- 9",
 ]
 notes_ja = [
-  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい",
   "4-51F 空中判定",
   "1-9F 空中判定の攻撃に対して無敵",
 ]
@@ -1172,13 +1172,13 @@ blockType = "high"
 input = "[2]>8(pp)"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack.",
+  "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Will only transition into the 4th and later attacks if the first three attacks hit",
   "Completely invincible from frames 1 - 11",
   "Considered airborne from frames 2 - 62 (on block, or if the attack misses)",
 ]
 notes_ja = [
-  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい",
   "3段目以降は初段～3段目ヒット時のみ派生",
   "1-11F 完全無敵",
   "2-62F 空中判定(ガード、空振り時)",
@@ -1209,9 +1209,9 @@ input = "236lk"
 totalFrames = 26
 capcomID = 503
 notes = [
-  "Spin forward while feinting a kicking attack. Useful for confusing opponents at close range.",
+  "Spin forward while feinting a kicking attack. Useful for confusing opponents at close range",
 ]
-notes_ja = ["前方へ蹴りを出すと見せ掛けて回転しながら移動する技。近い間合いから相手をかく乱する手段として有効。"]
+notes_ja = ["前方へ蹴りを出すと見せ掛けて回転しながら移動する技。近い間合いから相手をかく乱する手段として有効"]
 # Quick Rolling Sobat
 [[moves]]
 name = "Quick Rolling Sobat"
@@ -1232,9 +1232,9 @@ damage = 1000
 superArt = 1000
 capcomID = 504
 notes = [
-  "Unleash a fierce spinning kick while moving forward. When used to check an opponent while vying for position, it is most effective when the tip of the foot connects with the opponent.",
+  "Unleash a fierce spinning kick while moving forward. When used to check an opponent while vying for position, it is most effective when the tip of the foot connects with the opponent",
 ]
-notes_ja = ["前方へ踏み込んで鋭い回し蹴りを繰り出す技。蹴り足の先端を相手に当てるようにけん制するのが有効。"]
+notes_ja = ["前方へ踏み込んで鋭い回し蹴りを繰り出す技。蹴り足の先端を相手に当てるようにけん制するのが有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1265,9 +1265,9 @@ scaling_ja = ["始動補正25%"]
 superArt = 1500
 capcomID = 505
 notes = [
-  "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos.",
+  "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos",
 ]
-notes_ja = ["前方へ踏み込んで鋭い回し蹴りを2回繰り出す技。ダメージが高く、コンボの締めとして有効。"]
+notes_ja = ["前方へ踏み込んで鋭い回し蹴りを2回繰り出す技。ダメージが高く、コンボの締めとして有効"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1292,11 +1292,11 @@ blockType = "high"
 properties = ["knockdown"]
 input = "236(kk)"
 notes = [
-  "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos.",
+  "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos",
   "Can be canceled into a Level 2 or 3 Super Art or Critical Art only on the 2nd attack",
 ]
 notes_ja = [
-  "前方へ踏み込んで鋭い回し蹴りを2回繰り出す技。ダメージが高く、コンボの締めとして有効。",
+  "前方へ踏み込んで鋭い回し蹴りを2回繰り出す技。ダメージが高く、コンボの締めとして有効",
   "2段目のみLv2以上のSAでキャンセル可",
 ]
 
@@ -1331,11 +1331,11 @@ blockType = "high"
 input = "623lp"
 properties = ["knockdown"]
 notes = [
-  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it.",
+  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
   "Will only transition to the next attacks if the first attack hits",
 ]
 notes_ja = [
-  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い。",
+  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い",
   "初段以降は初段ヒット時のみ派生",
 ]
 
@@ -1369,11 +1369,11 @@ blockType = "high"
 input = "623mp"
 properties = ["knockdown"]
 notes = [
-  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it.",
+  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
   "Will only transition to the next attacks if the first attack hits",
 ]
 notes_ja = [
-  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い。",
+  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い",
   "初段以降は初段ヒット時のみ派生",
 ]
 
@@ -1407,11 +1407,11 @@ blockType = "high"
 input = "623hp"
 properties = ["knockdown"]
 notes = [
-  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it.",
+  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
   "Will only transition to the next attacks if the first attack hits",
 ]
 notes_ja = [
-  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い。",
+  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い",
   "初段以降は初段ヒット時のみ派生",
 ]
 
@@ -1445,12 +1445,12 @@ blockType = "high"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
-  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it.",
+  "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
   "Will only transition to the next attacks if the first attack hits",
   "The final attack forces a Hard Knockdown",
 ]
 notes_ja = [
-  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い。",
+  "高速でアッパーを連打して攻撃する技。技の出は遅いが出始めからヒットさせると非常にダメージが高い",
   "初段以降は初段ヒット時のみ派生",
   "最終段ヒット時ハードノックダウン",
 ]
@@ -1481,10 +1481,10 @@ characterId = 11
 type = "special"
 input = "214*k"
 notes = [
-  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers.",
+  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
   "Can transition into branching attacks from frames 13 - 24",
 ]
-notes_ja = ["後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能。", "13-24F 専用技へ派生可"]
+notes_ja = ["後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能", "13-24F 専用技へ派生可"]
 totalFrames = 37
 capcomID = 507
 # Jus Cool (OD)
@@ -1499,12 +1499,12 @@ type = "special"
 input = "214(kk)"
 properties = ["knockdown"]
 notes = [
-  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers.",
+  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
   "Can transition into branching attacks from frames 25 - 39",
   "Can transition into Juggling Dash from frame 19",
 ]
 notes_ja = [
-  "後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能。",
+  "後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能",
   "25-39F 専用技へ派生可",
   "ジャグリンステップのみ19Fから派生可",
 ]
@@ -1543,9 +1543,9 @@ damage = 800
 superArt = 1000
 capcomID = 508
 notes = [
-  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
+  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
 ]
-notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい。"]
+notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1570,10 +1570,10 @@ blockType = "low"
 input = "lk"
 parentSlugs = ["jus-cool-od"]
 notes = [
-  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
+  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
   "Forces a spinning knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい。", "空中ヒット時きりもみダウン"]
+notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい", "空中ヒット時きりもみダウン"]
 
 startup = 9
 active = [9, 11]
@@ -1604,11 +1604,11 @@ input = "mk"
 parentSlugs = ["jus-cool"]
 properties = ["knockdown"]
 notes = [
-  "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard.",
+  "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ジョスクールから派生する、しゃがみガードできない回し蹴り。ガードされても攻めを継続でき、崩しを兼ねた連係に使いやすい。",
+  "ジョスクールから派生する、しゃがみガードできない回し蹴り。ガードされても攻めを継続でき、崩しを兼ねた連係に使いやすい",
   "空中ヒット時叩き付けダウン",
 ]
 
@@ -1641,11 +1641,11 @@ blockType = "mid"
 input = "mk"
 parentSlugs = ["jus-cool-od"]
 notes = [
-  "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard.",
+  "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ジョスクールから派生する、しゃがみガードできない回し蹴り。ガードされても攻めを継続でき、崩しを兼ねた連係に使いやすい。",
+  "ジョスクールから派生する、しゃがみガードできない回し蹴り。ガードされても攻めを継続でき、崩しを兼ねた連係に使いやすい",
   "空中ヒット時叩き付けダウン",
 ]
 
@@ -1685,9 +1685,9 @@ damage = 1000
 superArt = 1000
 capcomID = 510
 notes = [
-  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter.",
+  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
 ]
-notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える。"]
+notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える"]
 
 [moves.frameAdvantage]
 block = -10
@@ -1720,9 +1720,9 @@ damage = 1000
 superArt = 1000
 capcomID = 510
 notes = [
-  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter.",
+  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
 ]
-notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える。"]
+notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える"]
 
 [moves.frameAdvantage]
 block = -8
@@ -1741,12 +1741,12 @@ type = "followUp"
 input = "6*p"
 parentSlugs = ["jus-cool"]
 notes = [
-  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles.",
+  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
   "Invincible to projectiles from frames 1 - 20",
   "Can transition to Juggling Sway from frames 17 - 23",
 ]
 notes_ja = [
-  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる。",
+  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる",
   "1-20F 飛び道具に対して無敵",
   "17-23F ジャグリンスウェイへ派生可",
 ]
@@ -1764,12 +1764,12 @@ type = "followUp"
 input = "6*p"
 parentSlugs = ["jus-cool-od"]
 notes = [
-  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles.",
+  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
   "Invincible to projectiles from frames 1 - 20",
   "Can transition to Juggling Sway from frames 16 - 17",
 ]
 notes_ja = [
-  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる。",
+  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる",
   "1-17F 飛び道具に対して無敵",
   "16-17F ジャグリンスウェイへ派生可",
 ]
@@ -1788,9 +1788,9 @@ parentSlugs = ["juggling-dash"]
 totalFrames = 29
 capcomID = 512
 notes = [
-  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach.",
+  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
 ]
-notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える。"]
+notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える"]
 # Juggling Sway (OD)
 [[moves]]
 name = "Juggling Sway (OD)"
@@ -1806,9 +1806,9 @@ parentSlugs = ["juggling-dash-od"]
 totalFrames = 22
 capcomID = 512
 notes = [
-  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach.",
+  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
 ]
-notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える。"]
+notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える"]
 # The Greatest Sobat
 [[moves]]
 name = "The Greatest Sobat"
@@ -1821,7 +1821,7 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "Remain in place and put your whole body into a single spinning kick. It executes quickly, making it useful in combos and as a counterattack.",
+  "Remain in place and put your whole body into a single spinning kick. It executes quickly, making it useful in combos and as a counterattack",
   "Punish Counter properties",
   "- Produces a crumple stun if the opponent is standing on the ground",
   "- Produces a wall bounce when hitting a mid-air opponent",
@@ -1829,7 +1829,7 @@ notes = [
   "Minimum guaranteed damage is 30%",
 ]
 notes_ja = [
-  "その場で体を捻って渾身の回し蹴りを繰り出す技。技の出が早く、コンボや反撃として使いやすい。",
+  "その場で体を捻って渾身の回し蹴りを繰り出す技。技の出が早く、コンボや反撃として使いやすい",
   "パニッシュカウンターで以下の性能変化",
   "・地上ヒット時膝崩れ",
   "・空中ヒット時壁バウンド",
@@ -1863,14 +1863,14 @@ hitCount = 2
 blockType = "high"
 input = "236236lp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can only go into the following attacks if the first attack hits",
   "Can transition to the 2nd attack from frames 18 - 30",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is 40%",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "初段以降は初段ヒット時のみ派生可能",
   "18-30F 2段目へ派生可",
   "最低保障ダメージ40%",
@@ -1904,11 +1904,11 @@ hitCount = 3
 blockType = "high"
 input = "236236lp>lp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 3rd attack from frames 19 - 24",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "19-24F 3段目へ派生可",
 ]
 
@@ -1937,11 +1937,11 @@ hitCount = 4
 blockType = "high"
 input = "236236lp>lp>mp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 4th attack from frames 17 - 23",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "17-23F 4段目へ派生可",
 ]
 
@@ -1970,11 +1970,11 @@ hitCount = 5
 blockType = "high"
 input = "236236lp>lp>mp>hp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 5th attack from frames 1 - 26",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "1-26F 5段目へ派生可",
 ]
 
@@ -2003,11 +2003,11 @@ hitCount = 6
 blockType = "high"
 input = "236236lp>lp>mp>hp>lk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 6th attack from frames 27 - 31",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "27-31F 6段目へ派生可",
 ]
 
@@ -2036,11 +2036,11 @@ hitCount = 7
 blockType = "high"
 input = "236236lp>lp>mp>hp>lk>mk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 7th attack from frames 31 - 36",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "31-36F 7段目へ派生可",
 ]
 
@@ -2070,11 +2070,11 @@ blockType = "high"
 input = "236236lp>lp>mp>hp>lk>mk>hk"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to a branching attack from frames 11 - 36",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "11-36F 専用技へ派生可",
 ]
 
@@ -2102,7 +2102,7 @@ hitCount = 7
 blockType = "high"
 input = "236236mp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can only go into the following attacks if the first attack hits",
   "Can transition to the 2nd attack from frames 12 - 17",
   "If the 2nd attack is input between frames 2 - 11, or 18 - 30, it will fail to come out",
@@ -2110,7 +2110,7 @@ notes = [
   "Minimum guaranteed damage is 40%",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "初段以降は初段ヒット時のみ派生可能",
   "12-17F 2段目へ派生可",
   "2-11F,18-30Fに2段目が入力されると失敗版へ派生する",
@@ -2145,12 +2145,12 @@ hitCount = 3
 blockType = "high"
 input = "236236mp>lp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 3rd attack from frames 10 - 23",
   "If the 3rd attack is input between frames 2 - 9, or 24 - 25, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "10-23F 3段目へ派生可",
   "2-9F,24-25Fに3段目が入力されると失敗版へ派生する",
 ]
@@ -2180,12 +2180,12 @@ hitCount = 4
 blockType = "high"
 input = "236236mp>lp>mp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 4th attack from frames 9 - 20",
   "If the 4th attack is input between frames 2 - 8, or 21 - 23, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "9-20F 4段目へ派生可",
   "2-8F,21-23Fに4段目が入力されると失敗版へ派生する",
 ]
@@ -2215,12 +2215,12 @@ hitCount = 5
 blockType = "high"
 input = "236236mp>lp>mp>hp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 5th attack from frames 11 - 25",
   "If the 5th attack is input between frames 2 - 10, or 26 - 27, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "11-25F 5段目へ派生可",
   "2-10F,26-27Fに5段目が入力されると失敗版へ派生する",
 ]
@@ -2250,12 +2250,12 @@ hitCount = 6
 blockType = "high"
 input = "236236mp>lp>mp>hp>lk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 6th attack from frames 12 - 28",
   "If the 6th attack is input between frames 2 - 11, or 29 - 31, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "12-28F 6段目へ派生可",
   "2-11F,29-31Fに6段目が入力されると失敗版へ派生する",
 ]
@@ -2285,12 +2285,12 @@ hitCount = 7
 blockType = "high"
 input = "236236mp>lp>mp>hp>lk>mk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 7th attack from frames 14 - 33",
   "If the 7th attack is input between frames 2 - 13, or 34 - 36, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "14-33F 7段目へ派生可",
   "2-13F,34-36Fに7段目が入力されると失敗版へ派生する",
 ]
@@ -2321,11 +2321,11 @@ blockType = "high"
 input = "236236mp>lp>mp>hp>lk>mk>hk"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to a branching attack from frames 11 - 36",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "11-36F 専用技へ派生可",
 ]
 
@@ -2353,7 +2353,7 @@ hitCount = 2
 blockType = "high"
 input = "236236hp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can only go into the following attacks if the first attack hits",
   "Can transition to the 2nd attack from frames 13 - 17",
   "If the 2nd attack is input between frames 2 - 12, or 18 - 30, it will fail to come out",
@@ -2361,7 +2361,7 @@ notes = [
   "Minimum guaranteed damage is 40%",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "初段以降は初段ヒット時のみ派生可能",
   "13-17F 2段目へ派生可",
   "2-12F,18-30Fに2段目が入力されると失敗版へ派生する",
@@ -2396,12 +2396,12 @@ hitCount = 3
 blockType = "high"
 input = "236236hp>lp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 3rd attack from frames 15 - 20",
   "If the 3rd attack is input between frames 2 - 14, or 21 - 25, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "15-20F 3段目へ派生可",
   "2-14F,21-25Fに3段目が入力されると失敗版へ派生する",
 ]
@@ -2431,12 +2431,12 @@ hitCount = 4
 blockType = "high"
 input = "236236hp>lp>mp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 4th attack from frames 13 - 18",
   "If the 4th attack is input between frames 2 - 12, or 18 - 23, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "13-18F 4段目へ派生可",
   "2-12F,18-23Fに4段目が入力されると失敗版へ派生する",
 ]
@@ -2466,12 +2466,12 @@ hitCount = 5
 blockType = "high"
 input = "236236hp>lp>mp>hp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 5th attack from frames 13 - 18",
   "If the 5th attack is input between frames 2 - 15, or 22 - 27, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "16-21F 5段目へ派生可",
   "2-15F,22-27Fに5段目が入力されると失敗版へ派生する",
 ]
@@ -2501,12 +2501,12 @@ hitCount = 6
 blockType = "high"
 input = "236236hp>lp>mp>hp>lk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 6th attack from frames 17 - 30",
   "If the 6th attack is input between frames 2 - 16, or 31 - 36, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "17-30F 6段目へ派生可",
   "2-16F,31-36Fに6段目が入力されると失敗版へ派生する",
 ]
@@ -2536,12 +2536,12 @@ hitCount = 7
 blockType = "high"
 input = "236236hp>lp>mp>hp>lk>mk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 7th attack from frames 13 - 18",
   "If the 7th attack is input between frames 2 - 12, or 18 - 23, it will fail to come out",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "13-18F 7段目へ派生可",
   "2-12F,18-23Fに7段目が入力されると失敗版へ派生する",
 ]
@@ -2572,11 +2572,11 @@ blockType = "high"
 input = "236236hp>lp>mp>hp>lk>mk>hk"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to a branching attack from frames 11 - 36",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "11-36F 専用技へ派生可",
 ]
 
@@ -2612,9 +2612,9 @@ recovery = 84
 damage = 1100
 capcomID = 605
 notes = [
-  "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion.",
+  "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
 ]
-notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える。"]
+notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"]
 
 [moves.frameAdvantage]
 block = -66
@@ -2642,9 +2642,9 @@ recovery = 84
 damage = 1200
 capcomID = 605
 notes = [
-  "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion.",
+  "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
 ]
-notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える。"]
+notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"]
 
 [moves.frameAdvantage]
 block = -66
@@ -2672,9 +2672,9 @@ recovery = 112
 damage = 1100
 capcomID = 606
 notes = [
-  "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner.",
+  "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
 ]
-notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的。"]
+notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"]
 
 [moves.frameAdvantage]
 block = -97
@@ -2702,9 +2702,9 @@ recovery = 112
 damage = 1200
 capcomID = 606
 notes = [
-  "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner.",
+  "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
 ]
-notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的。"]
+notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"]
 
 [moves.frameAdvantage]
 block = -97
@@ -2724,11 +2724,11 @@ hitCount = 3
 blockType = "high"
 input = "236236lp>lp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 3rd attack from frames 19 - 24",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "19-24F 3段目へ派生可",
 ]
 
@@ -2757,11 +2757,11 @@ hitCount = 4
 blockType = "high"
 input = "236236lp>lp>mp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 4th attack from frames 17 - 23",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "17-23F 4段目へ派生可",
 ]
 
@@ -2790,11 +2790,11 @@ hitCount = 5
 blockType = "high"
 input = "236236lp>lp>mp>hp"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 5th attack from frames 1 - 26",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "1-26F 5段目へ派生可",
 ]
 
@@ -2823,11 +2823,11 @@ hitCount = 6
 blockType = "high"
 input = "236236lp>lp>mp>hp>lk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 6th attack from frames 27 - 31",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "27-31F 6段目へ派生可",
 ]
 
@@ -2856,11 +2856,11 @@ hitCount = 7
 blockType = "high"
 input = "236236lp>lp>mp>hp>lk>mk"
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 7th attack from frames 31 - 36",
 ]
 notes_ja = [
-  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。",
+  "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "31-36F 7段目へ派生可",
 ]
 
@@ -2896,9 +2896,9 @@ recovery = 64
 damage = 1000
 capcomID = 602
 notes = [
-  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order.",
+  "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
 ]
-notes_ja = ["前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する。"]
+notes_ja = ["前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する"]
 
 [moves.frameAdvantage]
 block = -43
@@ -2919,13 +2919,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack.",
+  "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
@@ -2958,13 +2958,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack.",
+  "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い。",
+  "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
@@ -2997,14 +2997,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Disrupt your opponent's balance, hop on their knee, and kick off of their face. Throws your opponent without switching places with them.",
+  "Disrupt your opponent's balance, hop on their knee, and kick off of their face. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の体勢を崩して膝に乗り、顔面を押し出すように蹴る投げ技。相手との位置関係を変えずに投げる。",
+  "相手の体勢を崩して膝に乗り、顔面を押し出すように蹴る投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -3035,14 +3035,14 @@ type = "throw"
 input = "4(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Latch onto your opponent, place both feet on their torso, and toss them behind you while falling backward. Throws your opponent while switching places with them.",
+  "Latch onto your opponent, place both feet on their torso, and toss them behind you while falling backward. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手に組み付いて重心を掛けた反動を利用し、両足で投げる技。相手との位置を入れ替えながら投げる。",
+  "相手に組み付いて重心を掛けた反動を利用し、両足で投げる技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

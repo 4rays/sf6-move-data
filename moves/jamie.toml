@@ -23,6 +23,7 @@ superArt = 300
 
 [moves.frameAdvantage]
 hit = 5
+block = 0
 
 [moves.driveGauge]
 onHit = 250
@@ -257,6 +258,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = 3
+block = 0
 
 [moves.driveGauge]
 onHit = 1500
@@ -578,10 +580,10 @@ blockType = "high"
 input = "(kk)"
 properties = ["knockdown"]
 notes = [
-  "A launching kick that can immediately be jumped out of on hit.",
+  "A launching kick that can immediately be jumped out of on hit",
   "Can only be canceled into a jump if the attack hits",
 ]
-notes_ja = ["相手を打ち上げ、攻撃が当たると即座にジャンプできる蹴り。", "ヒット時のみジャンプキャンセル可能"]
+notes_ja = ["相手を打ち上げ、攻撃が当たると即座にジャンプできる蹴り", "ヒット時のみジャンプキャンセル可能"]
 startup = 9
 active = [9, 11]
 recovery = 22
@@ -618,9 +620,9 @@ damage = 500
 superArt = 1000
 capcomID = 402
 notes = [
-  "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete.",
+  "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete",
 ]
-notes_ja = ["続けてヒットする、初段が立ってガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する。"]
+notes_ja = ["続けてヒットする、初段が立ってガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 block = -28
@@ -641,12 +643,12 @@ hitCount = 3
 blockType = "high"
 input = "4hk>hk>*p"
 notes = [
-  "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete.",
+  "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete",
   "Adds 1 Drink level at frame 56",
   "If Drink Level is at 4, recovers 10,000 Drive Gauge",
 ]
 notes_ja = [
-  "続けてヒットする、初段が立ってガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する。",
+  "続けてヒットする、初段が立ってガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する",
   "56F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ10000回復",
 ]
@@ -670,8 +672,8 @@ recovery = 20
 damage = 600
 superArt = 500
 capcomID = 403
-notes = ["An overhead attack that cannot be blocked while crouching."]
-notes_ja = ["しゃがみでガードできない中段攻撃。"]
+notes = ["An overhead attack that cannot be blocked while crouching"]
+notes_ja = ["しゃがみでガードできない中段攻撃"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -701,9 +703,9 @@ damage = 800
 superArt = 1000
 capcomID = 404
 notes = [
-  "An elbow strike that can be canceled into Super Arts. This move's effect changes at drink level 3, making it more powerful.",
+  "An elbow strike that can be canceled into Super Arts. This move's effect changes at drink level 3, making it more powerful",
 ]
-notes_ja = ["スーパーアーツでキャンセル可能な肘打ち。酔いLv3時に動作が変化し、技性能が向上する。"]
+notes_ja = ["スーパーアーツでキャンセル可能な肘打ち。酔いLv3時に動作が変化し、技性能が向上する"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -733,9 +735,9 @@ damage = 900
 superArt = 500
 capcomID = 405
 notes = [
-  "A lunging kick that can be canceled into Super Arts. This move's effect changes at drink level 4, making it more powerful.",
+  "A lunging kick that can be canceled into Super Arts. This move's effect changes at drink level 4, making it more powerful",
 ]
-notes_ja = ["スーパーアーツでキャンセル可能な踏み込み蹴り。酔いLv4時に動作が変化し、技性能が向上する。"]
+notes_ja = ["スーパーアーツでキャンセル可能な踏み込み蹴り。酔いLv4時に動作が変化し、技性能が向上する"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -852,9 +854,9 @@ damage = 600
 superArt = 500
 capcomID = 407
 notes = [
-  "A sequence of attacks, the first of which cannot be blocked crouching. Your drink level will go up after the part of the attack where you take a drink is complete.",
+  "A sequence of attacks, the first of which cannot be blocked crouching. Your drink level will go up after the part of the attack where you take a drink is complete",
 ]
-notes_ja = ["続けてヒットする、初段がしゃがみでガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する。"]
+notes_ja = ["続けてヒットする、初段がしゃがみでガードできない連続攻撃。薬湯を飲む動作が成立すると酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -922,10 +924,10 @@ hitCount = 1
 blockType = "high"
 input = "4hp"
 notes = [
-  "A counter followed by a sequence of attacks.",
+  "A counter followed by a sequence of attacks",
   "Available at Drink Level 3 or higher",
 ]
-notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃。", "酔いLv3以上で発動可能"]
+notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃", "酔いLv3以上で発動可能"]
 startup = 18
 active = [18, 20]
 recovery = 21
@@ -954,10 +956,10 @@ hitCount = 2
 blockType = "high"
 input = "4hp>5hp"
 notes = [
-  "A counter followed by a sequence of attacks.",
+  "A counter followed by a sequence of attacks",
   "Available at Drink Level 3",
 ]
-notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃。", "酔いLv3以上で発動可能"]
+notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃", "酔いLv3以上で発動可能"]
 startup = 21
 active = [21, 24]
 recovery = 20
@@ -987,10 +989,10 @@ blockType = "high"
 input = "4hp>5hp>*p"
 properties = ["knockdown"]
 notes = [
-  "A counter followed by a sequence of attacks.",
+  "A counter followed by a sequence of attacks",
   "Available at Drink Level 3",
 ]
-notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃。", "酔いLv3以上で発動可能"]
+notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃", "酔いLv3以上で発動可能"]
 startup = 21
 active = [21, 23]
 recovery = 37
@@ -1137,7 +1139,7 @@ characterId = 2
 type = "action"
 input = "22*p"
 notes = [
-  "Take out a gourd for a swig of a ki-unleashing drink. Raises your drink level, with higher levels unlocking access to additional moves.",
+  "Take out a gourd for a swig of a ki-unleashing drink. Raises your drink level, with higher levels unlocking access to additional moves",
   "Adds a Drink level on frame 49",
   "If Drink level is already at 4, recovers 5,000 Drive Gauge",
   "Holding the button continues the action, and will only add to the Drink level for as long as the button is held",
@@ -1152,7 +1154,7 @@ notes = [
   "During The Devil’s Song, damage is scaled to 105%",
 ]
 notes_ja = [
-  "瓢箪を取り出し、気を開放する薬湯を飲む技。飲むと酔いLvが上昇し、上昇したLvに応じた技が開放される。",
+  "瓢箪を取り出し、気を開放する薬湯を飲む技。飲むと酔いLvが上昇し、上昇したLvに応じた技が開放される",
   "49F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ5000回復",
   "ボタンホールドで動作継続を行い、ホールドした分だけ酔いLvが上昇する",
@@ -1191,9 +1193,9 @@ damage = 350
 superArt = 300
 capcomID = 502
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効"]
 
 [moves.frameAdvantage]
 hit = -1
@@ -1256,9 +1258,9 @@ damage = 400
 superArt = 300
 capcomID = 502
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効"]
 
 [moves.frameAdvantage]
 hit = -1
@@ -1321,9 +1323,9 @@ damage = 450
 superArt = 300
 capcomID = 502
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効"]
 
 [moves.frameAdvantage]
 hit = -1
@@ -1386,9 +1388,9 @@ damage = 450
 superArt = 300
 capcomID = 502
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -1441,10 +1443,10 @@ blockType = "high"
 hitCount = 2
 input = "236lp>6*p"
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 13
 active = [13, 14]
 recovery = 28
@@ -1474,10 +1476,10 @@ blockType = "high"
 hitCount = 2
 input = "236mp>6*p"
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 16
 active = [16, 17]
 recovery = 28
@@ -1507,10 +1509,10 @@ blockType = "high"
 hitCount = 2
 input = "236hp>6*p"
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 19
 active = [19, 20]
 recovery = 28
@@ -1540,10 +1542,10 @@ blockType = "high"
 hitCount = 2
 input = "236lp>6*p"
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Available at Drink Level 4",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "酔いLv4で発動可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "酔いLv4で発動可能"]
 startup = 15
 active = [15, 16, 22, 23]
 recovery = 27
@@ -1573,10 +1575,10 @@ blockType = "high"
 hitCount = 2
 input = "236(pp)>6*p"
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 13
 active = [13, 14]
 recovery = 28
@@ -1635,10 +1637,10 @@ hitCount = 3
 input = "236lp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 13
 active = [13, 14]
 recovery = 30
@@ -1668,10 +1670,10 @@ hitCount = 3
 input = "236mp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 16
 active = [16, 17]
 recovery = 30
@@ -1701,10 +1703,10 @@ hitCount = 3
 input = "236hp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 19
 active = [19, 20]
 recovery = 30
@@ -1734,10 +1736,10 @@ hitCount = 3
 input = "236hp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Available at Drink Level 4",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "酔いLv4で発動可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "酔いLv4で発動可能"]
 startup = 16
 active = [16, 17, 22, 23, 38, 40]
 recovery = 28
@@ -1767,10 +1769,10 @@ hitCount = 3
 input = "236(pp)>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks.",
+  "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
   "Can transition to following attacks even if this attack misses",
 ]
-notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効。", "空振り時も派生可能"]
+notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効", "空振り時も派生可能"]
 startup = 13
 active = [13, 14]
 recovery = 30
@@ -1834,9 +1836,9 @@ damage = 250
 superArt = 300
 capcomID = 503
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
 ]
-notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。"]
+notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 hit = -7
@@ -1867,9 +1869,9 @@ damage = 300
 superArt = 300
 capcomID = 503
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
 ]
-notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。"]
+notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 hit = -7
@@ -1900,9 +1902,9 @@ damage = 300
 superArt = 300
 capcomID = 503
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
 ]
-notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。"]
+notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 hit = -7
@@ -1933,9 +1935,9 @@ damage = 350
 superArt = 300
 capcomID = 503
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
 ]
-notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。"]
+notes_ja = ["拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する"]
 
 [moves.frameAdvantage]
 hit = -7
@@ -1959,12 +1961,12 @@ hitCount = 3
 input = "236lp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
   "Adds one Drink level on frame 55",
   "Recovers the Drive Gauge by 10,000 if the player is already at Drink level 4",
 ]
 notes_ja = [
-  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。",
+  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する",
   "55F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ10000回復",
 ]
@@ -1997,12 +1999,12 @@ hitCount = 3
 input = "236mp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
   "Adds one Drink level on frame 59",
   "Recovers the Drive Gauge by 10,000 if the player is already at Drink level 4",
 ]
 notes_ja = [
-  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。",
+  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する",
   "59F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ10000回復",
 ]
@@ -2035,12 +2037,12 @@ hitCount = 3
 input = "236hp>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
   "Adds one Drink level on frame 62",
   "Recovers the Drive Gauge by 10,000 if the player is already at Drink level 4",
 ]
 notes_ja = [
-  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。",
+  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する",
   "62F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ10000回復",
 ]
@@ -2073,12 +2075,12 @@ hitCount = 3
 input = "236(pp)>6*k>6*k"
 properties = ["knockdown"]
 notes = [
-  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished.",
+  "Perform an attack with your fists followed by a sequence of kicking attacks. Your drink level will go up once all parts of the move have finished",
   "Adds one Drink level on frame 56",
   "Recovers the Drive Gauge by 10,000 if the player is already at Drink level 4",
 ]
 notes_ja = [
-  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する。",
+  "拳での攻撃から蹴りの連撃を繰り出す技。すべての派生を出し切った後は酔いLvが上昇する",
   "56F目で酔いLv1上昇",
   "酔いLv4時ドライブゲージ10000回復",
 ]
@@ -2116,9 +2118,9 @@ damage = 900
 superArt = 1000
 capcomID = 504
 notes = [
-  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
+  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent",
 ]
-notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効。"]
+notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -2148,9 +2150,9 @@ damage = 1000
 superArt = 1000
 capcomID = 504
 notes = [
-  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
+  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent",
 ]
-notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効。"]
+notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -2180,9 +2182,9 @@ damage = 1200
 superArt = 1000
 capcomID = 504
 notes = [
-  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
+  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent",
 ]
-notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効。"]
+notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効"]
 
 [moves.frameAdvantage]
 block = -5
@@ -2204,10 +2206,10 @@ hitCount = 1
 input = "214(pp)"
 properties = ["knockdown"]
 notes = [
-  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent.",
+  "Quickly lunge toward your opponent and strike with the heel of your palm. Useful as a surprise attack that closes the distance with your opponent",
   "Produces a wall splat on Punish Counter",
 ]
-notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効。", "パニッシュカウンター時のみ壁やられ"]
+notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効", "パニッシュカウンター時のみ壁やられ"]
 startup = 20
 active = [20, 28]
 recovery = 15
@@ -2237,10 +2239,10 @@ hitCount = 2
 input = "214*p>6*p"
 properties = ["knockdown"]
 notes = [
-  "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack.",
+  "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack",
   "Available at Drink Level 4",
 ]
-notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される。", "酔いLv4で発動可能"]
+notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される", "酔いLv4で発動可能"]
 startup = 19
 active = [19, 21]
 recovery = 39
@@ -2270,10 +2272,10 @@ blockType = "high"
 input = "214(pp)>6*p"
 properties = ["knockdown"]
 notes = [
-  "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack.",
+  "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack",
   "Available at Drink Level 4",
 ]
-notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される。", "酔いLv4で発動可能"]
+notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される", "酔いLv4で発動可能"]
 startup = 19
 active = [19, 21]
 recovery = 39
@@ -2305,12 +2307,12 @@ hitCount = 1
 input = "623lk"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos.",
+  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
   "Invincible to mid-air attacks from frames 1 - 12",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
-  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-12F 空中判定の攻撃に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
@@ -2341,12 +2343,12 @@ hitCount = 1
 input = "623mk"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos.",
+  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
-  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-14F 空中判定の攻撃に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
@@ -2377,12 +2379,12 @@ hitCount = 1
 input = "623hk"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos.",
+  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
   "Invincible to mid-air attacks from frames 1 - 16",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
-  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-16F 空中判定の攻撃に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
@@ -2413,13 +2415,13 @@ hitCount = 1
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos.",
+  "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
   "Completely invincible from frames 1 - 9",
   "Invincible to mid-air attacks from frames 10 - 12",
   "The second hit and subsequent attacks only come out if the first attack hits",
 ]
 notes_ja = [
-  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効。",
+  "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-9F 完全無敵",
   "10-12F 空中判定の攻撃に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
@@ -2449,10 +2451,10 @@ hitCount = 1
 input = "j>214lk"
 properties = ["knockdown"]
 notes = [
-  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent.",
+  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効。", "酔いLv1以上で発動可能"]
+notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2477,10 +2479,10 @@ hitCount = 1
 input = "j>214mk"
 properties = ["knockdown"]
 notes = [
-  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent.",
+  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効。", "酔いLv1以上で発動可能"]
+notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2505,10 +2507,10 @@ hitCount = 1
 input = "j>214hk"
 properties = ["knockdown"]
 notes = [
-  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent.",
+  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効。", "酔いLv1以上で発動可能"]
+notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2533,10 +2535,10 @@ hitCount = 1
 input = "j>214(kk)"
 properties = ["knockdown"]
 notes = [
-  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent.",
+  "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効。", "酔いLv1以上で発動可能"]
+notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2564,13 +2566,13 @@ hitCount = 1
 input = "236lk"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Available at Drink Level 2 or higher",
   "Invincible to projectiles from frames 3 - 24",
   "The last hit can be canceled into SA3/Critical Art",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "酔いLv2以上で発動可能",
   "3-24F 飛び道具に対して無敵",
   "最終段のみSA3/CAでキャンセル可能",
@@ -2640,13 +2642,13 @@ hitCount = 1
 input = "236hk"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Available at Drink Level 2 or higher",
   "Invincible to projectiles from frames 5 - 33",
   "The last hit can be canceled into SA3/Critical Art",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "酔いLv2以上で発動可能",
   "5-33F 飛び道具に対して無敵",
   "最終段のみSA3/CAでキャンセル可能",
@@ -2681,12 +2683,12 @@ hitCount = 1
 input = "236(pp)"
 properties = ["knockdown"]
 notes = [
-  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open.",
+  "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Invincible to projectiles from frames 3 - 28",
   "Only the 7th hit can be canceled into SA3/Critical Art",
 ]
 notes_ja = [
-  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効。",
+  "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "3-28F 飛び道具に対して無敵",
   "7段目のみSA3/CAでキャンセル可能",
 ]
@@ -2735,12 +2737,12 @@ characterId = 2
 type = "commandThrow"
 input = "63214*k"
 notes = [
-  "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack.",
+  "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack",
   "Available at Drink Level 3 or higher",
   "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
-  "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる。",
+  "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる",
   "酔いLv3以上で発動可能",
   "コンボの3段目以降に補正がかかる",
 ]
@@ -2767,13 +2769,13 @@ type = "commandThrow"
 input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
-  "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack.",
+  "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack",
   "Available at Drink Level 3 or higher",
   "Produces a crumple stun on hit",
   "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
-  "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる。",
+  "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる",
   "酔いLv3以上で発動可能",
   "ヒット時膝崩れ",
   "コンボの3段目以降に補正がかかる",
@@ -2804,7 +2806,7 @@ input = "236236*k"
 
 properties = ["knockdown"]
 notes = [
-  "A sequence of acrobatic rotating kicks at high speed. During the attack, keep holding down to raise your drink level.",
+  "A sequence of acrobatic rotating kicks at high speed. During the attack, keep holding down to raise your drink level",
   "Completely invincible on frame 1",
   "Invincible to throws and strikes from frames 2 - 12",
   "Minimum guaranteed damage is set to 30%",
@@ -2812,12 +2814,12 @@ notes = [
   "While the attack is executed, continue to hold Down to change the attack’s properties and raise your Drink level by 1",
 ]
 notes_ja = [
-  "アクロバティックな連続回転蹴りを高速で繰り出す技。動作中に、下方向を入力し続けると酔いLvを上昇させる。",
+  "アクロバティックな連続回転蹴りを高速で繰り出す技。動作中に、下方向を入力し続けると酔いLvを上昇させる",
   "1F 完全無敵",
   "2-12 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
-  "動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する。",
+  "動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する",
 ]
 
 startup = 10
@@ -2864,14 +2866,14 @@ characterId = 2
 type = "super2"
 input = "214214*p"
 notes = [
-  "Unleash even stronger ki by taking a big gulp from your gourd. Your drink level will be maxed out for a period of time after finishing the move.",
+  "Unleash even stronger ki by taking a big gulp from your gourd. Your drink level will be maxed out for a period of time after finishing the move",
   "Temporarily raises Drink level to 4",
   "Note: Damage is increased to 105%",
   "Timer is active for 900 frames",
   "If this move is performed when the player is already at Drink level 4, the player instead recovers 30,000 to the Drive Gauge",
 ]
 notes_ja = [
-  "薬湯を一気に飲み、より強い気を開放する技。動作後は一定時間酔いLvがMAXとなる。",
+  "薬湯を一気に飲み、より強い気を開放する技。動作後は一定時間酔いLvがMAXとなる",
   "発動後、一定時間酔いLv4状態となる",
   "（ただし、ダメージ倍率は105%）",
   "効果時間900F",
@@ -2892,14 +2894,14 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "A sequence of attacks that breaks an opponent's posture, and then finishes by kicking them into the air after forcing them to take a swing at you. After the opponent has been launched, it is possible to continue your offensive with a follow-up attack.",
+  "A sequence of attacks that breaks an opponent's posture, and then finishes by kicking them into the air after forcing them to take a swing at you. After the opponent has been launched, it is possible to continue your offensive with a follow-up attack",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "Produces a hard knockdown",
 ]
 notes_ja = [
-  "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる。",
+  "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる",
   "1-12F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2933,14 +2935,14 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "A sequence of attacks that breaks an opponent's posture, and then finishes by kicking them into the air after forcing them to take a swing at you. After the opponent has been launched, it is possible to continue your offensive with a follow-up attack.",
+  "A sequence of attacks that breaks an opponent's posture, and then finishes by kicking them into the air after forcing them to take a swing at you. After the opponent has been launched, it is possible to continue your offensive with a follow-up attack",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "Forces a hard knockdown",
 ]
 notes_ja = [
-  "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる。",
+  "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる",
   "1-12F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2976,14 +2978,14 @@ blockType = "high"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Lean your back into your opponent and send them tumbling backwards with three strong strikes. Throws your opponent without switching places with them.",
+  "Lean your back into your opponent and send them tumbling backwards with three strong strikes. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "背を向けた状態で相手を抑え、打撃を加えて吹き飛ばす投げ技。相手との位置関係を変えずに投げる。",
+  "背を向けた状態で相手を抑え、打撃を加えて吹き飛ばす投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -3015,14 +3017,14 @@ blockType = "high"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Crumple your opponent with a kick, then roll over them before sending them packing with another kick. Throws your opponent while switching places with them.",
+  "Crumple your opponent with a kick, then roll over them before sending them packing with another kick. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手を蹴りで屈ませて跳び越え、体勢を崩して蹴り込む投げ技。相手との位置を入れ替えながら投げる。",
+  "相手を蹴りで屈ませて跳び越え、体勢を崩して蹴り込む投げ技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

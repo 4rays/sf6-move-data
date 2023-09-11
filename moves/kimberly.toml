@@ -567,9 +567,9 @@ scaling_ja = ["始動補正15%"]
 superArt = 500
 capcomID = 401
 notes = [
-  "Slide along the ground toward your opponent. This is a low attack that cannot be blocked standing.",
+  "Slide along the ground toward your opponent. This is a low attack that cannot be blocked standing",
 ]
-notes_ja = ["前方へ低姿勢で滑り込む、立ってガードできない下段攻撃。"]
+notes_ja = ["前方へ低姿勢で滑り込む、立ってガードできない下段攻撃"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -591,10 +591,10 @@ hitCount = 1
 blockType = "high"
 input = "4hk"
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Forces opponent to crouch on hit",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "強制しゃがみ効果"]
+notes_ja = ["しゃがみでガードできない中段攻撃", "強制しゃがみ効果"]
 
 startup = 22
 active = [22, 23]
@@ -625,13 +625,13 @@ hitCount = 1
 blockType = "high"
 input = "6hk"
 notes = [
-  "A leaping kick with long reach. Useful as a counter to an opponent's sweeps.",
+  "A leaping kick with long reach. Useful as a counter to an opponent's sweeps",
   "Considered airborne from frames 18 - 32",
   "Forces a juggle state when hitting a mid-air opponent",
   "Recovery is reduced by 8 frames when blocked",
 ]
 notes_ja = [
-  "相手の足払いに対して強いリーチの長い飛び蹴り。",
+  "相手の足払いに対して強いリーチの長い飛び蹴り",
   "18-32F 空中判定",
   "空中ヒット時吹き飛びダウン",
   "ガード時硬直8F減少",
@@ -664,11 +664,11 @@ characterId = 5
 type = "commandNormal"
 input = "6hk>7|8|9"
 parentSlugs = ["hisen-kick"]
-notes_ja = ["飛箭蹴から派生する、3方向へのジャンプ動作。", "ジャンプ動作中空中技でキャンセル可能"]
+notes_ja = ["飛箭蹴から派生する、3方向へのジャンプ動作", "ジャンプ動作中空中技でキャンセル可能"]
 postLandingRecovery = 3
 capcomID = 404
 notes = [
-  "Performed from Hisen Kick, this maneuver can be used to jump in one of three directions.",
+  "Performed from Hisen Kick, this maneuver can be used to jump in one of three directions",
 ]
 
 [moves.frameAdvantage]
@@ -686,10 +686,10 @@ hitCount = 1
 blockType = "high"
 input = "j>2mp"
 notes = [
-  "A descending attack with a long duration that can be performed while jumping.",
+  "A descending attack with a long duration that can be performed while jumping",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃。", "空中ヒット時叩きつけダウン"]
+notes_ja = ["ジャンプ中に繰り出す、攻撃時間が長い急降下攻撃", "空中ヒット時叩きつけダウン"]
 
 startup = 13
 active = [13, 25]
@@ -722,8 +722,8 @@ cancel = "C"
 damage = 360
 superArt = 800
 capcomID = 406
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -12
@@ -750,8 +750,8 @@ recovery = 18
 damage = 360
 superArt = 400
 capcomID = 407
-notes = ["A quick combination attack that hits multiple times."]
-notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+notes = ["A quick combination attack that hits multiple times"]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -780,8 +780,8 @@ recovery = 25
 damage = 440
 superArt = 700
 capcomID = 407
-notes = ["A quick combination attack that hits multiple times."]
-notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+notes = ["A quick combination attack that hits multiple times"]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 block = -10
@@ -809,8 +809,8 @@ recovery = 24
 damage = 520
 superArt = 800
 capcomID = 407
-notes = ["A quick combination attack that hits multiple times."]
-notes_ja = ["技の出が早く、続けてヒットする連続攻撃。"]
+notes = ["A quick combination attack that hits multiple times"]
+notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
 block = -12
@@ -837,8 +837,8 @@ recovery = 25
 damage = 580
 superArt = 700
 capcomID = 408
-notes = ["A combination attack that sends an opponent flying."]
-notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+notes = ["A combination attack that sends an opponent flying"]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -867,8 +867,8 @@ recovery = 24
 damage = 750
 superArt = 800
 capcomID = 408
-notes = ["A combination attack that sends an opponent flying."]
-notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。"]
+notes = ["A combination attack that sends an opponent flying"]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃"]
 
 [moves.frameAdvantage]
 block = -12
@@ -896,8 +896,8 @@ recovery = 23
 damage = 750
 superArt = 700
 capcomID = 409
-notes = ["A combination attack that switches places with your opponent."]
-notes_ja = ["続けてヒットし、相手との位置を入れ替える連続攻撃。"]
+notes = ["A combination attack that switches places with your opponent"]
+notes_ja = ["続けてヒットし、相手との位置を入れ替える連続攻撃"]
 
 [moves.frameAdvantage]
 block = -12
@@ -920,13 +920,13 @@ blockType = "high"
 input = "214lk"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 6 - 11",
   "Considered airborne from frames 7 - 42",
   "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
-  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "6-11F 空中判定の攻撃に対して無敵",
   "7-42F 空中判定",
   "初段空振り時のみヒットする（90）",
@@ -961,13 +961,13 @@ blockType = "high"
 input = "214mk"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 7 - 12",
   "Considered airborne from frames 8 - 45",
   "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
-  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "7-12F 空中判定の攻撃に対して無敵",
   "8-45F 空中判定",
   "初段空振り時のみヒットする（90）",
@@ -1002,13 +1002,13 @@ blockType = "high"
 input = "214hk"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 8 - 13",
   "Considered airborne from frames 9 - 49",
   "Does 180 damage only if the first attack misses",
 ]
 notes_ja = [
-  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "8-13F 空中判定の攻撃に対して無敵",
   "9-49F 空中判定",
   "初段空振り時のみヒットする（180）",
@@ -1043,12 +1043,12 @@ blockType = "high"
 input = "214(kk)"
 properties = ["knockdown"]
 notes = [
-  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack.",
+  "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 11",
   "Considered airborne from frames 7 - 47",
 ]
 notes_ja = [
-  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい。",
+  "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "1-11F 空中判定の攻撃に対して無敵",
   "7-47F 空中判定",
 ]
@@ -1089,9 +1089,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 502
 notes = [
-  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air.",
+  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air",
 ]
-notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的。"]
+notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1118,10 +1118,10 @@ hitCount = 1
 blockType = "high"
 input = "j>214(kk)"
 notes = [
-  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air.",
+  "A Bushin Senpukyaku performed while jumping. Effective when used to combo opponents being juggled in the air",
   "Has cross-up attack properties",
 ]
-notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的。", "めくり性能"]
+notes_ja = ["ジャンプ中に繰り出す武神旋風脚。空中で浮いた相手にコンボとして繋ぐと効果的", "めくり性能"]
 
 startup = 8
 active = [8, 9, 12, 14, 17, 18, 21, 23, 26, 27]
@@ -1150,12 +1150,12 @@ characterId = 5
 type = "special"
 input = "236*k"
 notes = [
-  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed.",
+  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed",
   "Kimberly can transition to branching attacks from the 8th frame",
   "After the 16th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
 ]
 notes_ja = [
-  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能。",
+  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能",
   "8Fから専用技に派生可",
   "16F以降、相手が一定距離内にいると孤空に自動派生",
 ]
@@ -1171,13 +1171,13 @@ characterId = 5
 type = "special"
 input = "236(kk)"
 notes = [
-  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed.",
+  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed",
   "Kimberly can transition to Emergency Stop from the 6th frame",
   "Kimberly can transition to Torso Cleaver, Shadow Slide and Neck Hunter from the 8th frame",
   "After the 14th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
 ]
 notes_ja = [
-  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能。",
+  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能",
   "6Fから急停止に派生可",
   "8Fから胴刎ね、影すくい、首狩りに派生可",
   "14F以降、相手が一定距離内にいると孤空に自動派生",
@@ -1197,9 +1197,9 @@ parentSlugs = ["sprint"]
 totalFrames = 14
 capcomID = 504
 notes = [
-  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint.",
+  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
 ]
-notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える。"]
+notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"]
 
 # Emergency Stop (OD)
 [[moves]]
@@ -1213,9 +1213,9 @@ parentSlugs = ["sprint-od"]
 totalFrames = 13
 capcomID = 504
 notes = [
-  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint.",
+  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
 ]
-notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える。"]
+notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"]
 
 # Torso Cleaver
 [[moves]]
@@ -1238,9 +1238,9 @@ damage = 900
 superArt = 1200
 capcomID = 505
 notes = [
-  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot.",
+  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
 ]
-notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効。"]
+notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
 
 [moves.frameAdvantage]
 block = 1
@@ -1271,9 +1271,9 @@ damage = 1080
 superArt = 1200
 capcomID = 505
 notes = [
-  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot.",
+  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
 ]
-notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効。"]
+notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
 
 [moves.frameAdvantage]
 block = 3
@@ -1305,9 +1305,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 506
 notes = [
-  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance.",
+  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance",
 ]
-notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効。"]
+notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効"]
 
 [moves.frameAdvantage]
 block = -12
@@ -1342,9 +1342,9 @@ scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 506
 notes = [
-  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance.",
+  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance",
 ]
-notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効。"]
+notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効"]
 
 [moves.frameAdvantage]
 block = -10
@@ -1374,9 +1374,9 @@ damage = 900
 superArt = 1200
 capcomID = 507
 notes = [
-  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard.",
+  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
 ]
-notes_ja = ["疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効。"]
+notes_ja = ["疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1401,11 +1401,11 @@ input = "hk"
 parentSlugs = ["sprint-od"]
 properties = ["knockdown"]
 notes = [
-  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard.",
+  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
   "Adds a floor bounding effect during a mid-air hit",
 ]
 notes_ja = [
-  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効。",
+  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効",
   "空中ヒット時床バウンド",
 ]
 
@@ -1435,12 +1435,12 @@ input = "5"
 blockType = "high"
 parentSlugs = ["sprint"]
 notes = [
-  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap.",
+  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap",
   "Considered airborne from frames 10 - 43",
   "Can transition into branching attacks from frame 35",
 ]
 notes_ja = [
-  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能。",
+  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能",
   "10-43F 空中判定",
   "35F 専用技に派生可",
 ]
@@ -1474,12 +1474,12 @@ type = "special"
 input = "5"
 parentSlugs = ["sprint-od"]
 notes = [
-  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap.",
+  "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap",
   "Considered airborne from frames 10 - 43",
   "Can transition into branching attacks from frame 35",
 ]
 notes_ja = [
-  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能。",
+  "疾駆けで接近し、相手を踏み台にして蹴り跳ねる技。後方へ跳ねた後は、打撃と投げの派生技へ移行可能",
   "10-43F 空中判定",
   "35F 専用技に派生可",
 ]
@@ -1511,14 +1511,14 @@ input = "*p"
 parentSlugs = ["arc-step"]
 properties = ["knockdown"]
 notes = [
-  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step.",
+  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
   "With Classic Controls",
   "Does 1656 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 1324 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効。",
+  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（1656）",
   "■モダン操作時",
@@ -1549,14 +1549,14 @@ input = "*p"
 parentSlugs = ["arc-step-od"]
 properties = ["knockdown"]
 notes = [
-  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step.",
+  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
   "With Classic Controls",
   "Does 1035 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
   "Does 828 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効。",
+  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（1035）",
   "■モダン操作時",
@@ -1594,9 +1594,9 @@ damage = 630
 superArt = 1000
 capcomID = 510
 notes = [
-  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step.",
+  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
 ]
-notes_ja = ["弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効。"]
+notes_ja = ["弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効"]
 
 [moves.frameAdvantage]
 block = -8
@@ -1620,12 +1620,12 @@ blockType = "high"
 parentSlugs = ["arc-step-od"]
 properties = ["knockdown"]
 notes = [
-  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step.",
+  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
   "Only transitions to the 2nd attack on hit",
   "Produces a wall splat on hit",
 ]
 notes_ja = [
-  "弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効。",
+  "弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効",
   "ヒット時のみ2段目に派生",
   "ヒット時壁やられ",
 ]
@@ -1667,10 +1667,10 @@ scaling_ja = ["始動補正20%"]
 superArt = 800
 capcomID = 511
 notes = [
-  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump",
 ]
 notes_ja = [
-  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる",
 ]
 
 [moves.frameAdvantage]
@@ -1695,11 +1695,11 @@ input = "236mp"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump",
   "Will only transition to 2nd attack if the first attack hits",
 ]
 notes_ja = [
-  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる",
   "ヒット時のみ2段目派生",
 ]
 
@@ -1731,12 +1731,12 @@ type = "special"
 input = "236hp"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump",
   "Will only transition to 2nd attack if the first attack hits",
   "The 2nd attack can be canceled by a jump",
 ]
 notes_ja = [
-  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる",
   "ヒット時のみ2段目派生",
   "2段目ジャンプキャンセル可",
 ]
@@ -1770,12 +1770,12 @@ input = "236(kk)"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
-  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump.",
+  "Lunge forward while unleashing a powerful chop. Useful when canceled into from normal moves to create combos. The heavy and Overdrive versions can be canceled with a jump",
   "Will only transition to 2nd attack if the first attack hits",
   "The 2nd attack can be canceled by a jump",
 ]
 notes_ja = [
-  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる。",
+  "前方に踏み込み、高速で手刀を打ち込む技。通常技をキャンセルしてのコンボとして使いやすい。強、またはOD版ヒット時は即座にジャンプでキャンセルできる",
   "ヒット時のみ2段目派生",
   "2段目ジャンプキャンセル可",
 ]
@@ -1804,12 +1804,12 @@ characterId = 5
 type = "special"
 input = "214*p"
 notes = [
-  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive.",
+  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive",
   "Completely invincible from frames 19 - 26",
   "Can be canceled into anything except walk/dashes, Drive Parry, Block and Hidden Variable from the 34th frame",
 ]
 notes_ja = [
-  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効。",
+  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効",
   "19-26F 完全無敵",
   "34F目から移動、パリィ、ガード、彩隠形以外でキャンセル可",
 ]
@@ -1825,13 +1825,13 @@ characterId = 5
 type = "special"
 input = "214(pp)"
 notes = [
-  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive.",
+  "Conceal yourself with smoke and instantly appear before your opponent. Useful as a way to close the distance with your opponent or as a way to launch a surprise offensive",
   "Completely invincible from frames 20 - 27",
   "Can be canceled into a mid-air attack from the 34th frame",
   "Landing recovery can be canceled by anything except walk/dashes",
 ]
 notes_ja = [
-  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効。",
+  "煙幕で姿を消し、瞬時に相手の目前に出現する技。離れた距離からの接近手段や奇襲として有効",
   "20-27F 完全無敵",
   "34F目から空中技でキャンセル可",
   "着地硬直は移動以外でキャンセル可",
@@ -1848,11 +1848,11 @@ characterId = 5
 type = "special"
 input = "22*p"
 notes = [
-  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb.",
+  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb",
   "Adds a Shuriken Bomb stock on frame 43",
 ]
 notes_ja = [
-  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる。",
+  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる",
   "43F目に細工手裏剣ストックが1増加",
 ]
 totalFrames = 44
@@ -1867,11 +1867,11 @@ characterId = 5
 type = "special"
 input = "22(pp)"
 notes = [
-  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb.",
+  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb",
   "Adds 2 Shuriken Bomb stock on frame 43",
 ]
 notes_ja = [
-  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる。",
+  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる",
   "43F目に細工手裏剣ストックが2増加",
 ]
 totalFrames = 44
@@ -1890,13 +1890,13 @@ input = "22lp"
 hitCount = 1
 parentSlugs = ["genius-at-play"]
 notes = [
-  "Toss out and set a spray can that will explode after a period of time. Best used to apply pressure that capitalizes on the duration between when the bomb is placed and its detonation.",
+  "Toss out and set a spray can that will explode after a period of time. Best used to apply pressure that capitalizes on the duration between when the bomb is placed and its detonation",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
   "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
-  "スプレー缶を放って設置し、一定時間経過で炸裂させる技。設置してから炸裂するまでの時間差を利用しての攻めが有効。",
+  "スプレー缶を放って設置し、一定時間経過で炸裂させる技。設置してから炸裂するまでの時間差を利用しての攻めが有効",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
   "画面中央で発動した際の数値",
@@ -1929,13 +1929,13 @@ input = "22mp"
 hitCount = 1
 parentSlugs = ["genius-at-play"]
 notes = [
-  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
   "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
-  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
   "画面中央で発動した際の数値",
@@ -1968,13 +1968,13 @@ input = "22hp"
 hitCount = 1
 parentSlugs = ["genius-at-play"]
 notes = [
-  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires a projectile on the 18th frame",
   "Decreases the Shuriken Bomb stock by 1",
   "Values represent when the attack is performed in the middle of the screen",
 ]
 notes_ja = [
-  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる",
   "18F目に飛び道具発射",
   "細工手裏剣ストックを1消費",
   "画面中央で発動した際の数値",
@@ -2007,13 +2007,13 @@ input = "22(pp)"
 hitCount = 1
 parentSlugs = ["genius-at-play-od"]
 notes = [
-  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Light and Medium versions)",
   "Decreases the Shuriken Bomb stock by 2",
   "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
-  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる",
   "18F目に飛び道具2つ発射（弱版+中版）",
   "細工手裏剣ストックを2消費",
   "飛び道具の性能は各強度の【細工手裏剣】と同等",
@@ -2043,13 +2043,13 @@ input = "22(kk)"
 hitCount = 1
 parentSlugs = ["genius-at-play-od"]
 notes = [
-  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Light and Heavy versions)",
   "Decreases the Shuriken Bomb stock by 2",
   "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
-  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる",
   "18F目に飛び道具2つ発射（弱版+強版）",
   "細工手裏剣ストックを2消費",
   "飛び道具の性能は各強度の【細工手裏剣】と同等",
@@ -2079,13 +2079,13 @@ input = "22(pp+kk)"
 hitCount = 1
 parentSlugs = ["genius-at-play-od"]
 notes = [
-  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play.",
+  "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Medium and Heavy versions)",
   "Decreases the Shuriken Bomb stock by 2",
   "Projectile properties are the same as the individual attacks",
 ]
 notes_ja = [
-  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる。",
+  "スプレー缶を2つ放って設置し、一定時間経過で炸裂させる技。OD版の召雷細工後に使用可能となる",
   "18F目に飛び道具2つ発射（中版+強版）",
   "細工手裏剣ストックを2消費",
   "飛び道具の性能は各強度の【細工手裏剣】と同等",
@@ -2112,11 +2112,11 @@ type = "special"
 input = "j>236*p"
 properties = ["knockdown"]
 notes = [
-  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
+  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option",
   "Does 1656 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
+  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（1656）",
   "■モダン操作時",
@@ -2145,11 +2145,11 @@ type = "special"
 input = "j>236(pp)"
 properties = ["knockdown"]
 notes = [
-  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option.",
+  "Grab an airborne opponent and smash them into the ground below. Its high damage makes it an effective anti-air or mid-air combo option",
   "Does 1035 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
-  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的。",
+  "空中で相手を掴み、地面に叩き付ける投げ技。ダメージの高い対空手段や空中コンボで使うと効果的",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（1035）",
   "■モダン操作時",
@@ -2179,14 +2179,14 @@ type = "super1"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "Rush forward and knock down an opponent, then follow up with a flurry of attacks. Use this as a part of a combo while on the ground, or as a follow-up attack if they're airborne.",
+  "Rush forward and knock down an opponent, then follow up with a flurry of attacks. Use this as a part of a combo while on the ground, or as a follow-up attack if they're airborne",
   "Completely invincible on the 1st frame",
   "Invincible to strikes and throws on frames 2 - 14",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "前方へ突進し、接触した相手を蹴りで転倒させ、連撃を加える技。地上技からのコンボや、空中へ浮かせてからの追撃で使いやすい。",
+  "前方へ突進し、接触した相手を蹴りで転倒させ、連撃を加える技。地上技からのコンボや、空中へ浮かせてからの追撃で使いやすい",
   "1F 完全無敵",
   "2-14F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
@@ -2216,14 +2216,14 @@ type = "super1"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
-  "Adds a Shuriken Bomb follow-up attack after using Bushin Beats. Damage increases but requires one stock of Shuriken Bombs to activate.",
+  "Adds a Shuriken Bomb follow-up attack after using Bushin Beats. Damage increases but requires one stock of Shuriken Bombs to activate",
   "Completely invincible on the 1st frame",
   "Invincible to strikes and throws on frames 2 - 14",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "武神乱拍子の連撃から、細工手裏剣での追撃を加える技。威力が上がるが、発動に細工手裏剣のストックを1つ使用する。",
+  "武神乱拍子の連撃から、細工手裏剣での追撃を加える技。威力が上がるが、発動に細工手裏剣のストックを1つ使用する",
   "1F 完全無敵",
   "2-14F 打撃・投げに対して無敵",
   "細工手裏剣ストックを1消費",
@@ -2254,14 +2254,14 @@ type = "super2"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "Ensnare the opponent with a dive bomb-like attack from the air, and then pelt them relentlessly with mid-air attacks. An excellent choice against projectiles or airborne opponents.",
+  "Ensnare the opponent with a dive bomb-like attack from the air, and then pelt them relentlessly with mid-air attacks. An excellent choice against projectiles or airborne opponents",
   "Completely invincible on the 1st frame",
   "Considered airborne from frames 1- 20",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "跳び上がりからの急降下攻撃で捕捉し、空中で連撃を加える技。飛び道具対策や、空中の相手への追撃として有効。",
+  "跳び上がりからの急降下攻撃で捕捉し、空中で連撃を加える技。飛び道具対策や、空中の相手への追撃として有効",
   "1F 完全無敵",
   "1-20F 空中判定",
   "最低保障ダメージ40％",
@@ -2291,14 +2291,14 @@ type = "super2"
 input = "j>214214*p"
 properties = ["knockdown"]
 notes = [
-  "Activate Bushin Scramble in mid-air to dive bomb the opponent and attack them relentlessly. Easy to use in a combo from a mid-air special move.",
+  "Activate Bushin Scramble in mid-air to dive bomb the opponent and attack them relentlessly. Easy to use in a combo from a mid-air special move",
   "Completely invincible on the 1st frame",
   "Considered airborne from frame 1 and on",
   "Minimum guaranteed damage is 40%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "空中から発動し、急降下攻撃から空中で連撃を加える技。空中必殺技からのコンボとして使いやすい。",
+  "空中から発動し、急降下攻撃から空中で連撃を加える技。空中必殺技からのコンボとして使いやすい",
   "1F 完全無敵",
   "1F～ 空中判定",
   "最低保障ダメージ40％",
@@ -2325,7 +2325,7 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted.",
+  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted",
   "Completely invincible from frames 1 - 13",
   "On the first frame, the following boosts are activated and remain until the end of the match",
   "- Attack damage up 111%",
@@ -2335,7 +2335,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
+  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される",
   "1-13F 完全無敵",
   "1F目に以下のパワーアップ効果が発動し、試合終了まで継続",
   "・攻撃力111％",
@@ -2370,7 +2370,7 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted.",
+  "Launch the opponent into the air, and attack them while detonating numerous spray cans. After the attack, Kimberly's walk speed and attack power will be boosted",
   "Completely invincible from frames 1 - 13",
   "On the first frame, the following boosts are activated and remain until the end of the match",
   "- Attack damage up 111%",
@@ -2380,7 +2380,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
-  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される。",
+  "相手を打ち上げ、多数のスプレー缶を炸裂させながら攻撃する技。発動後に、歩行速度と攻撃力がアップする効果が付与される",
   "1-13F 完全無敵",
   "1F目に以下のパワーアップ効果が発動し、試合終了まで継続",
   "・攻撃力111％",
@@ -2417,14 +2417,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Break your opponent's poise with a chop, leap over them to disrupt their balance, and toss them aside. Throws your opponent without switching places with them.",
+  "Break your opponent's poise with a chop, leap over them to disrupt their balance, and toss them aside. Throws your opponent without switching places with them",
   "Punish Counter properties",
   "- Damage set to 1838 (1839)",
   "- Super Art gauge increases by 4000",
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
-  "手刀で相手を怯ませて跳び越え、体勢を崩して投げ飛ばす技。相手との位置関係を変えずに投げる。",
+  "手刀で相手を怯ませて跳び越え、体勢を崩して投げ飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ1838",
   "・SAゲージ4000増加",
@@ -2456,14 +2456,14 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Place both legs on your opponent's torso and perform a knee strike, then use the force of pulling them toward the ground to throw them behind you. Throws your opponent while switching places with them.",
+  "Place both legs on your opponent's torso and perform a knee strike, then use the force of pulling them toward the ground to throw them behind you. Throws your opponent while switching places with them",
   "Punish Counter properties",
   "- Damage set to 1838 (1839)",
   "- Super Art gauge increases by 4000",
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
-  "膝蹴りと同時に両足を掛け、後ろに倒れ込む反動で投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "膝蹴りと同時に両足を掛け、後ろに倒れ込む反動で投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ1839",
   "・SAゲージ4000増加",

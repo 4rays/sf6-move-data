@@ -577,13 +577,13 @@ type = "special"
 input = "214lp"
 properties = ["chargeable", "stockIncrement"]
 notes = [
-  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
-  "Adds 1 stock of Windclad on frame 46 if the button is released in the fastest situation.",
-  "Adds 1 stock on frames 71 and 91 if the button is held.",
-  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves",
+  "Adds 1 stock of Windclad on frame 46 if the button is released in the fastest situation",
+  "Adds 1 stock on frames 71 and 91 if the button is held",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added",
 ]
 notes_ja = [
-  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される",
   "最速でボタンを離した場合46F目で風纏いを1つストック",
   "ボタンホールド時71F目で2つ目、91F目で3つ目をストック",
   "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
@@ -605,14 +605,14 @@ blockType = "high"
 input = "214mp"
 properties = ["chargeable", "stockIncrement", "knockdown"]
 notes = [
-  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
-  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45.",
-  "If the button is held, adds a Windclad stock on frames 46, 71 and 91.",
-  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45",
+  "If the button is held, adds a Windclad stock on frames 46, 71 and 91",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = [
-  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される",
   "発動から45F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
   "ボタンホールド時46F目で1つ目、71F目で2つ目、91F目で3つ目をストック",
   "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
@@ -648,13 +648,13 @@ blockType = "high"
 input = "214hp"
 properties = ["chargeable", "stockIncrement", "knockdown"]
 notes = [
-  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
-  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45.",
-  "If the button is held, adds a Windclad stock on frames 46, 71 and 91.",
-  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 45",
+  "If the button is held, adds a Windclad stock on frames 46, 71 and 91",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added",
 ]
 notes_ja = [
-  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される",
   "発動から45F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
   "ボタンホールド時46F目で1つ目、71F目で2つ目、91F目で3つ目をストック",
   "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
@@ -689,13 +689,13 @@ blockType = "high"
 input = "214(kk)"
 properties = ["chargeable", "stockIncrement", "knockdown"]
 notes = [
-  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves.",
-  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 25.",
-  "If the button is held, adds a Windclad stock on frames 38, or for the full 40 frames of the move.",
-  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added.",
+  "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves",
+  "Adds 1 stock of Windclad on the 1st active frame of the attack if the button is released by frame 25",
+  "If the button is held, adds a Windclad stock on frames 38, or for the full 40 frames of the move",
+  "Changes the properties of Condor Spire, Tomahawk Buster, Condor Dive, Thunderbird and Sky Thunderbird after a stock is added",
 ]
 notes_ja = [
-  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される。",
+  "ポカモガンを頭上で回転させ、風を起こして纏わせる技。特定の必殺技を強化する風纏い状態が1回分付与される",
   "発動から25F目までにボタンを離した場合、攻撃持続1F目で風纏いをストック",
   "ボタンホールド時は38F目でストック、全体40F",
   "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
@@ -731,10 +731,10 @@ blockType = "high"
 input = "236lk"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance",
   "Considered airborne from frames 8 - 30",
 ]
-notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "8-30F 空中判定"]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効", "8-30F 空中判定"]
 startup = 17
 active = [17, 29]
 recovery = 16
@@ -763,10 +763,10 @@ blockType = "high"
 input = "236mk"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance",
   "Considered airborne from frames 9 - 35",
 ]
-notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "9-35F 空中判定"]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効", "9-35F 空中判定"]
 startup = 21
 active = [21, 33]
 recovery = 16
@@ -795,10 +795,10 @@ blockType = "high"
 input = "236hk"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance",
   "Considered airborne from frames 11 - 39",
 ]
-notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。", "11-39F 空中判定"]
+notes_ja = ["低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効", "11-39F 空中判定"]
 startup = 25
 active = [25, 37]
 recovery = 16
@@ -827,19 +827,19 @@ blockType = "high"
 input = "236(kk)"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance",
   "Considered airborne from frames 7 - 29",
   "Can only be canceled by Level 2 Super Art Thunderbird",
 ]
 notes_ja = [
-  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
+  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効",
   "7-29F 空中判定",
   "SA2 スカイサンダーバードでのみキャンセル可能",
 ]
 startup = 15
 active = [15, 27]
 recovery = 16
-cancel = "*"
+cancel = "SA2"
 damage = 1000
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
@@ -959,13 +959,13 @@ blockType = "high"
 input = "236(kk)"
 properties = ["knockdown"]
 notes = [
-  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance.",
+  "Leap into the air and charge forward while remaining low to the ground. Useful as a way of approaching from a distance",
   "Considered airborne from frames 9 - 34",
   "Invincible to projectiles from frames 9 - 32",
   "Can only be canceled by level 2 Super Art Sky Thunderbird",
 ]
 notes_ja = [
-  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効。",
+  "低く跳び上がってから水平に突進して体当たりを繰り出す技。離れた距離からの接近手段として有効",
   "9-34F 空中判定",
   "9-32F 飛び道具に対して無敵",
   "SA2 スカイサンダーバードでのみキャンセル可能",
@@ -973,7 +973,7 @@ notes_ja = [
 startup = 9
 active = [9, 22, 23, 25, 26, 32]
 recovery = 14
-cancel = "*"
+cancel = "SA2"
 damage = 1200
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
@@ -1000,12 +1000,12 @@ blockType = "high"
 input = "623lp"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 10",
   "Considered airborne from frames 7 - 37",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-10F 空中判定の攻撃に対して無敵",
   "7-37F 空中判定",
 ]
@@ -1038,12 +1038,12 @@ blockType = "high"
 input = "623mp"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 12",
   "Considered airborne from frames 9 - 44",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-12F 空中判定の攻撃に対して無敵",
   "9-44F 空中判定",
 ]
@@ -1076,12 +1076,12 @@ blockType = "high"
 input = "623hp"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks on frames 1- 14",
   "Considered airborne from frames 11 - 49",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-14F 空中判定の攻撃に対して無敵",
   "11-49F 空中判定",
 ]
@@ -1113,16 +1113,15 @@ type = "special"
 blockType = "high"
 input = "623(pp)"
 properties = ["stockDecrement", "knockdown"]
-cancelsInto = ["condor-dive-od"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 11 - 14",
   "Invincible to throws from frames 1 - 10",
   "Considered airborne from frames 7 - 45",
   "Can only transition into Overdrive Condor Dive",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-10F 空中判定の攻撃に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
@@ -1134,6 +1133,7 @@ active = [6, 17]
 recovery = 27
 postLandingRecovery = 15
 cancel = "*"
+cancelsInto = ["condor-dive-od"]
 damage = 1400
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
@@ -1161,12 +1161,12 @@ input = "623lp"
 
 properties = ["knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 10",
   "Considered airborne from frames 7 - 37",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-10F 空中判定の攻撃に対して無敵",
   "7-37F 空中判定",
 ]
@@ -1199,12 +1199,12 @@ blockType = "high"
 input = "623mp"
 properties = ["knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 12",
   "Considered airborne from frames 9 - 44",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-12F 空中判定の攻撃に対して無敵",
   "9-44F 空中判定",
 ]
@@ -1237,12 +1237,12 @@ blockType = "high"
 input = "623hp"
 properties = ["knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 14",
   "Considered airborne from frames 11 - 49",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-14F 空中判定の攻撃に対して無敵",
   "11-49F 空中判定",
 ]
@@ -1275,14 +1275,14 @@ blockType = "high"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
-  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack.",
+  "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Invincible to mid-air attacks from frames 11 - 14",
   "Invincible to throws from frames 1 - 10",
   "Considered airborne from frames 7 - 45",
   "Can only transition into Overdrive Condor Dive",
 ]
 notes_ja = [
-  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-10F 空中判定の攻撃に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
@@ -1294,6 +1294,7 @@ active = [4, 5, 6, 7, 8, 17]
 recovery = 27
 postLandingRecovery = 15
 cancel = "*"
+cancelsInto = ["condor-dive-od"]
 damage = 1600
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
@@ -1318,11 +1319,11 @@ blockType = "high"
 input = "{8|9}+(pp)"
 properties = ["knockdown"]
 notes = [
-  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile.",
+  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile",
   "Has cross-up attack properties",
 ]
 notes_ja = [
-  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効。",
+  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効",
   "めくり性能",
 ]
 startup = 12
@@ -1351,12 +1352,12 @@ blockType = "high"
 input = "{8|9}+(ppp)"
 properties = ["knockdown"]
 notes = [
-  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile.",
+  "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile",
   "Has cross-up attack properties",
   "If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
 ]
 notes_ja = [
-  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効。",
+  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効",
   "めくり性能",
   "OD トマホークバスターからの派生版はコンボ補正35%",
 ]
@@ -1388,12 +1389,12 @@ input = "{8|9}+(pp)"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
-  "A more powerful Condor Dive. Can also be used after an OD Tomahawk Buster.",
+  "A more powerful Condor Dive. Can also be used after an OD Tomahawk Buster",
   "Has cross-up attack properties",
   "When the first attack hits, the 2nd hit will happen on the next frame",
 ]
 notes_ja = [
-  "全体的な性能が強化されたコンドルダイブ。ODトマホークバスターから派生させる事も可能となる。",
+  "全体的な性能が強化されたコンドルダイブ。ODトマホークバスターから派生させる事も可能となる",
   "めくり性能",
   "初段ヒット時、次のフレームで2段目が発生",
 ]
@@ -1457,11 +1458,11 @@ type = "commandThrow"
 input = "{360}+lp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "Damage set to 2300 on Punish Counter",
 ]
 notes_ja = [
-  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2300）",
 ]
 startup = 5
@@ -1489,11 +1490,11 @@ type = "commandThrow"
 input = "{360}+mp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "Damage set to 2760 on Punish Counter",
 ]
 notes_ja = [
-  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2760）",
 ]
 startup = 5
@@ -1521,7 +1522,7 @@ type = "commandThrow"
 input = "{360}+hp"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3220 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
@@ -1529,7 +1530,7 @@ notes = [
   "Does 2576 individual damage using simplified inputs",
 ]
 notes_ja = [
-  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3220）",
   "■モダン操作時",
@@ -1562,7 +1563,7 @@ type = "commandThrow"
 input = "{360}+(pp)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range.",
+  "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3350 individual damage when the attack lands as a Punish Counter",
   "With Modern Controls",
@@ -1570,7 +1571,7 @@ notes = [
   "Does 2680 individual damage using simplified inputs",
 ]
 notes_ja = [
-  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効。",
+  "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3350）",
   "■モダン操作時",
@@ -1602,14 +1603,14 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
-  "After the attack begins, you'll unleash a series of spinning attacks centered around your opponent. It is slow to come out, but it does lots of damage and is invincible at the start.",
+  "After the attack begins, you'll unleash a series of spinning attacks centered around your opponent. It is slow to come out, but it does lots of damage and is invincible at the start",
   "Invincible to strikes and throws from frames 1 - 14",
   "Transitions to the full animation on the 2nd hit",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 30%",
 ]
 notes_ja = [
-  "始動の攻撃後、相手を支点に周囲を回転しながら攻撃する技。技の出が遅い代わりにダメージが高く、出始めに無敵時間もある。",
+  "始動の攻撃後、相手を支点に周囲を回転しながら攻撃する技。技の出が遅い代わりにダメージが高く、出始めに無敵時間もある",
   "1-14F 打撃・投げに対して無敵",
   "2段目ヒット時に派生",
   "最低保障ダメージ30％",
@@ -1640,14 +1641,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Remaining in place, leap directly upwards while unleashing a series of spinning attacks. It executes quickly, making it useful as an anti-air attack or as a way to turn the tables while doing lots of damage.",
+  "Remaining in place, leap directly upwards while unleashing a series of spinning attacks. It executes quickly, making it useful as an anti-air attack or as a way to turn the tables while doing lots of damage",
   "Fully invincible from frames 1 - 41",
   "Considered airborne from frames 7 - 80",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 40%",
 ]
 notes_ja = [
-  "その場から真上方向に回転しながら跳び上がって連続攻撃する技。技の出が早く、対空や切り返しで高ダメージを狙える。",
+  "その場から真上方向に回転しながら跳び上がって連続攻撃する技。技の出が早く、対空や切り返しで高ダメージを狙える",
   "1-41F 完全無敵",
   "7-80F 空中判定",
   "最低保障ダメージ40％",
@@ -1679,14 +1680,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos",
   "Fully invincible from frames 1 - 41",
   "Considered airborne from frames 7 - 80",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 40%",
 ]
 notes_ja = [
-  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的",
   "1-41F 完全無敵",
   "7-80F 空中判定",
   "最低保障ダメージ40％",
@@ -1745,14 +1746,14 @@ blockType = "high"
 input = "j>236236*k"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos",
   "Fully invincible from frames 1 - 41",
   "Considered airborne",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 40%",
 ]
 notes_ja = [
-  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的",
   "1-41F 完全無敵",
   "空中判定",
   "最低保障ダメージ40％",
@@ -1782,14 +1783,14 @@ blockType = "high"
 input = "j>236236*k"
 properties = ["stockDecrement", "knockdown"]
 notes = [
-  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos.",
+  "Thunderbird performed while airborne. It is primarily useful as a way to finish air combos",
   "Fully invincible from frames 1 - 41",
   "Considered airborne",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 40%",
 ]
 notes_ja = [
-  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的。",
+  "空中から繰り出すサンダーバード。主に空中でのコンボに組み込むのが効果的",
   "1-41F 完全無敵",
   "空中判定",
   "最低保障ダメージ40％",
@@ -1846,13 +1847,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Fully invincible from frames 1 - 8",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
 ]
 notes_ja = [
-  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1879,13 +1880,13 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
-  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once.",
+  "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Fully invincible from frames 1 - 8",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
 ]
 notes_ja = [
-  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える。",
+  "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1912,10 +1913,10 @@ blockType = "mid"
 input = "3hk"
 hitCount = 1
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Invincible to low attacks from frames 5 - 19",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "5-19F足元無敵", "強制しゃがみ効果", "空中ヒット時叩きつけダウン"]
+notes_ja = ["しゃがみでガードできない中段攻撃", "5-19F足元無敵", "強制しゃがみ効果", "空中ヒット時叩きつけダウン"]
 startup = 25
 active = [25, 27]
 recovery = 18
@@ -1950,8 +1951,8 @@ cancel = "C"
 damage = 1000
 superArt = 1000
 capcomID = 402
-notes = ["An attack with long reach that can be canceled into special moves."]
-notes_ja = ["リーチが長く、必殺技キャンセル可能な攻撃。"]
+notes = ["An attack with long reach that can be canceled into special moves"]
+notes_ja = ["リーチが長く、必殺技キャンセル可能な攻撃"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -1973,10 +1974,10 @@ blockType = "mid"
 input = "2hp"
 hitCount = 1
 notes = [
-  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them.",
+  "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
   "Has cross-up attack properties",
 ]
-notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス。", "めくり性能"]
+notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス", "めくり性能"]
 startup = 9
 active = [9, 19]
 postLandingRecovery = 3
@@ -2000,15 +2001,15 @@ blockType = "mid"
 input = "j>5mp>5mp"
 hitCount = 2
 notes = [
-  "A combination attack that is useful against jumping opponents.",
+  "A combination attack that is useful against jumping opponents",
   "Forces a juggle state on a mid-air hit",
   "Can only be canceled by Level 2 Super Art Thunderbird",
 ]
-notes_ja = ["相手のジャンプに対して強い連続攻撃。", "空中ヒット時吹き飛びダウン", "SA2 スカイサンダーバードでのみキャンセル可能"]
+notes_ja = ["相手のジャンプに対して強い連続攻撃", "空中ヒット時吹き飛びダウン", "SA2 スカイサンダーバードでのみキャンセル可能"]
 startup = 10
 active = [10, 12]
 postLandingRecovery = 3
-cancel = "*"
+cancel = "SA2"
 damage = 700
 superArt = 500
 capcomID = 404
@@ -2029,10 +2030,10 @@ blockType = "high"
 input = "6hp"
 hitCount = 1
 notes = [
-  "A sequence of attacks that deals big damage.",
+  "A sequence of attacks that deals big damage",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃", "空中ヒット時吹き飛びダウン"]
 startup = 18
 active = [18, 19]
 recovery = 24
@@ -2061,10 +2062,10 @@ blockType = "high"
 input = "6hp>5hp"
 hitCount = 2
 notes = [
-  "A sequence of attacks that deals big damage.",
+  "A sequence of attacks that deals big damage",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃", "空中ヒット時吹き飛びダウン"]
 startup = 20
 active = [20, 21]
 recovery = 27
@@ -2099,8 +2100,8 @@ recovery = 42
 damage = 500
 superArt = 1000
 capcomID = 405
-notes = ["A sequence of attacks that deals big damage."]
-notes_ja = ["続けてヒットする、ダメージの高い連続攻撃。"]
+notes = ["A sequence of attacks that deals big damage"]
+notes_ja = ["続けてヒットする、ダメージの高い連続攻撃"]
 
 [moves.frameAdvantage]
 block = -26
@@ -2122,14 +2123,14 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab an opponent's leg with your war clubs and toss them into the air. Throws your opponent without switching places with them.",
+  "Grab an opponent's leg with your war clubs and toss them into the air. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の脚をポカモガンで掴み、上方向に放り投げる技。相手との位置関係を変えずに投げる。",
+  "相手の脚をポカモガンで掴み、上方向に放り投げる技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -2160,14 +2161,14 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab an opponent's head between your war clubs and toss them behind you. Throws your opponent while switching places with them.",
+  "Grab an opponent's head between your war clubs and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の頭をポカモガンで掴んで挟み、後方に投げ飛ばす技。相手との位置を入れ替えながら投げる。",
+  "相手の頭をポカモガンで掴んで挟み、後方に投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",

@@ -562,10 +562,10 @@ hitCount = 1
 blockType = "high"
 input = "6mp"
 notes = [
-  "An overhead attack that cannot be blocked while crouching.",
+  "An overhead attack that cannot be blocked while crouching",
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
-notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時叩きつけダウン"]
+notes_ja = ["しゃがみでガードできない中段攻撃", "空中ヒット時叩きつけダウン"]
 startup = 20
 active = [20, 22]
 recovery = 19
@@ -600,8 +600,8 @@ cancel = "C"
 damage = 800
 superArt = 1000
 capcomID = 402
-notes = ["A quick strike that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な突き。"]
+notes = ["A quick strike that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な突き"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -630,9 +630,9 @@ damage = 800
 superArt = 500
 capcomID = 403
 notes = [
-  "Move forward while striking with the back of your fist. Allows you to move before your opponent even if blocked.",
+  "Move forward while striking with the back of your fist. Allows you to move before your opponent even if blocked",
 ]
-notes_ja = ["ガードされても相手より先に動ける、前進して繰り出す裏拳。"]
+notes_ja = ["ガードされても相手より先に動ける、前進して繰り出す裏拳"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -661,9 +661,9 @@ damage = 500
 superArt = 1000
 capcomID = 404
 notes = [
-  "A forward-moving knee strike that's quick and difficult to counterattack. Can be performed while maintaining your backward charge.",
+  "A forward-moving knee strike that's quick and difficult to counterattack. Can be performed while maintaining your backward charge",
 ]
-notes_ja = ["前進して繰り出す、隙の小さい膝蹴り。後ろ方向の溜めを維持しながら移動可能。"]
+notes_ja = ["前進して繰り出す、隙の小さい膝蹴り。後ろ方向の溜めを維持しながら移動可能"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -688,7 +688,7 @@ notes = [
   "A quick hop kick that's difficult to counterattack. Depending on what direction you hold, you can move either forward or backward while performing it",
   "Invincible to low attacks from frames 7 - 17",
 ]
-notes_ja = ["リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る。", "7-17F 足元無敵"]
+notes_ja = ["リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る", "7-17F 足元無敵"]
 startup = 11
 active = [11, 13]
 recovery = 18
@@ -721,7 +721,7 @@ notes = [
   "23 frames of recovery (34 frames overall) added if the attack misses",
 ]
 notes_ja = [
-  "リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る。",
+  "リーチが長く、隙の小さい蹴り。入力時に前後いずれかで移動方向を選択出来る",
   "7-17F 足元無敵",
   "空振り時硬直21F/全体34F",
 ]
@@ -752,13 +752,13 @@ hitCount = 1
 blockType = "high"
 input = "6hk"
 notes = [
-  "An attack with long reach that is useful against an opponent's sweeps.",
+  "An attack with long reach that is useful against an opponent's sweeps",
   "Invincible to throws and low attacks on frames 4 - 28",
   "Forces a juggle state knockdown on counter hit",
   "Produces a crumple stun on PunisH Counter",
 ]
 notes_ja = [
-  "相手の足払いに対して強く、リーチの長い攻撃。",
+  "相手の足払いに対して強く、リーチの長い攻撃",
   "4F-28F 投げ無敵/足元無敵",
   "カウンターヒット時吹き飛びダウン",
   "パニッシュカウンターヒット時膝崩れ",
@@ -790,13 +790,13 @@ hitCount = 1
 blockType = "high"
 input = "3hk"
 notes = [
-  "A high kick that is useful against jumping opponents. Can be performed while maintaining your downward charge.",
+  "A high kick that is useful against jumping opponents. Can be performed while maintaining your downward charge",
   "Forces a juggle state when the attack lands for a Punish Counter",
   "Forces a juggle state when hitting a mid-air opponent for a counter",
   "Can be canceled into a special move from frames 18 - 19",
 ]
 notes_ja = [
-  "相手のジャンプに対して強いハイキック。下方向の溜めを維持しながら攻撃可能。",
+  "相手のジャンプに対して強いハイキック。下方向の溜めを維持しながら攻撃可能",
   "パニッシュカウンターヒット時吹き飛びダウン",
   "空中ヒット時、カウンター以上で吹き飛びダウン",
   "18-19F 必殺技キャンセル可能",
@@ -830,10 +830,10 @@ blockType = "high"
 input = "6hp>4hp"
 properties = ["knockdown"]
 notes = [
-  "A combination attack that sends an opponent flying.",
+  "A combination attack that sends an opponent flying",
   "Can cancel into a special move or Super Art from frames 8 - 9",
 ]
-notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃。", "8-9F 必殺技、SAで空振りキャンセル可能"]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃", "8-9F 必殺技、SAで空振りキャンセル可能"]
 startup = 16
 active = [16, 18]
 recovery = 26
@@ -871,8 +871,8 @@ scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 250
 capcomID = 409
-notes = ["A quick series of attacks that can be canceled into special moves."]
-notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃。"]
+notes = ["A quick series of attacks that can be canceled into special moves"]
+notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
 block = -6
@@ -899,8 +899,8 @@ recovery = 21
 damage = 800
 superArt = 500
 capcomID = 410
-notes = ["A low attack followed by an overhead attack."]
-notes_ja = ["下段攻撃から中段攻撃に連係する連続攻撃。"]
+notes = ["A low attack followed by an overhead attack"]
+notes_ja = ["下段攻撃から中段攻撃に連係する連続攻撃"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -931,9 +931,9 @@ damage = 600
 superArt = 500
 capcomID = 411
 notes = [
-  "A low attack into a high kick that launches an opponent into the air. These two hits form a combo if done as a Punish Counter.",
+  "A low attack into a high kick that launches an opponent into the air. These two hits form a combo if done as a Punish Counter",
 ]
-notes_ja = ["下段攻撃からのハイキックで相手を打ち上げる連続攻撃。パニッシュカウンター時に続けてヒットする。"]
+notes_ja = ["下段攻撃からのハイキックで相手を打ち上げる連続攻撃。パニッシュカウンター時に続けてヒットする"]
 
 [moves.frameAdvantage]
 block = -12
@@ -957,14 +957,14 @@ blockType = "high"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Whirl behind your opponent and, while grabbing one of their arms and their head, slam them into the ground with a suplex. Throws your opponent without switching places with them.",
+  "Whirl behind your opponent and, while grabbing one of their arms and their head, slam them into the ground with a suplex. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手の背後へ回り、腕と首を捕らえて反り投げで叩き付ける技。相手との位置関係を変えずに投げる。",
+  "相手の背後へ回り、腕と首を捕らえて反り投げで叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -995,14 +995,14 @@ blockType = "high"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab your opponent and toss them behind you, placing their weight on your arm and shoulder. Throws your opponent while switching places with them.",
+  "Grab your opponent and toss them behind you, placing their weight on your arm and shoulder. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "相手を掴み、腕を支点に背負う形から地面へ投げ付ける技。相手との位置を入れ替えながら投げる。",
+  "相手を掴み、腕を支点に背負う形から地面へ投げ付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1033,14 +1033,14 @@ blockType = "high"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab an airborne opponent and toss them to the ground below. Throws your opponent without switching places with them.",
+  "Grab an airborne opponent and toss them to the ground below. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "空中で相手を掴み、下方向へ投げ飛ばして叩き付ける技。相手との位置関係を変えずに投げる。",
+  "空中で相手を掴み、下方向へ投げ飛ばして叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1071,14 +1071,14 @@ blockType = "high"
 input = "j>(4lplk)"
 properties = ["knockdown"]
 notes = [
-  "Grab an airborne opponent and smash their back with your shoulder as you descend. Throws your opponent while switching places with them.",
+  "Grab an airborne opponent and smash their back with your shoulder as you descend. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
 notes_ja = [
-  "空中で相手を掴み、落下すると同時に背中を肩に打ち付ける技。相手との位置を入れ替えながら投げる。",
+  "空中で相手を掴み、落下すると同時に背中を肩に打ち付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
   "・SAゲージ4000増加",
@@ -1106,11 +1106,11 @@ hitCount = 1
 blockType = "high"
 input = "[4]>6lp"
 notes = [
-  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure",
   "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
 ]
 notes_ja = [
-  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効",
   "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
 ]
 startup = 10
@@ -1172,11 +1172,11 @@ hitCount = 1
 blockType = "high"
 input = "[4]>6mp"
 notes = [
-  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure",
   "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
 ]
 notes_ja = [
-  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効",
   "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
 ]
 startup = 10
@@ -1238,11 +1238,11 @@ hitCount = 1
 blockType = "high"
 input = "[4]>6hp"
 notes = [
-  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure",
   "Can transition to the normal Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
 ]
 notes_ja = [
-  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効",
   "12-20F 通常版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
 ]
 startup = 10
@@ -1306,11 +1306,11 @@ hitCount = 1
 blockType = "high"
 input = "[4]>6(pp)"
 notes = [
-  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure.",
+  "Cross your arms with such speed that you fire a rotating aerial slash. Useful for checking distant opponents or as a way to start offensive pressure",
   "Can transition to Overdrive Sonic Break (Attack available during Super Art 2) from frames 12 - 20",
 ]
 notes_ja = [
-  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効。",
+  "高速で両腕を交差させ、回転する真空波を飛ばす技。離れた間合いのけん制や攻めの起点として有効",
   "12-20F OD版ソニックブレイク(SA2発動中発動可能技)へ派生可能",
 ]
 startup = 10
@@ -1341,13 +1341,13 @@ blockType = "high"
 input = "[2]>8lk"
 properties = ["knockdown"]
 notes = [
-  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 7",
   "Considered airborne from frames 8 - 36",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
-  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-7F 空中判定の攻撃に対して無敵",
   "8-36F 空中判定",
   "持続の3F目以降は個別ダメージ(800)",
@@ -1421,13 +1421,13 @@ blockType = "high"
 input = "[2]>8mk"
 properties = ["knockdown"]
 notes = [
-  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 8",
   "Considered airborne from frames 8 - 38",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
-  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-8F 空中判定の攻撃に対しては無敵",
   "8-38F 空中判定",
   "持続の3F目以降は個別ダメージ(800)",
@@ -1501,13 +1501,13 @@ blockType = "high"
 input = "[2]>8hk"
 properties = ["knockdown"]
 notes = [
-  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Considered airborne from frames 8 - 40",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
-  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-9F 空中判定の攻撃に対して無敵",
   "8-40F 空中判定",
   "持続の3F目以降は個別ダメージ(800)",
@@ -1581,13 +1581,13 @@ blockType = "high"
 input = "[2]>8(kk)"
 properties = ["knockdown"]
 notes = [
-  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique.",
+  "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
   "Completely invincible from frames 1 - 11",
   "Considered airborne from frames 8 - 37",
   "Does 700 individual damage from frames 3 - 4",
 ]
 notes_ja = [
-  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "1-11F 完全無敵",
   "8-37F 空中判定",
   "持続の3-4F目は個別ダメージ(700)",
@@ -1617,11 +1617,11 @@ hitCount = 1
 blockType = "high"
 input = "214lp"
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to all Sonic Break variations from frames 35 - 40",
 ]
 notes_ja = [
-  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する",
   "35-40F 各種ソニッククロスへ派生可能",
 ]
 startup = 16
@@ -1652,11 +1652,11 @@ hitCount = 1
 blockType = "high"
 input = "214mp"
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to any Sonic Cross from frames 40 - 46",
 ]
 notes_ja = [
-  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する",
   "40-46F 各種ソニッククロスへ派生可能",
 ]
 startup = 21
@@ -1687,11 +1687,11 @@ hitCount = 1
 blockType = "high"
 input = "214hp"
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to any Sonic Cross from frames 50 - 54",
 ]
 notes_ja = [
-  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する",
   "50-54F 各種ソニッククロスへ派生可能",
 ]
 startup = 31
@@ -1723,11 +1723,11 @@ blockType = "high"
 input = "214pp"
 properties = ["knockdown"]
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to any Sonic Cross from frames 34 - 39",
 ]
 notes_ja = [
-  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する。",
+  "前方へ縦回転の真空波を放ち、停滞させる技。追加入力のソニックブームを行う事でソニッククロスへ変化する",
   "34-39F 各種ODソニッククロスへ派生可能",
 ]
 startup = 15
@@ -1766,9 +1766,9 @@ damage = 1000
 superArt = 600
 capcomID = 504
 notes = [
-  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile",
 ]
-notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"]
 
 [moves.frameAdvantage]
 block = -1
@@ -1827,9 +1827,9 @@ damage = 1000
 superArt = 600
 capcomID = 504
 notes = [
-  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile",
 ]
-notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"]
 
 [moves.frameAdvantage]
 block = -1
@@ -1888,9 +1888,9 @@ damage = 1000
 superArt = 600
 capcomID = 504
 notes = [
-  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile",
 ]
-notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"]
 
 [moves.frameAdvantage]
 block = -1
@@ -1947,9 +1947,9 @@ damage = 1300
 superArt = 600
 capcomID = 504
 notes = [
-  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile",
 ]
-notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。"]
+notes_ja = ["ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"]
 
 [moves.frameAdvantage]
 block = 6
@@ -1971,11 +1971,11 @@ input = "pp"
 parentSlugs = ["sonic-cross-od"]
 properties = ["knockdown"]
 notes = [
-  "Combine Sonic Blade with another aerial slash and fire it as a projectile.",
+  "Combine Sonic Blade with another aerial slash and fire it as a projectile",
   "Produces a wall splat after it hits",
 ]
 notes_ja = [
-  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す。",
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す",
   "ヒット後壁やられ",
 ]
 startup = 10
@@ -2002,13 +2002,13 @@ hitCount = 1
 blockType = "high"
 input = "[4]>646hp"
 notes = [
-  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input.",
+  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input",
   "Invincible to throws and strikes on frame 1",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能。",
+  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能",
   "1F目 打撃/投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2038,13 +2038,13 @@ blockType = "high"
 input = "[4]>646+{lp|mp}"
 properties = ["knockdown"]
 notes = [
-  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input.",
+  "Fire a massive aerial slash directly ahead. An extremely versatile move that can be used in combos, to counter projectiles, or as a way to turn the tables when being pressured. The angle of the attack can be changed depending on the command input",
   "Invincible to throws and strikes from frames 1 - 8",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
-  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能。",
+  "前方に巨大な真空波を放つ技。切り返しやコンボ、飛び道具対策など、幅広い状況で使いやすい。発動時の入力によって、真空波を斜め上方向へ撃ち出す事が可能",
   "1-8F 打撃/投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2072,12 +2072,12 @@ type = "super2"
 hitCount = 1
 input = "214214*p"
 notes = [
-  "Envelop both arms in aerial slashes and enables the use of Sonic Break.",
+  "Envelop both arms in aerial slashes and enables the use of Sonic Break",
   "Sonic Break can be performed after this technique is activated",
 ]
 notes_ja = [
-  "両腕に真空波を纏い、必殺技を開放する技。発動後は、ソニックブレイクが使用可能となる。",
-  "発動後ソニックブレイク(SA2発動中使用可能技)が発動可能。",
+  "両腕に真空波を纏い、必殺技を開放する技。発動後は、ソニックブレイクが使用可能となる",
+  "発動後ソニックブレイク(SA2発動中使用可能技)が発動可能",
 ]
 totalFrames = 6
 capcomID = 602
@@ -2094,11 +2094,11 @@ blockType = "high"
 input = "pp"
 parentSlugs = ["sonic-puncher"]
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21",
 ]
 notes_ja = [
-  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能",
   "13-21F通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能",
 ]
 startup = 11
@@ -2127,12 +2127,12 @@ blockType = "high"
 input = "*p"
 parentSlugs = ["sonic-puncher", "sonic-break-single-shot"]
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21, up to 3 times",
   "The last transition’s recovery is reduced by 1 frame",
 ]
 notes_ja = [
-  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能",
   "13-21F 通常版ソニックブレイク (SA2発動中発動可能技)へ派生可能(3回まで)",
   "派生最終段のみ、硬直1F減少",
 ]
@@ -2163,11 +2163,11 @@ input = "*p"
 parentSlugs = ["sonic-puncher"]
 properties = ["knockdown"]
 notes = [
-  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs.",
+  "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to Overdrive Sonic Break (available while Level 2 Super Art is active) once from frames 13 - 21",
 ]
 notes_ja = [
-  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能。",
+  "ソリッドパンチャー発動中に使用可能となる、真空波を放つ技。方向入力との組み合わせで、弾速を変化させる事が可能",
   "13-21F OD版ソニックブレイク (SA2発動中発動可能技)へ派生可能(1回のみ)",
 ]
 startup = 11
@@ -2194,7 +2194,7 @@ blockType = "high"
 input = "[4]>646*k"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
+  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent",
   "Completely invincible from frames 1 - 14",
   "Considered airborne from frames 12 - 44",
   "Minimum guaranteed damage is set to 50%",
@@ -2203,7 +2203,7 @@ notes = [
   "Applied only when canceling a special move",
 ]
 notes_ja = [
-  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える。",
+  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える",
   "1-14F 完全無敵",
   "12-44F 空中判定",
   "最低保障ダメージ50％",
@@ -2239,7 +2239,7 @@ blockType = "high"
 input = "[4]>646*k"
 properties = ["knockdown"]
 notes = [
-  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
+  "Launch your opponent into the air and follow up with a mighty somersault kick. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent",
   "Completely invincible from frames 1 - 14",
   "Considered airborne from frames 12 - 44",
   "Minimum guaranteed damage is set to 50%",
@@ -2248,7 +2248,7 @@ notes = [
   "Applied only when canceling a special move",
 ]
 notes_ja = [
-  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える。",
+  "相手を上空に打ち上げ、渾身のサマーソルトキックへ繋ぐ技。出始めの無敵時間を活かした対空や切り返しに狙える",
   "1-14F 完全無敵",
   "12-44F 空中判定",
   "最低保障ダメージ50％",
