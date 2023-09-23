@@ -662,7 +662,7 @@ slug = "triglav-od-light"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "22(lpmp)"
+input = "22(lp+mp)"
 hitCount = 1
 properties = ["knockdown"]
 
@@ -690,7 +690,7 @@ slug = "triglav-od-medium"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "22(lphp)"
+input = "22(lp+hp)"
 hitCount = 1
 properties = ["knockdown"]
 
@@ -718,7 +718,7 @@ slug = "triglav-od-heavy"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "22(mphp)"
+input = "22(mp+hp)"
 hitCount = 1
 properties = ["knockdown"]
 
@@ -988,7 +988,7 @@ slug = "departure-od-light"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "214(lpmp)"
+input = "214(lp+mp)"
 hitCount = 1
 
 startup = 110
@@ -1016,7 +1016,7 @@ slug = "departure-od-medium"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "214(lphp)"
+input = "214(lp+hp)"
 hitCount = 1
 
 startup = 110
@@ -1044,7 +1044,7 @@ slug = "departure-od-heavy"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "214(mphp)"
+input = "214(mp+hp)"
 hitCount = 1
 
 startup = 110

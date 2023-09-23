@@ -2300,7 +2300,7 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "taiji-fan"
 characterId = 3
 type = "throw"
-input = "(4lphk)"
+input = "(4lp+hk)"
 properties = ["knockdown"]
 notes = [
   "Disrupt your opponent's balance with an elbow strike, scoop them up, and toss them behind you. Throws your opponent while switching places with them",

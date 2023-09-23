@@ -1667,7 +1667,7 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lkmk)"
+input = "236(lk+mk)"
 properties = ["knockdown"]
 notes = [
   "A roundhouse kick that fires a projectile low to the ground. Useful for checking your opponents, in combos, or as a way to start offensive pressure",
@@ -1785,7 +1785,7 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lkhk)"
+input = "236(lk+hk)"
 notes = [
   "Leap forward in a low arc and come down with an axe kick. Useful as a way to approach while avoiding attacks targeted at your feet, and can also be used in combos",
   "Considered airborne from frames 8 - 27",
@@ -1899,7 +1899,7 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(mkhk)"
+input = "236(mk+hk)"
 properties = ["knockdown"]
 notes = [
   "Lunge forward and let fly a swift overhead roundhouse. Its long reach makes it effective when used for surprise attacks from a distance, and it can also be canceled into from normal moves to make combos",

@@ -1044,7 +1044,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lpmp)"
+input = "236(lp+mp)"
 properties = ["chargeable", "knockdown"]
 
 startup = 13
@@ -1076,7 +1076,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lphp)"
+input = "236(lp+hp)"
 properties = ["chargeable", "knockdown"]
 
 startup = 13
@@ -1108,7 +1108,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(mphp)"
+input = "236(mp+hp)"
 properties = ["chargeable", "knockdown"]
 
 startup = 13
@@ -1239,7 +1239,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lkmk)"
+input = "236(lk+mk)"
 
 startup = 18
 totalFrames = 45
@@ -1273,7 +1273,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(lkhk)"
+input = "236(lk+hk)"
 
 startup = 18
 totalFrames = 45
@@ -1307,7 +1307,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "236(mkhk)"
+input = "236(mk+hk)"
 
 startup = 18
 totalFrames = 45
