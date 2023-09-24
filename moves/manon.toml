@@ -1552,7 +1552,7 @@ hitCount = 1
 blockType = "high"
 type = "special"
 input = "*k"
-parentSlugs = ["renverse-light", "renverse-medium", "renverse-heavy"]
+relatedMoves = ["renverse-light", "renverse-medium", "renverse-heavy"]
 properties = ["knockdown"]
 
 startup = 11
@@ -1587,7 +1587,7 @@ slug = "grand-fouette-od"
 characterId = 12
 hitCount = 1
 blockType = "high"
-type = "special"
+type = "followUp"
 input = "*k"
 parentSlugs = ["renverse-od"]
 properties = ["knockdown"]

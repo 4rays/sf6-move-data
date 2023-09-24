@@ -1052,10 +1052,10 @@ name = "Fatal Shot"
 name_ja = "フェイタルショット"
 slug = "fatal-shot"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
-input = "236(pp)>(pp)"
+input = "(pp)"
 parentSlugs = ["sand-blast-od"]
 properties = ["knockdown"]
 notes = [
@@ -1493,7 +1493,7 @@ name = "DDT"
 name_ja = "DDT"
 slug = "luke-ddt"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(pp)"
@@ -1551,7 +1551,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "j>214[*p]"
-parentSlugs = ["aerial-flash-knuckle"]
+relatedMoves = ["aerial-flash-knuckle"]
 properties = ["knockdown"]
 
 startup = 23
@@ -1615,38 +1615,13 @@ notes_ja = ["前傾姿勢で前進する技。動作中にボタン入力でそ�
 totalFrames = 45
 capcomID = 506
 
-# Avenger (OD)
-[[moves]]
-name = "Avenger (OD)"
-name_ja = "アベンジャー (OD)"
-alternativeNames = ["OD Avenger", "EX Avenger"]
-alternativeNames_ja = ["OD アベンジャー", "EX アベンジャー"]
-slug = "avenger-od"
-characterId = 1
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "214(kk)"
-notes = [
-  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
-  "Super Armor for 1 attack from frames 3 - 35",
-  "Can transition to branching attacks from frames 12 - 31",
-]
-notes_ja = [
-  "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する",
-  "3-35F アーマー判定（1回）",
-  "12-31F 専用技に派生可",
-]
-totalFrames = 45
-capcomID = 506
-
 # No Chaser
 [[moves]]
 name = "No Chaser"
 name_ja = "ノーチェイサー"
 slug = "no-chaser"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
@@ -1673,39 +1648,31 @@ onHit = 2000
 onBlock = -5000
 onPunishCounter = -5000
 
-# No Chaser (OD)
+# Avenger (OD)
 [[moves]]
-name = "No Chaser (OD)"
-name_ja = "ノーチェイサー (OD)"
-slug = "no-chaser-od"
+name = "Avenger (OD)"
+name_ja = "アベンジャー (OD)"
+alternativeNames = ["OD Avenger", "EX Avenger"]
+alternativeNames_ja = ["OD アベンジャー", "EX アベンジャー"]
+slug = "avenger-od"
 characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "*p"
-parentSlugs = ["avenger-od"]
-properties = ["knockdown"]
-
-startup = 12
-active = [12, 14]
-recovery = 19
-cancel = "SA2"
-damage = 1300
-scaling = ["Starter scaling 50%"]
-scaling_ja = ["始動補正50%"]
-superArt = 1250
-capcomID = 507
+input = "214(kk)"
 notes = [
-  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
+  "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
+  "Super Armor for 1 attack from frames 3 - 35",
+  "Can transition to branching attacks from frames 12 - 31",
 ]
-notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
+notes_ja = [
+  "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する",
+  "3-35F アーマー判定（1回）",
+  "12-31F 専用技に派生可",
+]
+totalFrames = 45
+capcomID = 506
 
-[moves.frameAdvantage]
-block = -6
-
-[moves.driveGauge]
-onBlock = -5000
-onPunishCounter = -5000
 
 # Impaler
 [[moves]]
@@ -1713,7 +1680,7 @@ name = "Impaler"
 name_ja = "インパラー"
 slug = "impaler"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*k"
@@ -1742,13 +1709,47 @@ onHit = 2200
 onBlock = -4000
 onPunishCounter = -5000
 
+# No Chaser (OD)
+[[moves]]
+name = "No Chaser (OD)"
+name_ja = "ノーチェイサー (OD)"
+slug = "no-chaser-od"
+characterId = 1
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "*p"
+parentSlugs = ["avenger-od"]
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 14]
+recovery = 19
+cancel = "SA2"
+damage = 1300
+scaling = ["Starter scaling 50%"]
+scaling_ja = ["始動補正50%"]
+superArt = 1250
+capcomID = 507
+notes = [
+  "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
+]
+notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
 # Impaler (OD)
 [[moves]]
 name = "Impaler (OD)"
 name_ja = "インパラー (OD)"
 slug = "impaler-od"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*k"
@@ -1946,7 +1947,7 @@ name = "Slam Dunk"
 name_ja = "スラムダンク"
 slug = "slam-dunk"
 characterId = 1
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(pp)"

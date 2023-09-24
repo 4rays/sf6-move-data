@@ -614,7 +614,7 @@ name = "Emergency Stop"
 name_ja = "急停止"
 slug = "ken-emergency-stop"
 characterId = 7
-type = "action"
+type = "followUp"
 hitCount = 0
 input = "lk"
 parentSlugs = ["quick-dash"]
@@ -1091,7 +1091,7 @@ characterId = 7
 type = "special"
 blockType = "high"
 input = "623*p"
-parentSlugs = ["quick-dash"]
+relatedMoves = ["quick-dash"]
 hitCount = 5
 properties = ["knockdown"]
 notes = [
@@ -1255,7 +1255,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "214*k"
-parentSlugs = ["quick-dash"]
+relatedMoves = ["quick-dash"]
 notes = [
   "Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits",
   "Considered airborne from frames 10 - 61",
@@ -1696,6 +1696,120 @@ onHit = 2000
 onBlock = -3000
 onPunishCounter = -5000
 
+# Kazekama Shin Kick
+[[moves]]
+name = "Kazekama Shin Kick"
+name_ja = "風鎌蹴り"
+slug = "kazekama-shin-kick"
+characterId = 7
+type = "special"
+hitCount = 1
+input = "6lk"
+blockType = "low"
+notes = [
+  "A low kick performed from Jinrai Kick that cannot be blocked standing. Useful against opponents who try to move after your Jinrai Kick",
+  "Always in Punish Counter state during execution",
+]
+notes_ja = [
+  "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的",
+  "動作中常に被パニッシュカウンター判定",
+]
+relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+
+startup = 6
+active = [6, 9]
+recovery = 19
+cancel = "SA3"
+damage = 500
+scaling = ["Starter scaling 20%", "Combo scaling 15%"]
+scaling_ja = ["始動補正20%", "コンボ補正15%"]
+superArt = 400
+capcomID = 507
+
+[moves.frameAdvantage]
+hit = 3
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# Gorai Axe Kick
+[[moves]]
+name = "Gorai Axe Kick"
+name_ja = "轟雷落とし"
+slug = "gorai-axe-kick"
+characterId = 7
+type = "special"
+hitCount = 1
+input = "6mk"
+blockType = "mid"
+notes = [
+  "An axe kick performed from Jinrai Kick that cannot be blocked crouching. Useful against opponents who try to stiffen their guard against your Jinrai Kick",
+  "Always in Punish Counter state during execution",
+]
+notes_ja = [
+  "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
+  "動作中常に被パニッシュカウンター判定",
+]
+relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+
+startup = 18
+active = [18, 20]
+recovery = 20
+cancel = "SA3"
+damage = 1000
+superArt = 500
+capcomID = 508
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Senka Snap Kick
+[[moves]]
+name = "Senka Snap Kick"
+name_ja = "閃華脚"
+slug = "senka-snap-kick"
+characterId = 7
+type = "special"
+hitCount = 1
+input = "6hk"
+relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+blockType = "high"
+properties = ["knockdown"]
+notes = [
+  "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick",
+  "Always in Punish Counter state during execution",
+  "Does not hit on crouching opponents",
+]
+notes_ja = [
+  "迅雷脚から派生し、続けてヒットする回し蹴り。迅雷脚がヒットした場合に繋いでコンボにすると効果的",
+  "動作中常に被パニッシュカウンター判定",
+  "しゃがみ状態の相手に当たらない",
+]
+startup = 10
+active = [10, 12]
+recovery = 25
+cancel = "SA3"
+damage = 800
+superArt = 600
+capcomID = 509
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -7000
+onPunishCounter = -7000
+
 # Jinrai Kick (OD)
 [[moves]]
 name = "Jinrai Kick (OD)"
@@ -1734,45 +1848,6 @@ block = -7
 onBlock = -3000
 onPunishCounter = -5000
 
-# Kazekama Shin Kick
-[[moves]]
-name = "Kazekama Shin Kick"
-name_ja = "風鎌蹴り"
-slug = "kazekama-shin-kick"
-characterId = 7
-type = "special"
-hitCount = 1
-input = "6lk"
-blockType = "low"
-notes = [
-  "A low kick performed from Jinrai Kick that cannot be blocked standing. Useful against opponents who try to move after your Jinrai Kick",
-  "Always in Punish Counter state during execution",
-]
-notes_ja = [
-  "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的",
-  "動作中常に被パニッシュカウンター判定",
-]
-parentSlugs = ["jinrai-kick"]
-
-startup = 6
-active = [6, 9]
-recovery = 19
-cancel = "SA3"
-damage = 500
-scaling = ["Starter scaling 20%", "Combo scaling 15%"]
-scaling_ja = ["始動補正20%", "コンボ補正15%"]
-superArt = 400
-capcomID = 507
-
-[moves.frameAdvantage]
-hit = 3
-block = -5
-
-[moves.driveGauge]
-onHit = 2000
-onBlock = -3000
-onPunishCounter = -5000
-
 # Kazekama Shin Kick (OD)
 [[moves]]
 name = "Kazekama Shin Kick (OD)"
@@ -1781,7 +1856,7 @@ alternativeNames = ["EX Kazekama Shin Kick", "OD Kazekama Shin Kick"]
 alternativeNames_ja = ["EX 風鎌蹴り", "OD 風鎌蹴り"]
 slug = "kazekama-shin-kick-od"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "6lk"
 blockType = "low"
@@ -1819,7 +1894,7 @@ name = "Kasai Thrust Kick (1)"
 name_ja = "火砕蹴 (1)"
 slug = "kasai-thrust-kick-1"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "6*k"
 properties = ["knockdown"]
@@ -1831,7 +1906,7 @@ notes_ja = [
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlugs = ["kazekama-shin-kick-od"]
+parentSlugs = ["jinrai-kick-od", "kazekama-shin-kick-od"]
 
 startup = 15
 active = [15, 17]
@@ -1850,43 +1925,6 @@ block = -12
 onBlock = -5000
 onPunishCounter = -5000
 
-# Gorai Axe Kick
-[[moves]]
-name = "Gorai Axe Kick"
-name_ja = "轟雷落とし"
-slug = "gorai-axe-kick"
-characterId = 7
-type = "special"
-hitCount = 1
-input = "6mk"
-blockType = "mid"
-notes = [
-  "An axe kick performed from Jinrai Kick that cannot be blocked crouching. Useful against opponents who try to stiffen their guard against your Jinrai Kick",
-  "Always in Punish Counter state during execution",
-]
-notes_ja = [
-  "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
-  "動作中常に被パニッシュカウンター判定",
-]
-parentSlugs = ["jinrai-kick"]
-
-startup = 18
-active = [18, 20]
-recovery = 20
-cancel = "SA3"
-damage = 1000
-superArt = 500
-capcomID = 508
-
-[moves.frameAdvantage]
-hit = 3
-block = -3
-
-[moves.driveGauge]
-onHit = 1000
-onBlock = -2500
-onPunishCounter = -4000
-
 # Gorai Axe Kick (OD)
 [[moves]]
 name = "Gorai Axe Kick (OD)"
@@ -1895,7 +1933,7 @@ alternativeNames = ["EX Gorai Axe Kick", "OD Gorai Axe Kick"]
 alternativeNames_ja = ["EX 轟雷落とし", "OD 轟雷落とし"]
 slug = "gorai-axe-kick-od"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "6mk"
 blockType = "mid"
@@ -1935,10 +1973,10 @@ name = "Kasai Thrust Kick (2)"
 name_ja = "火砕蹴 (2)"
 slug = "kasai-thrust-kick-2"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "6*k"
-parentSlugs = ["gorai-axe-kick-od"]
+parentSlugs = ["jinrai-kick-od", "gorai-axe-kick-od"]
 properties = ["knockdown"]
 notes = [
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage",
@@ -1965,44 +2003,6 @@ block = -12
 onBlock = -5000
 onPunishCounter = -5000
 
-# Senka Snap Kick
-[[moves]]
-name = "Senka Snap Kick"
-name_ja = "閃華脚"
-slug = "senka-snap-kick"
-characterId = 7
-type = "special"
-hitCount = 1
-input = "6hk"
-parentSlugs = ["jinrai-kick"]
-blockType = "high"
-properties = ["knockdown"]
-notes = [
-  "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick",
-  "Always in Punish Counter state during execution",
-  "Does not hit on crouching opponents",
-]
-notes_ja = [
-  "迅雷脚から派生し、続けてヒットする回し蹴り。迅雷脚がヒットした場合に繋いでコンボにすると効果的",
-  "動作中常に被パニッシュカウンター判定",
-  "しゃがみ状態の相手に当たらない",
-]
-startup = 10
-active = [10, 12]
-recovery = 25
-cancel = "SA3"
-damage = 800
-superArt = 600
-capcomID = 509
-
-[moves.frameAdvantage]
-block = -3
-
-[moves.driveGauge]
-onHit = 2000
-onBlock = -7000
-onPunishCounter = -7000
-
 # Senka Snap Kick (OD)
 [[moves]]
 name = "Senka Snap Kick (OD)"
@@ -2011,7 +2011,7 @@ alternativeNames = ["EX Senka Snap Kick", "OD Senka Snap Kick"]
 alternativeNames_ja = ["EX 閃華脚", "OD 閃華脚"]
 slug = "senka-snap-kick-od"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "6hk"
 parentSlugs = ["jinrai-kick-od"]
@@ -2047,10 +2047,10 @@ name = "Kasai Thrust Kick (3)"
 name_ja = "火砕蹴 (3)"
 slug = "kasai-thrust-kick"
 characterId = 7
-type = "special"
+type = "followUp"
 hitCount = 2
 input = "6*k"
-parentSlugs = ["senka-snap-kick-od"]
+parentSlugs = ["jinrai-kick-od", "senka-snap-kick-od"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [

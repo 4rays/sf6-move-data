@@ -2002,7 +2002,7 @@ characterId = 18
 input = "4*k"
 type = "special"
 blockType = "high"
-parentSlugs = [
+relatedMoves = [
   "arabian-cyclone-light",
   "arabian-cyclone-medium",
   "arabian-cyclone-heavy",
@@ -2032,7 +2032,7 @@ characterId = 18
 input = "6*k"
 type = "special"
 blockType = "high"
-parentSlugs = [
+relatedMoves = [
   "arabian-cyclone-light",
   "arabian-cyclone-medium",
   "arabian-cyclone-heavy",
@@ -2058,7 +2058,7 @@ name_ja = "アサルト・ネイル"
 slug = "nail-assault"
 characterId = 18
 input = "*k"
-type = "special"
+type = "followUp"
 blockType = "high"
 parentSlugs = ["rolling-assault"]
 properties = ["knockdown"]

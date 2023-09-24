@@ -974,7 +974,7 @@ blockType = "high"
 input = "236*p"
 hitCount = 2
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 
 startup = 12
 totalFrames = 42
@@ -1010,7 +1010,7 @@ blockType = "high"
 input = "236(pp)"
 hitCount = 3
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 
 startup = 12
 totalFrames = 38
@@ -1690,7 +1690,7 @@ blockType = "high"
 input = "214*p"
 hitCount = 2
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 
 startup = 21
 active = [21, 25, 26]
@@ -1722,7 +1722,7 @@ hitCount = 1
 properties = ["stockDecrement", "knockdown"]
 notes = ["Produces a crumple stun for 39 frames when the attack lands"]
 notes_ja = ["ヒット時に膝崩れダウンに＋39"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 
 startup = 18
 active = [18, 23]
@@ -1786,7 +1786,7 @@ type = "super1"
 blockType = "high"
 input = "236236*p"
 hitCount = 4
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 properties = ["stockDecrement", "knockdown"]
 notes = [
   "A Hadoken in which the body's ki is concentrated and condensed into your palms before firing. Its swift speed and invulnerability can quickly turn the tables on an opponent",
@@ -1958,7 +1958,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 notes = [
   "A Hashogeki enhanced through spiritual focus. Hold the button to charge the attack and increase its power",
   "Completely invincible from frame 1 to frame 9",
@@ -2002,7 +2002,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 notes = [
   "Completely invincible from frame 1 to frame 9",
   "Hold down the button to change the properties of this move",
@@ -2035,7 +2035,7 @@ onPunishCounter = -10000
 
 # [Denjin Charge] Shin Hashogeki (Level 3)
 [[moves]]
-name = "Denjin Shin Hashogeki (Level 3)"
+name = "[Denjin Charge] Hashogeki (Level 3)"
 name_ja = "[電刃錬気]真波掌撃（Lv3）"
 slug = "denjin-charge-shin-hashogeki-level-3"
 characterId = 0
@@ -2044,7 +2044,7 @@ hitCount = 1
 blockType = "high"
 input = "214214*p"
 properties = ["stockDecrement", "knockdown"]
-parentSlugs = ["denjin-charge"]
+relatedMoves = ["denjin-charge"]
 notes = [
   "Completely invincible from frame 1 to frame 9",
   "Hold down the button to change the properties of this move",
@@ -2121,7 +2121,7 @@ onPunishCounter = -15000
 [[moves]]
 name = "Shin Shoryuken (Critical Art)"
 name_ja = "真昇竜拳 (CA)"
-slug = "shin-ryu-shoryuken-ca"
+slug = "shin-shoryuken-ca"
 characterId = 0
 type = "super3"
 blockType = "high"

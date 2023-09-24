@@ -638,7 +638,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lp"
-parentSlugs = ["sumo-spirit"]
+relatedMoves = ["sumo-spirit"]
 notes = [
   "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
@@ -724,7 +724,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mp"
-parentSlugs = ["sumo-spirit"]
+relatedMoves = ["sumo-spirit"]
 notes = [
   "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
@@ -810,7 +810,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hp"
-parentSlugs = ["sumo-spirit"]
+relatedMoves = ["sumo-spirit"]
 notes = [
   "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",
@@ -921,7 +921,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214(pp)"
-parentSlugs = ["sumo-spirit"]
+relatedMoves = ["sumo-spirit"]
 notes = [
   "Unleash a series of high-speed slaps. Useful for creating combos from normal moves",
   "Only the last hit can be canceled",

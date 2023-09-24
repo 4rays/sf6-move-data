@@ -846,12 +846,14 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "mp>mp>4hp"
-totalFrames = 23
-capcomID = 407
 notes = [
   "A sequence of two attacks into a feint. Useful for confusing an opponent",
 ]
 notes_ja = ["連続攻撃からのフェイントで相手を揺さぶる一連動作"]
+
+totalFrames = 23
+capcomID = 407
+
 # Party in the Air
 [[moves]]
 name = "Party in the Air"
@@ -874,6 +876,7 @@ postLandingRecovery = 3
 damage = 700
 superArt = 1000
 capcomID = 408
+
 [moves.driveGauge]
 onHit = 2000
 onBlock = -4000
@@ -901,8 +904,10 @@ notes_ja = [
   "46F以後1F経過毎にSAゲージ49増加",
   "動作中にボタンホールドで動作延長可",
 ]
+
 totalFrames = 65
 capcomID = 409
+
 # Air Slasher (Light)
 [[moves]]
 name = "Air Slasher (Light)"
@@ -913,12 +918,14 @@ slug = "air-slasher-light"
 characterId = 11
 type = "special"
 input = "[4]>6lp"
-totalFrames = 21
-capcomID = 501
 notes = [
   "Produce a forward-moving shockwave with a high-speed uppercut. Useful for checking opponents at range",
 ]
 notes_ja = ["高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効"]
+
+totalFrames = 21
+capcomID = 501
+
 # Air Slasher (Medium)
 [[moves]]
 name = "Air Slasher (Medium)"
@@ -1078,6 +1085,7 @@ notes_ja = [
 ]
 postLandingRecovery = 6
 capcomID = 502
+
 # Jackknife Maximum (Medium)
 [[moves]]
 name = "Jackknife Maximum (Medium)"
@@ -1212,6 +1220,7 @@ notes = [
   "Spin forward while feinting a kicking attack. Useful for confusing opponents at close range",
 ]
 notes_ja = ["前方へ蹴りを出すと見せ掛けて回転しながら移動する技。近い間合いから相手をかく乱する手段として有効"]
+
 # Quick Rolling Sobat
 [[moves]]
 name = "Quick Rolling Sobat"
@@ -1485,43 +1494,9 @@ notes = [
   "Can transition into branching attacks from frames 13 - 24",
 ]
 notes_ja = ["後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能", "13-24F 専用技へ派生可"]
+
 totalFrames = 37
 capcomID = 507
-# Jus Cool (OD)
-[[moves]]
-name = "Jus Cool (OD)"
-name_ja = "ジョスクール（OD）"
-alternativeNames = ["OD Jus Cool", "EX Jus Cool"]
-alternativeNames_ja = ["OD ジョスクール", "EX ジョスクール"]
-slug = "jus-cool-od"
-characterId = 11
-type = "special"
-input = "214(kk)"
-properties = ["knockdown"]
-notes = [
-  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
-  "Can transition into branching attacks from frames 25 - 39",
-  "Can transition into Juggling Dash from frame 19",
-]
-notes_ja = [
-  "後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能",
-  "25-39F 専用技へ派生可",
-  "ジャグリンステップのみ19Fから派生可",
-]
-
-startup = 8
-active = [8, 12]
-recovery = 36
-damage = 500
-superArt = 1000
-capcomID = 507
-
-[moves.frameAdvantage]
-block = -29
-
-[moves.driveGauge]
-onBlock = -4000
-onPunishCounter = -5000
 
 # Funky Slicer
 [[moves]]
@@ -1553,41 +1528,6 @@ block = -15
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -4000
-onPunishCounter = -7000
-
-# Funky Slicer (OD)
-[[moves]]
-name = "Funky Slicer (OD)"
-name_ja = "ファンキースライサー（OD）"
-alternativeNames = ["OD Funky Slicer", "EX Funky Slicer"]
-alternativeNames_ja = ["OD ファンキースライサー", "EX ファンキースライサー"]
-slug = "funky-slicer-od"
-characterId = 11
-type = "followUp"
-hitCount = 1
-blockType = "low"
-input = "lk"
-parentSlugs = ["jus-cool-od"]
-notes = [
-  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
-  "Forces a spinning knockdown when hitting a mid-air opponent",
-]
-notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい", "空中ヒット時きりもみダウン"]
-
-startup = 9
-active = [9, 11]
-recovery = 19
-cancel = "SA2"
-damage = 900
-superArt = 1000
-capcomID = 508
-
-[moves.frameAdvantage]
-hit = 6
-block = -2
-
-[moves.driveGauge]
 onBlock = -4000
 onPunishCounter = -7000
 
@@ -1624,6 +1564,150 @@ block = 1
 
 [moves.driveGauge]
 onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
+
+
+# Maximum Strike
+[[moves]]
+name = "Maximum Strike"
+name_ja = "マキシマムストライク"
+slug = "maximum-strike"
+characterId = 11
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "hk"
+parentSlugs = ["jus-cool"]
+properties = ["knockdown"]
+
+startup = 15
+active = [15, 19]
+recovery = 25
+cancel = "SA3"
+damage = 1000
+superArt = 1000
+capcomID = 510
+notes = [
+  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
+]
+notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える"]
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
+
+# Juggling Dash
+[[moves]]
+name = "Juggling Dash"
+name_ja = "ジャグリンステップ"
+slug = "juggling-dash"
+characterId = 11
+type = "followUp"
+input = "6*p"
+parentSlugs = ["jus-cool"]
+notes = [
+  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
+  "Invincible to projectiles from frames 1 - 20",
+  "Can transition to Juggling Sway from frames 17 - 23",
+]
+notes_ja = [
+  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる",
+  "1-20F 飛び道具に対して無敵",
+  "17-23F ジャグリンスウェイへ派生可",
+]
+totalFrames = 27
+capcomID = 511
+
+# Jus Cool (OD)
+[[moves]]
+name = "Jus Cool (OD)"
+name_ja = "ジョスクール（OD）"
+alternativeNames = ["OD Jus Cool", "EX Jus Cool"]
+alternativeNames_ja = ["OD ジョスクール", "EX ジョスクール"]
+slug = "jus-cool-od"
+characterId = 11
+type = "special"
+input = "214(kk)"
+properties = ["knockdown"]
+notes = [
+  "A retreating sway that can lead into kicking attacks or forward-moving maneuvers",
+  "Can transition into branching attacks from frames 25 - 39",
+  "Can transition into Juggling Dash from frame 19",
+]
+notes_ja = [
+  "後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能",
+  "25-39F 専用技へ派生可",
+  "ジャグリンステップのみ19Fから派生可",
+]
+
+startup = 8
+active = [8, 12]
+recovery = 36
+damage = 500
+superArt = 1000
+capcomID = 507
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -5000
+
+# Juggling Sway
+[[moves]]
+name = "Juggling Sway"
+name_ja = "ジャグリンスウェイ"
+slug = "juggling-sway"
+characterId = 11
+type = "followUp"
+hitCount = 2
+input = "6*p>4*p"
+parentSlugs = ["jus-cool", "juggling-dash"]
+totalFrames = 29
+capcomID = 512
+notes = [
+  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
+]
+notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える"]
+
+# Funky Slicer (OD)
+[[moves]]
+name = "Funky Slicer (OD)"
+name_ja = "ファンキースライサー（OD）"
+alternativeNames = ["OD Funky Slicer", "EX Funky Slicer"]
+alternativeNames_ja = ["OD ファンキースライサー", "EX ファンキースライサー"]
+slug = "funky-slicer-od"
+characterId = 11
+type = "followUp"
+hitCount = 1
+blockType = "low"
+input = "lk"
+parentSlugs = ["jus-cool-od"]
+notes = [
+  "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
+  "Forces a spinning knockdown when hitting a mid-air opponent",
+]
+notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい", "空中ヒット時きりもみダウン"]
+
+startup = 9
+active = [9, 11]
+recovery = 19
+cancel = "SA2"
+damage = 900
+superArt = 1000
+capcomID = 508
+
+[moves.frameAdvantage]
+hit = 6
+block = -2
+
+[moves.driveGauge]
 onBlock = -4000
 onPunishCounter = -7000
 
@@ -1664,39 +1748,6 @@ block = -4
 onBlock = -4000
 onPunishCounter = -7000
 
-# Maximum Strike
-[[moves]]
-name = "Maximum Strike"
-name_ja = "マキシマムストライク"
-slug = "maximum-strike"
-characterId = 11
-type = "followUp"
-hitCount = 1
-blockType = "high"
-input = "hk"
-parentSlugs = ["jus-cool"]
-properties = ["knockdown"]
-
-startup = 15
-active = [15, 19]
-recovery = 25
-cancel = "SA3"
-damage = 1000
-superArt = 1000
-capcomID = 510
-notes = [
-  "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
-]
-notes_ja = ["ジョスクールから派生し、相手を打ち上げる蹴り上げ攻撃。早めに出しての対空やコンボの始動に使える"]
-
-[moves.frameAdvantage]
-block = -10
-
-[moves.driveGauge]
-onHit = 2000
-onBlock = -4000
-onPunishCounter = -7000
-
 # Maximum Strike (OD)
 [[moves]]
 name = "Maximum Strike (OD)"
@@ -1731,27 +1782,6 @@ block = -8
 onBlock = -4000
 onPunishCounter = -7000
 
-# Juggling Dash
-[[moves]]
-name = "Juggling Dash"
-name_ja = "ジャグリンステップ"
-slug = "juggling-dash"
-characterId = 11
-type = "followUp"
-input = "6*p"
-parentSlugs = ["jus-cool"]
-notes = [
-  "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
-  "Invincible to projectiles from frames 1 - 20",
-  "Can transition to Juggling Sway from frames 17 - 23",
-]
-notes_ja = [
-  "ジョスクールから派生し、前方に素早く移動する技。移動中は相手の飛び道具に対して無敵となる",
-  "1-20F 飛び道具に対して無敵",
-  "17-23F ジャグリンスウェイへ派生可",
-]
-totalFrames = 27
-capcomID = 511
 # Juggling Dash (OD)
 [[moves]]
 name = "Juggling Dash (OD)"
@@ -1775,22 +1805,7 @@ notes_ja = [
 ]
 totalFrames = 22
 capcomID = 511
-# Juggling Sway
-[[moves]]
-name = "Juggling Sway"
-name_ja = "ジャグリンスウェイ"
-slug = "juggling-sway"
-characterId = 11
-type = "followUp"
-hitCount = 2
-input = "6*p>4*p"
-parentSlugs = ["juggling-dash"]
-totalFrames = 29
-capcomID = 512
-notes = [
-  "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
-]
-notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える"]
+
 # Juggling Sway (OD)
 [[moves]]
 name = "Juggling Sway (OD)"
@@ -1802,13 +1817,15 @@ characterId = 11
 type = "followUp"
 hitCount = 2
 input = "6*p>4*p"
-parentSlugs = ["juggling-dash-od"]
+parentSlugs = ["jus-cool-od", "juggling-dash-od"]
+
 totalFrames = 22
 capcomID = 512
 notes = [
   "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
 ]
 notes_ja = ["ジャグリンステップの移動し始めから即座に後方へ下がる技。相手に攻め入ると見せ掛けてのフェイントに使える"]
+
 # The Greatest Sobat
 [[moves]]
 name = "The Greatest Sobat"
@@ -2599,7 +2616,7 @@ name = "Climactic Strike (Marvelous)"
 name_ja = "クライマックスブロー (マーベラス)"
 slug = "climactic-strike-marvelous"
 characterId = 11
-type = "super2"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hp"
@@ -2629,7 +2646,7 @@ name = "Climactic Strike (Headliner)"
 name_ja = "クライマックスブロー (ヘッドライナー)"
 slug = "climactic-strike-headliner"
 characterId = 11
-type = "super2"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hp"
@@ -2659,7 +2676,7 @@ name = "Encore Beat (Marvelous)"
 name_ja = "アンコールビート (マーベラス)"
 slug = "encore-beat-marvelous"
 characterId = 11
-type = "super2"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
@@ -2689,7 +2706,7 @@ name = "Encore Beat (Headliner)"
 name_ja = "アンコールビート (ヘッドライナー)"
 slug = "encore-beat-headliner"
 characterId = 11
-type = "super2"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"

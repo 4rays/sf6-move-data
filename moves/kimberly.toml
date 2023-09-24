@@ -661,8 +661,8 @@ name = "Step Up"
 name_ja = "矢来越え"
 slug = "step-up"
 characterId = 5
-type = "commandNormal"
-input = "6hk>7|8|9"
+type = "followUp"
+input = "7|8|9"
 parentSlugs = ["hisen-kick"]
 notes_ja = ["飛箭蹴から派生する、3方向へのジャンプ動作", "ジャンプ動作中空中技でキャンセル可能"]
 postLandingRecovery = 3
@@ -1162,55 +1162,16 @@ notes_ja = [
 totalFrames = 55
 capcomID = 503
 
-# Sprint (OD)
-[[moves]]
-name = "Sprint (OD)"
-name_ja = "疾駆け (OD)"
-slug = "sprint-od"
-characterId = 5
-type = "special"
-input = "236(kk)"
-notes = [
-  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed",
-  "Kimberly can transition to Emergency Stop from the 6th frame",
-  "Kimberly can transition to Torso Cleaver, Shadow Slide and Neck Hunter from the 8th frame",
-  "After the 14th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
-]
-notes_ja = [
-  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能",
-  "6Fから急停止に派生可",
-  "8Fから胴刎ね、影すくい、首狩りに派生可",
-  "14F以降、相手が一定距離内にいると孤空に自動派生",
-]
-totalFrames = 54
-capcomID = 503
-
 # Emergency Stop
 [[moves]]
 name = "Emergency Stop"
 name_ja = "急停止"
 slug = "kimberly-emergency-stop"
 characterId = 5
-type = "special"
+type = "followUp"
 input = "*p"
 parentSlugs = ["sprint"]
 totalFrames = 14
-capcomID = 504
-notes = [
-  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
-]
-notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"]
-
-# Emergency Stop (OD)
-[[moves]]
-name = "Emergency Stop (OD)"
-name_ja = "急停止 (OD)"
-slug = "kimberly-emergency-stop-od"
-characterId = 5
-type = "special"
-input = "*p"
-parentSlugs = ["sprint-od"]
-totalFrames = 13
 capcomID = 504
 notes = [
   "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
@@ -1223,7 +1184,7 @@ name = "Torso Cleaver"
 name_ja = "胴刎ね"
 slug = "torso-cleaver"
 characterId = 5
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "lk"
@@ -1250,45 +1211,13 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -6000
 
-# Torso Cleaver (OD)
-[[moves]]
-name = "Torso Cleaver (OD)"
-name_ja = "胴刎ね (OD)"
-slug = "torso-cleaver-od"
-characterId = 5
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "lk"
-parentSlugs = ["sprint-od"]
-properties = ["knockdown"]
-
-startup = 17
-active = [17, 18, 19, 23]
-recovery = 16
-cancel = "SA2"
-damage = 1080
-superArt = 1200
-capcomID = 505
-notes = [
-  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
-]
-notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
-
-[moves.frameAdvantage]
-block = 3
-
-[moves.driveGauge]
-onBlock = -4000
-onPunishCounter = -8000
-
 # Shadow Slide
 [[moves]]
 name = "Shadow Slide"
 name_ja = "影すくい"
 slug = "shadow-slide"
 characterId = 5
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "mk"
@@ -1317,49 +1246,13 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -8000
 
-# Shadow Slide (OD)
-[[moves]]
-name = "Shadow Slide (OD)"
-name_ja = "影すくい (OD)"
-alternativeNames = ["OD Shadow Slide", "EX Shadow Slide"]
-alternativeNames_ja = ["OD 影すくい", "EX 影すくい"]
-slug = "shadow-slide-od"
-characterId = 5
-type = "special"
-hitCount = 1
-blockType = "low"
-input = "mk"
-parentSlugs = ["sprint-od"]
-properties = ["knockdown"]
-
-startup = 8
-active = [8, 15, 16, 19]
-recovery = 19
-cancel = "SA2"
-damage = 900
-scaling = ["Starter scaling 20%"]
-scaling_ja = ["始動補正20%"]
-superArt = 1000
-capcomID = 506
-notes = [
-  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance",
-]
-notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効"]
-
-[moves.frameAdvantage]
-block = -10
-
-[moves.driveGauge]
-onBlock = -5000
-onPunishCounter = -8000
-
 # Neck Hunter
 [[moves]]
 name = "Neck Hunter"
 name_ja = "首狩り"
 slug = "neck-hunter"
 characterId = 5
-type = "special"
+type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
@@ -1386,51 +1279,13 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -8000
 
-# Neck Hunter (OD)
-[[moves]]
-name = "Neck Hunter (OD)"
-name_ja = "首狩り (OD)"
-alternativeNames = ["OD Neck Hunter", "EX Neck Hunter"]
-alternativeNames_ja = ["OD 首狩り", "EX 首狩り"]
-slug = "neck-hunter-od"
-characterId = 5
-type = "special"
-hitCount = 1
-blockType = "high"
-input = "hk"
-parentSlugs = ["sprint-od"]
-properties = ["knockdown"]
-notes = [
-  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
-  "Adds a floor bounding effect during a mid-air hit",
-]
-notes_ja = [
-  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効",
-  "空中ヒット時床バウンド",
-]
-
-startup = 15
-active = [15, 16, 17, 19]
-recovery = 19
-cancel = "SA2"
-damage = 1080
-superArt = 1200
-capcomID = 507
-
-[moves.frameAdvantage]
-block = -1
-
-[moves.driveGauge]
-onBlock = -5000
-onPunishCounter = -8000
-
 # Arc Step
 [[moves]]
 name = "Arc Step"
 name_ja = "アークステップ"
 slug = "arc-step"
 characterId = 5
-type = "special"
+type = "followUp"
 input = "5"
 blockType = "high"
 parentSlugs = ["sprint"]
@@ -1462,6 +1317,218 @@ onHit = 1000
 onBlock = -3000
 onPunishCounter = -5000
 
+# Bushin Izuna Otoshi
+[[moves]]
+name = "Bushin Izuna Otoshi"
+name_ja = "武神飯綱落とし"
+slug = "bushin-izuna-otoshi"
+characterId = 5
+type = "followUp"
+input = "*p"
+parentSlugs = ["sprint", "arc-step"]
+properties = ["knockdown"]
+notes = [
+  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
+  "With Classic Controls",
+  "Does 1656 individual damage when the attack lands as a Punish Counter",
+  "With Modern Controls",
+  "Does 1324 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効",
+  "■クラシック操作",
+  "パニッシュカウンター時個別ダメージ（1656）",
+  "■モダン操作時",
+  "パニッシュカウンター時個別ダメージ（1324）",
+]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 40
+damage = 1440
+superArt = 3000
+capcomID = 509
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Bushin Hojin Kick
+[[moves]]
+name = "Bushin Hojin Kick"
+name_ja = "武神鉾刃脚"
+slug = "bushin-hojin-kick"
+characterId = 5
+type = "followUp"
+input = "*k"
+blockType = "high"
+parentSlugs = ["sprint", "arc-step"]
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 18]
+postLandingRecovery = 20
+damage = 630
+superArt = 1000
+capcomID = 510
+notes = [
+  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
+]
+notes_ja = ["弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効"]
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
+# Sprint (OD)
+[[moves]]
+name = "Sprint (OD)"
+name_ja = "疾駆け (OD)"
+slug = "sprint-od"
+characterId = 5
+type = "special"
+input = "236(kk)"
+notes = [
+  "Swiftly dash forward to close the distance with your opponent, during which a variety of moves can be performed",
+  "Kimberly can transition to Emergency Stop from the 6th frame",
+  "Kimberly can transition to Torso Cleaver, Shadow Slide and Neck Hunter from the 8th frame",
+  "After the 14th frame, if the opponent is within a certain distance, Kimberly will automatically perform Arc Step",
+]
+notes_ja = [
+  "前方へ素早く駆けて間合いを詰める技。移動中は、様々な動作へ派生が可能",
+  "6Fから急停止に派生可",
+  "8Fから胴刎ね、影すくい、首狩りに派生可",
+  "14F以降、相手が一定距離内にいると孤空に自動派生",
+]
+totalFrames = 54
+capcomID = 503
+
+# Emergency Stop (OD)
+[[moves]]
+name = "Emergency Stop (OD)"
+name_ja = "急停止 (OD)"
+slug = "kimberly-emergency-stop-od"
+characterId = 5
+type = "followUp"
+input = "*p"
+parentSlugs = ["sprint-od"]
+totalFrames = 13
+capcomID = 504
+notes = [
+  "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
+]
+notes_ja = ["疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"]
+
+# Torso Cleaver (OD)
+[[moves]]
+name = "Torso Cleaver (OD)"
+name_ja = "胴刎ね (OD)"
+slug = "torso-cleaver-od"
+characterId = 5
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "lk"
+parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 18, 19, 23]
+recovery = 16
+cancel = "SA2"
+damage = 1080
+superArt = 1200
+capcomID = 505
+notes = [
+  "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
+]
+notes_ja = ["疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
+
+[moves.frameAdvantage]
+block = 3
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -8000
+
+# Shadow Slide (OD)
+[[moves]]
+name = "Shadow Slide (OD)"
+name_ja = "影すくい (OD)"
+alternativeNames = ["OD Shadow Slide", "EX Shadow Slide"]
+alternativeNames_ja = ["OD 影すくい", "EX 影すくい"]
+slug = "shadow-slide-od"
+characterId = 5
+type = "followUp"
+hitCount = 1
+blockType = "low"
+input = "mk"
+parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+
+startup = 8
+active = [8, 15, 16, 19]
+recovery = 19
+cancel = "SA2"
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 506
+notes = [
+  "A sliding attack aimed at an opponent's feet, performed from Sprint. It is a low attack that cannot be blocked standing, and is effective when used as a surprise attack from a distance",
+]
+notes_ja = ["疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効"]
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -8000
+
+# Neck Hunter (OD)
+[[moves]]
+name = "Neck Hunter (OD)"
+name_ja = "首狩り (OD)"
+alternativeNames = ["OD Neck Hunter", "EX Neck Hunter"]
+alternativeNames_ja = ["OD 首狩り", "EX 首狩り"]
+slug = "neck-hunter-od"
+characterId = 5
+type = "followUp"
+hitCount = 1
+blockType = "high"
+input = "hk"
+parentSlugs = ["sprint-od"]
+properties = ["knockdown"]
+notes = [
+  "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = [
+  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効",
+  "空中ヒット時床バウンド",
+]
+
+startup = 15
+active = [15, 16, 17, 19]
+recovery = 19
+cancel = "SA2"
+damage = 1080
+superArt = 1200
+capcomID = 507
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -8000
+
 # Arc Step (OD)
 [[moves]]
 name = "Arc Step (OD)"
@@ -1470,7 +1537,7 @@ alternativeNames = ["OD Arc Step", "EX Arc Step"]
 alternativeNames_ja = ["OD アークステップ", "EX アークステップ"]
 slug = "arc-step-od"
 characterId = 5
-type = "special"
+type = "followUp"
 input = "5"
 parentSlugs = ["sprint-od"]
 notes = [
@@ -1500,42 +1567,6 @@ block = -6
 onBlock = -3000
 onPunishCounter = -5000
 
-# Bushin Izuna Otoshi
-[[moves]]
-name = "Bushin Izuna Otoshi"
-name_ja = "武神飯綱落とし"
-slug = "bushin-izuna-otoshi"
-characterId = 5
-type = "commandThrow"
-input = "*p"
-parentSlugs = ["arc-step"]
-properties = ["knockdown"]
-notes = [
-  "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
-  "With Classic Controls",
-  "Does 1656 individual damage when the attack lands as a Punish Counter",
-  "With Modern Controls",
-  "Does 1324 individual damage when the attack lands as a Punish Counter",
-]
-notes_ja = [
-  "弧空から派生する、相手に飛び付いて掴み、投げる技。弧空後にガードを固める相手に対して有効",
-  "■クラシック操作",
-  "パニッシュカウンター時個別ダメージ（1656）",
-  "■モダン操作時",
-  "パニッシュカウンター時個別ダメージ（1324）",
-]
-
-startup = 13
-active = [13, 18]
-postLandingRecovery = 40
-damage = 1440
-superArt = 3000
-capcomID = 509
-
-[moves.driveGauge]
-onHit = 2000
-onPunishCounter = -10000
-
 # Bushin Izuna Otoshi (OD)
 [[moves]]
 name = "Bushin Izuna Otoshi (OD)"
@@ -1544,9 +1575,9 @@ alternativeNames = ["OD Bushin Izuna Otoshi", "EX Bushin Izuna Otoshi"]
 alternativeNames_ja = ["OD 武神飯綱落とし", "EX 武神飯綱落とし"]
 slug = "bushin-izuna-otoshi-od"
 characterId = 5
-type = "commandThrow"
+type = "followUp"
 input = "*p"
-parentSlugs = ["arc-step-od"]
+parentSlugs = ["sprint-od", "arc-step-od"]
 properties = ["knockdown"]
 notes = [
   "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
@@ -1575,37 +1606,6 @@ capcomID = 509
 [moves.driveGauge]
 onPunishCounter = -10000
 
-# Bushin Hojin Kick
-[[moves]]
-name = "Bushin Hojin Kick"
-name_ja = "武神鉾刃脚"
-slug = "bushin-hojin-kick"
-characterId = 5
-type = "special"
-input = "*k"
-blockType = "high"
-parentSlugs = ["arc-step"]
-properties = ["knockdown"]
-
-startup = 13
-active = [13, 18]
-postLandingRecovery = 20
-damage = 630
-superArt = 1000
-capcomID = 510
-notes = [
-  "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
-]
-notes_ja = ["弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効"]
-
-[moves.frameAdvantage]
-block = -8
-
-[moves.driveGauge]
-onHit = 2000
-onBlock = -5000
-onPunishCounter = -10000
-
 # Bushin Hojin Kick (OD)
 [[moves]]
 name = "Bushin Hojin Kick (OD)"
@@ -1614,10 +1614,10 @@ alternativeNames = ["OD Bushin Hojin Kick", "EX Bushin Hojin Kick"]
 alternativeNames_ja = ["OD 武神鉾刃脚", "EX 武神鉾刃脚"]
 slug = "bushin-hojin-kick-od"
 characterId = 5
-type = "special"
+type = "followUp"
 input = "*k"
 blockType = "high"
-parentSlugs = ["arc-step-od"]
+parentSlugs = ["sprint-od", "arc-step-od"]
 properties = ["knockdown"]
 notes = [
   "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
@@ -1858,25 +1858,6 @@ notes_ja = [
 totalFrames = 44
 capcomID = 513
 
-# Genius at Play (OD)
-[[moves]]
-name = "Genius at Play (OD)"
-name_ja = "召雷細工 (OD)"
-slug = "genius-at-play-od"
-characterId = 5
-type = "special"
-input = "22(pp)"
-notes = [
-  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb",
-  "Adds 2 Shuriken Bomb stock on frame 43",
-]
-notes_ja = [
-  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる",
-  "43F目に細工手裏剣ストックが2増加",
-]
-totalFrames = 44
-capcomID = 513
-
 # Shuriken Bomb (Light)
 [[moves]]
 name = "Shuriken Bomb (Light)"
@@ -1888,7 +1869,7 @@ characterId = 5
 type = "special"
 input = "22lp"
 hitCount = 1
-parentSlugs = ["genius-at-play"]
+relatedMoves = ["genius-at-play"]
 notes = [
   "Toss out and set a spray can that will explode after a period of time. Best used to apply pressure that capitalizes on the duration between when the bomb is placed and its detonation",
   "Fires a projectile on the 18th frame",
@@ -1927,7 +1908,7 @@ characterId = 5
 type = "special"
 input = "22mp"
 hitCount = 1
-parentSlugs = ["genius-at-play"]
+relatedMoves = ["genius-at-play"]
 notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires a projectile on the 18th frame",
@@ -1966,7 +1947,7 @@ characterId = 5
 type = "special"
 input = "22hp"
 hitCount = 1
-parentSlugs = ["genius-at-play"]
+relatedMoves = ["genius-at-play"]
 notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires a projectile on the 18th frame",
@@ -1994,6 +1975,25 @@ onHit = 1000
 onBlock = -4000
 onPunishCounter = -6000
 
+# Genius at Play (OD)
+[[moves]]
+name = "Genius at Play (OD)"
+name_ja = "召雷細工 (OD)"
+slug = "genius-at-play-od"
+characterId = 5
+type = "special"
+input = "22(pp)"
+notes = [
+  "Tamper with a spray can to get an additional stock. Once stocked, input the same command again to activate a Shuriken Bomb",
+  "Adds 2 Shuriken Bomb stock on frame 43",
+]
+notes_ja = [
+  "スプレー缶に細工を施し、ストックする技。ストック後は同じコマンド入力で細工手裏剣が発動可能となる",
+  "43F目に細工手裏剣ストックが2増加",
+]
+totalFrames = 44
+capcomID = 513
+
 # Shuriken Bomb Spread (Light)
 [[moves]]
 name = "Shuriken Bomb Spread (Light)"
@@ -2003,9 +2003,9 @@ alternativeNames_ja = ["弱 乱れ細工手裏剣"]
 slug = "shuriken-bomb-spread-light"
 characterId = 5
 type = "special"
-input = "22(pp)"
+input = "22(lp+mp)"
 hitCount = 1
-parentSlugs = ["genius-at-play-od"]
+relatedMoves = ["genius-at-play-od"]
 notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Light and Medium versions)",
@@ -2039,9 +2039,9 @@ alternativeNames_ja = ["中 乱れ細工手裏剣"]
 slug = "shuriken-bomb-spread-medium"
 characterId = 5
 type = "special"
-input = "22(kk)"
+input = "22(lp+hp)"
 hitCount = 1
-parentSlugs = ["genius-at-play-od"]
+relatedMoves = ["genius-at-play-od"]
 notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Light and Heavy versions)",
@@ -2075,9 +2075,9 @@ alternativeNames_ja = ["強 乱れ細工手裏剣"]
 slug = "shuriken-bomb-spread-heavy"
 characterId = 5
 type = "special"
-input = "22(pp+kk)"
+input = "22(mp+hp)"
 hitCount = 1
-parentSlugs = ["genius-at-play-od"]
+relatedMoves = ["genius-at-play-od"]
 notes = [
   "Toss out and set two spray cans that will explode after a period of time. Can be used following an OD Genius at Play",
   "Fires 2 projectiles on the 18th frame (Medium and Heavy versions)",
