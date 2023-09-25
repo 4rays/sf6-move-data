@@ -1383,10 +1383,12 @@ blockType = "high"
 input = "*k"
 parents = ["hooligan-combination"]
 notes = [
+  "During hooligan combination",
   "A descending kick performed from Hooligan Combination. If you cross over your opponent before activating this move, the kick will automatically turn around so it heads toward your opponent",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
 notes_ja = [
+  "フーリガンコンビネーション中に",
   "フーリガンコンビネーションから派生する急降下蹴り。派生前に位置が入れ替わっても相手方向へ向き直る性質を持つ",
   "ヒット・ガードさせた高度によって硬直差が変化",
 ]
@@ -1422,10 +1424,12 @@ blockType = "mid"
 input = "2*k"
 parents = ["hooligan-combination"]
 notes = [
+  "During hooligan combination",
   "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
 notes_ja = [
+  "フーリガンコンビネーション中に",
   "フーリガンコンビネーションから派生する振り下ろし蹴り。しゃがみガードできない中段属性で、ガード崩しに有効",
   "ヒット・ガードさせた高度によって硬直差が変化",
 ]
@@ -1467,9 +1471,15 @@ damage = 1800
 superArt = 3000
 capcomID = 509
 notes = [
+  "During hooligan combination",
+  "When close to a standing opponent",
   "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage",
 ]
-notes_ja = ["フーリガンコンビネーションから派生する投げ技。地上で立ち状態の相手を投げる事ができ、ダメージが大きい"]
+notes_ja = [
+  "フーリガンコンビネーション中に",
+  "立ち状態の相手に対して近距離で",
+  "フーリガンコンビネーションから派生する投げ技。地上で立ち状態の相手を投げる事ができ、ダメージが大きい",
+]
 
 [moves.driveGauge]
 onHit = 3000
@@ -1488,9 +1498,13 @@ parents = ["hooligan-combination"]
 postLandingRecovery = 10
 capcomID = 510
 notes = [
+  "During hooligan combination",
   "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack",
 ]
-notes_ja = ["フーリガンコンビネーションから派生する急降下移動技。隙が小さく、攻撃派生を警戒させてのフェイントで使いやすい"]
+notes_ja = [
+  "フーリガンコンビネーション中に",
+  "フーリガンコンビネーションから派生する急降下移動技。隙が小さく、攻撃派生を警戒させてのフェイントで使いやすい",
+]
 
 # Hooligan Combination (Charged)
 [[moves]]
@@ -1934,11 +1948,13 @@ type = "super2"
 input = "9>214214*k"
 properties = ["knockdown"]
 notes = [
+  "During a forward jump",
   "Performed while airborne, seize your opponent with a quick descending kick and perform a chokehold on them. Easy to combo into from aerial specials",
   "Attack does not transition into the cinematic attack when hitting an airborne opponent",
   "Damage is 220 x n (multiple hits until Cammy lands on the ground)",
 ]
 notes_ja = [
+  "前ジャンプ中に",
   "空中から発動し、急降下蹴りからの絞め技を極める技。空中必殺技からのコンボとして使いやすい",
   "空中ヒット時は非ロック技に性能が変化する",
   "ダメージ220×n（着地まで連続ヒット）",
@@ -1968,6 +1984,7 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Send your opponent to their knees with a series of high-speed attacks and finish with a powerful kick. A highly versatile move, useful both in combos and as a way of dealing with projectiles",
   "Completely invincible from frames 1 - 13",
   "Considered airborn from frames 9 - 27",
@@ -2020,6 +2037,7 @@ notes = [
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "高速での連撃で崩れ落ちた相手に渾身の蹴りを叩き込む高威力技。コンボや飛び道具対策など、幅広い場面で狙える",
   "1-13F 完全無敵",
   "9-27F 空中判定",
@@ -2056,6 +2074,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Latch onto your opponent and whirl around them before smashing their face into the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2063,6 +2082,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の背後に回りながら組み付き、顔面を叩き付ける投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2095,6 +2115,7 @@ input = "(2lplk)"
 
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent's head between your legs and perform a spin that tosses them behind you, switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2102,6 +2123,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭部を両脚で挟み、勢いを付けて投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2133,6 +2155,8 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Grab an airborne opponent between your legs and drive their head into the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2140,6 +2164,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手の体を両脚で挟み、落下しながら頭部を叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
