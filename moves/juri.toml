@@ -2147,9 +2147,11 @@ damage = 1200
 superArt = 600
 capcomID = 507
 notes = [
+  "After shiku-sen",
   "A series of kicks performed from Shiku-sen that tack on additional damage and knock the opponent down",
 ]
 notes_ja = ["疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える"]
+notes_ja = ["疾空閃後に", "疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える"]
 
 [moves.driveGauge]
 onHit = 1800
@@ -2256,6 +2258,7 @@ hitCount = 1
 blockType = "high"
 input = "214214[*p]"
 notes = [
+  "During Feng Shui Engine's activation start-up",
   "Power up your abilities by unleashing the power of the Feng Shui Engine embedded in your eye. Once powered up, you will be able to cancel normal moves into other normal moves or even unique attacks",
   "Minimum guaranteed damage is set to 40%",
   "Values do not change on counter or Punish Counter",
@@ -2264,6 +2267,7 @@ notes = [
   "Can cancel into normal moves, unique attacks, special moves, super arts, and Drive Impacts",
 ]
 notes_ja = [
+  "風水エンジン発動暗転中に",
   "眼に埋め込まれた風水エンジンの力を開放し、自身を強化する技。強化後は、通常技を他の通常技や特殊技でキャンセル可能となる",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2340,6 +2344,7 @@ blockType = "high"
 input = "214214*k"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Unleash the full power of the Feng Shui Engine to perform a powerful sequence of attacks. Useful when trying to tack on big damage during combos or when turning the tables on your opponent",
   "Completely invincible from frames 1 - 13",
   "Minimum guaranteed damage is set to 50%",
@@ -2347,6 +2352,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "風水エンジンの力を最大限に開放した強力な連撃を繰り出す技。大きいダメージを奪いたい時のコンボや切り返しに有効",
   "1-13F 完全無敵",
   "最低保障ダメージ50％",
@@ -2381,6 +2387,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent's head with your foot to make them hunch over, and send them flying with two kicks. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2388,6 +2395,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の体勢を足で押し下げ、2連蹴りで吹き飛ばす投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2419,6 +2427,7 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Use one foot to knock your opponent down, and follow up by stepping on their back. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2426,6 +2435,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の体勢を足で押し下げて転ばせ、背中を踏み付ける投げ技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2457,6 +2467,8 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Latch onto an airborne opponent's back and kick them to the ground behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2464,6 +2476,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手の背中に乗り、その状態から後方へ蹴り飛ばす投げ技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
