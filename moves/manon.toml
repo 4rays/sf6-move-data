@@ -1589,7 +1589,7 @@ hitCount = 1
 blockType = "high"
 type = "followUp"
 input = "*k"
-parentSlugs = ["renverse-od"]
+parents = ["renverse-od"]
 properties = ["knockdown"]
 
 startup = 11

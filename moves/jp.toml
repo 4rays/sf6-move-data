@@ -1071,7 +1071,7 @@ characterId = 14
 type = "followUp"
 blockType = "high"
 input = "214+{lp|mp}"
-parentSlugs = ["departure"]
+parents = ["departure"]
 hitCount = 1
 notes = [
   "Instantly warp to the active Departure. Jumping attacks can be used upon exiting the warp",
@@ -1097,7 +1097,7 @@ characterId = 14
 type = "followUp"
 blockType = "high"
 input = "214hp"
-parentSlugs = ["departure"]
+parents = ["departure"]
 hitCount = 1
 
 totalFrames = 40

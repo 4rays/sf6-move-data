@@ -601,7 +601,7 @@ input = "6*p"
 type = "followUp"
 hitCount = 2
 blockType = "low"
-parentSlugs = ["rashid-run"]
+parents = ["rashid-run"]
 notes = [
   "A low attack that can be performed during Run. Moves you behind the opponent when it hits",
   "Considered airborne from frames 1 - 17",
@@ -633,7 +633,7 @@ input = "6*k"
 type = "followUp"
 hitCount = 1
 blockType = "high"
-parentSlugs = ["rashid-run"]
+parents = ["rashid-run"]
 notes = [
   "An attack that can be performed during Run. This multi-hitting attack lets you expand your mix-up game",
   "Can be affected by air currents from frames 1 - 15",
@@ -668,7 +668,7 @@ input = "6*k"
 type = "followUp"
 hitCount = 1
 blockType = "high"
-parentSlugs = ["rashid-run"]
+parents = ["rashid-run"]
 properties = ["knockdown"]
 notes = ["Considered airborne from frames 20 - 35"]
 notes_ja = ["20-35F 空中判定"]
@@ -914,7 +914,7 @@ slug = "front-flip"
 characterId = 18
 input = "{4|5|6}(kk)"
 type = "followUp"
-parentSlugs = ["side-flip"]
+parents = ["side-flip"]
 notes = [
   "Flip through the air towards the opponent. Jump attacks can be performed while in mid-air",
   "Considered airborne from frames 11 - 43",
@@ -2060,7 +2060,7 @@ characterId = 18
 input = "*k"
 type = "followUp"
 blockType = "high"
-parentSlugs = ["rolling-assault"]
+parents = ["rolling-assault"]
 properties = ["knockdown"]
 
 startup = 17

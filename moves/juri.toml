@@ -2138,7 +2138,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlugs = ["shiku-sen"]
+parents = ["shiku-sen"]
 
 startup = 6
 active = [6, 9, 14, 17, 35, 38]
@@ -2164,7 +2164,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(kk)"
-parentSlugs = ["shiku-sen-od"]
+parents = ["shiku-sen-od"]
 
 startup = 6
 active = [6, 9, 14, 17, 35, 38]

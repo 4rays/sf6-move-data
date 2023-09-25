@@ -1508,7 +1508,7 @@ type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "lk"
-parentSlugs = ["jus-cool"]
+parents = ["jus-cool"]
 
 startup = 12
 active = [12, 14]
@@ -1541,7 +1541,7 @@ type = "followUp"
 hitCount = 1
 blockType = "mid"
 input = "mk"
-parentSlugs = ["jus-cool"]
+parents = ["jus-cool"]
 properties = ["knockdown"]
 notes = [
   "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
@@ -1578,7 +1578,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["jus-cool"]
+parents = ["jus-cool"]
 properties = ["knockdown"]
 
 startup = 15
@@ -1609,7 +1609,7 @@ slug = "juggling-dash"
 characterId = 11
 type = "followUp"
 input = "6*p"
-parentSlugs = ["jus-cool"]
+parents = ["jus-cool"]
 notes = [
   "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
   "Invincible to projectiles from frames 1 - 20",
@@ -1668,7 +1668,7 @@ characterId = 11
 type = "followUp"
 hitCount = 2
 input = "6*p>4*p"
-parentSlugs = ["jus-cool", "juggling-dash"]
+parents = ["jus-cool", "juggling-dash"]
 totalFrames = 29
 capcomID = 512
 notes = [
@@ -1688,7 +1688,7 @@ type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "lk"
-parentSlugs = ["jus-cool-od"]
+parents = ["jus-cool-od"]
 notes = [
   "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
   "Forces a spinning knockdown when hitting a mid-air opponent",
@@ -1723,7 +1723,7 @@ type = "followUp"
 hitCount = 1
 blockType = "mid"
 input = "mk"
-parentSlugs = ["jus-cool-od"]
+parents = ["jus-cool-od"]
 notes = [
   "A roundhouse kick performed from Jus Cool that cannot be blocked crouching. You can continue your attack even if blocked, making it useful when worked into sequences intended to slip through an opponent's guard",
   "Forces a slam knockdown when hitting a mid-air opponent",
@@ -1760,7 +1760,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["jus-cool-od"]
+parents = ["jus-cool-od"]
 properties = ["knockdown"]
 
 startup = 11
@@ -1792,7 +1792,7 @@ slug = "juggling-dash-od"
 characterId = 11
 type = "followUp"
 input = "6*p"
-parentSlugs = ["jus-cool-od"]
+parents = ["jus-cool-od"]
 notes = [
   "A quick forward-moving maneuver performed from Jus Cool. While in motion, you are invincible to projectiles",
   "Invincible to projectiles from frames 1 - 20",
@@ -1817,7 +1817,7 @@ characterId = 11
 type = "followUp"
 hitCount = 2
 input = "6*p>4*p"
-parentSlugs = ["jus-cool-od", "juggling-dash-od"]
+parents = ["jus-cool-od", "juggling-dash-od"]
 
 totalFrames = 22
 capcomID = 512
@@ -2620,7 +2620,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hp"
-parentSlugs = ["marvelous-sunrise-festival"]
+parents = ["marvelous-sunrise-festival"]
 properties = ["knockdown"]
 
 startup = 11
@@ -2650,7 +2650,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hp"
-parentSlugs = ["headliner-sunrise-festival"]
+parents = ["headliner-sunrise-festival"]
 properties = ["knockdown"]
 
 startup = 11
@@ -2680,7 +2680,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["marvelous-sunrise-festival"]
+parents = ["marvelous-sunrise-festival"]
 properties = ["knockdown"]
 
 startup = 33
@@ -2710,7 +2710,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["headliner-sunrise-festival"]
+parents = ["headliner-sunrise-festival"]
 properties = ["knockdown"]
 
 startup = 33

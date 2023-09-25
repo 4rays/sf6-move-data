@@ -1496,7 +1496,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["sumo-dash"]
+parents = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
@@ -1532,7 +1532,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p>*p"
-parentSlugs = ["sumo-dash"]
+parents = ["sumo-dash"]
 properties = ["knockdown"]
 
 startup = 14
@@ -1564,7 +1564,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["sumo-dash-od"]
+parents = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
@@ -1599,7 +1599,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p>*p"
-parentSlugs = ["sumo-dash-od"]
+parents = ["sumo-dash-od"]
 properties = ["knockdown"]
 
 startup = 14
@@ -1630,7 +1630,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "2*p"
-parentSlugs = ["sumo-dash"]
+parents = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
   "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",
@@ -1666,7 +1666,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "2*p"
-parentSlugs = ["sumo-dash-od"]
+parents = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
   "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",

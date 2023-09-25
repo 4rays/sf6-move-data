@@ -2180,7 +2180,7 @@ characterId = 13
 blockType = "mid"
 type = "followUp"
 input = "*p"
-parentSlugs = ["scutum"]
+parents = ["scutum"]
 notes = [
   "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses",
   "Always in Punish Counter state during execution",
@@ -2218,7 +2218,7 @@ characterId = 13
 blockType = "mid"
 type = "followUp"
 input = "*p>*p"
-parentSlugs = ["scutum"]
+parents = ["scutum"]
 properties = ["knockdown"]
 notes = [
   "A two-hit attack that can be performed from Scutum. The first hit is an overhead attack that cannot be blocked crouching, making it useful for penetrating defenses",
@@ -2252,7 +2252,7 @@ blockType = "low"
 characterId = 13
 type = "followUp"
 input = "*k"
-parentSlugs = ["scutum"]
+parents = ["scutum"]
 properties = ["knockdown"]
 notes = [
   "A sweeping kick that can be performed from Scutum. It is a low attack with long reach that cannot be blocked standing, making it useful for surprise attacks",
@@ -2285,7 +2285,7 @@ slug = "enfold"
 characterId = 13
 type = "followUp"
 input = "(lplk)"
-parentSlugs = ["scutum"]
+parents = ["scutum"]
 properties = ["knockdown"]
 notes = [
   "A throw that can be performed from Scutum. Pin your opponent to the ground and pound them with a single powerful punch. Useful as a way to break through the guard of an opponent who is expecting Scutum to be followed by a punch or kick",

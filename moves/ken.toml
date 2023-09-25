@@ -617,7 +617,7 @@ characterId = 7
 type = "followUp"
 hitCount = 0
 input = "lk"
-parentSlugs = ["quick-dash"]
+parents = ["quick-dash"]
 
 totalFrames = 16
 capcomID = 402
@@ -634,7 +634,7 @@ slug = "thunder-kick"
 characterId = 7
 type = "followUp"
 input = "mk"
-parentSlugs = ["quick-dash"]
+parents = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
@@ -667,7 +667,7 @@ slug = "forward-step-kick"
 characterId = 7
 type = "followUp"
 input = "hk"
-parentSlugs = ["quick-dash"]
+parents = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
@@ -1870,7 +1870,7 @@ notes_ja = [
   "11F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlugs = ["jinrai-kick-od"]
+parents = ["jinrai-kick-od"]
 
 startup = 6
 active = [6, 8]
@@ -1906,7 +1906,7 @@ notes_ja = [
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlugs = ["jinrai-kick-od", "kazekama-shin-kick-od"]
+parents = ["jinrai-kick-od", "kazekama-shin-kick-od"]
 
 startup = 15
 active = [15, 17]
@@ -1947,7 +1947,7 @@ notes_ja = [
   "24F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
 ]
-parentSlugs = ["jinrai-kick-od"]
+parents = ["jinrai-kick-od"]
 
 startup = 17
 active = [17, 19]
@@ -1976,7 +1976,7 @@ characterId = 7
 type = "followUp"
 hitCount = 1
 input = "6*k"
-parentSlugs = ["jinrai-kick-od", "gorai-axe-kick-od"]
+parents = ["jinrai-kick-od", "gorai-axe-kick-od"]
 properties = ["knockdown"]
 notes = [
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage",
@@ -2014,7 +2014,7 @@ characterId = 7
 type = "followUp"
 hitCount = 1
 input = "6hk"
-parentSlugs = ["jinrai-kick-od"]
+parents = ["jinrai-kick-od"]
 properties = ["knockdown"]
 notes = [
   "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick",
@@ -2050,7 +2050,7 @@ characterId = 7
 type = "followUp"
 hitCount = 2
 input = "6*k"
-parentSlugs = ["jinrai-kick-od", "senka-snap-kick-od"]
+parents = ["jinrai-kick-od", "senka-snap-kick-od"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [

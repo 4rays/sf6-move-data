@@ -36,8 +36,8 @@ slug = "drive-rush"
 abbreviation = "DR"
 abbeviation_ja = "DR"
 type = "action"
-input = "(6mpmk)6"
-parentSlugs = ["drive-parry"]
+input = "(6+mp+mk)>6"
+parents = ["drive-parry"]
 
 # Drive Impact
 [[moves]]
@@ -57,7 +57,7 @@ slug = "drive-rush-cancel"
 abbreviation = "DRC"
 abbeviation_ja = "DRC"
 type = "action"
-input = "66"
+input = "{66|(5mp+5mk)}"
 notes = ["While connecting with a special-cancelable move"]
 notes_ja = ["必殺技キャンセル可能な攻撃ヒット中に"]
 

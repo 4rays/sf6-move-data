@@ -663,7 +663,7 @@ slug = "step-up"
 characterId = 5
 type = "followUp"
 input = "7|8|9"
-parentSlugs = ["hisen-kick"]
+parents = ["hisen-kick"]
 notes_ja = ["飛箭蹴から派生する、3方向へのジャンプ動作", "ジャンプ動作中空中技でキャンセル可能"]
 postLandingRecovery = 3
 capcomID = 404
@@ -1170,7 +1170,7 @@ slug = "kimberly-emergency-stop"
 characterId = 5
 type = "followUp"
 input = "*p"
-parentSlugs = ["sprint"]
+parents = ["sprint"]
 totalFrames = 14
 capcomID = 504
 notes = [
@@ -1188,7 +1188,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "lk"
-parentSlugs = ["sprint"]
+parents = ["sprint"]
 properties = ["knockdown"]
 
 startup = 21
@@ -1221,7 +1221,7 @@ type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "mk"
-parentSlugs = ["sprint"]
+parents = ["sprint"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1256,7 +1256,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["sprint"]
+parents = ["sprint"]
 properties = ["knockdown"]
 
 startup = 19
@@ -1288,7 +1288,7 @@ characterId = 5
 type = "followUp"
 input = "5"
 blockType = "high"
-parentSlugs = ["sprint"]
+parents = ["sprint"]
 notes = [
   "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap",
   "Considered airborne from frames 10 - 43",
@@ -1325,7 +1325,7 @@ slug = "bushin-izuna-otoshi"
 characterId = 5
 type = "followUp"
 input = "*p"
-parentSlugs = ["sprint", "arc-step"]
+parents = ["sprint", "arc-step"]
 properties = ["knockdown"]
 notes = [
   "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
@@ -1362,7 +1362,7 @@ characterId = 5
 type = "followUp"
 input = "*k"
 blockType = "high"
-parentSlugs = ["sprint", "arc-step"]
+parents = ["sprint", "arc-step"]
 properties = ["knockdown"]
 
 startup = 13
@@ -1415,7 +1415,7 @@ slug = "kimberly-emergency-stop-od"
 characterId = 5
 type = "followUp"
 input = "*p"
-parentSlugs = ["sprint-od"]
+parents = ["sprint-od"]
 totalFrames = 13
 capcomID = 504
 notes = [
@@ -1433,7 +1433,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "lk"
-parentSlugs = ["sprint-od"]
+parents = ["sprint-od"]
 properties = ["knockdown"]
 
 startup = 17
@@ -1467,7 +1467,7 @@ type = "followUp"
 hitCount = 1
 blockType = "low"
 input = "mk"
-parentSlugs = ["sprint-od"]
+parents = ["sprint-od"]
 properties = ["knockdown"]
 
 startup = 8
@@ -1503,7 +1503,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "hk"
-parentSlugs = ["sprint-od"]
+parents = ["sprint-od"]
 properties = ["knockdown"]
 notes = [
   "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
@@ -1539,7 +1539,7 @@ slug = "arc-step-od"
 characterId = 5
 type = "followUp"
 input = "5"
-parentSlugs = ["sprint-od"]
+parents = ["sprint-od"]
 notes = [
   "Approach your opponent with Sprint and then kick off their body to leap backwards. Can be followed up with either an attack or a throw after the leap",
   "Considered airborne from frames 10 - 43",
@@ -1577,7 +1577,7 @@ slug = "bushin-izuna-otoshi-od"
 characterId = 5
 type = "followUp"
 input = "*p"
-parentSlugs = ["sprint-od", "arc-step-od"]
+parents = ["sprint-od", "arc-step-od"]
 properties = ["knockdown"]
 notes = [
   "A throw attack performed from Arc Step in which you leap onto and grab your opponent. Useful against opponents who keep their guard up after blocking Arc Step",
@@ -1617,7 +1617,7 @@ characterId = 5
 type = "followUp"
 input = "*k"
 blockType = "high"
-parentSlugs = ["sprint-od", "arc-step-od"]
+parents = ["sprint-od", "arc-step-od"]
 properties = ["knockdown"]
 notes = [
   "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",

@@ -1083,7 +1083,7 @@ characterId = 3
 type = "followUp"
 hitCount = 1
 input = "lp"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 notes = [
   "A quick strike, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
@@ -1117,7 +1117,7 @@ characterId = 3
 type = "followUp"
 hitCount = 1
 input = "mp"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
   "A forward-moving, repeatable low profile strike, performed during Serenity Stream",
@@ -1155,7 +1155,7 @@ type = "followUp"
 hitCount = 1
 input = "hp"
 blockType = "mid"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 
 startup = 23
 active = [23, 24, 31, 32]
@@ -1187,7 +1187,7 @@ characterId = 3
 type = "followUp"
 hitCount = 1
 input = "lk"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 notes = [
   "A quick, low kick, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
@@ -1221,7 +1221,7 @@ characterId = 3
 type = "followUp"
 hitCount = 1
 input = "mk"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 notes = [
   "A low kick with long reach, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
@@ -1255,7 +1255,7 @@ characterId = 3
 type = "followUp"
 hitCount = 1
 input = "hk"
-parentSlugs = ["serenity-stream"]
+parents = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
   "A launching kick, performed during Serenity Stream. Can immediately be canceled into a jump on hit",
@@ -1425,10 +1425,10 @@ name = "Lightning Kicks Barrage"
 name_ja = "百裂連脚"
 slug = "lightning-kicks-barrage"
 characterId = 3
-type = "special"
+type = "followUp"
 hitCount = 1
 input = "(kk)"
-parentSlugs = ["hundred-lightning-kicks-od"]
+parents = ["hundred-lightning-kicks-od"]
 properties = ["knockdown"]
 
 startup = 11

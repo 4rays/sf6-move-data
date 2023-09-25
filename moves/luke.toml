@@ -1056,7 +1056,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(pp)"
-parentSlugs = ["sand-blast-od"]
+parents = ["sand-blast-od"]
 properties = ["knockdown"]
 notes = [
   "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles",
@@ -1497,7 +1497,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(pp)"
-parentSlugs = ["flash-knuckle-od"]
+parents = ["flash-knuckle-od"]
 properties = ["knockdown"]
 notes = [
   "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage",
@@ -1625,7 +1625,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["avenger"]
+parents = ["avenger"]
 properties = ["knockdown"]
 
 startup = 12
@@ -1684,7 +1684,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlugs = ["avenger"]
+parents = ["avenger"]
 properties = ["knockdown"]
 notes = [
   "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
@@ -1719,7 +1719,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["avenger-od"]
+parents = ["avenger-od"]
 properties = ["knockdown"]
 
 startup = 12
@@ -1753,7 +1753,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*k"
-parentSlugs = ["avenger-od"]
+parents = ["avenger-od"]
 properties = ["knockdown"]
 
 startup = 13
@@ -1951,7 +1951,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "(pp)"
-parentSlugs = ["rising-uppercut-od"]
+parents = ["rising-uppercut-od"]
 properties = ["knockdown"]
 notes = [
   "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward",

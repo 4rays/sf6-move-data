@@ -1757,7 +1757,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6lp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1790,7 +1790,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6lp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1818,7 +1818,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6mp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1851,7 +1851,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6mp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1879,7 +1879,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6hp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1912,7 +1912,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "6hp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1938,7 +1938,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "pp"
-parentSlugs = ["sonic-blade"]
+parents = ["sonic-blade"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1968,7 +1968,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["sonic-blade-od"]
+parents = ["sonic-blade-od"]
 properties = ["knockdown"]
 
 startup = 10
@@ -1998,7 +1998,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "pp"
-parentSlugs = ["sonic-cross-od"]
+parents = ["sonic-cross-od"]
 properties = ["knockdown"]
 notes = [
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -2122,7 +2122,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "pp"
-parentSlugs = ["sonic-puncher"]
+parents = ["sonic-puncher"]
 notes = [
   "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21",
@@ -2155,7 +2155,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["sonic-puncher"]
+parents = ["sonic-puncher"]
 notes = [
   "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",
   "Can transition to a regular Sonic Break (available while Level 2 Super Art is active) from frames 13 - 21, up to 3 times",
@@ -2190,7 +2190,7 @@ type = "followUp"
 hitCount = 1
 blockType = "high"
 input = "*p"
-parentSlugs = ["sonic-puncher"]
+parents = ["sonic-puncher"]
 properties = ["knockdown"]
 notes = [
   "Used to fire aerial slashes while Solid Puncher is active. The speed of the projectile can be modified with directional inputs",

@@ -2540,7 +2540,7 @@ slug = "wild-lift"
 characterId = 8
 type = "followUp"
 input = "*p"
-parentSlugs = ["coward-crouch"]
+parents = ["coward-crouch"]
 hitCount = 1
 properties = ["knockdown"]
 
@@ -2569,7 +2569,7 @@ slug = "raid-jump"
 characterId = 8
 type = "followUp"
 input = "*k"
-parentSlugs = ["coward-crouch"]
+parents = ["coward-crouch"]
 notes = [
   "A forward jump performed from Coward Crouch",
   "Considered airborne from frames 9 - 43",
