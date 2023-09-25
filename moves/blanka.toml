@@ -1709,10 +1709,15 @@ input = "j>[4]>6lp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "During a jump",
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
   "Has cross-up attack properties",
 ]
-notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", "めくり性能"]
+notes_ja = [
+  "ジャンプ中に",
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", 
+  "めくり性能"
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1776,10 +1781,15 @@ input = "j>[4]>6mp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "During a jump",
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
   "Has cross-up attack properties",
 ]
-notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", "めくり性能"]
+notes_ja = [
+  "ジャンプ中に",
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的",
+  "めくり性能"
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1843,10 +1853,15 @@ input = "j>[4]>6hp"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "During a jump",
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
   "Has cross-up attack properties",
 ]
-notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", "めくり性能"]
+notes_ja = [
+  "ジャンプ中に",
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 17
@@ -1910,10 +1925,15 @@ input = "j>[4]>6(pp)"
 hitCount = 1
 properties = ["knockdown", "canCrossUp"]
 notes = [
+  "During a jump",
   "Quickly descend from the air with a spinning tackle. Effective when used as a surprise attack while feigning a backward jump",
   "Has cross-up attack properties",
 ]
-notes_ja = ["空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", "めくり性能"]
+notes_ja = [
+  "ジャンプ中に",
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的",
+  "めくり性能",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 10
@@ -1974,10 +1994,12 @@ input = "236lk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
   "Considered airborne from frames 9 - 26",
 ]
 notes_ja = [
+  "近距離で",
   "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効",
   "9-26F 空中判定",
   "パニッシュカウンター時個別ダメージ（1840）",
@@ -2006,10 +2028,12 @@ input = "236mk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
   "Considered airborne from frames 14 - 36",
 ]
 notes_ja = [
+  "近距離で",
   "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効",
   "14-36F 空中判定",
   "パニッシュカウンター時個別ダメージ（1955）",
@@ -2038,10 +2062,12 @@ input = "236hk"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
   "Considered airborne from frames 18 - 36",
 ]
 notes_ja = [
+  "近距離で",
   "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効",
   "18-36F 空中判定",
   "パニッシュカウンター時個別ダメージ（2070）",
@@ -2070,10 +2096,12 @@ input = "236(pp)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Leap at an opponent, pin them down, and scratch them multiple times. Useful for slipping through the guard of opponents who are committed to blocking",
   "Considered airborne from frames 9 - 36",
 ]
 notes_ja = [
+  "近距離で",
   "飛び掛かりから相手を組み伏せ、引っ掻き攻撃を浴びせる投げ技。ガードを固める相手を崩す手段として有効",
   "9-28F 空中判定",
   "パニッシュカウンター時個別ダメージ（2300）",
@@ -2242,6 +2270,7 @@ input = "236236*p"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Leap onto your opponent and bite them multiple times before slamming into them with an electrically charged spinning tackle. The leap performed upon activation can be used to deal with projectiles",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
@@ -2290,6 +2319,7 @@ notes = [
   "*Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手に組み付き、噛み付きから電撃を纏った回転攻撃へ繋ぐ技。発動時の飛び掛かりは飛び道具対策に使える",
   "1-12F 完全無敵",
   "最低保障ダメージ50%",
@@ -2550,8 +2580,11 @@ recovery = 31
 damage = 600
 superArt = 500
 capcomID = 407
-notes = ["A launching attack performed from Coward Crouch"]
-notes_ja = ["フィアーダウンから派生する、相手を打ち上げる攻撃"]
+notes = [
+  "During coward crouch",
+  "A launching attack performed from Coward Crouch",
+]
+notes_ja = ["フィアーダウン中に", "フィアーダウンから派生する、相手を打ち上げる攻撃"]
 
 [moves.frameAdvantage]
 block = -21
@@ -2571,11 +2604,13 @@ type = "followUp"
 input = "*k"
 parents = ["coward-crouch"]
 notes = [
+  "During coward crouch",
   "A forward jump performed from Coward Crouch",
   "Considered airborne from frames 9 - 43",
   "Can be canceled from mid-air normal attacks or special moves from frames 15 - 43",
 ]
 notes_ja = [
+  "フィアーダウン中に",
   "フィアーダウンから派生する、前方へジャンプする動作",
   "9-43F 空中判定",
   "15-43F 空中での通常技及び必殺技へ派生可",
@@ -2634,6 +2669,7 @@ input = "(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Latch onto your opponent, bite them a few times, and kick off of them. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2641,6 +2677,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手に組み付き、噛み付き攻撃を浴びせた後に蹴り飛ばす投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2673,6 +2710,7 @@ input = "(4lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Place your hands on your opponent's shoulders, climb on top of them, then send them tumbling as you kick off their back. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2680,6 +2718,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の肩に手を付いて跳び越え、背面を蹴り飛ばす投げ技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2712,6 +2751,8 @@ input = "j>(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Grab an airborne opponent, bite them while falling to the ground, and then bite them once again. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2719,6 +2760,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手に喰らいついて落下し、さらに噛み付きを浴びせる技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
