@@ -1316,10 +1316,12 @@ blockType = "high"
 input = "63214lp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "Damage set to 2300 on Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2300）",
 ]
@@ -1350,10 +1352,12 @@ blockType = "high"
 input = "63214mp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "Damage set to 2645 on Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2645）",
 ]
@@ -1384,6 +1388,7 @@ blockType = "high"
 input = "63214hp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "With Classic Controls",
   "Does 2760 individual damage when the attack lands as a Punish Counter",
@@ -1391,6 +1396,7 @@ notes = [
   "Does 2208 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（2760）",
@@ -1424,6 +1430,7 @@ blockType = "high"
 input = "63214(pp)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the head, slam them into the ground, and follow up with a Sumo Slam. Useful for breaking through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3220 individual damage when the attack lands as a Punish Counter",
@@ -1431,6 +1438,7 @@ notes = [
   "Does 2576 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭部を掴んで叩き付け、百貫落としで追撃する投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3220）",
@@ -1499,10 +1507,12 @@ input = "*p"
 parents = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
+  "During Sumo Dash",
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
   "Can only transition to the last hit on frame 34 if the attack hits",
 ]
 notes_ja = [
+  "相撲ステップ中に",
   "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
   "ヒット時のみ34F目で最終段へ派生可能",
 ]
@@ -1542,9 +1552,13 @@ damage = 600
 superArt = 1000
 capcomID = 506
 notes = [
+  "During Sumo Dash",
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
 ]
-notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効"]
+notes_ja = [
+  "相撲ステップ中に",
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
+]
 
 [moves.frameAdvantage]
 block = -24
@@ -1567,10 +1581,12 @@ input = "*p"
 parents = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
+  "During Sumo Dash OD",
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
   "Can only transition to the last hit on frame 34 if the attack hits",
 ]
 notes_ja = [
+  "OD相撲ステップ中に",
   "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
   "ヒット時のみ34F目で最終段へ派生可能",
 ]
@@ -1609,9 +1625,13 @@ damage = 800
 superArt = 1000
 capcomID = 506
 notes = [
+  "During Sumo Dash OD",
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
 ]
-notes_ja = ["相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効"]
+notes_ja = [
+  "OD相撲ステップ中に",
+  "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効"
+  ]
 
 [moves.frameAdvantage]
 block = -24
@@ -1633,10 +1653,12 @@ input = "2*p"
 parents = ["sumo-dash"]
 properties = ["knockdown"]
 notes = [
+  "During Sumo Dash",
   "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",
   "On hit, recovery is 15 frames and the total attack is 49 frames",
 ]
 notes_ja = [
+  "相撲ステップ中に",
   "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える",
   "ヒット時は硬直15F、全体49F",
 ]
@@ -1669,10 +1691,12 @@ input = "2*p"
 parents = ["sumo-dash-od"]
 properties = ["knockdown"]
 notes = [
+  "During Sumo Dash OD",
   "A sequence of two strikes performed from Sumo Dash that launch an opponent into the air. Can be used to deal big damage in combos performed on opponents who have left themselves wide open",
   "On hit, recovery is 15 frames and the total attack is 49 frames",
 ]
 notes_ja = [
+  "OD相撲ステップ中に",
   "相撲ステップから派生する、相手を打ち上げる打撃を繰り出す技。相手の大きな隙に対するコンボに組み込むと高ダメージを狙える",
   "ヒット時は硬直15F、全体49F",
 ]
@@ -1841,12 +1865,14 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Swing your opponent in a circle to draw the outline of a sumo ring, then just as you're about to push them out of it, throw them to the ground behind you with a brutal slam. This move has long reach and comes out quickly, making it quite versatile",
   "Completely invincible from frames 1 - 11",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手を動かして土俵を描き、寄りきりから強烈に投げ落とす技。出始めのリーチが長く、出も早いので様々な状況で狙っていける",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
@@ -1984,12 +2010,13 @@ characterId = 10
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
-input = "2mk"
+input = "9>2mk"
 notes = [
+  "During a forward jump",
   "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
   "Has cross-up attack properties",
 ]
-notes_ja = ["攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス", "めくり性能"]
+notes_ja = ["前ジャンプ中に", "攻撃範囲が広く、相手を飛び越えてもヒットするボディプレス", "めくり性能"]
 startup = 11
 active = [11, 19]
 postLandingRecovery = 3
@@ -2081,6 +2108,7 @@ characterId = 10
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Clasp both arms around your opponent's back, squeeze them, and slam them to the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2088,6 +2116,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の背に両腕を回して絞め上げ、地面へ投げ付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2119,6 +2148,7 @@ characterId = 10
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Clasp both arms around your opponent's back and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2126,6 +2156,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の背に両腕を回して組み付き、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
