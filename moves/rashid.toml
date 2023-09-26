@@ -425,7 +425,6 @@ onHit = 500
 onBlock = -1500
 onPunishCounter = -2000
 
-
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -603,10 +602,11 @@ hitCount = 2
 blockType = "low"
 parents = ["rashid-run"]
 notes = [
+  "During run",
   "A low attack that can be performed during Run. Moves you behind the opponent when it hits",
   "Considered airborne from frames 1 - 17",
 ]
-notes_ja = ["ラン動作から派生する下段攻撃。ヒット時は位置が入れ替わる", "1F-17F 気流干渉可"]
+notes_ja = ["ラン中に", "ラン動作から派生する下段攻撃。ヒット時は位置が入れ替わる", "1F-17F 気流干渉可"]
 startup = 8
 active = [8, 17]
 recovery = 17
@@ -635,11 +635,17 @@ hitCount = 1
 blockType = "high"
 parents = ["rashid-run"]
 notes = [
+  "During run",
   "An attack that can be performed during Run. This multi-hitting attack lets you expand your mix-up game",
   "Can be affected by air currents from frames 1 - 15",
   "Considered airborne from frames 6 - 21",
 ]
-notes_ja = ["ラン動作から派生する、上下への攻撃範囲が広い連続攻撃", "2-4F 気流干渉により性能変化", "6-21F 空中判定"]
+notes_ja = [
+  "ラン中に",
+  "ラン動作から派生する、上下への攻撃範囲が広い連続攻撃",
+  "2-4F 気流干渉により性能変化",
+  "6-21F 空中判定",
+]
 startup = 16
 active = [16, 17, 22, 24]
 recovery = 21
@@ -670,9 +676,11 @@ hitCount = 1
 blockType = "high"
 parents = ["rashid-run"]
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 20 - 35"]
-notes_ja = ["20-35F 空中判定"]
-
+notes = [
+  "From run when coming in contact with an air current",
+  "Considered airborne from frames 20 - 35",
+]
+notes_ja = ["気流接触中にランから", "20-35F 空中判定"]
 startup = 9
 active = [9, 11, 33, 34, 38, 40]
 recovery = 22
@@ -793,7 +801,7 @@ name = "Blitz Strike"
 name_ja = "ブリッツストライク"
 slug = "blitz-strike"
 characterId = 18
-input = "j>2hp"
+input = "9>2hp"
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
@@ -830,7 +838,7 @@ name = "Aerial Shot"
 name_ja = "エリアルシュート"
 slug = "aerial-shot"
 characterId = 18
-input = "j>8hk"
+input = "8>8hk"
 type = "commandNormal"
 hitCount = 1
 blockType = "mid"
@@ -872,9 +880,7 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
 capcomID = 409
-notes = [
-  "A two-hit combination attack that can be canceled into special moves",
-]
+notes = ["A two-hit combination attack that can be canceled into special moves"]
 notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
@@ -916,12 +922,14 @@ input = "{4|5|6}(kk)"
 type = "followUp"
 parents = ["side-flip"]
 notes = [
+  "During Side Flip",
   "Flip through the air towards the opponent. Jump attacks can be performed while in mid-air",
   "Considered airborne from frames 11 - 43",
   "Can transition to any mid-air normal attack, unique attack or special move from frame 22 - 40",
   "Can be affected by air currents from frames 1 - 36",
 ]
 notes_ja = [
+  "サイド・フリップ中に",
   "前方へ宙返りで跳び上がる動作。空中攻撃での行動が可能",
   "11-43F 空中判定",
   "22-40F 空中での通常技、特殊技及び必殺技へ派生可",
@@ -980,6 +988,8 @@ characterId = 18
 input = "236lp"
 type = "special"
 blockType = "high"
+notes = ["When coming in contact with an air current"]
+notes_ja = ["気流接触中に"]
 
 startup = 6
 active = [6, 12, 14, 18, 20, 25, 27, 31, 33, 38, 40, 44, 46, 51, 53, 57, 59]
@@ -1054,8 +1064,14 @@ input = "236mp"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 10 -97"]
-notes_ja = ["10-97F 空中判定"]
+notes = [
+  "When coming in contact with an air current",
+  "Considered airborne from frames 10 -97"
+]
+notes_ja = [
+  "気流接触中に",
+  "10-97F 空中判定"
+]
 
 startup = 5
 active = [
@@ -1145,10 +1161,15 @@ type = "special"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "When coming in contact with an air current",
   "Invincible to mid-air attacks from frames 6 - 12",
   "Considered airborne from frames 9 - 91",
 ]
-notes_ja = ["6-12F 空中判定の攻撃に対して無敵", "8-91F 空中判定"]
+notes_ja = [
+  "気流接触中に",
+  "6-12F 空中判定の攻撃に対して無敵", 
+  "8-91F 空中判定"
+]
 
 startup = 5
 active = [5, 7, 9, 11, 15, 17, 22, 24, 28, 30, 33, 35, 38, 40, 43, 45, 49, 51]
@@ -1213,12 +1234,12 @@ type = "special"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "When coming in contact with an air current",
   "Completely invincible from frames 1 - 8",
   "Can transition to mid-air special moves from frames 67 - 71",
   "Considered airborne from frames 10 - 97",
 ]
-notes_ja = ["1-8F 完全無敵", "10-97F 空中判定", "67-71F 空中での必殺技へ派生可"]
-
+notes_ja = ["気流接触中に", "1-8F 完全無敵", "10-97F 空中判定", "67-71F 空中での必殺技へ派生可"]
 startup = 4
 active = [
   4,
@@ -1302,8 +1323,14 @@ input = "214lk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 9 - 38"]
-notes_ja = ["9-38F 空中判定"]
+notes = [
+  "When coming in contact with an air current",
+  "Considered airborne from frames 9 - 38"
+]
+notes_ja = [
+  "気流接触中に",
+  "9-38F 空中判定"
+]
 
 startup = 14
 active = [14, 26]
@@ -1366,8 +1393,14 @@ input = "214mk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 17 - 45"]
-notes_ja = ["17-45F 空中判定"]
+notes = [
+  "When coming in contact with an air current",
+  "Considered airborne from frames 17 - 45"
+]
+notes_ja = [
+  "気流接触中に",
+  "17-45F 空中判定"
+]
 
 startup = 17
 active = [17, 31]
@@ -1430,8 +1463,14 @@ input = "214hk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 17 - 45"]
-notes_ja = ["8-45F 空中判定"]
+notes = [
+  "When coming in contact with an air current",
+  "Considered airborne from frames 17 - 45"
+]
+notes_ja = [
+  "気流接触中に",
+  "8-45F 空中判定"
+]
 
 startup = 17
 active = [17, 31]
@@ -1494,11 +1533,11 @@ type = "special"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "When coming in contact with an air current",
   "Considered airborne from frames 12 - 40",
   "Invincible to projectiles from frames 1 - 40",
 ]
-notes_ja = ["12-40F 空中判定", "1-40F 飛び道具に対して無敵"]
-
+notes_ja = ["気流接触中に", "12-40F 空中判定", "1-40F 飛び道具に対して無敵"]
 startup = 18
 active = [18, 31]
 recovery = 22
@@ -1960,7 +1999,7 @@ alternativeNames = ["OD Arabian Cyclone"]
 alternativeNames_ja = ["OD アラビアン・サイクロン"]
 slug = "arabian-cyclone-od"
 characterId = 18
-input = "214(kk)"
+input = "214(pp)"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
@@ -2009,12 +2048,14 @@ relatedMoves = [
   "arabian-cyclone-od",
 ]
 notes = [
+  "During Arabian Cyclone",
   "A majestic mid-air forward dash performed from Arabian Cyclone. Allows you to break into a jump attack at any point of the dash",
   "Considered airborne from frames 22 - 61",
   "Can transition to normal mid-air attacks from frames 32 - 51",
   "Can be affected by air currents from frames 23 - 47",
 ]
 notes_ja = [
+  "アラビアン・サイクロン中に",
   "アラビアン・サイクロンから派生する、空中を前方に移動する技。動作中は空中攻撃での再行動が可能",
   "22-61F 空中判定",
   "32-51F 空中での通常技へ派生可",
@@ -2039,11 +2080,13 @@ relatedMoves = [
   "arabian-cyclone-od",
 ]
 notes = [
+  "During Arabian Cyclone",
   "A move performed from Arabian Cyclone that sends you rolling forward. A great technique for closing the distance from far or keeping the pressure on when you're up close",
   "Can transition to branching attacks from frames 17 - 20",
   "Can be affected by air currents from frames 8 - 25",
 ]
 notes_ja = [
+  "アラビアン・サイクロン中に",
   "アラビアン・サイクロンから派生する、前転での移動を行う技。離れた位置からの接近や近距離での攻め継続手段として有効",
   "17-20F 専用技へ派生可",
   "8F-25F 気流干渉可",
@@ -2073,9 +2116,13 @@ scaling_ja = ["始動補正20%"]
 superArt = 300
 capcomID = 507
 notes = [
+  "During Rolling Assault",
   "A rolling kick delivered out of Rolling Assault. Very effective as a follow up attack on opponents launched by Arabian Cyclone",
 ]
-notes_ja = ["アサルト・ロールから派生する、回し蹴りを繰り出す技。アラビアン・サイクロンで浮かせた相手への追撃として有効"]
+notes_ja = [
+  "アサルト・ロール中に",
+  "アサルト・ロールから派生する、回し蹴りを繰り出す技。アラビアン・サイクロンで浮かせた相手への追撃として有効",
+]
 
 [moves.frameAdvantage]
 block = 9
@@ -2093,7 +2140,7 @@ alternativeNames = ["L Arabian Skyhigh"]
 alternativeNames_ja = ["弱 アラビアン・スカイハイ"]
 slug = "arabian-skyhigh-light"
 characterId = 18
-input = "j>214lk"
+input = "9>214lk"
 type = "special"
 blockType = "high"
 notes = [
@@ -2128,7 +2175,7 @@ alternativeNames = ["M Arabian Skyhigh"]
 alternativeNames_ja = ["中 アラビアン・スカイハイ"]
 slug = "arabian-skyhigh-medium"
 characterId = 18
-input = "j>214mk"
+input = "9>214mk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
@@ -2164,7 +2211,7 @@ alternativeNames = ["H Arabian Skyhigh"]
 alternativeNames_ja = ["強 アラビアン・スカイハイ"]
 slug = "arabian-skyhigh-heavy"
 characterId = 18
-input = "j>214hk"
+input = "9>214hk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
@@ -2200,7 +2247,7 @@ alternativeNames = ["OD Arabian Skyhigh", "EX Arabian Skyhigh"]
 alternativeNames_ja = ["OD アラビアン・スカイハイ", "EX アラビアン・スカイハイ"]
 slug = "arabian-skyhigh-od"
 characterId = 18
-input = "j>214kk"
+input = "9>214kk"
 type = "special"
 blockType = "high"
 properties = ["knockdown"]
@@ -2335,12 +2382,9 @@ capcomID = 603
 
 [moves.frameAdvantage]
 block = 75
-
 [moves.driveGauge]
 onBlock = -7500
 onPunishCounter = -15000
-
-# Altair (Critical Art)
 [[moves]]
 name = "Altair (Critical Art)"
 name_ja = "アルタイル (CA)"
@@ -2351,13 +2395,18 @@ blockType = "high"
 type = "super3"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Completely invincible from frame 1 to frame 16",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "The minimum guaranteed damage is 50%",
   "Note: Can only be canceled into from special moves",
 ]
-notes_ja = ["1-16F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes_ja = [
+  "体力25%以下で",
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 11
 active = [11, 28]
 recovery = 82
@@ -2383,6 +2432,7 @@ input = "(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab the opponent, get them off balance, then send them tumbling with a kick. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2390,6 +2440,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴んで体勢を崩し、蹴り飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2422,6 +2473,7 @@ input = "(4lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab the opponent, disrupt their balance, then flip up before coming down with both feet to stomp them into the ground. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2429,6 +2481,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴んで体勢を崩しながらジャンプし、両足で踏み付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2461,6 +2514,8 @@ input = "j>(lplk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Grab the opponent, ride on their back as you descend, then send them skidding along the ground on impact. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2468,6 +2523,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手の背中に乗りながら落下し、地面を滑って攻撃する技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
