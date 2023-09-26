@@ -1085,12 +1085,12 @@ hitCount = 1
 input = "lp"
 parents = ["serenity-stream"]
 notes = [
+  "During serenity stream",
   "A quick strike, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 17 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い突き", "行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
-
+notes_ja = ["行雲流水中に", "行雲流水から派生する、技の出が早い突き", "行雲流水を継続した場合の数値", "硬直17F以降はガード可能"]
 startup = 5
 active = [5, 9]
 recovery = 17
@@ -1120,11 +1120,13 @@ input = "mp"
 parents = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
+  "During serenity stream",
   "A forward-moving, repeatable low profile strike, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 20 of recovery",
 ]
 notes_ja = [
+  "行雲流水中に",
   "行雲流水から派生する、低い姿勢で前進しながら繰り出す突き",
   "行雲流水を継続した場合の数値",
   "硬直20F目はガード可能な硬直",
@@ -1165,9 +1167,10 @@ damage = 900
 superArt = 600
 capcomID = 412
 notes = [
+  "During serenity stream",
   "An overhead attack that cannot be blocked while crouching, performed during Serenity Stream",
 ]
-notes_ja = ["行雲流水から派生する、しゃがみでガードできない中段攻撃"]
+notes_ja = ["行雲流水中に", "行雲流水から派生する、しゃがみでガードできない中段攻撃"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1189,12 +1192,17 @@ hitCount = 1
 input = "lk"
 parents = ["serenity-stream"]
 notes = [
+  "During serenity stream",
   "A quick, low kick, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 13 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、技の出が早い下段蹴り", "行雲流水を継続した場合の数値", "硬直13F目はガード可能な硬直"]
-
+notes_ja = [
+  "行雲流水中に",
+  "行雲流水から派生する、技の出が早い下段蹴り",
+  "行雲流水を継続した場合の数値",
+  "硬直13F目はガード可能な硬直",
+]
 startup = 8
 active = [8, 12]
 recovery = 13
@@ -1223,12 +1231,17 @@ hitCount = 1
 input = "mk"
 parents = ["serenity-stream"]
 notes = [
+  "During serenity stream",
   "A low kick with long reach, performed during Serenity Stream",
   "Values represent if Serenity Stream is held",
   "Can start blocking from frame 28 of recovery",
 ]
-notes_ja = ["行雲流水から派生する、リーチの長い下段蹴り", "行雲流水を継続した場合の数値", "硬直28F目はガード可能な硬直"]
-
+notes_ja = [
+  "行雲流水中に",
+  "行雲流水から派生する、リーチの長い下段蹴り",
+  "行雲流水を継続した場合の数値",
+  "硬直28F目はガード可能な硬直",
+]
 startup = 10
 active = [10, 14]
 recovery = 28
@@ -1258,11 +1271,15 @@ input = "hk"
 parents = ["serenity-stream"]
 properties = ["knockdown"]
 notes = [
+  "During serenity stream",
   "A launching kick, performed during Serenity Stream. Can immediately be canceled into a jump on hit",
   "Can only be canceled into a jump if the attack hits",
 ]
-notes_ja = ["行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる", "ヒット時のみジャンプキャンセル可能"]
-
+notes_ja = [
+  "行雲流水中に",
+  "行雲流水から派生する、相手を打ち上げる蹴り。攻撃が当たると即座にジャンプできる",
+  "ヒット時のみジャンプキャンセル可能",
+]
 startup = 8
 active = [8, 12]
 recovery = 24
@@ -1385,7 +1402,11 @@ onPunishCounter = -5000
 [[moves]]
 name = "Hundred Lightning Kicks (OD)"
 name_ja = "百裂脚 (OD)"
-alternativeNames = ["OD Legs", "OD Hundred Lightning Kicks", "EX Hundred Lightning Kicks"]
+alternativeNames = [
+  "OD Legs",
+  "OD Hundred Lightning Kicks",
+  "EX Hundred Lightning Kicks",
+]
 alternativeNames_ja = ["OD 百裂脚", "EX 百裂脚"]
 slug = "hundred-lightning-kicks-od"
 characterId = 3
@@ -1540,7 +1561,11 @@ onPunishCounter = -5000
 [[moves]]
 name = "Aerial Hundred Lightning Kicks (OD)"
 name_ja = "空中百裂脚 (OD)"
-alternativeNames = ["OD Air Legs", "OD Aerial Hundred Lightning Kicks", "EX Aerial Hundred Lightning Kicks"]
+alternativeNames = [
+  "OD Air Legs",
+  "OD Aerial Hundred Lightning Kicks",
+  "EX Aerial Hundred Lightning Kicks",
+]
 alternativeNames_ja = ["OD 空中百裂脚", "EX 空中百裂脚"]
 slug = "aerial-hundred-lightning-kicks-od"
 characterId = 3
@@ -2226,12 +2251,14 @@ hitCount = 1
 input = "214214*k"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Completely invincible on frames 1 - 9",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "1-9F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2264,6 +2291,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Seize your opponent by the arm, spin them around you, and throw them aside. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2271,6 +2299,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の腕を捕らえ、巻き込むように投げて叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2303,6 +2332,7 @@ type = "throw"
 input = "(4lp+hk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Disrupt your opponent's balance with an elbow strike, scoop them up, and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2310,6 +2340,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を肘打ちで怯ませ、掬い上げるように投げて叩き付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2342,6 +2373,8 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Catch your opponent in mid-air and slam them into the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2349,6 +2382,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手を捕らえ、落下しながら投げて叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
