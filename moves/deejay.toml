@@ -417,6 +417,7 @@ active = [4, 10]
 postLandingRecovery = 3
 damage = 300
 superArt = 300
+
 [moves.driveGauge]
 onHit = 500
 onBlock = -1500
@@ -444,6 +445,7 @@ active = [6, 9]
 postLandingRecovery = 3
 damage = 700
 superArt = 500
+
 [moves.driveGauge]
 onHit = 1000
 onBlock = -2500
@@ -471,6 +473,7 @@ active = [9, 14]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
+
 [moves.driveGauge]
 onHit = 2000
 onBlock = -4000
@@ -496,6 +499,7 @@ active = [4, 9]
 postLandingRecovery = 3
 damage = 300
 superArt = 300
+
 [moves.driveGauge]
 onHit = 500
 onBlock = -1500
@@ -521,6 +525,7 @@ active = [8, 13]
 postLandingRecovery = 3
 damage = 500
 superArt = 500
+
 [moves.driveGauge]
 onHit = 1000
 onBlock = -2500
@@ -546,6 +551,7 @@ active = [10, 14]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
+
 [moves.driveGauge]
 onHit = 2000
 onBlock = -4000
@@ -1925,6 +1931,7 @@ notes = [
   "Can transition to the 3rd attack from frames 19 - 24",
 ]
 notes_ja = [
+  "2段目",
   "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "19-24F 3段目へ派生可",
 ]
@@ -2629,9 +2636,13 @@ recovery = 84
 damage = 1100
 capcomID = 605
 notes = [
+  "After Marvelous Sunrise Festival connects",
   "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
 ]
-notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"]
+notes_ja = [
+  "サンライズフェスティバル・マーベラスヒット後に",
+  "相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"
+]
 
 [moves.frameAdvantage]
 block = -66
@@ -2659,9 +2670,13 @@ recovery = 84
 damage = 1200
 capcomID = 605
 notes = [
+  "After Headliner Sunrise Festival connects",
   "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
 ]
-notes_ja = ["相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"]
+notes_ja = [
+  "サンライズフェスティバル・マキシマムヒット後に",
+  "相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える",
+]
 
 [moves.frameAdvantage]
 block = -66
@@ -2689,9 +2704,13 @@ recovery = 112
 damage = 1100
 capcomID = 606
 notes = [
+  "After Marvelous Sunrise Festival connects",
   "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
 ]
-notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"]
+notes_ja = [
+  "サンライズフェスティバル・マーベラスヒット後に",
+  "跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"
+]
 
 [moves.frameAdvantage]
 block = -97
@@ -2719,9 +2738,13 @@ recovery = 112
 damage = 1200
 capcomID = 606
 notes = [
+  "After Headliner Sunrise Festival connects",
   "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
 ]
-notes_ja = ["跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"]
+notes_ja = [
+  "サンライズフェスティバル・マキシマムヒット後に",
+  "跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的",
+]
 
 [moves.frameAdvantage]
 block = -97
@@ -2741,10 +2764,12 @@ hitCount = 3
 blockType = "high"
 input = "236236lp>lp"
 notes = [
+  "Failed version",
   "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 3rd attack from frames 19 - 24",
 ]
 notes_ja = [
+  "失敗版",
   "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "19-24F 3段目へ派生可",
 ]
@@ -2774,10 +2799,12 @@ hitCount = 4
 blockType = "high"
 input = "236236lp>lp>mp"
 notes = [
+  "Failed version",
   "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 4th attack from frames 17 - 23",
 ]
 notes_ja = [
+  "失敗版",
   "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "17-23F 4段目へ派生可",
 ]
@@ -2807,10 +2834,12 @@ hitCount = 5
 blockType = "high"
 input = "236236lp>lp>mp>hp"
 notes = [
+  "Failed version",
   "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 5th attack from frames 1 - 26",
 ]
 notes_ja = [
+  "失敗版",
   "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "1-26F 5段目へ派生可",
 ]
@@ -2840,10 +2869,12 @@ hitCount = 6
 blockType = "high"
 input = "236236lp>lp>mp>hp>lk"
 notes = [
+  "Failed version",
   "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
   "Can transition to the 6th attack from frames 27 - 31",
 ]
 notes_ja = [
+  "失敗版",
   "前方に突進して膝蹴りから始まる連続攻撃を繰り出す技。初段以降は順を追ったボタン入力によって連続攻撃を展開する",
   "27-31F 6段目へ派生可",
 ]
@@ -2936,12 +2967,14 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Launch an opponent into the air with an uppercut and then unleash a powerful high-speed barrage of fists upon them as they come back down. Extremely versatile, this move is useful both in combos and as an anti-air attack",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手をアッパーで打ち上げ、無数のパンチを浴びせる高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "最低保障ダメージ50%",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -3014,6 +3047,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Disrupt your opponent's balance, hop on their knee, and kick off of their face. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -3021,6 +3055,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の体勢を崩して膝に乗り、顔面を押し出すように蹴る投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -3036,6 +3071,7 @@ scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomID = 101
+
 [moves.driveGauge]
 onHit = 2000
 onPunishCounter = -10000
@@ -3052,6 +3088,7 @@ type = "throw"
 input = "4(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Latch onto your opponent, place both feet on their torso, and toss them behind you while falling backward. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -3059,6 +3096,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手に組み付いて重心を掛けた反動を利用し、両足で投げる技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -3074,6 +3112,7 @@ scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomID = 102
+
 [moves.driveGauge]
 onHit = 2000
 onPunishCounter = -10000
