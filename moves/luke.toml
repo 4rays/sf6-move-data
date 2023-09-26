@@ -1059,10 +1059,12 @@ input = "(pp)"
 parents = ["sand-blast-od"]
 properties = ["knockdown"]
 notes = [
+  "After an od sand blast",
   "Fire an additional shockwave after an OD Sand Blast. Useful for securing some damage after trading projectiles",
   "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
+  "ODサンドブラスト後に",
   "ODサンドブラストから続けて衝撃波を飛ばす技。飛び道具の撃ち合いからダメージを上乗せするのに有効",
   "発動時にドライブゲージを10000消費",
 ]
@@ -1500,11 +1502,13 @@ input = "(pp)"
 parents = ["flash-knuckle-od"]
 properties = ["knockdown"]
 notes = [
+  "After an Flash Knuckle OD",
   "A powerful throw activated from the first hit of an OD Flash Knuckle. Useful for when you want to guarantee some extra damage",
   "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
-  "ODフラッシュナックル初段から派生する強力な投げ技。確実にダメージを奪いたい状況で使いやすい",
+  "フラッシュナックルOD後に",
+  "フラッシュナックルOD初段から派生する強力な投げ技。確実にダメージを奪いたい状況で使いやすい",
   "発動時にドライブゲージを10000消費",
 ]
 startup = 1
@@ -1522,7 +1526,7 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>214*p"
+input = "{8|9}>214*p"
 properties = ["chargeable", "knockdown"]
 
 startup = 14
@@ -1550,7 +1554,7 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>214[*p]"
+input = "{8|9}>214[*p]"
 relatedMoves = ["aerial-flash-knuckle"]
 properties = ["knockdown"]
 
@@ -1579,7 +1583,7 @@ characterId = 1
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "j>214(pp)"
+input = "{8|9}>214(pp)"
 properties = ["knockdown"]
 
 startup = 14
@@ -1636,9 +1640,13 @@ damage = 900
 superArt = 1000
 capcomID = 507
 notes = [
+  "During Avenger",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
+notes_ja = [
+  "アベンジャー中に",
+  "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効",
+]
 
 [moves.frameAdvantage]
 block = -6
@@ -1661,18 +1669,19 @@ hitCount = 1
 blockType = "high"
 input = "214(kk)"
 notes = [
+  "During Avenger OD",
   "Charge ahead in a forward-leaning stance. Other moves can be executed out of Avenger by pressing a button during its animation",
   "Super Armor for 1 attack from frames 3 - 35",
   "Can transition to branching attacks from frames 12 - 31",
 ]
 notes_ja = [
+  "アベンジャーOD中に",
   "前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する",
   "3-35F アーマー判定（1回）",
   "12-31F 専用技に派生可",
 ]
 totalFrames = 45
 capcomID = 506
-
 
 # Impaler
 [[moves]]
@@ -1687,10 +1696,12 @@ input = "*k"
 parents = ["avenger"]
 properties = ["knockdown"]
 notes = [
+  "During Avenger",
   "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
   "5 frames of recovery added when the attack misses",
 ]
 notes_ja = [
+  "アベンジャー中に",
   "アベンジャーから派生する、しゃがみガードできない浴びせ蹴り。奇襲でのガード崩しやコンボに組み込むのが有効",
   "空振り時硬直5F増加",
 ]
@@ -1732,9 +1743,13 @@ scaling_ja = ["始動補正50%"]
 superArt = 1250
 capcomID = 507
 notes = [
+  "During Avenger OD",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = ["アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
+notes_ja = [
+  "アベンジャーOD中に",
+  "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"
+]
 
 [moves.frameAdvantage]
 block = -6
@@ -1954,10 +1969,12 @@ input = "(pp)"
 parents = ["rising-uppercut-od"]
 properties = ["knockdown"]
 notes = [
+  "After a Rising Uppercut OD",
   "An attack executed from an OD Rising Uppercut that slams an opponent to the ground. In addition to its high damage, it leaves you in an advantageous position afterward",
   "Consumes 10000 of the Drive gauge on activation",
 ]
 notes_ja = [
+  "ライジングアッパーOD後に",
   "ODライジングアッパーからさらに叩き付け攻撃を行う技。ダメージの大きさとヒット後の状況に優れる",
   "発動時にドライブゲージを10000消費",
 ]
@@ -2106,6 +2123,7 @@ hitCount = 1
 blockType = "high"
 input = "236236*p"
 notes = [
+  "When under 25% vitality",
   "Start up and invincibility changes depending on the distance from the opponent",
   "When activated from close range",
   "Start up is 10 frames, and completely invincible from frames 1 - 13",
@@ -2116,6 +2134,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手との距離に応じて発生・無敵時間が変化",
   "密着発動時",
   "発生10F 1-13F完全無敵",
@@ -2154,6 +2173,7 @@ hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent, lift them up, and slam them onto their back. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2161,6 +2181,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴んで持ち上げ、背中から叩き付ける投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2193,6 +2214,7 @@ hitCount = 1
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent's head and send them flying with two knee strikes. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2200,6 +2222,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭を掴み、2発の膝蹴りで相手を吹き飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
