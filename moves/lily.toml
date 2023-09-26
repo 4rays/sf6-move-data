@@ -1352,11 +1352,15 @@ blockType = "high"
 input = "{8|9}+(ppp)"
 properties = ["knockdown"]
 notes = [
+  "During a neutral of forward jump",
+  "During Tomahawk Buster OD",
   "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile",
   "Has cross-up attack properties",
   "If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
 ]
 notes_ja = [
+  "トマホークバスターOD中に",
+  "垂直 or 前ジャンプ中に",
   "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効",
   "めくり性能",
   "OD トマホークバスターからの派生版はコンボ補正35%",
@@ -1425,11 +1429,19 @@ input = "{8|9}+(ppp)"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
+  "During a neutral of forward jump",
+  "During Tomahawk Buster OD",
   "Has cross-up attack properties",
   "When the first attack hits, the 2nd hit will happen on the next frame",
   "If transitioned from Overdrive Tomahawk Buster, combo scaling is 35%",
 ]
-notes_ja = ["めくり性能", "初段ヒット時、次のフレームで2段目が発生", "OD トマホークバスターからの派生版はコンボ補正35%"]
+notes_ja = [
+  "トマホークバスターOD中に",
+  "垂直 or 前ジャンプ中に",
+  "めくり性能",
+  "初段ヒット時、次のフレームで2段目が発生", 
+  "OD トマホークバスターからの派生版はコンボ補正35%"
+]
 
 startup = 12
 active = [12]
@@ -1458,10 +1470,12 @@ type = "commandThrow"
 input = "{360}+lp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "Damage set to 2300 on Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2300）",
 ]
@@ -1490,10 +1504,12 @@ type = "commandThrow"
 input = "{360}+mp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "Damage set to 2760 on Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "パニッシュカウンター時ダメージ（2760）",
 ]
@@ -1522,6 +1538,7 @@ type = "commandThrow"
 input = "{360}+hp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3220 individual damage when the attack lands as a Punish Counter",
@@ -1530,6 +1547,7 @@ notes = [
   "Does 2576 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3220）",
@@ -1563,6 +1581,7 @@ type = "commandThrow"
 input = "{360}+(pp)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent with both war clubs and smash them into the ground with a spinning slam. Useful for slipping through an opponent's guard at close range",
   "With Classic Controls",
   "Does 3350 individual damage when the attack lands as a Punish Counter",
@@ -1571,6 +1590,7 @@ notes = [
   "Does 2680 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "両手のポカモガンで相手を掴み、回転しながら叩き付ける投げ技。近距離で相手のガードを崩す手段として有効",
   "■クラシック操作",
   "パニッシュカウンター時ダメージ（3350）",
@@ -1847,12 +1867,14 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Fully invincible from frames 1 - 8",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
 ]
 notes_ja = [
+  "近距離で",
   "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
@@ -1880,12 +1902,14 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "A more powerful Mexican Typhoon in which you smash your opponent into the ground twice. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Fully invincible from frames 1 - 8",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 50%",
 ]
 notes_ja = [
+  "体力25%以下で",
   "より強烈なメキシカンタイフーンで2度叩き付ける高ダメージ技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
@@ -1971,7 +1995,7 @@ slug = "great-spin"
 characterId = 16
 type = "commandNormal"
 blockType = "mid"
-input = "2hp"
+input = "j>2hp"
 hitCount = 1
 notes = [
   "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
@@ -2123,6 +2147,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab an opponent's leg with your war clubs and toss them into the air. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2130,6 +2155,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の脚をポカモガンで掴み、上方向に放り投げる技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2161,6 +2187,7 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab an opponent's head between your war clubs and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2168,6 +2195,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭をポカモガンで掴んで挟み、後方に投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
