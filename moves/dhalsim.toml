@@ -1483,6 +1483,7 @@ notes = [
   "Clashes with projectiles",
 ]
 notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
+
 startup = 12
 active = [12, 21]
 totalFrames = 44
@@ -1517,6 +1518,7 @@ notes = [
   "Clashes with projectiles",
 ]
 notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
+
 startup = 15
 active = [15, 24]
 totalFrames = 44
@@ -1551,6 +1553,7 @@ notes = [
   "Clashes with projectiles",
 ]
 notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
+
 startup = 15
 active = [15, 24]
 totalFrames = 44
@@ -1585,6 +1588,7 @@ notes = [
   "Clashes with projectiles",
 ]
 notes_ja = ["斜め上方に向かって大きな炎を吹き出して放射する技。早めに出す対空用途や、空中コンボ用途として使える", "飛び道具相殺判定あり"]
+
 startup = 12
 active = [12, 21]
 totalFrames = 41
@@ -1694,6 +1698,7 @@ notes = [
   "Can perform moves from frame 50",
 ]
 notes_ja = ["空中から地上に向けて、口から火の玉を吹いて飛ばす技。空中からのけん制バリエーションとして使いやすい", "50Fから行動可"]
+
 startup = 30
 postLandingRecovery = 3
 damage = 1200
@@ -1724,6 +1729,7 @@ notes_ja = [
   "13Fから空中判定",
   "36Fから行動可",
 ]
+
 totalFrames = 35
 capcomID = 506
 
@@ -1745,6 +1751,7 @@ notes_ja = [
   "13F空中判定",
   "36Fから行動可",
 ]
+
 totalFrames = 35
 capcomID = 506
 
@@ -1761,6 +1768,7 @@ notes = [
   "Can perform moves from frame 16",
 ]
 notes_ja = ["空中からそのまま浮遊へ移行する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る", "16Fから行動可"]
+
 totalFrames = 15
 capcomID = 507
 
@@ -1777,6 +1785,7 @@ notes = [
   "Completely invincible from frames 5 - 15",
 ]
 notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
+
 totalFrames = 39
 capcomID = 508
 
@@ -1793,6 +1802,7 @@ notes = [
   "Completely invincible from frames 5 - 15",
 ]
 notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
+
 totalFrames = 39
 capcomID = 508
 
@@ -1814,6 +1824,7 @@ notes_ja = [
   "10-15F 完全無敵",
   "30Fから行動可",
 ]
+
 totalFrames = 29
 capcomID = 509
 
@@ -1835,6 +1846,7 @@ notes_ja = [
   "10-15F 完全無敵",
   "30Fから行動可",
 ]
+
 totalFrames = 29
 capcomID = 509
 
@@ -1851,6 +1863,7 @@ notes = [
   "Completely invincible from frames 5 - 15",
 ]
 notes_ja = ["一定距離を瞬時に移動する技。出始めの無敵時間を活かした回避や、攻めの起点に使える", "5-15F 完全無敵"]
+
 totalFrames = 46
 capcomID = 508
 
@@ -1872,6 +1885,7 @@ notes_ja = [
   "10-15F 完全無敵",
   "35Fから行動可",
 ]
+
 totalFrames = 34
 capcomID = 509
 
@@ -1893,6 +1907,7 @@ notes_ja = [
   "10-15F 完全無敵",
   "35Fから行動可",
 ]
+
 totalFrames = 34
 capcomID = 509
 
@@ -1921,6 +1936,7 @@ notes_ja = [
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
+
 startup = 10
 active = [10, 93]
 totalFrames = 133
@@ -1959,6 +1975,7 @@ notes_ja = [
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
+
 startup = 10
 active = [10, 93]
 totalFrames = 133
@@ -1997,6 +2014,7 @@ notes_ja = [
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
+
 startup = 10
 active = [10, 93]
 totalFrames = 133
@@ -2034,6 +2052,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "139F以下でボタンホールドをやめるとLv1が発動",
 ]
+
 startup = 7
 totalFrames = 67
 damage = 2800
@@ -2067,6 +2086,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "140F以上ボタンホールドしているとLv2が発動",
 ]
+
 startup = 7
 totalFrames = 80
 damage = 3100
@@ -2100,6 +2120,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "188F以上ボタンホールドしているとLv3が発動、また209Fで自動で射出する",
 ]
+
 startup = 7
 totalFrames = 128
 damage = 4000
@@ -2136,6 +2157,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
 ]
+
 startup = 10
 active = [10, 14]
 recovery = 75
@@ -2176,6 +2198,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
 ]
+
 startup = 10
 active = [10, 14]
 recovery = 75
@@ -2218,6 +2241,7 @@ notes_ja = [
   "・SAゲージ4000増加",
   "・ハードノックダウン",
 ]
+
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2259,6 +2283,7 @@ notes_ja = [
   "・SAゲージ4000増加",
   "・ハードノックダウン",
 ]
+
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2298,6 +2323,7 @@ notes_ja = [
   "・SAゲージ4000増加",
   "・ハードノックダウン",
 ]
+
 startup = 5
 active = [5, 7]
 recovery = 23
