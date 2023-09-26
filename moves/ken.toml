@@ -622,9 +622,10 @@ parents = ["quick-dash"]
 totalFrames = 16
 capcomID = 402
 notes = [
+  "During Quick Dash",
   "Performed from Quick Dash, this maneuver will make you stop dead in your tracks",
 ]
-notes_ja = ["奮迅脚から派生する、移動を停止する動作"]
+notes_ja = ["奮迅脚中に", "奮迅脚から派生する、移動を停止する動作"]
 
 # Thunder Kick
 [[moves]]
@@ -638,10 +639,11 @@ parents = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
+  "During Quick Dash",
   "An overhead attack performed from Quick Dash that cannot be blocked crouching",
   "Can be canceled into Level 3 Super Art or Critical Art",
 ]
-notes_ja = ["奮迅脚から派生する、しゃがみでガードできない中段攻撃", "SA3キャンセル対応"]
+notes_ja = ["奮迅脚中に", "奮迅脚から派生する、しゃがみでガードできない中段攻撃", "SA3キャンセル対応"]
 startup = 18
 active = [18, 20]
 recovery = 20
@@ -671,10 +673,11 @@ parents = ["quick-dash"]
 blockType = "high"
 hitCount = 1
 notes = [
+  "During Quick Dash",
   "A forward kick with long reach that is performed from Quick Dash",
   "Can be canceled into any Super Art",
 ]
-notes_ja = ["奮迅脚から派生する、リーチの長い蹴り", "SAキャンセル対応"]
+notes_ja = ["奮迅脚中に", "奮迅脚から派生する、リーチの長い蹴り", "SAキャンセル対応"]
 startup = 10
 active = [10, 13]
 recovery = 20
@@ -1095,12 +1098,12 @@ relatedMoves = ["quick-dash"]
 hitCount = 5
 properties = ["knockdown"]
 notes = [
+  "During Quick Dash",
   "Invincible to mid-air attacks from frames 1 - 12",
   "Invincible to projectiles from frames 3 - 12",
   "Considered airborne from frames 9 - 52",
 ]
-notes_ja = ["1-12F 空中判定の攻撃に対して無敵", "3-12F 飛び道具無敵", "9-52F 空中判定"]
-
+notes_ja = ["奮迅脚中に", "1-12F 空中判定の攻撃に対して無敵", "3-12F 飛び道具無敵", "9-52F 空中判定"]
 startup = 9
 active = [9, 10, 11, 12, 13, 18]
 recovery = 33
@@ -1257,11 +1260,11 @@ hitCount = 1
 input = "214*k"
 relatedMoves = ["quick-dash"]
 notes = [
+  "During Quick Dash",
   "Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits",
   "Considered airborne from frames 10 - 61",
 ]
-notes_ja = ["2,4,6,8,10段目は正面の相手に当たらない", "10-61F 空中判定"]
-
+notes_ja = ["奮迅脚中に", "2,4,6,8,10段目は正面の相手に当たらない", "10-61F 空中判定"]
 startup = 13
 active = [
   13,
@@ -1310,7 +1313,7 @@ slug = "ken-aerial-tatsumaki-senpukyaku"
 characterId = 7
 type = "special"
 hitCount = 1
-input = "j>214*k"
+input = "9>214*k"
 properties = ["knockdown"]
 
 startup = 11
@@ -1346,7 +1349,7 @@ slug = "ken-aerial-tatsumaki-senpukyaku-od"
 characterId = 7
 type = "special"
 hitCount = 1
-input = "j>214(kk)"
+input = "9>214(kk)"
 properties = ["knockdown"]
 notes = [
   "A Tatsumaki Senpu-kyaku performed while airborne. Useful for altering the trajectory of your jump, or for staging a surprise attack from above",
@@ -1552,11 +1555,13 @@ input = "(kk)>623*k"
 blockType = "high"
 
 notes = [
+  "During Quick Dash",
   "Does not hit opponents on the ground from frames 9 - 12 and 18 - 19",
   "Considered airborne from frames 10 - 28",
   "Does not have additional combo scaling if the 2nd attack hits",
 ]
 notes_ja = [
+  "奮迅脚中に",
   "9-12F,18-19F 地上の相手に当たらない",
   "10-28F 空中判定",
   "2段目のみヒット時、追加のコンボ補正はかからない",
@@ -1707,10 +1712,12 @@ hitCount = 1
 input = "6lk"
 blockType = "low"
 notes = [
+  "During Jinrai Kick",
   "A low kick performed from Jinrai Kick that cannot be blocked standing. Useful against opponents who try to move after your Jinrai Kick",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚中に",
   "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的",
   "動作中常に被パニッシュカウンター判定",
 ]
@@ -1746,10 +1753,12 @@ hitCount = 1
 input = "6mk"
 blockType = "mid"
 notes = [
+  "During Jinrai Kick",
   "An axe kick performed from Jinrai Kick that cannot be blocked crouching. Useful against opponents who try to stiffen their guard against your Jinrai Kick",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚中に",
   "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
   "動作中常に被パニッシュカウンター判定",
 ]
@@ -1785,11 +1794,13 @@ relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "During Jinrai Kick",
   "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick",
   "Always in Punish Counter state during execution",
   "Does not hit on crouching opponents",
 ]
 notes_ja = [
+  "迅雷脚中に",
   "迅雷脚から派生し、続けてヒットする回し蹴り。迅雷脚がヒットした場合に繋いでコンボにすると効果的",
   "動作中常に被パニッシュカウンター判定",
   "しゃがみ状態の相手に当たらない",
@@ -1823,11 +1834,13 @@ hitCount = 1
 input = "236(kk)"
 blockType = "high"
 notes = [
+  "During Jinrai Kick OD",
   "A forward-moving roundhouse kick that can be followed up by one of three different kicks",
   "Can transition to Overdrive Kazekama Shin Kick and Overdrive Gorai Axe Kick from frames 21 - 27",
   "Can transition to Overdrive Senka Snap Kick from frames 19 - 27",
 ]
 notes_ja = [
+  "迅雷脚OD中に",
   "前方への回し蹴りから様々な蹴りでの連続攻撃を繰り出す技。始動の蹴りから3種類の蹴り技へ派生する",
   "21-27F OD風鎌蹴り、OD轟雷落としに派生可",
   "19-27F OD閃火脚に派生可",
@@ -1861,11 +1874,13 @@ hitCount = 1
 input = "6lk"
 blockType = "low"
 notes = [
+  "During Jinrai Kick OD",
   "A low kick performed from Jinrai Kick that cannot be blocked standing. Useful against opponents who try to move after your Jinrai Kick",
   "Can transition to Kasai Thrust Kick from frame 11",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD中に",
   "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的",
   "11F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
@@ -1899,10 +1914,12 @@ hitCount = 1
 input = "6*k"
 properties = ["knockdown"]
 notes = [
+  "During Jinrai Kick OD or Kazekam Shin Kick OD",
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD or 風鎌蹴りOD中に",
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
@@ -1938,11 +1955,13 @@ hitCount = 1
 input = "6mk"
 blockType = "mid"
 notes = [
+  "During Jinrai Kick OD",
   "An axe kick performed from Jinrai Kick that cannot be blocked crouching. Useful against opponents who try to stiffen their guard against your Jinrai Kick",
   "Can transition to Kasai Thrust Kick from frame 11",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD中に",
   "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
   "24F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
@@ -1979,10 +1998,12 @@ input = "6*k"
 parents = ["jinrai-kick-od", "gorai-axe-kick-od"]
 properties = ["knockdown"]
 notes = [
+  "During Jinrai Kick OD or Gorai Axe Kick OD",
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD or 轟雷落としOD中に",
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
@@ -2017,11 +2038,13 @@ input = "6hk"
 parents = ["jinrai-kick-od"]
 properties = ["knockdown"]
 notes = [
+  "During Jinrai Kick OD",
   "A roundhouse that can be used to combo from Jinrai Kick. Effective when used to make a combo after landing a Jinrai Kick",
   "Can transition to Kasai Thrust Kick from frame 11",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD中に",
   "迅雷脚から派生し、続けてヒットする回し蹴り。迅雷脚がヒットした場合に繋いでコンボにすると効果的",
   "22F 火砕蹴に派生可",
   "動作中常に被パニッシュカウンター判定",
@@ -2054,10 +2077,12 @@ parents = ["jinrai-kick-od", "senka-snap-kick-od"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "During Jinrai Kick OD or Senka Snap Kick OD",
   "A sequence of kicks performed following any type of OD Jinrai Kick. Useful for slipping through your opponent's guard to tack on additional damage",
   "Always in Punish Counter state during execution",
 ]
 notes_ja = [
+  "迅雷脚OD or 閃華脚OD中に",
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
@@ -2216,6 +2241,7 @@ input = "236236*p"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "A one-two Shoryuken combination followed by one final mighty Shoryuken with an added spin to it. If the first hit misses, a single additional Shoryuken will come out afterward",
   "Completely invincible from frames 1 - 18",
   "Values do not change on counter or Punish Counter",
@@ -2227,6 +2253,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "昇龍拳での連撃からさらに回転を加えた強烈な昇龍拳を繰り出す技。初段が空振りすると、連続で昇龍拳を繰り出す動作に変化する",
   "1-18F完全無敵",
   "最低保障ダメージ50％",
@@ -2266,6 +2293,7 @@ hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent, disrupt their balance with a knee strike, and toss them forward. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2273,6 +2301,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴んで膝蹴りで怯ませ、背負う形から前方へ投げ落とす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2305,6 +2334,7 @@ hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent and roll backwards with your foot placed on their torso. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2312,6 +2342,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、後方に引き込みながら回転し、足を掛けて投げる技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
