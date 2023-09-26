@@ -1713,11 +1713,13 @@ characterId = 9
 type = "action"
 input = "2(kk)"
 notes = [
+  "Immediately",
   "Rise into the air and float for a moment. Jumping attacks and aerial special moves can be used while floating",
   "Considered airborne from frame 13",
   "Can perform moves from frame 36",
 ]
 notes_ja = [
+  "その場",
   "地上から空中に浮き上がって一定時間浮遊する技。浮遊中はジャンプ攻撃や空中必殺技を出す事が出来る",
   "13Fから空中判定",
   "36Fから行動可",
@@ -2119,6 +2121,7 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "A powerful move that unleashes a series of attacks followed by a devastating headbutt. Useful in combos, as an anti-air attack, or as a way to interrupt an opponent's pressure",
   "Completely invincible from frames 1 - 14",
   "Minimum guaranteed damage is 50%",
@@ -2126,6 +2129,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手に連撃を叩き込み、強烈な頭突きで叩き付ける高威力な技。コンボへの組み込みや連係への割り込み、対空と用途が広い",
   "1-14F 完全無敵",
   "最低保障ダメージ50％",
@@ -2199,6 +2203,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab and punch your opponent's head twice before sending them flying with a palm strike. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2206,6 +2211,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の頭を掴み、後頭部を殴り付けた後に平手で吹き飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2238,6 +2244,7 @@ hitCount = 1
 input = "(5lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent with both arms and toss them behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2245,6 +2252,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を両手で掴み、後方へ投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2275,6 +2283,7 @@ hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab an opponent's legs to disrupt their balance and send them flying. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2282,6 +2291,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の脚を捕らえて転ばせ、そのまま両脚を掴んで投げ飛ばす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
