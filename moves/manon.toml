@@ -785,6 +785,8 @@ type = "commandThrow"
 input = "63214lp"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
+  "When near opponent",
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
@@ -796,6 +798,8 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
+  "近距離で",
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -804,7 +808,7 @@ notes_ja = [
   "メダルLv3 2700（3105）",
   "メダルLv4 3000（3450）",
   "メダルLv5 3700（4255）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
 ]
 
 startup = 10
@@ -830,6 +834,8 @@ type = "commandThrow"
 input = "63214mp"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
+  "When near opponent",
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Medal level increases by a single level on hit",
   "Damage increases the higher the Medal level",
@@ -841,6 +847,8 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
+  "近距離で",
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -849,7 +857,7 @@ notes_ja = [
   "メダルLv3 2700（3105）",
   "メダルLv4 3000（3450）",
   "メダルLv5 3700（4255）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
 ]
 
 startup = 8
@@ -875,6 +883,8 @@ type = "commandThrow"
 input = "63214hp"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
+  "When near opponent",
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
@@ -896,6 +906,8 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
+  "近距離で",
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
@@ -905,7 +917,7 @@ notes_ja = [
   "メダルLv3 2700（3105）",
   "メダルLv4 3000（3450）",
   "メダルLv5 3700（4255）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -940,6 +952,8 @@ type = "commandThrow"
 input = "63214(pp)"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
+  "When near opponent",
   "Grab your opponent at close range, disrupt their balance, and toss them to the ground with a powerful throw. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Medal level increases by a single level on hit",
@@ -961,6 +975,8 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
+  "近距離で",
   "近距離で相手を掴み、体勢を崩して強力な投げを決める技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "ヒット時にメダルLvが1上昇",
@@ -970,7 +986,7 @@ notes_ja = [
   "メダルLv3 2700（3105）",
   "メダルLv4 3000（3450）",
   "メダルLv5 3700（4255）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -1293,6 +1309,7 @@ type = "commandThrow"
 input = "623lp"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
   "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Projectile invincibility from frames 3 - 21",
@@ -1316,6 +1333,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
   "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "3-21F 飛び道具に対して無敵",
@@ -1327,7 +1345,7 @@ notes_ja = [
   "メダルLv3 1650（1660）",
   "メダルLv4 1800（1810）",
   "メダルLv5 1950（1960）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "ヒット時にメダルLvが1上昇",
   "メダルLvに応じてダメージが上昇",
@@ -1392,7 +1410,7 @@ notes_ja = [
   "メダルLv3 1700（1720）",
   "メダルLv4 1850（1870）",
   "メダルLv5 2000（2020）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
 ]
 
 startup = 25
@@ -1425,6 +1443,7 @@ type = "commandThrow"
 input = "623hp"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
   "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "Projectile invincibility from frames 3 - 28",
   "Transition into feint by holding the button (total 35 frames)",
@@ -1438,6 +1457,7 @@ notes = [
   "Values in parentheses represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
   "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "3-28F 飛び道具に対して無敵",
   "ボタンホールドでフェイントに派生（全体35F）",
@@ -1448,7 +1468,7 @@ notes_ja = [
   "メダルLv3 1800（1840）",
   "メダルLv4 1950（1990）",
   "メダルLv5 2100（2140）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
 ]
 
 startup = 29
@@ -1481,6 +1501,7 @@ type = "commandThrow"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
+  "Attack changes according to medal level",
   "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
   "With Classic Controls",
   "Invincible against strikes from the knee and up from frames 3 - 26",
@@ -1505,6 +1526,7 @@ notes = [
   "Values after the backslash represent damage on Punish Counter",
 ]
 notes_ja = [
+  "メダルLvに応じて動作が変化",
   "前方に向かって回転しながら相手を掴み、投げ飛ばす技。ヒットするとメダルLvが上昇し、Lvに応じて動作が変化する",
   "■クラシック操作",
   "3-26F 膝から上打撃に対して無敵",
@@ -1517,7 +1539,7 @@ notes_ja = [
   "メダルLv3 1800（1840）",
   "メダルLv4 1950（1990）",
   "メダルLv5 2100（2140）",
-  "（）内はパニッシュカウンター時のダメージ",
+  "内はパニッシュカウンター時のダメージ",
   "■モダン操作時",
   "メダルLvに応じてダメージが上昇",
   "メダルLv1 1200/1232",
@@ -1565,9 +1587,10 @@ scaling_ja = ["即時補正10%"]
 superArt = 1150
 capcomID = 505
 notes = [
+  "During Renversé",
   "A kick that can be performed from the forward lunge in Renversé. Useful in combos or as a way of checking opponents from mid-range",
 ]
-notes_ja = ["ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい"]
+notes_ja = ["ランヴェルセ中に", "ランヴェルセの踏み込み動作から蹴りへ派生する技。中距離のけん制やコンボに使いやすい"]
 
 [moves.frameAdvantage]
 block = -5
@@ -1700,6 +1723,7 @@ input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Attack as though performing a ballet dance and then smash your opponent into the ground with a devastating slam. Can be used to slip through an opponent's guard at close range and deal tons of damage all at once",
   "Completely invincible from frames 1 - 8",
   "Minimum guaranteed damage is 50%",
@@ -1707,6 +1731,7 @@ notes = [
   "Can only be canceled into standing heavy punch and Rond-point",
 ]
 notes_ja = [
+  "近距離で",
   "バレエのリズムで舞うように攻撃を加え、強烈に投げ落とす技。接近戦での切り返しやコンボで一気に大きなダメージを奪える",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
@@ -1734,12 +1759,16 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
+  "When near opponent",
   "Completely invincible from frames 1 - 8",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into standing heavy punch and Rond-point",
 ]
 notes_ja = [
+  "体力25%以下で",
+  "近距離で",
   "1-8F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1765,6 +1794,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grapple with your opponent, slipping your leg between theirs and tossing them to the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1772,6 +1802,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手に組み付き、脚を内から刈り倒して投げる技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1803,6 +1834,7 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grapple with your opponent, slipping your leg between theirs and lifting them over you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1810,6 +1842,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手に組み付き、股の間から脚を跳ね飛ばして投げる技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
