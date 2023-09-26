@@ -1074,12 +1074,14 @@ input = "214+{lp|mp}"
 parents = ["departure"]
 hitCount = 1
 notes = [
+  "While departure is active",
   "Instantly warp to the active Departure. Jumping attacks can be used upon exiting the warp",
   "Completely invincible from frames 6 - 25",
   "Considered airborne from frame 26",
   "Can perform moves from frame 31",
 ]
 notes_ja = [
+  "ヴィーハト設置中に",
   "設置されたヴィーハトへ瞬時にワープする技。ワープでの移動後はジャンプ攻撃を出す事が可能",
   "6-25F 完全無敵",
   "26F目から空中判定",
@@ -1103,9 +1105,10 @@ hitCount = 1
 totalFrames = 40
 capcomID = 505
 notes = [
+  "While departure is active",
   "Spawn thorns from a placed Departure at a timing of your choosing. Useful for checking opponents with thorns at a different timing than if they were left to spawn automatically",
 ]
-notes_ja = ["ヴィーハトの設置後、任意のタイミングで棘を放出する技。棘の自動放出タイミングを外したけん制として有効"]
+notes_ja = ["ヴィーハト設置中に", "ヴィーハトの設置後、任意のタイミングで棘を放出する技。棘の自動放出タイミングを外したけん制として有効"]
 
 # Amnesia
 [[moves]]
@@ -1562,9 +1565,7 @@ cancel = "C"
 damage = 500
 superArt = 500
 capcomID = 405
-notes = [
-  "A two-hit combination attack that can be canceled into special moves",
-]
+notes = ["A two-hit combination attack that can be canceled into special moves"]
 notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]
@@ -1624,9 +1625,7 @@ recovery = 22
 damage = 1000
 superArt = 1000
 capcomID = 407
-notes = [
-  "A low attack performed out of Zilant that cannot be blocked standing",
-]
+notes = ["A low attack performed out of Zilant that cannot be blocked standing"]
 notes_ja = ["ジラントから連係する、立ってガードできない下段攻撃"]
 
 [moves.frameAdvantage]
@@ -1650,6 +1649,7 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the arm, disrupt their balance, and stab them with your staff. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1657,6 +1657,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の腕を取って体勢を崩し、杖で一撃を加える投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1688,6 +1689,7 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab your opponent by the arm, push their back, and send them tumbling behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1695,6 +1697,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手の腕を取った状態で後方に力を加え、投げ飛ばす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1726,6 +1729,8 @@ type = "throw"
 input = "j>(lplk)"
 properties = ["knockdown"]
 notes = [
+  "During a jump",
+  "When near opponent",
   "Grab your opponent's arm while airborne and toss them to ground behind you. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1733,6 +1738,8 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "ジャンプ中に",
+  "近距離で",
   "空中で相手の腕を取り、巻き込みながら後方へ投げ落とす技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1873,6 +1880,7 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Grab your opponent and send Psycho Power flowing through their body, causing them to explode from within. You will instantly warp to your opponent upon activating this move, making it useful in a variety of situations",
   "Completely invincible from frames 1 - 23",
   "Minimum guaranteed damage is 50%",
@@ -1880,6 +1888,7 @@ notes = [
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "相手を掴んでサイコパワーを流し込み、内部から爆発させる技。発動時に相手の位置まで瞬時に移動するので様々な局面で使える",
   "1-23F 完全無敵",
   "最低保障ダメージ50％",
