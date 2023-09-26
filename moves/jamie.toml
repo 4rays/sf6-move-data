@@ -1024,6 +1024,8 @@ active = [16, 19]
 recovery = 19
 damage = 900
 superArt = 500
+notes = ["Drink level 4 or higher"]
+notes_ja = ["酔いLv4以上"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -2242,7 +2244,10 @@ notes = [
   "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack",
   "Available at Drink Level 4",
 ]
-notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される", "酔いLv4で発動可能"]
+notes_ja = [
+  "酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される",
+  "酔いLv4で発動可能",
+]
 startup = 19
 active = [19, 21]
 recovery = 39
@@ -2448,7 +2453,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 1
-input = "j>214lk"
+input = "9>214lk"
 properties = ["knockdown"]
 notes = [
   "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
@@ -2476,7 +2481,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 1
-input = "j>214mk"
+input = "9>214mk"
 properties = ["knockdown"]
 notes = [
   "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
@@ -2504,7 +2509,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 1
-input = "j>214hk"
+input = "9>214hk"
 properties = ["knockdown"]
 notes = [
   "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
@@ -2532,13 +2537,16 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 1
-input = "j>214(kk)"
+input = "9>214(kk)"
 properties = ["knockdown"]
 notes = [
   "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
+notes_ja = [
+  "ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効",
+  "酔いLv1以上で発動可能",
+]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2683,11 +2691,13 @@ hitCount = 1
 input = "236(pp)"
 properties = ["knockdown"]
 notes = [
+  "Drink level 2 or higher",
   "A series of rotating, upside-down kicks while sliding along the ground. This move does big damage, and is useful when performing combos against opponents that have left themselves wide open",
   "Invincible to projectiles from frames 3 - 28",
   "Only the 7th hit can be canceled into SA3/Critical Art",
 ]
 notes_ja = [
+  "酔いLv2以上",
   "体勢を逆さにした状態で滑るように回転連続蹴りを繰り出す技。ダメージが高く、大きな隙に対するコンボへ組み込むのが有効",
   "3-28F 飛び道具に対して無敵",
   "7段目のみSA3/CAでキャンセル可能",
@@ -2737,11 +2747,13 @@ characterId = 2
 type = "commandThrow"
 input = "63214*k"
 notes = [
+  "When near opponent",
   "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack",
   "Available at Drink Level 3 or higher",
   "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
+  "近距離で",
   "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる",
   "酔いLv3以上で発動可能",
   "コンボの3段目以降に補正がかかる",
@@ -2769,12 +2781,14 @@ type = "commandThrow"
 input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack",
   "Available at Drink Level 3 or higher",
   "Produces a crumple stun on hit",
   "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
+  "近距離で",
   "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる",
   "酔いLv3以上で発動可能",
   "ヒット時膝崩れ",
@@ -2935,6 +2949,7 @@ blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "A sequence of attacks that breaks an opponent's posture, and then finishes by kicking them into the air after forcing them to take a swing at you. After the opponent has been launched, it is possible to continue your offensive with a follow-up attack",
   "Completely invincible from frames 1 - 12",
   "Minimum guaranteed damage is set to 50%",
@@ -2942,6 +2957,7 @@ notes = [
   "Forces a hard knockdown",
 ]
 notes_ja = [
+  "体力25%以下で",
   "連撃で体勢を崩し、相手に演舞させた上で蹴り上げて締める技。蹴りで浮かせた後は追撃が可能となる",
   "1-12F 完全無敵",
   "最低保障ダメージ50％",
@@ -2978,6 +2994,7 @@ blockType = "high"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Lean your back into your opponent and send them tumbling backwards with three strong strikes. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2985,6 +3002,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "背を向けた状態で相手を抑え、打撃を加えて吹き飛ばす投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -3017,6 +3035,7 @@ blockType = "high"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Crumple your opponent with a kick, then roll over them before sending them packing with another kick. Throws your opponent while switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -3024,6 +3043,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を蹴りで屈ませて跳び越え、体勢を崩して蹴り込む投げ技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
