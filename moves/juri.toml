@@ -2150,7 +2150,6 @@ notes = [
   "After shiku-sen",
   "A series of kicks performed from Shiku-sen that tack on additional damage and knock the opponent down",
 ]
-notes_ja = ["疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える"]
 notes_ja = ["疾空閃後に", "疾空閃から続けて蹴りの連撃を繰り出す技。疾空閃からさらにダメージを上乗せし、ダウンを奪える"]
 
 [moves.driveGauge]
