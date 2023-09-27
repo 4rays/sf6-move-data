@@ -820,10 +820,12 @@ type = "commandThrow"
 input = "{360}+lp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
   "Does 2875 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる",
   "パニッシュカウンター時個別ダメージ（2875）",
 ]
@@ -852,10 +854,12 @@ type = "commandThrow"
 input = "{360}+mp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
   "Does 3335 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる",
   "パニッシュカウンター時個別ダメージ（3335）",
 ]
@@ -884,6 +888,7 @@ type = "commandThrow"
 input = "{360}+hp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
   "With Classic Controls",
   "Does 3795 individual damage when the attack lands as a Punish Counter",
@@ -892,6 +897,7 @@ notes = [
   "Does 3036 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3795）",
@@ -929,6 +935,7 @@ type = "commandThrow"
 input = "{360}+pp"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Throw an opponent, leap into the air, and smash them into the ground with a spinning slam. Its high damage and long reach make it a key part of a grappler's arsenal",
   "With Classic Controls",
   "Does 3910 individual damage when the attack lands as a Punish Counter",
@@ -937,6 +944,7 @@ notes = [
   "Does 3128 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、空中へ上昇して回転しながら叩き付ける投げ技。ダメージが高く、投げ間合いも広いのでメインで狙う技となる",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3910）",
@@ -964,6 +972,7 @@ type = "special"
 input = "j>{360}+*p"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents",
   "Only hits airborne opponents",
   "With Classic Controls",
@@ -973,6 +982,7 @@ notes = [
   "Does 2608 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "空中で相手を掴み、打撃で打ち上げた後に回転して叩き付ける技。空中の相手にのみヒットさせる事が可能",
   "空中の相手にのみヒットする",
   "■クラシック操作",
@@ -993,7 +1003,7 @@ onHit = 5000
 onPunishCounter = -10000
 
 # Borscht Dynamite (OD)
-[[moves]] 
+[[moves]]
 name = "Borscht Dynamite (OD)"
 name_ja = "ボルシチダイナマイト (OD)"
 alternativeNames = ["OD Borscht Dynamite", "EX Borscht Dynamite"]
@@ -1043,6 +1053,7 @@ type = "special"
 input = "63214*k"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead",
   "With Classic Controls",
   "Does 3335 individual damage when the attack lands as a Punish Counter",
@@ -1051,6 +1062,7 @@ notes = [
   "*Does 2668 individual damage using simplified inputs",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、強力なスープレックスを2回叩き込む投げ技。近距離のみ発動し、離れるとシベリアンエクスプレスが発動する",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3335）",
@@ -1082,6 +1094,7 @@ type = "special"
 input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Grab an opponent and slam them into the ground with two powerful suplexes. This move will only activate when close to an opponent. When far away, Siberian Express will activate instead",
   "With Classic Controls",
   "Does 3680 individual damage when the attack lands as a Punish Counter",
@@ -1089,6 +1102,7 @@ notes = [
   "Does 2944 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、強力なスープレックスを2回叩き込む投げ技。近距離のみ発動し、離れるとシベリアンエクスプレスが発動する",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3680）",
@@ -1105,16 +1119,17 @@ capcomID = 504
 [moves.driveGauge]
 onPunishCounter = -10000
 
-# Siberian Express
+# Siberian Express (Close Range)
 [[moves]]
-name = "Siberian Express"
-name_ja = "シベリアンエクスプレス"
+name = "Siberian Express (Close Range)"
+name_ja = "シベリアンエクスプレス (近距離版)"
 slug = "siberian-express"
 characterId = 15
 type = "special"
 input = "63214*k"
 properties = ["knockdown"]
 notes = [
+  "When close to opponent",
   "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
   "With Classic Controls",
   "Does 3105 individual damage when the attack lands as a Punish Counter",
@@ -1122,6 +1137,7 @@ notes = [
   "Does 2484 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "遠距離で",
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3105）",
@@ -1139,10 +1155,10 @@ capcomID = 505
 onHit = 5000
 onPunishCounter = -10000
 
-# Siberian Express (OD)
+# Siberian Express (OD Close Range)
 [[moves]]
-name = "Siberian Express (OD)"
-name_ja = "シベリアンエクスプレス (OD)"
+name = "Siberian Express (Close Range OD)"
+name_ja = "シベリアンエクスプレス (近距離版 OD)"
 alternativeNames = ["OD Siberian Express", "EX Siberian Express"]
 alternativeNames_ja = ["ODシベリアンエクスプレス", "EXシベリアンエクスプレス"]
 slug = "siberian-express-od"
@@ -1151,6 +1167,7 @@ type = "commandThrow"
 input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
+  "When close to opponent",
   "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
   "With Classic Controls",
   "Does 3450 individual damage when the attack lands as a Punish Counter",
@@ -1158,6 +1175,7 @@ notes = [
   "Does 2760 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "遠距離で",
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効",
   "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（3450）",
@@ -1184,6 +1202,7 @@ type = "commandThrow"
 input = "63214*k"
 properties = ["knockdown"]
 notes = [
+  "When far from opponent",
   "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
   "Super Armor for 1 attack from frames 10 - 56",
   "Travel distance changes depending on the distance from the opponent",
@@ -1194,6 +1213,7 @@ notes = [
   "Does 2484 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "遠距離で",
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効",
   "10-56F アーマー判定（1回）",
   "相手との間合いによって移動距離が変化",
@@ -1224,6 +1244,7 @@ type = "commandThrow"
 input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
+  "When far from opponent",
   "Run to an opponent and grab them before slamming them to the ground with a devastating powerbomb. When you're at a longer distance from the opponent, this is useful for making a surprise attack or breaking through their blocks",
   "Super Armor for 2 attacks from frames 3 - 55",
   "Travel distance changes depending on the distance from the opponent",
@@ -1234,6 +1255,7 @@ notes = [
   "Does 2760 individual damage when the attack lands as a Punish Counter",
 ]
 notes_ja = [
+  "遠距離で",
   "相手に走り寄って掴み、強力なパワーボムを叩き込む投げ技。離れた間合いからの、奇襲やガード崩しとして有効",
   "3-55F アーマー判定（2回）",
   "相手との間合いによって移動距離が変化",
@@ -1440,11 +1462,13 @@ blockType = "high"
 input = "{720}+*p"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
   "プロレスさながらのフィニッシュホールドを決める強烈な投げ技。接近戦のガード崩しで一気に大きなダメージを奪える",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1471,11 +1495,15 @@ blockType = "high"
 input = "{720}+*p"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
+  "When under 25% vitality",
   "A powerful throw that puts an opponent in a finishing hold with pro-wrestling flair. Can be used to slip through an opponent's guard at close range and deliver massive damage",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "近距離で",
+  "体力25%以下で",
   "プロレスさながらのフィニッシュホールドを決める強烈な投げ技。接近戦のガード崩しで一気に大きなダメージを奪える",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1653,7 +1681,7 @@ slug = "flying-body-press"
 characterId = 15
 type = "commandNormal"
 blockType = "high"
-input = "2hp"
+input = "j>2hp"
 notes = [
   "A body press with an area of attack so wide that it can hit an opponent even if it crosses over them",
   "Has cross-up attack properties",
@@ -1681,7 +1709,7 @@ slug = "flying-headbutt"
 characterId = 15
 type = "commandNormal"
 blockType = "high"
-input = "j>8hp"
+input = "8>8hp"
 notes = [
   "A headbutt that can be canceled into aerial special moves",
   "Forces a juggle state when hitting a mid-air opponent",
@@ -1862,6 +1890,7 @@ characterId = 15
 type = "throw"
 input = "(lplk)"
 notes = [
+  "When near opponent",
   "Lift an opponent above your head and toss them into the ground back-first. Throws your opponent without switching places with them",
   "Punish Counter properties",
   "- Damage set to 2040",
@@ -1870,6 +1899,7 @@ notes = [
   "Press the throw button again during the animation for 600 extra damage",
 ]
 notes_ja = [
+  "近距離で",
   "相手を抱え上げ、背面から投げ落とす技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1901,6 +1931,7 @@ characterId = 15
 type = "throw"
 input = "(4lplk)"
 notes = [
+  "When near opponent",
   "Grab an opponent and slam them to the ground while leaping backwards. Throws your opponent while switching places with them",
   "Punish Counter properties",
   "- Damage set to 2380",
@@ -1908,6 +1939,7 @@ notes = [
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み、後方に反り投げて叩き付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2380",
@@ -1936,6 +1968,7 @@ characterId = 15
 type = "throw"
 input = "(6lplk)"
 notes = [
+  "When near opponent",
   "Grab an opponent from behind and, arching your back, smash them into the ground. Throws your opponent without switching places with them",
   "Punish Counter properties",
   "- Damage set to 2550",
@@ -1943,6 +1976,7 @@ notes = [
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を背後から掴み、ブリッジしながら反り投げて叩き付ける技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2550",
@@ -1971,6 +2005,7 @@ characterId = 15
 type = "throw"
 input = "(3lplk)"
 notes = [
+  "When near opponent",
   "Lift your opponent up and fall on top of them with their back to the ground. Throws your opponent without switching places with them",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1978,6 +2013,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を掴み上げ、倒れ込みながら背中を叩き付ける投げ技。相手との位置関係を変えずに投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2006,6 +2042,7 @@ characterId = 15
 type = "throw"
 input = "(1lplk)"
 notes = [
+  "When near opponent",
   "Disrupt your opponent's balance with a kick, then smash their head into the ground as you fall backwards. Throws your opponent while switching places with them",
   "Punish Counter properties",
   "- Damage set to 2550",
@@ -2013,6 +2050,7 @@ notes = [
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を蹴りで怯ませて掴み、後方に倒れて頭部を打ち付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2550",
@@ -2041,6 +2079,7 @@ characterId = 15
 type = "throw"
 input = "(2lplk)"
 notes = [
+  "When near opponent",
   "Lift your opponent upside-down and send them flying to the ground behind you back-first. Throws your opponent while switching places with them",
   "Punish Counter properties",
   "- Damage set to 2550",
@@ -2048,6 +2087,7 @@ notes = [
   "- Produces a Hard Knockdown",
 ]
 notes_ja = [
+  "近距離で",
   "相手を逆さまに持ち上げて後方に投げ、背面を叩き付ける技。相手との位置を入れ替えながら投げる",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2550",
