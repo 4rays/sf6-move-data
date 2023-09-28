@@ -590,3 +590,20 @@ name_ja = "空中投げ"
 [[characters.tags]]
 name = "mixup"
 name_ja = "択"
+
+# A.K.I.
+[[characters]]
+id = 19
+name = "A.K.I."
+slug = "aki"
+name_ja = "A.K.I."
+description = "A poison-wielding apprentice of F.A.N.G, the former Shadaloo officer. Enchanted by the power of toxins, nothing brings her more joy than testing them on a new target—other than attention from her “master,” that is."
+description_ja = "元シャドルー幹部、F.A.N.Gに師事する毒遣い。 毒に魅せられ、その力をふるうことに無上の 歓びを覚える。 F.A.N.Gを先生と呼び偏愛している。"
+gameId = 0
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss05.jpg",
+]

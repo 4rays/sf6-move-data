@@ -1,0 +1,1488 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "aki-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "5lp"
+hitCount = 1
+
+startup = 5
+active = [5, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "aki-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "5mp"
+hitCount = 1
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 6
+active = [6, 8]
+recovery = 16
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "aki-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "5hp"
+hitCount = 1
+
+startup = 12
+active = [12, 14]
+recovery = 21
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "aki-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 19
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lk"
+
+startup = 5
+active = [5, 7]
+recovery = 11
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "aki-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "5mk"
+hitCount = 1
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 9
+active = [9, 11]
+recovery = 15
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 6
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "aki-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "5hk"
+hitCount = 1
+
+notes = ["12 frames of advantage added when the attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時+12F"]
+
+startup = 9
+active = [9, 12]
+recovery = 19
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "aki-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 19
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 5]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "aki-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 19
+type = "normal"
+blockType = "high"
+input = "2mp"
+hitCount = 1
+notes = ["3 frames of recovery added on hit or when blocked"]
+notes_ja = ["ヒット、ガード時硬直3F減少"]
+
+startup = 8
+active = [8, 10]
+recovery = 21
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "aki-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 19
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2hp"
+properties = ["knockdown"]
+notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 10
+active = [10, 12]
+recovery = 28
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "aki-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 19
+type = "normal"
+blockType = "low"
+input = "2lk"
+hitCount = 1
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 8
+damage = 200
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "aki-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 19
+type = "normal"
+blockType = "low"
+input = "2mk"
+hitCount = 1
+
+startup = 7
+active = [7, 9]
+recovery = 16
+cancel = "SA"
+damage = 600
+scaling = ["Starter scaling 10%"]
+scaling_ja = ["始動補正10%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "aki-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 19
+type = "normal"
+blockType = "low"
+input = "2hk"
+hitCount = 1
+properties = ["juggle"]
+notes = ["Forces a juggle state when the attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時吹き飛びダウン"]
+
+startup = 10
+active = [10, 14]
+recovery = 21
+cancel = "SA"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "aki-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 19
+type = "normal"
+blockType = "mid"
+input = "j>lp"
+hitCount = 1
+
+startup = 5
+active = [5, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+slug = "aki-jump-medium-punch"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+abbreviation = "J.MP"
+name_ja = "ジャンプ中P"
+abbeviation_ja = "ジャンプ中P"
+characterId = 19
+type = "normal"
+blockType = "mid"
+input = "j>mp"
+hitCount = 1
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 10]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "aki-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 19
+type = "normal"
+blockType = "mid"
+input = "j>hp"
+hitCount = 1
+notes = ["Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 11
+active = [11, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小キック", "ジャンプコキック"]
+slug = "aki-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 19
+type = "normal"
+blockType = "mid"
+input = "j>lk"
+properties = ["canCrossUp"]
+hitCount = 1
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 5
+active = [5, 10]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "aki-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 19
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+damage = 600
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "aki-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 19
+type = "normal"
+blockType = "mid"
+input = "j>hk"
+hitCount = 1
+
+startup = 8
+active = [8, 12]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Pu Lao
+[[moves]]
+name = "Pu Lao"
+name_ja = "蒲牢"
+slug = "pu-lao"
+characterId = 19
+type = "commandNormal"
+blockType = "mid"
+input = "3mp"
+hitCount = 1
+capcomID = 401
+
+startup = 24
+active = [24, 26]
+recovery = 18
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2500
+onPunishCounter = -4000
+
+# Chi Wen
+[[moves]]
+name = "Chi Wen"
+name_ja = "螭吻"
+slug = "chi-wen"
+characterId = 19
+type = "commandNormal"
+blockType = "mid"
+input = "6hp"
+hitCount = 1
+notes = ["1 frame of recovery added when the attack hits or is blocked"]
+notes_ja = ["ヒット、ガード時硬直1F減少"]
+capcomID = 402
+
+startup = 16
+active = [16, 18]
+recovery = 21
+cancel = "SA"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -6000
+
+# Qiu Niu
+[[moves]]
+name = "Qiu Niu"
+name_ja = "囚牛"
+slug = "qiu-niu"
+characterId = 19
+type = "commandNormal"
+blockType = "high"
+input = "6hk"
+hitCount = 2
+notes = ["4 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直8F増加"]
+
+startup = 14
+active = [14, 16, 22, 24]
+recovery = 16
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 403
+
+[moves.frameAdvantage]
+hit = 4
+block = 2
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Gong Fu
+[[moves]]
+name = "Gong Fu"
+name_ja = "蚣蝮"
+slug = "gong-fu"
+characterId = 19
+type = "commandNormal"
+blockType = "mid"
+input = "9>6hp"
+hitCount = 1
+properties = ["canCrossUp"]
+notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時叩きつけダウン"]
+
+startup = 9
+active = [9, 13]
+postLandingRecovery = 3
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 404
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Hun Dun
+[[moves]]
+name = "Hun Dun"
+name_ja = "渾沌"
+slug = "hun-dun"
+characterId = 19
+type = "targetCombo"
+blockType = "high"
+input = "lp>lp"
+hitCount = 2
+notes = ["Can be canceled into special moves on hit or block"]
+notes_ja = ["ヒット、ガード時特殊技にキャンセル可能"]
+
+startup = 8
+active = [8, 9]
+recovery = 14
+cancel = "C"
+damage = 300
+superArt = 400
+capcomID = 405
+
+[moves.frameAdvantage]
+hit = 0
+block = -3
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -4000
+
+# Qiong Qi
+[[moves]]
+name = "Qiong Qi"
+name_ja = "窮奇"
+slug = "qiong-qi"
+characterId = 19
+blockType = "high"
+type = "targetCombo"
+input = "mp>hp"
+hitCount = 2
+
+properties = ["knockdown", "juggle"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Forces a juggle state when Toxic Bloom triggers"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時吹き飛び挙動変化"]
+
+startup = 14
+active = [14, 16]
+recovery = 24
+damage = 400
+scaling = ["Combo scaling 10%"]
+scaling_ja = ["コンボ補正10%"]
+superArt = 600
+capcomID = 406
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
+ # Nightshade Pulse
+[[moves]]
+name = "Nightshade Pulse"
+name_ja = "紫煙砲"
+alternativeNames = ["Fireball"]
+alternativeNames_ja = ["球"]
+slug = "nightshade-pulse"
+characterId = 19
+type = "special"
+blockType = "high"
+hitCount = 1
+input = "214lp"
+notes = ["Puts the opponent in a poisoned state on hit", "Can be canceled into branching moves from frames 30 - 36", "Can be canceled into Overdrive Snake Step from frames 35 - 36"]
+notes_ja = ["ヒット時毒状態", "30-36F専用技でキャンセル可", "※35-36F OD版蛇軽功でキャンセル可"]
+
+startup = 17
+totalFrames = 52
+cancel = "SA3"
+damage = 500
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+hit = -5
+block = -10
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
+# Nightshade Chaser
+[[moves]]
+name = "Nightshade Chaser"
+name_ja = "紫煙追"
+slug = "nightshade-chaser"
+characterId = 19
+type = "followUp"
+blockType = "high"
+hitCount = 1
+input = "6+p"
+parents = ["nightshade-pulse"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "※毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
+
+startup = 13
+active = [13, 14]
+recovery = 34
+cancel = "SA3"
+damage = 500
+superArt = 600
+capcomID = 502
+
+[moves.frameAdvantage]
+hit = -4
+block = -16
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
+# Nightshade Pulse (OD)
+[[moves]]
+name = "Nightshade Pulse (OD)"
+name_ja = "紫煙砲（OD）"
+characterId = 19
+slug = "night-shade-od"
+type = "special"
+blockType = "high"
+input = "214(pp)"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Can be canceled into branching moves from frames 34 - 35", "Can be canceled into Overdrive Snake Step from frames 32 - 33"]
+notes_ja = ["ヒット時毒状態", "34-35F専用技でキャンセル可", "※32-33F OD版蛇軽功でキャンセル可"]
+
+startup = 16
+totalFrames = 44
+cancel = "SA2"
+damage = 700
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 1
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -5000
+
+ # Nightshade Chaser (OD)
+[[moves]]
+name = "Nightshade Chaser (OD)"
+name_ja = "紫煙追（OD）"
+slug = "nightshade-chaser-od"
+characterId = 19
+type = "followUp"
+blockType = "high"
+input = "6*p"
+hitCount = 1
+parents = ["night-shade-od"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
+
+startup = 13
+active = [13, 17]
+recovery = 28
+cancel = "SA2"
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 600
+capcomID = 502
+
+[moves.frameAdvantage]
+hit = -4
+block = -13
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -2000
+
+# Nightshade Chaser (Burst)
+[[moves]]
+name = "Nightshade Chaser (Burst)"
+name_ja = "紫煙追 （炸裂）"
+slug = "nightshade-chaser-burst"
+characterId = 19
+type = "followUp"
+blockType = "high"
+hitCount = 1
+input = "5"
+parents = ["nightshade-pulse"]
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit"]
+notes_ja = ["ヒット時毒状態"]
+
+damage = 800
+superArt = 300
+capcomID = 502
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -1000
+onPunishCounter = -2500
+
+# Nightshade Chaser (Burst) (OD)
+[[moves]]
+name = "Nightshade Chaser (Burst OD)"
+name_ja = "紫煙追 （炸裂OD）"
+slug = "nightshade-chaser-burst-od"
+characterId = 19
+type = "followUp"
+blockType = "high"
+hitCount = 1
+input = "5"
+parents = ["nightshade-pulse-od"]
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit"]
+notes_ja = ["ヒット時毒状態"]
+
+damage = 1600
+superArt = 900
+capcomID = 502
+
+[moves.driveGauge]
+onBlock = -3500
+onPunishCounter = -2500
+
+# Orchid Spring
+[[moves]]
+name = "Orchid Spring"
+name_ja = "紫泡泉"
+slug = "orchid-spring"
+characterId = 19
+type = "special"
+input = "214mp"
+notes = ["Opponent enters poisoned state on contact with poison pool", "Poison pool remains in place for 160 frames"]
+notes_ja = ["毒溜まり接触時毒状態", "設置した毒溜まりは160F持続"]
+
+startup = 26
+totalFrames = 46
+capcomID = 503
+
+# Toxic Wreath
+[[moves]]
+name = "Toxic Wreath"
+name_ja = "紫泡撒"
+slug = "toxic-wreath"
+characterId = 19
+type = "special"
+input = "214hp"
+hitCount = 2
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit"]
+notes_ja = ["ヒット時毒状態"]
+
+startup = 13
+active = [13, 15, 30, 36]
+recovery = 15
+cancel = "SA3"
+damage = 800
+scaling = ["Immediate scaling 15%"]
+scaling_ja = ["即時補正15%"]
+superArt = 600
+capcomID = 504
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Serpent Lash (Light)
+[[moves]]
+name = "Serpent Lash (Light)"
+name_ja = "蛇頭鞭（弱）"
+slug = "serpent-lash-light"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "236lp"
+hitCount = 1
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
+
+startup = 14
+active = [14, 16]
+recovery = 26
+cancel = "SA3"
+damage = 500
+superArt = 600
+capcomID = 505
+
+[moves.frameAdvantage]
+hit = 1
+block = -8
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# Serpent Lash (Medium)
+[[moves]]
+name = "Serpent Lash (Medium)"
+name_ja = "蛇頭鞭（中）"
+slug = "serpent-lash-medium"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "236mp"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 700 damage and produces a crumple stun on Toxic Blossom trigger", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ700/膝崩れ", "飛び道具相殺判定あり"]
+
+startup = 17
+active = [17, 22]
+recovery = 24
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcomID = 505
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# Serpent Lash (Heavy)
+[[moves]]
+name = "Serpent Lash (Heavy)"
+name_ja = "蛇頭鞭（強）"
+slug = "serpent-lash-heavy"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "236hp"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛び挙動変化", "飛び道具相殺判定あり"]
+
+startup = 11
+active = [11, 16]
+recovery = 32
+cancel = "SA3"
+damage = 700
+superArt = 600
+capcomID = 505
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -8000
+
+# Serpent Lash (OD)
+[[moves]]
+name = "Serpent Lash (OD)"
+name_ja = "蛇頭鞭（OD）"
+slug = "serpent-lash-od"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "236(pp)"
+hitCount = 1
+notes = ["Puts the opponent in a poisoned state on hit", "Properties change and Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and produces a crumple stun on Toxic Blossom trigger", "Can be cancelled into SA2 or SA3 on Toxic Blossom trigger only", "Clashes with projectiles"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時挙動変化/毒破裂", "※毒破裂時ダメージ800/膝崩れ", "※毒破裂時のみSA2、SA3キャンセル可", "飛び道具相殺判定あり"]
+
+startup = 21
+active = [21, 25]
+recovery = 25
+cancel = "*"
+damage = 600
+scaling = ["Starter scaling 15%", "Combo scaling 15%"]
+scaling_ja = ["始動補正15%", "コンボ補正15%"]
+superArt = 500
+capcomID = 505
+
+[moves.frameAdvantage]
+hit = 4
+block = -14
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -6000
+
+# Cruel Fate (Light)
+[[moves]]
+name = "Cruel Fate (Light)"
+name_ja = "凶襲突（弱）"
+slug = "cruel-fate-light"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "214lk"
+hitCount = 3
+
+startup = 24
+active = [24, 25, 31, 32, 37, 38, 44, 45]
+postLandingRecovery = 18
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Cruel Fate (Medium)
+[[moves]]
+name = "Cruel Fate (Medium)"
+name_ja = "凶襲突（中）"
+slug = "cruel-fate-medium"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "214mk"
+hitCount = 3
+
+startup = 28
+active = [28, 29, 35, 36, 41, 42, 48, 49]
+postLandingRecovery = 18
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Cruel Fate (Heavy)
+[[moves]]
+name = "Cruel Fate (Heavy)"
+name_ja = "凶襲突（強）"
+slug = "cruel-fate-heavy"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "214hk"
+hitCount = 3
+
+startup = 33
+active = [33, 34, 40, 41, 46, 47, 53, 54]
+postLandingRecovery = 18
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Cruel Fate (OD)
+[[moves]]
+name = "Cruel Fate (OD)"
+name_ja = "凶襲突（OD）"
+slug = "cruel-fate-od"
+characterId = 19
+type = "special"
+blockType = "high"
+input = "214(kk)"
+hitCount = 3
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Attack does not transition into the cinematic attack when hitting an airborne opponent", "Deals 1000 damage and has floor bounding effect"]
+notes_ja = ["ヒット時毒状態", "空中ヒット時は非ロック技に性能が変化する", "ダメージ1000/床バウンド"]
+
+startup = 28
+active = [28, 30, 35, 36, 41, 42, 48, 49]
+postLandingRecovery = 18
+damage = 1600
+superArt = 1200
+capcomID = 506
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -9000
+
+# Snake Step (Light)
+[[moves]]
+name = "Snake Step (Light)"
+name_ja = "蛇軽功（弱）"
+slug = "snake-step-light"
+characterId = 19
+type = "special"
+input = "236lk"
+
+capcomID = 507
+totalFrames = 37
+
+# Snake Step (Medium)
+[[moves]]
+name = "Snake Step (Medium)"
+name_ja = "蛇軽功（中）"
+slug = "snake-step-medium"
+characterId = 19
+type = "special"
+input = "236mk"
+
+capcomID = 507
+totalFrames = 39
+
+# Snake Step (Heavy)
+[[moves]]
+name = "Snake Step (Heavy)"
+name_ja = "蛇軽功（強）"
+slug = "snake-step-heavy"
+characterId = 19
+type = "special"
+input = "236hk"
+
+notes = ["Transitions to slip behind motion after passing through an opponent during movement", "* Total becomes 50 frames when slipping behind opponents"]
+notes_ja = ["移動中に相手の後方へ抜けると裏回り動作へ移行", "※裏回り時 全体50F"]
+
+capcomID = 507
+totalFrames = 43
+
+# Snake Step (OD)
+[[moves]]
+name = "Snake Step (OD)"
+name_ja = "蛇軽功（OD）"
+slug = "snake-step-od"
+characterId = 19
+type = "special"
+input = "236(kk)"
+notes = ["Transitions to slip behind motion after passing through an opponent during movement", "Invincible to strikes and projectiles from frames 1 - 34", "* Total becomes 48 frames when slipping behind opponents", "Invincible to strikes and projectiles from frames 1 - 48 when slipping behind opponents"]
+notes_ja = ["移動中に相手の後方へ抜けると裏回り動作へ移行", "1-34F打撃・飛び道具に対して無敵", "※裏回り時 全体48F", "裏回り時1-48F打撃・飛び道具に対して無敵"]
+
+capcomID = 507
+totalFrames = 42
+
+# Sinister Slide
+[[moves]]
+name = "Sinister Slide"
+name_ja = "悪鬼蛇行"
+slug = "sinister-slide"
+characterId = 19
+type = "special"
+input = "2+(pp)"
+notes = ["Can transition to branching attacks from frames 11 - 179", "Can halt movement from frames 28 - 179"]
+notes_ja = ["11-179F 専用技へ派生可", "28-179F 解除動作へ派生可"]
+
+totalFrames = 216
+capcomID = 508
+ 
+# Venomous Fang
+[[moves]]
+name = "Venomous Fang"
+name_ja = "猛毒牙"
+slug = "venomous-fang"
+characterId = 19
+type = "followUp"
+input = "*p"
+hitCount = 1
+parents = ["sinister-slide"]
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "* Deals 1100 damage and produces a crumple stun on Toxic Blossom trigger"]
+notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "※毒破裂時ダメージ1100/膝崩れ"]
+
+startup = 19
+active = [19, 33]
+recovery = 30
+damage = 1100
+superArt = 1000
+capcomID = 509
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Heel Strike
+[[moves]]
+name = "Heel Strike"
+name_ja = "蛇連咬"
+slug = "heel-strike"
+characterId = 19
+type = "followUp"
+input = "*k"
+parents = ["sinister-slide"]
+blockType = "high"
+hitCount = 2
+
+startup = 11
+active = [11, 13, 23, 25]
+recovery = 20
+cancel = "SA3"
+damage = 600
+superArt = 600
+capcomID = 510
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -7000
+
+# Entrapment
+[[moves]]
+name = "Entrapment"
+name_ja = "雁字搦"
+slug = "entrapment"
+characterId = 19
+type = "followUp"
+input = "(lplk)"
+parents = ["sinister-slide"]
+properties = ["knockdown"]
+notes = ["Does 2222 individual damage when the attack lands as a Punish Counter"]
+notes_ja = ["パニッシュカウンター時ダメージ（2222）"]
+
+startup = 23
+active = [23, 25]
+recovery = 55
+damage = 1852
+superArt = 3000
+capcomID = 511
+
+[moves.driveGauge]
+onHit = 5000
+onPunishCounter = -10010
+
+# Deadly Implication
+[[moves]]
+name = "Deadly Implication"
+name_ja = "死屍累々"
+slug = "deadly-implication"
+characterId = 19
+type = "super1"
+input = "236236*k"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Minimum guaranteed damage is set to 30%", "Values do not change on counter or Punish Counter"]
+notes_ja = ["ヒット時毒状態", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 10
+active = [10, 12]
+recovery = 68
+damage = 1800
+capcomID = 601
+
+[moves.frameAdvantage]
+block = -46
+
+[moves.driveGauge]
+onBlock = -2500
+
+# Tainted Talons
+[[moves]]
+name = "Tainted Talons"
+name_ja = "毒爪"
+slug = "tainted-talons"
+characterId = 19
+type = "super2"
+input = "214214*p"
+blockType = "high"
+properties = ["knockdown"]
+notes = ["Puts the opponent in a poisoned state on hit", "Minimum guaranteed damage is set to 40%", "Values do not change on counter or Punish Counter", "Poison pool remains in place for 700 frames after this attack"]
+notes_ja = ["ヒット時毒状態", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "攻撃後に発生する毒溜まりは持続700F"]
+
+startup = 7
+recovery = 65
+damage = 2300
+capcomID = 602
+
+[moves.frameAdvantage]
+block = -19
+
+[moves.driveGauge]
+onBlock = -5000
+
+# Claws of Ya Zi
+[[moves]]
+name = "Claws of Ya Zi"
+name_ja = "睚眦"
+slug = "claws-of-ya-zi"
+characterId = 19
+type = "super3"
+input = "236236*p"
+properties = ["knockdown"]
+blockType = "high"
+notes = ["Minimum guaranteed damage is set to 50%", "Values do not change on counter or Punish Counter", "Can only be canceled into from special moves"]
+notes_ja = ["最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
+
+startup = 10
+active = [10, 12]
+recovery = 58
+damage = 4000
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcomID = 603
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onBlock = -7500
+
+# Claw of Ya Zi (Critical Art)
+[[moves]]
+name = "Claw of Ya Zi (Critical Art)"
+name_ja = "睚眦（CA）"
+slug = "claw-of-ya-zi-ca"
+characterId = 19
+type = "super3"
+input = "236236*p"
+properties = ["knockdown"]
+notes = ["Minimum guaranteed damage is set to 50%", "Values do not change on counter or Punish Counter", "Can only be canceled into from special moves"]
+notes_ja = ["最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
+
+startup = 10
+active = [10, 12]
+recovery = 58
+damage = 4500
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+capcomID = 603
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onBlock = -10000
+
+# Whisper
+[[moves]]
+name = "Whisper"
+name_ja = "贔屓"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "whisper"
+characterId = 19
+type = "throw"
+input = "(lp+lk)"
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcomID = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Gluttony
+[[moves]]
+name = "Gluttony"
+name_ja = "食腐"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "gluttony"
+characterId = 19
+type = "throw"
+input = "(4lplk)"
+properties = ["knockdown"]
+notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcomID = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
