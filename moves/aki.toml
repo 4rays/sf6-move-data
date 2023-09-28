@@ -574,6 +574,8 @@ active = [24, 26]
 recovery = 18
 damage = 600
 superArt = 500
+notes = ["An overhead attack that cannot be blocked while crouching."]
+notes_ja = ["しゃがみでガードできない中段攻撃。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -594,8 +596,11 @@ type = "commandNormal"
 blockType = "mid"
 input = "6hp"
 hitCount = 1
-notes = ["1 frame of recovery added when the attack hits or is blocked"]
-notes_ja = ["ヒット、ガード時硬直1F減少"]
+notes = [
+  "An advancing lunge attack that can be canceled into Super Arts.",
+  "1 frame of recovery added when the attack hits or is blocked",
+]
+notes_ja = ["前進しながら繰り出す、スーパーアーツでキャンセル可能な攻撃。", "ヒット、ガード時硬直1F減少"]
 capcomID = 402
 
 startup = 16
@@ -624,9 +629,11 @@ type = "commandNormal"
 blockType = "high"
 input = "6hk"
 hitCount = 2
-notes = ["4 frames of recovery added when the attack misses"]
-notes_ja = ["空振り時硬直8F増加"]
-
+notes = [
+  "A forward-moving attack that allows you to act before an opponent even if blocked.",
+  "4 frames of recovery added when the attack misses",
+]
+notes_ja = ["前進して繰り出す、ガードされても相手より先に動ける攻撃。", "空振り時硬直8F増加"]
 startup = 14
 active = [14, 16, 22, 24]
 recovery = 16
@@ -656,9 +663,11 @@ blockType = "mid"
 input = "9>6hp"
 hitCount = 1
 properties = ["canCrossUp"]
-notes = ["Forces a slam knockdown when hitting a mid-air opponent"]
-notes_ja = ["空中ヒット時叩きつけダウン"]
-
+notes = [
+  "A jumping attack that can hit an opponent even when they are behind you.",
+  "Forces a slam knockdown when hitting a mid-air opponent",
+]
+notes_ja = ["ジャンプ中に繰り出す、相手が後方に位置してもヒットする攻撃。", "空中ヒット時叩きつけダウン"]
 startup = 9
 active = [9, 13]
 postLandingRecovery = 3
@@ -683,9 +692,11 @@ type = "targetCombo"
 blockType = "high"
 input = "lp>lp"
 hitCount = 2
-notes = ["Can be canceled into special moves on hit or block"]
-notes_ja = ["ヒット、ガード時特殊技にキャンセル可能"]
-
+notes = [
+  "A quick-hitting combo attack that can be canceled into a special move.",
+  "Can be canceled into special moves on hit or block",
+]
+notes_ja = ["技の出が早く、続けてヒットするキャンセル可能な連続攻撃。", "ヒット、ガード時特殊技にキャンセル可能"]
 startup = 8
 active = [8, 9]
 recovery = 14
@@ -715,9 +726,18 @@ input = "mp>hp"
 hitCount = 2
 
 properties = ["knockdown", "juggle"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Forces a juggle state when Toxic Bloom triggers"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時吹き飛び挙動変化"]
-
+notes = [
+  "A long-reaching combo attack that poisons the opponent if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Forces a juggle state when Toxic Bloom triggers",
+]
+notes_ja = [
+  "リーチが長く、続けてヒットする連続攻撃。ヒット時は相手を毒状態にする。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "毒破裂時吹き飛び挙動変化",
+]
 startup = 14
 active = [14, 16]
 recovery = 24
@@ -747,9 +767,18 @@ type = "special"
 blockType = "high"
 hitCount = 1
 input = "214lp"
-notes = ["Puts the opponent in a poisoned state on hit", "Can be canceled into branching moves from frames 30 - 36", "Can be canceled into Overdrive Snake Step from frames 35 - 36"]
-notes_ja = ["ヒット時毒状態", "30-36F専用技でキャンセル可", "※35-36F OD版蛇軽功でキャンセル可"]
-
+notes = [
+  "Launch a poisonous bubble towards your opponent. Useful for checking your opponent from a distance, and poisons them if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+  "Can be canceled into branching moves from frames 30 - 36",
+  "Can be canceled into Overdrive Snake Step from frames 35 - 36",
+]
+notes_ja = [
+  "毒の泡を吹きつけて飛ばす技。遠距離でのけん制として有効で、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "30-36F専用技でキャンセル可",
+  "※35-36F OD版蛇軽功でキャンセル可",
+]
 startup = 17
 totalFrames = 52
 cancel = "SA3"
@@ -777,9 +806,22 @@ blockType = "high"
 hitCount = 1
 input = "6+p"
 parents = ["nightshade-pulse"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "※毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
-
+notes = [
+  "During Nightshade Pulse",
+  "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "紫煙砲中に",
+  "装着している爪を伸ばし、射出した紫煙砲を割る技。割れた紫煙砲は攻撃範囲が広くなる。爪自体がヒットした場合も相手を毒状態にする。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "※毒破裂時ダメージ800/吹き飛びダウン",
+  "飛び道具相殺判定あり",
+]
 startup = 13
 active = [13, 14]
 recovery = 34
@@ -808,9 +850,18 @@ blockType = "high"
 input = "214(pp)"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Can be canceled into branching moves from frames 34 - 35", "Can be canceled into Overdrive Snake Step from frames 32 - 33"]
-notes_ja = ["ヒット時毒状態", "34-35F専用技でキャンセル可", "※32-33F OD版蛇軽功でキャンセル可"]
-
+notes = [
+  "Launch a poisonous bubble towards your opponent. Useful for checking your opponent from a distance, and poisons them if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+  "Can be canceled into branching moves from frames 34 - 35",
+  "Can be canceled into Overdrive Snake Step from frames 32 - 33",
+]
+notes_ja = [
+  "毒の泡を吹きつけて飛ばす技。遠距離でのけん制として有効で、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "34-35F専用技でキャンセル可",
+  "※32-33F OD版蛇軽功でキャンセル可",
+]
 startup = 16
 totalFrames = 44
 cancel = "SA2"
@@ -836,9 +887,22 @@ blockType = "high"
 input = "6*p"
 hitCount = 1
 parents = ["night-shade-od"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
-
+notes = [
+  "During Nightshade Pulse OD",
+  "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "紫煙砲OD中に",
+  "装着している爪を伸ばし、射出した紫煙砲を割る技。割れた紫煙砲は攻撃範囲が広くなる。爪自体がヒットした場合も相手を毒状態にする。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "毒破裂時ダメージ800/吹き飛びダウン",
+  "飛び道具相殺判定あり",
+]
 startup = 13
 active = [13, 17]
 recovery = 28
@@ -869,9 +933,16 @@ hitCount = 1
 input = "5"
 parents = ["nightshade-pulse"]
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit"]
-notes_ja = ["ヒット時毒状態"]
-
+notes = [
+  "During Nightshade Pulse",
+  "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
+  "Puts the opponent in a poisoned state on hit",
+]
+notes_ja = [
+  "紫煙砲中に",
+  "装着している爪を伸ばし、射出した紫煙砲を割る技。割れた紫煙砲は攻撃範囲が広くなる。爪自体がヒットした場合も相手を毒状態にする。",
+  "ヒット時毒状態",
+]
 damage = 800
 superArt = 300
 capcomID = 502
@@ -893,9 +964,16 @@ hitCount = 1
 input = "5"
 parents = ["nightshade-pulse-od"]
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit"]
-notes_ja = ["ヒット時毒状態"]
-
+notes = [
+  "During Nightshade Pulse OD",
+  "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
+  "Puts the opponent in a poisoned state on hit",
+]
+notes_ja = [
+  "紫煙砲OD中に",
+  "装着している爪を伸ばし、射出した紫煙砲を割る技。割れた紫煙砲は攻撃範囲が広くなる。爪自体がヒットした場合も相手を毒状態にする。",
+  "ヒット時毒状態",
+]
 damage = 1600
 superArt = 900
 capcomID = 502
@@ -912,9 +990,16 @@ slug = "orchid-spring"
 characterId = 19
 type = "special"
 input = "214mp"
-notes = ["Opponent enters poisoned state on contact with poison pool", "Poison pool remains in place for 160 frames"]
-notes_ja = ["毒溜まり接触時毒状態", "設置した毒溜まりは160F持続"]
-
+notes = [
+  "Talons pierce the ground, creating a pool of poison. Opponents that touch the the pool will become poisoned.",
+  "Opponent enters poisoned state on contact with poison pool",
+  "Poison pool remains in place for 160 frames",
+]
+notes_ja = [
+  "地面に爪を突き刺して毒溜まりを作り出す技。相手が設置された毒溜まりに接触すると、毒状態となる。",
+  "毒溜まり接触時毒状態",
+  "設置した毒溜まりは160F持続",
+]
 startup = 26
 totalFrames = 46
 capcomID = 503
@@ -929,9 +1014,11 @@ type = "special"
 input = "214hp"
 hitCount = 2
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit"]
-notes_ja = ["ヒット時毒状態"]
-
+notes = [
+  "Slashes forward with talons while creating a poisonous bubble, and then immediately bursts it. Easy to use in combos or attack sequences, and poisons the opponent if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+]
+notes_ja = ["前方を爪で裂いて毒の泡を作り出し、割って攻撃する技。コンボや連係に使いやすく、ヒット時は毒状態となる。", "ヒット時毒状態"]
 startup = 13
 active = [13, 15, 30, 36]
 recovery = 15
@@ -960,9 +1047,20 @@ type = "special"
 blockType = "high"
 input = "236lp"
 hitCount = 1
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛びダウン", "飛び道具相殺判定あり"]
-
+notes = [
+  "Extends talons out a short distance to pierce opponents and poison them if the attack lands. Useful in combos or as a way of checking opponents from mid-range.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "毒破裂時ダメージ800/吹き飛びダウン",
+  "飛び道具相殺判定あり",
+]
 startup = 14
 active = [14, 16]
 recovery = 26
@@ -991,9 +1089,20 @@ blockType = "high"
 input = "236mp"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 700 damage and produces a crumple stun on Toxic Blossom trigger", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ700/膝崩れ", "飛び道具相殺判定あり"]
-
+notes = [
+  "Extends talons out a short distance to pierce opponents and poison them if the attack lands. Useful in combos or as a way of checking opponents from mid-range.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 700 damage and produces a crumple stun on Toxic Blossom trigger",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "毒破裂時ダメージ700/膝崩れ",
+  "飛び道具相殺判定あり",
+]
 startup = 17
 active = [17, 22]
 recovery = 24
@@ -1021,9 +1130,20 @@ blockType = "high"
 input = "236hp"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and forces a juggle state on Toxic Blossom trigger", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "毒破裂時ダメージ800/吹き飛び挙動変化", "飛び道具相殺判定あり"]
-
+notes = [
+  "Extends talons out a short distance to pierce opponents and poison them if the attack lands. Useful in combos or as a way of checking opponents from mid-range.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "毒破裂時ダメージ800/吹き飛び挙動変化",
+  "飛び道具相殺判定あり",
+]
 startup = 11
 active = [11, 16]
 recovery = 32
@@ -1050,9 +1170,22 @@ type = "special"
 blockType = "high"
 input = "236(pp)"
 hitCount = 1
-notes = ["Puts the opponent in a poisoned state on hit", "Properties change and Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "Deals 800 damage and produces a crumple stun on Toxic Blossom trigger", "Can be cancelled into SA2 or SA3 on Toxic Blossom trigger only", "Clashes with projectiles"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時挙動変化/毒破裂", "※毒破裂時ダメージ800/膝崩れ", "※毒破裂時のみSA2、SA3キャンセル可", "飛び道具相殺判定あり"]
-
+notes = [
+  "Extends talons out a short distance to pierce opponents and poison them if the attack lands. Useful in combos or as a way of checking opponents from mid-range.",
+  "Puts the opponent in a poisoned state on hit",
+  "Properties change and Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "Deals 800 damage and produces a crumple stun on Toxic Blossom trigger",
+  "Can be cancelled into SA2 or SA3 on Toxic Blossom trigger only",
+  "Clashes with projectiles",
+]
+notes_ja = [
+  "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時挙動変化/毒破裂",
+  "※毒破裂時ダメージ800/膝崩れ",
+  "※毒破裂時のみSA2、SA3キャンセル可",
+  "飛び道具相殺判定あり",
+]
 startup = 21
 active = [21, 25]
 recovery = 25
@@ -1090,6 +1223,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
 capcomID = 506
+notes = [
+  "Leap forward into the air and unleash a series of piercing attacks on the downward arc. A useful surprise attack to get around an opponent's attempts to check you.",
+]
+notes_ja = ["前方に跳び上がり、落下しながら連続して突きを繰り出す技。相手のけん制を避けながらの奇襲として使いやすい。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -1119,6 +1256,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
 capcomID = 506
+notes = [
+  "Leap forward into the air and unleash a series of piercing attacks on the downward arc. A useful surprise attack to get around an opponent's attempts to check you.",
+]
+notes_ja = ["前方に跳び上がり、落下しながら連続して突きを繰り出す技。相手のけん制を避けながらの奇襲として使いやすい。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1148,6 +1289,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
 capcomID = 506
+notes = [
+  "Leap forward into the air and unleash a series of piercing attacks on the downward arc. A useful surprise attack to get around an opponent's attempts to check you.",
+]
+notes_ja = ["前方に跳び上がり、落下しながら連続して突きを繰り出す技。相手のけん制を避けながらの奇襲として使いやすい。"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -1169,9 +1314,18 @@ blockType = "high"
 input = "214(kk)"
 hitCount = 3
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Attack does not transition into the cinematic attack when hitting an airborne opponent", "Deals 1000 damage and has floor bounding effect"]
-notes_ja = ["ヒット時毒状態", "空中ヒット時は非ロック技に性能が変化する", "ダメージ1000/床バウンド"]
-
+notes = [
+  "Leap forward into the air and unleash a series of piercing attacks on the downward arc. A useful surprise attack to get around an opponent's attempts to check you.",
+  "Puts the opponent in a poisoned state on hit",
+  "Attack does not transition into the cinematic attack when hitting an airborne opponent",
+  "Deals 1000 damage and has floor bounding effect",
+]
+notes_ja = [
+  "前方に跳び上がり、落下しながら連続して突きを繰り出す技。相手のけん制を避けながらの奇襲として使いやすい。",
+  "ヒット時毒状態",
+  "空中ヒット時は非ロック技に性能が変化する",
+  "ダメージ1000/床バウンド",
+]
 startup = 28
 active = [28, 30, 35, 36, 41, 42, 48, 49]
 postLandingRecovery = 18
@@ -1197,6 +1351,10 @@ input = "236lk"
 
 capcomID = 507
 totalFrames = 37
+notes = [
+  "A quick, low-profile maneuver that carries you forward. An effective means of closing in on your opponent or avoiding attacks.",
+]
+notes_ja = ["低い姿勢で前方に速く移動する技。接近手段や、攻めの回避手段として有効。"]
 
 # Snake Step (Medium)
 [[moves]]
@@ -1209,6 +1367,10 @@ input = "236mk"
 
 capcomID = 507
 totalFrames = 39
+notes = [
+  "A quick, low-profile maneuver that carries you forward. An effective means of closing in on your opponent or avoiding attacks.",
+]
+notes_ja = ["低い姿勢で前方に速く移動する技。接近手段や、攻めの回避手段として有効。"]
 
 # Snake Step (Heavy)
 [[moves]]
@@ -1218,10 +1380,16 @@ slug = "snake-step-heavy"
 characterId = 19
 type = "special"
 input = "236hk"
-
-notes = ["Transitions to slip behind motion after passing through an opponent during movement", "* Total becomes 50 frames when slipping behind opponents"]
-notes_ja = ["移動中に相手の後方へ抜けると裏回り動作へ移行", "※裏回り時 全体50F"]
-
+notes = [
+  "A quick, low-profile maneuver that carries you forward. An effective means of closing in on your opponent or avoiding attacks.",
+  "Transitions to slip behind motion after passing through an opponent during movement",
+  "* Total becomes 50 frames when slipping behind opponents",
+]
+notes_ja = [
+  "低い姿勢で前方に速く移動する技。接近手段や、攻めの回避手段として有効。",
+  "移動中に相手の後方へ抜けると裏回り動作へ移行",
+  "※裏回り時 全体50F",
+]
 capcomID = 507
 totalFrames = 43
 
@@ -1233,9 +1401,20 @@ slug = "snake-step-od"
 characterId = 19
 type = "special"
 input = "236(kk)"
-notes = ["Transitions to slip behind motion after passing through an opponent during movement", "Invincible to strikes and projectiles from frames 1 - 34", "* Total becomes 48 frames when slipping behind opponents", "Invincible to strikes and projectiles from frames 1 - 48 when slipping behind opponents"]
-notes_ja = ["移動中に相手の後方へ抜けると裏回り動作へ移行", "1-34F打撃・飛び道具に対して無敵", "※裏回り時 全体48F", "裏回り時1-48F打撃・飛び道具に対して無敵"]
-
+notes = [
+  "A quick, low-profile maneuver that carries you forward. An effective means of closing in on your opponent or avoiding attacks.",
+  "Transitions to slip behind motion after passing through an opponent during movement",
+  "Invincible to strikes and projectiles from frames 1 - 34",
+  "* Total becomes 48 frames when slipping behind opponents",
+  "Invincible to strikes and projectiles from frames 1 - 48 when slipping behind opponents",
+]
+notes_ja = [
+  "低い姿勢で前方に速く移動する技。接近手段や、攻めの回避手段として有効。",
+  "移動中に相手の後方へ抜けると裏回り動作へ移行",
+  "1-34F打撃・飛び道具に対して無敵",
+  "※裏回り時 全体48F",
+  "裏回り時1-48F打撃・飛び道具に対して無敵",
+]
 capcomID = 507
 totalFrames = 42
 
@@ -1247,9 +1426,16 @@ slug = "sinister-slide"
 characterId = 19
 type = "special"
 input = "2+(pp)"
-notes = ["Can transition to branching attacks from frames 11 - 179", "Can halt movement from frames 28 - 179"]
-notes_ja = ["11-179F 専用技へ派生可", "28-179F 解除動作へ派生可"]
-
+notes = [
+  "A technique that has you slither forward slowly on your back and can be followed up by three different attacks. Input up while slithering to cancel the movement.",
+  "Can transition to branching attacks from frames 11 - 179",
+  "Can halt movement from frames 28 - 179",
+]
+notes_ja = [
+  "地面に寝そべりながら、ゆっくり前方に移動する技。移動中は上方向入力での動作中断と、3種類の技へ派生が可能。",
+  "11-179F 専用技へ派生可",
+  "28-179F 解除動作へ派生可",
+]
 totalFrames = 216
 capcomID = 508
  
@@ -1264,9 +1450,20 @@ input = "*p"
 hitCount = 1
 parents = ["sinister-slide"]
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Toxic Blossom triggers on hit if the opponent is already in a poisoned state", "* Deals 1100 damage and produces a crumple stun on Toxic Blossom trigger"]
-notes_ja = ["ヒット時毒状態", "毒状態中にヒット時毒破裂", "※毒破裂時ダメージ1100/膝崩れ"]
-
+notes = [
+  "During sinister slide",
+  "A sudden, sharp forward charge out of Sinister Slide. Useful as a projectile attack deterrent, and poisons the opponent if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+  "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
+  "* Deals 1100 damage and produces a crumple stun on Toxic Blossom trigger",
+]
+notes_ja = [
+  "悪鬼蛇行中に",
+  "悪鬼蛇行の姿勢から、前方へ鋭く突進して攻撃する技。飛び道具への対抗手段として有効で、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "毒状態中にヒット時毒破裂",
+  "※毒破裂時ダメージ1100/膝崩れ",
+]
 startup = 19
 active = [19, 33]
 recovery = 30
@@ -1301,6 +1498,11 @@ cancel = "SA3"
 damage = 600
 superArt = 600
 capcomID = 510
+notes = [
+  "During sinister slide",
+  "Unleashes a pair of revolving kicks as you rise out of Sinister Slide. Effective for use in combos, or for maintaining offensive pressure up close.",
+]
+notes_ja = ["悪鬼蛇行中に", "悪鬼蛇行の姿勢から、起き上がりながら連続蹴りを繰り出す技。近距離での攻めの継続や、コンボの繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -1321,9 +1523,16 @@ type = "followUp"
 input = "(lplk)"
 parents = ["sinister-slide"]
 properties = ["knockdown"]
-notes = ["Does 2222 individual damage when the attack lands as a Punish Counter"]
-notes_ja = ["パニッシュカウンター時ダメージ（2222）"]
-
+notes = [
+  "During sinister slide",
+  "A constricting grab attack out of Sinister Slide. Useful as a way to break through an opponent's guard when they're wary of other Sinister Slide attacks.",
+  "Does 2222 individual damage when the attack lands as a Punish Counter",
+]
+notes_ja = [
+  "悪鬼蛇行中に",
+  "悪鬼蛇行の姿勢から、相手に絡みついて締め上げる技。他の派生技を警戒させてのガード崩し手段として有効。",
+  "パニッシュカウンター時ダメージ（2222）",
+]
 startup = 23
 active = [23, 25]
 recovery = 55
@@ -1345,9 +1554,18 @@ type = "super1"
 input = "236236*k"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Minimum guaranteed damage is set to 30%", "Values do not change on counter or Punish Counter"]
-notes_ja = ["ヒット時毒状態", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes = [
+  "Launch the opponent into the air with a kick, and entrap them in a gigantic poisonous bubble. Useful as a counterattack or follow-up, and poisons the opponent if it hits.",
+  "Puts the opponent in a poisoned state on hit",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "相手を蹴りで打ち上げ、大きな毒の泡で攻撃する技。切り返し手段や追撃手段として有効で、ヒット時は毒状態となる。",
+  "ヒット時毒状態",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 10
 active = [10, 12]
 recovery = 68
@@ -1370,9 +1588,20 @@ type = "super2"
 input = "214214*p"
 blockType = "high"
 properties = ["knockdown"]
-notes = ["Puts the opponent in a poisoned state on hit", "Minimum guaranteed damage is set to 40%", "Values do not change on counter or Punish Counter", "Poison pool remains in place for 700 frames after this attack"]
-notes_ja = ["ヒット時毒状態", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない", "攻撃後に発生する毒溜まりは持続700F"]
-
+notes = [
+  "Extends multiple talons forward, and leaves a large pool of poison in its wake. Useful for attacking from a distance, and also poisons the opponent if it hits. Opponents will also become poisoned if they touch the pool.",
+  "Puts the opponent in a poisoned state on hit",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+  "Poison pool remains in place for 700 frames after this attack",
+]
+notes_ja = [
+  "多数の爪を伸ばして攻撃し、大きな毒溜まりを発生させる技。離れた位置の攻撃手段として有効で、ヒット時は毒状態となる。発生した毒溜まりに接触した場合も、毒状態となる。",
+  "ヒット時毒状態",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "攻撃後に発生する毒溜まりは持続700F",
+]
 startup = 7
 recovery = 65
 damage = 2300
@@ -1394,9 +1623,18 @@ type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
 blockType = "high"
-notes = ["Minimum guaranteed damage is set to 50%", "Values do not change on counter or Punish Counter", "Can only be canceled into from special moves"]
-notes_ja = ["最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
-
+notes = [
+  "Pierces various pressure points on the body and injects a poison that detonates from within. A versatile move that can get around projectiles, be used in combos, and serve as a potent counterattack.",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "Can only be canceled into from special moves",
+]
+notes_ja = [
+  "相手の様々な点穴を突き、打ち込んだ毒を内部から破裂させる技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 startup = 10
 active = [10, 12]
 recovery = 58
@@ -1420,9 +1658,20 @@ characterId = 19
 type = "super3"
 input = "236236*p"
 properties = ["knockdown"]
-notes = ["Minimum guaranteed damage is set to 50%", "Values do not change on counter or Punish Counter", "Can only be canceled into from special moves"]
-notes_ja = ["最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用"]
-
+notes = [
+  "When under 25% vitality",
+  "Pierces various pressure points on the body and injects a poison that detonates from within. A versatile move that can get around projectiles, be used in combos, and serve as a potent counterattack.",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "Can only be canceled into from special moves",
+]
+notes_ja = [
+  "体力25%以下で",
+  "相手の様々な点穴を突き、打ち込んだ毒を内部から破裂させる技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 startup = 10
 active = [10, 12]
 recovery = 58
@@ -1448,9 +1697,22 @@ characterId = 19
 type = "throw"
 input = "(lp+lk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "When near opponent",
+  "Grab your opponent's arm to break their poise, before sweeping out their leg and sending them crashing to the ground. Throws your opponent without switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "近距離で",
+  "相手の腕へ絡みつくように掴み、体勢を崩して投げ飛ばす技。相手との位置関係を変えずに投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1473,9 +1735,22 @@ characterId = 19
 type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes = [
+  "When near opponent",
+  "Grab and twist your opponent's arm, making them falter, and then blow them away with a painful thrust attack. Throws your opponent while switching places with them.",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "近距離で",
+  "相手の腕を掴んで捻り、突きで吹き飛ばす技。相手との位置を入れ替えながら投げる。",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
