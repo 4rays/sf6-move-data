@@ -886,7 +886,7 @@ type = "followUp"
 blockType = "high"
 input = "6*p"
 hitCount = 1
-parents = ["nightshade-pulse"]
+parents = ["nightshade-pulse-od"]
 notes = [
   "During Nightshade Pulse OD",
   "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
