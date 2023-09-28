@@ -607,3 +607,12 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss04.jpg",
   "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss05.jpg",
 ]
+artwork = "https://www.streetfighter.com/6/assets/images/character/aki/aki.png"
+
+[[characters.tags]]
+name = "setup"
+name_ja = "セットプレイ"
+
+[[characters.tags]]
+name = "feint"
+name_ja = "フェイント"

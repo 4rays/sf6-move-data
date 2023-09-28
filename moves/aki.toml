@@ -804,7 +804,7 @@ characterId = 19
 type = "followUp"
 blockType = "high"
 hitCount = 1
-input = "6+p"
+input = "6*p"
 parents = ["nightshade-pulse"]
 notes = [
   "During Nightshade Pulse",
@@ -844,7 +844,7 @@ onPunishCounter = -2000
 name = "Nightshade Pulse (OD)"
 name_ja = "紫煙砲（OD）"
 characterId = 19
-slug = "night-shade-od"
+slug = "nightshade-pulse-od"
 type = "special"
 blockType = "high"
 input = "214(pp)"
@@ -886,7 +886,7 @@ type = "followUp"
 blockType = "high"
 input = "6*p"
 hitCount = 1
-parents = ["night-shade-od"]
+parents = ["nightshade-pulse"]
 notes = [
   "During Nightshade Pulse OD",
   "Extends talons forward to burst the poisonous Nightshade Pulse bubble in transit. The burst widens the bubble's attack range, and the talons themselves can poison an opponent if they come in contact with them.",
