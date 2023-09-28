@@ -1670,7 +1670,7 @@ block = -18
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -3000
+onBlock = -6000
 onPunishCounter = -10000
 
 # Flying Body Press
