@@ -2382,9 +2382,11 @@ capcomID = 603
 
 [moves.frameAdvantage]
 block = 75
+
 [moves.driveGauge]
 onBlock = -7500
 onPunishCounter = -15000
+
 [[moves]]
 name = "Altair (Critical Art)"
 name_ja = "アルタイル (CA)"

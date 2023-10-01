@@ -2034,6 +2034,7 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
 notes = [
   "A series of punches punctuated by a powerful finishing blow that sends an opponent flying. Connecting with the first hit is enough to activate the combination attack that follows",
   "Completely invincible from frames 1 - 7",
@@ -2073,6 +2074,7 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
 notes = [
   "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles",
   "Start up and invincibility changes depending on the distance from the opponent",
@@ -2122,6 +2124,7 @@ type = "super3"
 hitCount = 1
 blockType = "high"
 input = "236236*p"
+properties = ["knockdown"]
 notes = [
   "When under 25% vitality",
   "Start up and invincibility changes depending on the distance from the opponent",
