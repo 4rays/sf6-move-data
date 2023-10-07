@@ -6,7 +6,6 @@ slug = "ryu"
 name_ja = "リュウ"
 description = "Ryu from streets–Mister Street Fighter himself, forever training to become stronger and overcome his demons."
 description_ja = "真の強さを求め修行を続ける格闘家。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ryu/ryu_ss02.jpg",
@@ -36,7 +35,6 @@ slug = "luke"
 name_ja = "ルーク"
 description = "A contractor for a PMC, Luke uses his elite military background to teach mixed martial arts."
 description_ja = "民間警備会社のコントラクター。米軍特殊部隊上がりで、初心者に総合格闘技を指導している。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/luke/luke_ss02.jpg",
@@ -66,7 +64,6 @@ slug = "jamie"
 name_ja = "ジェイミー"
 description = "An expert dancer and a drunken fist master."
 description_ja = "道理や仲間を尊ぶ義と、拳法の武によって街を守っている。特技はダンス全般。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jamie/jamie_ss02.jpg",
@@ -104,7 +101,6 @@ slug = "chunli"
 name_ja = "春麗"
 description = "A former ICPO agent, Chun-Li now runs kung fu classes ands looks after Li-Fen."
 description_ja = "華麗な脚技で闘う元・ICPOの捜査官。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/chunli/chunli_ss02.jpg",
@@ -138,7 +134,6 @@ slug = "guile"
 name_ja = "グイル"
 description = "A former member of the US Air Force, Guile is the protector of the skies."
 description_ja = "祖国の平和のために闘う米空軍軍人。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/guile/guile_ss02.jpg",
@@ -172,7 +167,6 @@ slug = "kimberly"
 name_ja = "キンバリー"
 description = "Uninvited student to Guy, the 39th successor to Bushinryu."
 description_ja = "武神流第39代目伝承者・ガイの押し掛け弟子。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/kimberly/kimberly_ss02.jpg",
@@ -202,7 +196,6 @@ slug = "juri"
 name_ja = "ジュリ"
 description = "A sadistic thrillseeker, who enjoys the strife and suffering of others."
 description_ja = "人の争いや苦悩を好み、闘う相手を破壊し尽くすことを至高の喜びとする享楽家。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/juri/juri_ss02.jpg",
@@ -232,7 +225,6 @@ slug = "ken"
 name_ja = "ケン"
 description = "The former champ has abandoned his previous life to hide from criminal accusations"
 description_ja = "ある事件により組織犯罪の首謀者という嫌疑をかけられたため、家族の元を離れ地位を捨てて潜伏している。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ken/ken_ss02.jpg",
@@ -262,7 +254,6 @@ slug = "blanka"
 name_ja = "ブランカ"
 description = "A defender of nature and an adventure tour guide."
 description_ja = "心やさしい大自然の戦士。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/blanka/blanka_ss02.jpg",
@@ -292,7 +283,6 @@ slug = "dhalsim"
 name_ja = "ダルシム"
 description = "A monk and yoga master who mastered the art of stretching his body to its limits."
 description_ja = "インドの修行僧でヨーガの達人。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/dhalsim/dhalsim_ss02.jpg",
@@ -330,7 +320,6 @@ slug = "ehonda"
 name_ja = "エドモンド本田"
 description = "A sumo wrestler looking to bring the sport worldwide."
 description_ja = "相撲を「わあるどわいど」にするため闘う力士。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/ehonda/ehonda_ss02.jpg",
@@ -360,7 +349,6 @@ slug = "deejay"
 name_ja = "ディージェイ"
 description = "A globally popular dance music superstar, Dee Jay is always ready to have a good time."
 description_ja = "ダンスミュージックの世界的大スター。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/deejay/deejay_ss02.jpg",
@@ -394,7 +382,6 @@ slug = "manon"
 name_ja = "マノン"
 description = "A super model and world champion judoka."
 description_ja = "世界大会優勝経験を持つ柔道家にして、スーパーモデル。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/manon/manon_ss02.jpg",
@@ -428,7 +415,6 @@ slug = "marisa"
 name_ja = "マリーザ"
 description = "An up-and-coming jewelry designer from Italy who claims ancestry to ancient Greek warriors."
 description_ja = "古代ギリシャからの歴史を継ぐ闘士にして新進のジュエリーデザイナー。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/marisa/marisa_ss02.jpg",
@@ -462,7 +448,6 @@ slug = "jp"
 name_ja = "JP"
 description = "Head of an international NGO and the man behind Nayshall's present prosperity."
 description_ja = "国際NGOを組織し多数の開発投資プロジェクトを成功させてきた事業家。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/jp/jp_ss02.jpg",
@@ -488,7 +473,6 @@ slug = "zangief"
 name_ja = "ザンギエフ"
 description = "A colossal wrestler nicknamed the Red Cyclone."
 description_ja = "赤きサイクロン」の異名を持つ巨漢のプロレスラー。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/zangief/zangief_ss02.jpg",
@@ -517,7 +501,6 @@ name = "Lily"
 name_ja = "リリー"
 description = "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature"
 description_ja = "サンダーフット族の古い血を受け継ぐ娘。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/lily/lily_ss02.jpg",
@@ -543,7 +526,6 @@ slug = "cammy"
 name_ja = "キャミィ"
 description = "Member of British special forces unit Delta Red."
 description_ja = "イギリス特殊部隊デルタレッド隊員。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/cammy/cammy_ss02.jpg",
@@ -569,7 +551,6 @@ slug = "rashid"
 name_ja = "ラシード"
 description = "A gadget enthusiast who uses wind-based attacks."
 description_ja = "風を操るガジェットマニア。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/rashid/rashid_ss02.jpg",
@@ -599,7 +580,6 @@ slug = "aki"
 name_ja = "A.K.I."
 description = "A poison-wielding apprentice of F.A.N.G, the former Shadaloo officer. Enchanted by the power of toxins, nothing brings her more joy than testing them on a new target—other than attention from her “master,” that is."
 description_ja = "元シャドルー幹部、F.A.N.Gに師事する毒遣い。 毒に魅せられ、その力をふるうことに無上の 歓びを覚える。 F.A.N.Gを先生と呼び偏愛している。"
-gameId = 0
 media = [
   "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss01.jpg",
   "https://www.streetfighter.com/6/assets/images/character/aki/aki_ss02.jpg",
