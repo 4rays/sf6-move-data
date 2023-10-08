@@ -1070,7 +1070,7 @@ notes_ja = [
   "9-24F,33-74F 空中判定",
 ]
 startup = 6
-active = [6, 7, 8, 15, 30, 31, 32, 33, 34, 35, 39]
+active = [6, 7, 8, 15, 30, 31, 32, 32, 33, 34, 35, 39]
 recovery = 35
 postLandingRecovery = 15
 damage = 1600

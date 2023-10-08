@@ -1,3 +1,7 @@
 [formatting]
 # https://taplo.tamasfe.dev/configuration/formatter-options.html
 column_width = 80
+
+[schema]
+path = "https://json.schemastore.org/base.json"
+enabled = true

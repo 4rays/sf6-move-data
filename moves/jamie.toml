@@ -81,7 +81,7 @@ notes = [
 notes_ja = ["持続の1F目までキャンセル可", "空中ヒット時吹き飛びやられ"]
 
 startup = 5
-active = [5, 7, 12, 14]
+active = [5, 5, 7, 12, 14]
 recovery = 20
 cancel = "C"
 damage = 900

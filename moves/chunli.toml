@@ -2226,7 +2226,7 @@ notes_ja = [
 ]
 
 startup = 8
-active = [8, 9, 34, 42]
+active = [8, 9, 34, 34, 42]
 recovery = 40
 damage = 4000
 scaling = ["Immediate scaling 10％"]

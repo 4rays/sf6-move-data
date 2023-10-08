@@ -961,7 +961,7 @@ notes_ja = [
   "空振り時硬直5F増加",
 ]
 startup = 8
-active = [8, 16, 17, 22, 23]
+active = [8, 8, 16, 17, 22, 23]
 recovery = 19
 cancel = "SA3"
 damage = 700
@@ -992,7 +992,7 @@ notes = ["When coming in contact with an air current"]
 notes_ja = ["気流接触中に"]
 
 startup = 6
-active = [6, 12, 14, 18, 20, 25, 27, 31, 33, 38, 40, 44, 46, 51, 53, 57, 59]
+active = [6, 6, 12, 14, 18, 20, 25, 27, 31, 33, 38, 40, 44, 46, 51, 53, 57, 59]
 recovery = 15
 cancel = "SA3"
 damage = 1000
@@ -1037,7 +1037,7 @@ notes_ja = [
   "ヒット時のみ、着地硬直11F間を必殺技、SAでキャンセル可",
 ]
 startup = 8
-active = [8, 9, 10, 13, 14, 20, 21, 25, 26]
+active = [8, 8, 9, 10, 13, 14, 20, 21, 25, 26]
 postLandingRecovery = 11
 cancel = "SA3"
 damage = 800
@@ -1075,6 +1075,7 @@ notes_ja = [
 
 startup = 5
 active = [
+  5,
   5,
   6,
   7,
@@ -1209,7 +1210,7 @@ notes_ja = [
   "2-9F 気流干渉により性能変化",
 ]
 startup = 6
-active = [6, 7, 8, 11, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 48]
+active = [6, 6, 7, 8, 11, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 48]
 postLandingRecovery = 15
 damage = 1400
 scaling = ["Starter scaling 20%"]
@@ -1242,6 +1243,7 @@ notes = [
 notes_ja = ["気流接触中に", "1-8F 完全無敵", "10-97F 空中判定", "67-71F 空中での必殺技へ派生可"]
 startup = 4
 active = [
+  4,
   4,
   5,
   6,
