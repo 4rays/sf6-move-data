@@ -955,7 +955,7 @@ notes_ja = [
 
 startup = 17
 totalFrames = 44
-cancel = "SA3,*"
+cancel = "SA3"
 damage = 600
 superArt = 600
 capcomID = 501
@@ -992,7 +992,7 @@ notes_ja = [
 
 startup = 17
 totalFrames = 60
-cancel = "SA3,*"
+cancel = "SA3"
 damage = 1000
 superArt = 900
 capcomID = 501
@@ -1029,7 +1029,7 @@ notes_ja = [
 
 startup = 10
 totalFrames = 46
-cancel = "SA2,*"
+cancel = "SA2"
 damage = 1000
 superArt = 600
 capcomID = 501
