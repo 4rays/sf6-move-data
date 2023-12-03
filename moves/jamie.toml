@@ -986,7 +986,7 @@ characterId = 2
 type = "targetCombo"
 hitCount = 3
 blockType = "high"
-input = "4hp>5hp>*p"
+input = "4hp>5hp>5hk"
 properties = ["knockdown"]
 notes = [
   "A counter followed by a sequence of attacks",

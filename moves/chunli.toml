@@ -639,7 +639,7 @@ characterId = 3
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "6hp"
+input = "4hp"
 
 startup = 8
 active = [8, 13]

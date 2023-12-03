@@ -626,7 +626,7 @@ characterId = 17
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "4hp"
+input = "4hk"
 properties = ["knockdown"]
 notes = [
   "A launching kick that can be canceled into special moves. It can be jumped out of on hit",
@@ -692,7 +692,7 @@ characterId = 17
 type = "targetCombo"
 hitCount = 3
 blockType = "high"
-input = "4hp>6hk"
+input = "5hp>5hk"
 properties = ["knockdown"]
 notes = [
   "A series of attacks, the first and second of which can be canceled into special moves",
