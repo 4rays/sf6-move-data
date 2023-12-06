@@ -932,7 +932,7 @@ slug = "kikoken-light"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236lp"
+input = "[4]>6lp"
 
 startup = 15
 active = [15, 104]
@@ -965,7 +965,7 @@ slug = "kikoken-medium"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236mp"
+input = "[4]>6mp"
 
 startup = 12
 active = [12, 66]
@@ -998,7 +998,7 @@ slug = "kikoken-heavy"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236hp"
+input = "[4]>6hp"
 
 startup = 11
 active = [11, 35]
@@ -1031,7 +1031,7 @@ slug = "kikoken-od"
 characterId = 3
 type = "special"
 hitCount = 1
-input = "236(pp)"
+input = "[4]>6pp"
 
 startup = 11
 totalFrames = 39
