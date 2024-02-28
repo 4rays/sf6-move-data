@@ -284,7 +284,9 @@ hitCount = 1
 blockType = "low"
 input = "2hp"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 10
@@ -569,7 +571,10 @@ blockType = "high"
 input = "5[hp]"
 properties = ["knockdown"]
 
-notes = ["Produces a crumple stun for 41 frames when the attack lands", "* +2 frames of advantage when blocked near the corner of the screen"]
+notes = [
+  "Produces a crumple stun for 41 frames when the attack lands",
+  "* +2 frames of advantage when blocked near the corner of the screen",
+]
 notes_ja = ["ヒット時に膝崩れダウンに＋41", "※画面端でガードさせた時は+2"]
 
 startup = 39
@@ -599,7 +604,10 @@ hitCount = 1
 blockType = "high"
 input = "5[hp]"
 properties = ["knockdown"]
-notes = ["Produces a crumple stun for 41 frames when the attack lands", "Clashes with projectiles"]
+notes = [
+  "Produces a crumple stun for 41 frames when the attack lands",
+  "Clashes with projectiles",
+]
 notes_ja = ["ヒット時に膝崩れダウンに＋41", "飛び道具相殺判定あり"]
 
 startup = 69
@@ -628,7 +636,10 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "6hp"
-notes = ["Feet are invincible between frames 7 - 19", "Forces a slam knockdown when hitting a mid-air opponent"]
+notes = [
+  "Feet are invincible between frames 7 - 19",
+  "Forces a slam knockdown when hitting a mid-air opponent",
+]
 notes_ja = ["7-19F 足元無敵", "空中ヒット時叩きつけダウン"]
 
 startup = 17
@@ -1258,8 +1269,18 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236lk"
-notes = ["Hold the button for more than 26 frames to change properties", "Can be canceled into Kill Rush (Forward) and Kill Rush (Backward) while the button is held", "Produces a crumple stun for 21 frames when the attack lands as a Punish Counter", "Recovery is reduced by 2 frame on hit"]
-notes_ja = ["26F以上ボタンホールドすると性能変化", "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能", "パニッシュカウンター時膝崩れダウン+21", "ヒット時硬直2F減少"]
+notes = [
+  "Hold the button for more than 26 frames to change properties",
+  "Can be canceled into Kill Rush (Forward) and Kill Rush (Backward) while the button is held",
+  "Produces a crumple stun for 21 frames when the attack lands as a Punish Counter",
+  "Recovery is reduced by 2 frame on hit",
+]
+notes_ja = [
+  "26F以上ボタンホールドすると性能変化",
+  "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能",
+  "パニッシュカウンター時膝崩れダウン+21",
+  "ヒット時硬直2F減少",
+]
 
 startup = 16
 active = [16, 19]
@@ -1288,7 +1309,11 @@ hitCount = 1
 blockType = "high"
 input = "236[lk]"
 properties = ["knockdown"]
-notes = ["Pulls the opponent towards Ed when the attack hits or is blocked", "Launches the opponent when the attack hits while they are standing on the ground", "Produces a slam knockdown when hitting a mid-air opponent"]
+notes = [
+  "Pulls the opponent towards Ed when the attack hits or is blocked",
+  "Launches the opponent when the attack hits while they are standing on the ground",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+]
 notes_ja = ["ヒット/ガード時相手を引き寄せる", "地上ヒット時打ち上げ効果", "空中ヒット時叩きつけダウン"]
 
 startup = 31
@@ -1317,8 +1342,18 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
-notes = ["Hold the button for more than 30 frames to change properties", "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held", "Produces a crumple stun for 45 frames when the attack lands as a Punish Counter", "Recovery is reduced by 1 frame on hit"]
-notes_ja = ["30F以上ホールドすると性能変化", "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能", "パニッシュカウンター時膝崩れダウン+23", "ヒット時硬直1F減少"]
+notes = [
+  "Hold the button for more than 30 frames to change properties",
+  "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
+  "Produces a crumple stun for 45 frames when the attack lands as a Punish Counter",
+  "Recovery is reduced by 1 frame on hit",
+]
+notes_ja = [
+  "30F以上ホールドすると性能変化",
+  "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能",
+  "パニッシュカウンター時膝崩れダウン+23",
+  "ヒット時硬直1F減少",
+]
 
 startup = 20
 active = [20, 23]
@@ -1347,7 +1382,11 @@ hitCount = 1
 blockType = "high"
 input = "236[mk]"
 properties = ["knockdown"]
-notes = ["Pulls the opponent towards Ed when the attack hits or is blocked", "Launches the opponent when the attack hits while they are standing on the ground", "Produces a slam knockdown when hitting a mid-air opponent"]
+notes = [
+  "Pulls the opponent towards Ed when the attack hits or is blocked",
+  "Launches the opponent when the attack hits while they are standing on the ground",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+]
 notes_ja = ["ヒット/ガード時相手を引き寄せる", "地上ヒット時打ち上げ効果", "空中ヒット時叩きつけダウン"]
 
 startup = 35
@@ -1376,8 +1415,16 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
-notes = ["Hold the button for more than 30 frames to change properties", "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held", "Does not hit an opponent standing on the ground"]
-notes_ja = ["30F以上ホールドすると性能変化", "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能", "地上の相手に当たらない"]
+notes = [
+  "Hold the button for more than 30 frames to change properties",
+  "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
+  "Does not hit an opponent standing on the ground",
+]
+notes_ja = [
+  "30F以上ホールドすると性能変化",
+  "ホールド中キルステップ（前方）、キルステップ（後方）にキャンセル可能",
+  "地上の相手に当たらない",
+]
 
 startup = 17
 active = [17, 24]
@@ -1400,7 +1447,10 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[hk]"
-notes = ["Does not hit an opponent standing on the ground", "Produces a slam knockdown when hitting a mid-air opponent"]
+notes = [
+  "Does not hit an opponent standing on the ground",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+]
 notes_ja = ["地上の相手に当たらない", "空中ヒット時叩きつけダウン"]
 
 startup = 35
@@ -1426,8 +1476,18 @@ hitCount = 1
 blockType = "high"
 input = "236(pp)"
 properties = ["knockdown"]
-notes = ["Pulls the opponent towards Ed when the attack hits or is blocked", "Launches the opponent when the attack hits while they are standing on the ground", "Produces a slam knockdown when hitting a mid-air opponent", "* Damage when hitting a mid-air opponent is 1200"]
-notes_ja = ["ヒット/ガード時相手を引き寄せる", "地上ヒット時打ち上げ効果", "空中ヒット時叩きつけダウン", "※空中ヒット時のダメージは1200"]
+notes = [
+  "Pulls the opponent towards Ed when the attack hits or is blocked",
+  "Launches the opponent when the attack hits while they are standing on the ground",
+  "Produces a slam knockdown when hitting a mid-air opponent",
+  "* Damage when hitting a mid-air opponent is 1200",
+]
+notes_ja = [
+  "ヒット/ガード時相手を引き寄せる",
+  "地上ヒット時打ち上げ効果",
+  "空中ヒット時叩きつけダウン",
+  "※空中ヒット時のダメージは1200",
+]
 
 startup = 25
 active = [25, 28]
@@ -1453,7 +1513,11 @@ slug = "kill-rush-forward"
 characterId = 20
 type = "action"
 input = "5(kk)"
-notes = ["Head is invincible between frames 3 - 26", "Can transition to Kill Switch Break between frames 11 - 12", "Can transition to Kill Switch Chaser between frames 13 - 24"]
+notes = [
+  "Head is invincible between frames 3 - 26",
+  "Can transition to Kill Switch Break between frames 11 - 12",
+  "Can transition to Kill Switch Chaser between frames 13 - 24",
+]
 notes_ja = ["3-26F 頭無敵", "11-12F キルスイッチ・ブレイクに派生可能", "13-24F キルスイッチ・チェイスに派生可能"]
 
 totalFrames = 31
@@ -1541,7 +1605,11 @@ type = "super1"
 blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
-notes = ["Invincible to strikes and throws between frames 1 - 14", "Values do not change when the attack lands as a counter or Punish Counter", "The minimum guaranteed damage is 30%"]
+notes = [
+  "Invincible to strikes and throws between frames 1 - 14",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 30%",
+]
 notes_ja = ["1-14F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
 
 startup = 13
@@ -1566,7 +1634,10 @@ type = "super2"
 blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
-notes = ["Values do not change when the attack lands as a counter or Punish Counter", "The minimum guaranteed damage is 40%"]
+notes = [
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 40%",
+]
 notes_ja = ["カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ40％"]
 
 startup = 8
@@ -1590,8 +1661,20 @@ type = "super3"
 blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
-notes = ["Completely invincible between frames 1 - 14", "The minimum guaranteed damage is 50%", "Values do not change when the attack lands as a counter or Punish Counter", "Can only be canceled into from special moves", "30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker"]
-notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用", "※弱/中版サイコフリッカーからキャンセル時は即時補正30％"]
+notes = [
+  "Completely invincible between frames 1 - 14",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "Can only be canceled into from special moves",
+  "30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker",
+]
+notes_ja = [
+  "1-14F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+  "※弱/中版サイコフリッカーからキャンセル時は即時補正30％",
+]
 
 startup = 10
 active = [10, 19]
@@ -1617,8 +1700,20 @@ type = "super3"
 blockType = "high"
 input = "236236*p"
 properties = ["knockdown"]
-notes = ["Completely invincible between frames 1 - 14", "Minimum guaranteed damage is set to 50%", "Values do not change on counter or Punish Counter", "* Can only be canceled into from special moves", "* 30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker"]
-notes_ja = ["1-14F 完全無敵", "最低保障ダメージ50％", "カウンター/パニッシュカウンターで数値が変動しない", "※必殺技キャンセル時のみ適用", "※弱/中版サイコフリッカーからキャンセル時は即時補正30％"]
+notes = [
+  "Completely invincible between frames 1 - 14",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+  "* 30% Immediate Scaling added when canceled into from a Light or Medium Psycho Flicker",
+]
+notes_ja = [
+  "1-14F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+  "※弱/中版サイコフリッカーからキャンセル時は即時補正30％",
+]
 
 startup = 10
 active = [10, 19]
@@ -1645,7 +1740,12 @@ characterId = 20
 type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
 notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
 startup = 5
@@ -1669,7 +1769,12 @@ characterId = 20
 type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
-notes = ["Properties change to the following when the attack lands as a Punish Counter:", "- Deals 2040 damage", "- Super Art gauge increases by 4000", "- Forces a hard knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
 notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
 
 startup = 5
