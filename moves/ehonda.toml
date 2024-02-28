@@ -412,7 +412,7 @@ abbeviation_ja = "ジャンプ弱P"
 characterId = 10
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>lp"
 
 startup = 5
@@ -438,7 +438,7 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 10
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
 
 startup = 6

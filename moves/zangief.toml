@@ -578,7 +578,7 @@ abbeviation_ja = "ジャンプ中P"
 characterId = 15
 type = "normal"
 hitCount = 1
-blockType = "high"
+blockType = "mid"
 input = "j>mp"
 
 startup = 8
