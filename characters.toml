@@ -613,3 +613,7 @@ media = [
   "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss05.jpg",
 ]
 artwork = "https://www.streetfighter.com/6/assets/images/character/ed/ed.png"
+
+[[characters.tags]]
+name = "boxer"
+name_ja = "ボクサー"

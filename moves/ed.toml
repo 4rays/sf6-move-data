@@ -438,7 +438,7 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mp"
-properties = ["canCrossup"]
+properties = ["canCrossUp"]
 notes = ["Has cross-up attack properties"]
 notes_ja = ["めくり性能"]
 
