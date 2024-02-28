@@ -895,6 +895,8 @@ totalFrames = 42
 cancel = "SA3"
 damage = 600
 superArt = 600
+notes = ["During od psycho spark", "During psycho spark"]
+notes_ja = ["ODサイコスパーク中に", "サイコスパーク中に"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -922,6 +924,8 @@ totalFrames = 42
 cancel = "SA3"
 damage = 600
 superArt = 600
+notes = ["During psycho spark"]
+notes_ja = ["サイコスパーク中に"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -948,6 +952,8 @@ totalFrames = 42
 cancel = "SA3"
 damage = 600
 superArt = 600
+notes = ["During od psycho spark", "During psycho spark"]
+notes_ja = ["ODサイコスパーク中に", "サイコスパーク中に"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1002,6 +1008,8 @@ totalFrames = 40
 cancel = "SA2"
 damage = 800
 superArt = 600
+notes = ["During od psycho spark"]
+notes_ja = ["ODサイコスパーク中に"]
 
 [moves.frameAdvantage]
 block = -2
@@ -1543,6 +1551,8 @@ damage = 600
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
+notes = ["During kill rush (forward"]
+notes_ja = ["キルステップ（前方"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1573,6 +1583,8 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
+notes = ["During kill rush (forward"]
+notes_ja = ["キルステップ（前方"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1741,13 +1753,19 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1770,13 +1788,19 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
