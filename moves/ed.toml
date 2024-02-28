@@ -570,6 +570,7 @@ hitCount = 1
 blockType = "high"
 input = "5[hp]"
 properties = ["knockdown"]
+capcomID = 501
 
 notes = [
   "Produces a crumple stun for 41 frames when the attack lands",
@@ -609,6 +610,7 @@ notes = [
   "Clashes with projectiles",
 ]
 notes_ja = ["ヒット時に膝崩れダウンに＋41", "飛び道具相殺判定あり"]
+capcomID = 501
 
 startup = 69
 active = [69, 83]
@@ -641,6 +643,7 @@ notes = [
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
 notes_ja = ["7-19F 足元無敵", "空中ヒット時叩きつけダウン"]
+capcomID = 402
 
 startup = 17
 active = [17, 19]
@@ -667,6 +670,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5lp>5lp"
+capcomID = 403
 
 startup = 7
 active = [7, 9]
@@ -693,6 +697,7 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "5lp>5lp>5lp"
+capcomID = 403
 
 startup = 7
 active = [7, 9]
@@ -719,9 +724,11 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mp>5hp"
+capcomID = 404
 properties = ["knockdown"]
 notes = ["Can only be canceled into Kill Rush (Backward)"]
 notes_ja = ["キルステップ（後方）のみキャンセル不可"]
+
 # TODO: Add cancelsInto
 startup = 13
 active = [13, 14]
@@ -750,6 +757,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mk>5mk"
+capcomID = 405
 
 startup = 7
 active = [7, 8]
@@ -776,6 +784,7 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "5mk>5mk>5hp"
+capcomID = 405
 properties = ["knockdown"]
 
 startup = 11
@@ -802,6 +811,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "2hk>5hp"
+capcomID = 406
 properties = ["knockdown"]
 
 startup = 12
@@ -831,6 +841,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236*p"
+capcomID = 501
 notes = ["Can transition to Psycho Shoot between frames 22 - 28"]
 notes_ja = ["22-28F サイコシュートに派生可能"]
 
@@ -860,6 +871,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(pp)"
+capcomID = 501
 properties = ["knockdown"]
 notes = ["Can transition to Psycho Shoot between frames 18 - 28"]
 notes_ja = ["18-28F サイコシュートに派生可能"]
@@ -889,6 +901,7 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6lp"
+capcomID = 502
 
 startup = 12
 totalFrames = 42
@@ -918,6 +931,7 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6mp"
+capcomID = 502
 
 startup = 12
 totalFrames = 42
@@ -947,6 +961,8 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6hp"
+capcomID = 502
+
 startup = 12
 totalFrames = 42
 cancel = "SA3"
@@ -975,6 +991,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6lp"
+capcomID = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1001,6 +1018,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6mp"
+capcomID = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1029,6 +1047,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6hp"
+capcomID = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1054,6 +1073,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
+capcomID = 503
 properties = ["knockdown"]
 notes = ["Invincible to mid-air attacks between frames 1 - 15"]
 notes_ja = ["1-15F 空中判定の攻撃に対して無敵"]
@@ -1085,6 +1105,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623mp"
+capcomID = 503
 properties = ["knockdown"]
 notes = ["Invincible to mid-air attacks between frames 1 - 19"]
 notes_ja = ["1-19F 空中判定の攻撃に対して無敵"]
@@ -1114,6 +1135,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623hp"
+capcomID = 503
 properties = ["knockdown"]
 notes = ["Invincible to mid-air attacks between frames 1 - 19"]
 notes_ja = ["1-19F 空中判定の攻撃に対して無敵"]
@@ -1143,6 +1165,7 @@ type = "special"
 hitCount = 2
 blockType = "high"
 input = "623(pp)"
+capcomID = 503
 properties = ["knockdown"]
 notes = ["Completely invincible between frames 1 - 16"]
 notes_ja = ["1-16F 完全無敵"]
@@ -1169,6 +1192,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214lp"
+capcomID = 504
 startup = 11
 active = [11, 13, 17, 19, 26, 29]
 recovery = 14
@@ -1195,6 +1219,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214mp"
+capcomID = 504
 properties = ["knockdown"]
 
 startup = 13
@@ -1222,6 +1247,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214hp"
+capcomID = 504
 properties = ["knockdown"]
 
 startup = 15
@@ -1249,6 +1275,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214(pp)"
+capcomID = 504
 properties = ["knockdown"]
 
 startup = 13
@@ -1277,6 +1304,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236lk"
+capcomID = 505
 notes = [
   "Hold the button for more than 26 frames to change properties",
   "Can be canceled into Kill Rush (Forward) and Kill Rush (Backward) while the button is held",
@@ -1316,6 +1344,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[lk]"
+capcomID = 505
 properties = ["knockdown"]
 notes = [
   "Pulls the opponent towards Ed when the attack hits or is blocked",
@@ -1350,6 +1379,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
+capcomID = 505
 notes = [
   "Hold the button for more than 30 frames to change properties",
   "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
@@ -1389,6 +1419,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[mk]"
+capcomID = 505
 properties = ["knockdown"]
 notes = [
   "Pulls the opponent towards Ed when the attack hits or is blocked",
@@ -1423,6 +1454,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
+capcomID = 505
 notes = [
   "Hold the button for more than 30 frames to change properties",
   "Can be canceled into Kill Rush (Forward) or Kill Rush (Backward) while the button is held",
@@ -1455,6 +1487,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[hk]"
+capcomID = 505
 notes = [
   "Does not hit an opponent standing on the ground",
   "Produces a slam knockdown when hitting a mid-air opponent",
@@ -1483,6 +1516,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(pp)"
+capcomID = 505
 properties = ["knockdown"]
 notes = [
   "Pulls the opponent towards Ed when the attack hits or is blocked",
@@ -1521,6 +1555,7 @@ slug = "kill-rush-forward"
 characterId = 20
 type = "action"
 input = "5(kk)"
+capcomID = 506
 notes = [
   "Head is invincible between frames 3 - 26",
   "Can transition to Kill Switch Break between frames 11 - 12",
@@ -1538,6 +1573,7 @@ slug = "kill-switch-break"
 characterId = 20
 type = "followUp"
 input = "6*p"
+capcomID = 507
 hitCount = 1
 blockType = "high"
 parents = ["kill-rush-forward"]
@@ -1570,6 +1606,7 @@ slug = "kill-switch-chaser"
 characterId = 20
 type = "followUp"
 input = "6*p"
+capcomID = 508
 hitCount = 1
 blockType = "high"
 parents = ["kill-rush-forward"]
@@ -1602,6 +1639,7 @@ slug = "kill-rush-backward"
 characterId = 20
 type = "action"
 input = "4(kk)"
+capcomID = 509
 notes = ["Head invincible between frames 1 - 10"]
 notes_ja = ["1-10F 頭無敵"]
 
@@ -1616,6 +1654,7 @@ characterId = 20
 type = "super1"
 blockType = "high"
 input = "236236*k"
+capcomID = 601
 properties = ["knockdown"]
 notes = [
   "Invincible to strikes and throws between frames 1 - 14",
@@ -1645,6 +1684,7 @@ characterId = 20
 type = "super2"
 blockType = "high"
 input = "214214*p"
+capcomID = 602
 properties = ["knockdown"]
 notes = [
   "Values do not change when the attack lands as a counter or Punish Counter",
@@ -1672,6 +1712,7 @@ characterId = 20
 type = "super3"
 blockType = "high"
 input = "236236*p"
+capcomID = 603
 properties = ["knockdown"]
 notes = [
   "Completely invincible between frames 1 - 14",
@@ -1711,6 +1752,7 @@ characterId = 20
 type = "super3"
 blockType = "high"
 input = "236236*p"
+capcomID = 603
 properties = ["knockdown"]
 notes = [
   "Completely invincible between frames 1 - 14",
@@ -1751,6 +1793,7 @@ slug = "face-buster"
 characterId = 20
 type = "throw"
 input = "(lplk)"
+capcomID = 101
 properties = ["knockdown"]
 notes = [
   "When near opponent",
@@ -1786,6 +1829,7 @@ slug = "rib-crusher"
 characterId = 20
 type = "throw"
 input = "(4lplk)"
+capcomID = 102
 properties = ["knockdown"]
 notes = [
   "When near opponent",
