@@ -749,6 +749,7 @@ startup = 13
 active = [13, 14]
 recovery = 23
 cancel = "*"
+cancelsInto = ["kill-rush-forward"]
 damage = 400
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
