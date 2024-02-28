@@ -596,3 +596,20 @@ name_ja = "セットプレイ"
 [[characters.tags]]
 name = "feint"
 name_ja = "フェイント"
+
+# Ed
+[[characters]]
+id = 20
+name = "Ed"
+slug = "ed"
+name_ja = "エド"
+description = "A Psycho Power-wielding youth aged up rapidly by Shadaloo's experimentation, on a journey and a mission to free other subjects. He gets his short temper and foul mouth from Balrog, his former mentor."
+description_ja = "サイコパワーを操る青年。 シャドルーの実験により、少年から急激に成長。 他の実験体を解放しようと旅をしている。 気の短さと口の悪さはバイソン仕込み。"
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/ed/ed_ss05.jpg",
+]
+artwork = "https://www.streetfighter.com/6/assets/images/character/ed/ed.png"
