@@ -1569,7 +1569,7 @@ capcomID = 506
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -1730,7 +1730,7 @@ startup = 18
 active = [18, 23]
 recovery = 19
 cancel = "SA2"
-damage = 600
+damage = 1000
 superArt = 1100
 
 [moves.frameAdvantage]

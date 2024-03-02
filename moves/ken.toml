@@ -1356,12 +1356,14 @@ notes = [
   "Considered airborne from frames 10 - 77",
   "Does not hit the opponent in front of you on the 2nd and 4th attacks",
   "(The 2nd and 4th attacks do 700 damage and increases the Super Art gauge by 600)",
+  "7 frames of recovery added when the attack misses"
 ]
 notes_ja = [
   "ジャンプ中に繰り出す竜巻旋風脚。ジャンプの軌道を変えたり空中からの奇襲に長けた技",
   "10-77F 空中判定",
   "2,４段目は正面の相手に当たらない",
   "(2,4段目の攻撃はダメージ700、SAゲージ増加量600)",
+  "空振り時硬直7F増加"
 ]
 
 startup = 11

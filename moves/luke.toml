@@ -242,6 +242,8 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2mp"
+notes = ["3 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直3F増加"]
 
 startup = 6
 active = [6, 7]
@@ -1537,8 +1539,9 @@ superArt = 800
 capcomID = 505
 notes = [
   "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
+  "+7 frames of recovery added when whiffing the attack high in the air."
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効"]
+notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効", "高空で空振り時硬直7F増加"]
 
 [moves.driveGauge]
 onHit = 2000

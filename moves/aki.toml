@@ -49,7 +49,7 @@ notes = ["2 frames of recovery added when the attack misses"]
 notes_ja = ["空振り時硬直2F増加"]
 
 startup = 6
-active = [6, 8]
+active = [6, 10]
 recovery = 16
 cancel = "C"
 damage = 600
