@@ -1130,7 +1130,7 @@ slug = "amnesia"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "22*p"
+input = "22*k"
 hitCount = 2
 
 notes = [
@@ -1169,7 +1169,7 @@ slug = "amnesia-od"
 characterId = 14
 type = "special"
 blockType = "high"
-input = "22(pp)"
+input = "22(kk)"
 hitCount = 2
 notes = [
   "Ward off an opponent's attack while sticking them with a bomb of Psycho Power. The bomb will detonate after a period of time, damaging the opponent",
