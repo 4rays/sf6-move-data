@@ -499,6 +499,7 @@ name_ja = "コマンド投げ"
 id = 16
 name = "Lily"
 name_ja = "リリー"
+slug = "lily"
 description = "A descendant of the Thunderfoot tribe, Lily speaks with the spirits of nature"
 description_ja = "サンダーフット族の古い血を受け継ぐ娘。"
 media = [
