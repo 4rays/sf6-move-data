@@ -1539,9 +1539,12 @@ superArt = 800
 capcomID = 505
 notes = [
   "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
-  "+7 frames of recovery added when whiffing the attack high in the air."
+  "+7 frames of recovery added when whiffing the attack high in the air.",
 ]
-notes_ja = ["ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効", "高空で空振り時硬直7F増加"]
+notes_ja = [
+  "ジャンプ中に繰り出すフラッシュナックル。ジャンプの軌道を変えての奇襲や空中コンボへ組み込むのに有効",
+  "高空で空振り時硬直7F増加",
+]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1646,10 +1649,7 @@ notes = [
   "During Avenger",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = [
-  "アベンジャー中に",
-  "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効",
-]
+notes_ja = ["アベンジャー中に", "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1749,10 +1749,7 @@ notes = [
   "During Avenger OD",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
 ]
-notes_ja = [
-  "アベンジャーOD中に",
-  "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"
-]
+notes_ja = ["アベンジャーOD中に", "アベンジャーから派生する、強力なタックルを繰り出す技。攻撃が出ている時間が長く、攻め込む手段として有効"]
 
 [moves.frameAdvantage]
 block = -6
@@ -2126,7 +2123,7 @@ characterId = 1
 type = "super3"
 hitCount = 1
 blockType = "high"
-input = "236236*p"
+input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "When under 25% vitality",
