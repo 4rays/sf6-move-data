@@ -679,7 +679,7 @@ characterId = 20
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "5lp>5lp"
+input = "5lk>5lk"
 capcomID = 403
 
 startup = 7
@@ -708,7 +708,7 @@ characterId = 20
 type = "targetCombo"
 hitCount = 3
 blockType = "high"
-input = "5lp>5lp>5lp"
+input = "5lk>5lk>5lk"
 capcomID = 403
 
 startup = 7
