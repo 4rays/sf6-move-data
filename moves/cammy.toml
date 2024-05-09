@@ -1114,7 +1114,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214lk"
+input = "214lp"
 
 startup = 21
 active = [21, 24]
@@ -1148,7 +1148,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214mk"
+input = "214mp"
 notes = [
   "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
   "Invincible to projectiles from frames 6 - 20",
@@ -1184,7 +1184,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214hk"
+input = "214hp"
 notes = [
   "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
   "Invincible to projectiles from frames 6 - 24",
