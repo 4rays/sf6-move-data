@@ -660,7 +660,7 @@ characterId = 17
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "4mp>6hk"
+input = "4mp>hk"
 properties = ["knockdown"]
 notes = [
   "A two-hit combination attack that can be canceled into special moves. If it connects, the second hit can be jumped out of",
