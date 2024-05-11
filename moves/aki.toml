@@ -174,7 +174,9 @@ blockType = "high"
 input = "5hk"
 hitCount = 1
 
-notes = ["12 frames of advantage added when the attack lands as a Punish Counter"]
+notes = [
+  "12 frames of advantage added when the attack lands as a Punish Counter",
+]
 notes_ja = ["パニッシュカウンター時+12F"]
 
 startup = 9
@@ -276,7 +278,9 @@ hitCount = 1
 blockType = "low"
 input = "2hp"
 properties = ["knockdown"]
-notes = ["Knockdown time extended when attack lands as a counter or Punish Counter"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
 notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
 
 startup = 10
@@ -462,7 +466,9 @@ type = "normal"
 blockType = "mid"
 input = "j>hp"
 hitCount = 1
-notes = ["Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"]
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
 notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
 
 startup = 11
@@ -722,7 +728,7 @@ slug = "qiong-qi"
 characterId = 19
 blockType = "high"
 type = "targetCombo"
-input = "mp>hp"
+input = "hp>hp"
 hitCount = 2
 
 properties = ["knockdown", "juggle"]
@@ -755,7 +761,7 @@ onHit = 3000
 onBlock = -6000
 onPunishCounter = -10000
 
- # Nightshade Pulse
+# Nightshade Pulse
 [[moves]]
 name = "Nightshade Pulse"
 name_ja = "紫煙砲"
@@ -876,7 +882,7 @@ block = 1
 onBlock = -2000
 onPunishCounter = -5000
 
- # Nightshade Chaser (OD)
+# Nightshade Chaser (OD)
 [[moves]]
 name = "Nightshade Chaser (OD)"
 name_ja = "紫煙追（OD）"
@@ -1438,7 +1444,7 @@ notes_ja = [
 ]
 totalFrames = 216
 capcomID = 508
- 
+
 # Venomous Fang
 [[moves]]
 name = "Venomous Fang"
