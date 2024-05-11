@@ -2134,7 +2134,7 @@ slug = "hoyokusen"
 characterId = 3
 type = "super2"
 hitCount = 1
-input = "214214*p"
+input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "Move forward while unleashing a series of kicks and then launch your opponent into the air. The last hit can be immediately canceled into a jump",
