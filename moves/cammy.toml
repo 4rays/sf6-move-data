@@ -1075,7 +1075,7 @@ characterId = 17
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623(pp)"
+input = "623(kk)"
 properties = ["knockdown"]
 notes = [
   "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
