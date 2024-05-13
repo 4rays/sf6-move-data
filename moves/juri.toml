@@ -1558,7 +1558,7 @@ characterId = 6
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "214(pp)"
+input = "214(kk)"
 properties = ["knockdown"]
 notes = [
   "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion",
