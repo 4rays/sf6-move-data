@@ -1415,7 +1415,7 @@ slug = "guillotinna"
 characterId = 14
 type = "commandNormal"
 blockType = "high"
-input = "6mp"
+input = "6mk"
 hitCount = 1
 
 startup = 22
