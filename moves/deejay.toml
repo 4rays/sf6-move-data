@@ -666,7 +666,7 @@ characterId = 11
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "lp>mp"
+input = "lp>mk"
 
 startup = 9
 active = [9, 11]
@@ -695,7 +695,7 @@ characterId = 11
 type = "targetCombo"
 hitCount = 3
 blockType = "high"
-input = "lp>mp>mp"
+input = "lp>mk>mk"
 
 startup = 14
 active = [14, 16]
@@ -869,7 +869,7 @@ characterId = 11
 type = "targetCombo"
 hitCount = 2
 blockType = "mid"
-input = "j>mk>hk"
+input = "j>mp>hp"
 notes = [
   "A combination attack that is useful against jumping opponents",
   "Forces a slam knockdown when hitting a mid-air opponent",
@@ -1078,7 +1078,7 @@ alternativeNames_ja = ["弱 ジャックナイフマキシマム"]
 slug = "jackknife-maximum-light"
 characterId = 11
 type = "special"
-input = "[2]>8lp"
+input = "[2]>8lk"
 notes = [
   "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Considered airborne from frames 6 - 45",
@@ -1103,7 +1103,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "[2]>8mp"
+input = "[2]>8mk"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
@@ -1143,7 +1143,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "[2]>8hp"
+input = "[2]>8hk"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
@@ -1183,7 +1183,7 @@ characterId = 11
 type = "special"
 hitCount = 2
 blockType = "high"
-input = "[2]>8(pp)"
+input = "[2]>8(kk)"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
@@ -1343,7 +1343,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623lp"
+input = "214lp"
 properties = ["knockdown"]
 notes = [
   "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
@@ -1381,7 +1381,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623mp"
+input = "214mp"
 properties = ["knockdown"]
 notes = [
   "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
@@ -1419,7 +1419,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623hp"
+input = "214hp"
 properties = ["knockdown"]
 notes = [
   "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
@@ -1457,7 +1457,7 @@ characterId = 11
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "623(pp)"
+input = "214(pp)"
 properties = ["knockdown"]
 notes = [
   "A series of high-speed uppercuts. Slow to execute, but does massive damage if you manage to land it",
@@ -1572,7 +1572,6 @@ block = 1
 onHit = 2000
 onBlock = -4000
 onPunishCounter = -7000
-
 
 # Maximum Strike
 [[moves]]
@@ -2641,7 +2640,7 @@ notes = [
 ]
 notes_ja = [
   "サンライズフェスティバル・マーベラスヒット後に",
-  "相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える"
+  "相手をアッパーで打ち上げ、落下際に全力で殴り付ける技。ヒット後は相手と位置関係を入れ替える",
 ]
 
 [moves.frameAdvantage]
@@ -2709,7 +2708,7 @@ notes = [
 ]
 notes_ja = [
   "サンライズフェスティバル・マーベラスヒット後に",
-  "跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的"
+  "跳ね起きるような動作から強烈な両足蹴りで打ち上げる技。相手が端側に位置している場合に使うのが効果的",
 ]
 
 [moves.frameAdvantage]
