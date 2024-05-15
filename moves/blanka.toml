@@ -1328,7 +1328,7 @@ slug = "vertical-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "[2]>8(pp)"
+input = "[2]>8(kk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
@@ -1363,7 +1363,7 @@ slug = "lightning-beast-vertical-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "[2]>8(pp)"
+input = "[2]>8(kk)"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
@@ -1627,7 +1627,7 @@ slug = "backstep-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "63214(pp)"
+input = "63214(kk)"
 hitCount = 1
 notes = [
   "Take a quick step backwards, then perform a spinning tackle through the air in a triangular arc. Useful when launching an offensive intended to confuse your opponent",
@@ -1663,7 +1663,7 @@ slug = "lightning-beast-backstep-rolling-attack-od"
 characterId = 8
 type = "special"
 blockType = "high"
-input = "63214(pp)"
+input = "63214(kk)"
 hitCount = 1
 relatedMoves = ["lightning-beast"]
 notes = [
@@ -1715,8 +1715,8 @@ notes = [
 ]
 notes_ja = [
   "ジャンプ中に",
-  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的", 
-  "めくり性能"
+  "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的",
+  "めくり性能",
 ]
 startup = 13
 active = [13]
@@ -1788,7 +1788,7 @@ notes = [
 notes_ja = [
   "ジャンプ中に",
   "空中から回転体当たりで急降下して攻撃する技。後方へのジャンプで下がると見せ掛けての奇襲として効果的",
-  "めくり性能"
+  "めくり性能",
 ]
 startup = 13
 active = [13]
@@ -2192,7 +2192,7 @@ slug = "lightning-beast-shout-of-earth"
 characterId = 8
 type = "super1"
 blockType = "high"
-input = "236236*pp"
+input = "236236*p"
 hitCount = 1
 relatedMoves = ["lightning-beast"]
 properties = ["knockdown"]
@@ -2266,7 +2266,7 @@ slug = "ground-shave-cannonball"
 characterId = 8
 type = "super3"
 blockType = "high"
-input = "236236*p"
+input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
@@ -2308,7 +2308,7 @@ slug = "ground-shave-cannonball-ca"
 characterId = 8
 type = "super3"
 blockType = "high"
-input = "236236*p"
+input = "236236*k"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
@@ -2381,7 +2381,7 @@ slug = "rock-crusher"
 characterId = 8
 type = "commandNormal"
 blockType = "high"
-input = "6mk"
+input = "6mp"
 hitCount = 1
 
 startup = 20
