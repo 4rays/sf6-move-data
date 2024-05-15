@@ -577,7 +577,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 1
 blockType = "high"
-input = "(kk)"
+input = "2(kk)"
 properties = ["knockdown"]
 notes = [
   "A launching kick that can immediately be jumped out of on hit",
@@ -610,7 +610,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 2
 blockType = "high"
-input = "4hk>hk"
+input = "2hk>hk"
 properties = ["knockdown"]
 
 startup = 12
@@ -641,7 +641,7 @@ characterId = 2
 type = "commandNormal"
 hitCount = 3
 blockType = "high"
-input = "4hk>hk>*p"
+input = "2hk>hk>*p"
 notes = [
   "A sequence of attacks, the first of which cannot be blocked standing. Your drink level will go up after the part of the attack where you take a drink is complete",
   "Adds 1 Drink level at frame 56",
@@ -1636,7 +1636,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236lp>6*k>6*k"
+input = "236lp>6*p>6*p"
 properties = ["knockdown"]
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
@@ -1669,7 +1669,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236mp>6*k>6*k"
+input = "236mp>6*p>6*p"
 properties = ["knockdown"]
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
@@ -1702,7 +1702,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236hp>6*k>6*k"
+input = "236hp>6*p>6*p"
 properties = ["knockdown"]
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
@@ -1735,7 +1735,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236hp>6*k>6*k"
+input = "236hp>6*p>6*p"
 properties = ["knockdown"]
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
@@ -1768,7 +1768,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236(pp)>6*k>6*k"
+input = "236(pp)>6*p>6*p"
 properties = ["knockdown"]
 notes = [
   "Move forward while performing three attacks with your fists. Useful for starting combos from regular attacks",
@@ -1800,7 +1800,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236(pp)>6*k>6*k"
+input = "236(pp)>6*p>6*p"
 properties = ["knockdown"]
 notes = ["Available at Drink Level 4"]
 notes_ja = ["酔いLv4で発動可能"]
@@ -2244,10 +2244,7 @@ notes = [
   "A follow-up attack performed out of Swagger Step, unleashing an even more devastating strike with the heel of your palm. It does very high damage, making it particularly powerful in combos or as a surprise attack",
   "Available at Drink Level 4",
 ]
-notes_ja = [
-  "酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される",
-  "酔いLv4で発動可能",
-]
+notes_ja = ["酔疾歩からさらに強力な掌底で追撃する技。非常にダメージが高く、コンボや奇襲としての用途が強化される", "酔いLv4で発動可能"]
 startup = 19
 active = [19, 21]
 recovery = 39
@@ -2543,10 +2540,7 @@ notes = [
   "While jumping, extend your leg and quickly descend to the ground. Useful as a surprise attack, or as a way to approach your opponent",
   "Available at Drink Level 1 and higher",
 ]
-notes_ja = [
-  "ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効",
-  "酔いLv1以上で発動可能",
-]
+notes_ja = ["ジャンプ中に、蹴りを突き出しながら急降下する技。相手への奇襲や接近手段として有効", "酔いLv1以上で発動可能"]
 startup = 11
 active = [11, 14]
 postLandingRecovery = 13
@@ -2688,7 +2682,7 @@ characterId = 2
 type = "special"
 blockType = "high"
 hitCount = 1
-input = "236(pp)"
+input = "236(kk)"
 properties = ["knockdown"]
 notes = [
   "Drink level 2 or higher",
