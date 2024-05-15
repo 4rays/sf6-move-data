@@ -1094,7 +1094,7 @@ characterId = 7
 type = "special"
 blockType = "high"
 input = "623*p"
-relatedMoves = ["quick-dash"]
+parents = ["quick-dash"]
 hitCount = 5
 properties = ["knockdown"]
 notes = [
@@ -1258,7 +1258,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "214*k"
-relatedMoves = ["quick-dash"]
+parents = ["quick-dash"]
 notes = [
   "During Quick Dash",
   "Does not hit the opponent in front of you on the 2nd, 4th, 6th, 8th, and 10th hits",
@@ -1356,14 +1356,14 @@ notes = [
   "Considered airborne from frames 10 - 77",
   "Does not hit the opponent in front of you on the 2nd and 4th attacks",
   "(The 2nd and 4th attacks do 700 damage and increases the Super Art gauge by 600)",
-  "7 frames of recovery added when the attack misses"
+  "7 frames of recovery added when the attack misses",
 ]
 notes_ja = [
   "ジャンプ中に繰り出す竜巻旋風脚。ジャンプの軌道を変えたり空中からの奇襲に長けた技",
   "10-77F 空中判定",
   "2,４段目は正面の相手に当たらない",
   "(2,4段目の攻撃はダメージ700、SAゲージ増加量600)",
-  "空振り時硬直7F増加"
+  "空振り時硬直7F増加",
 ]
 
 startup = 11
@@ -1553,7 +1553,7 @@ slug = "quick-dash-dragonlash-kick"
 characterId = 7
 type = "special"
 hitCount = 1
-input = "(kk)>623*k"
+input = "623*k"
 blockType = "high"
 
 notes = [
@@ -1568,6 +1568,7 @@ notes_ja = [
   "10-28F 空中判定",
   "2段目のみヒット時、追加のコンボ補正はかからない",
 ]
+parents = ["quick-dash"]
 
 startup = 9
 active = [9, 12, 18, 23]
@@ -1723,7 +1724,7 @@ notes_ja = [
   "迅雷脚から派生する、立ってガードできない下段蹴り。迅雷脚後に動こうとする相手に出すと効果的",
   "動作中常に被パニッシュカウンター判定",
 ]
-relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+parents = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
 
 startup = 6
 active = [6, 9]
@@ -1764,7 +1765,7 @@ notes_ja = [
   "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
   "動作中常に被パニッシュカウンター判定",
 ]
-relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+parents = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
 
 startup = 18
 active = [18, 20]
@@ -1792,7 +1793,7 @@ characterId = 7
 type = "special"
 hitCount = 1
 input = "6hk"
-relatedMoves = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
+parents = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
@@ -1925,7 +1926,7 @@ notes_ja = [
   "OD迅雷脚の各種派生技から続けてヒットする連続蹴り。派生技での崩しからダメージを上乗せ出来る",
   "動作中常に被パニッシュカウンター判定",
 ]
-parents = ["jinrai-kick-od", "kazekama-shin-kick-od"]
+parents = ["kazekama-shin-kick-od"]
 
 startup = 15
 active = [15, 17]
@@ -1997,7 +1998,7 @@ characterId = 7
 type = "followUp"
 hitCount = 1
 input = "6*k"
-parents = ["jinrai-kick-od", "gorai-axe-kick-od"]
+parents = ["gorai-axe-kick-od"]
 properties = ["knockdown"]
 notes = [
   "During Jinrai Kick OD or Gorai Axe Kick OD",
@@ -2075,7 +2076,7 @@ characterId = 7
 type = "followUp"
 hitCount = 2
 input = "6*k"
-parents = ["jinrai-kick-od", "senka-snap-kick-od"]
+parents = ["senka-snap-kick-od"]
 blockType = "high"
 properties = ["knockdown"]
 notes = [
