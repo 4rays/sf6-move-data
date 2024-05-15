@@ -827,7 +827,7 @@ characterId = 4
 type = "targetCombo"
 hitCount = 1
 blockType = "high"
-input = "6hp>4hp"
+input = "5mp>4hp"
 properties = ["knockdown"]
 notes = [
   "A combination attack that sends an opponent flying",
@@ -1781,7 +1781,10 @@ notes = [
   "During Sonic Blade",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
 ]
-notes_ja = ["ソニックブレイド中に", "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"]
+notes_ja = [
+  "ソニックブレイド中に",
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す",
+]
 
 [moves.frameAdvantage]
 block = -1
@@ -1805,9 +1808,7 @@ blockType = "high"
 input = "6lp"
 parents = ["sonic-blade"]
 properties = ["knockdown"]
-notes = [
-  "During Sonic Blade"
-]
+notes = ["During Sonic Blade"]
 notes_ja = ["ソニックブレイド中に"]
 
 startup = 10
@@ -1849,7 +1850,7 @@ notes = [
 ]
 notes_ja = [
   "ソニックブレイド中に",
-  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す",
 ]
 
 [moves.frameAdvantage]
@@ -1874,9 +1875,7 @@ blockType = "high"
 input = "6mp"
 parents = ["sonic-blade"]
 properties = ["knockdown"]
-notes = [
-  "During Sonic Blade"
-]
+notes = ["During Sonic Blade"]
 notes_ja = ["ソニックブレイド中に"]
 
 startup = 10
@@ -1918,7 +1917,7 @@ notes = [
 ]
 notes_ja = [
   "ソニックブレイド中に",
-  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す",
 ]
 
 [moves.frameAdvantage]
@@ -1943,9 +1942,7 @@ blockType = "high"
 input = "6hp"
 parents = ["sonic-blade"]
 properties = ["knockdown"]
-notes = [
-  "During Sonic Blade"
-]
+notes = ["During Sonic Blade"]
 notes_ja = ["ソニックブレイド中に"]
 
 startup = 10
@@ -2019,7 +2016,7 @@ notes = [
 ]
 notes_ja = [
   "ソニックブレードOD中に",
-  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す"
+  "ソニックブレイドからさらに真空波を合体させ、射出する技。ソニックブームよりけん制や攻めの起点としての効果がさらに増す",
 ]
 
 [moves.frameAdvantage]
