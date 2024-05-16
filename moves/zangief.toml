@@ -969,7 +969,7 @@ name_ja = "ボルシチダイナマイト"
 slug = "borscht-dynamite"
 characterId = 15
 type = "special"
-input = "j>{360}+*p"
+input = "j>{360}+*k"
 properties = ["knockdown"]
 notes = [
   "When near opponent",
@@ -1011,7 +1011,7 @@ alternativeNames_ja = ["ODボルシチダイナマイト", "EXボルシチダイ
 slug = "borscht-dynamite-od"
 characterId = 15
 type = "special"
-input = "j>{360}+pp"
+input = "j>{360}+kk"
 properties = ["knockdown"]
 notes = [
   "Grab a mid-air opponent, juggling them and then smashing them into the ground with a spinning slam. Can only be used against airborne opponents",
