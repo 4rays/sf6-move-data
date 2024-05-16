@@ -857,7 +857,7 @@ characterId = 5
 type = "targetCombo"
 hitCount = 4
 blockType = "high"
-input = "lp>mp>2hp>2hk"
+input = "lp>mp>2hp>hk"
 properties = ["knockdown"]
 
 startup = 15
@@ -1202,10 +1202,7 @@ notes = [
   "During Sprint",
   "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
 ]
-notes_ja = [
-  "疾駆け中に",
-  "疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効",
-]
+notes_ja = ["疾駆け中に", "疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
 
 [moves.frameAdvantage]
 block = 1
@@ -1278,10 +1275,7 @@ notes = [
   "During Sprint",
   "An overhead swinging kick performed from Sprint. It cannot be blocked crouching, and is useful as a way to break through an opponent's guard",
 ]
-notes_ja = [
-  "疾駆け中に",
-  "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効",
-]
+notes_ja = ["疾駆け中に", "疾駆けから派生する、振り下ろすように蹴り込む技。しゃがみでガードできない中段攻撃で、ガード崩しとして有効"]
 
 [moves.frameAdvantage]
 block = -3
@@ -1391,10 +1385,7 @@ notes = [
   "During Arc Step",
   "A move performed from Arc Step in which you descend diagonally with a swift kick. Useful in combos and as a way to lock down opponents who try to move after Arc Step",
 ]
-notes_ja = [
-  "弧空中に",
-  "弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効",
-]
+notes_ja = ["弧空中に", "弧空から派生する、斜め下方向へ急降下蹴りを繰り出す技。弧空後に動き出す相手を止めたり、コンボに組み込むのが有効"]
 
 [moves.frameAdvantage]
 block = -8
@@ -1442,10 +1433,7 @@ notes = [
   "During Sprint OD",
   "Halt Sprint's movement to adjust the distance you cover or as a way to reduce how much you leave yourself open following a Sprint",
 ]
-notes_ja = [
-  "疾駆けOD中に",
-  "疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"
-]
+notes_ja = ["疾駆けOD中に", "疾駆けの移動を停止させる技。移動距離の調整や、移動の隙を減らす用途として使える"]
 
 # Torso Cleaver (OD)
 [[moves]]
@@ -1471,10 +1459,7 @@ notes = [
   "During Sprint OD",
   "A somersault kick performed from Sprint. Effective as an anti-air attack targeting opponents who tend to jump around a lot",
 ]
-notes_ja = [
-  "疾駆けOD中に",
-  "疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"
-]
+notes_ja = ["疾駆けOD中に", "疾駆けから派生する、宙返りしながらの蹴りを繰り出す技。ジャンプで様子を見る相手への対空として有効"]
 
 [moves.frameAdvantage]
 block = 3
@@ -1513,7 +1498,7 @@ notes = [
 ]
 notes_ja = [
   "疾駆けOD中に",
-  "疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効"
+  "疾駆けから派生する、勢いよく滑り込んで足元を攻撃する技。立ってガードできない下段攻撃で、遠距離からの奇襲として有効",
 ]
 
 [moves.frameAdvantage]
