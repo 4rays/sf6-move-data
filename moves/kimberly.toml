@@ -1679,7 +1679,7 @@ alternativeNames_ja = ["弱 逆転一文字"]
 slug = "vagabond-edge-light"
 characterId = 5
 type = "special"
-input = "236*p"
+input = "236lp"
 blockType = "high"
 
 startup = 10
@@ -1791,7 +1791,7 @@ alternativeNames_ja = ["OD 逆転一文字", "EX 逆転一文字"]
 slug = "vagabond-edge-od"
 characterId = 5
 type = "special"
-input = "236(kk)"
+input = "236(pp)"
 blockType = "high"
 properties = ["knockdown"]
 notes = [
