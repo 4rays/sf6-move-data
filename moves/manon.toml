@@ -630,7 +630,7 @@ characterId = 12
 type = "targetCombo"
 hitCount = 2
 blockType = "high"
-input = "6mp>6mk"
+input = "mp>mk"
 
 startup = 10
 active = [10, 11]
@@ -1019,7 +1019,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "236lp"
+input = "236lk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
@@ -1056,7 +1056,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "236mp"
+input = "236mk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
@@ -1093,7 +1093,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "236hp"
+input = "236hk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
@@ -1133,7 +1133,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "236(pp)"
+input = "236(kk)"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
@@ -1171,7 +1171,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "214lp"
+input = "214lk"
 properties = ["knockdown"]
 
 startup = 16
@@ -1204,7 +1204,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "214mp"
+input = "214mk"
 properties = ["knockdown"]
 notes = ["Considered airborne from frames 15 - 39"]
 notes_ja = ["15-39F 空中判定"]
@@ -1234,7 +1234,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "214hp"
+input = "214hk"
 properties = ["knockdown"]
 notes = [
   "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
@@ -1267,7 +1267,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "special"
-input = "214(pp)"
+input = "214(kk)"
 properties = ["knockdown"]
 notes = [
   "A powerful thrusting kick performed with all the grace of ballet. Useful for catching opponents by surprise and slipping through their guard",
@@ -1306,7 +1306,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
-input = "623lp"
+input = "236lp"
 properties = ["knockdown"]
 notes = [
   "Attack changes according to medal level",
@@ -1384,7 +1384,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
-input = "623mp"
+input = "236mp"
 properties = ["knockdown"]
 notes = [
   "Spin toward your opponent and grab them before sending them flying. Landing this move will raise your medal level, and the move's effect will change depending on that level",
@@ -1440,7 +1440,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
-input = "623hp"
+input = "236hp"
 properties = ["knockdown"]
 notes = [
   "Attack changes according to medal level",
@@ -1498,7 +1498,7 @@ characterId = 12
 hitCount = 1
 blockType = "high"
 type = "commandThrow"
-input = "623(pp)"
+input = "236(pp)"
 properties = ["knockdown"]
 notes = [
   "Attack changes according to medal level",
