@@ -686,7 +686,7 @@ slug = "condor-wind-od"
 characterId = 16
 type = "special"
 blockType = "high"
-input = "214(kk)"
+input = "214(pp)"
 properties = ["chargeable", "stockIncrement", "knockdown"]
 notes = [
   "Twirl your clubs above your head to summon and envelop yourself in wind. This will grant you one Windclad stock, which powers up certain special moves",
@@ -1322,10 +1322,7 @@ notes = [
   "While airborne, diagonally descend with a powerful tackle. Useful for making surprise attacks from the air or as a way to counterattack someone after dodging a projectile",
   "Has cross-up attack properties",
 ]
-notes_ja = [
-  "空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効",
-  "めくり性能",
-]
+notes_ja = ["空中から斜め下方向へ急降下しながらの体当たりを繰り出す技。空中からの奇襲や飛び道具を回避してからの反撃として有効", "めくり性能"]
 startup = 12
 active = [12]
 postLandingRecovery = 24
@@ -1439,8 +1436,8 @@ notes_ja = [
   "トマホークバスターOD中に",
   "垂直 or 前ジャンプ中に",
   "めくり性能",
-  "初段ヒット時、次のフレームで2段目が発生", 
-  "OD トマホークバスターからの派生版はコンボ補正35%"
+  "初段ヒット時、次のフレームで2段目が発生",
+  "OD トマホークバスターからの派生版はコンボ補正35%",
 ]
 
 startup = 12
@@ -1934,7 +1931,7 @@ slug = "ridge-thrust"
 characterId = 16
 type = "commandNormal"
 blockType = "mid"
-input = "3hk"
+input = "3hp"
 hitCount = 1
 notes = [
   "An overhead attack that cannot be blocked while crouching",
