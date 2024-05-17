@@ -1581,7 +1581,7 @@ characterId = 9
 type = "special"
 hitCount = 1
 blockType = "high"
-input = "63214(pp)"
+input = "63214(kk)"
 properties = ["knockdown"]
 notes = [
   "Blow a large ball of flames diagonally upward. Can be used both as an early anti-air attack and in aerial combos",
