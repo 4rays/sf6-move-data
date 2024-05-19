@@ -285,7 +285,7 @@ hitCount = 1
 [[moves]]
 name = "Resso Snap Kick"
 name_ja = "裂槍脚"
-slug = "resso-snap-kick"
+slug = "akuma-resso-snap-kick"
 characterId = 21
 type = "commandNormal"
 blockType = "high"
@@ -296,7 +296,7 @@ hitCount = 1
 [[moves]]
 name = "Rago High Kick"
 name_ja = "羅豪脚"
-slug = "rago-high-kick"
+slug = "akuma-rago-high-kick"
 characterId = 21
 type = "commandNormal"
 blockType = "high"
@@ -307,7 +307,7 @@ hitCount = 1
 [[moves]]
 name = "Viscera Piercer"
 name_ja = "六腑穿ち"
-slug = "viscera-piercer"
+slug = "akuma-viscera-piercer"
 characterId = 21
 type = "targetCombo"
 blockType = "high"
@@ -318,7 +318,7 @@ hitCount = 2
 [[moves]]
 name = "Bone Crusher Axe Kick"
 name_ja = "骸新り"
-slug = "bone-crusher-axe-kick"
+slug = "akuma-bone-crusher-axe-kick"
 characterId = 21
 type = "targetCombo"
 blockType = "high"
@@ -329,7 +329,7 @@ hitCount = 2
 [[moves]]
 name = "Kikoku Combination"
 name_ja = "鬼哭連撃"
-slug = "kikoku-combination"
+slug = "akuma-kikoku-combination"
 characterId = 21
 type = "targetCombo"
 blockType = "high"
@@ -340,7 +340,7 @@ hitCount = 3
 [[moves]]
 name = "Tenmaku Blade Kick"
 name_ja = "天魔空刃脚"
-slug = "tenmaku-blade-kick"
+slug = "akuma-tenmaku-blade-kick"
 characterId = 21
 type = "targetCombo"
 blockType = "high"
@@ -351,7 +351,7 @@ hitCount = 1
 [[moves]]
 name = "Gou Hadoken"
 name_ja = "豪波動拳"
-slug = "gou-hadoken"
+slug = "akuma-gou-hadoken"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -362,7 +362,7 @@ hitCount = 1
 [[moves]]
 name = "Gou Hadoken (Charge Level 2)"
 name_ja = "豪波動拳（溜め Lv2）"
-slug = "gou-hadoken-charge-level-2"
+slug = "akuma-gou-hadoken-charge-level-2"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -373,7 +373,7 @@ hitCount = 2
 [[moves]]
 name = "Gou Hadoken (Charge Level 3)"
 name_ja = "豪波動拳（溜め Lv3）"
-slug = "gou-hadoken-charge-level-3"
+slug = "akuma-gou-hadoken-charge-level-3"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -384,7 +384,7 @@ hitCount = 3
 [[moves]]
 name = "Gou Hadoken (OD)"
 name_ja = "豪波動拳（OD）"
-slug = "gou-hadoken-od"
+slug = "akuma-gou-hadoken-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -395,7 +395,7 @@ hitCount = 2
 [[moves]]
 name = "Gou Hadoken (Charge Level 2) (OD)"
 name_ja = "豪波動拳（溜め Lv2）（OD）"
-slug = "gou-hadoken-charge-level-2-od"
+slug = "akuma-gou-hadoken-charge-level-2-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -406,7 +406,7 @@ hitCount = 2
 [[moves]]
 name = "Gou Hadoken (Charge Level 3) (OD)"
 name_ja = "豪波動拳（溜め Lv3）（OD）"
-slug = "gou-hadoken-charge-level-3-od"
+slug = "akuma-gou-hadoken-charge-level-3-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -417,7 +417,7 @@ hitCount = 3
 [[moves]]
 name = "Zanku Hadoken"
 name_ja = "斬空波動拳"
-slug = "zanku-hadoken"
+slug = "akuma-zanku-hadoken"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -428,7 +428,7 @@ hitCount = 1
 [[moves]]
 name = "Zanku Hadoken (OD)"
 name_ja = "斬空波動拳（OD）"
-slug = "zanku-hadoken-od"
+slug = "akuma-zanku-hadoken-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -439,7 +439,7 @@ hitCount = 2
 [[moves]]
 name = "Gou Shoryuken (Light)"
 name_ja = "豪昇龍拳 (弱)"
-slug = "gou-shoryuken-light"
+slug = "akuma-gou-shoryuken-light"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -450,7 +450,7 @@ hitCount = 1
 [[moves]]
 name = "Gou Shoryuken (Medium)"
 name_ja = "豪昇龍拳 (中)"
-slug = "gou-shoryuken-medium"
+slug = "akuma-gou-shoryuken-medium"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -461,7 +461,7 @@ hitCount = 2
 [[moves]]
 name = "Gou Shoryuken (Heavy)"
 name_ja = "豪昇龍拳 (強)"
-slug = "gou-shoryuken-heavy"
+slug = "akuma-gou-shoryuken-heavy"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -472,7 +472,7 @@ hitCount = 3
 [[moves]]
 name = "Gou Shoryuken (OD)"
 name_ja = "豪昇龍拳（OD）"
-slug = "gou-shoryuken-od"
+slug = "akuma-gou-shoryuken-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -483,7 +483,7 @@ hitCount = 3
 [[moves]]
 name = "Tatsumaki Zankukyaku (Light)"
 name_ja = "竜巻斬空脚 (弱)"
-slug = "tatsumaki-zankukyaku-light"
+slug = "akuma-tatsumaki-zankukyaku-light"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -494,7 +494,7 @@ hitCount = 1
 [[moves]]
 name = "Tatsumaki Zankukyaku (Medium)"
 name_ja = "竜巻斬空脚 (中)"
-slug = "tatsumaki-zankukyaku-medium"
+slug = "akuma-tatsumaki-zankukyaku-medium"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -505,7 +505,7 @@ hitCount = 2
 [[moves]]
 name = "Tatsumaki Zankukyaku (Heavy)"
 name_ja = "竜巻斬空脚 (強)"
-slug = "tatsumaki-zankukyaku-heavy"
+slug = "akuma-tatsumaki-zankukyaku-heavy"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -516,7 +516,7 @@ hitCount = 3
 [[moves]]
 name = "Tatsumaki Zankukyaku (OD)"
 name_ja = "竜巻斬空脚（OD）"
-slug = "tatsumaki-zankukyaku-od"
+slug = "akuma-tatsumaki-zankukyaku-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -527,7 +527,7 @@ hitCount = 3
 [[moves]]
 name = "Aerial Tatsumaki Zankukyaku"
 name_ja = "空中竜巻斬空脚"
-slug = "aerial-tatsumaki-zankukyaku"
+slug = "akuma-aerial-tatsumaki-zankukyaku"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -538,7 +538,7 @@ hitCount = 2
 [[moves]]
 name = "Aerial Tatsumaki Zankukyaku (OD)"
 name_ja = "空中竜巻斬空脚（OD）"
-slug = "aerial-tatsumaki-zankukyaku-od"
+slug = "akuma-aerial-tatsumaki-zankukyaku-od"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -548,7 +548,7 @@ input = "{8|9}>214kk"
 [[moves]]
 name = "Adamant Fire (1)"
 name_ja = "金剛灼火 (1)"
-slug = "adamant-fire-1"
+slug = "akuma-adamant-fire-1"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -559,7 +559,7 @@ hitCount = 1
 [[moves]]
 name = "Adamant Fire (2)"
 name_ja = "金剛灼火 (2)"
-slug = "adamant-fire-2"
+slug = "akuma-adamant-fire-2"
 characterId = 21
 type = "special"
 blockType = "high"
@@ -570,7 +570,7 @@ hitCount = 2
 [[moves]]
 name = "Demon Raid"
 name_ja = "百鬼襲"
-slug = "demon-raid"
+slug = "akuma-demon-raid"
 characterId = 21
 type = "action"
 blockType = "high"
@@ -580,7 +580,7 @@ input = "236*p"
 [[moves]]
 name = "Demon Raid (OD)"
 name_ja = "百鬼襲（OD）"
-slug = "demon-raid-od"
+slug = "akuma-demon-raid-od"
 characterId = 21
 type = "action"
 blockType = "high"
@@ -590,19 +590,19 @@ input = "236pp"
 [[moves]]
 name = "Demon Low Slash"
 name_ja = "百鬼豪斬"
-slug = "demon-low-slash"
+slug = "akuma-demon-low-slash"
 characterId = 21
 type = "followUp"
 blockType = "low"
 input = "5"
 hitCount = 1
-parents = ["demon-raid"]
+parents = ["akuma-demon-raid"]
 
 # Demon Guillotine
 [[moves]]
 name = "Demon Guillotine"
 name_ja = "百鬼豪衝"
-slug = "demon-guillotine"
+slug = "akuma-demon-guillotine"
 characterId = 21
 type = "followUp"
 blockType = "mid"
@@ -679,9 +679,8 @@ name_ja = "朧"
 slug = "oboro-throw"
 characterId = 21
 type = "followUp"
-blockType = "throw"
 input = "lp+lk"
-parents = ["ashura-senku-forward"]
+parents = ["akuma-ashura-senku-forward"]
 
 # Messatsu Gohado
 [[moves]]
@@ -709,7 +708,7 @@ hitCount = 4
 [[moves]]
 name = "Empyrean’s End"
 name_ja = "崩天劫火"
-slug = "empyreans-end"
+slug = "akuma-empyreans-end"
 characterId = 21
 type = "super2"
 blockType = "high"
@@ -742,7 +741,6 @@ name_ja = "瞬獄殺"
 slug = "shun-goku-satsu"
 characterId = 21
 type = "super3"
-blockType = "throw"
 input = "lp>lp>6>lk>hp"
 
 # Goshoha
@@ -754,7 +752,6 @@ alternativeNames_ja = ["前投げ"]
 slug = "goshoha"
 characterId = 21
 type = "throw"
-blockType = "throw"
 input = "lp+lk"
 
 # Shurettou
@@ -766,5 +763,4 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "shurettou"
 characterId = 21
 type = "throw"
-blockType = "throw"
 input = "(4lplk)"
