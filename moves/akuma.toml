@@ -1,0 +1,770 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "akuma-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "5lp"
+hitCount = 1
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "akuma-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "5mp"
+hitCount = 1
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "akuma-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "5hp"
+hitCount = 1
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "akuma-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 21
+type = "normal"
+blockType = "high"
+hitCount = 1
+input = "5lk"
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "akuma-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "5mk"
+hitCount = 1
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "akuma-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "5hk"
+hitCount = 1
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "akuma-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "2lp"
+hitCount = 1
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "akuma-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "2mp"
+hitCount = 1
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "akuma-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 21
+type = "normal"
+blockType = "high"
+input = "2hp"
+hitCount = 1
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "akuma-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 21
+type = "normal"
+blockType = "low"
+input = "2lk"
+hitCount = 1
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "akuma-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 21
+type = "normal"
+blockType = "low"
+input = "2mk"
+hitCount = 1
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "akuma-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 21
+type = "normal"
+blockType = "low"
+input = "2hk"
+hitCount = 1
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "akuma-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 21
+type = "normal"
+blockType = "mid"
+input = "j>lp"
+hitCount = 1
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+slug = "akuma-jump-medium-punch"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+abbreviation = "J.MP"
+name_ja = "ジャンプ中P"
+abbeviation_ja = "ジャンプ中P"
+characterId = 21
+type = "normal"
+blockType = "midHigh"
+input = "j>mp"
+hitCount = 1
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "akuma-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 21
+type = "normal"
+blockType = "mid"
+input = "j>hp"
+hitCount = 1
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小キック", "ジャンプコキック"]
+slug = "akuma-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 21
+type = "normal"
+blockType = "mid"
+input = "j>lk"
+hitCount = 1
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "akuma-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 21
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "akuma-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 21
+type = "normal"
+blockType = "mid"
+input = "j>hk"
+hitCount = 1
+
+# Skull Splitter
+[[moves]]
+name = "Skull Splitter"
+name_ja = "頭蓋破殺"
+slug = "akuma-skull-splitter"
+alternativeNames = ["Overhead"]
+alternativeNames_ja = ["中段"]
+characterId = 21
+type = "commandNormal"
+blockType = "mid"
+input = "6mp"
+hitCount = 1
+
+# Resso Snap Kick
+[[moves]]
+name = "Resso Snap Kick"
+name_ja = "裂槍脚"
+slug = "resso-snap-kick"
+characterId = 21
+type = "commandNormal"
+blockType = "high"
+input = "6mk"
+hitCount = 1
+
+# Rago High Kick
+[[moves]]
+name = "Rago High Kick"
+name_ja = "羅豪脚"
+slug = "rago-high-kick"
+characterId = 21
+type = "commandNormal"
+blockType = "high"
+input = "4hk"
+hitCount = 1
+
+# Viscera Piercer
+[[moves]]
+name = "Viscera Piercer"
+name_ja = "六腑穿ち"
+slug = "viscera-piercer"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "5mp>5mp"
+hitCount = 2
+
+# Bone Crusher Axe Kick
+[[moves]]
+name = "Bone Crusher Axe Kick"
+name_ja = "骸新り"
+slug = "bone-crusher-axe-kick"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "5mk>5hk"
+hitCount = 2
+
+# Kikoku Combination
+[[moves]]
+name = "Kikoku Combination"
+name_ja = "鬼哭連撃"
+slug = "kikoku-combination"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "6hp>6hp>5hk"
+hitCount = 3
+
+# Tenmaku Blade Kick
+[[moves]]
+name = "Tenmaku Blade Kick"
+name_ja = "天魔空刃脚"
+slug = "tenmaku-blade-kick"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "9>2mk"
+hitCount = 1
+
+# Gou Hadoken
+[[moves]]
+name = "Gou Hadoken"
+name_ja = "豪波動拳"
+slug = "gou-hadoken"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236*p"
+hitCount = 1
+
+# Gou Hadoken (Charge Level 2)
+[[moves]]
+name = "Gou Hadoken (Charge Level 2)"
+name_ja = "豪波動拳（溜め Lv2）"
+slug = "gou-hadoken-charge-level-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[*p]"
+hitCount = 2
+
+# Gou Hadoken (Charge Level 3)
+[[moves]]
+name = "Gou Hadoken (Charge Level 3)"
+name_ja = "豪波動拳（溜め Lv3）"
+slug = "gou-hadoken-charge-level-3"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[*p]"
+hitCount = 3
+
+# Gou Hadoken (OD
+[[moves]]
+name = "Gou Hadoken (OD)"
+name_ja = "豪波動拳（OD）"
+slug = "gou-hadoken-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236pp"
+hitCount = 2
+
+# Gou Hadoken (Charge Level 2) (OD)
+[[moves]]
+name = "Gou Hadoken (Charge Level 2) (OD)"
+name_ja = "豪波動拳（溜め Lv2）（OD）"
+slug = "gou-hadoken-charge-level-2-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[pp]"
+hitCount = 2
+
+# Gou Hadoken (Charge Level 3) (OD)
+[[moves]]
+name = "Gou Hadoken (Charge Level 3) (OD)"
+name_ja = "豪波動拳（溜め Lv3）（OD）"
+slug = "gou-hadoken-charge-level-3-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[pp]"
+hitCount = 3
+
+# Zanku Hadoken
+[[moves]]
+name = "Zanku Hadoken"
+name_ja = "斬空波動拳"
+slug = "zanku-hadoken"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "9>236*p"
+hitCount = 1
+
+# Zanku Hadoken (OD)
+[[moves]]
+name = "Zanku Hadoken (OD)"
+name_ja = "斬空波動拳（OD）"
+slug = "zanku-hadoken-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "{8|9}>236pp"
+hitCount = 2
+
+# Gou Shoryuken (Light)
+[[moves]]
+name = "Gou Shoryuken (Light)"
+name_ja = "豪昇龍拳 (弱)"
+slug = "gou-shoryuken-light"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "623lp"
+hitCount = 1
+
+# Gou Shoryuken (Medium)
+[[moves]]
+name = "Gou Shoryuken (Medium)"
+name_ja = "豪昇龍拳 (中)"
+slug = "gou-shoryuken-medium"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "623mp"
+hitCount = 2
+
+# Gou Shoryuken (Heavy)
+[[moves]]
+name = "Gou Shoryuken (Heavy)"
+name_ja = "豪昇龍拳 (強)"
+slug = "gou-shoryuken-heavy"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "623hp"
+hitCount = 3
+
+# Gou Shoryuken (OD)
+[[moves]]
+name = "Gou Shoryuken (OD)"
+name_ja = "豪昇龍拳（OD）"
+slug = "gou-shoryuken-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "623pp"
+hitCount = 3
+
+# Tatsumaki Zankukyaku (Light)
+[[moves]]
+name = "Tatsumaki Zankukyaku (Light)"
+name_ja = "竜巻斬空脚 (弱)"
+slug = "tatsumaki-zankukyaku-light"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214lk"
+hitCount = 1
+
+# Tatsumaki Zankukyaku (Medium)
+[[moves]]
+name = "Tatsumaki Zankukyaku (Medium)"
+name_ja = "竜巻斬空脚 (中)"
+slug = "tatsumaki-zankukyaku-medium"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214mk"
+hitCount = 2
+
+# Tatsumaki Zankukyaku (Heavy)
+[[moves]]
+name = "Tatsumaki Zankukyaku (Heavy)"
+name_ja = "竜巻斬空脚 (強)"
+slug = "tatsumaki-zankukyaku-heavy"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214hk"
+hitCount = 3
+
+# Tatsumaki Zankukyaku (OD)
+[[moves]]
+name = "Tatsumaki Zankukyaku (OD)"
+name_ja = "竜巻斬空脚（OD）"
+slug = "tatsumaki-zankukyaku-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214kk"
+hitCount = 3
+
+# Aerial Tatsumaki Zankukyaku
+[[moves]]
+name = "Aerial Tatsumaki Zankukyaku"
+name_ja = "空中竜巻斬空脚"
+slug = "aerial-tatsumaki-zankukyaku"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "9>214k"
+hitCount = 2
+
+# Aerail Tatsumaki Zankukyaku (OD)
+[[moves]]
+name = "Aerial Tatsumaki Zankukyaku (OD)"
+name_ja = "空中竜巻斬空脚（OD）"
+slug = "aerial-tatsumaki-zankukyaku-od"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "{8|9}>214kk"
+
+# Adamant Fire (1)
+[[moves]]
+name = "Adamant Fire (1)"
+name_ja = "金剛灼火 (1)"
+slug = "adamant-fire-1"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214*p"
+hitCount = 1
+
+# Adamant Fire (2)
+[[moves]]
+name = "Adamant Fire (2)"
+name_ja = "金剛灼火 (2)"
+slug = "adamant-fire-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214*p>6*p"
+hitCount = 2
+
+# Demon Raid
+[[moves]]
+name = "Demon Raid"
+name_ja = "百鬼襲"
+slug = "demon-raid"
+characterId = 21
+type = "action"
+blockType = "high"
+input = "236*p"
+
+# Demon Raid (OD)
+[[moves]]
+name = "Demon Raid (OD)"
+name_ja = "百鬼襲（OD）"
+slug = "demon-raid-od"
+characterId = 21
+type = "action"
+blockType = "high"
+input = "236pp"
+
+# Demon Low Slash
+[[moves]]
+name = "Demon Low Slash"
+name_ja = "百鬼豪斬"
+slug = "demon-low-slash"
+characterId = 21
+type = "followUp"
+blockType = "low"
+input = "5"
+hitCount = 1
+parents = ["demon-raid"]
+
+# Demon Guillotine
+[[moves]]
+name = "Demon Guillotine"
+name_ja = "百鬼豪衝"
+slug = "demon-guillotine"
+characterId = 21
+type = "followUp"
+blockType = "mid"
+input = "*p"
+parents = ["demon-raid"]
+
+# Demon Blade Kick
+[[moves]]
+name = "Demon Blade Kick"
+name_ja = "百鬼豪刃"
+slug = "demon-blade-kick"
+characterId = 21
+type = "followUp"
+blockType = "high"
+input = "*k"
+parents = ["demon-raid"]
+
+# Demon Swoop
+[[moves]]
+name = "Demon Swoop"
+name_ja = "百鬼潜影"
+slug = "demon-swoop"
+characterId = 21
+type = "followUp"
+input = "2"
+parents = ["demon-raid"]
+
+# Demon Gou Zanku
+[[moves]]
+name = "Demon Gou Zanku"
+name_ja = "百鬼豪斬空"
+slug = "demon-gou-zanku"
+characterId = 21
+type = "followUp"
+blockType = "high"
+input = "236*p"
+hitCount = 2
+parents = ["demon-raid-od"]
+
+# Demon Gou Rasen
+[[moves]]
+name = "Demon Gou Rasen"
+name_ja = "百鬼豪螺旋"
+slug = "demon-gou-rasen"
+characterId = 21
+type = "followUp"
+blockType = "high"
+input = "214*k"
+hitCount = 3
+parents = ["demon-raid-od"]
+
+# Ashura Senku
+[[moves]]
+name = "Ashura Senku (Forward)"
+name_ja = "阿修羅閃空（前方）"
+slug = "ashura-senku-forward"
+characterId = 21
+type = "action"
+input = "6kkk"
+
+# Ashura Senku (Backward)
+[[moves]]
+name = "Ashura Senku (Backward)"
+name_ja = "阿修羅閃空（後方）"
+slug = "ashura-senku-backward"
+characterId = 21
+type = "action"
+input = "4kkk"
+
+# Oboro Throw
+[[moves]]
+name = "Oboro Throw"
+name_ja = "朧"
+slug = "oboro-throw"
+characterId = 21
+type = "followUp"
+blockType = "throw"
+input = "lp+lk"
+parents = ["ashura-senku-forward"]
+
+# Messatsu Gohado
+[[moves]]
+name = "Messatsu Gohado"
+name_ja = "滅殺豪波動"
+slug = "messatsu-gohado"
+characterId = 21
+type = "super1"
+blockType = "high"
+input = "236236*p"
+hitCount = 4
+
+# Tenma Gozanku
+[[moves]]
+name = "Tenma Gozanku"
+name_ja = "天魔豪斬空"
+slug = "tenma-gozanku"
+characterId = 21
+type = "super1"
+blockType = "high"
+input = "{8|9}>236236*k"
+hitCount = 4
+
+# Empyrean’s End
+[[moves]]
+name = "Empyrean’s End"
+name_ja = "崩天劫火"
+slug = "empyreans-end"
+characterId = 21
+type = "super2"
+blockType = "high"
+input = "214214*p"
+
+# Sip of Calamity
+[[moves]]
+name = "Sip of Calamity"
+name_ja = "禍坏"
+slug = "sip-of-calamity"
+characterId = 21
+type = "super3"
+blockType = "high"
+input = "236236*k"
+
+# Sip of Calamity (Critical Art)
+[[moves]]
+name = "Sip of Calamity (Critical Art)"
+name_ja = "禍坏（CA）"
+slug = "sip-of-calamity-critical-art"
+characterId = 21
+type = "super3"
+blockType = "high"
+input = "236236*k"
+
+# Shun Goku Satsu
+[[moves]]
+name = "Shun Goku Satsu"
+name_ja = "瞬獄殺"
+slug = "shun-goku-satsu"
+characterId = 21
+type = "super3"
+blockType = "throw"
+input = "lp>lp>6>lk>hp"
+
+# Goshoha
+[[moves]]
+name = "Goshoha"
+name_ja = "豪衝破"
+alternativeNames = ["Forward throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "goshoha"
+characterId = 21
+type = "throw"
+blockType = "throw"
+input = "lp+lk"
+
+# Shurettou
+[[moves]]
+name = "Shurettou"
+name_ja = "朱裂刀"
+alternativeNames = ["Back throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "shurettou"
+characterId = 21
+type = "throw"
+blockType = "throw"
+input = "(4lplk)"
