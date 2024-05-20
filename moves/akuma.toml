@@ -574,7 +574,7 @@ slug = "demon-raid"
 characterId = 21
 type = "action"
 blockType = "high"
-input = "236*p"
+input = "236*k"
 
 # Demon Raid (OD)
 [[moves]]
@@ -584,7 +584,7 @@ slug = "demon-raid-od"
 characterId = 21
 type = "action"
 blockType = "high"
-input = "236pp"
+input = "236kk"
 
 # Demon Low Slash
 [[moves]]
@@ -707,6 +707,7 @@ hitCount = 4
 # Empyrean’s End
 [[moves]]
 name = "Empyrean’s End"
+name_ja = "崩天劫火"
 slug = "empyreans-end"
 characterId = 21
 type = "super2"
