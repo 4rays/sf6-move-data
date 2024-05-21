@@ -325,11 +325,33 @@ blockType = "high"
 input = "5mk>5hk"
 hitCount = 2
 
-# Kikoku Combination
+# Kikoku Combination (1)
 [[moves]]
-name = "Kikoku Combination"
-name_ja = "鬼哭連撃"
-slug = "kikoku-combination"
+name = "Kikoku Combination (1)"
+name_ja = "鬼哭連撃（１）"
+slug = "kikoku-combination-1"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "6hp"
+hitCount = 1
+
+# Kikoku Combination (2)
+[[moves]]
+name = "Kikoku Combination (2)"
+name_ja = "鬼哭連撃（２）"
+slug = "kikoku-combination-2"
+characterId = 21
+type = "targetCombo"
+blockType = "high"
+input = "6hp>6hp"
+hitCount = 2
+
+# Kikoku Combination (3)
+[[moves]]
+name = "Kikoku Combination (3)"
+name_ja = "鬼哭連撃（３）"
+slug = "kikoku-combination-3"
 characterId = 21
 type = "targetCombo"
 blockType = "high"
@@ -347,40 +369,106 @@ blockType = "high"
 input = "9>2mk"
 hitCount = 1
 
-# Gou Hadoken
+# Gou Hadoken (Light)
 [[moves]]
-name = "Gou Hadoken"
-name_ja = "豪波動拳"
-slug = "gou-hadoken"
+name = "Gou Hadoken (Light)"
+name_ja = "豪波動拳（弱）"
+slug = "gou-hadoken-light"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "236*p"
+input = "236lp"
 hitCount = 1
 
-# Gou Hadoken (Charge Level 2)
+# Gou Hadoken (Light) (Charge Level 2)
 [[moves]]
-name = "Gou Hadoken (Charge Level 2)"
-name_ja = "豪波動拳（溜め Lv2）"
-slug = "gou-hadoken-charge-level-2"
+name = "Gou Hadoken (Light) (Charge Level 2)"
+name_ja = "豪波動拳 (溜め Lv2）"
+slug = "gou-hadoken-light-charge-level-2"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "236[*p]"
+input = "236[lp]"
 hitCount = 2
 
-# Gou Hadoken (Charge Level 3)
+# Gou Hadoken (Light) (Charge Level 3)
 [[moves]]
-name = "Gou Hadoken (Charge Level 3)"
+name = "Gou Hadoken (Light) (Charge Level 3)"
 name_ja = "豪波動拳（溜め Lv3）"
-slug = "gou-hadoken-charge-level-3"
+slug = "gou-hadoken-light-charge-level-3"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "236[*p]"
+input = "236[lp]"
 hitCount = 3
 
-# Gou Hadoken (OD
+# Gou Hadoken (Medium)
+[[moves]]
+name = "Gou Hadoken (Medium)"
+name_ja = "豪波動拳 (中)"
+slug = "gou-hadoken-medium"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[mp]"
+hitCount = 2
+
+# Gou Hadoken (Medium) (Charge Level 2)
+[[moves]]
+name = "Gou Hadoken (Medium) (Charge Level 2)"
+name_ja = "豪波動拳 (中)（溜め Lv2）"
+slug = "gou-hadoken-medium-charge-level-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[mp]"
+hitCount = 3
+
+# Gou Hadoken (Medium) (Charge Level 3)
+[[moves]]
+name = "Gou Hadoken (Medium) (Charge Level 3)"
+name_ja = "豪波動拳 (中)（溜め Lv3）"
+slug = "gou-hadoken-medium-charge-level-3"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[mp]"
+hitCount = 4
+
+# Gou Hadoken (Heavy)
+[[moves]]
+name = "Gou Hadoken (Heavy)"
+name_ja = "豪波動拳 (強)"
+slug = "gou-hadoken-heavy"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[hp]"
+hitCount = 2
+
+# Gou Hadoken (Heavy) (Charge Level 2)
+[[moves]]
+name = "Gou Hadoken (Heavy) (Charge Level 2)"
+name_ja = "豪波動拳 (強)（溜め Lv2）"
+slug = "gou-hadoken-heavy-charge-level-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[hp]"
+hitCount = 3
+
+# Gou Hadoken (Heavy) (Charge Level 3)
+[[moves]]
+name = "Gou Hadoken (Heavy) (Charge Level 3)"
+name_ja = "豪波動拳 (強)（溜め Lv3）"
+slug = "gou-hadoken-heavy-charge-level-3"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "236[hp]"
+hitCount = 4
+
+# Gou Hadoken (OD)
 [[moves]]
 name = "Gou Hadoken (OD)"
 name_ja = "豪波動拳（OD）"
@@ -544,27 +632,93 @@ type = "special"
 blockType = "high"
 input = "{8|9}>214kk"
 
-# Adamant Fire (1)
+# Adamant Fire (Light 1)
 [[moves]]
-name = "Adamant Fire (1)"
-name_ja = "金剛灼火 (1)"
-slug = "adamant-fire-1"
+name = "Adamant Fire (Light 1)"
+name_ja = "金剛灼火（弱 1段目）"
+slug = "adamant-fire-light-1"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "214*p"
+input = "214lp"
 hitCount = 1
 
-# Adamant Fire (2)
+# Adamant Fire (Light 2)
 [[moves]]
-name = "Adamant Fire (2)"
-name_ja = "金剛灼火 (2)"
-slug = "adamant-fire-2"
+name = "Adamant Fire (Light 2)"
+name_ja = "金剛灼火（弱 2段目）"
+slug = "adamant-fire-light-2"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "214*p>6*p"
+input = "214lp>6*p"
 hitCount = 2
+
+# Adamant Fire (Medium 1)
+[[moves]]
+name = "Adamant Fire (Medium 1)"
+name_ja = "金剛灼火（中 1段目）"
+slug = "adamant-fire-medium-1"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214mp"
+hitCount = 1
+
+# Adamant Fire (Medium 2)
+[[moves]]
+name = "Adamant Fire (Medium 2)"
+name_ja = "金剛灼火（中 2段目）"
+slug = "adamant-fire-medium-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214mp>6*p"
+hitCount = 2
+
+# Adamant Fire (Heavy 1)
+[[moves]]
+name = "Adamant Fire (Heavy 1)"
+name_ja = "金剛灼火（強 1段目）"
+slug = "adamant-fire-heavy-1"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214hp"
+hitCount = 1
+
+# Adamant Fire (Heavy 2)
+[[moves]]
+name = "Adamant Fire (Heavy 2)"
+name_ja = "金剛灼火（強 2段目）"
+slug = "adamant-fire-heavy-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214hp>6*p"
+hitCount = 2
+
+# Adamant Fire (OD 1)
+[[moves]]
+name = "Adamant Fire (OD 1)"
+name_ja = "金剛灼火（OD 1段目）"
+slug = "adamant-fire-od-1"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214pp"
+hitCount = 2
+
+# Adamant Fire (OD 2)
+[[moves]]
+name = "Adamant Fire (OD 2)"
+name_ja = "金剛灼火（OD 2段目）"
+slug = "adamant-fire-od-2"
+characterId = 21
+type = "special"
+blockType = "high"
+input = "214pp>6*p"
+hitCount = 3
 
 # Demon Raid
 [[moves]]
