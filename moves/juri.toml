@@ -143,6 +143,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5hp"
+properties = ["forcesStanding"]
 
 startup = 10
 active = [10, 12]
@@ -528,6 +529,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 
 startup = 8
 active = [8, 11]
@@ -848,7 +850,7 @@ startup = 7
 active = [7, 11]
 postLandingRecovery = 3
 cancel = "C"
-damage = 700
+damage = 500
 superArt = 500
 
 [moves.driveGauge]
@@ -875,7 +877,7 @@ startup = 7
 active = [7, 11]
 postLandingRecovery = 3
 cancel = "C"
-damage = 500
+damage = 300
 
 [moves.driveGauge]
 onHit = 250
@@ -1322,7 +1324,7 @@ blockType = "high"
 input = "4hk"
 notes = [
   "A multi-hit kick that can be canceled into special moves",
-  "Forces a juggle state knockdown on the 1st mid-air hit, and a slam knockdown on the 2nd mid-air hit",
+  "Second attack produces a ground bound when hitting a mid-air opponent",
 ]
 notes_ja = ["必殺技キャンセル可能な連続でヒットする蹴り", "初段空中ヒット時吹き飛びダウン、2段目空中ヒット時叩きつけダウン"]
 startup = 10
@@ -1353,8 +1355,10 @@ hitCount = 2
 blockType = "high"
 input = "4hk"
 properties = ["knockdown"]
-notes = ["Forces a slam knockdown when the 2nd attack hits a mid-air opponent"]
-notes_ja = ["2段目空中ヒット時叩きつけダウン"]
+notes = [
+  "Second attack produces a ground bound when hitting a mid-air opponent",
+]
+notes_ja = ["2段目空中ヒット時床バウンド"]
 
 startup = 10
 active = [10, 12, 19, 21]
@@ -1410,15 +1414,19 @@ hitCount = 3
 blockType = "high"
 input = "5mp>4hp>5hp"
 properties = ["knockdown"]
+notes = [
+  "A combination attack that sends an opponent flying",
+  "*Can only be canceled into a Super Art on hit",
+]
+notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃", "ヒット時のみSAでキャンセル可能"]
 
 startup = 17
 active = [17, 19]
 recovery = 27
 damage = 600
 superArt = 500
+cancel = "SA"
 capcomID = 405
-notes = ["A combination attack that sends an opponent flying"]
-notes_ja = ["続けてヒットし、相手を吹き飛ばす連続攻撃"]
 
 [moves.frameAdvantage]
 block = -16
@@ -1562,17 +1570,17 @@ input = "214(kk)"
 properties = ["knockdown"]
 notes = [
   "Perform an upwards kick while capturing ki from your immediate surroundings. Increases your Fuha stock by 1 upon completion",
-  "Has a clash hitbox from frames 14 - 19",
+  "Has a clash hitbox from frames 12 - 17",
   "Adds 1 Fuha stock on frame 16",
 ]
 notes_ja = [
   "蹴り上げでの攻撃と同時に周囲の気を絡めとる技。技後は風破ストックが1増加する",
-  "14-19F 相殺判定",
+  "12-17F 相殺判定",
   "16F目で風破ストックが1増加",
 ]
-startup = 16
-active = [16, 19]
-recovery = 23
+startup = 12
+active = [12, 17]
+recovery = 21
 cancel = "SA2"
 damage = 600
 superArt = 600
@@ -1718,11 +1726,13 @@ active = [24, 27]
 recovery = 19
 cancel = "SA3"
 damage = 600
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 800
 capcomID = 503
 
 [moves.frameAdvantage]
-hit = 3
+hit = 5
 block = -10
 
 [moves.driveGauge]
