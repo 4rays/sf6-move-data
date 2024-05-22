@@ -53,7 +53,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = 5
-block = 1
+block = 2
 
 [moves.driveGauge]
 onHit = 2000
@@ -154,7 +154,7 @@ damage = 600
 superArt = 700
 
 [moves.frameAdvantage]
-hit = 1
+hit = 2
 block = -3
 
 [moves.driveGauge]
@@ -179,7 +179,7 @@ input = "5hk"
 
 notes = [
   "Produces a crumple stun on Punish Counter",
-  "Forces a juggle satte when hitting a mid-air opponent",
+  "Forces a juggle state when hitting a mid-air opponent",
 ]
 notes_ja = ["パニッシュカウンター時膝くずれ", "空中ヒット時吹き飛びやられ"]
 
@@ -257,8 +257,8 @@ damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
-hit = 3
-block = 0
+hit = 5
+block = 1
 
 [moves.driveGauge]
 onHit = 1500
@@ -279,9 +279,13 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 
-notes = ["Can be canceled until the 2nd active frame"]
-notes_ja = ["持続の2F目までキャンセル可"]
+notes = [
+  "Forces the opponent into a standing position",
+  "Can be canceled until the 2nd active frame",
+]
+notes_ja = ["強制立ち効果", "持続の2F目までキャンセル可"]
 
 startup = 9
 active = [9, 13]
@@ -386,8 +390,16 @@ notes = [
   "Hard knockdown when hitting an opponent standing on the ground",
   "Knockdown time extended when attack lands as a counter or Punish Counter",
   "Forces a juggle state when hitting a mid-air opponent",
+  "1 frames of recovery added when the attack misses",
+  "Second attack is considered a high attack only when the first attack is blocked",
 ]
-notes_ja = ["地上ヒット時ハードノックダウン", "カウンター/パニッシュカウンター時ダウン時間延長", "空中ヒット時吹き飛びやられ"]
+notes_ja = [
+  "地上ヒット時ハードノックダウン",
+  "カウンター/パニッシュカウンター時ダウン時間延長",
+  "空中ヒット時吹き飛びやられ",
+  "ガード時硬直1F増加",
+  "初段がガード時のみ2段目が上段判定",
+]
 
 startup = 9
 active = [9, 10, 13, 15]
@@ -396,7 +408,7 @@ damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
-block = -10
+block = -11
 
 [moves.driveGauge]
 onHit = 3000
@@ -817,8 +829,11 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "5lp>5lk>5mp"
-notes = ["Available at Drink Level 1 or higher"]
-notes_ja = ["酔いLv1以上で発動可能"]
+notes = [
+  "Available at Drink Level 1 or higher",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["酔いLv1以上で発動可能", "ガード時硬直2F増加"]
 
 startup = 8
 active = [8, 10]
@@ -1076,11 +1091,13 @@ properties = ["knockdown"]
 notes = ["Available at Drink Level 4"]
 notes_ja = ["酔いLv4で発動可能"]
 
-startup = 17
-active = [17, 20]
+startup = 15
+active = [15, 18]
 recovery = 28
 cancel = "C"
-damage = 700
+damage = 850
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -1204,8 +1221,8 @@ hit = -1
 block = -6
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (1) (Light) (Drink level 4)
@@ -1269,8 +1286,8 @@ hit = -1
 block = -6
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (1) (Medium) (Drink level 4)
@@ -1300,7 +1317,7 @@ hit = 1
 block = -3
 
 [moves.driveGauge]
-onHit = 1400
+onHit = 3000
 onBlock = -5000
 onPunishCounter = -8000
 
@@ -1334,8 +1351,8 @@ hit = -1
 block = -6
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (1) (Heavy) (Drink level 4)
@@ -1365,7 +1382,7 @@ hit = 1
 block = -3
 
 [moves.driveGauge]
-onHit = 1400
+onHit = 3000
 onBlock = -5000
 onPunishCounter = -8000
 
@@ -1395,11 +1412,11 @@ notes = [
 notes_ja = ["前進して拳での3連撃を繰り出す技。通常技からのコンボ始動技として有効"]
 
 [moves.frameAdvantage]
-hit = 0
+hit = 1
 block = -3
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (1) (OD) (Drink level 4)
@@ -1461,8 +1478,8 @@ hit = -3
 block = -13
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (2) (Medium)
@@ -1494,8 +1511,8 @@ hit = -3
 block = -11
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (2) (Heavy)
@@ -1527,8 +1544,8 @@ hit = -3
 block = -9
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (2) (Drink level 4)
@@ -1560,7 +1577,7 @@ hit = -2
 block = -10
 
 [moves.driveGauge]
-onHit = 1400
+onHit = 1000
 onBlock = -3000
 onPunishCounter = -4000
 
@@ -1593,7 +1610,7 @@ hit = -3
 block = -9
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (2) (OD) (Drink level 4)
@@ -1654,8 +1671,8 @@ capcomID = 502
 block = -17
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (3) (Medium)
@@ -1687,8 +1704,8 @@ capcomID = 502
 block = -15
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (3) (Heavy)
@@ -1720,8 +1737,8 @@ capcomID = 502
 block = -13
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (3) (Drink level 4)
@@ -1746,14 +1763,14 @@ startup = 16
 active = [16, 17, 22, 23, 38, 40]
 recovery = 28
 damage = 600
-superArt = 900
+superArt = 1400
 capcomID = 502
 
 [moves.frameAdvantage]
 block = -14
 
 [moves.driveGauge]
-onHit = 1400
+onHit = 1500
 onBlock = -4500
 onPunishCounter = -4000
 
@@ -1786,7 +1803,7 @@ capcomID = 502
 block = -13
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Strikes (3) (OD) (Drink level 4)
@@ -1847,8 +1864,8 @@ hit = -7
 block = -15
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (2) (Medium)
@@ -1880,8 +1897,8 @@ hit = -7
 block = -15
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (2) (Heavy)
@@ -1913,8 +1930,8 @@ hit = -7
 block = -15
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (2) (OD)
@@ -1946,7 +1963,7 @@ hit = -7
 block = -15
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (3) (Light)
@@ -1983,8 +2000,8 @@ capcomID = 503
 block = -49
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (3) (Medium)
@@ -2021,8 +2038,8 @@ capcomID = 503
 block = -49
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (3) (Heavy)
@@ -2059,8 +2076,8 @@ capcomID = 503
 block = -49
 
 [moves.driveGauge]
-onHit = 700
-onBlock = -1500
+onHit = 1000
+onBlock = -2500
 onPunishCounter = -4000
 
 # Freeflow Kicks (3) (OD)
@@ -2097,7 +2114,7 @@ capcomID = 503
 block = -49
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -4000
 
 # Swagger Step (Light)
@@ -2178,7 +2195,7 @@ properties = ["knockdown"]
 
 startup = 25
 active = [25, 33]
-recovery = 17
+recovery = 16
 cancel = "SA3"
 damage = 1200
 superArt = 1000
@@ -2189,7 +2206,7 @@ notes = [
 notes_ja = ["素早い踏み込みから掌底の一撃を繰り出す技。接近手段を兼ねた奇襲として有効"]
 
 [moves.frameAdvantage]
-block = -5
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -2318,15 +2335,17 @@ notes_ja = [
   "1-12F 空中判定の攻撃に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
-startup = 6
-active = [6, 13, 42, 51]
-recovery = 54
+startup = 5
+active = [5, 11, 41, 50]
+recovery = 55
 damage = 1000
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 505
 
 [moves.frameAdvantage]
-block = -44
+block = -45
 
 [moves.driveGauge]
 onHit = 2000
@@ -2755,8 +2774,8 @@ notes_ja = [
 startup = 8
 active = [8, 9]
 recovery = 52
-scaling = ["*Starter scaling 20%"]
-scaling_ja = ["始動補正20%"]
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 1000
 capcomID = 508
 
@@ -2779,26 +2798,21 @@ notes = [
   "A throw that stops the opponent's movements by thrusting a finger in front of their eyes. After the hit connects, it can be followed up with a swift attack",
   "Available at Drink Level 3 or higher",
   "Produces a crumple stun on hit",
-  "Combo scaling starts from the 3rd hit",
 ]
 notes_ja = [
   "近距離で",
   "相手の目の前に指を突き立て、動きを止める投げ技。ヒット後は、出が早い攻撃での追撃が可能となる",
   "酔いLv3以上で発動可能",
   "ヒット時膝崩れ",
-  "コンボの3段目以降に補正がかかる",
-  "■クラシック操作",
   "パニッシュカウンター時個別ダメージ（784）",
-  "■モダン操作時",
-  "パニッシュカウンター時個別ダメージ（627）",
 ]
 
 startup = 8
 active = [8, 9]
 recovery = 52
 damage = 650
-scaling = ["*Starter scaling 20%"]
-scaling_ja = ["始動補正20%"]
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 508
 
@@ -2815,47 +2829,45 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "A sequence of acrobatic rotating kicks at high speed. During the attack, keep holding down to raise your drink level",
-  "Completely invincible on frame 1",
-  "Invincible to throws and strikes from frames 2 - 12",
+  "Invincible to throws and strikes from frames 1 - 12",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
   "While the attack is executed, continue to hold Down to change the attack’s properties and raise your Drink level by 1",
 ]
 notes_ja = [
   "アクロバティックな連続回転蹴りを高速で繰り出す技。動作中に、下方向を入力し続けると酔いLvを上昇させる",
-  "1F 完全無敵",
-  "2-12 打撃・投げに対して無敵",
+  "1-12 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "動作中に、下方向を入力し続けると性質が変化し、酔いLvが1上昇する",
 ]
 
-startup = 10
+startup = 8
 active = [
-  10,
-  12,
-  19,
+  8,
+  16,
   23,
-  30,
-  31,
-  39,
-  40,
-  48,
-  49,
-  56,
-  57,
-  64,
-  65,
-  72,
-  73,
-  103,
-  104,
-  114,
-  115,
-  122,
-  123,
-  129,
-  130,
+  27,
+  34,
+  35,
+  43,
+  44,
+  52,
+  53,
+  60,
+  61,
+  68,
+  69,
+  75,
+  76,
+  106,
+  107,
+  117,
+  118,
+  125,
+  126,
+  132,
+  133,
 ]
 recovery = 74
 damage = 2200
