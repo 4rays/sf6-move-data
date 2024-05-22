@@ -223,7 +223,7 @@ scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
-hit = 2
+hit = 3
 block = -2
 
 [moves.driveGauge]
@@ -350,7 +350,7 @@ damage = 600
 superArt = 600
 
 [moves.frameAdvantage]
-hit = 2
+hit = 3
 block = -2
 
 [moves.driveGauge]
@@ -581,7 +581,7 @@ capcomID = 401
 
 [moves.frameAdvantage]
 hit = 3
-block = -3
+block = 1
 
 [moves.driveGauge]
 onHit = 2000
@@ -693,9 +693,9 @@ blockType = "high"
 input = "4mk>5mk"
 notes = [
   "A two-hit series of attacks, the second of which cannot be blocked crouching",
-  "Forces a juggle state when hitting a mid-air opponent",
+  "Adds a floor bounding effect during a mid-air hit",
 ]
-notes_ja = ["2段目がしゃがみでガードできない連続攻撃", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃", "空中ヒット時床バウンド"]
 startup = 14
 active = [14, 20]
 recovery = 21
@@ -1024,10 +1024,12 @@ properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 5 - 15",
+  "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "5-15F 上半身のみ空中判定の攻撃に対して無敵",
+  "初段のみSA3/CAでキャンセル可能",
 ]
 startup = 9
 active = [9, 11, 14, 15]
@@ -1061,10 +1063,12 @@ properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 7 - 19",
+  "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "7-19F 上半身のみ空中判定の攻撃に対して無敵",
+  "初段のみSA3/CAでキャンセル可能",
 ]
 startup = 11
 active = [11, 13, 17, 19]
@@ -1099,11 +1103,13 @@ notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
   "The upper part of Manon’s body is invincible against mid-air attacks from frames 9 - 22",
   "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 44 - 46",
+  "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
   "9-22F 上半身のみ空中判定の攻撃に対して無敵",
   "44-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
+  "初段のみSA3/CAでキャンセル可能",
 ]
 
 startup = 14
@@ -1577,8 +1583,8 @@ input = "*k"
 relatedMoves = ["renverse-light", "renverse-medium", "renverse-heavy"]
 properties = ["knockdown"]
 
-startup = 11
-active = [11, 16]
+startup = 10
+active = [10, 15]
 recovery = 22
 cancel = "SA3"
 damage = 800
@@ -1701,7 +1707,7 @@ startup = 7
 active = [7, 9, 21, 26, 72, 80]
 recovery = 38
 postLandingRecovery = 34
-damage = 2700
+damage = 2800
 capcomID = 602
 
 [moves.frameAdvantage]
@@ -1729,6 +1735,12 @@ notes = [
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into standing heavy punch and Rond-point",
+  "Damage increases the higher the Medal level",
+  "Medal Level 1: 4000",
+  "Medal Level 2: 4100",
+  "Medal Level 3: 4200",
+  "Medal Level 4: 4400",
+  "Medal Level 5: 4600",
 ]
 notes_ja = [
   "近距離で",
@@ -1737,6 +1749,12 @@ notes_ja = [
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "立ち強P、ロン・ポワンからキャンセル時のみ15％",
+  "メダルLvに応じてダメージが上昇",
+  "メダルLv1 4000",
+  "メダルLv2 4100",
+  "メダルLv3 4200",
+  "メダルLv4 4400",
+  "メダルLv5 4600",
 ]
 
 startup = 7
@@ -1765,6 +1783,12 @@ notes = [
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into standing heavy punch and Rond-point",
+  "Damage increases the higher the Medal level",
+  "Medal Level 1: 4500",
+  "Medal Level 2: 4600",
+  "Medal Level 3: 4700",
+  "Medal Level 4: 4900",
+  "Medal Level 5: 5100",
 ]
 notes_ja = [
   "体力25%以下で",
@@ -1773,6 +1797,12 @@ notes_ja = [
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "立ち強P、ロン・ポワンからキャンセル時のみ15％",
+  "メダルLvに応じてダメージが上昇",
+  "メダルLv1 4500",
+  "メダルLv2 4600",
+  "メダルLv3 4700",
+  "メダルLv4 4900",
+  "メダルLv5 5100",
 ]
 
 startup = 7
