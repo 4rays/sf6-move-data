@@ -107,10 +107,11 @@ type = "normal"
 input = "5(hp)"
 relatedMoves = ["marisa-stand-heavy-punch"]
 notes = [
-  "Forces a juggle state when hitting a mid-air opponent",
-  "Punish counter +14F",
+  "Forces a juggle state knockdown when hitting a mid-air opponent",
+  "15 frames of advantage added when the attack lands as a Punish Counter.",
+  "1 frames of recovery added on hit or when blocked",
 ]
-notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+14F"]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+15F", "ヒット・ガード時硬直1F減少"]
 
 startup = 26
 active = [26, 27]
@@ -121,8 +122,8 @@ scaling_ja = ["始動補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = 6
-block = 3
+hit = 7
+block = 4
 
 [moves.driveGauge]
 onHit = 3000
@@ -377,7 +378,7 @@ damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
-block = -5
+block = -3
 
 [moves.driveGauge]
 onHit = 3000
@@ -494,7 +495,11 @@ type = "normal"
 input = "2+[hk]"
 relatedMoves = ["marisa-crouch-heavy-kick"]
 properties = ["knockdown"]
-notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+  "3 frames of recovery added on hit or when blocked",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長", "ヒット・ガード時硬直3F減少"]
 
 startup = 23
 active = [23, 25]
@@ -503,7 +508,7 @@ damage = 1200
 superArt = 1000
 
 [moves.frameAdvantage]
-block = -6
+block = -3
 
 [moves.driveGauge]
 onHit = 3000
@@ -586,7 +591,7 @@ notes = [
 notes_ja = ["20F以上ホールドすると性能変化", "空中ヒット時叩きつけダウン"]
 
 startup = 10
-active = [10, 14]
+active = [10, 16]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
@@ -610,7 +615,7 @@ properties = ["knockdown"]
 
 startup = 28
 active = [28, 33]
-postLandingRecovery = 6
+postLandingRecovery = 3
 damage = 1500
 superArt = 1000
 
@@ -717,7 +722,7 @@ properties = ["knockdown"]
 
 startup = 29
 active = [29, 34]
-postLandingRecovery = 6
+postLandingRecovery = 3
 damage = 1500
 superArt = 1000
 
@@ -741,8 +746,8 @@ active = [14, 16]
 recovery = 22
 cancel = "C"
 damage = 600
-scaling = ["Starter scaling 10%", "Combo scaling 25%"]
-scaling_ja = ["始動補正10%", "コンボ補正25%"]
+scaling = ["Starter scaling 10%", "Combo scaling 15%"]
+scaling_ja = ["始動補正10%", "コンボ補正15%"]
 superArt = 1000
 capcomID = 402
 notes = ["A rapid series of attacks"]
@@ -890,7 +895,7 @@ notes = [
 notes_ja = ["攻撃範囲が広く、相手が後方に位置してもヒットする攻撃", "めくり性能"]
 startup = 28
 active = [28, 36]
-postLandingRecovery = 6
+postLandingRecovery = 3
 damage = 1500
 superArt = 1000
 capcomID = 406
@@ -1123,10 +1128,10 @@ type = "commandNormal"
 input = "6hk"
 blockType = "high"
 notes = [
-  "A two-hit combination attack with long reach",
+  "Forces the opponent into a standing position",
   "Hold the button for more than 21 frames to change its properties",
 ]
-notes_ja = ["続けてヒットする、リーチの長い連続攻撃", "21F以上ホールドすると性能変化"]
+notes_ja = ["強制立ち効果", "21F以上ホールドすると性能変化"]
 startup = 14
 active = [14, 17]
 recovery = 21
@@ -1154,10 +1159,10 @@ type = "commandNormal"
 input = "6[hk]"
 blockType = "high"
 notes = [
-  "A two-hit combination attack with long reach",
+  "Forces the opponent into a standing position",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["続けてヒットする、リーチの長い連続攻撃", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["強制立ち効果", "空中ヒット時吹き飛びダウン"]
 startup = 27
 active = [27, 30]
 recovery = 19
@@ -1395,8 +1400,16 @@ type = "special"
 blockType = "high"
 input = "236[hp]"
 properties = ["knockdown"]
-notes = ["Upper body has Super Armor for 1 hit from frames 5 - 35"]
-notes_ja = ["5-35F 上半身アーマー判定(1回)"]
+notes = [
+  "A devastating straight punch. Can be powered up by holding the attack button",
+  "Upper body has Super Armor for 1 hit from frames 5 - 35",
+  "Has armor break properties",
+]
+notes_ja = [
+  "強烈なストレートを繰り出し、相手を打ち抜く技。ボタンをホールドすると攻撃性能が上がる",
+  "5-35F 上半身アーマー判定(1回)",
+  "アーマーブレイク属性",
+]
 
 startup = 41
 active = [41, 44]
@@ -1404,6 +1417,7 @@ recovery = 20
 cancel = "SA3"
 damage = 2800
 superArt = 2650
+capcomID = 501
 
 [moves.frameAdvantage]
 block = 4
@@ -1442,6 +1456,8 @@ active = [19, 22]
 recovery = 21
 cancel = "SA2"
 damage = 1700
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1150
 capcomID = 501
 
@@ -1475,6 +1491,8 @@ active = [35, 38]
 recovery = 20
 cancel = "SA2"
 damage = 2900
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 2650
 
 [moves.frameAdvantage]
@@ -1495,6 +1513,7 @@ characterId = 13
 type = "special"
 blockType = "high"
 input = "214lp"
+properties = ["forcesStanding"]
 notes = [
   "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
   "Hold down the button for over 35 frames to change its properties",
@@ -1565,6 +1584,7 @@ characterId = 13
 type = "special"
 blockType = "high"
 input = "214mp"
+properties = ["forcesStanding"]
 notes = [
   "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
   "Can transition to branching attacks from frames 27 - 36",
@@ -1922,7 +1942,7 @@ superArt = 1150
 capcomID = 503
 
 [moves.frameAdvantage]
-block = 2
+block = 4
 
 [moves.driveGauge]
 onBlock = -5000
@@ -2093,6 +2113,7 @@ slug = "scutum-physical-counter"
 characterId = 13
 type = "special"
 input = "214*k"
+properties = ["armorBreak"]
 notes = [
   "Take an attack during Scutum",
   "Always in Punish Counter state during execution",
@@ -2107,7 +2128,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = -1
-block = -5
+block = -3
 
 [moves.driveGauge]
 onHit = 1000
@@ -2155,6 +2176,7 @@ notes = [
   "Scutum stance continues while the button is held",
 ]
 notes_ja = ["ODスクトゥム中に打撃を受ける", "動作中常に被パニッシュカウンター判定", "ボタンホールド時、スクトゥムの構え動作を継続"]
+properties = ["armorBreak"]
 
 startup = 7
 active = [7, 10]
@@ -2164,7 +2186,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = -1
-block = -5
+block = -3
 
 [moves.driveGauge]
 onBlock = -2500
@@ -2333,14 +2355,14 @@ properties = ["knockdown"]
 notes = [
   "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage",
   "Hold down the button for over 27 frames to change its properties",
-  "Completely invincible on frame 1",
-  "Super Armor for 2 hits from frames 2 - 23",
+  "Super Armor for 2 hits from frames 1 - 23",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "大きく振りかぶってから全力でパンチを打ち下ろす技。ボタンをホールドして溜めるとダメージが上がる",
   "27F以上ホールドすると性能変化",
-  "1F 完全無敵",
-  "2-23F 全身アーマー判定(2回)",
+  "1-23F 全身アーマー判定(2回)",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
@@ -2369,8 +2391,7 @@ input = "236236[*p]"
 properties = ["knockdown"]
 notes = [
   "Bring a full-power punch down on your opponent with a wide swing. Hold the button to increase its damage",
-  "Completely invincible on frame 1",
-  "Transitions to attack when hit by an opponent’s attack between frames 2 - 27",
+  "Transitions to attack when hit by an opponent’s attack between frames 1 - 27",
   "Upper body has Super Armor for 2 hits from frames 28 - 47",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
@@ -2380,8 +2401,7 @@ notes = [
 ]
 notes_ja = [
   "大きく振りかぶってから全力でパンチを打ち下ろす技。ボタンをホールドして溜めるとダメージが上がる",
-  "1F 完全無敵",
-  "2-27F 打撃当身、当身時派生技に移行",
+  "1-27F 打撃当身、当身時派生技に移行",
   "28-47F 全身アーマー判定(2回)",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
