@@ -19,8 +19,8 @@ startup = 7
 active = [7, 8]
 recovery = 11
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -86,7 +86,7 @@ damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = -1
+hit = 1
 block = -6
 
 [moves.driveGauge]
@@ -114,8 +114,8 @@ active = [5, 6]
 recovery = 12
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -141,10 +141,12 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5mk"
+notes = ["3 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直3F増加"]
 
-startup = 7
-active = [7, 9]
-recovery = 17
+startup = 8
+active = [8, 10]
+recovery = 16
 damage = 700
 superArt = 700
 
@@ -179,8 +181,8 @@ notes = [
 notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時吹き飛びダウン", "8-15F足元無敵"]
 
 startup = 10
-active = [10, 15]
-recovery = 17
+active = [10, 16]
+recovery = 16
 damage = 900
 superArt = 1000
 
@@ -215,8 +217,8 @@ active = [4, 5]
 recovery = 10
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -242,6 +244,8 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2mp"
+scaling = ["Starter scaling 15%"]
+scaling_ja = ["始動補正15%"]
 notes = ["3 frames of recovery added when the attack misses"]
 notes_ja = ["空振り時硬直3F増加"]
 
@@ -281,6 +285,8 @@ notes = [
   "This move can be canceled until the 1st active frame",
 ]
 notes_ja = ["強制立ち効果", "キャンセルは持続の1F目まで"]
+scaling = ["Combo scaling 15%"]
+scaling_ja = ["コンボ補正15%"]
 
 startup = 7
 active = [7, 11]
@@ -319,8 +325,8 @@ startup = 5
 active = [5, 7]
 recovery = 12
 damage = 200
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -641,10 +647,10 @@ blockType = "high"
 input = "4hk"
 notes = [
   "A powerful anti-air high kick",
-  "19 frames of advantage added when the attack lands as a Punish Counter",
+  "17 frames of advantage added when the attack lands as a Punish Counter",
   "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["相手のジャンプに対して強いハイキック", "パニッシュカウンター時+19F", "空中ヒット時吹き飛びダウン"]
+notes_ja = ["相手のジャンプに対して強いハイキック", "パニッシュカウンター時+17F", "空中ヒット時吹き飛びダウン"]
 startup = 12
 active = [12, 15]
 recovery = 24
@@ -1073,8 +1079,8 @@ notes_ja = [
 startup = 12
 totalFrames = 54
 cancel = "SA2"
-damage = 750
-superArt = 400
+damage = 1000
+superArt = 1000
 capcomID = 502
 
 [moves.frameAdvantage]
@@ -1082,7 +1088,7 @@ block = -21
 
 [moves.driveGauge]
 onBlock = -1000
-onPunishCounter = -2000
+onPunishCounter = -7000
 
 # Flash Knuckle (Light)
 [[moves]]
@@ -1258,11 +1264,13 @@ notes = [
   "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
   "Has a clash hitbox from frame 32 to frame 33",
   "Combo scaling added to 2nd hit",
+  "Recovery reduced by 4 frames on super armor hit",
 ]
 notes_ja = [
   "腕に力を溜めて全力で殴りつける技。出始めからボタンをホールドすると威力が増し、腕が光る瞬間にホールドを解除する事で、さらに性能が強化される",
   "32-33F 相殺判定",
   "2段目にコンボ補正がかかる",
+  "アーマーヒット時硬直4F減少",
 ]
 startup = 30
 active = [30, 33]
@@ -1515,8 +1523,8 @@ notes_ja = [
 ]
 startup = 1
 active = [1]
-damage = 2000
-superArt = 1500
+damage = 2500
+superArt = 3000
 capcomID = 504
 
 # Aerial Flash Knuckle
@@ -1639,8 +1647,8 @@ parents = ["avenger"]
 properties = ["knockdown"]
 
 startup = 12
-active = [12, 14]
-recovery = 19
+active = [12, 21]
+recovery = 16
 cancel = "SA3"
 damage = 900
 superArt = 1000
@@ -1737,8 +1745,8 @@ parents = ["avenger-od"]
 properties = ["knockdown"]
 
 startup = 12
-active = [12, 14]
-recovery = 19
+active = [12, 21]
+recovery = 16
 cancel = "SA2"
 damage = 1300
 scaling = ["Starter scaling 50%"]
@@ -2057,8 +2065,8 @@ damage = 2800
 capcomID = 602
 
 [moves.frameAdvantage]
-hit = 2
-block = -26
+hit = 0
+block = -29
 
 [moves.driveGauge]
 onBlock = -5000
@@ -2077,22 +2085,22 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "Charge and mount the opponent before unloading a flurry of powerful punches. It has long forward range, making it useful in combos, or as a way to deal with projectiles",
-  "Start up and invincibility changes depending on the distance from the opponent",
+  "Start up changes depending on the distance from the opponent",
   "When activated from close range",
   "Start up is 10 frames, and completely invincible from frames 1 - 13",
   "When activated from furthest possible range",
-  "Start up is 27 frames, and completely invincible from frames 1 - 30",
+  "Start up is 27 frames, and completely invincible from frames 1 - 13",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "突進からマウントポジションを取って渾身のパンチを叩き込む技。前進距離が長く、コンボへの組み込みや飛び道具対策に使える",
-  "相手との距離に応じて発生・無敵時間が変化",
+  "相手との距離に応じて発生が変化",
   "密着発動時",
   "発生10F 1-13F完全無敵",
   "最遠距離発動時",
-  "発生27F 1-30F完全無敵",
+  "発生27F 1-13F完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
@@ -2107,7 +2115,6 @@ scaling_ja = ["即時補正10%"]
 capcomID = 603
 
 [moves.frameAdvantage]
-hit = 18
 block = -42
 
 [moves.driveGauge]
@@ -2127,22 +2134,22 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "When under 25% vitality",
-  "Start up and invincibility changes depending on the distance from the opponent",
+  "Start up changes depending on the distance from the opponent",
   "When activated from close range",
   "Start up is 10 frames, and completely invincible from frames 1 - 13",
   "When activated from furthest possible range",
-  "Start up is 27 frames, and completely invincible from frames 1 - 30",
+  "Start up is 27 frames, and completely invincible from frames 1 - 13",
   "Minimum guaranteed damage is 50%",
   "Values do not change on counter or Punish Counter",
   "Can only be canceled into from special moves",
 ]
 notes_ja = [
   "体力25%以下で",
-  "相手との距離に応じて発生・無敵時間が変化",
+  "相手との距離に応じて発生が変化",
   "密着発動時",
   "発生10F 1-13F完全無敵",
   "最遠距離発動時",
-  "発生27F 1-30F完全無敵",
+  "発生27F 1-13F完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
   "必殺技キャンセル時のみ適用",
@@ -2156,7 +2163,6 @@ scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 
 [moves.frameAdvantage]
-hit = 18
 block = -42
 
 [moves.driveGauge]

@@ -20,8 +20,8 @@ active = [6, 8]
 recovery = 8
 cancel = "C"
 damage = 350
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -122,8 +122,8 @@ active = [4, 6]
 recovery = 12
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -220,8 +220,8 @@ active = [6, 8]
 recovery = 8
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -320,8 +320,8 @@ startup = 5
 active = [5, 6]
 recovery = 12
 damage = 200
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]

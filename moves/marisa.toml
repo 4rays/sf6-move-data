@@ -16,8 +16,8 @@ startup = 6
 active = [6, 8]
 recovery = 11
 damage = 400
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -116,8 +116,8 @@ startup = 26
 active = [26, 27]
 recovery = 22
 damage = 1200
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -149,8 +149,8 @@ active = [6, 7]
 recovery = 14
 cancel = "C"
 damage = 400
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -282,8 +282,8 @@ active = [4, 5]
 recovery = 10
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -405,8 +405,8 @@ startup = 5
 active = [5, 7]
 recovery = 12
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -774,9 +774,7 @@ cancel = "C"
 damage = 600
 superArt = 1000
 capcomID = 403
-notes = [
-  "A two-hit combination attack that can be canceled into special moves",
-]
+notes = ["A two-hit combination attack that can be canceled into special moves"]
 notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃"]
 
 [moves.frameAdvantage]

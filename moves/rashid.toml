@@ -20,8 +20,8 @@ active = [4, 5]
 recovery = 9
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -115,8 +115,8 @@ active = [4, 6]
 recovery = 10
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -218,8 +218,8 @@ active = [5, 7]
 recovery = 7
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -318,8 +318,8 @@ startup = 5
 active = [5, 7]
 recovery = 8
 damage = 200
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -1066,12 +1066,9 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "When coming in contact with an air current",
-  "Considered airborne from frames 10 -97"
+  "Considered airborne from frames 10 -97",
 ]
-notes_ja = [
-  "気流接触中に",
-  "10-97F 空中判定"
-]
+notes_ja = ["気流接触中に", "10-97F 空中判定"]
 
 startup = 5
 active = [
@@ -1166,11 +1163,7 @@ notes = [
   "Invincible to mid-air attacks from frames 6 - 12",
   "Considered airborne from frames 9 - 91",
 ]
-notes_ja = [
-  "気流接触中に",
-  "6-12F 空中判定の攻撃に対して無敵", 
-  "8-91F 空中判定"
-]
+notes_ja = ["気流接触中に", "6-12F 空中判定の攻撃に対して無敵", "8-91F 空中判定"]
 
 startup = 5
 active = [5, 7, 9, 11, 15, 17, 22, 24, 28, 30, 33, 35, 38, 40, 43, 45, 49, 51]
@@ -1327,12 +1320,9 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "When coming in contact with an air current",
-  "Considered airborne from frames 9 - 38"
+  "Considered airborne from frames 9 - 38",
 ]
-notes_ja = [
-  "気流接触中に",
-  "9-38F 空中判定"
-]
+notes_ja = ["気流接触中に", "9-38F 空中判定"]
 
 startup = 14
 active = [14, 26]
@@ -1397,12 +1387,9 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "When coming in contact with an air current",
-  "Considered airborne from frames 17 - 45"
+  "Considered airborne from frames 17 - 45",
 ]
-notes_ja = [
-  "気流接触中に",
-  "17-45F 空中判定"
-]
+notes_ja = ["気流接触中に", "17-45F 空中判定"]
 
 startup = 17
 active = [17, 31]
@@ -1467,12 +1454,9 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "When coming in contact with an air current",
-  "Considered airborne from frames 17 - 45"
+  "Considered airborne from frames 17 - 45",
 ]
-notes_ja = [
-  "気流接触中に",
-  "8-45F 空中判定"
-]
+notes_ja = ["気流接触中に", "8-45F 空中判定"]
 
 startup = 17
 active = [17, 31]
