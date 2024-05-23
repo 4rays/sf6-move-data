@@ -187,7 +187,7 @@ damage = 800
 superArt = 1000
 
 [moves.frameAdvantage]
-hit = 1
+hit = 3
 block = -6
 
 [moves.driveGauge]
@@ -567,6 +567,7 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4mp"
+properties = ["forcesStanding"]
 
 startup = 8
 active = [8, 13]
@@ -758,11 +759,13 @@ type = "commandNormal"
 hitCount = 1
 blockType = "high"
 input = "4hk"
+properties = ["forcesStanding"]
 notes = [
   "A kick that is useful against an opponent's neutral jumps and blows the opponent back on hit",
   "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
 ]
 notes_ja = ["相手の真上方向のジャンプに対して強く、相手を吹き飛ばす蹴り", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+
 startup = 14
 active = [14, 19]
 recovery = 20
@@ -830,8 +833,9 @@ superArt = 500
 capcomID = 409
 notes = [
   "A special-cancelable descending attack that be performed while jumping",
+  "Forces a juggle state when hitting a mid-air opponent",
 ]
-notes_ja = ["ジャンプ中に繰り出す、必殺技キャンセル可能な急降下攻撃"]
+notes_ja = ["ジャンプ中に繰り出す、必殺技キャンセル可能な急降下攻撃", "空中ヒット時吹き飛びダウン"]
 
 [moves.driveGauge]
 onHit = 1500
@@ -931,6 +935,36 @@ onHit = 1500
 onBlock = -3000
 onPunishCounter = -4000
 
+# Long Sliding Kick
+[[moves]]
+name = "Long Sliding Kick"
+name_ja = "ロングスライディング"
+slug = "long-sliding-kick"
+characterId = 9
+type = "commandNormal"
+hitCount = 1
+blockType = "low"
+input = "2hk"
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 12
+active = [12, 27]
+recovery = 20
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -7000
+
 # Yoga Fire (Light)
 [[moves]]
 name = "Yoga Fire (Light)"
@@ -959,6 +993,38 @@ notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いの�
 [moves.frameAdvantage]
 hit = -2
 block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Fire (Light Charged)
+[[moves]]
+name = "Yoga Fire (Light Charged)"
+name_ja = "ヨガファイア (弱ホールド)"
+slug = "yoga-fire-light-charged"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[lp]"
+
+properties = ["knockdown"]
+notes = [
+  "Hold the button for 29 frames and the held button version will be performed automatically",
+]
+notes_ja = ["29Fボタンホールドしているとホールド版が自動で発動"]
+
+startup = 43
+totalFrames = 73
+cancel = "SA3"
+damage = 800
+superArt = 800
+capcomID = 501
+
+[moves.frameAdvantage]
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -999,6 +1065,38 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -3000
 
+# Yoga Fire (Medium Charged)
+[[moves]]
+name = "Yoga Fire (Medium Charged)"
+name_ja = "ヨガファイア (中ホールド)"
+slug = "yoga-fire-medium-charged"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[mp]"
+
+properties = ["knockdown"]
+notes = [
+  "Hold the button for 29 frames and the held button version will be performed automatically",
+]
+notes_ja = ["29Fボタンホールドしているとホールド版が自動で発動"]
+
+startup = 43
+totalFrames = 73
+cancel = "SA3"
+damage = 800
+superArt = 800
+capcomID = 501
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
 # Yoga Fire (Heavy)
 [[moves]]
 name = "Yoga Fire (Heavy)"
@@ -1027,6 +1125,38 @@ notes_ja = ["口から火の玉を吹いて飛ばす技。離れた間合いの�
 [moves.frameAdvantage]
 hit = -2
 block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -3000
+
+# Yoga Fire (Heavy Charged)
+[[moves]]
+name = "Yoga Fire (Heavy Charged)"
+name_ja = "ヨガファイア (強ホールド)"
+slug = "yoga-fire-heavy-charged"
+characterId = 9
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236[hp]"
+
+properties = ["knockdown"]
+notes = [
+  "Hold the button for 29 frames and the held button version will be performed automatically",
+]
+notes_ja = ["29Fボタンホールドしているとホールド版が自動で発動"]
+
+startup = 43
+totalFrames = 73
+cancel = "SA3"
+damage = 800
+superArt = 800
+capcomID = 501
+
+[moves.frameAdvantage]
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -1594,10 +1724,11 @@ active = [12, 21]
 totalFrames = 41
 cancel = "SA2"
 damage = 1000
-scaling = ["Starter scaling 20%"]
-scaling_ja = ["始動補正20%"]
 superArt = 1200
 capcomID = 504
+
+[moves.frameAdvantage]
+block = 0
 
 [moves.driveGauge]
 onBlock = -5000
