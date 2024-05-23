@@ -567,10 +567,11 @@ blockType = "mid"
 input = "6mp"
 hitCount = 1
 capcomID = 401
-
-notes = ["Second attack becomes an overhead only if the first attack whiffs"]
-notes_ja = ["初段が空振り時のみ2段目が中段判定"]
-
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Second attack becomes an overhead only if the first attack whiffs",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "初段が空振り時のみ2段目が中段判定"]
 startup = 20
 active = [20, 20, 22, 24]
 recovery = 18
@@ -603,6 +604,8 @@ recovery = 18
 damage = 700
 superArt = 500
 capcomID = 402
+notes = ["A quick, long-reaching snap kick."]
+notes_ja = ["素早くリーチの長い突き蹴り。"]
 
 [moves.frameAdvantage]
 hit = 5
@@ -634,6 +637,8 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 403
+notes = ["A launching kick that can be canceled into special moves."]
+notes_ja = ["必殺技キャンセル可能な相手を打ち上げる蹴り。"]
 
 [moves.frameAdvantage]
 block = -15
@@ -663,6 +668,10 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 500
 capcomID = 404
+notes = [
+  "A quick series of attacks that can be canceled by a special move to create combos, or eliminate gaps that would leave you open to counterattack.",
+]
+notes_ja = ["連係を必殺技キャンセルしてコンボや隙消しができる連続攻撃。"]
 
 [moves.frameAdvantage]
 hit = -1
@@ -692,6 +701,10 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 405
+notes = [
+  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃。"]
 
 [moves.frameAdvantage]
 hit = 1
@@ -719,6 +732,8 @@ recovery = 20
 damage = 800
 superArt = 1000
 capcomID = 406
+notes = ["A multi-hit attack with a lenient input window for follow-ups."]
+notes_ja = ["連係を出す入力猶予が長く、続けてヒットする攻撃。"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -748,6 +763,8 @@ recovery = 21
 damage = 600
 superArt = 1000
 capcomID = 406
+notes = ["A multi-hit attack with a lenient input window for follow-ups."]
+notes_ja = ["連係を出す入力猶予が長く、続けてヒットする攻撃。"]
 
 [moves.frameAdvantage]
 block = -10
@@ -775,6 +792,8 @@ recovery = 24
 damage = 875
 superArt = 1000
 capcomID = 406
+notes = ["A multi-hit attack with a lenient input window for follow-ups."]
+notes_ja = ["連係を出す入力猶予が長く、続けてヒットする攻撃。"]
 
 [moves.frameAdvantage]
 block = -13
@@ -802,8 +821,11 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 1000
 capcomID = 407
-notes = ["During a forward jump"]
-notes_ja = ["前ジャンプ中に"]
+notes = [
+  "A downward attack that doesn't leave you open, and allows you to change the trajectory of your forward jump.",
+  "During a forward jump",
+]
+notes_ja = ["前ジャンプの軌道を変化させる隙の少ない落下攻撃。", "前ジャンプ中に"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -822,11 +844,15 @@ input = "236lp"
 hitCount = 1
 
 notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
   "Hold and release the button for 25 frames or more to activate Level 2",
   "Hold and release the button for 49 frames or more to activate Level 3",
 ]
-notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
-
+notes_ja = [
+  "前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。",
+  "25F以上ボタンを押して離すとLv2が発動",
+  "49F以上ボタンを押して離すとLv3が発動",
+]
 startup = 16
 totalFrames = 46
 cancel = "SA3"
@@ -862,6 +888,10 @@ cancel = "SA3"
 damage = 1000
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 2
@@ -889,6 +919,10 @@ cancel = "SA3"
 damage = 1200
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 5
@@ -910,11 +944,15 @@ input = "236[mp]"
 hitCount = 2
 
 notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
   "Hold and release the button for 25 frames or more to activate Level 2",
   "Hold and release the button for 49 frames or more to activate Level 3",
 ]
-notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
-
+notes_ja = [
+  "前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。",
+  "25F以上ボタンを押して離すとLv2が発動",
+  "49F以上ボタンを押して離すとLv3が発動",
+]
 startup = 14
 totalFrames = 46
 cancel = "SA3"
@@ -949,6 +987,10 @@ cancel = "SA3"
 damage = 1000
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 2
@@ -976,6 +1018,10 @@ cancel = "SA3"
 damage = 1200
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 5
@@ -997,11 +1043,17 @@ input = "236[hp]"
 hitCount = 2
 
 notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
   "Charged",
   "Hold and release the button for 25 frames or more to activate Level 2",
   "Hold and release the button for 49 frames or more to activate Level 3",
 ]
-notes_ja = ["ホールド", "25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
+notes_ja = [
+  "前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。",
+  "ホールド",
+  "25F以上ボタンを押して離すとLv2が発動",
+  "49F以上ボタンを押して離すとLv3が発動",
+]
 startup = 12
 totalFrames = 46
 cancel = "SA3"
@@ -1036,6 +1088,10 @@ cancel = "SA3"
 damage = 1000
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 2
@@ -1063,6 +1119,10 @@ cancel = "SA3"
 damage = 1200
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 5
@@ -1090,6 +1150,10 @@ cancel = "SA2"
 damage = 1000
 superArt = 600
 capcomID = 501
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。"]
 
 [moves.frameAdvantage]
 block = 2
@@ -1109,9 +1173,11 @@ blockType = "high"
 input = "236[pp]"
 hitCount = 2
 properties = ["knockdown"]
-notes = ["Hold down the button for over 25 frames to change its properties"]
-notes_ja = ["25F以上ホールドすると性能変化"]
-
+notes = [
+  "Fire a ki blast directly forward. Useful for attacking opponents at range.",
+  "Hold down the button for over 25 frames to change its properties",
+]
+notes_ja = ["前方に気弾を飛ばす技。離れた間合いから攻撃する手段として有効。", "25F以上ホールドすると性能変化"]
 cancel = "SA2"
 damage = 1200
 superArt = 600
@@ -1135,10 +1201,15 @@ blockType = "high"
 input = "9>236*p"
 hitCount = 1
 notes = [
+  "Fire a ki blast from the air to the ground below. This attack is effective as a tool to shield your approach. The Overdrive version can also be performed from a neutral jump.",
   "During a forward jump",
   "Angle of the projectile changes depending on the button pressed",
 ]
-notes_ja = ["前ジャンプ中に", "ボタンによって弾の角度が変化"]
+notes_ja = [
+  "空中から地上に向けて気弾を飛ばす技。弾を盾にした攻めの起点として有効。OD版のみ垂直ジャンプからも発動できる。",
+  "前ジャンプ中に",
+  "ボタンによって弾の角度が変化",
+]
 startup = 13
 postLandingRecovery = 9
 damage = 600
@@ -1167,6 +1238,10 @@ postLandingRecovery = 9
 damage = 900
 superArt = 1000
 capcomID = 502
+notes = [
+  "Fire a ki blast from the air to the ground below. This attack is effective as a tool to shield your approach. The Overdrive version can also be performed from a neutral jump.",
+]
+notes_ja = ["空中から地上に向けて気弾を飛ばす技。弾を盾にした攻めの起点として有効。OD版のみ垂直ジャンプからも発動できる。"]
 
 [moves.driveGauge]
 onBlock = -5000
@@ -1194,6 +1269,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 503
+notes = [
+  "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+]
+notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
 
 [moves.frameAdvantage]
 block = -23
@@ -1225,6 +1304,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 503
+notes = [
+  "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+]
+notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
 
 [moves.frameAdvantage]
 block = -30
@@ -1256,6 +1339,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1200
 capcomID = 503
+notes = [
+  "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+]
+notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
 
 [moves.frameAdvantage]
 block = -36
@@ -1284,6 +1371,10 @@ postLandingRecovery = 15
 damage = 1900
 superArt = 1000
 capcomID = 503
+notes = [
+  "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+]
+notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
 
 [moves.frameAdvantage]
 block = -39
@@ -1302,9 +1393,11 @@ blockType = "high"
 input = "214lk"
 hitCount = 1
 properties = ["knockdown"]
-notes = ["6 frames of recovery added when the attack misses"]
-notes_ja = ["空振り時硬直6F増加"]
-
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away.",
+  "6 frames of recovery added when the attack misses",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。コンボの繋ぎや相手を吹き飛ばす用途として有効。", "空振り時硬直6F増加"]
 startup = 12
 active = [12, 13]
 recovery = 21
@@ -1342,6 +1435,10 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 504
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away.",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。コンボの繋ぎや相手を吹き飛ばす用途として有効。"]
 
 [moves.frameAdvantage]
 block = -13
@@ -1370,6 +1467,10 @@ postLandingRecovery = 12
 damage = 1600
 superArt = 1000
 capcomID = 504
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away.",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。コンボの繋ぎや相手を吹き飛ばす用途として有効。"]
 
 [moves.frameAdvantage]
 block = -59
@@ -1397,6 +1498,10 @@ recovery = 26
 damage = 1000
 superArt = 1000
 capcomID = 504
+notes = [
+  "Unleash a series of roundhouse kicks while moving forward. Useful in combos as well as for sending opponents flying away.",
+]
+notes_ja = ["前進する連続回し蹴りを繰り出す技。コンボの繋ぎや相手を吹き飛ばす用途として有効。"]
 
 [moves.frameAdvantage]
 block = -17
@@ -1425,8 +1530,16 @@ scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 600
 capcomID = 505
-notes = ["During a forward jump", "During a forward jump"]
-notes_ja = ["前ジャンプ中に", "前ジャンプ中に"]
+notes = [
+  "A Tatsumaki Zanku-kyaku performed during a jump. Useful to change jump trajectory or to finish up combos.",
+  "During a forward jump",
+  "During a forward jump",
+]
+notes_ja = [
+  "ジャンプ中に繰り出す竜巻斬空脚。ジャンプの軌道を変化させたり、コンボに組み込むのが有効。",
+  "前ジャンプ中に",
+  "前ジャンプ中に",
+]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1452,6 +1565,10 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 505
+notes = [
+  "A Tatsumaki Zanku-kyaku performed during a jump. Useful to change jump trajectory or to finish up combos.",
+]
+notes_ja = ["ジャンプ中に繰り出す竜巻斬空脚。ジャンプの軌道を変化させたり、コンボに組み込むのが有効。"]
 
 [moves.driveGauge]
 onBlock = -4000
@@ -1467,9 +1584,11 @@ type = "special"
 blockType = "high"
 input = "214lp"
 hitCount = 1
-notes = ["Can transition to branching attacks from frames 19 - 22"]
-notes_ja = ["19-22F ヒット時専用技に派生可"]
-
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+  "Can transition to branching attacks from frames 19 - 22",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。", "19-22F ヒット時専用技に派生可"]
 startup = 15
 active = [15, 17]
 recovery = 23
@@ -1505,6 +1624,10 @@ cancel = "SA3"
 damage = 500
 superArt = 500
 capcomID = 506
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1526,11 +1649,15 @@ blockType = "high"
 input = "214mp"
 hitCount = 1
 notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
   "Can transition to branching attacks from frames 23 - 26",
   "3 frames of recovery added when the attack misses",
 ]
-notes_ja = ["23-26F ヒット時専用技に派生可", "空振り時硬直3F増加"]
-
+notes_ja = [
+  "素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。",
+  "23-26F ヒット時専用技に派生可",
+  "空振り時硬直3F増加",
+]
 startup = 19
 active = [19, 21]
 recovery = 20
@@ -1567,6 +1694,10 @@ cancel = "SA3"
 damage = 600
 superArt = 500
 capcomID = 506
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。"]
 
 [moves.frameAdvantage]
 block = -18
@@ -1587,11 +1718,15 @@ blockType = "high"
 input = "214hp"
 hitCount = 1
 notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
   "Can transition to branching attacks from frames 27 - 30",
   "2 frames of recovery added when the attack misses",
 ]
-notes_ja = ["27-30F ヒット時専用技に派生可", "空振り時硬直2F増加"]
-
+notes_ja = [
+  "素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。",
+  "27-30F ヒット時専用技に派生可",
+  "空振り時硬直2F増加",
+]
 startup = 23
 active = [23, 25]
 recovery = 19
@@ -1628,6 +1763,10 @@ cancel = "SA3"
 damage = 600
 superArt = 500
 capcomID = 506
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。"]
 
 [moves.frameAdvantage]
 block = -14
@@ -1647,9 +1786,11 @@ type = "special"
 blockType = "high"
 input = "214pp"
 hitCount = 2
-notes = ["Can transition to branching attacks from frames 22 - 25"]
-notes_ja = ["22-25F ヒット時専用技に派生可"]
-
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+  "Can transition to branching attacks from frames 22 - 25",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。", "22-25F ヒット時専用技に派生可"]
 startup = 18
 active = [18, 20]
 recovery = 23
@@ -1687,6 +1828,10 @@ cancel = "SA2"
 damage = 700
 superArt = 750
 capcomID = 506
+notes = [
+  "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
+]
+notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。"]
 
 [moves.frameAdvantage]
 block = -18
@@ -1704,11 +1849,17 @@ characterId = 21
 type = "action"
 input = "236*k"
 notes = [
+  "A quick leap towards the opponent that allows you to transition into various techniques. Clever use of these techniques will help strengthen your offense.",
   "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 18 - 40",
   "Considered airborne after frame 7",
   "Distance traveled is determined by the button pressed",
 ]
-notes_ja = ["18-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能", "7F以降、空中判定", "ボタンで移動距離が変化"]
+notes_ja = [
+  "素早く飛び上がってから様々な派生を繰り出す強襲技。派生を使い分けることで強力な攻めが行える。",
+  "18-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能",
+  "7F以降、空中判定",
+  "ボタンで移動距離が変化",
+]
 capcomID = 507
 
 # Demon Raid (OD)
@@ -1721,10 +1872,15 @@ type = "action"
 input = "236kk"
 
 notes = [
+  "A quick leap towards the opponent that allows you to transition into various techniques. Clever use of these techniques will help strengthen your offense.",
   "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 16 - 40",
   "Considered airborne after frame 7",
 ]
-notes_ja = ["16-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
+notes_ja = [
+  "素早く飛び上がってから様々な派生を繰り出す強襲技。派生を使い分けることで強力な攻めが行える。",
+  "16-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能",
+  "7F以降、空中判定",
+]
 capcomID = 507
 
 # Demon Low Slash
@@ -1746,8 +1902,12 @@ recovery = 19
 damage = 1000
 superArt = 1000
 capcomID = 508
-notes = ["During overdrive demon raid", "No input"]
-notes_ja = ["百鬼襲中に", "入力なし"]
+notes = [
+  "Performs a low sweep the moment Demon Raid lands back on the ground. The kick has a long reach, and allows you to act before an opponent even if blocked.",
+  "During overdrive demon raid",
+  "No input",
+]
+notes_ja = ["百鬼襲の着地と同時に下段足払いを行う技。リーチが長く、ガードされても相手より先に動ける。", "百鬼襲中に", "入力なし"]
 
 [moves.frameAdvantage]
 block = 2
@@ -1769,10 +1929,15 @@ input = "*p"
 parents = ["demon-raid"]
 properties = ["knockdown"]
 notes = [
+  "A vicious downward chop performed from Demon Raid. This is an overhead attack, and allows you to act before an opponent even if blocked.",
   "During overdrive demon raid",
   "Recovery changes depending strength of the attack blocked",
 ]
-notes_ja = ["百鬼襲中に", "ガードさせた高度によって硬直差が変化"]
+notes_ja = [
+  "百鬼襲から派生する手刀を打ち下ろす技。中段攻撃で、ガードされても相手より先に動ける。",
+  "百鬼襲中に",
+  "ガードさせた高度によって硬直差が変化",
+]
 startup = 16
 active = [16]
 postLandingRecovery = 9
@@ -1800,11 +1965,17 @@ blockType = "high"
 input = "*k"
 parents = ["demon-raid"]
 notes = [
+  "A quick downward kick performed from Demon Raid. The button used determines your angle of descent.",
   "During overdrive demon raid",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "5 frames of recovery added when the attack misses",
 ]
-notes_ja = ["百鬼襲中に", "ヒット・ガードさせた高度によって硬直差が変化", "空振り時硬直5F増加"]
+notes_ja = [
+  "百鬼襲から派生する急降下の蹴り技。発動するボタン強度で落下する角度を変化させられる。",
+  "百鬼襲中に",
+  "ヒット・ガードさせた高度によって硬直差が変化",
+  "空振り時硬直5F増加",
+]
 startup = 13
 active = [13]
 postLandingRecovery = 9
@@ -1836,8 +2007,11 @@ input = "2"
 parents = ["demon-raid"]
 totalFrames = 6
 capcomID = 511
-notes = ["During overdrive demon raid"]
-notes_ja = ["百鬼襲中に"]
+notes = [
+  "A sudden drop to the ground performed from Demon Raid that eliminates any openings. Mix this in with other Demon Raid finishers to keep your opponent guessing.",
+  "During overdrive demon raid",
+]
+notes_ja = ["百鬼襲から派生する着地の隙を消す技。他の派生と織り交ぜることで相手を翻弄できる。", "百鬼襲中に"]
 
 # Demon Gou Zanku
 [[moves]]
@@ -1857,8 +2031,11 @@ postLandingRecovery = 9
 damage = 900
 superArt = 1000
 capcomID = 512
-notes = ["During overdrive od demon raid"]
-notes_ja = ["OD百鬼襲中に"]
+notes = [
+  "An attack only available from Overdrive Demon Raid. Useful in combos or for a surprise attack, it doesn't consume any additional Drive.",
+  "During overdrive od demon raid",
+]
+notes_ja = ["OD百鬼襲からのみ派生できる技。急襲やコンボに有効で、追加でDゲージは消費しない。", "OD百鬼襲中に"]
 
 [moves.driveGauge]
 onBlock = -5000
@@ -1885,8 +2062,11 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 513
-notes = ["During overdrive od demon raid"]
-notes_ja = ["OD百鬼襲中に"]
+notes = [
+  "An attack only available from Overdrive Demon Raid. Useful in combos against an airborne opponent, it doesn't consume any additional Drive.",
+  "During overdrive od demon raid",
+]
+notes_ja = ["OD百鬼襲からのみ派生できる技。相手を浮かすコンボに有効で、追加でDゲージは消費しない。", "OD百鬼襲中に"]
 
 [moves.driveGauge]
 onBlock = -4000
@@ -1902,6 +2082,10 @@ type = "action"
 input = "6kkk"
 totalFrames = 51
 capcomID = 514
+notes = [
+  "A technique that grants the user swift movement while cloaking them in illusions. Input forward or back together with the other buttons to move in that direction.",
+]
+notes_ja = ["幻影を纏って素早い移動を行う技。発動時の前後入力によって移動方向が選べる。"]
 
 # Ashura Senku (Backward)
 [[moves]]
@@ -1909,9 +2093,14 @@ name = "Ashura Senku (Backward)"
 name_ja = "阿修羅閃空（後方）"
 slug = "ashura-senku-backward"
 characterId = 21
+type = "action"
 input = "4kkk"
 totalFrames = 49
 capcomID = 514
+notes = [
+  "A technique that grants the user swift movement while cloaking them in illusions. Input forward or back together with the other buttons to move in that direction.",
+]
+notes_ja = ["幻影を纏って素早い移動を行う技。発動時の前後入力によって移動方向が選べる。"]
 
 # Oboro Throw
 [[moves]]
@@ -1929,8 +2118,11 @@ active = [8, 10]
 recovery = 50
 damage = 2200
 capcomID = 515
-notes = ["During ashura senku (forward)"]
-notes_ja = ["阿修羅閃空（前方"]
+notes = [
+  "A throw available during Ashura Senku. Useful at mid-range against opponents with a tendency to block.",
+  "During ashura senku (forward)",
+]
+notes_ja = ["阿修羅閃空の移動中に派生できる投げ技。中距離からの奇襲としてガードを固める相手に有効。", "阿修羅閃空（前方"]
 
 # Messatsu Gohado
 [[moves]]
@@ -1944,12 +2136,17 @@ input = "236236*p"
 hitCount = 5
 properties = ["knockdown"]
 notes = [
+  "Fires a high-speed, concentrated ball of the Satsui no Hado forward. Has high attack power for a projectile-based Super Art.",
   "Invincible to strikes and projectiles from frames 1 - 14",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
-notes_ja = ["1-14F 打撃・投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes_ja = [
+  "殺意の波動を練り固め、高速の弾を撃ち放つ技。飛び道具のスーパーアーツとして高い威力を持つ。",
+  "1-14F 打撃・投げに対して無敵",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 10
 totalFrames = 106
 damage = 2200
@@ -1973,11 +2170,17 @@ input = "{8|9}>236236*k"
 hitCount = 5
 properties = ["knockdown"]
 notes = [
+  "Fire a powerful ki blast from the air to the ground below. Useful for finishing combos from jump attacks that can be canceled.",
   "During a neutral or forward jump",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
-notes_ja = ["垂直 or 前ジャンプ中に", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+notes_ja = [
+  "空中から地上に向けて強力な気弾を放つ技。キャンセル可能なジャンプ攻撃からコンボに組み込むのが有効。",
+  "垂直 or 前ジャンプ中に",
+  "最低保障ダメージ30％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 startup = 14
 postLandingRecovery = 33
 damage = 2000
@@ -1998,12 +2201,14 @@ blockType = "high"
 input = "214214*p"
 properties = ["knockdown"]
 notes = [
+  "Turns the Satsui no Hado into a powerful flame before piercing the opponent. Opponents are open to follow-up attacks if they reach the end of the stage after being launched.",
   "Completely invincible from frame 1 to frame 11.",
   "Produces a wall splat if the opponent reaches the wall",
   "Minimum guaranteed damage is set to 40%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
+  "殺意の波動を炎と化し相手に打ち込む技。吹き飛ばした相手がステージ端に到達すると追撃ができる。",
   "1-11F 完全無敵",
   "壁到達時に壁やられ",
   "最低保障ダメージ40％",
@@ -2035,6 +2240,7 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
+  "Knocks down an opponent with overwhelming strength before unleashing a single, devastating blow. It can be canceled into from a special move, making it particularly useful in combos.",
   "When under 25% vitality",
   "Completely invincible from frame 1 to frame 11.",
   "Minimum guaranteed damage is set to 50%",
@@ -2042,6 +2248,7 @@ notes = [
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "力で相手をねじ伏せ、厄災の一撃を繰り出す。必殺技キャンセルからの出が早く、コンボに組み込むのが有効。",
   "体力25%以下で",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
@@ -2073,12 +2280,14 @@ input = "236236*k"
 
 properties = ["knockdown"]
 notes = [
+  "Knocks down an opponent with overwhelming strength before unleashing a single, devastating blow. It can be canceled into from a special move, making it particularly useful in combos.",
   "Completely invincible from frame 1 to frame 11.",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "力で相手をねじ伏せ、厄災の一撃を繰り出す。必殺技キャンセルからの出が早く、コンボに組み込むのが有効。",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2108,6 +2317,7 @@ type = "super3"
 input = "lp>lp>6>lk>hp"
 properties = ["knockdown"]
 notes = [
+  "A secret technique that overwhelms an opponent with myriad of attacks made in a single second. Cannot be avoided if performed at close range while the opponent is standing on the ground.",
   "Completely invincible on frame 1",
   "Invincible to projectiles from frames 6 - 27",
   "Minimum guaranteed damage is set to 50%",
@@ -2115,6 +2325,7 @@ notes = [
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "一瞬にして数多の打撃を打ち込む奥義。地上の相手に密着して発動すると回避不能の攻撃となる。",
   "1F 完全無敵",
   "6-27F 飛び道具無敵",
   "最低保障ダメージ50％",
@@ -2141,6 +2352,7 @@ input = "lp+lk"
 
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent, and send them flying away with two consecutive palm strikes. Throws your opponent without switching places with them.",
   "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2148,6 +2360,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "相手を掴み、2連続の掌底で吹き飛ばす技。相手との位置関係を変えずに投げる。",
   "近距離で",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -2177,6 +2390,7 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent, and deliver a devastating downward chop. Throws your opponent while switching places with them.",
   "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -2184,6 +2398,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "相手を引き込み、強烈な手刀を撃ち落とす技。相手との位置を入れ替えながら投げる。",
   "近距離で",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
