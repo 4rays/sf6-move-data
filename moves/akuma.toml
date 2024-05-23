@@ -802,6 +802,8 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 1000
 capcomID = 407
+notes = ["During a forward jump"]
+notes_ja = ["前ジャンプ中に"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -995,11 +997,11 @@ input = "236[hp]"
 hitCount = 2
 
 notes = [
+  "Charged",
   "Hold and release the button for 25 frames or more to activate Level 2",
   "Hold and release the button for 49 frames or more to activate Level 3",
 ]
-notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
-
+notes_ja = ["ホールド", "25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
 startup = 12
 totalFrames = 46
 cancel = "SA3"
@@ -1132,9 +1134,11 @@ type = "special"
 blockType = "high"
 input = "9>236*p"
 hitCount = 1
-notes = ["Angle of the projectile changes depending on the button pressed"]
-notes_ja = ["ボタンによって弾の角度が変化"]
-
+notes = [
+  "During a forward jump",
+  "Angle of the projectile changes depending on the button pressed",
+]
+notes_ja = ["前ジャンプ中に", "ボタンによって弾の角度が変化"]
 startup = 13
 postLandingRecovery = 9
 damage = 600
@@ -1421,6 +1425,8 @@ scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 600
 capcomID = 505
+notes = ["During a forward jump", "During a forward jump"]
+notes_ja = ["前ジャンプ中に", "前ジャンプ中に"]
 
 [moves.driveGauge]
 onHit = 2000
@@ -1740,6 +1746,8 @@ recovery = 19
 damage = 1000
 superArt = 1000
 capcomID = 508
+notes = ["During overdrive demon raid", "No input"]
+notes_ja = ["百鬼襲中に", "入力なし"]
 
 [moves.frameAdvantage]
 block = 2
@@ -1760,9 +1768,11 @@ blockType = "mid"
 input = "*p"
 parents = ["demon-raid"]
 properties = ["knockdown"]
-notes = ["Recovery changes depending strength of the attack blocked"]
-notes_ja = ["ガードさせた高度によって硬直差が変化"]
-
+notes = [
+  "During overdrive demon raid",
+  "Recovery changes depending strength of the attack blocked",
+]
+notes_ja = ["百鬼襲中に", "ガードさせた高度によって硬直差が変化"]
 startup = 16
 active = [16]
 postLandingRecovery = 9
@@ -1790,11 +1800,11 @@ blockType = "high"
 input = "*k"
 parents = ["demon-raid"]
 notes = [
+  "During overdrive demon raid",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "5 frames of recovery added when the attack misses",
 ]
-notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化", "空振り時硬直5F増加"]
-
+notes_ja = ["百鬼襲中に", "ヒット・ガードさせた高度によって硬直差が変化", "空振り時硬直5F増加"]
 startup = 13
 active = [13]
 postLandingRecovery = 9
@@ -1826,6 +1836,8 @@ input = "2"
 parents = ["demon-raid"]
 totalFrames = 6
 capcomID = 511
+notes = ["During overdrive demon raid"]
+notes_ja = ["百鬼襲中に"]
 
 # Demon Gou Zanku
 [[moves]]
@@ -1845,6 +1857,8 @@ postLandingRecovery = 9
 damage = 900
 superArt = 1000
 capcomID = 512
+notes = ["During overdrive od demon raid"]
+notes_ja = ["OD百鬼襲中に"]
 
 [moves.driveGauge]
 onBlock = -5000
@@ -1871,6 +1885,8 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 513
+notes = ["During overdrive od demon raid"]
+notes_ja = ["OD百鬼襲中に"]
 
 [moves.driveGauge]
 onBlock = -4000
@@ -1913,6 +1929,8 @@ active = [8, 10]
 recovery = 50
 damage = 2200
 capcomID = 515
+notes = ["During ashura senku (forward)"]
+notes_ja = ["阿修羅閃空（前方"]
 
 # Messatsu Gohado
 [[moves]]
@@ -1955,11 +1973,11 @@ input = "{8|9}>236236*k"
 hitCount = 5
 properties = ["knockdown"]
 notes = [
+  "During a neutral or forward jump",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
-notes_ja = ["最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
-
+notes_ja = ["垂直 or 前ジャンプ中に", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
 startup = 14
 postLandingRecovery = 33
 damage = 2000
@@ -2017,12 +2035,14 @@ blockType = "high"
 input = "236236*k"
 properties = ["knockdown"]
 notes = [
+  "When under 25% vitality",
   "Completely invincible from frame 1 to frame 11.",
   "Minimum guaranteed damage is set to 50%",
   "Values do not change on counter or Punish Counter",
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "体力25%以下で",
   "1-11F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2121,13 +2141,19 @@ input = "lp+lk"
 
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -2151,13 +2177,19 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
