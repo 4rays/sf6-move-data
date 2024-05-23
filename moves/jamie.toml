@@ -2873,6 +2873,10 @@ recovery = 74
 damage = 2200
 capcomID = 601
 
+[moves.frameAdvantage]
+minBlock = -60
+maxBlock = -93
+
 [moves.driveGauge]
 onBlock = -1500
 onPunishCounter = -5000
