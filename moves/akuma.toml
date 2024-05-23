@@ -13,6 +13,24 @@ blockType = "high"
 input = "5lp"
 hitCount = 1
 
+startup = 4
+active = [4, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Punch
 [[moves]]
 name = "Standing Medium Punch"
@@ -27,6 +45,22 @@ type = "normal"
 blockType = "high"
 input = "5mp"
 hitCount = 1
+
+startup = 6
+active = [6, 9]
+recovery = 11
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Standing Heavy Punch
 [[moves]]
@@ -43,6 +77,22 @@ blockType = "high"
 input = "5hp"
 hitCount = 1
 
+startup = 9
+active = [9, 13]
+recovery = 18
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
@@ -58,6 +108,24 @@ blockType = "high"
 hitCount = 1
 input = "5lk"
 
+startup = 5
+active = [5, 7]
+recovery = 11
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Kick
 [[moves]]
 name = "Standing Medium Kick"
@@ -72,6 +140,22 @@ type = "normal"
 blockType = "high"
 input = "5mk"
 hitCount = 1
+properties = ["forcesStanding"]
+
+startup = 7
+active = [7, 11]
+recovery = 15
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Standing Heavy Kick
 [[moves]]
@@ -88,6 +172,29 @@ blockType = "high"
 input = "5hk"
 hitCount = 1
 
+notes = [
+  "Forces the opponent into a standing position",
+  "1 frames of recovery added when the attack misses",
+]
+notes_ja = ["強制立ち効果", "空振り時硬直1F増加"]
+
+startup = 13
+active = [13, 15, 24, 27]
+recovery = 15
+damage = 800
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 7
+block = 2
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # Crouching Light Punch
 [[moves]]
 name = "Crouching Light Punch"
@@ -102,6 +209,24 @@ type = "normal"
 blockType = "high"
 input = "2lp"
 hitCount = 1
+
+startup = 4
+active = [4, 5]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Punch
 [[moves]]
@@ -118,6 +243,22 @@ blockType = "high"
 input = "2mp"
 hitCount = 1
 
+startup = 6
+active = [6, 8]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 6
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
 # Crouching Heavy Punch
 [[moves]]
 name = "Crouching Heavy Punch"
@@ -132,6 +273,22 @@ type = "normal"
 blockType = "high"
 input = "2hp"
 hitCount = 1
+
+startup = 8
+active = [8, 15]
+recovery = 19
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -8
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Crouching Light Kick
 [[moves]]
@@ -148,6 +305,23 @@ blockType = "low"
 input = "2lk"
 hitCount = 1
 
+startup = 5
+active = [5, 6]
+recovery = 10
+damage = 200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Crouching Medium Kick
 [[moves]]
 name = "Crouching Medium Kick"
@@ -163,6 +337,24 @@ blockType = "low"
 input = "2mk"
 hitCount = 1
 
+startup = 8
+active = [8, 10]
+recovery = 19
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -177,6 +369,25 @@ type = "normal"
 blockType = "low"
 input = "2hk"
 hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 9
+active = [9, 11]
+recovery = 23
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -12
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -193,6 +404,17 @@ blockType = "mid"
 input = "j>lp"
 hitCount = 1
 
+startup = 4
+active = [4, 13]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -207,6 +429,21 @@ type = "normal"
 blockType = "midHigh"
 input = "j>mp"
 hitCount = 1
+
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -223,6 +460,22 @@ blockType = "mid"
 input = "j>hp"
 hitCount = 1
 
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
@@ -237,6 +490,17 @@ type = "normal"
 blockType = "mid"
 input = "j>lk"
 hitCount = 1
+
+startup = 6
+active = [6, 15]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -253,6 +517,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
@@ -268,6 +543,17 @@ blockType = "mid"
 input = "j>hk"
 hitCount = 1
 
+startup = 12
+active = [12, 17]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Skull Splitter
 [[moves]]
 name = "Skull Splitter"
@@ -280,6 +566,25 @@ type = "commandNormal"
 blockType = "mid"
 input = "6mp"
 hitCount = 1
+capcomID = 401
+
+notes = ["Second attack becomes an overhead only if the first attack whiffs"]
+notes_ja = ["初段が空振り時のみ2段目が中段判定"]
+
+startup = 20
+active = [20, 20, 22, 24]
+recovery = 18
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2500
+onPunishCounter = -5000
 
 # Resso Snap Kick
 [[moves]]
@@ -292,6 +597,22 @@ blockType = "high"
 input = "6mk"
 hitCount = 1
 
+startup = 10
+active = [10, 12]
+recovery = 18
+damage = 700
+superArt = 500
+capcomID = 402
+
+[moves.frameAdvantage]
+hit = 5
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Rago High Kick
 [[moves]]
 name = "Rago High Kick"
@@ -302,6 +623,25 @@ type = "commandNormal"
 blockType = "high"
 input = "4hk"
 hitCount = 1
+properties = ["knockdown"]
+
+startup = 12
+active = [12, 16]
+recovery = 27
+cancel = "C"
+damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 403
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Viscera Piercer
 [[moves]]
@@ -314,6 +654,25 @@ blockType = "high"
 input = "5mp>5mp"
 hitCount = 2
 
+startup = 7
+active = [7, 9]
+recovery = 21
+cancel = "C"
+damage = 700
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 500
+capcomID = 404
+
+[moves.frameAdvantage]
+hit = -1
+block = -6
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2000
+onPunishCounter = -4000
+
 # Bone Crusher Axe Kick
 [[moves]]
 name = "Bone Crusher Axe Kick"
@@ -321,9 +680,27 @@ name_ja = "骸新り"
 slug = "bone-crusher-axe-kick"
 characterId = 21
 type = "targetCombo"
-blockType = "high"
+blockType = "mid"
 input = "5mk>5hk"
 hitCount = 2
+
+startup = 20
+active = [20, 22]
+recovery = 20
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcomID = 405
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Kikoku Combination (1)
 [[moves]]
@@ -336,6 +713,22 @@ blockType = "high"
 input = "6hp"
 hitCount = 1
 
+startup = 13
+active = [13, 16]
+recovery = 20
+damage = 800
+superArt = 1000
+capcomID = 406
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Kikoku Combination (2)
 [[moves]]
 name = "Kikoku Combination (2)"
@@ -347,6 +740,23 @@ blockType = "high"
 input = "6hp>6hp"
 hitCount = 2
 
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 12]
+recovery = 21
+damage = 600
+superArt = 1000
+capcomID = 406
+
+[moves.frameAdvantage]
+block = -10
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Kikoku Combination (3)
 [[moves]]
 name = "Kikoku Combination (3)"
@@ -357,6 +767,21 @@ type = "targetCombo"
 blockType = "high"
 input = "6hp>6hp>5hk"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 9
+active = [9, 11]
+recovery = 24
+damage = 875
+superArt = 1000
+capcomID = 406
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -2000
 
 # Tenmaku Blade Kick
 [[moves]]
@@ -369,6 +794,20 @@ blockType = "high"
 input = "9>2mk"
 hitCount = 1
 
+startup = 16
+active = [16]
+postLandingRecovery = 13
+damage = 800
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1000
+capcomID = 407
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Gou Hadoken (Light)
 [[moves]]
 name = "Gou Hadoken (Light)"
@@ -379,6 +818,28 @@ type = "special"
 blockType = "high"
 input = "236lp"
 hitCount = 1
+
+notes = [
+  "Hold and release the button for 25 frames or more to activate Level 2",
+  "Hold and release the button for 49 frames or more to activate Level 3",
+]
+notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
+
+startup = 16
+totalFrames = 46
+cancel = "SA3"
+damage = 700
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+hit = 0
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Gou Hadoken (Light) (Charge Level 2)
 [[moves]]
@@ -391,6 +852,23 @@ blockType = "high"
 input = "236[lp]"
 hitCount = 2
 
+properties = ["knockdown"]
+
+startup = 31
+totalFrames = 60
+cancel = "SA3"
+damage = 1000
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -5000
+
 # Gou Hadoken (Light) (Charge Level 3)
 [[moves]]
 name = "Gou Hadoken (Light) (Charge Level 3)"
@@ -401,6 +879,22 @@ type = "special"
 blockType = "high"
 input = "236[lp]"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 56
+totalFrames = 84
+cancel = "SA3"
+damage = 1200
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -7000
 
 # Gou Hadoken (Medium)
 [[moves]]
@@ -413,6 +907,28 @@ blockType = "high"
 input = "236[mp]"
 hitCount = 2
 
+notes = [
+  "Hold and release the button for 25 frames or more to activate Level 2",
+  "Hold and release the button for 49 frames or more to activate Level 3",
+]
+notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
+
+startup = 14
+totalFrames = 46
+cancel = "SA3"
+damage = 700
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
 # Gou Hadoken (Medium) (Charge Level 2)
 [[moves]]
 name = "Gou Hadoken (Medium) (Charge Level 2)"
@@ -423,6 +939,22 @@ type = "special"
 blockType = "high"
 input = "236[mp]"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 31
+totalFrames = 60
+cancel = "SA3"
+damage = 1000
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Gou Hadoken (Medium) (Charge Level 3)
 [[moves]]
@@ -434,6 +966,22 @@ type = "special"
 blockType = "high"
 input = "236[mp]"
 hitCount = 4
+properties = ["knockdown"]
+
+startup = 56
+totalFrames = 84
+cancel = "SA3"
+damage = 1200
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -7000
 
 # Gou Hadoken (Heavy)
 [[moves]]
@@ -446,6 +994,28 @@ blockType = "high"
 input = "236[hp]"
 hitCount = 2
 
+notes = [
+  "Hold and release the button for 25 frames or more to activate Level 2",
+  "Hold and release the button for 49 frames or more to activate Level 3",
+]
+notes_ja = ["25F以上ボタンを押して離すとLv2が発動", "49F以上ボタンを押して離すとLv3が発動"]
+
+startup = 12
+totalFrames = 46
+cancel = "SA3"
+damage = 700
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+hit = -4
+block = -8
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -3000
+
 # Gou Hadoken (Heavy) (Charge Level 2)
 [[moves]]
 name = "Gou Hadoken (Heavy) (Charge Level 2)"
@@ -456,6 +1026,22 @@ type = "special"
 blockType = "high"
 input = "236[hp]"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 31
+totalFrames = 60
+cancel = "SA3"
+damage = 1000
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -5000
 
 # Gou Hadoken (Heavy) (Charge Level 3)
 [[moves]]
@@ -467,6 +1053,22 @@ type = "special"
 blockType = "high"
 input = "236[hp]"
 hitCount = 4
+properties = ["knockdown"]
+
+startup = 56
+totalFrames = 84
+cancel = "SA3"
+damage = 1200
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -7000
 
 # Gou Hadoken (OD)
 [[moves]]
@@ -478,28 +1080,47 @@ type = "special"
 blockType = "high"
 input = "236pp"
 hitCount = 2
+properties = ["knockdown"]
 
-# Gou Hadoken (Charge Level 2) (OD)
+startup = 12
+totalFrames = 41
+cancel = "SA2"
+damage = 1000
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Gou Hadoken (Charged) (OD)
 [[moves]]
-name = "Gou Hadoken (Charge Level 2) (OD)"
-name_ja = "豪波動拳（溜め Lv2）（OD）"
-slug = "gou-hadoken-charge-level-2-od"
+name = "Gou Hadoken (Charged) (OD)"
+name_ja = "豪波動拳（ホールド）（OD）"
+slug = "gou-hadoken-charged"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "236[pp]"
 hitCount = 2
+properties = ["knockdown"]
+notes = ["Hold down the button for over 25 frames to change its properties"]
+notes_ja = ["25F以上ホールドすると性能変化"]
 
-# Gou Hadoken (Charge Level 3) (OD)
-[[moves]]
-name = "Gou Hadoken (Charge Level 3) (OD)"
-name_ja = "豪波動拳（溜め Lv3）（OD）"
-slug = "gou-hadoken-charge-level-3-od"
-characterId = 21
-type = "special"
-blockType = "high"
-input = "236[pp]"
-hitCount = 3
+cancel = "SA2"
+damage = 1200
+superArt = 600
+capcomID = 501
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -7000
 
 # Zanku Hadoken
 [[moves]]
@@ -511,6 +1132,19 @@ type = "special"
 blockType = "high"
 input = "9>236*p"
 hitCount = 1
+notes = ["Angle of the projectile changes depending on the button pressed"]
+notes_ja = ["ボタンによって弾の角度が変化"]
+
+startup = 13
+postLandingRecovery = 9
+damage = 600
+superArt = 1000
+capcomID = 502
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -3000
 
 # Zanku Hadoken (OD)
 [[moves]]
@@ -522,6 +1156,17 @@ type = "special"
 blockType = "high"
 input = "{8|9}>236pp"
 hitCount = 2
+properties = ["knockdown"]
+
+startup = 6
+postLandingRecovery = 9
+damage = 900
+superArt = 1000
+capcomID = 502
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -1000
 
 # Gou Shoryuken (Light)
 [[moves]]
@@ -533,6 +1178,26 @@ type = "special"
 blockType = "high"
 input = "623lp"
 hitCount = 1
+properties = ["knockdown"]
+
+startup = 5
+active = [5, 14]
+recovery = 21
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 1100
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 503
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Gou Shoryuken (Medium)
 [[moves]]
@@ -544,6 +1209,26 @@ type = "special"
 blockType = "high"
 input = "623mp"
 hitCount = 2
+properties = ["knockdown"]
+
+startup = 6
+active = [6, 15]
+recovery = 30
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+capcomID = 503
+
+[moves.frameAdvantage]
+block = -30
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Gou Shoryuken (Heavy)
 [[moves]]
@@ -555,6 +1240,26 @@ type = "special"
 blockType = "high"
 input = "623hp"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 7
+active = [7, 17]
+recovery = 35
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1200
+capcomID = 503
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onHit = 2100
+onBlock = -6000
+onPunishCounter = -5000
 
 # Gou Shoryuken (OD)
 [[moves]]
@@ -566,6 +1271,21 @@ type = "special"
 blockType = "high"
 input = "623pp"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 6
+active = [6, 16]
+recovery = 37
+postLandingRecovery = 15
+damage = 1900
+superArt = 1000
+capcomID = 503
+
+[moves.frameAdvantage]
+block = -39
+
+[moves.driveGauge]
+onBlock = -5000
 
 # Tatsumaki Zankukyaku (Light)
 [[moves]]
@@ -577,6 +1297,26 @@ type = "special"
 blockType = "high"
 input = "214lk"
 hitCount = 1
+properties = ["knockdown"]
+notes = ["6 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直6F増加"]
+
+startup = 12
+active = [12, 13]
+recovery = 21
+damage = 600
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcomID = 504
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Tatsumaki Zankukyaku (Medium)
 [[moves]]
@@ -588,6 +1328,24 @@ type = "special"
 blockType = "high"
 input = "214mk"
 hitCount = 2
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 12, 26, 27]
+recovery = 31
+damage = 1000
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcomID = 504
+
+[moves.frameAdvantage]
+block = -13
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Tatsumaki Zankukyaku (Heavy)
 [[moves]]
@@ -599,6 +1357,23 @@ type = "special"
 blockType = "high"
 input = "214hk"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 7
+active = [7, 9, 16, 18, 28, 30, 49, 51]
+recovery = 23
+postLandingRecovery = 12
+damage = 1600
+superArt = 1000
+capcomID = 504
+
+[moves.frameAdvantage]
+block = -59
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
 
 # Tatsumaki Zankukyaku (OD)
 [[moves]]
@@ -610,6 +1385,21 @@ type = "special"
 blockType = "high"
 input = "214kk"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 14, 19, 20, 25, 26, 30, 31, 36, 37]
+recovery = 26
+damage = 1000
+superArt = 1000
+capcomID = 504
+
+[moves.frameAdvantage]
+block = -17
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -10000
 
 # Aerial Tatsumaki Zankukyaku
 [[moves]]
@@ -621,6 +1411,21 @@ type = "special"
 blockType = "high"
 input = "9>214k"
 hitCount = 2
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 12, 18, 19, 25, 26]
+postLandingRecovery = 16
+damage = 900
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 600
+capcomID = 505
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Aerail Tatsumaki Zankukyaku (OD)
 [[moves]]
@@ -631,94 +1436,258 @@ characterId = 21
 type = "special"
 blockType = "high"
 input = "{8|9}>214kk"
+properties = ["knockdown"]
 
-# Adamant Fire (Light 1)
+startup = 11
+active = [11, 12, 14, 16, 18, 20, 22, 24, 27, 28]
+postLandingRecovery = 16
+damage = 1300
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcomID = 505
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -10000
+
+# Adamant Flame (Light 1)
 [[moves]]
-name = "Adamant Fire (Light 1)"
+name = "Adamant Flame (Light 1)"
 name_ja = "金剛灼火（弱 1段目）"
-slug = "adamant-fire-light-1"
+slug = "adamant-flame-light-1"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214lp"
 hitCount = 1
+notes = ["Can transition to branching attacks from frames 19 - 22"]
+notes_ja = ["19-22F ヒット時専用技に派生可"]
 
-# Adamant Fire (Light 2)
+startup = 15
+active = [15, 17]
+recovery = 23
+cancel = "SA3"
+damage = 700
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 1
+block = -8
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -6000
+onPunishCounter = -6000
+
+# Adamant Flame (Light 2)
 [[moves]]
-name = "Adamant Fire (Light 2)"
+name = "Adamant Flame (Light 2)"
 name_ja = "金剛灼火（弱 2段目）"
-slug = "adamant-fire-light-2"
+slug = "adamant-flame-light-2"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214lp>6*p"
 hitCount = 2
 
-# Adamant Fire (Medium 1)
+startup = 7
+active = [7, 10]
+recovery = 18
+cancel = "SA3"
+damage = 500
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -4000
+onPunishCounter = -7000
+
+# Adamant Flame (Medium 1)
 [[moves]]
-name = "Adamant Fire (Medium 1)"
+name = "Adamant Flame (Medium 1)"
 name_ja = "金剛灼火（中 1段目）"
-slug = "adamant-fire-medium-1"
+slug = "adamant-flame-medium-1"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214mp"
 hitCount = 1
+notes = [
+  "Can transition to branching attacks from frames 23 - 26",
+  "3 frames of recovery added when the attack misses",
+]
+notes_ja = ["23-26F ヒット時専用技に派生可", "空振り時硬直3F増加"]
 
-# Adamant Fire (Medium 2)
+startup = 19
+active = [19, 21]
+recovery = 20
+cancel = "SA3"
+damage = 800
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -6000
+onPunishCounter = -10000
+
+# Adamant Flame (Medium 2)
 [[moves]]
-name = "Adamant Fire (Medium 2)"
+name = "Adamant Flame (Medium 2)"
 name_ja = "金剛灼火（中 2段目）"
-slug = "adamant-fire-medium-2"
+slug = "adamant-flame-medium-2"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214mp>6*p"
 hitCount = 2
+properties = ["knockdown"]
 
-# Adamant Fire (Heavy 1)
+startup = 7
+active = [7, 10]
+recovery = 32
+cancel = "SA3"
+damage = 600
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+block = -18
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -4000
+onPunishCounter = -7000
+
+# Adamant Flame (Heavy 1)
 [[moves]]
-name = "Adamant Fire (Heavy 1)"
+name = "Adamant Flame (Heavy 1)"
 name_ja = "金剛灼火（強 1段目）"
-slug = "adamant-fire-heavy-1"
+slug = "adamant-flame-heavy-1"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214hp"
 hitCount = 1
+notes = [
+  "Can transition to branching attacks from frames 27 - 30",
+  "2 frames of recovery added when the attack misses",
+]
+notes_ja = ["27-30F ヒット時専用技に派生可", "空振り時硬直2F増加"]
 
-# Adamant Fire (Heavy 2)
+startup = 23
+active = [23, 25]
+recovery = 19
+cancel = "SA3"
+damage = 900
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -6000
+onPunishCounter = -10000
+
+# Adamant Flame (Heavy 2)
 [[moves]]
-name = "Adamant Fire (Heavy 2)"
+name = "Adamant Flame (Heavy 2)"
 name_ja = "金剛灼火（強 2段目）"
-slug = "adamant-fire-heavy-2"
+slug = "adamant-flame-heavy-2"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214hp>6*p"
 hitCount = 2
+properties = ["knockdown"]
 
-# Adamant Fire (OD 1)
+startup = 11
+active = [11, 14]
+recovery = 28
+cancel = "SA3"
+damage = 600
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -4000
+onPunishCounter = -7000
+
+# Adamant Flame (OD 1)
 [[moves]]
-name = "Adamant Fire (OD 1)"
+name = "Adamant Flame (OD 1)"
 name_ja = "金剛灼火（OD 1段目）"
-slug = "adamant-fire-od-1"
+slug = "adamant-flame-od-1"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214pp"
 hitCount = 2
+notes = ["Can transition to branching attacks from frames 22 - 25"]
+notes_ja = ["22-25F ヒット時専用技に派生可"]
 
-# Adamant Fire (OD 2)
+startup = 18
+active = [18, 20]
+recovery = 23
+cancel = "SA2"
+damage = 700
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+capcomID = 506
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -10000
+
+# Adamant Flame (OD 2)
 [[moves]]
-name = "Adamant Fire (OD 2)"
+name = "Adamant Flame (OD 2)"
 name_ja = "金剛灼火（OD 2段目）"
-slug = "adamant-fire-od-2"
+slug = "adamant-flame-od-2"
 characterId = 21
 type = "special"
 blockType = "high"
 input = "214pp>6*p"
 hitCount = 3
+properties = ["knockdown"]
+
+startup = 7
+active = [7, 10, 15, 17]
+recovery = 25
+cancel = "SA2"
+damage = 700
+superArt = 750
+capcomID = 506
+
+[moves.frameAdvantage]
+block = -18
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -7000
 
 # Demon Raid
 [[moves]]
@@ -727,8 +1696,14 @@ name_ja = "百鬼襲"
 slug = "demon-raid"
 characterId = 21
 type = "action"
-blockType = "high"
 input = "236*k"
+notes = [
+  "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 18 - 40",
+  "Considered airborne after frame 7",
+  "Distance traveled is determined by the button pressed",
+]
+notes_ja = ["18-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能", "7F以降、空中判定", "ボタンで移動距離が変化"]
+capcomID = 507
 
 # Demon Raid (OD)
 [[moves]]
@@ -737,8 +1712,14 @@ name_ja = "百鬼襲（OD）"
 slug = "demon-raid-od"
 characterId = 21
 type = "action"
-blockType = "high"
 input = "236kk"
+
+notes = [
+  "Can go into any transition attack except for Demon Low Slash and Demon Swoop between frames 16 - 40",
+  "Considered airborne after frame 7",
+]
+notes_ja = ["16-40Fまで、百鬼豪斬、百鬼潜影を除いた各種派生技でキャンセル可能", "7F以降、空中判定"]
+capcomID = 507
 
 # Demon Low Slash
 [[moves]]
@@ -751,6 +1732,22 @@ blockType = "low"
 input = "5"
 hitCount = 1
 parents = ["demon-raid"]
+properties = ["knockdown"]
+
+startup = 8
+active = [8, 11]
+recovery = 19
+damage = 1000
+superArt = 1000
+capcomID = 508
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Demon Guillotine
 [[moves]]
@@ -762,6 +1759,25 @@ type = "followUp"
 blockType = "mid"
 input = "*p"
 parents = ["demon-raid"]
+properties = ["knockdown"]
+notes = ["Recovery changes depending strength of the attack blocked"]
+notes_ja = ["ガードさせた高度によって硬直差が変化"]
+
+startup = 16
+active = [16]
+postLandingRecovery = 9
+damage = 1300
+superArt = 1000
+capcomID = 509
+
+[moves.frameAdvantage]
+minBlock = 1
+maxBlock = 10
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -6000
+onPunishCounter = -5000
 
 # Demon Blade Kick
 [[moves]]
@@ -773,6 +1789,31 @@ type = "followUp"
 blockType = "high"
 input = "*k"
 parents = ["demon-raid"]
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+  "5 frames of recovery added when the attack misses",
+]
+notes_ja = ["ヒット・ガードさせた高度によって硬直差が変化", "空振り時硬直5F増加"]
+
+startup = 13
+active = [13]
+postLandingRecovery = 9
+damage = 700
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1000
+capcomID = 510
+
+[moves.frameAdvantage]
+minHit = 1
+maxHit = 10
+minBlock = -4
+maxBlock = 5
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Demon Swoop
 [[moves]]
@@ -783,6 +1824,8 @@ characterId = 21
 type = "followUp"
 input = "2"
 parents = ["demon-raid"]
+totalFrames = 6
+capcomID = 511
 
 # Demon Gou Zanku
 [[moves]]
@@ -795,6 +1838,17 @@ blockType = "high"
 input = "236*p"
 hitCount = 2
 parents = ["demon-raid-od"]
+properties = ["knockdown"]
+
+startup = 6
+postLandingRecovery = 9
+damage = 900
+superArt = 1000
+capcomID = 512
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -1000
 
 # Demon Gou Rasen
 [[moves]]
@@ -807,6 +1861,20 @@ blockType = "high"
 input = "214*k"
 hitCount = 3
 parents = ["demon-raid-od"]
+properties = ["knockdown"]
+
+startup = 5
+active = [5, 6, 9, 11, 14, 16, 18, 20, 22, 23]
+postLandingRecovery = 10
+damage = 1300
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+capcomID = 513
+
+[moves.driveGauge]
+onBlock = -4000
+onPunishCounter = -1000
 
 # Ashura Senku
 [[moves]]
@@ -816,6 +1884,8 @@ slug = "ashura-senku-forward"
 characterId = 21
 type = "action"
 input = "6kkk"
+totalFrames = 51
+capcomID = 514
 
 # Ashura Senku (Backward)
 [[moves]]
@@ -823,8 +1893,9 @@ name = "Ashura Senku (Backward)"
 name_ja = "阿修羅閃空（後方）"
 slug = "ashura-senku-backward"
 characterId = 21
-type = "action"
 input = "4kkk"
+totalFrames = 49
+capcomID = 514
 
 # Oboro Throw
 [[moves]]
@@ -835,6 +1906,13 @@ characterId = 21
 type = "followUp"
 input = "lp+lk"
 parents = ["ashura-senku-forward"]
+properties = ["knockdown"]
+
+startup = 8
+active = [8, 10]
+recovery = 50
+damage = 2200
+capcomID = 515
 
 # Messatsu Gohado
 [[moves]]
@@ -845,7 +1923,25 @@ characterId = 21
 type = "super1"
 blockType = "high"
 input = "236236*p"
-hitCount = 4
+hitCount = 5
+properties = ["knockdown"]
+notes = [
+  "Invincible to strikes and projectiles from frames 1 - 14",
+  "Minimum guaranteed damage is set to 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = ["1-14F 打撃・投げに対して無敵", "最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 10
+totalFrames = 106
+damage = 2200
+capcomID = 601
+
+[moves.frameAdvantage]
+block = -41
+
+[moves.driveGauge]
+onBlock = -2500
 
 # Tenma Gozanku
 [[moves]]
@@ -856,7 +1952,22 @@ characterId = 21
 type = "super1"
 blockType = "high"
 input = "{8|9}>236236*k"
-hitCount = 4
+hitCount = 5
+properties = ["knockdown"]
+notes = [
+  "Minimum guaranteed damage is 30%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = ["最低保障ダメージ30％", "カウンター/パニッシュカウンターで数値が変動しない"]
+
+startup = 14
+postLandingRecovery = 33
+damage = 2000
+capcomID = 602
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -1000
 
 # Empyrean’s End
 [[moves]]
@@ -867,6 +1978,33 @@ characterId = 21
 type = "super2"
 blockType = "high"
 input = "214214*p"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 11.",
+  "Produces a wall splat if the opponent reaches the wall",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "1-11F 完全無敵",
+  "壁到達時に壁やられ",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
+
+startup = 9
+active = [9, 11]
+recovery = 52
+damage = 2800
+scaling = ["Starter scaling 40%", "Combo scaling 40%"]
+scaling_ja = ["始動補正40%", "コンボ補正40%"]
+capcomID = 603
+
+[moves.frameAdvantage]
+block = -35
+
+[moves.driveGauge]
+onBlock = -5000
 
 # Sip of Calamity
 [[moves]]
@@ -877,6 +2015,31 @@ characterId = 21
 type = "super3"
 blockType = "high"
 input = "236236*k"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 11.",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 11]
+recovery = 58
+damage = 4000
+capcomID = 604
+
+[moves.frameAdvantage]
+block = -41
+
+[moves.driveGauge]
+onBlock = -7500
 
 # Sip of Calamity (Critical Art)
 [[moves]]
@@ -888,6 +2051,33 @@ type = "super3"
 blockType = "high"
 input = "236236*k"
 
+properties = ["knockdown"]
+notes = [
+  "Completely invincible from frame 1 to frame 11.",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 11]
+recovery = 58
+damage = 4500
+capcomID = 604
+
+[moves.frameAdvantage]
+block = -41
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -3500
+
 # Shun Goku Satsu
 [[moves]]
 name = "Shun Goku Satsu"
@@ -896,6 +2086,27 @@ slug = "shun-goku-satsu"
 characterId = 21
 type = "super3"
 input = "lp>lp>6>lk>hp"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible on frame 1",
+  "Invincible to projectiles from frames 6 - 27",
+  "Minimum guaranteed damage is set to 50%",
+  "Values do not change on counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1F 完全無敵",
+  "6-27F 飛び道具無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 7
+active = [7, 27]
+recovery = 57
+damage = 4700
+capcomID = 605
 
 # Goshoha
 [[moves]]
@@ -908,6 +2119,26 @@ characterId = 21
 type = "throw"
 input = "lp+lk"
 
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcomID = 101
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
 # Shurettou
 [[moves]]
 name = "Shurettou"
@@ -918,3 +2149,22 @@ slug = "shurettou"
 characterId = 21
 type = "throw"
 input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+capcomID = 102
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
