@@ -91,7 +91,7 @@ superArt = 800
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 3000
@@ -189,6 +189,8 @@ recovery = 18
 cancel = "*"
 cancelsInto = ["serenity-stream"]
 damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -280,6 +282,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 notes = ["Forces a juggle state when the first attack hits a mid-air opponent"]
 notes_ja = ["初段のみ空中ヒット時吹き飛びダウン"]
 
@@ -1037,6 +1040,8 @@ startup = 11
 totalFrames = 39
 cancel = "SA2"
 damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 400
 capcomID = 501
 notes = [
@@ -1169,8 +1174,9 @@ capcomID = 412
 notes = [
   "During serenity stream",
   "An overhead attack that cannot be blocked while crouching, performed during Serenity Stream",
+  "Second attack becomes an overhead only if the first attack whiffs",
 ]
-notes_ja = ["行雲流水中に", "行雲流水から派生する、しゃがみでガードできない中段攻撃"]
+notes_ja = ["行雲流水中に", "行雲流水から派生する、しゃがみでガードできない中段攻撃", "初段が空振り時のみ2段目が中段判定"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1484,8 +1490,9 @@ input = "{8|9}>236lk"
 notes = [
   "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
+  "3 frames of recovery added when the attack misses",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない", "空振り時硬直3F増加"]
 
 startup = 8
 active = [8, 9, 14, 15, 20, 21]
@@ -1513,8 +1520,9 @@ input = "{8|9}>236mk"
 notes = [
   "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
+  "3 frames of recovery added when the attack misses",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない", "空振り時硬直3F増加"]
 
 startup = 10
 active = [10, 11, 16, 17, 22, 23, 29, 30]
@@ -1542,8 +1550,9 @@ input = "{8|9}>236hk"
 notes = [
   "A Hundred Lightning Kicks performed while jumping. Effective when used to convert a jumping attack into a combo",
   "Does not hit crouching opponents",
+  "3 frames of recovery added when the attack misses",
 ]
-notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない"]
+notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃からコンボとして繋ぐと効果的", "しゃがみには当たらない", "空振り時硬直3F増加"]
 
 startup = 12
 active = [12, 13, 18, 19, 23, 24, 29, 30, 34, 35]
@@ -1580,8 +1589,8 @@ notes_ja = ["ジャンプ中に繰り出す百裂脚。ジャンプ中の攻撃�
 
 startup = 6
 active = [6, 7, 12, 13, 16, 17, 21, 22, 25, 26, 30, 31]
-postLandingRecovery = 15
-damage = 1300
+postLandingRecovery = 5
+damage = 1600
 superArt = 800
 capcomID = 504
 
@@ -1749,12 +1758,12 @@ hitCount = 1
 input = "214lk"
 notes = [
   "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
-  "Bottom half of the body is projectile invincible from frames 6 - 18",
+  "Bottom half of the body is projectile invincible from frames 7 - 18",
   "Considered airborne from frames 5 - 20",
 ]
 notes_ja = [
   "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
-  "6～18F 下半分飛び道具無敵",
+  "7～18F 下半分飛び道具無敵",
   "5～20F 空中判定",
 ]
 
@@ -1790,12 +1799,12 @@ hitCount = 1
 input = "214mk"
 notes = [
   "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
-  "Bottom half of the body is projectile invincible from frames 6 - 21",
+  "Bottom half of the body is projectile invincible from frames 7 - 21",
   "Considered airborne from frames 6 - 24",
 ]
 notes_ja = [
   "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
-  "6～21F 下半分飛び道具無敵",
+  "7～21F 下半分飛び道具無敵",
   "6～24F 空中判定",
 ]
 
@@ -1831,12 +1840,12 @@ hitCount = 1
 input = "214hk"
 notes = [
   "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
-  "Bottom half of the body is projectile invincible from frames 6 - 26",
+  "Bottom half of the body is projectile invincible from frames 7 - 26",
   "Considered airborne from frames 6 - 29",
 ]
 notes_ja = [
   "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
-  "6～26F 下半分飛び道具無敵",
+  "7～26F 下半分飛び道具無敵",
   "6～29F 空中判定",
 ]
 
@@ -1871,13 +1880,13 @@ input = "214(kk)"
 properties = ["knockdown"]
 notes = [
   "Leap forward, rotate in the air, and slam your leg downward with a powerful kick. Useful for checking an opponent's sweeps, or as a way to close distance",
-  "Bottom half of the body is projectile invincible from frames 6 - 21",
+  "Bottom half of the body is projectile invincible from frames 7 - 21",
   "Projectile invincible from frames 22 - 28",
   "Considered airborne from frames 6 - 23",
 ]
 notes_ja = [
   "前方に跳び上がり、回転してからの蹴りを叩き付ける技。相手の足払いに対するけん制や接近手段として有効",
-  "6～21F 下半分飛び道具無敵",
+  "7～21F 下半分飛び道具無敵",
   "22～28F 飛び道具無敵",
   "6～23F 空中判定",
 ]
@@ -2067,15 +2076,13 @@ input = "236236*p"
 properties = ["knockdown"]
 notes = [
   "Create a mass of energy directly in front of you. Its swift speed and invulnerability can quickly turn the tables on an opponent",
-  "Completely invincible on frame 1",
-  "Invincible to strikes and throws from frames 2 - 7",
+  "Invincible to strikes and throws from frames 1 - 7",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "自身の目の前に気功の塊を発生させて攻撃する技。攻撃の出が早く、無敵もあるので切り返しとしても使える",
-  "1F 完全無敵",
-  "2-7 打撃・投げに対して無敵",
+  "1-7 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
