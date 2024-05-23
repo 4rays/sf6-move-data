@@ -278,6 +278,7 @@ type = "normal"
 blockType = "high"
 input = "2hp"
 hitCount = 1
+properties = ["forcesStanding"]
 notes = ["Can be canceled until the 2nd active frame"]
 notes_ja = ["キャンセルは持続の2F目まで"]
 
@@ -555,7 +556,7 @@ input = "8hk"
 hitCount = 1
 
 startup = 6
-active = [6, 9]
+active = [6, 11]
 postLandingRecovery = 3
 damage = 900
 superArt = 1000
@@ -898,6 +899,8 @@ type = "special"
 hitCount = 2
 blockType = "high"
 input = "236(pp)"
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 
 startup = 12
 totalFrames = 40
@@ -978,12 +981,12 @@ properties = ["knockdown"]
 notes = [
   "Leap into the sky with a devastating uppercut. Useful as an anti-air attack or as a way to end combos",
   "Invincible to mid-air attacks from frames 1 - 8",
-  "Considered airborne from frames 9 - 43",
+  "Considered airborne from frames 8 - 43",
 ]
 notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-8F 空中判定の攻撃に対して無敵",
-  "9-43F 空中判定",
+  "8-43F 空中判定",
 ]
 startup = 6
 active = [6, 8, 9, 15]
@@ -1021,13 +1024,13 @@ notes = [
   "Leap into the sky with a devastating uppercut. Useful as an anti-air attack or as a way to end combos",
   "Invincible to mid-air attacks from frames 1 - 9",
   "Invincible to projectiles from frames 5 - 11",
-  "Considered airborne from frames 11 - 51",
+  "Considered airborne from frames 9 - 51",
 ]
 notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-9F 空中判定の攻撃に対して無敵",
   "5-11F 飛び道具無敵",
-  "11-51F 空中判定",
+  "9-51F 空中判定",
 ]
 startup = 7
 active = [7, 8, 9, 10, 11, 16]
@@ -1099,13 +1102,13 @@ hitCount = 5
 properties = ["knockdown"]
 notes = [
   "During Quick Dash",
-  "Invincible to mid-air attacks from frames 1 - 12",
-  "Invincible to projectiles from frames 3 - 12",
-  "Considered airborne from frames 9 - 52",
+  "Invincible to mid-air attacks from frames 1 - 18",
+  "Invincible to projectiles from frames 3 - 11",
+  "Considered airborne from frames 11 - 51",
 ]
-notes_ja = ["奮迅脚中に", "1-12F 空中判定の攻撃に対して無敵", "3-12F 飛び道具無敵", "9-52F 空中判定"]
-startup = 9
-active = [9, 10, 11, 12, 13, 18]
+notes_ja = ["奮迅脚中に", "1-18F 空中判定の攻撃に対して無敵", "3-11F 飛び道具無敵", "11-51F 空中判定"]
+startup = 8
+active = [8, 8, 9, 9, 10, 10, 11, 11, 12, 17]
 recovery = 33
 postLandingRecovery = 15
 cancel = "SA3"
@@ -1701,7 +1704,7 @@ block = -2
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -3000
+onBlock = -4000
 onPunishCounter = -5000
 
 # Kazekama Shin Kick
@@ -1759,11 +1762,13 @@ notes = [
   "During Jinrai Kick",
   "An axe kick performed from Jinrai Kick that cannot be blocked crouching. Useful against opponents who try to stiffen their guard against your Jinrai Kick",
   "Always in Punish Counter state during execution",
+  "Adds a floor bounding effect during a mid-air hit",
 ]
 notes_ja = [
   "迅雷脚中に",
   "迅雷脚から派生する、しゃがみでガードできないカカト落とし。迅雷脚後にガードを固める相手に出すと効果的",
   "動作中常に被パニッシュカウンター判定",
+  "空中ヒット時床バウンド",
 ]
 parents = ["jinrai-kick-light", "jinrai-kick-medium", "jinrai-kick-heavy"]
 
@@ -2117,15 +2122,13 @@ blockType = "high"
 properties = ["knockdown", "armorBreak"]
 notes = [
   "Launch your opponent into the sky and then perform a series of kicks on them while airborne. It is invincible at the beginning, and you switch positions with your opponent upon completion",
-  "Completely invincible on the 1st frame",
-  "Invincible to strikes and throws on frames 2 - 9",
+  "Invincible to strikes and throws on frames 1 - 9",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 30%",
 ]
 notes_ja = [
   "蹴りで相手を打ち上げ、空中で連続蹴りを見舞う技。出始めに無敵時間があり、ヒット後は相手と位置を入れ替える",
-  "1F 完全無敵",
-  "2-9F 打撃・投げに対して無敵",
+  "1-9F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
@@ -2156,14 +2159,12 @@ blockType = "high"
 properties = ["knockdown"]
 notes = [
   "Unleash a flurry of kicks and then finish with a rising Tatsumaki Senpu-kyaku. This move is quick to execute, making it useful for counterattacks and in combos",
-  "Completely invincible on the 1st frame",
   "Transitions to the full attack after the 6th attack",
   "Values do not change on counter or Punish Counter",
   "Minimum guaranteed damage is set to 40%",
 ]
 notes_ja = [
   "蹴りの連撃から上昇しながらの竜巻旋風脚でフィニッシュする技。技の出が早く、反撃やコンボに使いやすい",
-  "1F 完全無敵",
   "ヒット時6段目以降に派生",
   "最低保障ダメージ40％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -2172,7 +2173,7 @@ notes_ja = [
 startup = 6
 active = [6, 7, 18, 20, 31, 33, 45, 47, 59, 60]
 recovery = 32
-damage = 2700
+damage = 2800
 capcomID = 602
 
 [moves.frameAdvantage]
