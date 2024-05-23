@@ -87,7 +87,7 @@ superArt = 1000
 
 [moves.frameAdvantage]
 hit = 1
-block = -5
+block = -4
 
 [moves.driveGauge]
 onHit = 2000
@@ -109,9 +109,9 @@ hitCount = 1
 blockType = "high"
 input = "5lk"
 
-startup = 5
-active = [5, 7]
-recovery = 11
+startup = 4
+active = [4, 6]
+recovery = 12
 cancel = "C"
 damage = 300
 scaling = ["Starter scaling 20%"]
@@ -119,8 +119,8 @@ scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
-hit = 4
-block = -2
+hit = 3
+block = -3
 
 [moves.driveGauge]
 onHit = 250
@@ -144,8 +144,8 @@ hitCount = 1
 notes = ["2 frames of recovery added when the attack misses"]
 notes_ja = ["空振り時硬直2F増加"]
 
-startup = 9
-active = [9, 11]
+startup = 8
+active = [8, 10]
 recovery = 15
 damage = 700
 superArt = 700
@@ -173,6 +173,7 @@ type = "normal"
 blockType = "high"
 input = "5hk"
 hitCount = 1
+properties = ["forcesStanding"]
 
 notes = [
   "12 frames of advantage added when the attack lands as a Punish Counter",
@@ -249,7 +250,7 @@ notes_ja = ["ヒット、ガード時硬直3F減少"]
 
 startup = 8
 active = [8, 10]
-recovery = 21
+recovery = 18
 cancel = "C"
 damage = 600
 superArt = 500
@@ -356,8 +357,8 @@ scaling_ja = ["始動補正10%"]
 superArt = 600
 
 [moves.frameAdvantage]
-hit = 4
-block = -3
+hit = 5
+block = 1
 
 [moves.driveGauge]
 onHit = 1000
@@ -383,8 +384,8 @@ notes = ["Forces a juggle state when the attack lands as a Punish Counter"]
 notes_ja = ["パニッシュカウンター時吹き飛びダウン"]
 
 startup = 10
-active = [10, 14]
-recovery = 21
+active = [10, 15]
+recovery = 20
 cancel = "SA"
 damage = 900
 superArt = 1000
@@ -553,7 +554,7 @@ input = "j>hk"
 hitCount = 1
 
 startup = 8
-active = [8, 12]
+active = [8, 15]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
@@ -712,7 +713,7 @@ superArt = 400
 capcomID = 405
 
 [moves.frameAdvantage]
-hit = 0
+hit = 1
 block = -3
 
 [moves.driveGauge]
@@ -920,7 +921,6 @@ superArt = 600
 capcomID = 502
 
 [moves.frameAdvantage]
-hit = -4
 block = -13
 
 [moves.driveGauge]
@@ -1026,8 +1026,8 @@ notes = [
 ]
 notes_ja = ["前方を爪で裂いて毒の泡を作り出し、割って攻撃する技。コンボや連係に使いやすく、ヒット時は毒状態となる。", "ヒット時毒状態"]
 startup = 13
-active = [13, 15, 30, 36]
-recovery = 15
+active = [13, 15, 30, 38]
+recovery = 13
 cancel = "SA3"
 damage = 800
 scaling = ["Immediate scaling 15%"]
@@ -1059,6 +1059,8 @@ notes = [
   "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
   "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
   "Clashes with projectiles",
+  "Produces a crumple stun on Punish Counter, and +16 frame advantage",
+  "+22 on Toxic Blossom",
 ]
 notes_ja = [
   "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
@@ -1066,6 +1068,8 @@ notes_ja = [
   "毒状態中にヒット時毒破裂",
   "毒破裂時ダメージ800/吹き飛びダウン",
   "飛び道具相殺判定あり",
+  "パニッシュカウンター時に膝崩れダウンに ＋16",
+  "毒破裂時＋22",
 ]
 startup = 14
 active = [14, 16]
@@ -1224,6 +1228,7 @@ hitCount = 3
 startup = 24
 active = [24, 25, 31, 32, 37, 38, 44, 45]
 postLandingRecovery = 18
+cancel = "SA3"
 damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
@@ -1256,6 +1261,7 @@ hitCount = 3
 
 startup = 28
 active = [28, 29, 35, 36, 41, 42, 48, 49]
+cancel = "SA3"
 postLandingRecovery = 18
 damage = 900
 scaling = ["Starter scaling 20%"]
@@ -1289,6 +1295,7 @@ hitCount = 3
 
 startup = 33
 active = [33, 34, 40, 41, 46, 47, 53, 54]
+cancel = "SA3"
 postLandingRecovery = 18
 damage = 1000
 scaling = ["Starter scaling 20%"]
@@ -1325,16 +1332,19 @@ notes = [
   "Puts the opponent in a poisoned state on hit",
   "Attack does not transition into the cinematic attack when hitting an airborne opponent",
   "Deals 1000 damage and has floor bounding effect",
+  "Only the non-cinematic version can be canceled",
 ]
 notes_ja = [
   "前方に跳び上がり、落下しながら連続して突きを繰り出す技。相手のけん制を避けながらの奇襲として使いやすい。",
   "ヒット時毒状態",
   "空中ヒット時は非ロック技に性能が変化する",
   "ダメージ1000/床バウンド",
+  "非ロック技時のみキャンセル可能",
 ]
 startup = 28
 active = [28, 30, 35, 36, 41, 42, 48, 49]
 postLandingRecovery = 18
+cancel = "SA2"
 damage = 1600
 superArt = 1200
 capcomID = 506
@@ -1610,7 +1620,7 @@ notes_ja = [
 ]
 startup = 7
 recovery = 65
-damage = 2300
+damage = 2500
 capcomID = 602
 
 [moves.frameAdvantage]
