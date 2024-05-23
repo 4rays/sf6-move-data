@@ -54,7 +54,7 @@ damage = 700
 superArt = 500
 
 [moves.frameAdvantage]
-hit = 4
+hit = 6
 block = 1
 
 [moves.driveGauge]
@@ -151,10 +151,13 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5mk"
+notes = ["Can be canceled into Hundred Hand Slap if Sumo Spirit is active"]
+notes_ja = ["肩屋入り中、百裂張り手でのみキャンセル可能"]
 
 startup = 10
 active = [10, 13]
 recovery = 16
+cancel = "*"
 damage = 700
 superArt = 700
 
@@ -181,6 +184,7 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+properties = ["forcesStanding"]
 notes = ["Forces a juggle state when hitting a mid-air opponent"]
 notes_ja = ["空中ヒット時吹き飛びダウン"]
 
@@ -316,12 +320,16 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
-notes = ["Can be rapid canceled"]
-notes_ja = ["連打キャンセル対応"]
+notes = [
+  "Can be rapid canceled",
+  "Can be canceled into Hundred Hand Slap if Sumo Spirit is active",
+]
+notes_ja = ["連打キャンセル対応", "肩屋入り中、百裂張り手でのみキャンセル可能"]
 
 startup = 5
 active = [5, 6]
 recovery = 9
+cancel = "*"
 damage = 200
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
@@ -350,15 +358,18 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2mk"
+notes = ["Can be canceled into Hundred Hand Slap if Sumo Spirit is active"]
+notes_ja = ["肩屋入り中、百裂張り手でのみキャンセル可能"]
 
 startup = 9
 active = [9, 11]
 recovery = 17
+cancel = "*"
 damage = 500
 superArt = 600
 
 [moves.frameAdvantage]
-hit = 5
+hit = 6
 block = -2
 
 [moves.driveGauge]
@@ -440,6 +451,8 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
 
 startup = 6
 active = [6, 13]
@@ -1088,14 +1101,14 @@ startup = 10
 active = [10, 31]
 recovery = 20
 cancel = "SA3"
-damage = 1300
+damage = 1400
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 502
 
 [moves.frameAdvantage]
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -1131,14 +1144,14 @@ startup = 10
 active = [10, 33]
 recovery = 20
 cancel = "SA3"
-damage = 1300
+damage = 1400
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 502
 
 [moves.frameAdvantage]
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -1176,14 +1189,14 @@ startup = 14
 active = [14, 36]
 recovery = 20
 cancel = "SA3"
-damage = 1400
+damage = 1500
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 502
 
 [moves.frameAdvantage]
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 2000
@@ -1245,12 +1258,14 @@ notes = [
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
+  "Produces a hard knockdown when the falling attack part hits",
 ]
 notes_ja = [
   "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
+  "下降部分ヒット時、ハードノックダウン",
 ]
 startup = 11
 active = [11, 14, 41, 48]
@@ -1266,7 +1281,7 @@ block = 1
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -12000
+onBlock = -14000
 onPunishCounter = -10000
 
 # Sumo Smash (Medium)
@@ -1285,12 +1300,14 @@ notes = [
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
+  "Produces a hard knockdown when the falling attack part hits",
 ]
 notes_ja = [
   "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
+  "下降部分ヒット時、ハードノックダウン",
 ]
 startup = 11
 active = [11, 14, 39, 45]
@@ -1306,7 +1323,7 @@ block = 1
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -12000
+onBlock = -14000
 onPunishCounter = -10000
 
 # Sumo Smash (Heavy)
@@ -1325,12 +1342,14 @@ notes = [
   "Has cross-up attack properties",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
+  "Produces a hard knockdown when the falling attack part hits",
 ]
 notes_ja = [
   "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
+  "下降部分ヒット時、ハードノックダウン",
 ]
 startup = 11
 active = [11, 14, 37, 42]
@@ -1346,7 +1365,7 @@ block = 1
 
 [moves.driveGauge]
 onHit = 2000
-onBlock = -12000
+onBlock = -14000
 onPunishCounter = -10000
 
 # Sumo Smash (OD)
@@ -1366,6 +1385,7 @@ notes = [
   "Invincible to mid-air attacks from frames 5 - 17",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
+  "Produces a hard knockdown when the falling attack part hits",
 ]
 notes_ja = [
   "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
@@ -1373,9 +1393,10 @@ notes_ja = [
   "5-17F 空中判定の攻撃に対して無敵",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",
+  "下降部分ヒット時、ハードノックダウン",
 ]
 startup = 6
-active = [6, 17, 31, 49]
+active = [6, 17, 31, 39]
 postLandingRecovery = 17
 damage = 1400
 scaling = ["Starter scaling 25%"]
@@ -1384,7 +1405,7 @@ superArt = 1200
 capcomID = 503
 
 [moves.frameAdvantage]
-block = 1
+block = 2
 
 [moves.driveGauge]
 onBlock = -12000
@@ -1668,12 +1689,12 @@ properties = ["knockdown"]
 notes = [
   "During Sumo Dash OD",
   "A sequence of slaps performed from Sumo Dash. Useful for checking your opponent up close or as a way to continue your offensive pressure",
-  "Can only transition to the last hit on frame 34 if the attack hits",
+  "Can transition to the final attack on the 33th frame on either hit or block.",
 ]
 notes_ja = [
   "OD相撲ステップ中に",
   "相撲ステップから派生する、連続で張り手を繰り出す技。接近しながらのけん制や攻めの継続手段として有効",
-  "ヒット時のみ34F目で最終段へ派生可能",
+  "ヒット/ガード時に33F目で最終段へ派生可能",
 ]
 startup = 9
 active = [9, 11, 25, 27]
@@ -1684,6 +1705,7 @@ superArt = 1000
 capcomID = 506
 
 [moves.frameAdvantage]
+hit = 3
 block = 2
 
 [moves.driveGauge]
@@ -2154,12 +2176,14 @@ input = "5mp>3hk"
 notes = [
   "A series of attacks, the second of which cannot be blocked crouching",
   "Produces a floor bound and hard knockdown when hitting a mid-air opponent",
-  "Can cancel into a special move or Super Art on frame 15 when the attack misses",
+  "Can cancel into a special move or Super Art on frame 14 when the attack misses",
+  "Can only be canceled into Sumo Spirit on hit",
 ]
 notes_ja = [
   "2段目がしゃがみでガードできない連続攻撃",
   "空中ヒット時床バウンド、ハードノックダウン",
-  "15F目で必殺技、SAで空振りキャンセル可能",
+  "14F目で必殺技、SAで空振りキャンセル可能",
+  "ヒット時、肩屋入りでのみキャンセル可能",
 ]
 startup = 22
 active = [22, 27]
