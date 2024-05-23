@@ -272,7 +272,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
-properties = "forcesStanding"
+properties = ["forcesStanding"]
 
 startup = 10
 active = [10, 13]
