@@ -87,7 +87,7 @@ startup = 9
 active = [9, 12]
 recovery = 17
 damage = 700
-superArt = 500
+superArt = 700
 
 [moves.frameAdvantage]
 hit = 2
@@ -166,15 +166,15 @@ startup = 32
 active = [32, 34]
 recovery = 22
 damage = 1400
-superArt = 1000
+superArt = 1400
 
 [moves.frameAdvantage]
 block = 3
 
 [moves.driveGauge]
-onHit = 5000
-onBlock = -8000
-onPunishCounter = -12000
+onHit = 6000
+onBlock = -10000
+onPunishCounter = -13000
 
 # Standing Light Kick
 [[moves]]
@@ -227,17 +227,17 @@ input = "5mk"
 startup = 10
 active = [10, 13]
 recovery = 19
-damage = 800
-superArt = 700
+damage = 900
+superArt = 900
 
 [moves.frameAdvantage]
 hit = 1
 block = -4
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = -5000
-onPunishCounter = -6000
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Standing Heavy Kick
 [[moves]]
@@ -364,16 +364,16 @@ active = [8, 10]
 recovery = 16
 cancel = "C"
 damage = 700
-superArt = 500
+superArt = 800
 
 [moves.frameAdvantage]
 hit = 3
 block = -1
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = -5000
-onPunishCounter = -6000
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Crouching Heavy Punch
 [[moves]]
@@ -390,17 +390,20 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 properties = ["knockdown"]
-notes = ["Increase juggle state time when attack lands as a Punish Counter"]
-notes_ja = ["パニッシュカウンター時吹き飛び時間増加"]
+notes = [
+  "Increase juggle state time when attack lands as a Punish Counter",
+  "Adds a floor bounding effect on Punish Counter",
+]
+notes_ja = ["パニッシュカウンター時吹き飛び時間増加", "パニッシュカウンター時床バウンド"]
 
-startup = 12
-active = [12, 19]
+startup = 11
+active = [11, 19]
 recovery = 35
 damage = 1000
 superArt = 1000
 
 [moves.frameAdvantage]
-block = -19
+block = -20
 
 [moves.driveGauge]
 onHit = 4000
@@ -494,16 +497,16 @@ startup = 9
 active = [9, 11]
 recovery = 18
 damage = 700
-superArt = 600
+superArt = 700
 
 [moves.frameAdvantage]
-hit = 2
+hit = 3
 block = -2
 
 [moves.driveGauge]
 onHit = 2500
 onBlock = -5000
-onPunishCounter = -6000
+onPunishCounter = -8000
 
 # Crouching Heavy Kick
 [[moves]]
@@ -758,15 +761,15 @@ startup = 15
 active = [15, 16, 26, 27, 36, 37, 44, 45]
 recovery = 27
 cancel = "SA3"
-damage = 1200
-superArt = 1150
+damage = 1400
+superArt = 1600
 capcomID = 501
 
 [moves.frameAdvantage]
 block = -12
 
 [moves.driveGauge]
-onHit = 2000
+onHit = 4000
 onBlock = -4000
 onPunishCounter = -5000
 
@@ -786,19 +789,23 @@ notes = [
   "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin",
   "Projectile invincibility from frames 1 - 36",
   "Invincible to mid-air attacks from frames 6 - 12",
+  "Press left or right during the attack to move",
+  "First attack produces a crumple stun on hit",
 ]
 notes_ja = [
   "腕を広げて回転しながらのラリアットで攻撃する技。回転中は相手の飛び道具攻撃に対して無敵となる",
   "1-36F 飛び道具無敵",
   "6-12F 空中判定の攻撃に対して無敵",
   "攻撃動作中、左右に移動可能",
+  "攻撃動作中、左右に移動可能",
+  "初段ヒット時、膝崩れダウン",
 ]
 startup = 12
 active = [12, 13, 16, 17, 21, 22, 29, 30, 35, 36]
 recovery = 26
 cancel = "SA2"
-damage = 1500
-superArt = 1150
+damage = 1700
+superArt = 1600
 capcomID = 501
 
 [moves.frameAdvantage]
@@ -835,11 +842,11 @@ recovery = 54
 damage = 2500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-superArt = 3300
+superArt = 4000
 capcomID = 502
 
 [moves.driveGauge]
-onHit = 5000
+onHit = 7000
 onPunishCounter = -10000
 
 # Screw Piledriver (Medium)
@@ -869,11 +876,11 @@ recovery = 54
 damage = 2900
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-superArt = 3300
+superArt = 4000
 capcomID = 502
 
 [moves.driveGauge]
-onHit = 5000
+onHit = 7000
 onPunishCounter = -10000
 
 # Screw Piledriver (Heavy)
@@ -911,11 +918,11 @@ recovery = 54
 damage = 3300
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-superArt = 3300
+superArt = 4000
 capcomID = 502
 
 [moves.driveGauge]
-onHit = 5000
+onHit = 7000
 onPunishCounter = -10000
 
 # Screw Piledriver (OD)
@@ -956,7 +963,7 @@ startup = 5
 active = [5, 7]
 recovery = 54
 damage = 3400
-superArt = 3300
+superArt = 4000
 capcomID = 502
 
 [moves.driveGauge]
@@ -995,7 +1002,7 @@ startup = 4
 active = [4, 6]
 postLandingRecovery = 16
 damage = 2900
-superArt = 3300
+superArt = 4000
 capcomID = 503
 
 [moves.driveGauge]
@@ -1037,7 +1044,7 @@ postLandingRecovery = 16
 damage = 3000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-superArt = 3300
+superArt = 4000
 capcomID = 503
 
 [moves.driveGauge]
@@ -1075,11 +1082,11 @@ recovery = 50
 damage = 2900
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-superArt = 3300
+superArt = 4000
 capcomID = 504
 
 [moves.driveGauge]
-onHit = 5000
+onHit = 7000
 onPunishCounter = -10000
 
 # Russian Suplex (OD)
@@ -1113,7 +1120,7 @@ startup = 10
 active = [10, 11]
 recovery = 50
 damage = 3200
-superArt = 5000
+superArt = 6500
 capcomID = 504
 
 [moves.driveGauge]
@@ -1148,7 +1155,7 @@ startup = 28
 active = [28, 29]
 recovery = 41
 damage = 2700
-superArt = 3300
+superArt = 4000
 capcomID = 505
 
 [moves.driveGauge]
@@ -1186,7 +1193,7 @@ startup = 23
 active = [23, 24]
 recovery = 44
 damage = 3000
-superArt = 3300
+superArt = 4000
 capcomID = 505
 
 [moves.driveGauge]
@@ -1227,7 +1234,7 @@ startup = 55
 active = [55, 56]
 recovery = 40
 damage = 2700
-superArt = 3300
+superArt = 4000
 capcomID = 505
 
 [moves.driveGauge]
@@ -1269,7 +1276,7 @@ startup = 54
 active = [54, 55]
 recovery = 40
 damage = 3000
-superArt = 3300
+superArt = 4000
 capcomID = 505
 
 [moves.driveGauge]
@@ -1539,7 +1546,7 @@ active = [7, 9]
 recovery = 21
 cancel = "C"
 damage = 800
-superArt = 500
+superArt = 700
 capcomID = 401
 
 [moves.frameAdvantage]
@@ -1547,7 +1554,7 @@ hit = -1
 block = -3
 
 [moves.driveGauge]
-onHit = 2500
+onHit = 3000
 onBlock = -5000
 onPunishCounter = -6000
 
@@ -1563,20 +1570,20 @@ input = "6mk"
 
 startup = 14
 active = [14, 20]
-recovery = 14
-damage = 600
-superArt = 700
+recovery = 13
+damage = 700
+superArt = 800
 capcomID = 402
 notes = ["A knee strike with long reach and quick recovery time"]
 notes_ja = ["リーチが長く、隙の小さい膝蹴り"]
 
 [moves.frameAdvantage]
-hit = 0
-block = -4
+hit = 1
+block = -3
 
 [moves.driveGauge]
-onHit = 2500
-onBlock = -5000
+onHit = 3000
+onBlock = -6000
 onPunishCounter = -6000
 
 # Headbutt
@@ -1597,18 +1604,18 @@ startup = 14
 active = [14, 18]
 recovery = 15
 cancel = "C"
-damage = 900
-superArt = 500
+damage = 1000
+superArt = 1000
 capcomID = 403
 
 [moves.frameAdvantage]
-hit = 6
+hit = 7
 block = 4
 
 [moves.driveGauge]
-onHit = 3500
-onBlock = -6000
-onPunishCounter = -8000
+onHit = 4500
+onBlock = -8000
+onPunishCounter = -11000
 
 # Cyclone Wheel Kick
 [[moves]]
@@ -1631,15 +1638,15 @@ recovery = 25
 damage = 1300
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
-superArt = 1000
+superArt = 1200
 capcomID = 404
 
 [moves.frameAdvantage]
-block = -12
+block = -9
 
 [moves.driveGauge]
-onHit = 3500
-onBlock = -4000
+onHit = 4500
+onBlock = -6000
 onPunishCounter = -11000
 
 # Smetana Dropkick
@@ -1662,16 +1669,16 @@ startup = 16
 active = [16, 19]
 recovery = 40
 damage = 1000
-superArt = 1000
+superArt = 1200
 capcomID = 405
 
 [moves.frameAdvantage]
 block = -18
 
 [moves.driveGauge]
-onHit = 2000
-onBlock = -6000
-onPunishCounter = -10000
+onHit = 4000
+onBlock = -8000
+onPunishCounter = -11000
 
 # Flying Body Press
 [[moves]]
@@ -1708,7 +1715,7 @@ name_ja = "フライングヘッドバット"
 slug = "flying-headbutt"
 characterId = 15
 type = "commandNormal"
-blockType = "high"
+blockType = "mid"
 input = "8>8hp"
 notes = [
   "A headbutt that can be canceled into aerial special moves",
@@ -1719,12 +1726,12 @@ startup = 8
 active = [8, 11]
 postLandingRecovery = 3
 cancel = "C"
-damage = 800
-superArt = 1000
+damage = 900
+superArt = 1200
 capcomID = 407
 
 [moves.driveGauge]
-onHit = 2000
+onHit = 4000
 onBlock = -4000
 onPunishCounter = -8000
 
@@ -1831,6 +1838,7 @@ input = "22mk>5mk"
 startup = 9
 active = [9, 11]
 recovery = 19
+cancel = "C"
 damage = 500
 superArt = 700
 capcomID = 409
