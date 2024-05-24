@@ -1846,7 +1846,7 @@ name = "Demon Raid"
 name_ja = "百鬼襲"
 slug = "demon-raid"
 characterId = 21
-type = "action"
+type = "special"
 input = "236*k"
 notes = [
   "A quick leap towards the opponent that allows you to transition into various techniques. Clever use of these techniques will help strengthen your offense.",
@@ -1868,7 +1868,7 @@ name = "Demon Raid (OD)"
 name_ja = "百鬼襲（OD）"
 slug = "demon-raid-od"
 characterId = 21
-type = "action"
+type = "special"
 input = "236kk"
 
 notes = [
