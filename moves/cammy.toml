@@ -185,7 +185,7 @@ superArt = 1200
 
 [moves.frameAdvantage]
 hit = 2
-block = -4
+block = -3
 
 [moves.driveGauge]
 onHit = 3000
@@ -272,6 +272,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 
 startup = 10
 active = [10, 13]
@@ -698,14 +699,18 @@ notes = [
   "A series of attacks, the first and second of which can be canceled into special moves",
   "Only the first hit can be canceled into a special move",
 ]
-notes_ja = ["2段目まで必殺技でキャンセル可能な連続攻撃", "1段目のみ必殺技キャンセル可能"]
+notes_ja = ["2段目まで必殺技でキャンセル可能な連続攻撃", " 初段のみ必殺技キャンセル可能"]
 startup = 13
 active = [13, 15, 29, 31]
 recovery = 29
 cancel = "C"
 damage = 800
-scaling = ["Combo scaling 15%"]
-scaling_ja = ["コンボ補正15%"]
+scaling = [
+  "Starter scaling 10%",
+  "10% Immediate scaling on the 2nd hit",
+  "Combo scaling 20%",
+]
+scaling_ja = ["初段コンボ補正10%", "2段目即時補正10%", "コンボ補正20%"]
 superArt = 1500
 capcomID = 405
 
@@ -1151,9 +1156,9 @@ blockType = "high"
 input = "214mp"
 notes = [
   "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
-  "Invincible to projectiles from frames 6 - 20",
+  "Invincible to projectiles from frames 9 - 23",
 ]
-notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効", "6-20F 飛び道具無敵"]
+notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効", "9-23F 飛び道具無敵"]
 startup = 24
 active = [24, 27]
 recovery = 16
@@ -1187,9 +1192,9 @@ blockType = "high"
 input = "214hp"
 notes = [
   "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
-  "Invincible to projectiles from frames 6 - 24",
+  "Invincible to projectiles from frames 9 - 27",
 ]
-notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効", "6-24F 飛び道具無敵"]
+notes_ja = ["前方への一足飛びから一回転して裏拳を繰り出す技。攻めの継続やガード崩しとして有効", "9-27F 飛び道具無敵"]
 startup = 28
 active = [28, 31]
 recovery = 17
@@ -1838,8 +1843,8 @@ startup = 10
 active = [10, 12]
 postLandingRecovery = 30
 damage = 1000
-scaling = ["Starter scaling 20%"]
-scaling_ja = ["始動補正20%"]
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
 superArt = 1000
 capcomID = 509
 notes = [
@@ -1882,10 +1887,12 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "A forward-moving combination attack consisting of a Spiral Arrow followed by a Cannon Spike. It has invincibility on startup, making it useful for turning the tables",
+  "Invincible to strikes and throws from frame 1 to frame 11.",
   "The 6th attack is only performed if the 5th attack hits",
 ]
 notes_ja = [
   "スパイラルアローからキャノンスパイクへ繋ぐ突進技。技の出始めに無敵時間があり、切り返しに使える",
+  "1-11F 打撃・投げに対して無敵",
   "6段目以降は5段目ヒット時のみ派生",
 ]
 startup = 9
@@ -1962,7 +1969,7 @@ notes_ja = [
 startup = 13
 active = [13]
 recovery = 37
-damage = 2800
+damage = 3000
 capcomID = 603
 
 [moves.frameAdvantage]

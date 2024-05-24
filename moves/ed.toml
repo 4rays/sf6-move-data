@@ -229,7 +229,7 @@ superArt = 300
 
 [moves.frameAdvantage]
 hit = 3
-block = -5
+block = -3
 
 [moves.driveGauge]
 onHit = 250
@@ -1677,13 +1677,11 @@ input = "5(kk)"
 capcomID = 506
 notes = [
   "A technique that allows you to quickly move forward. Two different types of attacks are possible during the technique, which are timing dependent.",
-  "Head is invincible between frames 3 - 26",
   "Can transition to Kill Switch Break between frames 11 - 12",
   "Can transition to Kill Switch Chaser between frames 13 - 24",
 ]
 notes_ja = [
   "前傾姿勢で素早く前方へ移動する技。移動中は、入力タイミングで変化する2種類の技へ派生可能。",
-  "3-26F 頭無敵",
   "11-12F キルスイッチ・ブレイクに派生可能",
   "13-24F キルスイッチ・チェイスに派生可能",
 ]
@@ -1707,15 +1705,15 @@ startup = 11
 active = [11, 13]
 recovery = 20
 cancel = "SA3"
-damage = 600
+damage = 800
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
 notes = [
   "Unleash a short uppercut from Kill Rush. Useful for attacking while closing the distance on an opponent.",
-  "During kill rush (forward",
+  "During kill rush (forward)",
 ]
-notes_ja = ["キルステップからショートアッパーを繰り出す技。キルステップで距離を詰めながら攻撃する用途で有効。", "キルステップ（前方"]
+notes_ja = ["キルステップからショートアッパーを繰り出す技。キルステップで距離を詰めながら攻撃する用途で有効。", "キルステップ（前方)"]
 
 [moves.frameAdvantage]
 block = -4
@@ -1743,7 +1741,7 @@ startup = 11
 active = [11, 13]
 recovery = 20
 cancel = "SA3"
-damage = 800
+damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
@@ -1772,9 +1770,8 @@ input = "4(kk)"
 capcomID = 509
 notes = [
   "Perform a bob & weave while taking a step back. Useful for helping to create distance from the opponent while analyzing the situation.",
-  "Head invincible between frames 1 - 10",
 ]
-notes_ja = ["ウィービングを繰り出しながら後方へ素早く下がる技。相手との間合いを図りながら様子を見る用途で有効。", "1-10F 頭無敵"]
+notes_ja = ["ウィービングを繰り出しながら後方へ素早く下がる技。相手との間合いを図りながら様子を見る用途で有効。"]
 totalFrames = 31
 
 # Psycho Storm

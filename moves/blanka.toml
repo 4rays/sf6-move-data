@@ -350,6 +350,8 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2mk"
+notes = ["2 frames of recovery added when the attack is blocked or misses"]
+notes_ja = ["ガード、空振り時硬直2F増加"]
 
 startup = 8
 active = [8, 10]
@@ -1000,12 +1002,12 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "Curl your body into a ball and fly forward with a spinning tackle. Useful for launching surprise attacks from far away",
-  "Considered airborne from frames 18 - 40",
+  "Considered airborne from frames 18 - 41",
   "Can cancel into Level 3 Super Art until active frame 2",
 ]
 notes_ja = [
   "身体を丸めてまっすぐ前方に突進する回転体当たり。離れた距離からの奇襲に長けた突進技",
-  "18-40F 空中判定",
+  "18-41F 空中判定",
   "持続の2F目までSA2、SA3でキャンセル可",
 ]
 startup = 18
@@ -1936,7 +1938,7 @@ notes_ja = [
 ]
 startup = 13
 active = [13]
-postLandingRecovery = 10
+postLandingRecovery = 15
 damage = 1200
 superArt = 1300
 capcomID = 505
@@ -2158,15 +2160,13 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos",
-  "Completely invincible from frame 1",
-  "Invincible to strikes and throws from frames 2 - 10",
+  "Invincible to strikes and throws from frames 1 - 9",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "跳び上がった勢いで地面を叩き、強力な電撃を発生させる技。無敵時間を活かした切り返しやコンボなど、狙える場面が多い",
-  "1F 完全無敵",
-  "2-10F 打撃・投げに対して無敵",
+  "1-9F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
@@ -2198,15 +2198,13 @@ relatedMoves = ["lightning-beast"]
 properties = ["knockdown"]
 notes = [
   "Leap into the air and slam both fists into the ground, creating a powerful electric shock. Its invincibility makes it useful for turning the tables, but it is also effective in combos",
-  "Completely invincible from frame 1",
-  "Invincible to strikes and throws from frames 2 - 10",
+  "Invincible to strikes and throws from frames 1 - 9",
   "Minimum guaranteed damage is set to 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "跳び上がった勢いで地面を叩き、強力な電撃を発生させる技。無敵時間を活かした切り返しやコンボなど、狙える場面が多い",
-  "1F 完全無敵",
-  "2-10F 打撃・投げに対して無敵",
+  "1-9F 打撃・投げに対して無敵",
   "最低保障ダメージ30%",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
@@ -2390,12 +2388,15 @@ recovery = 20
 damage = 600
 superArt = 500
 capcomID = 401
-notes = ["An overhead attack that cannot be blocked while crouching"]
-notes_ja = ["しゃがみでガードできない中段攻撃"]
+notes = [
+  "An overhead attack that cannot be blocked while crouching",
+  "Second attack becomes an overhead only if the first attack whiffs",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃", "初段が空振り時のみ2段目が中段判定"]
 
 [moves.frameAdvantage]
 hit = 3
-block = -2
+block = -3
 
 [moves.driveGauge]
 onHit = 1500

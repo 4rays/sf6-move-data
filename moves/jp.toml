@@ -272,6 +272,9 @@ type = "normal"
 blockType = "high"
 input = "2hp"
 hitCount = 1
+properties = ["forcesStanding"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
 
 startup = 9
 active = [9, 14]
@@ -570,6 +573,8 @@ active = [22, 31]
 totalFrames = 55
 cancel = "SA3"
 damage = 800
+scaling = ["Starter scaling 20％"]
+scaling_ja = ["始動補正20％"]
 superArt = 800
 capcomID = 501
 notes = [
@@ -604,6 +609,8 @@ active = [22, 31]
 totalFrames = 55
 cancel = "SA3"
 damage = 800
+scaling = ["Starter scaling 20％"]
+scaling_ja = ["始動補正20％"]
 superArt = 800
 capcomID = 501
 notes = [
@@ -637,6 +644,8 @@ active = [22, 31]
 totalFrames = 55
 cancel = "SA3"
 damage = 800
+scaling = ["Starter scaling 20％"]
+scaling_ja = ["始動補正20％"]
 superArt = 800
 capcomID = 501
 notes = [
@@ -753,11 +762,13 @@ notes = [
   "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
+  "3 frames of recovery added on Perfect Parry",
 ]
 notes_ja = [
   "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
+  "ジャストパリィ時硬直3F増加",
 ]
 startup = 16
 active = [16, 21]
@@ -870,17 +881,21 @@ notes = [
   "Perform a forward swing with your staff to generate a barrier of Psycho Power. Effective for tacking on additional damage in combos or as a way to get your opponent away from you",
   "Increases the Drive Gauge by 10,000 during a Perfect Parry",
   "Clashes with projectiles",
+  "3 frames of recovery added on Perfect Parry",
+  "Only the first attack can be canceled into Super Art 2/Super Art 3/Critical Art",
 ]
 notes_ja = [
   "前方に杖を振り、サイコパワーの障壁を発生させる攻撃。コンボでダメージを伸ばしたり、相手を追い払う手段として有効",
   "ジャストパリィ時はドライブゲージを10000増加",
   "飛び道具相殺判定あり",
+  "ジャストパリィ時硬直3F増加",
+  "初段のみSA2/SA3/CAでキャンセル可能",
 ]
-startup = 22
-active = [22, 24, 31, 33]
-totalFrames = 55
+startup = 19
+active = [19, 21, 28, 30]
+totalFrames = 52
 cancel = "SA2"
-damage = 800
+damage = 1000
 superArt = 800
 capcomID = 502
 
@@ -1318,14 +1333,19 @@ properties = ["knockdown"]
 notes = [
   "Craft a clone out of Psycho Power and send it flying at your opponent. Useful for checking your opponent and causing damage at long range",
   "Start up value listed is when the attack is performed at close range",
+  "Only the first attack can be canceled into Super Art 2/Super Art 3/Critical Art",
 ]
 notes_ja = [
   "サイコパワーで作られた分身を飛ばして攻撃する技。遠距離からのけん制でダメージを奪う手段として有効",
   "発生は密着で発動した場合の数値",
+  "初段のみSA2/SA3/CAでキャンセル可能",
 ]
 startup = 22
 totalFrames = 50
+cancel = "SA2"
 damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 800
 capcomID = 507
 
@@ -1364,6 +1384,8 @@ notes_ja = [
 startup = 26
 totalFrames = 72
 damage = 1800
+scaling = ["Immediate scaling 25%"]
+scaling_ja = ["即時補正25%"]
 superArt = 3000
 capcomID = 508
 
@@ -1401,6 +1423,8 @@ notes_ja = [
 startup = 26
 totalFrames = 72
 damage = 2600
+scaling = ["Immediate scaling 25%"]
+scaling_ja = ["即時補正25%"]
 superArt = 3000
 capcomID = 508
 
@@ -1545,6 +1569,8 @@ active = [10, 12]
 recovery = 20
 cancel = "C"
 damage = 500
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
 superArt = 400
 capcomID = 404
 notes = ["A quick series of attacks that can be canceled into special moves"]
@@ -1829,7 +1855,7 @@ notes_ja = [
   "コンボの3段目以降に補正がかかる",
 ]
 startup = 29
-totalFrames = 8
+totalFrames = 13
 damage = 2000
 scaling = ["Starter scaling 25％※", "Immediate scaling 25％"]
 scaling_ja = ["始動補正25％※", "即時補正25％"]

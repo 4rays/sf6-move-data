@@ -89,6 +89,8 @@ active = [9, 14]
 recovery = 18
 cancel = "C"
 damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -280,6 +282,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 notes = ["Adds +12 of frame advantage on Punish Counter"]
 notes_ja = ["パニッシュカウンター時+12F"]
 
@@ -667,6 +670,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "lp>mk"
+properties = ["forcesStanding"]
 
 startup = 9
 active = [9, 11]
@@ -707,7 +711,7 @@ notes = ["A quick combination attack that hits multiple times"]
 notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
 [moves.frameAdvantage]
-hit = 2
+hit = 3
 block = -8
 
 [moves.driveGauge]
@@ -1031,6 +1035,8 @@ startup = 10
 totalFrames = 46
 cancel = "SA2"
 damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 600
 capcomID = 501
 
@@ -1060,6 +1066,8 @@ startup = 22
 totalFrames = 46
 cancel = "SA2"
 damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 600
 
 [moves.frameAdvantage]
@@ -1521,12 +1529,20 @@ active = [12, 14]
 recovery = 22
 cancel = "SA3"
 damage = 800
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 capcomID = 508
 notes = [
   "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
+  "2 frames of recovery subtracted when attack is blocked",
+  "Adds +3 frames of recovery on armor hit or if the attack misses",
 ]
-notes_ja = ["ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい"]
+notes_ja = [
+  "ジョスクールから派生する、立ってガードできない下段蹴り。隙が少なく、けん制や連係に使いやすい",
+  "ガード時硬直2F減少",
+  "空振り、アーマーヒット時硬直3F増加",
+]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1773,6 +1789,8 @@ active = [11, 15]
 recovery = 21
 cancel = "SA2"
 damage = 1000
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomID = 510
 notes = [
@@ -1861,14 +1879,14 @@ notes_ja = [
 
 startup = 7
 active = [7, 10]
-recovery = 45
-damage = 1800
+recovery = 33
+damage = 2000
 scaling = ["Starter scaling 40%"]
 scaling_ja = ["始動補正40%"]
 capcomID = 601
 
 [moves.frameAdvantage]
-block = -24
+block = -12
 
 [moves.driveGauge]
 onBlock = -2500

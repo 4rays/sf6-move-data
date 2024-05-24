@@ -15,8 +15,8 @@ input = "5lp"
 notes = ["Can be rapid canceled"]
 notes_ja = ["連打キャンセル対応"]
 
-startup = 6
-active = [6, 8]
+startup = 5
+active = [5, 7]
 recovery = 8
 cancel = "C"
 damage = 350
@@ -119,7 +119,7 @@ notes_ja = ["連打キャンセル対応"]
 
 startup = 4
 active = [4, 6]
-recovery = 12
+recovery = 8
 cancel = "C"
 damage = 300
 scaling = ["Starter scaling 20%"]
@@ -127,8 +127,8 @@ scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
-hit = 1
-block = -4
+hit = 5
+block = -1
 
 [moves.driveGauge]
 onHit = 250
@@ -348,8 +348,8 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
-startup = 10
-active = [10, 12]
+startup = 9
+active = [9, 11]
 recovery = 18
 cancel = "C"
 damage = 500
@@ -384,8 +384,9 @@ input = "2hk"
 properties = ["knockdown"]
 notes = [
   "Knockdown time extended when attack lands as a counter or Punish Counter",
+  "Second attack is considered a high attack only when the first attack is blocked",
 ]
-notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長"]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間延長", "初段がガード時のみ2段目が上段判定"]
 
 startup = 11
 active = [11, 12, 19, 20]
@@ -701,8 +702,8 @@ notes_ja = [
   "次回発動するコンドルスパイア、トマホークバスター、コンドルダイブ、サンダーバード、スカイサンダーバードの性質変化",
 ]
 
-startup = 21
-active = [21, 24]
+startup = 19
+active = [19, 22]
 recovery = 23
 cancel = "SA2"
 damage = 1200
@@ -1209,7 +1210,7 @@ notes_ja = [
   "9-44F 空中判定",
 ]
 startup = 6
-active = [6, 9, 10, 19]
+active = [6, 9]
 recovery = 24
 postLandingRecovery = 12
 damage = 1200
@@ -1480,8 +1481,8 @@ startup = 5
 active = [5, 7]
 recovery = 53
 damage = 2000
-scaling = ["Immediate scaling 20%"]
-scaling_ja = ["即時補正20%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomID = 506
 
@@ -1514,8 +1515,8 @@ startup = 5
 active = [5, 7]
 recovery = 53
 damage = 2400
-scaling = ["Immediate scaling 20%"]
-scaling_ja = ["即時補正20%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomID = 506
 
@@ -1557,8 +1558,8 @@ startup = 5
 active = [5, 7]
 recovery = 53
 damage = 2800
-scaling = ["Immediate scaling 20%"]
-scaling_ja = ["即時補正20%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomID = 506
 
@@ -1600,8 +1601,8 @@ startup = 5
 active = [5, 7]
 recovery = 53
 damage = 2900
-scaling = ["Immediate scaling 20%"]
-scaling_ja = ["即時補正20%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomID = 506
 
@@ -1634,8 +1635,8 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
 
-startup = 13
-active = [13, 14, 20, 21, 29, 30, 39, 40, 49, 50]
+startup = 10
+active = [10, 11, 17, 18, 26, 27, 36, 37, 46, 47]
 recovery = 54
 damage = 2200
 capcomID = 601
@@ -1676,7 +1677,7 @@ startup = 9
 active = [9, 10, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30, 40, 41]
 recovery = 39
 postLandingRecovery = 24
-damage = 2500
+damage = 2600
 capcomID = 602
 
 [moves.frameAdvantage]
@@ -1742,7 +1743,7 @@ active = [
 ]
 recovery = 39
 postLandingRecovery = 24
-damage = 2800
+damage = 2900
 capcomID = 603
 
 [moves.frameAdvantage]
@@ -1779,7 +1780,7 @@ notes_ja = [
 startup = 9
 active = [9, 10, 13, 15, 16, 18, 19, 21, 22, 24, 25, 27, 28, 30, 40, 41]
 postLandingRecovery = 25
-damage = 2500
+damage = 2600
 capcomID = 603
 
 [moves.frameAdvantage]
@@ -1843,7 +1844,7 @@ active = [
   41,
 ]
 postLandingRecovery = 25
-damage = 2800
+damage = 2900
 capcomID = 603
 
 [moves.frameAdvantage]

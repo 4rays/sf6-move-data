@@ -57,6 +57,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = 6
+block = 0
 
 [moves.driveGauge]
 onHit = 1500
@@ -85,6 +86,8 @@ active = [7, 9]
 recovery = 23
 cancel = "C"
 damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 1000
 
 [moves.frameAdvantage]
@@ -239,6 +242,8 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2mp"
+notes = ["3 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直3F増加"]
 
 startup = 6
 active = [6, 8]
@@ -270,6 +275,7 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
 
 startup = 9
 active = [9, 13]
@@ -517,7 +523,7 @@ input = "j>mk"
 startup = 7
 active = [7, 13]
 postLandingRecovery = 3
-damage = 500
+damage = 600
 superArt = 500
 
 [moves.driveGauge]
@@ -1204,7 +1210,7 @@ block = -3
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -2500
+onBlock = -4000
 onPunishCounter = -3000
 
 # [Perfect timing] Sonic Boom (Medium)
@@ -1236,7 +1242,7 @@ block = -3
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -2500
+onBlock = -4000
 onPunishCounter = -3000
 
 # Sonic Boom (Heavy)
@@ -1270,7 +1276,7 @@ block = -3
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -2500
+onBlock = -3000
 onPunishCounter = -3000
 
 # [Perfect timing] Sonic Boom (Heavy)
@@ -1302,7 +1308,7 @@ block = -3
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -2500
+onBlock = -3000
 onPunishCounter = -3000
 
 # Sonic Boom (OD)
@@ -1329,6 +1335,8 @@ startup = 10
 totalFrames = 38
 cancel = "SA2"
 damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 600
 capcomID = 501
 
@@ -1858,7 +1866,7 @@ block = -1
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -3500
+onBlock = -5000
 onPunishCounter = -3000
 
 # [Perfect timing] Sonic Cross (Medium)
@@ -1888,7 +1896,7 @@ block = -1
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -3500
+onBlock = -5000
 onPunishCounter = -3000
 
 # Sonic Cross (Heavy)
@@ -1925,7 +1933,7 @@ block = -1
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -3500
+onBlock = -4000
 onPunishCounter = -3000
 
 # [Perfect timing] Sonic Cross (Heavy)
@@ -1955,7 +1963,7 @@ block = -1
 
 [moves.driveGauge]
 onHit = 1000
-onBlock = -3500
+onBlock = -4000
 onPunishCounter = -3000
 
 # Sonic Cross (OD 1)

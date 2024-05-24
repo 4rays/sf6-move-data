@@ -150,7 +150,7 @@ cancel = "C"
 damage = 540
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
-superArt = 500
+superArt = 700
 
 [moves.frameAdvantage]
 hit = 1
@@ -243,7 +243,7 @@ startup = 6
 active = [6, 8]
 recovery = 13
 cancel = "C"
-damage = 450
+damage = 500
 superArt = 600
 
 [moves.frameAdvantage]
@@ -269,6 +269,9 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2hp"
+properties = ["forcesStanding"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
 
 startup = 8
 active = [8, 13]
@@ -905,13 +908,13 @@ block = -12
 onHit = 1500
 onBlock = -2000
 
-# Bunshin Senpu-kyaku (Light)
+# Bushin Senpu-kyaku (Light)
 [[moves]]
-name = "Bunshin Senpu-kyaku (Light)"
+name = "Bushin Senpu-kyaku (Light)"
 name_ja = "武神旋風脚 (弱)"
-alternativeNames = ["L Bunshin Senpu-kyaku"]
+alternativeNames = ["L Bushin Senpu-kyaku"]
 alternativeNames_ja = ["弱 武神旋風脚"]
-slug = "bunshin-senpukyaku-light"
+slug = "bushin-senpukyaku-light"
 characterId = 5
 type = "special"
 hitCount = 1
@@ -920,15 +923,13 @@ input = "214lk"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
-  "Invincible to mid-air attacks from frames 6 - 11",
+  "Invincible to mid-air attacks from frames 5 - 11",
   "Considered airborne from frames 7 - 42",
-  "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
-  "6-11F 空中判定の攻撃に対して無敵",
+  "5-11F 空中判定の攻撃に対して無敵",
   "7-42F 空中判定",
-  "初段空振り時のみヒットする（90）",
 ]
 
 startup = 6
@@ -946,13 +947,13 @@ onHit = 2000
 onBlock = -1000
 onPunishCounter = -5000
 
-# Bunshin Senpu-kyaku (Medium)
+# Bushin Senpu-kyaku (Medium)
 [[moves]]
-name = "Bunshin Senpu-kyaku (Medium)"
+name = "Bushin Senpu-kyaku (Medium)"
 name_ja = "武神旋風脚 (中)"
-alternativeNames = ["M Bunshin Senpu-kyaku"]
+alternativeNames = ["M Bushin Senpu-kyaku"]
 alternativeNames_ja = ["中 武神旋風脚"]
-slug = "bunshin-senpukyaku-medium"
+slug = "bushin-senpukyaku-medium"
 characterId = 5
 type = "special"
 hitCount = 1
@@ -961,15 +962,13 @@ input = "214mk"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
-  "Invincible to mid-air attacks from frames 7 - 12",
+  "Invincible to mid-air attacks from frames 6 - 12",
   "Considered airborne from frames 8 - 45",
-  "Does 90 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
-  "7-12F 空中判定の攻撃に対して無敵",
+  "6-12F 空中判定の攻撃に対して無敵",
   "8-45F 空中判定",
-  "初段空振り時のみヒットする（90）",
 ]
 
 startup = 7
@@ -987,13 +986,13 @@ onHit = 2000
 onBlock = -1000
 onPunishCounter = -5000
 
-# Bunshin Senpu-kyaku (Heavy)
+# Bushin Senpu-kyaku (Heavy)
 [[moves]]
-name = "Bunshin Senpu-kyaku (Heavy)"
+name = "Bushin Senpu-kyaku (Heavy)"
 name_ja = "武神旋風脚 (強)"
-alternativeNames = ["H Bunshin Senpu-kyaku"]
+alternativeNames = ["H Bushin Senpu-kyaku"]
 alternativeNames_ja = ["強 武神旋風脚"]
-slug = "bunshin-senpukyaku-heavy"
+slug = "bushin-senpukyaku-heavy"
 characterId = 5
 type = "special"
 hitCount = 1
@@ -1002,15 +1001,13 @@ input = "214hk"
 properties = ["knockdown"]
 notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
-  "Invincible to mid-air attacks from frames 8 - 13",
+  "Invincible to mid-air attacks from frames 7 - 13",
   "Considered airborne from frames 9 - 49",
-  "Does 180 damage only if the first attack misses",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
-  "8-13F 空中判定の攻撃に対して無敵",
+  "7-13F 空中判定の攻撃に対して無敵",
   "9-49F 空中判定",
-  "初段空振り時のみヒットする（180）",
 ]
 
 startup = 8
@@ -1028,13 +1025,13 @@ onHit = 2000
 onBlock = -1000
 onPunishCounter = -5000
 
-# Bunshin Senpu-kyaku (OD)
+# Bushin Senpu-kyaku (OD)
 [[moves]]
-name = "Bunshin Senpu-kyaku (OD)"
+name = "Bushin Senpu-kyaku (OD)"
 name_ja = "武神旋風脚 (OD)"
-alternativeNames = ["OD Bunshin Senpu-kyaku", "EX Bunshin Senpu-kyaku"]
+alternativeNames = ["OD Bushin Senpu-kyaku", "EX Bushin Senpu-kyaku"]
 alternativeNames_ja = ["OD 武神旋風脚", "EX 武神旋風脚"]
-slug = "bunshin-senpukyaku-od"
+slug = "bushin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
@@ -1045,17 +1042,19 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 11",
   "Considered airborne from frames 7 - 47",
+  "Only the 4th hit can be canceled into a Level 2 Super Art",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "1-11F 空中判定の攻撃に対して無敵",
   "7-47F 空中判定",
+  "4段目のみSA2でキャンセル可能",
 ]
 
 startup = 6
 active = [6, 11, 13, 18, 20, 25, 27, 32, 34, 35]
 postLandingRecovery = 17
-damage = 1350
+damage = 1410
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1200
@@ -1068,16 +1067,17 @@ block = -40
 onBlock = -1000
 onPunishCounter = -5000
 
-# Aerial Bunshin Senpu-kyaku
+# Aerial Bushin Senpu-kyaku
 [[moves]]
-name = "Aerial Bunshin Senpu-kyaku"
+name = "Aerial Bushin Senpu-kyaku"
 name_ja = "空中武神旋風脚"
-slug = "aerial-bunshin-senpukyaku"
+slug = "aerial-Bushin-senpukyaku"
 characterId = 5
 type = "special"
 hitCount = 1
 blockType = "high"
 input = "9>214*k"
+cancel = "SA2"
 
 startup = 8
 active = [8, 9, 17, 18, 26, 27]
@@ -1101,16 +1101,16 @@ onHit = 2000
 onBlock = -4000
 onPunishCounter = -5000
 
-# Aerial Bunshin Senpu-kyaku (OD)
+# Aerial Bushin Senpu-kyaku (OD)
 [[moves]]
-name = "Aerial Bunshin Senpu-kyaku (OD)"
+name = "Aerial Bushin Senpu-kyaku (OD)"
 name_ja = "空中武神旋風脚 (OD)"
 alternativeNames = [
-  "OD Aerial Bunshin Senpu-kyaku",
-  "EX Aerial Bunshin Senpu-kyaku",
+  "OD Aerial Bushin Senpu-kyaku",
+  "EX Aerial Bushin Senpu-kyaku",
 ]
 alternativeNames_ja = ["OD 空中武神旋風脚", "EX 空中武神旋風脚"]
-slug = "aerial-bunshin-senpukyaku-od"
+slug = "aerial-Bushin-senpukyaku-od"
 characterId = 5
 type = "special"
 hitCount = 1
@@ -1465,7 +1465,7 @@ notes_ja = ["疾駆けOD中に", "疾駆けから派生する、宙返りしな�
 block = 3
 
 [moves.driveGauge]
-onBlock = -4000
+onBlock = -6000
 onPunishCounter = -8000
 
 # Shadow Slide (OD)
@@ -1683,8 +1683,8 @@ input = "236lp"
 blockType = "high"
 
 startup = 10
-active = [10, 11]
-recovery = 22
+active = [10, 12]
+recovery = 21
 cancel = "SA3"
 damage = 810
 scaling = ["Starter scaling 20%"]
@@ -1700,7 +1700,7 @@ notes_ja = [
 
 [moves.frameAdvantage]
 hit = 3
-block = -6
+block = -5
 
 [moves.driveGauge]
 onHit = 2000
@@ -2198,8 +2198,8 @@ startup = 5
 active = [5, 7]
 postLandingRecovery = 20
 damage = 900
-scaling = ["Starter scaling 20％"]
-scaling_ja = ["始動補正20％"]
+scaling = ["Starter scaling 20％", "Combo scaling 20％"]
+scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 1000
 capcomID = 516
 
@@ -2217,21 +2217,19 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "Rush forward and knock down an opponent, then follow up with a flurry of attacks. Use this as a part of a combo while on the ground, or as a follow-up attack if they're airborne",
-  "Completely invincible on the 1st frame",
-  "Invincible to strikes and throws on frames 2 - 14",
+  "Invincible to strikes and throws on frames 1 - 14",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "前方へ突進し、接触した相手を蹴りで転倒させ、連撃を加える技。地上技からのコンボや、空中へ浮かせてからの追撃で使いやすい",
-  "1F 完全無敵",
-  "2-14F 打撃・投げに対して無敵",
+  "1-14F 打撃・投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
 
-startup = 12
-active = [12, 26]
+startup = 10
+active = [10, 24]
 recovery = 40
 damage = 1800
 capcomID = 601
@@ -2254,26 +2252,26 @@ input = "236236*k"
 properties = ["knockdown"]
 notes = [
   "With at least 1 shuriken bomb stock",
+  "Hold to use shuriken",
   "Adds a Shuriken Bomb follow-up attack after using Bushin Beats. Damage increases but requires one stock of Shuriken Bombs to activate",
-  "Completely invincible on the 1st frame",
-  "Invincible to strikes and throws on frames 2 - 14",
+  "Invincible to strikes and throws on frames 1 - 14",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
   "細工手裏剣ストックが1以上で",
+  "ボタンをホールドすることで手裏剣を使用",
   "武神乱拍子の連撃から、細工手裏剣での追撃を加える技。威力が上がるが、発動に細工手裏剣のストックを1つ使用する",
-  "1F 完全無敵",
-  "2-14F 打撃・投げに対して無敵",
+  "1-14F 打撃・投げに対して無敵",
   "細工手裏剣ストックを1消費",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
 
-startup = 12
-active = [12, 26]
+startup = 10
+active = [10, 24]
 recovery = 40
-damage = 2000
+damage = 2200
 capcomID = 602
 
 [moves.frameAdvantage]
@@ -2281,7 +2279,7 @@ block = -25
 
 [moves.driveGauge]
 onBlock = -2500
-onPunishCounter = -5000
+onPunishCounter = -5001
 
 # Bushin Scramble
 [[moves]]
@@ -2310,7 +2308,7 @@ notes_ja = [
 startup = 13
 active = [13, 20]
 postLandingRecovery = 39
-damage = 2600
+damage = 2800
 capcomID = 603
 
 [moves.frameAdvantage]
@@ -2347,7 +2345,7 @@ notes_ja = [
 startup = 13
 active = [13]
 postLandingRecovery = 39
-damage = 2600
+damage = 2800
 capcomID = 604
 
 [moves.driveGauge]
