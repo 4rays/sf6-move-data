@@ -1518,7 +1518,7 @@ slug = "aerial-tatsumaki-zankukyaku"
 characterId = 21
 type = "special"
 blockType = "high"
-input = "9>214k"
+input = "9>214*k"
 hitCount = 2
 properties = ["knockdown"]
 
