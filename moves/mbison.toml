@@ -390,6 +390,7 @@ blockType = "low"
 input = "2hk"
 hitCount = 1
 properties = ["knockdown"]
+capcomID = 407
 
 startup = 11
 active = [11, 13]
@@ -579,8 +580,12 @@ type = "commandNormal"
 blockType = "mid"
 input = "6hp"
 hitCount = 1
-notes = ["Adds a floor bounding effect during a mid-air hit"]
-notes_ja = ["空中ヒット時床バウンド"]
+notes = [
+  "An overhead attack that cannot be blocked while crouching.",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時床バウンド"]
+capcomID = 401
 
 startup = 22
 active = [22, 24]
@@ -606,6 +611,8 @@ characterId = 22
 type = "commandNormal"
 blockType = "high"
 input = "4hk"
+hitCount = 1
+capcomID = 402
 
 startup = 10
 active = [10, 13]
@@ -613,6 +620,8 @@ recovery = 17
 cancel = "C"
 damage = 800
 superArt = 1000
+notes = ["A knee strike that can be canceled into special moves."]
+notes_ja = ["必殺技キャンセル可能な膝蹴り。"]
 
 [moves.frameAdvantage]
 hit = 4
@@ -634,12 +643,15 @@ blockType = "low"
 input = "3hk"
 hitCount = 1
 properties = ["knockdown"]
+capcomID = 403
 
 startup = 15
 active = [15, 24]
 recovery = 23
 damage = 900
 superArt = 1000
+notes = ["A sliding low attack that cannot be blocked standing."]
+notes_ja = ["地面を滑りつつ足元を攻撃する、立ってガードできない下段攻撃。"]
 
 [moves.frameAdvantage]
 block = -15
@@ -659,10 +671,12 @@ type = "targetCombo"
 blockType = "mid"
 input = "5mp>6hp"
 hitCount = 2
-
-notes = ["Adds a floor bounding effect during a mid-air hit"]
-notes_ja = ["空中ヒット時床バウンド"]
-
+capcomID = 404
+notes = [
+  "A two-hit series of attacks, the second of which cannot be blocked crouching.",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = ["2段目がしゃがみでガードできない連続攻撃。", "空中ヒット時床バウンド"]
 startup = 22
 active = [22, 24]
 recovery = 20
@@ -688,12 +702,17 @@ type = "targetCombo"
 blockType = "low"
 input = "5mp>2hk"
 hitCount = 2
+capcomID = 405
 
 startup = 16
 active = [16, 19]
 recovery = 20
 damage = 700
 superArt = 600
+notes = [
+  "An attack consisting of multiple hits that cannot be blocked while standing.",
+]
+notes_ja = ["続けてヒットする、立ってガードできない連続攻撃。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -714,12 +733,18 @@ type = "targetCombo"
 blockType = "high"
 input = "j>mp>mp"
 hitCount = 2
+capcomID = 406
 
 startup = 7
 active = [7, 10]
 postLandingRecovery = 3
 damage = 700
 superArt = 500
+notes = [
+  "A combination attack that is useful against jumping opponents.",
+  "During a jump",
+]
+notes_ja = ["相手のジャンプに対して強い連続攻撃。", "ジャンプ中に"]
 
 [moves.driveGauge]
 onHit = 1000
@@ -740,10 +765,16 @@ input = "[4]>6lp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 17",
   "Considered airborne from frames 22 - 31",
 ]
-notes_ja = ["6-17F 空中判定の攻撃に対して無敵", "22-31F 空中判定"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-17F 空中判定の攻撃に対して無敵",
+  "22-31F 空中判定",
+]
+capcomID = 501
 
 startup = 16
 active = [16, 31]
@@ -776,11 +807,18 @@ input = "[4]>6lp"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 17",
   "Considered airborne from frames 22 - 31",
   "Detonates a Psycho Mine on block or on hit",
 ]
-notes_ja = ["6-17F 空中判定の攻撃に対して無敵", "22-31F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-17F 空中判定の攻撃に対して無敵",
+  "22-31F 空中判定",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
+capcomID = 501
 
 startup = 16
 active = [16, 31]
@@ -813,10 +851,16 @@ input = "[4]>6mp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 21",
   "Considered airborne from frames 26 - 45",
 ]
-notes_ja = ["6-21F 空中判定の攻撃に対して無敵", "26-45F 空中判定"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-21F 空中判定の攻撃に対して無敵",
+  "26-45F 空中判定",
+]
+capcomID = 501
 
 startup = 20
 active = [20, 35]
@@ -849,11 +893,18 @@ input = "[4]>6mp"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 21",
   "Considered airborne from frames 26 - 45",
   "Detonates a Psycho Mine on block or on hit",
 ]
-notes_ja = ["6-21F 空中判定の攻撃に対して無敵", "26-45F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-21F 空中判定の攻撃に対して無敵",
+  "26-45F 空中判定",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
+capcomID = 501
 
 startup = 20
 active = [20, 35]
@@ -886,10 +937,16 @@ input = "[4]>6hp"
 hitCount = 1
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 25",
   "Considered airborne from frames 30 - 49",
 ]
-notes_ja = ["6-25F 空中判定の攻撃に対して無敵", "30-49F 空中判定"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-25F 空中判定の攻撃に対して無敵",
+  "30-49F 空中判定",
+]
+capcomID = 501
 
 startup = 24
 active = [24, 49]
@@ -922,11 +979,18 @@ input = "[4]>6hp"
 hitCount = 2
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 6 - 25",
   "Considered airborne from frames 30 - 49",
   "Detonates a Psycho Mine on block or on hit",
 ]
-notes_ja = ["6-25F 空中判定の攻撃に対して無敵", "30-49F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "6-25F 空中判定の攻撃に対して無敵",
+  "30-49F 空中判定",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
+capcomID = 501
 
 startup = 24
 active = [24, 49]
@@ -960,11 +1024,18 @@ hitCount = 1
 
 properties = ["knockdown"]
 notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
   "Invincible to mid-air attacks from frames 7 - 17",
   "Projectile invincible from frames 13 - 31",
   "Considered airborne from frames 20 - 31",
 ]
-notes_ja = ["7-17F 空中判定の攻撃に対して無敵", "13-31F 飛び道具無敵", "20-31F 空中判定"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "7-17F 空中判定の攻撃に対して無敵",
+  "13-31F 飛び道具無敵",
+  "20-31F 空中判定",
+]
+capcomID = 501
 
 startup = 16
 active = [16, 31]
@@ -996,8 +1067,12 @@ input = "[4]>6(pp)"
 hitCount = 2
 
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。", "ヒット/ガード時にサイコマインを誘爆"]
+capcomID = 501
 
 startup = 16
 active = [16, 31]
@@ -1026,6 +1101,7 @@ type = "special"
 blockType = "high"
 input = "236lk"
 hitCount = 2
+capcomID = 502
 
 startup = 13
 active = [13, 14, 16, 17]
@@ -1035,6 +1111,10 @@ damage = 800
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 800
+notes = [
+  "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance.",
+]
+notes_ja = ["前方へ回転しつつ飛び、相手の足元を狙う連続攻撃。離れた位置からのけん制として有効。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -1057,6 +1137,7 @@ type = "special"
 blockType = "high"
 hitCount = 2
 input = "236mk"
+capcomID = 502
 
 startup = 17
 active = [17, 18, 20, 21]
@@ -1066,6 +1147,10 @@ damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
+notes = [
+  "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance.",
+]
+notes_ja = ["前方へ回転しつつ飛び、相手の足元を狙う連続攻撃。離れた位置からのけん制として有効。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1088,6 +1173,7 @@ type = "special"
 blockType = "high"
 hitCount = 2
 input = "236hk"
+capcomID = 502
 
 startup = 22
 active = [22, 23, 25, 26]
@@ -1095,6 +1181,10 @@ recovery = 20
 cancel = "SA3"
 damage = 1200
 superArt = 1200
+notes = [
+  "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance.",
+]
+notes_ja = ["前方へ回転しつつ飛び、相手の足元を狙う連続攻撃。離れた位置からのけん制として有効。"]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1118,6 +1208,7 @@ blockType = "high"
 hitCount = 2
 input = "236(pp)"
 properties = ["knockdown"]
+capcomID = 502
 
 startup = 17
 active = [17, 18, 20, 21, 39, 41]
@@ -1125,6 +1216,10 @@ recovery = 28
 cancel = "SA2"
 damage = 800
 superArt = 1000
+notes = [
+  "Flip and fly forward towards the opponent before hitting them multiple times. A powerful tool to control space at a distance.",
+]
+notes_ja = ["前方へ回転しつつ飛び、相手の足元を狙う連続攻撃。離れた位置からのけん制として有効。"]
 
 [moves.frameAdvantage]
 block = -15
@@ -1145,8 +1240,12 @@ type = "special"
 blockType = "high"
 input = "214lp"
 properties = ["knockdown"]
-notes = ["Implants a Psycho Mine into the opponent on hit"]
-notes_ja = ["ヒット時にサイコマインを相手に付与"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Implants a Psycho Mine into the opponent on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット時にサイコマインを相手に付与"]
+capcomID = 503
 
 startup = 13
 active = [13, 14, 25, 29]
@@ -1175,8 +1274,12 @@ type = "special"
 blockType = "high"
 input = "214lp"
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
+capcomID = 503
 
 startup = 13
 active = [13, 14, 25, 29]
@@ -1205,8 +1308,12 @@ type = "special"
 blockType = "high"
 input = "214mp"
 properties = ["knockdown"]
-notes = ["Implants a Psycho Mine into the opponent on hit"]
-notes_ja = ["ヒット時にサイコマインを相手に付与"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Implants a Psycho Mine into the opponent on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット時にサイコマインを相手に付与"]
+capcomID = 503
 
 startup = 17
 active = [17, 18, 29, 33]
@@ -1235,8 +1342,12 @@ type = "special"
 blockType = "high"
 input = "214mp"
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
+capcomID = 503
 
 startup = 17
 active = [17, 18, 29, 33]
@@ -1264,11 +1375,14 @@ characterId = 22
 type = "special"
 blockType = "high"
 input = "214hp"
+capcomID = 503
 
 properties = ["knockdown"]
-notes = ["Implants a Psycho Mine into the opponent on hit"]
-notes_ja = ["ヒット時にサイコマインを相手に付与"]
-
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Implants a Psycho Mine into the opponent on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット時にサイコマインを相手に付与"]
 startup = 22
 active = [22, 24, 35, 39]
 recovery = 26
@@ -1296,8 +1410,12 @@ type = "special"
 blockType = "high"
 input = "214hp"
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
+capcomID = 503
 
 startup = 22
 active = [22, 24, 35, 39]
@@ -1326,8 +1444,12 @@ type = "special"
 blockType = "high"
 input = "214(pp)"
 properties = ["knockdown"]
-notes = ["Adds a floor bounding effect on the final attack"]
-notes_ja = ["最終段ヒット時床バウンド"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Adds a floor bounding effect on the final attack",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "最終段ヒット時床バウンド"]
+capcomID = 503
 
 startup = 14
 active = [14, 15, 35, 37, 61, 63]
@@ -1355,8 +1477,12 @@ type = "special"
 blockType = "high"
 input = "214(pp)"
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "Step forward and deliver a backhand blow into a powerful palm thrust. Plants a Psycho Mine on hit.",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
+capcomID = 503
 
 startup = 14
 active = [14, 15, 35, 37, 61, 63]
@@ -1399,10 +1525,16 @@ characterId = 22
 type = "special"
 input = "[2]>8lk"
 notes = [
-  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+  "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
   "Is considered airborne from frame 9",
 ]
-notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+notes_ja = [
+  "素早く、高く飛び上がるジャンプ。ここから2種類の技に派生できる。",
+  "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
+  "9F以降、空中判定",
+]
+capcomID = 504
 
 totalFrames = 53
 
@@ -1415,10 +1547,16 @@ characterId = 22
 type = "special"
 input = "[2]>8mk"
 notes = [
-  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+  "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
   "Is considered airborne from frame 9",
 ]
-notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+notes_ja = [
+  "素早く、高く飛び上がるジャンプ。ここから2種類の技に派生できる。",
+  "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
+  "9F以降、空中判定",
+]
+capcomID = 504
 
 totalFrames = 58
 
@@ -1431,10 +1569,16 @@ characterId = 22
 type = "special"
 input = "[2]>8hk"
 notes = [
-  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+  "Can transition to Head Press and Devil Reverse (including Overdrive versions) from frames 18-46",
   "Is considered airborne from frame 9",
 ]
-notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+notes_ja = [
+  "素早く、高く飛び上がるジャンプ。ここから2種類の技に派生できる。",
+  "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
+  "9F以降、空中判定",
+]
+capcomID = 504
 
 totalFrames = 63
 
@@ -1448,32 +1592,46 @@ type = "special"
 blockType = "mid"
 input = "[2]>8(pp)"
 notes = [
-  "Can transition to Overdrive Headpress and Devil’s Reverse from frames 16-42",
+  "A quick and high-reaching jump. Two different follow-ups can be used from it.",
+  "Can transition to Overdrive Head Press and Devil’s Reverse from frames 16-42",
   "Invincible to throws from frames 1 - 8",
   "Is considered airborne from frame 9",
 ]
-notes_ja = ["16F～42Fまで、ODヘッドプレス、ODデビルリバースに派生可能", "1-8F 投げに対して無敵", "9F以降、空中判定"]
+notes_ja = [
+  "素早く、高く飛び上がるジャンプ。ここから2種類の技に派生できる。",
+  "16F～42Fまで、ODヘッドプレス、ODデビルリバースに派生可能",
+  "1-8F 投げに対して無敵",
+  "9F以降、空中判定",
+]
+capcomID = 504
 
 totalFrames = 55
 
-# Headpress
+# Head Press
 [[moves]]
-name = "Headpress"
+name = "Head Press"
 name_ja = "ヘッドプレス"
-slug = "headpress"
+slug = "head-press"
 characterId = 22
 type = "followUp"
 blockType = "mid"
 input = "*k"
 hitCount = 1
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+capcomID = 505
 
 notes = [
+  "A technique from Shadow Rise that stomps on an opponent below you, and performs another jump if the first hit touches the opponent. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+  "During Shadow Rise",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "Can transition to Somersault Skull Diver from frame 23 until landing when this attack hits or is blocked.",
 ]
-notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "ヒット/ガード後23F～着地まで、サマーソルトスカルダイバーに派生可能"]
-
+notes_ja = [
+  "シャドウライズから派生する、相手を踏みつける技。真下の相手を攻撃し、相手に触れると再度ジャンプする。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+  "ヒット/ガードさせた高度によって硬直差が変化",
+  "ヒット/ガード後23F～着地まで、サマーソルトスカルダイバーに派生可能",
+]
 startup = 15
 active = [15]
 postLandingRecovery = 26
@@ -1491,24 +1649,31 @@ onHit = 2500
 onBlock = -6000
 onPunishCounter = -5000
 
-# Headpress (OD)
+# Head Press (OD)
 [[moves]]
-name = "Headpress (OD)"
+name = "Head Press (OD)"
 name_ja = "ヘッドプレス（OD）"
-slug = "headpress-od"
+slug = "head-press-od"
 characterId = 22
 type = "followUp"
 blockType = "mid"
 input = "kk"
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+capcomID = 508
 
 properties = ["knockdown"]
 notes = [
+  "A technique executed from Shadow Rise that stomps on an opponent. When performed from Overdrive Shadow Rise, it does not consume additional Drive gauge.",
+  "During Shadow Rise",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "Adds a floor bounding effect during a mid-air hit",
 ]
-notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "空中ヒット時床バウンド"]
-
+notes_ja = [
+  "シャドウライズから派生する、相手を踏みつける技。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+  "ヒット/ガードさせた高度によって硬直差が変化",
+  "空中ヒット時床バウンド",
+]
 startup = 15
 active = [15]
 postLandingRecovery = 12
@@ -1523,11 +1688,11 @@ maxBlock = 7
 onBlock = -6000
 onPunishCounter = -10000
 
-# Headpress (OD Shadow Rise)
+# Head Press (OD Shadow Rise)
 [[moves]]
-name = "Headpress (OD Shadow Rise)"
+name = "Head Press (OD Shadow Rise)"
 name_ja = "ヘッドプレス（ODシャドウライズ）"
-slug = "headpress-od-shadow-rise"
+slug = "head-press-od-shadow-rise"
 characterId = 22
 type = "followUp"
 blockType = "mid"
@@ -1536,10 +1701,11 @@ parents = ["shadow-rise-od"]
 
 properties = ["knockdown"]
 notes = [
+  "During Shadow Rise OD",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "Adds a floor bounding effect during a mid-air hit",
 ]
-notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "空中ヒット時床バウンド"]
+notes_ja = ["ODシャドウライズ中に", "ヒット/ガードさせた高度によって硬直差が変化", "空中ヒット時床バウンド"]
 
 startup = 15
 active = [15]
@@ -1564,13 +1730,22 @@ characterId = 22
 type = "followUp"
 blockType = "mid"
 input = "*p"
-parents = ["headpress", "headpress-od", "headpress-od-shadow-rise"]
+parents = ["head-press", "head-press-od", "head-press-od-shadow-rise"]
+capcomID = 506
 
 startup = 12
 active = [12, 21]
 recovery = 29
 damage = 800
 superArt = 1200
+notes = [
+  "A technique executed from the jump that occurs after Head Press. Will turn towards the enemy when used behind them. Its direction can be controlled back and forth after performing it.",
+  "After Head Press",
+]
+notes_ja = [
+  "ヘッドプレス後のジャンプから派生する技。相手が背後にいる場合は振り向いて攻撃する。発動後に前後への移動を制御できる。",
+  "ヘッドプレス後に",
+]
 
 [moves.driveGauge]
 onHit = 2500
@@ -1589,9 +1764,16 @@ input = "*p"
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
 properties = ["knockdown"]
 notes = [
+  "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+  "During Shadow Rise",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
 ]
-notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化"]
+notes_ja = [
+  "シャドウライズから派生する、落下しながらの手刀による攻撃。発動後に前後への移動を制御できる。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+  "ヒット/ガードさせた高度によって硬直差が変化",
+]
+capcomID = 507
 
 startup = 16
 active = [16]
@@ -1620,10 +1802,18 @@ input = "*p"
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
 properties = ["knockdown"]
 notes = [
+  "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+  "During Shadow Rise",
   "Recovery changes depending on the height of the attack when it hits or is blocked",
   "Detonates a Psycho Mine on block or on hit",
 ]
-notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "ヒット/ガード時にサイコマインを誘爆"]
+notes_ja = [
+  "シャドウライズから派生する、落下しながらの手刀による攻撃。発動後に前後への移動を制御できる。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+  "ヒット/ガードさせた高度によって硬直差が変化",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
+capcomID = 507
 
 startup = 16
 active = [16]
@@ -1651,6 +1841,15 @@ blockType = "midHigh"
 input = "pp"
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
 properties = ["knockdown"]
+notes = [
+  "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+  "During Shadow Rise",
+]
+notes_ja = [
+  "シャドウライズから派生する、落下しながらの手刀による攻撃。発動後に前後への移動を制御できる。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+]
+capcomID = 509
 
 startup = 21
 active = [21]
@@ -1676,8 +1875,17 @@ blockType = "midHigh"
 input = "pp"
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = [
+  "A technique that chops at the opponent, executed from Shadow Rise. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
+  "During Shadow Rise",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = [
+  "シャドウライズから派生する、落下しながらの手刀による攻撃。発動後に前後への移動を制御できる。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
+  "シャドウライズ中に",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
+capcomID = 509
 
 startup = 21
 active = [21]
@@ -1703,6 +1911,8 @@ blockType = "midHigh"
 input = "*p"
 parents = ["shadow-rise-od"]
 properties = ["knockdown"]
+notes = ["During Shadow Rise OD", "Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ODシャドウライズ中に", "ヒット/ガード時にサイコマインを誘爆"]
 
 startup = 21
 active = [21]
@@ -1728,8 +1938,8 @@ blockType = "midHigh"
 input = "*p"
 parents = ["shadow-rise-od"]
 properties = ["knockdown"]
-notes = ["Detonates a Psycho Mine on block or on hit"]
-notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+notes = ["During Shadow Rise OD", "Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ODシャドウライズ中 に", "ヒット/ガード時にサイコマインを誘爆"]
 
 startup = 21
 active = [21]
@@ -1756,11 +1966,18 @@ hitCount = 5
 blockType = "mid"
 properties = ["knockdown"]
 notes = [
+  "Take aim at the opponent's legs with a series of crushing blows. Useful as a combo ender, or as a counter attack by making use of its invincibility.",
   "Invincible to strikes and throws between frames 1 - 11",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "The minimum guaranteed damage is 30%",
 ]
-notes_ja = ["1-11F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
+notes_ja = [
+  "相手の足元を連続攻撃で徹底的に破壊する技。コンボの締めや、無敵時間を活かした切り返しとして使える。",
+  "1-11F 打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30％",
+]
+capcomID = 601
 
 startup = 10
 active = [10, 11, 13, 15, 47, 48, 50, 51]
@@ -1786,11 +2003,18 @@ hitCount = 1
 blockType = "high"
 properties = ["knockdown"]
 notes = [
+  "Launch the opponent into the air with the shockwave from the landing of a powerful jump before following it up with a strong attack. Effective against enemies using projectiles from long range. Its direction can be controlled back and forth after performing it.",
   "Completely invincible on frames 1 - 25",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "The minimum guaranteed damage is 40%",
 ]
-notes_ja = ["1-25F 完全無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ40％"]
+notes_ja = [
+  "高所からの落下による衝撃波で吹き飛ばし、追撃を叩きこむ技。遠距離での飛び道具に対して有効。発動後に前後への移動を制御できる。",
+  "1-25F 完全無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
+capcomID = 602
 
 startup = 26
 active = [26, 32]
@@ -1814,14 +2038,20 @@ type = "super3"
 input = "236236*p"
 hitCount = 1
 blockType = "high"
+properties = ["knockdown"]
+capcomID = 603
 
 notes = [
+  "Rush towards the opponent before smashing them into the ground with devastating strength. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
+  "When under 25% vitality",
   "Completely invincible between frames 1 - 15",
   "The minimum guaranteed damage is 50%",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "全力の突進攻撃の後、相手を地面に叩きつける技。切り返しや飛び道具対策、コンボと幅広い場面で狙える。",
+  "体力25%以下で",
   "1-15F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1893,13 +2123,19 @@ type = "throw"
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
@@ -1922,13 +2158,19 @@ type = "throw"
 input = "(4lplk)"
 properties = ["knockdown"]
 notes = [
+  "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
   "- Super Art gauge increases by 4000",
   "- Forces a hard knockdown",
 ]
-notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
-
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
 startup = 5
 active = [5, 7]
 recovery = 23
