@@ -1,0 +1,1940 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "mbison-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "5lp"
+hitCount = 1
+
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 9
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "mbison-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "5mp"
+hitCount = 1
+
+startup = 8
+active = [8, 10]
+recovery = 15
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 6
+block = 0
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "mbison-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "5hp"
+hitCount = 1
+
+notes = [
+  "Adds a floor bounding effect during a mid-air hit",
+  "17 frames of advantage added when the attack lands as a Punish Counter",
+]
+notes_ja = ["空中ヒット時床バウンド", "パニッシュカウンター時+17F"]
+
+startup = 19
+active = [19, 21]
+recovery = 17
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "mbison-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 22
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lk"
+
+startup = 4
+active = [4, 5]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "mbison-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "5mk"
+hitCount = 1
+
+startup = 10
+active = [10, 13]
+recovery = 16
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "mbison-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "5hk"
+hitCount = 1
+
+notes = [
+  "Forces a juggle state when hitting a mid-air opponent",
+  "Produces a crumple stun for 32 frames when the attack lands as a Punish Counter",
+  "Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter",
+]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時に膝崩れダウンに+32F", "空中パニッシュカウンター時吹き飛び時間延長"]
+
+startup = 13
+active = [13, 16]
+recovery = 19
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 6
+block = -2
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -5000
+onPunishCounter = -10000
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "mbison-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 22
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 5]
+recovery = 10
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "mbison-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 22
+type = "normal"
+blockType = "high"
+input = "2mp"
+hitCount = 1
+notes = ["3 frames of recovery added when the attack misses"]
+notes_ja = ["※空振り時硬直3F増加"]
+
+startup = 6
+active = [6, 8]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 5
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "mbison-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 22
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+notes = [
+  "Forces the opponent into a standing position",
+  "Forces a juggle state when hitting a mid-air opponent on counter or Punish Counter",
+]
+notes_ja = ["強制立ち効果", "空中カウンター/パニッシュカウンター時吹き飛びダウン"]
+
+startup = 10
+active = [10, 15]
+recovery = 21
+cancel = "C"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 0
+block = -9
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "mbison-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 22
+type = "normal"
+blockType = "low"
+input = "2lk"
+hitCount = 1
+
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 6]
+recovery = 10
+damage = 200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "mbison-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 22
+type = "normal"
+blockType = "low"
+input = "2mk"
+hitCount = 1
+
+startup = 8
+active = [8, 10]
+recovery = 19
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "mbison-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 22
+type = "normal"
+blockType = "low"
+input = "2hk"
+hitCount = 1
+properties = ["knockdown"]
+
+startup = 11
+active = [11, 13]
+recovery = 26
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "mbison-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 22
+type = "normal"
+blockType = "mid"
+input = "j>lp"
+hitCount = 1
+
+startup = 5
+active = [5, 8]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+slug = "mbison-jump-medium-punch"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+abbreviation = "J.MP"
+name_ja = "ジャンプ中P"
+abbeviation_ja = "ジャンプ中P"
+characterId = 22
+type = "normal"
+blockType = "midHigh"
+input = "j>mp"
+hitCount = 2
+properties = ["juggle"]
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 8
+active = [8, 11]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "mbison-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 22
+type = "normal"
+blockType = "mid"
+input = "j>hp"
+hitCount = 1
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小キック", "ジャンプコキック"]
+slug = "mbison-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 22
+type = "normal"
+blockType = "mid"
+input = "j>lk"
+properties = ["canCrossUp"]
+hitCount = 1
+startup = 5
+active = [5, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "mbison-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 22
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+properties = ["canCrossUp"]
+
+startup = 7
+active = [7, 13]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "mbison-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 22
+type = "normal"
+blockType = "mid"
+input = "j>hk"
+hitCount = 1
+
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Psycho Hammer
+[[moves]]
+name = "Psycho Hammer"
+name_ja = "サイコハンマー"
+slug = "psycho-hammer"
+characterId = 22
+type = "commandNormal"
+blockType = "mid"
+input = "6hp"
+hitCount = 1
+notes = ["Adds a floor bounding effect during a mid-air hit"]
+notes_ja = ["空中ヒット時床バウンド"]
+
+startup = 22
+active = [22, 24]
+recovery = 20
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# Evil Knee
+[[moves]]
+name = "Evil Knee"
+name_ja = "イビルニー"
+slug = "evil-knee"
+characterId = 22
+type = "commandNormal"
+blockType = "high"
+input = "4hk"
+
+startup = 10
+active = [10, 13]
+recovery = 17
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 4
+block = 1
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Hover Kick
+[[moves]]
+name = "Hover Kick"
+name_ja = "ホバーキック"
+slug = "hover-kick"
+characterId = 22
+type = "commandNormal"
+blockType = "low"
+input = "3hk"
+hitCount = 1
+properties = ["knockdown"]
+
+startup = 15
+active = [15, 24]
+recovery = 23
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Shadow Hammer
+[[moves]]
+name = "Shadow Hammer"
+name_ja = "シャドウハンマー"
+slug = "shadow-hammer"
+characterId = 22
+type = "targetCombo"
+blockType = "mid"
+input = "5mp>6hp"
+hitCount = 2
+
+notes = ["Adds a floor bounding effect during a mid-air hit"]
+notes_ja = ["空中ヒット時床バウンド"]
+
+startup = 22
+active = [22, 24]
+recovery = 20
+damage = 800
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -7000
+
+# Shadow Spear
+[[moves]]
+name = "Shadow Spear"
+name_ja = "シャドウスピア"
+slug = "shadow-spear"
+characterId = 22
+type = "targetCombo"
+blockType = "low"
+input = "5mp>2hk"
+hitCount = 2
+
+startup = 16
+active = [16, 19]
+recovery = 20
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Hell Attack
+[[moves]]
+name = "Hell Attack"
+name_ja = "ヘルアタック"
+slug = "hell-attack"
+characterId = 22
+type = "targetCombo"
+blockType = "high"
+input = "j>mp>mp"
+hitCount = 2
+
+startup = 7
+active = [7, 10]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -3000
+onPunishCounter = -4000
+
+# Psycho Crusher Attack (Light)
+[[moves]]
+name = "Psycho Crusher Attack (Light)"
+name_ja = "サイコクラッシャーアタック（弱）"
+alternativeNames = ["L Psycho Crusher"]
+alternativeNames_ja = ["弱サイコクラッシャー"]
+slug = "psycho-crusher-attack-light"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6lp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 17",
+  "Considered airborne from frames 22 - 31",
+]
+notes_ja = ["6-17F 空中判定の攻撃に対して無敵", "22-31F 空中判定"]
+
+startup = 16
+active = [16, 31]
+recovery = 24
+cancel = "SA3"
+damage = 1200
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -10000
+
+# [Psycho Mine] Psycho Crusher Attack (Light)
+[[moves]]
+name = "[Psycho Mine] Psycho Crusher Attack (Light)"
+name_ja = "[サイコマイン付与時] サイコクラッシャーアタック（弱）"
+alternativeNames = ["L Psycho Crusher"]
+alternativeNames_ja = ["弱サイコクラッシャー"]
+slug = "psycho-crusher-attack-light-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6lp"
+hitCount = 2
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 17",
+  "Considered airborne from frames 22 - 31",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["6-17F 空中判定の攻撃に対して無敵", "22-31F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 16
+active = [16, 31]
+recovery = 24
+cancel = "SA3"
+damage = 1700
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1700
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -9000
+onPunishCounter = -10000
+
+# Psycho Crusher Attack (Medium)
+[[moves]]
+name = "Psycho Crusher Attack (Medium)"
+name_ja = "サイコクラッシャーアタック（中）"
+alternativeNames = ["M Psycho Crusher"]
+alternativeNames_ja = ["中サイコクラッシャー"]
+slug = "psycho-crusher-attack-medium"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6mp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 21",
+  "Considered airborne from frames 26 - 45",
+]
+notes_ja = ["6-21F 空中判定の攻撃に対して無敵", "26-45F 空中判定"]
+
+startup = 20
+active = [20, 35]
+recovery = 24
+cancel = "SA3"
+damage = 1400
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1300
+
+[moves.frameAdvantage]
+block = -20
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -7000
+onPunishCounter = -10000
+
+# [Psycho Mine] Psycho Crusher Attack (Medium)
+[[moves]]
+name = "[Psycho Mine] Psycho Crusher Attack (Medium)"
+name_ja = "[サイコマイン付与時] サイコクラッシャーアタック（中）"
+alternativeNames = ["M Psycho Crusher"]
+alternativeNames_ja = ["中サイコクラッシャー"]
+slug = "psycho-crusher-attack-medium-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6mp"
+hitCount = 2
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 21",
+  "Considered airborne from frames 26 - 45",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["6-21F 空中判定の攻撃に対して無敵", "26-45F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 20
+active = [20, 35]
+recovery = 24
+cancel = "SA3"
+damage = 1900
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1800
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onHit = 4500
+onBlock = -10000
+onPunishCounter = -10000
+
+# Psycho Crusher Attack (Heavy)
+[[moves]]
+name = "Psycho Crusher Attack (Heavy)"
+name_ja = "サイコクラッシャーアタック（強）"
+alternativeNames = ["H Psycho Crusher"]
+alternativeNames_ja = ["強サイコクラッシャー"]
+slug = "psycho-crusher-attack-heavy"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6hp"
+hitCount = 1
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 25",
+  "Considered airborne from frames 30 - 49",
+]
+notes_ja = ["6-25F 空中判定の攻撃に対して無敵", "30-49F 空中判定"]
+
+startup = 24
+active = [24, 49]
+recovery = 24
+cancel = "SA3"
+damage = 1600
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1500
+
+[moves.frameAdvantage]
+block = -23
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -8000
+onPunishCounter = -10000
+
+# [Psycho Mine] Psycho Crusher Attack (Heavy)
+[[moves]]
+name = "[Psycho Mine] Psycho Crusher Attack (Heavy)"
+name_ja = "[サイコマイン付与時] サイコクラッシャーアタック（強）"
+alternativeNames = ["H Psycho Crusher"]
+alternativeNames_ja = ["強サイコクラッシャー"]
+slug = "psycho-crusher-attack-heavy-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6hp"
+hitCount = 2
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 6 - 25",
+  "Considered airborne from frames 30 - 49",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["6-25F 空中判定の攻撃に対して無敵", "30-49F 空中判定", "ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 24
+active = [24, 49]
+recovery = 24
+cancel = "SA3"
+damage = 2100
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 2000
+
+[moves.frameAdvantage]
+block = 5
+
+[moves.driveGauge]
+onHit = 5000
+onBlock = -11000
+onPunishCounter = -10000
+
+# Psycho Crusher Attack (OD)
+[[moves]]
+name = "Psycho Crusher Attack (OD)"
+name_ja = "サイコクラッシャーアタック（OD）"
+alternativeNames = ["OD Psycho Crusher"]
+alternativeNames_ja = ["ODサイコクラッシャー"]
+slug = "psycho-crusher-attack-od"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "[4]>6(pp)"
+hitCount = 1
+
+properties = ["knockdown"]
+notes = [
+  "Invincible to mid-air attacks from frames 7 - 17",
+  "Projectile invincible from frames 13 - 31",
+  "Considered airborne from frames 20 - 31",
+]
+notes_ja = ["7-17F 空中判定の攻撃に対して無敵", "13-31F 飛び道具無敵", "20-31F 空中判定"]
+
+startup = 16
+active = [16, 31]
+recovery = 20
+cancel = "SA2"
+damage = 1300
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -7000
+
+# [Psycho Mine] Psycho Crusher Attack (OD)
+[[moves]]
+name = "[Psycho Mine] Psycho Crusher Attack (OD)"
+name_ja = "[サイコマイン付与時] サイコクラッシャーアタック（OD）"
+alternativeNames = ["OD Psycho Crusher"]
+alternativeNames_ja = ["ODサイコクラッシャー"]
+slug = "psycho-crusher-attack-od-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "mid"
+input = "[4]>6(pp)"
+hitCount = 2
+
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 16
+active = [16, 31]
+recovery = 20
+damage = 2000
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 2800
+
+[moves.frameAdvantage]
+block = 10
+
+[moves.driveGauge]
+onBlock = -13000
+onPunishCounter = -7000
+
+# Double Knee Press (Light)
+[[moves]]
+name = "Double Knee Press (Light)"
+name_ja = "ダブルニープレス（弱）"
+alternativeNames = ["L Double Knee Press", "L Scissor Kick"]
+alternativeNames_ja = ["弱ダブルニープレス"]
+slug = "double-knee-press-light"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "236lk"
+hitCount = 2
+
+startup = 13
+active = [13, 14, 16, 17]
+recovery = 20
+cancel = "SA3"
+damage = 800
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 2
+block = -5
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -5000
+onPunishCounter = -5000
+
+# Double Knee Press (Medium)
+[[moves]]
+name = "Double Knee Press (Medium)"
+name_ja = "ダブルニープレス（中）"
+alternativeNames = ["M Double Knee Press", "M Scissor Kick"]
+alternativeNames_ja = ["中ダブルニープレス"]
+slug = "double-knee-press-medium"
+characterId = 22
+type = "special"
+blockType = "high"
+hitCount = 2
+input = "236mk"
+
+startup = 17
+active = [17, 18, 20, 21]
+recovery = 20
+cancel = "SA3"
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -5000
+
+# Double Knee Press (Heavy)
+[[moves]]
+name = "Double Knee Press (Heavy)"
+name_ja = "ダブルニープレス（強）"
+alternativeNames = ["H Double Knee Press", "H Scissor Kick"]
+alternativeNames_ja = ["強ダブルニープレス"]
+slug = "double-knee-press-heavy"
+characterId = 22
+type = "special"
+blockType = "high"
+hitCount = 2
+input = "236hk"
+
+startup = 22
+active = [22, 23, 25, 26]
+recovery = 20
+cancel = "SA3"
+damage = 1200
+superArt = 1200
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -5000
+onPunishCounter = -5000
+
+# Double Knee Press (OD)
+[[moves]]
+name = "Double Knee Press (OD)"
+name_ja = "ダブルニープレス（OD）"
+alternativeNames = ["OD Double Knee Press", "OD Scissor Kick"]
+alternativeNames_ja = ["ODダブルニープレス"]
+slug = "double-knee-press-od"
+characterId = 22
+type = "special"
+blockType = "high"
+hitCount = 2
+input = "236(pp)"
+properties = ["knockdown"]
+
+startup = 17
+active = [17, 18, 20, 21, 39, 41]
+recovery = 28
+cancel = "SA2"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
+
+# Backfist Combo (Light)
+[[moves]]
+name = "Backfist Combo (Light)"
+name_ja = "バックフィストコンボ（弱）"
+alternativeNames = ["L Backfist Combo"]
+alternativeNames_ja = ["弱バックフィストコンボ"]
+slug = "backfist-combo-light"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214lp"
+properties = ["knockdown"]
+notes = ["Implants a Psycho Mine into the opponent on hit"]
+notes_ja = ["ヒット時にサイコマインを相手に付与"]
+
+startup = 13
+active = [13, 14, 25, 29]
+recovery = 25
+cancel = "SA3"
+damage = 700
+superArt = 800
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -5000
+
+# [Psycho Mine] Backfist Combo (Light)
+[[moves]]
+name = "[Psycho Mine] Backfist Combo (Light)"
+name_ja = "[サイコマイン付与時] バックフィストコンボ（弱）"
+alternativeNames = ["L Backfist Combo"]
+alternativeNames_ja = ["弱バックフィストコンボ"]
+slug = "backfist-combo-light-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214lp"
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 13
+active = [13, 14, 25, 29]
+recovery = 25
+cancel = "SA3"
+damage = 1300
+superArt = 1300
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -9000
+onPunishCounter = -8000
+
+# Backfist Combo (Medium)
+[[moves]]
+name = "Backfist Combo (Medium)"
+name_ja = "バックフィストコンボ（中）"
+alternativeNames = ["M Backfist Combo"]
+alternativeNames_ja = ["中バックフィストコンボ"]
+slug = "backfist-combo-medium"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214mp"
+properties = ["knockdown"]
+notes = ["Implants a Psycho Mine into the opponent on hit"]
+notes_ja = ["ヒット時にサイコマインを相手に付与"]
+
+startup = 17
+active = [17, 18, 29, 33]
+recovery = 26
+cancel = "SA3"
+damage = 800
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -5000
+
+# [Psycho Mine] Backfist Combo (Medium)
+[[moves]]
+name = "[Psycho Mine] Backfist Combo (Medium)"
+name_ja = "[サイコマイン付与時] バックフィストコンボ（中）"
+alternativeNames = ["M Backfist Combo"]
+alternativeNames_ja = ["中バックフィストコンボ"]
+slug = "backfist-combo-medium-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214mp"
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 17
+active = [17, 18, 29, 33]
+recovery = 26
+cancel = "SA3"
+damage = 1400
+superArt = 1700
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onHit = 4500
+onBlock = -9000
+onPunishCounter = -8000
+
+# Backfist Combo (Heavy)
+[[moves]]
+name = "Backfist Combo (Heavy)"
+name_ja = "バックフィストコンボ（強）"
+alternativeNames = ["H Backfist Combo"]
+alternativeNames_ja = ["強バックフィストコンボ"]
+slug = "backfist-combo-heavy"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214hp"
+
+properties = ["knockdown"]
+notes = ["Implants a Psycho Mine into the opponent on hit"]
+notes_ja = ["ヒット時にサイコマインを相手に付与"]
+
+startup = 22
+active = [22, 24, 35, 39]
+recovery = 26
+cancel = "SA3"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -15
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -5000
+
+# [Psycho Mine] Backfist Combo (Heavy)
+[[moves]]
+name = "[Psycho Mine] Backfist Combo (Heavy)"
+name_ja = "[サイコマイン付与時] バックフィストコンボ（強）"
+alternativeNames = ["H Backfist Combo"]
+alternativeNames_ja = ["強バックフィストコンボ"]
+slug = "backfist-combo-heavy-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214hp"
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 22
+active = [22, 24, 35, 39]
+recovery = 26
+cancel = "SA3"
+damage = 1500
+superArt = 1500
+
+[moves.frameAdvantage]
+block = 6
+
+[moves.driveGauge]
+onHit = 4500
+onBlock = -9000
+onPunishCounter = -8000
+
+# Backfist Combo (OD)
+[[moves]]
+name = "Backfist Combo (OD)"
+name_ja = "バックフィストコンボ（OD）"
+alternativeNames = ["OD Backfist Combo"]
+alternativeNames_ja = ["ODバックフィストコンボ"]
+slug = "backfist-combo-od"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214(pp)"
+properties = ["knockdown"]
+notes = ["Adds a floor bounding effect on the final attack"]
+notes_ja = ["最終段ヒット時床バウンド"]
+
+startup = 14
+active = [14, 15, 35, 37, 61, 63]
+recovery = 44
+cancel = "SA2"
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onBlock = -9000
+onPunishCounter = -7000
+
+# [Psycho Mine] Backfist Combo (OD)
+[[moves]]
+name = "[Psycho Mine] Backfist Combo (OD)"
+name_ja = "[サイコマイン付与時] バックフィストコンボ（OD）"
+alternativeNames = ["OD Backfist Combo"]
+alternativeNames_ja = ["ODバックフィストコンボ"]
+slug = "backfist-combo-od-psycho-mine"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "214(pp)"
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 14
+active = [14, 15, 35, 37, 61, 63]
+recovery = 44
+cancel = "SA2"
+damage = 1700
+superArt = 1500
+
+[moves.frameAdvantage]
+block = -3
+
+[moves.driveGauge]
+onBlock = -12000
+onPunishCounter = -10000
+
+# Psycho Mine (Self Detonation)
+[[moves]]
+name = "Psycho Mine (Self Detonation)"
+name_ja = "サイコマイン（自動爆発）"
+slug = "psycho-mine-self-detonation"
+characterId = 22
+type = "special"
+blockType = "high"
+input = "5"
+
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
+
+# Shadow Rise (Light)
+[[moves]]
+name = "Shadow Rise (Light)"
+name_ja = "シャドウライズ（弱）"
+slug = "shadow-rise-light"
+characterId = 22
+type = "special"
+input = "[2]>8lk"
+notes = [
+  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "Is considered airborne from frame 9",
+]
+notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+
+totalFrames = 53
+
+# Shadow Rise (Medium)
+[[moves]]
+name = "Shadow Rise (Medium)"
+name_ja = "シャドウライズ（中）"
+slug = "shadow-rise-medium"
+characterId = 22
+type = "special"
+input = "[2]>8mk"
+notes = [
+  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "Is considered airborne from frame 9",
+]
+notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+
+totalFrames = 58
+
+# Shadow Rise (Heavy)
+[[moves]]
+name = "Shadow Rise (Heavy)"
+name_ja = "シャドウライズ（強）"
+slug = "shadow-rise-heavy"
+characterId = 22
+type = "special"
+input = "[2]>8hk"
+notes = [
+  "Can transition to Headpress and Devil Reverse (including Overdrive versions) from frames 18-46",
+  "Is considered airborne from frame 9",
+]
+notes_ja = ["18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能", "9F以降、空中判定"]
+
+totalFrames = 63
+
+# Shadow Rise (OD)
+[[moves]]
+name = "Shadow Rise (OD)"
+name_ja = "シャドウライズ（OD）"
+slug = "shadow-rise-od"
+characterId = 22
+type = "special"
+blockType = "mid"
+input = "[2]>8(pp)"
+notes = [
+  "Can transition to Overdrive Headpress and Devil’s Reverse from frames 16-42",
+  "Invincible to throws from frames 1 - 8",
+  "Is considered airborne from frame 9",
+]
+notes_ja = ["16F～42Fまで、ODヘッドプレス、ODデビルリバースに派生可能", "1-8F 投げに対して無敵", "9F以降、空中判定"]
+
+totalFrames = 55
+
+# Headpress
+[[moves]]
+name = "Headpress"
+name_ja = "ヘッドプレス"
+slug = "headpress"
+characterId = 22
+type = "followUp"
+blockType = "mid"
+input = "*k"
+hitCount = 1
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+  "Can transition to Somersault Skull Diver from frame 23 until landing when this attack hits or is blocked.",
+]
+notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "ヒット/ガード後23F～着地まで、サマーソルトスカルダイバーに派生可能"]
+
+startup = 15
+active = [15]
+postLandingRecovery = 26
+damage = 800
+superArt = 1200
+
+[moves.frameAdvantage]
+minHit = -28
+maxHit = -23
+minBlock = -39
+maxBlock = -33
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -5000
+
+# Headpress (OD)
+[[moves]]
+name = "Headpress (OD)"
+name_ja = "ヘッドプレス（OD）"
+slug = "headpress-od"
+characterId = 22
+type = "followUp"
+blockType = "mid"
+input = "kk"
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+
+properties = ["knockdown"]
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "空中ヒット時床バウンド"]
+
+startup = 15
+active = [15]
+postLandingRecovery = 12
+damage = 2000
+superArt = 1800
+
+[moves.frameAdvantage]
+minBlock = 5
+maxBlock = 7
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -10000
+
+# Headpress (OD Shadow Rise)
+[[moves]]
+name = "Headpress (OD Shadow Rise)"
+name_ja = "ヘッドプレス（ODシャドウライズ）"
+slug = "headpress-od-shadow-rise"
+characterId = 22
+type = "followUp"
+blockType = "mid"
+input = "*k"
+parents = ["shadow-rise-od"]
+
+properties = ["knockdown"]
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+  "Adds a floor bounding effect during a mid-air hit",
+]
+notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "空中ヒット時床バウンド"]
+
+startup = 15
+active = [15]
+postLandingRecovery = 12
+damage = 2000
+superArt = 1800
+
+[moves.frameAdvantage]
+minBlock = 5
+maxBlock = 7
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -10000
+
+# Somersault Skull Diver
+[[moves]]
+name = "Somersault Skull Diver"
+name_ja = "サマーソルトスカルダイバー"
+slug = "somersault-skull-diver"
+characterId = 22
+type = "followUp"
+blockType = "mid"
+input = "*p"
+parents = ["headpress", "headpress-od", "headpress-od-shadow-rise"]
+
+startup = 12
+active = [12, 21]
+recovery = 29
+damage = 800
+superArt = 1200
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -5000
+
+# Devil Reverse
+[[moves]]
+name = "Devil Reverse"
+name_ja = "デビルリバース"
+slug = "devil-reverse"
+characterId = 22
+type = "followUp"
+blockType = "mid"
+input = "*p"
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+properties = ["knockdown"]
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+]
+notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化"]
+
+startup = 16
+active = [16]
+postLandingRecovery = 10
+damage = 800
+superArt = 1200
+
+[moves.frameAdvantage]
+minBlock = 1
+maxBlock = 5
+
+[moves.driveGauge]
+onHit = 2500
+onBlock = -6000
+onPunishCounter = -5000
+
+# [Psycho Mine] Devil Reverse
+[[moves]]
+name = "[Psycho Mine] Devil Reverse"
+name_ja = "[サイコマイン付与時] デビルリバース"
+slug = "devil-reverse-psycho-mine"
+characterId = 22
+type = "followUp"
+blockType = "midHigh"
+input = "*p"
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+properties = ["knockdown"]
+notes = [
+  "Recovery changes depending on the height of the attack when it hits or is blocked",
+  "Detonates a Psycho Mine on block or on hit",
+]
+notes_ja = ["ヒット/ガードさせた高度によって硬直差が変化", "ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 16
+active = [16]
+postLandingRecovery = 10
+damage = 2000
+superArt = 2300
+
+[moves.frameAdvantage]
+minBlock = 15
+maxBlock = 16
+
+[moves.driveGauge]
+onHit = 5750
+onBlock = -12000
+onPunishCounter = -10500
+
+# Devil Reverse (OD)
+[[moves]]
+name = "Devil Reverse (OD)"
+name_ja = "デビルリバース（OD）"
+slug = "devil-reverse-od"
+characterId = 22
+type = "followUp"
+blockType = "midHigh"
+input = "pp"
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+properties = ["knockdown"]
+
+startup = 21
+active = [21]
+postLandingRecovery = 10
+damage = 1400
+superArt = 1600
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -7000
+
+# [Psycho Mine] Devil Reverse (OD)
+[[moves]]
+name = "[Psycho Mine] Devil Reverse (OD)"
+name_ja = "[サイコマイン付与時] デビルリバース（OD）"
+slug = "devil-reverse-od-psycho-mine"
+characterId = 22
+type = "followUp"
+blockType = "midHigh"
+input = "pp"
+parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 21
+active = [21]
+postLandingRecovery = 10
+damage = 2600
+superArt = 2100
+
+[moves.frameAdvantage]
+block = 24
+
+[moves.driveGauge]
+onBlock = -13000
+onPunishCounter = -13000
+
+# Devil Reverse (OD Shadow Rise)
+[[moves]]
+name = "Devil Reverse (OD Shadow Rise)"
+name_ja = "デビルリバース（ODシャドウライズ）"
+slug = "devil-reverse-od-shadow-rise"
+characterId = 22
+type = "followUp"
+blockType = "midHigh"
+input = "*p"
+parents = ["shadow-rise-od"]
+properties = ["knockdown"]
+
+startup = 21
+active = [21]
+postLandingRecovery = 10
+damage = 1400
+superArt = 1600
+
+[moves.frameAdvantage]
+block = 4
+
+[moves.driveGauge]
+onBlock = -8000
+onPunishCounter = -7000
+
+# [Psycho Mine] Devil Reverse (OD Shadow Rise)
+[[moves]]
+name = "[Psycho Mine] Devil Reverse (OD Shadow Rise)"
+name_ja = "[サイコマイン付与時] デビルリバース（ODシャドウライズ）"
+slug = "devil-reverse-od-shadow-rise-psycho-mine"
+characterId = 22
+type = "followUp"
+blockType = "midHigh"
+input = "*p"
+parents = ["shadow-rise-od"]
+properties = ["knockdown"]
+notes = ["Detonates a Psycho Mine on block or on hit"]
+notes_ja = ["ヒット/ガード時にサイコマインを誘爆"]
+
+startup = 21
+active = [21]
+postLandingRecovery = 10
+damage = 2600
+superArt = 2100
+
+[moves.frameAdvantage]
+block = 24
+
+[moves.driveGauge]
+onBlock = -13000
+onPunishCounter = -13000
+
+# Knee Press Nightmare
+[[moves]]
+name = "Knee Press Nightmare"
+name_ja = "ニープレスナイトメア"
+slug = "knee-press-nightmare"
+characterId = 22
+type = "super1"
+input = "236236*k"
+hitCount = 5
+blockType = "mid"
+properties = ["knockdown"]
+notes = [
+  "Invincible to strikes and throws between frames 1 - 11",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 30%",
+]
+notes_ja = ["1-11F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
+
+startup = 10
+active = [10, 11, 13, 15, 47, 48, 50, 51]
+recovery = 62
+damage = 2000
+
+[moves.frameAdvantage]
+block = -41
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# Psycho Punisher
+[[moves]]
+name = "Psycho Punisher"
+name_ja = "サイコパニッシャー"
+slug = "psycho-punisher"
+characterId = 22
+type = "super2"
+input = "214214*k"
+hitCount = 1
+blockType = "high"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible on frames 1 - 25",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 40%",
+]
+notes_ja = ["1-25F 完全無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ40％"]
+
+startup = 26
+active = [26, 32]
+recovery = 52
+damage = 3000
+
+[moves.frameAdvantage]
+block = -34
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -10000
+
+# Unlimited Psycho Crusher
+[[moves]]
+name = "Unlimited Psycho Crusher"
+name_ja = "アンリミテッドサイコクラッシャー"
+slug = "unlimited-psycho-crusher"
+characterId = 22
+type = "super3"
+input = "236236*p"
+hitCount = 1
+blockType = "high"
+
+notes = [
+  "Completely invincible between frames 1 - 15",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-15F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 15]
+recovery = 65
+damage = 4000
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
+
+[moves.frameAdvantage]
+hit = -61
+block = -46
+
+[moves.driveGauge]
+onBlock = -7500
+onPunishCounter = -15000
+
+# Unlimitted Psycho Crusher (Critical Art)
+[[moves]]
+name = "Unlimitted Psycho Crusher (Critical Art)"
+name_ja = "アンリミテッドサイコクラッシャー（CA）"
+slug = "unlimitted-psycho-crusher-ca"
+characterId = 22
+type = "super3"
+input = "236236*p"
+hitCount = 1
+
+notes = [
+  "Completely invincible between frames 1 - 15",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-15F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 10
+active = [10, 15]
+recovery = 65
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+hit = -61
+block = -46
+
+[moves.driveGauge]
+onBlock = -10000
+onPunishCounter = -20000
+
+# Deadly Throw
+[[moves]]
+name = "Deadly Throw"
+name_ja = "デッドリースルー"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "deadly-throw"
+characterId = 22
+type = "throw"
+input = "(lplk)"
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
+
+# Death Tower
+[[moves]]
+name = "Death Tower"
+name_ja = "デスタワー"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後投げ"]
+slug = "death-tower"
+characterId = 22
+type = "throw"
+input = "(4lplk)"
+properties = ["knockdown"]
+notes = [
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = ["パニッシュカウンター時以下の性能変化", "・ダメージ2040", "・SAゲージ4000増加", "・ハードノックダウン"]
+
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000

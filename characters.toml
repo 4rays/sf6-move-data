@@ -624,11 +624,12 @@ name_ja = "ボクサー"
 id = 21
 name = "Akuma"
 slug = "akuma"
+capcom_slug = "gouki_akuma"
 name_ja = "豪鬼"
 description = "A demon of combat that has welcomed the Satsui no Hado into his being in his quest to become the ultimate master of the fist."
 description_ja = "己が拳を極めんため、殺意の波動を身に宿し闘い続ける修羅。"
 media = [
-  "https://www.streetfighter.com/6/assets/images/character/gouki_akuma/gouki_akuma_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/gouki_akuma/gouki_akuma_ss01_gouki.jpg",
   "https://www.streetfighter.com/6/assets/images/character/gouki_akuma/gouki_akuma_ss02.jpg",
   "https://www.streetfighter.com/6/assets/images/character/gouki_akuma/gouki_akuma_ss03.jpg",
   "https://www.streetfighter.com/6/assets/images/character/gouki_akuma/gouki_akuma_ss04.jpg",
@@ -643,3 +644,25 @@ name_ja = "道着"
 [[characters.tags]]
 name = "fireball"
 name_ja = "玉"
+
+# M.Bison
+[[characters]]
+id = 22
+name = "M.Bison"
+slug = "mbison"
+capcom_slug = "vega_mbison"
+name_ja = "ベガ"
+description = "The leader of the criminal organization Shadaloo, M.Bison seeks to control the world with his Psycho Power."
+description_ja = "犯罪組織シャドルーの首領。 サイコパワーを使い、世界を支配しようと企む。"
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison_ss01_mbison.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison_ss05.jpg",
+]
+artwork = "https://www.streetfighter.com/6/assets/images/character/vega_mbison/vega_mbison.png"
+
+[[characters.tags]]
+name = "charge"
+name_ja = "溜め"
