@@ -925,11 +925,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 5 - 11",
   "Considered airborne from frames 7 - 42",
+  "Invincible to throws from frames 7 - 11",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "5-11F 空中判定の攻撃に対して無敵",
   "7-42F 空中判定",
+  "7-11F 投げに対して無敵",
 ]
 
 startup = 6
@@ -964,11 +966,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 6 - 12",
   "Considered airborne from frames 8 - 45",
+  "Invincible to throws from frames 8 - 12",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "6-12F 空中判定の攻撃に対して無敵",
   "8-45F 空中判定",
+  "8-12F 投げに対して無敵",
 ]
 
 startup = 7
@@ -1003,11 +1007,13 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 7 - 13",
   "Considered airborne from frames 9 - 49",
+  "Invincible to throws from frames 9 - 13",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "7-13F 空中判定の攻撃に対して無敵",
   "9-49F 空中判定",
+  "9-13F 投げに対して無敵",
 ]
 
 startup = 8
@@ -1042,12 +1048,14 @@ notes = [
   "Unleash a series of spinning kicks while leaping into the air. Useful in combos and as an anti-air attack",
   "Invincible to mid-air attacks from frames 1 - 11",
   "Considered airborne from frames 7 - 47",
+  "Invincible to throws from frames 7 - 11",
   "Only the 4th hit can be canceled into a Level 2 Super Art",
 ]
 notes_ja = [
   "跳び上がりながら連続で回転蹴りを繰り出す技。対空やコンボに使いやすい",
   "1-11F 空中判定の攻撃に対して無敵",
   "7-47F 空中判定",
+  "7-11F 投げに対して無敵",
   "4段目のみSA2でキャンセル可能",
 ]
 

@@ -1116,12 +1116,14 @@ properties = ["knockdown"]
 notes = [
   "Unleash a series of kicks while jumping diagonally upwards. Useful in combos and as an anti-air attack",
   "Considered airborne from frames 4 - 44",
-  "Invincible to mid-air attacks from frames 1- 5",
+  "Invincible to mid-air attacks from frames 1 - 5",
+  "Invincible to throws from frames 5 - 6",
 ]
 notes_ja = [
   "斜め上に跳び上がり、連続蹴りを繰り出す技。対空やコンボに使いやすい",
   "4-44F 空中判定",
   "1-5F 空中判定の攻撃に対して無敵",
+  "5-6F 投げに対して無敵",
 ]
 
 startup = 6

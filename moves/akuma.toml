@@ -188,7 +188,7 @@ superArt = 1000
 
 [moves.frameAdvantage]
 hit = 7
-block = 2
+block = 3
 
 [moves.driveGauge]
 onHit = 3000

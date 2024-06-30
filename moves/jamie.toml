@@ -258,7 +258,7 @@ superArt = 500
 
 [moves.frameAdvantage]
 hit = 5
-block = 1
+block = -1
 
 [moves.driveGauge]
 onHit = 1500
@@ -778,8 +778,8 @@ active = [5, 7]
 recovery = 9
 cancel = "C"
 damage = 300
-scaling = ["Starter scaling 10%"]
-scaling_ja = ["始動補正10%"]
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 300
 
 [moves.frameAdvantage]
@@ -2878,7 +2878,7 @@ minBlock = -60
 maxBlock = -93
 
 [moves.driveGauge]
-onBlock = -1500
+onBlock = -2500
 onPunishCounter = -5000
 
 # The Devil's Song

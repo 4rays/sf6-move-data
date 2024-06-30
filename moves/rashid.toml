@@ -1136,12 +1136,14 @@ notes = [
   "Unleash multiple chops while spinning. Useful for combos and sequences, it also makes for a great anti-air attack",
   "Invincible to mid-air attacks from frames 6 - 12",
   "Considered airborne from frames 13 - 63",
+  "Invincible to throws from frames 8 - 10",
   "Attack properties changed by air currents are active from frames 2 - 6",
 ]
 notes_ja = [
   "回転しながら手刀で攻撃する技。連係やコンボ、対空と幅広い用途で使える",
   "6-12F 空中判定の攻撃に対して無敵",
   "13-63F 空中判定",
+  "8-10F 投げに対して無敵",
   "2-6F 気流干渉により性能変化",
 ]
 startup = 6

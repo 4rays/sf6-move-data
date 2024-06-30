@@ -331,11 +331,9 @@ blockType = "low"
 input = "5hk"
 notes = [
   "Forces a juggle state knockdown on Punish Counter, or when it hits as a mid-air Counter or Punish Counter",
+  "Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter",
 ]
-notes_ja = [
-  "パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン",
-  "空中ヒットでパニッシュカウンター時吹き飛び時間延長",
-]
+notes_ja = ["パニッシュカウンター、空中カウンター/パニッシュカウンター時吹き飛びダウン", "空中パニッシュカウンター時吹き飛び時間延長"]
 
 startup = 17
 active = [17, 20]
@@ -1652,6 +1650,8 @@ startup = 16
 totalFrames = 45
 cancel = "SA3"
 damage = 600
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
 capcomID = 502
 

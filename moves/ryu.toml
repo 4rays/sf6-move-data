@@ -181,11 +181,7 @@ notes = [
   "Produces a crumple stun for 36 frames when the attack lands as a Punish Counter",
   "Juggle state time is extended when attack hits a mid-air opponent as a Punish Counter",
 ]
-notes_ja = [
-  "空中ヒット時吹き飛びダウン",
-  "パニッシュカウンター時に膝崩れダウンに ＋36",
-  "空中ヒットでパニッシュカウンター時吹き飛び時間延長",
-]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時に膝崩れダウンに ＋36", "空中パニッシュカウンター時吹き飛び時間延長"]
 
 startup = 12
 active = [12, 15]
