@@ -1206,7 +1206,7 @@ characterId = 22
 type = "special"
 blockType = "high"
 hitCount = 3
-input = "236(pp)"
+input = "236(kk)"
 properties = ["knockdown"]
 capcomID = 502
 
@@ -1599,7 +1599,7 @@ slug = "shadow-rise-od"
 characterId = 22
 type = "special"
 blockType = "mid"
-input = "[2]>8(pp)"
+input = "[2]>8(kk)"
 notes = [
   "A quick and high-reaching jump. Two different follow-ups can be used from it.",
   "Can transition to Overdrive Head Press and Devil’s Reverse from frames 16-42",
