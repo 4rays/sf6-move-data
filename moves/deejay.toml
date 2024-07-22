@@ -576,7 +576,7 @@ active = [6]
 postLandingRecovery = 3
 damage = 300
 superArt = 300
-capcomID = 401
+capcomId = 401
 notes = [
   "An attack that stays active for a long time and allows you to move first even if it is blocked",
 ]
@@ -608,7 +608,7 @@ recovery = 16
 cancel = "SA"
 damage = 700
 superArt = 500
-capcomID = 402
+capcomId = 402
 
 [moves.frameAdvantage]
 hit = 5
@@ -649,7 +649,7 @@ recovery = 20
 cancel = "C"
 damage = 800
 superArt = 1000
-capcomID = 403
+capcomId = 403
 
 [moves.frameAdvantage]
 hit = 1
@@ -677,7 +677,7 @@ active = [9, 11]
 recovery = 18
 damage = 400
 superArt = 300
-capcomID = 404
+capcomId = 404
 notes = ["A quick combination attack that hits multiple times"]
 notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
@@ -706,7 +706,7 @@ active = [14, 16]
 recovery = 21
 damage = 626
 superArt = 400
-capcomID = 404
+capcomId = 404
 notes = ["A quick combination attack that hits multiple times"]
 notes_ja = ["技の出が早く、続けてヒットする連続攻撃"]
 
@@ -740,7 +740,7 @@ active = [11, 17]
 recovery = 24
 damage = 500
 superArt = 1000
-capcomID = 405
+capcomId = 405
 
 [moves.frameAdvantage]
 hit = -2
@@ -769,7 +769,7 @@ recovery = 30
 cancel = "SA"
 damage = 600
 superArt = 1000
-capcomID = 405
+capcomId = 405
 notes = [
   "A series of attacks, the third of which can be canceled into Super Arts",
 ]
@@ -804,7 +804,7 @@ active = [12, 13]
 recovery = 17
 damage = 500
 superArt = 300
-capcomID = 406
+capcomId = 406
 
 [moves.frameAdvantage]
 hit = 2
@@ -832,7 +832,7 @@ active = [20, 21]
 recovery = 24
 damage = 900
 superArt = 1000
-capcomID = 406
+capcomId = 406
 notes = [
   "A multi-hit attack that doesn't leave you wide open even if stopped partway through",
 ]
@@ -862,7 +862,7 @@ notes = [
 notes_ja = ["連続攻撃からのフェイントで相手を揺さぶる一連動作"]
 
 totalFrames = 23
-capcomID = 407
+capcomId = 407
 
 # Party in the Air
 [[moves]]
@@ -885,7 +885,7 @@ active = [8, 14]
 postLandingRecovery = 3
 damage = 700
 superArt = 1000
-capcomID = 408
+capcomId = 408
 
 [moves.driveGauge]
 onHit = 2000
@@ -916,7 +916,7 @@ notes_ja = [
 ]
 
 totalFrames = 65
-capcomID = 409
+capcomId = 409
 
 # Air Slasher (Light)
 [[moves]]
@@ -934,7 +934,7 @@ notes = [
 notes_ja = ["高速のアッパーで発生させた衝撃波を前方に飛ばす技。離れた間合いからのけん制手段として有効"]
 
 totalFrames = 21
-capcomID = 501
+capcomId = 501
 
 # Air Slasher (Medium)
 [[moves]]
@@ -962,7 +962,7 @@ totalFrames = 44
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 0
@@ -999,7 +999,7 @@ totalFrames = 60
 cancel = "SA3"
 damage = 1000
 superArt = 900
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 3
@@ -1038,7 +1038,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 5
@@ -1098,7 +1098,7 @@ notes_ja = [
   "23-40F ジャンプ中の通常技、特殊技でキャンセル可",
 ]
 postLandingRecovery = 6
-capcomID = 502
+capcomId = 502
 
 # Jackknife Maximum (Medium)
 [[moves]]
@@ -1132,7 +1132,7 @@ recovery = 22
 postLandingRecovery = 10
 damage = 1100
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -32
@@ -1172,7 +1172,7 @@ recovery = 17
 postLandingRecovery = 15
 damage = 1300
 superArt = 1200
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -44
@@ -1214,7 +1214,7 @@ recovery = 29
 postLandingRecovery = 18
 damage = 1500
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -55
@@ -1231,7 +1231,7 @@ characterId = 11
 type = "special"
 input = "236lk"
 totalFrames = 26
-capcomID = 503
+capcomId = 503
 notes = [
   "Spin forward while feinting a kicking attack. Useful for confusing opponents at close range",
 ]
@@ -1255,7 +1255,7 @@ recovery = 23
 cancel = "SA3"
 damage = 1000
 superArt = 1000
-capcomID = 504
+capcomId = 504
 notes = [
   "Unleash a fierce spinning kick while moving forward. When used to check an opponent while vying for position, it is most effective when the tip of the foot connects with the opponent",
 ]
@@ -1288,7 +1288,7 @@ damage = 1400
 scaling = ["Starter scaling 25%"]
 scaling_ja = ["始動補正25%"]
 superArt = 1500
-capcomID = 505
+capcomId = 505
 notes = [
   "Unleash two fierce spinning kicks while moving forward. Its high damage makes it a potent way to finish combos",
 ]
@@ -1333,7 +1333,7 @@ damage = 1300
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 1500
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 block = -2
@@ -1370,7 +1370,7 @@ recovery = 35
 cancel = "SA3"
 damage = 1650
 superArt = 1700
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = -19
@@ -1408,7 +1408,7 @@ recovery = 35
 cancel = "SA3"
 damage = 1900
 superArt = 1700
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = -19
@@ -1446,7 +1446,7 @@ recovery = 35
 cancel = "SA3"
 damage = 2200
 superArt = 2100
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = -19
@@ -1488,7 +1488,7 @@ damage = 2500
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 3100
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = -19
@@ -1512,7 +1512,7 @@ notes = [
 notes_ja = ["後方にスウェイしながら下がる技。動作中は蹴り技での攻撃派生と、前方への移動派生が可能", "13-24F 専用技へ派生可"]
 
 totalFrames = 37
-capcomID = 507
+capcomId = 507
 
 # Funky Slicer
 [[moves]]
@@ -1534,7 +1534,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 508
+capcomId = 508
 notes = [
   "A low attack performed from Jus Cool that cannot be blocked standing. It is very quick, making it easy to use in combos or as a way of checking your opponent",
   "2 frames of recovery subtracted when attack is blocked",
@@ -1581,7 +1581,7 @@ active = [25, 27]
 recovery = 16
 damage = 1000
 superArt = 1000
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 block = 1
@@ -1610,7 +1610,7 @@ recovery = 25
 cancel = "SA3"
 damage = 1000
 superArt = 1000
-capcomID = 510
+capcomId = 510
 notes = [
   "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
 ]
@@ -1644,7 +1644,7 @@ notes_ja = [
   "17-23F ジャグリンスウェイへ派生可",
 ]
 totalFrames = 27
-capcomID = 511
+capcomId = 511
 
 # Jus Cool (OD)
 [[moves]]
@@ -1673,7 +1673,7 @@ active = [8, 12]
 recovery = 36
 damage = 500
 superArt = 1000
-capcomID = 507
+capcomId = 507
 
 [moves.frameAdvantage]
 block = -29
@@ -1693,7 +1693,7 @@ hitCount = 2
 input = "6*p>4*p"
 parents = ["jus-cool", "juggling-dash"]
 totalFrames = 29
-capcomID = 512
+capcomId = 512
 notes = [
   "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
 ]
@@ -1724,7 +1724,7 @@ recovery = 19
 cancel = "SA2"
 damage = 900
 superArt = 1000
-capcomID = 508
+capcomId = 508
 
 [moves.frameAdvantage]
 hit = 6
@@ -1761,7 +1761,7 @@ active = [19, 23]
 recovery = 17
 damage = 1100
 superArt = 1000
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 hit = 7
@@ -1794,7 +1794,7 @@ damage = 1000
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
-capcomID = 510
+capcomId = 510
 notes = [
   "A launching kick performed from Jus Cool. If done early it can be used as an anti-air attack, and is also effective as a combo starter",
 ]
@@ -1829,7 +1829,7 @@ notes_ja = [
   "16-17F ジャグリンスウェイへ派生可",
 ]
 totalFrames = 22
-capcomID = 511
+capcomId = 511
 
 # Juggling Sway (OD)
 [[moves]]
@@ -1845,7 +1845,7 @@ input = "6*p>4*p"
 parents = ["jus-cool-od", "juggling-dash-od"]
 
 totalFrames = 22
-capcomID = 512
+capcomId = 512
 notes = [
   "Allows for a hasty retreat after moving forward with a Juggling Dash. Useful as a feint to confuse opponents after making them think you're going to approach",
 ]
@@ -1885,7 +1885,7 @@ recovery = 33
 damage = 2000
 scaling = ["Starter scaling 40%"]
 scaling_ja = ["始動補正40%"]
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = -12
@@ -1925,7 +1925,7 @@ recovery = 46
 damage = 300
 scaling = ["Starter scaling 25%", "Combo scaling 30%"]
 scaling_ja = ["始動補正25%", "コンボ補正30%"]
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -1959,7 +1959,7 @@ startup = 11
 active = [11, 14]
 recovery = 24
 damage = 175
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -1992,7 +1992,7 @@ startup = 10
 active = [10, 11]
 recovery = 23
 damage = 175
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2025,7 +2025,7 @@ startup = 12
 active = [12, 14]
 recovery = 23
 damage = 175
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2058,7 +2058,7 @@ startup = 15
 active = [15, 18]
 recovery = 35
 damage = 175
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2091,7 +2091,7 @@ startup = 17
 active = [17, 19]
 recovery = 45
 damage = 200
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2125,7 +2125,7 @@ startup = 18
 active = [18, 20, 26, 28]
 recovery = 79
 damage = 1400
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 block = -61
@@ -2167,7 +2167,7 @@ recovery = 46
 damage = 300
 scaling = ["Starter scaling 25%", "Combo scaling 30%"]
 scaling_ja = ["始動補正25%", "コンボ補正30%"]
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2202,7 +2202,7 @@ startup = 11
 active = [11, 14]
 recovery = 24
 damage = 200
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2237,7 +2237,7 @@ startup = 10
 active = [10, 11]
 recovery = 23
 damage = 200
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2272,7 +2272,7 @@ startup = 12
 active = [12, 14]
 recovery = 23
 damage = 200
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2307,7 +2307,7 @@ startup = 15
 active = [15, 18]
 recovery = 35
 damage = 200
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2342,7 +2342,7 @@ startup = 17
 active = [17, 19]
 recovery = 45
 damage = 200
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 hit = 6
@@ -2376,7 +2376,7 @@ startup = 18
 active = [18, 20, 26, 28]
 recovery = 64
 damage = 400
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = -43
@@ -2418,7 +2418,7 @@ recovery = 46
 damage = 200
 scaling = ["Starter scaling 25%", "Combo scaling 30%"]
 scaling_ja = ["始動補正25%", "コンボ補正30%"]
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2453,7 +2453,7 @@ startup = 11
 active = [11, 14]
 recovery = 24
 damage = 200
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2488,7 +2488,7 @@ startup = 10
 active = [10, 11]
 recovery = 23
 damage = 200
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2523,7 +2523,7 @@ startup = 12
 active = [12, 14]
 recovery = 23
 damage = 200
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2558,7 +2558,7 @@ startup = 15
 active = [15, 18]
 recovery = 35
 damage = 250
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2593,7 +2593,7 @@ startup = 17
 active = [17, 19]
 recovery = 45
 damage = 250
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 hit = 6
@@ -2627,7 +2627,7 @@ startup = 18
 active = [18, 20, 26, 28]
 recovery = 64
 damage = 500
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 block = -43
@@ -2653,7 +2653,7 @@ startup = 11
 active = [11, 13, 91, 97]
 recovery = 84
 damage = 1100
-capcomID = 605
+capcomId = 605
 notes = [
   "After Marvelous Sunrise Festival connects",
   "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
@@ -2687,7 +2687,7 @@ startup = 11
 active = [11, 13, 91, 97]
 recovery = 84
 damage = 1200
-capcomID = 605
+capcomId = 605
 notes = [
   "After Headliner Sunrise Festival connects",
   "Launch an opponent into the air with an uppercut and smack them in the face as they come back down. Switches positions with your opponent upon completion",
@@ -2721,7 +2721,7 @@ startup = 33
 active = [33, 39]
 recovery = 112
 damage = 1100
-capcomID = 606
+capcomId = 606
 notes = [
   "After Marvelous Sunrise Festival connects",
   "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
@@ -2755,7 +2755,7 @@ startup = 33
 active = [33, 39]
 recovery = 112
 damage = 1200
-capcomID = 606
+capcomId = 606
 notes = [
   "After Headliner Sunrise Festival connects",
   "Plant both arms on the ground and kick upwards with both legs. Most effective when used with your opponent in the corner",
@@ -2797,7 +2797,7 @@ startup = 11
 active = [11, 14]
 recovery = 24
 damage = 100
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2832,7 +2832,7 @@ startup = 10
 active = [10, 11]
 recovery = 23
 damage = 100
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2867,7 +2867,7 @@ startup = 12
 active = [12, 14]
 recovery = 23
 damage = 100
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2902,7 +2902,7 @@ startup = 15
 active = [15, 18]
 recovery = 35
 damage = 100
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2935,7 +2935,7 @@ startup = 17
 active = [17, 19]
 recovery = 45
 damage = 100
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 6
@@ -2961,7 +2961,7 @@ startup = 18
 active = [18, 20, 26, 28]
 recovery = 64
 damage = 1000
-capcomID = 602
+capcomId = 602
 notes = [
   "Lunge forward and perform a sequence of attacks starting with a knee strike. All attacks after the first one must be activated by pressing buttons in the correct order",
 ]
@@ -3006,7 +3006,7 @@ recovery = 48
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 607
+capcomId = 607
 
 [moves.frameAdvantage]
 block = -28
@@ -3045,7 +3045,7 @@ recovery = 48
 damage = 4500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 607
+capcomId = 607
 
 [moves.frameAdvantage]
 block = -28
@@ -3089,7 +3089,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 101
+capcomId = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -3130,7 +3130,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 102
+capcomId = 102
 
 [moves.driveGauge]
 onHit = 2000

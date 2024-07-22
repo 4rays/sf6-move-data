@@ -570,7 +570,7 @@ hitCount = 1
 blockType = "high"
 input = "5[hp]"
 properties = ["knockdown"]
-capcomID = 501
+capcomId = 501
 
 notes = [
   "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
@@ -619,7 +619,7 @@ notes_ja = [
   "ヒット時に膝崩れダウンに＋41",
   "飛び道具相殺判定あり",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 69
 active = [69, 83]
@@ -653,7 +653,7 @@ notes = [
   "Forces a slam knockdown when hitting a mid-air opponent",
 ]
 notes_ja = ["相手の足払いに対して強い、前進する攻撃。", "7-19F 足元無敵", "空中ヒット時叩きつけダウン"]
-capcomID = 402
+capcomId = 402
 
 startup = 17
 active = [17, 19]
@@ -680,7 +680,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5lk>5lk"
-capcomID = 403
+capcomId = 403
 
 startup = 7
 active = [7, 9]
@@ -709,7 +709,7 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "5lk>5lk>5lk"
-capcomID = 403
+capcomId = 403
 
 startup = 7
 active = [7, 9]
@@ -738,7 +738,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mp>5hp"
-capcomID = 404
+capcomId = 404
 properties = ["knockdown"]
 notes = [
   "A quick series of attacks that can be canceled into any special move except for Kill Rush (Backward).",
@@ -773,7 +773,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mk>5mk"
-capcomID = 405
+capcomId = 405
 
 startup = 7
 active = [7, 8]
@@ -802,7 +802,7 @@ type = "targetCombo"
 hitCount = 3
 blockType = "high"
 input = "5mk>5mk>5hp"
-capcomID = 405
+capcomId = 405
 properties = ["knockdown"]
 
 startup = 11
@@ -831,7 +831,7 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "2hk>5hp"
-capcomID = 406
+capcomId = 406
 properties = ["knockdown"]
 
 startup = 12
@@ -865,7 +865,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236*p"
-capcomID = 501
+capcomId = 501
 notes = [
   "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
   "Can transition to Psycho Shoot between frames 22 - 28",
@@ -900,7 +900,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(pp)"
-capcomID = 501
+capcomId = 501
 properties = ["knockdown"]
 notes = [
   "A close-range punch that generates a ball of Psycho Power. Good for close-range combos or to cancel out an opponent's incoming projectile.",
@@ -935,7 +935,7 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6lp"
-capcomID = 502
+capcomId = 502
 
 startup = 12
 totalFrames = 42
@@ -973,7 +973,7 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6mp"
-capcomID = 502
+capcomId = 502
 
 startup = 12
 totalFrames = 42
@@ -1006,7 +1006,7 @@ hitCount = 1
 parents = ["psycho-spark"]
 blockType = "high"
 input = "6hp"
-capcomID = 502
+capcomId = 502
 
 startup = 12
 totalFrames = 42
@@ -1044,7 +1044,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6lp"
-capcomID = 502
+capcomId = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1075,7 +1075,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6mp"
-capcomID = 502
+capcomId = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1107,7 +1107,7 @@ hitCount = 2
 parents = ["psycho-spark-od"]
 blockType = "high"
 input = "6hp"
-capcomID = 502
+capcomId = 502
 properties = ["knockdown"]
 
 startup = 12
@@ -1137,7 +1137,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
-capcomID = 503
+capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
@@ -1174,7 +1174,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623mp"
-capcomID = 503
+capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
@@ -1209,7 +1209,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623hp"
-capcomID = 503
+capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
@@ -1244,7 +1244,7 @@ type = "special"
 hitCount = 2
 blockType = "high"
 input = "623(pp)"
-capcomID = 503
+capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
@@ -1273,7 +1273,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214lp"
-capcomID = 504
+capcomId = 504
 startup = 11
 active = [11, 13, 17, 19, 26, 29]
 recovery = 14
@@ -1304,7 +1304,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214mp"
-capcomID = 504
+capcomId = 504
 properties = ["knockdown"]
 
 startup = 13
@@ -1336,7 +1336,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214hp"
-capcomID = 504
+capcomId = 504
 properties = ["knockdown"]
 
 startup = 15
@@ -1368,7 +1368,7 @@ type = "special"
 hitCount = 3
 blockType = "high"
 input = "214(pp)"
-capcomID = 504
+capcomId = 504
 properties = ["knockdown"]
 
 startup = 13
@@ -1401,7 +1401,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236lk"
-capcomID = 505
+capcomId = 505
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
   "Hold the button for more than 26 frames to change properties",
@@ -1443,7 +1443,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[lk]"
-capcomID = 505
+capcomId = 505
 properties = ["knockdown"]
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
@@ -1483,7 +1483,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
-capcomID = 505
+capcomId = 505
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
   "Hold the button for more than 30 frames to change properties",
@@ -1525,7 +1525,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[mk]"
-capcomID = 505
+capcomId = 505
 properties = ["knockdown"]
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
@@ -1565,7 +1565,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
-capcomID = 505
+capcomId = 505
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
   "Hold the button for more than 30 frames to change properties",
@@ -1600,7 +1600,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236[hk]"
-capcomID = 505
+capcomId = 505
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
   "Does not hit an opponent standing on the ground",
@@ -1633,7 +1633,7 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(kk)"
-capcomID = 505
+capcomId = 505
 properties = ["knockdown"]
 notes = [
   "A quick flicker jab cloaked in Psycho Power. Hold down the button to boost its attack properties, or cancel into Kill Rush.",
@@ -1674,7 +1674,7 @@ slug = "kill-rush-forward"
 characterId = 20
 type = "action"
 input = "5(kk)"
-capcomID = 506
+capcomId = 506
 notes = [
   "A technique that allows you to quickly move forward. Two different types of attacks are possible during the technique, which are timing dependent.",
   "Can transition to Kill Switch Break between frames 11 - 12",
@@ -1695,7 +1695,7 @@ slug = "kill-switch-break"
 characterId = 20
 type = "followUp"
 input = "6*p"
-capcomID = 507
+capcomId = 507
 hitCount = 1
 blockType = "high"
 parents = ["kill-rush-forward"]
@@ -1731,7 +1731,7 @@ slug = "kill-switch-chaser"
 characterId = 20
 type = "followUp"
 input = "6*p"
-capcomID = 508
+capcomId = 508
 hitCount = 1
 blockType = "high"
 parents = ["kill-rush-forward"]
@@ -1767,7 +1767,7 @@ slug = "kill-rush-backward"
 characterId = 20
 type = "action"
 input = "4(kk)"
-capcomID = 509
+capcomId = 509
 notes = [
   "Perform a bob & weave while taking a step back. Useful for helping to create distance from the opponent while analyzing the situation.",
 ]
@@ -1783,7 +1783,7 @@ characterId = 20
 type = "super1"
 blockType = "high"
 input = "236236*k"
-capcomID = 601
+capcomId = 601
 properties = ["knockdown"]
 notes = [
   "Unleashes a series of high speed flicker jabs cloaked in Psycho Power. Useful as a combo ender, or as a counter attack by using its invincibility time.",
@@ -1818,7 +1818,7 @@ characterId = 20
 type = "super2"
 blockType = "high"
 input = "214214*p"
-capcomID = 602
+capcomId = 602
 properties = ["knockdown"]
 notes = [
   "Generates a ball of Psycho Power, then sends it flying straight ahead with a punch. This multi-hitting attack can be useful in combos.",
@@ -1850,7 +1850,7 @@ characterId = 20
 type = "super3"
 blockType = "high"
 input = "236236*p"
-capcomID = 603
+capcomId = 603
 properties = ["knockdown"]
 notes = [
   "Ties together the feet and hands of an opponent before delivering a series of powerful shots all over their body. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
@@ -1892,7 +1892,7 @@ characterId = 20
 type = "super3"
 blockType = "high"
 input = "236236*p"
-capcomID = 603
+capcomId = 603
 properties = ["knockdown"]
 notes = [
   "Ties together the feet and hands of an opponent before delivering a series of powerful shots all over their body. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
@@ -1935,7 +1935,7 @@ slug = "face-buster"
 characterId = 20
 type = "throw"
 input = "(lplk)"
-capcomID = 101
+capcomId = 101
 properties = ["knockdown"]
 notes = [
   "Grab your opponent, then deliver a shoulder check to the head before punching them away. Throws your opponent without switching places with them.",
@@ -1973,7 +1973,7 @@ slug = "rib-crusher"
 characterId = 20
 type = "throw"
 input = "(4lplk)"
-capcomID = 102
+capcomId = 102
 properties = ["knockdown"]
 notes = [
   "Grab your opponent's arm to immobilize them, then deliver a couple of punches to send them away. Throws your opponent while switching places with them.",

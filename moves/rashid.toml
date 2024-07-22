@@ -589,7 +589,7 @@ notes_ja = [
   "停止時は5Fの硬直",
   "1F-60F 気流干渉可",
 ]
-capcomID = 401
+capcomId = 401
 
 # Backup
 [[moves]]
@@ -620,7 +620,7 @@ recovery = 17
 cancel = "SA"
 damage = 800
 superArt = 1000
-capcomID = 402
+capcomId = 402
 
 [moves.frameAdvantage]
 hit = 7
@@ -664,7 +664,7 @@ damage = 1200
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 1000
-capcomID = 403
+capcomId = 403
 
 [moves.frameAdvantage]
 hit = 3
@@ -730,7 +730,7 @@ recovery = 18
 cancel = "C"
 damage = 600
 superArt = 500
-capcomID = 404
+capcomId = 404
 
 [moves.frameAdvantage]
 hit = 1
@@ -761,7 +761,7 @@ active = [22, 24]
 recovery = 21
 damage = 800
 superArt = 1000
-capcomID = 405
+capcomId = 405
 
 [moves.frameAdvantage]
 hit = 3
@@ -795,7 +795,7 @@ damage = 900
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 406
+capcomId = 406
 
 [moves.frameAdvantage]
 hit = 2
@@ -836,7 +836,7 @@ damage = 850
 scaling = ["Starter scaling 15%"]
 scaling_ja = ["始動補正15%"]
 superArt = 1000
-capcomID = 407
+capcomId = 407
 
 [moves.driveGauge]
 onHit = 2000
@@ -863,7 +863,7 @@ active = [8, 12]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
-capcomID = 408
+capcomId = 408
 
 [moves.driveGauge]
 onHit = 2000
@@ -890,7 +890,7 @@ damage = 400
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 600
-capcomID = 409
+capcomId = 409
 notes = ["A two-hit combination attack that can be canceled into special moves"]
 notes_ja = ["続けてヒットする、必殺技キャンセル可能な連続攻撃"]
 
@@ -921,7 +921,7 @@ notes_ja = [
   "2F-20F 気流干渉可",
 ]
 totalFrames = 32
-capcomID = 410
+capcomId = 410
 
 # Front Flip
 [[moves]]
@@ -947,7 +947,7 @@ notes_ja = [
   "1F-36F 気流干渉可",
 ]
 postLandingRecovery = 8
-capcomID = 411
+capcomId = 411
 
 # Spinning Mixer (Light)
 [[moves]]
@@ -979,7 +979,7 @@ damage = 700
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 800
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 2
@@ -1055,7 +1055,7 @@ damage = 800
 scaling = ["Starter scaling 10%"]
 scaling_ja = ["始動補正10%"]
 superArt = 800
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = 45
@@ -1151,7 +1151,7 @@ active = [6, 7, 10, 12, 16, 18, 23, 25, 30, 32, 37, 39]
 postLandingRecovery = 14
 damage = 1200
 superArt = 1000
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = 55
@@ -1222,7 +1222,7 @@ damage = 1400
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = 42
@@ -1314,7 +1314,7 @@ recovery = 31
 damage = 1100
 cancel = "SA3"
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1383,7 +1383,7 @@ active = [21, 33]
 recovery = 26
 damage = 1300
 superArt = 1100
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1450,7 +1450,7 @@ active = [26, 38]
 recovery = 27
 damage = 1500
 superArt = 1200
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1517,7 +1517,7 @@ damage = 1000
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = 36
@@ -1582,7 +1582,7 @@ totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1607,7 +1607,7 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
-capcomID = 503
+capcomId = 503
 notes = [
   "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
 ]
@@ -1676,7 +1676,7 @@ totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1701,7 +1701,7 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
-capcomID = 503
+capcomId = 503
 notes = [
   "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
 ]
@@ -1770,7 +1770,7 @@ totalFrames = 52
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1795,7 +1795,7 @@ startup = 34
 cancel = "SA3"
 damage = 900
 superArt = 600
-capcomID = 503
+capcomId = 503
 notes = [
   "Spin around quickly to whip up a whirlwind before launching it with a kick. Can be powered up by holding the attack button",
 ]
@@ -1862,7 +1862,7 @@ damage = 700
 scaling = ["Starter scaling 25%", "Combo scaling 25%"]
 scaling_ja = ["始動補正25%", "コンボ補正25%"]
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = 2
@@ -1892,7 +1892,7 @@ damage = 1200
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = 10
@@ -1922,7 +1922,7 @@ recovery = 28
 cancel = "SA3"
 damage = 800
 superArt = 600
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 block = 9
@@ -1954,7 +1954,7 @@ recovery = 26
 cancel = "SA3"
 damage = 900
 superArt = 600
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 block = 7
@@ -1985,7 +1985,7 @@ totalFrames = 69
 cancel = "SA3"
 damage = 1000
 superArt = 600
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 block = 2
@@ -2027,7 +2027,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 600
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 block = 10
@@ -2066,7 +2066,7 @@ notes_ja = [
   "23F-47F 気流干渉可",
 ]
 postLandingRecovery = 6
-capcomID = 505
+capcomId = 505
 
 # Rolling Assault
 [[moves]]
@@ -2096,7 +2096,7 @@ notes_ja = [
   "8F-25F 気流干渉可",
 ]
 totalFrames = 33
-capcomID = 506
+capcomId = 506
 
 # Nail Assault
 [[moves]]
@@ -2118,7 +2118,7 @@ damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 300
-capcomID = 507
+capcomId = 507
 notes = [
   "During Rolling Assault",
   "A rolling kick delivered out of Rolling Assault. Very effective as a follow up attack on opponents launched by Arabian Cyclone",
@@ -2164,7 +2164,7 @@ active = [13, 21]
 postLandingRecovery = 3
 damage = 600
 superArt = 500
-capcomID = 508
+capcomId = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -2200,7 +2200,7 @@ active = [18, 26]
 postLandingRecovery = 3
 damage = 700
 superArt = 500
-capcomID = 508
+capcomId = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -2236,7 +2236,7 @@ active = [21, 29]
 postLandingRecovery = 3
 damage = 800
 superArt = 500
-capcomID = 508
+capcomId = 508
 
 [moves.driveGauge]
 onHit = 2000
@@ -2272,7 +2272,7 @@ active = [13, 21]
 postLandingRecovery = 3
 damage = 1500
 superArt = 1000
-capcomID = 508
+capcomId = 508
 
 [moves.driveGauge]
 onBlock = -7000
@@ -2308,7 +2308,7 @@ startup = 9
 active = [9, 15]
 recovery = 76
 damage = 2100
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = 53
@@ -2346,7 +2346,7 @@ totalFrames = 33
 damage = 1000
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 block = 33
@@ -2382,7 +2382,7 @@ startup = 11
 active = [11, 28]
 recovery = 82
 damage = 4000
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = 75
@@ -2460,7 +2460,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 101
+capcomId = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -2501,7 +2501,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 102
+capcomId = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -2544,7 +2544,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 103
+capcomId = 103
 
 [moves.driveGauge]
 onHit = 2000

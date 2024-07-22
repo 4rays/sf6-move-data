@@ -577,7 +577,7 @@ active = [20, 22]
 recovery = 19
 damage = 800
 superArt = 500
-capcomID = 401
+capcomId = 401
 
 [moves.frameAdvantage]
 hit = 2
@@ -605,7 +605,7 @@ recovery = 21
 cancel = "C"
 damage = 800
 superArt = 1000
-capcomID = 402
+capcomId = 402
 notes = ["A quick strike that can be canceled into special moves"]
 notes_ja = ["技の出が早い必殺技キャンセル可能な突き"]
 
@@ -634,7 +634,7 @@ active = [16, 18]
 recovery = 20
 damage = 800
 superArt = 500
-capcomID = 403
+capcomId = 403
 notes = [
   "Move forward while striking with the back of your fist. Allows you to move before your opponent even if blocked",
 ]
@@ -665,7 +665,7 @@ active = [8, 11]
 recovery = 15
 damage = 500
 superArt = 1000
-capcomID = 404
+capcomId = 404
 notes = [
   "A forward-moving knee strike that's quick and difficult to counterattack. Can be performed while maintaining your backward charge",
 ]
@@ -700,7 +700,7 @@ active = [11, 13]
 recovery = 18
 damage = 700
 superArt = 700
-capcomID = 405
+capcomId = 405
 
 [moves.frameAdvantage]
 hit = 3
@@ -736,7 +736,7 @@ active = [11, 13]
 recovery = 18
 damage = 700
 superArt = 700
-capcomID = 405
+capcomId = 405
 
 [moves.frameAdvantage]
 hit = 3
@@ -774,7 +774,7 @@ active = [17, 19]
 recovery = 26
 damage = 1000
 superArt = 1000
-capcomID = 406
+capcomId = 406
 
 [moves.frameAdvantage]
 hit = -1
@@ -813,7 +813,7 @@ recovery = 23
 cancel = "C"
 damage = 1000
 superArt = 1000
-capcomID = 407
+capcomId = 407
 
 [moves.frameAdvantage]
 hit = 0
@@ -846,7 +846,7 @@ recovery = 26
 cancel = "C"
 damage = 600
 superArt = 800
-capcomID = 408
+capcomId = 408
 
 [moves.frameAdvantage]
 block = -9
@@ -876,7 +876,7 @@ damage = 400
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 250
-capcomID = 409
+capcomId = 409
 notes = ["A quick series of attacks that can be canceled into special moves"]
 notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
@@ -904,7 +904,7 @@ active = [20, 22]
 recovery = 21
 damage = 800
 superArt = 500
-capcomID = 410
+capcomId = 410
 notes = ["A low attack followed by an overhead attack"]
 notes_ja = ["下段攻撃から中段攻撃に連係する連続攻撃"]
 
@@ -935,7 +935,7 @@ recovery = 25
 cancel = "C"
 damage = 600
 superArt = 500
-capcomID = 411
+capcomId = 411
 notes = [
   "A low attack into a high kick that launches an opponent into the air. These two hits form a combo if done as a Punish Counter",
 ]
@@ -982,7 +982,7 @@ active = [5, 7]
 recovery = 23
 damage = 1200
 superArt = 2000
-capcomID = 101
+capcomId = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -1021,7 +1021,7 @@ active = [5, 7]
 recovery = 23
 damage = 1200
 superArt = 2000
-capcomID = 102
+capcomId = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -1063,7 +1063,7 @@ active = [5, 7]
 postLandingRecovery = 3
 damage = 1200
 superArt = 2000
-capcomID = 103
+capcomId = 103
 
 [moves.driveGauge]
 onHit = 2000
@@ -1105,7 +1105,7 @@ active = [5, 7]
 postLandingRecovery = 3
 damage = 1200
 superArt = 2000
-capcomID = 104
+capcomId = 104
 
 [moves.driveGauge]
 onHit = 2000
@@ -1134,7 +1134,7 @@ totalFrames = 40
 cancel = "SA3"
 damage = 550
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 3
@@ -1200,7 +1200,7 @@ totalFrames = 40
 cancel = "SA3"
 damage = 550
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 3
@@ -1266,7 +1266,7 @@ totalFrames = 40
 cancel = "SA3"
 damage = 550
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 hit = 3
@@ -1336,7 +1336,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = 3
@@ -1379,7 +1379,7 @@ damage = 1000
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -30
@@ -1459,7 +1459,7 @@ damage = 1100
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -31
@@ -1539,7 +1539,7 @@ damage = 1200
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -32
@@ -1616,7 +1616,7 @@ recovery = 26
 postLandingRecovery = 20
 damage = 1600
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -33
@@ -1648,7 +1648,7 @@ totalFrames = 42
 cancel = "SA3"
 damage = 400
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = -3
@@ -1683,7 +1683,7 @@ totalFrames = 50
 cancel = "SA3"
 damage = 400
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = -6
@@ -1718,7 +1718,7 @@ totalFrames = 54
 cancel = "SA3"
 damage = 500
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 1
@@ -1754,7 +1754,7 @@ totalFrames = 39
 cancel = "SA2"
 damage = 600
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -4
@@ -1782,7 +1782,7 @@ startup = 10
 totalFrames = 38
 damage = 1000
 superArt = 600
-capcomID = 504
+capcomId = 504
 notes = [
   "During Sonic Blade",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -1849,7 +1849,7 @@ startup = 10
 totalFrames = 38
 damage = 1000
 superArt = 600
-capcomID = 504
+capcomId = 504
 notes = [
   "During Sonic Blade",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -1916,7 +1916,7 @@ startup = 10
 totalFrames = 38
 damage = 1000
 superArt = 600
-capcomID = 504
+capcomId = 504
 notes = [
   "During Sonic Blade",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -1981,7 +1981,7 @@ startup = 10
 totalFrames = 38
 damage = 1300
 superArt = 600
-capcomID = 504
+capcomId = 504
 notes = [
   "During Sonic Blade",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -2015,7 +2015,7 @@ startup = 10
 totalFrames = 38
 damage = 1300
 superArt = 600
-capcomID = 504
+capcomId = 504
 notes = [
   "During Solinc Blade OD",
   "Combine Sonic Blade with another aerial slash and fire it as a projectile",
@@ -2058,7 +2058,7 @@ startup = 10
 totalFrames = 38
 damage = 1700
 superArt = 800
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 block = 6
@@ -2093,7 +2093,7 @@ startup = 7
 active = [7, 58]
 totalFrames = 75
 damage = 1800
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = -2
@@ -2129,7 +2129,7 @@ startup = 8
 active = [8, 58]
 totalFrames = 89
 damage = 2000
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = -26
@@ -2156,7 +2156,7 @@ notes_ja = [
   "発動後ソニックブレイク(SA2発動中使用可能技)が発動可能",
 ]
 totalFrames = 6
-capcomID = 602
+capcomId = 602
 
 # Sonic Break (Single Shot)
 [[moves]]
@@ -2182,7 +2182,7 @@ notes_ja = [
 startup = 11
 totalFrames = 36
 damage = 600
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 hit = 2
@@ -2221,7 +2221,7 @@ notes_ja = [
 startup = 11
 totalFrames = 36
 damage = 600
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 hit = 2
@@ -2259,7 +2259,7 @@ notes_ja = [
 startup = 11
 totalFrames = 35
 damage = 1000
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 block = 3
@@ -2306,7 +2306,7 @@ postLandingRecovery = 40
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = -59
@@ -2353,7 +2353,7 @@ postLandingRecovery = 40
 damage = 4500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = -59

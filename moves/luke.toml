@@ -592,7 +592,7 @@ active = [21, 22]
 recovery = 21
 damage = 600
 superArt = 500
-capcomID = 401
+capcomId = 401
 
 [moves.frameAdvantage]
 hit = 2
@@ -620,7 +620,7 @@ recovery = 20
 cancel = "C"
 damage = 800
 superArt = 1000
-capcomID = 402
+capcomId = 402
 notes = [
   "A strike unleashed after stepping backward. Can be canceled into special moves",
 ]
@@ -656,7 +656,7 @@ active = [12, 15]
 recovery = 24
 damage = 1000
 superArt = 1000
-capcomID = 403
+capcomId = 403
 
 [moves.frameAdvantage]
 hit = 4
@@ -687,7 +687,7 @@ active = [16, 18]
 recovery = 15
 damage = 800
 superArt = 500
-capcomID = 404
+capcomId = 404
 
 [moves.frameAdvantage]
 hit = 3
@@ -718,7 +718,7 @@ damage = 600
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 500
-capcomID = 404
+capcomId = 404
 notes = [
   "A series of attacks performed while moving forward. The second attack can be canceled into special moves",
 ]
@@ -750,7 +750,7 @@ damage = 400
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 superArt = 400
-capcomID = 405
+capcomId = 405
 notes = ["A quick series of attacks that can be canceled into special moves"]
 notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
@@ -781,7 +781,7 @@ recovery = 27
 cancel = "C"
 damage = 600
 superArt = 400
-capcomID = 405
+capcomId = 405
 notes = ["A quick series of attacks that can be canceled into special moves"]
 notes_ja = ["技の出が早い必殺技キャンセル可能な連続攻撃"]
 
@@ -809,7 +809,7 @@ active = [9, 11]
 recovery = 25
 damage = 600
 superArt = 600
-capcomID = 406
+capcomId = 406
 notes = [
   "An attack consisting of multiple hits, the first of which cannot be blocked while standing",
 ]
@@ -841,7 +841,7 @@ recovery = 23
 cancel = "SA"
 damage = 300
 superArt = 300
-capcomID = 407
+capcomId = 407
 notes = [
   "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
@@ -872,7 +872,7 @@ active = [11, 12]
 recovery = 29
 damage = 300
 superArt = 300
-capcomID = 407
+capcomId = 407
 notes = [
   "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
@@ -904,7 +904,7 @@ active = [11, 12]
 recovery = 27
 damage = 500
 superArt = 500
-capcomID = 407
+capcomId = 407
 notes = [
   "A series of attacks, the first and second of which can be canceled into Super Arts",
 ]
@@ -937,7 +937,7 @@ totalFrames = 47
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 501
+capcomId = 501
 notes = [
   "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
@@ -971,7 +971,7 @@ totalFrames = 47
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 501
+capcomId = 501
 notes = [
   "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
@@ -1005,7 +1005,7 @@ totalFrames = 47
 cancel = "SA3"
 damage = 600
 superArt = 600
-capcomID = 501
+capcomId = 501
 notes = [
   "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
@@ -1041,7 +1041,7 @@ damage = 800
 scaling = ["Starter scaling 20％", "Combo scaling 20％"]
 scaling_ja = ["始動補正20％", "コンボ補正20％"]
 superArt = 600
-capcomID = 501
+capcomId = 501
 notes = [
   "Fire a shockwave of pressure from your fist. Useful for checking an opponent from a distance, and as a stopgap in combos",
 ]
@@ -1081,7 +1081,7 @@ totalFrames = 54
 cancel = "SA2"
 damage = 1000
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -21
@@ -1119,7 +1119,7 @@ recovery = 31
 cancel = "SA3"
 damage = 700
 superArt = 500
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -18
@@ -1158,7 +1158,7 @@ recovery = 25
 cancel = "SA3"
 damage = 800
 superArt = 600
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -8
@@ -1197,7 +1197,7 @@ recovery = 25
 cancel = "SA3"
 damage = 900
 superArt = 700
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 block = -8
@@ -1236,7 +1236,7 @@ recovery = 27
 cancel = "SA3"
 damage = 900
 superArt = 700
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 3
@@ -1278,7 +1278,7 @@ recovery = 26
 cancel = "SA3"
 damage = 1000
 superArt = 800
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -3
@@ -1317,7 +1317,7 @@ recovery = 26
 cancel = "SA3"
 damage = 1100
 superArt = 900
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 block = -3
@@ -1354,7 +1354,7 @@ recovery = 21
 cancel = "SA3"
 damage = 1000
 superArt = 800
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -4
@@ -1391,7 +1391,7 @@ recovery = 24
 cancel = "SA3"
 damage = 1300
 superArt = 1100
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = 4
@@ -1425,7 +1425,7 @@ recovery = 24
 cancel = "SA3"
 damage = 1300
 superArt = 1200
-capcomID = 505
+capcomId = 505
 
 [moves.frameAdvantage]
 block = 4
@@ -1461,7 +1461,7 @@ recovery = 39
 cancel = "SA2"
 damage = 400
 superArt = 500
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 block = -22
@@ -1488,7 +1488,7 @@ recovery = 16
 cancel = "SA2"
 damage = 400
 superArt = 350
-capcomID = 503
+capcomId = 503
 notes = [
   "A full powered, chargeable punch. Increase the damage output by holding down the button at the beginning. Release the button when you see a flash to further boost its properties",
 ]
@@ -1525,7 +1525,7 @@ startup = 1
 active = [1]
 damage = 2500
 superArt = 3000
-capcomID = 504
+capcomId = 504
 
 # Aerial Flash Knuckle
 [[moves]]
@@ -1544,7 +1544,7 @@ active = [14, 18]
 postLandingRecovery = 13
 damage = 700
 superArt = 800
-capcomID = 505
+capcomId = 505
 notes = [
   "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
   "+7 frames of recovery added when whiffing the attack high in the air.",
@@ -1577,7 +1577,7 @@ active = [23, 28]
 postLandingRecovery = 15
 damage = 1000
 superArt = 800
-capcomID = 505
+capcomId = 505
 notes = [
   "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
 ]
@@ -1605,7 +1605,7 @@ active = [14, 19]
 postLandingRecovery = 15
 damage = 1300
 superArt = 800
-capcomID = 505
+capcomId = 505
 notes = [
   "A Flash Knuckle performed while jumping. Can be used to alter the trajectory of your jump, making it useful for surprise attacks. Can also be worked into aerial combos",
 ]
@@ -1631,7 +1631,7 @@ notes = [
 ]
 notes_ja = ["前傾姿勢で前進する技。動作中にボタン入力でそれぞれの派生技へ移行する", "13-31F 専用技に派生可"]
 totalFrames = 45
-capcomID = 506
+capcomId = 506
 
 # No Chaser
 [[moves]]
@@ -1652,7 +1652,7 @@ recovery = 16
 cancel = "SA3"
 damage = 900
 superArt = 1000
-capcomID = 507
+capcomId = 507
 notes = [
   "During Avenger",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
@@ -1692,7 +1692,7 @@ notes_ja = [
   "12-31F 専用技に派生可",
 ]
 totalFrames = 45
-capcomID = 506
+capcomId = 506
 
 # Impaler
 [[moves]]
@@ -1721,7 +1721,7 @@ active = [13]
 recovery = 22
 damage = 1200
 superArt = 1200
-capcomID = 508
+capcomId = 508
 
 [moves.frameAdvantage]
 block = -8
@@ -1752,7 +1752,7 @@ damage = 1300
 scaling = ["Starter scaling 50%"]
 scaling_ja = ["始動補正50%"]
 superArt = 1250
-capcomID = 507
+capcomId = 507
 notes = [
   "During Avenger OD",
   "A powerful tackle that can be executed during Avenger. This attack is active for a while, making it a useful tool for closing in on your opponent",
@@ -1786,7 +1786,7 @@ damage = 1200
 scaling = ["Starter scaling 50%"]
 scaling_ja = ["始動補正50%"]
 superArt = 1250
-capcomID = 508
+capcomId = 508
 notes = [
   "An overhead kick that can be executed during Avenger and cannot be blocked while crouching. Useful when trying to sneak through an opponent's guard, or as part of a combo",
 ]
@@ -1831,7 +1831,7 @@ postLandingRecovery = 12
 cancel = "SA3"
 damage = 900
 superArt = 800
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 block = -27
@@ -1873,7 +1873,7 @@ postLandingRecovery = 12
 cancel = "SA3"
 damage = 1000
 superArt = 800
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 block = -29
@@ -1915,7 +1915,7 @@ postLandingRecovery = 15
 cancel = "SA3"
 damage = 1200
 superArt = 800
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 block = -33
@@ -1956,7 +1956,7 @@ recovery = 35
 postLandingRecovery = 15
 damage = 1400
 superArt = 1000
-capcomID = 509
+capcomId = 509
 
 [moves.frameAdvantage]
 block = -40
@@ -1992,7 +1992,7 @@ recovery = 14
 postLandingRecovery = 16
 damage = 600
 superArt = 700
-capcomID = 510
+capcomId = 510
 
 [moves.driveGauge]
 onBlock = -4000
@@ -2023,7 +2023,7 @@ notes_ja = [
 startup = 6
 totalFrames = 108
 damage = 2000
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = -29
@@ -2062,7 +2062,7 @@ startup = 5
 active = [5, 7]
 recovery = 51
 damage = 2800
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 hit = 0
@@ -2112,7 +2112,7 @@ recovery = 92
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = -42
@@ -2204,7 +2204,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 101
+capcomId = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -2245,7 +2245,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 102
+capcomId = 102
 
 [moves.driveGauge]
 onHit = 2000

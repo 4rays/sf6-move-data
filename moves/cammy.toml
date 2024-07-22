@@ -571,7 +571,7 @@ recovery = 12
 cancel = "C"
 damage = 500
 superArt = 500
-capcomID = 401
+capcomId = 401
 notes = ["A quick uppercut. Useful against jumping opponents"]
 notes_ja = ["相手のジャンプに対して強く、技の出が早いアッパー攻撃"]
 
@@ -608,7 +608,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 402
+capcomId = 402
 
 [moves.frameAdvantage]
 block = -12
@@ -642,7 +642,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 403
+capcomId = 403
 
 [moves.frameAdvantage]
 block = -7
@@ -674,7 +674,7 @@ recovery = 23
 cancel = "C"
 damage = 600
 superArt = 700
-capcomID = 404
+capcomId = 404
 
 [moves.frameAdvantage]
 block = -12
@@ -712,7 +712,7 @@ scaling = [
 ]
 scaling_ja = ["初段コンボ補正10%", "2段目即時補正10%", "コンボ補正20%"]
 superArt = 1500
-capcomID = 405
+capcomId = 405
 
 [moves.frameAdvantage]
 block = -12
@@ -747,7 +747,7 @@ active = [9, 21]
 recovery = 21
 damage = 800
 superArt = 1000
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = -12
@@ -781,7 +781,7 @@ active = [9, 23]
 recovery = 21
 damage = 900
 superArt = 800
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = -14
@@ -815,7 +815,7 @@ recovery = 21
 cancel = "SA3"
 damage = 1000
 superArt = 800
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = -12
@@ -852,7 +852,7 @@ recovery = 20
 cancel = "SA3"
 damage = 800
 superArt = 1000
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = -14
@@ -888,7 +888,7 @@ damage = 800
 scaling = ["Combo scaling 15%"]
 scaling_ja = ["コンボ補正15%"]
 superArt = 1000
-capcomID = 501
+capcomId = 501
 
 [moves.frameAdvantage]
 block = -14
@@ -929,7 +929,7 @@ postLandingRecovery = 16
 cancel = "SA3"
 damage = 900
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -36
@@ -971,7 +971,7 @@ postLandingRecovery = 16
 cancel = "SA3"
 damage = 1000
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -36
@@ -1016,7 +1016,7 @@ postLandingRecovery = 16
 cancel = "SA3"
 damage = 1200
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -36
@@ -1059,7 +1059,7 @@ postLandingRecovery = 16
 cancel = "SA3"
 damage = 1500
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -40
@@ -1100,7 +1100,7 @@ recovery = 30
 postLandingRecovery = 16
 damage = 1500
 superArt = 1000
-capcomID = 502
+capcomId = 502
 
 [moves.frameAdvantage]
 block = -40
@@ -1127,7 +1127,7 @@ recovery = 16
 cancel = "SA3"
 damage = 800
 superArt = 800
-capcomID = 503
+capcomId = 503
 notes = [
   "Take a spinning hop forward and strike with the back of your fist. Useful for continuing your offensive pressure or as a way to slip through an opponent's guard",
 ]
@@ -1167,7 +1167,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 3
@@ -1203,7 +1203,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 800
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 5
@@ -1245,7 +1245,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 800
-capcomID = 503
+capcomId = 503
 
 [moves.frameAdvantage]
 hit = 7
@@ -1277,7 +1277,7 @@ damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 hit = 1
@@ -1311,7 +1311,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正20%", "即時補正10%"]
 superArt = 800
-capcomID = 504
+capcomId = 504
 
 [moves.frameAdvantage]
 hit = 2
@@ -1339,7 +1339,7 @@ notes_ja = [
   "21F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能",
   "7F以降、空中判定",
 ]
-capcomID = 505
+capcomId = 505
 
 # Razor's Edge Slicer
 [[moves]]
@@ -1362,7 +1362,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 506
+capcomId = 506
 notes = [
   "A low kick performed after landing from Hooligan Combination. This move is performed if nothing is input during the Hooligan Combination",
 ]
@@ -1404,7 +1404,7 @@ damage = 600
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 507
+capcomId = 507
 
 [moves.frameAdvantage]
 minHit = 0
@@ -1445,7 +1445,7 @@ damage = 800
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 508
+capcomId = 508
 
 [moves.frameAdvantage]
 minHit = 6
@@ -1474,7 +1474,7 @@ active = [10, 12]
 postLandingRecovery = 30
 damage = 1800
 superArt = 3000
-capcomID = 509
+capcomId = 509
 notes = [
   "During hooligan combination",
   "When close to a standing opponent",
@@ -1501,7 +1501,7 @@ input = "*p"
 parents = ["hooligan-combination"]
 
 postLandingRecovery = 10
-capcomID = 510
+capcomId = 510
 notes = [
   "During hooligan combination",
   "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack",
@@ -1530,7 +1530,7 @@ notes_ja = [
   "41F～着地まで、レイザーエッジスライサーを除いた各種派生技でキャンセル可能",
   "27F以降、空中判定",
 ]
-capcomID = 505
+capcomId = 505
 
 # Razor's Edge Slicer (Charged)
 [[moves]]
@@ -1560,7 +1560,7 @@ damage = 1200
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = 2
@@ -1596,7 +1596,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正20%", "即時補正10%"]
 superArt = 800
-capcomID = 507
+capcomId = 507
 
 [moves.frameAdvantage]
 minHit = 4
@@ -1628,7 +1628,7 @@ damage = 1200
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 508
+capcomId = 508
 notes = [
   "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard",
 ]
@@ -1661,7 +1661,7 @@ damage = 1000
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 509
+capcomId = 509
 notes = [
   "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage",
 ]
@@ -1682,7 +1682,7 @@ input = "*p"
 parents = ["hooligan-combination-charged"]
 
 postLandingRecovery = 10
-capcomID = 510
+capcomId = 510
 notes = [
   "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack",
 ]
@@ -1707,7 +1707,7 @@ notes_ja = [
   "21F～着地まで、ODレイザーエッジスライサーを除いた各種派生技でキャンセル可能",
   "7F以降、空中判定",
 ]
-capcomID = 505
+capcomId = 505
 
 # Razor's Edge Slicer (OD)
 [[moves]]
@@ -1740,7 +1740,7 @@ damage = 1200
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1000
-capcomID = 506
+capcomId = 506
 
 [moves.frameAdvantage]
 block = 2
@@ -1778,7 +1778,7 @@ damage = 800
 scaling = ["Starter scaling 20%", "Immediate scaling 10%"]
 scaling_ja = ["始動補正20%", "即時補正10%"]
 superArt = 800
-capcomID = 507
+capcomId = 507
 
 [moves.frameAdvantage]
 minHit = 1
@@ -1812,7 +1812,7 @@ damage = 1200
 scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 800
-capcomID = 508
+capcomId = 508
 notes = [
   "A downward kick performed from Hooligan Combination. It is an overhead attack that cannot be blocked crouching, making it useful for breaking through an opponent's guard",
 ]
@@ -1846,7 +1846,7 @@ damage = 1000
 scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 1000
-capcomID = 509
+capcomId = 509
 notes = [
   "A throw performed from Hooligan Combination. It can grab opponents who are standing while on the ground and does massive damage",
 ]
@@ -1868,7 +1868,7 @@ input = "*p"
 parents = ["hooligan-combination-od"]
 
 postLandingRecovery = 10
-capcomID = 510
+capcomId = 510
 notes = [
   "A quick descent performed from Hooligan Combination. This fast maneuver is useful as a feint after making an opponent think you're about to attack",
 ]
@@ -1899,7 +1899,7 @@ startup = 9
 active = [9, 19]
 recovery = 38
 damage = 2000
-capcomID = 601
+capcomId = 601
 
 [moves.frameAdvantage]
 block = -24
@@ -1934,7 +1934,7 @@ startup = 13
 active = [13, 21]
 recovery = 37
 damage = 2800
-capcomID = 602
+capcomId = 602
 
 [moves.frameAdvantage]
 block = -24
@@ -1970,7 +1970,7 @@ startup = 13
 active = [13]
 recovery = 37
 damage = 3000
-capcomID = 603
+capcomId = 603
 
 [moves.frameAdvantage]
 block = -23
@@ -2015,7 +2015,7 @@ postLandingRecovery = 34
 damage = 4000
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 block = -33
@@ -2060,7 +2060,7 @@ postLandingRecovery = 34
 damage = 4500
 scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
-capcomID = 604
+capcomId = 604
 
 [moves.frameAdvantage]
 block = -33
@@ -2103,7 +2103,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 101
+capcomId = 101
 
 [moves.driveGauge]
 onHit = 2000
@@ -2144,7 +2144,7 @@ damage = 1200
 scaling = ["Immediate scaling 20%"]
 scaling_ja = ["即時補正20%"]
 superArt = 2000
-capcomID = 102
+capcomId = 102
 
 [moves.driveGauge]
 onHit = 2000
@@ -2184,7 +2184,7 @@ active = [5, 7]
 postLandingRecovery = 3
 damage = 1200
 superArt = 2000
-capcomID = 103
+capcomId = 103
 
 [moves.driveGauge]
 onHit = 2000

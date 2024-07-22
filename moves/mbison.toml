@@ -390,7 +390,7 @@ blockType = "low"
 input = "2hk"
 hitCount = 1
 properties = ["knockdown"]
-capcomID = 407
+capcomId = 407
 
 startup = 11
 active = [11, 13]
@@ -585,7 +585,7 @@ notes = [
   "Adds a floor bounding effect during a mid-air hit",
 ]
 notes_ja = ["しゃがみでガードできない中段攻撃。", "空中ヒット時床バウンド"]
-capcomID = 401
+capcomId = 401
 
 startup = 22
 active = [22, 24]
@@ -612,7 +612,7 @@ type = "commandNormal"
 blockType = "high"
 input = "4hk"
 hitCount = 1
-capcomID = 402
+capcomId = 402
 
 startup = 10
 active = [10, 13]
@@ -643,7 +643,7 @@ blockType = "low"
 input = "3hk"
 hitCount = 1
 properties = ["knockdown"]
-capcomID = 403
+capcomId = 403
 
 startup = 15
 active = [15, 24]
@@ -671,7 +671,7 @@ type = "targetCombo"
 blockType = "mid"
 input = "5mp>6hp"
 hitCount = 2
-capcomID = 404
+capcomId = 404
 notes = [
   "A two-hit series of attacks, the second of which cannot be blocked crouching.",
   "Adds a floor bounding effect during a mid-air hit",
@@ -702,7 +702,7 @@ type = "targetCombo"
 blockType = "low"
 input = "5mp>2hk"
 hitCount = 2
-capcomID = 405
+capcomId = 405
 
 startup = 16
 active = [16, 19]
@@ -733,7 +733,7 @@ type = "targetCombo"
 blockType = "high"
 input = "j>mp>mp"
 hitCount = 2
-capcomID = 406
+capcomId = 406
 
 startup = 7
 active = [7, 10]
@@ -774,7 +774,7 @@ notes_ja = [
   "6-17F 空中判定の攻撃に対して無敵",
   "22-31F 空中判定",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 16
 active = [16, 31]
@@ -818,7 +818,7 @@ notes_ja = [
   "22-31F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 16
 active = [16, 31]
@@ -860,7 +860,7 @@ notes_ja = [
   "6-21F 空中判定の攻撃に対して無敵",
   "26-45F 空中判定",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 20
 active = [20, 35]
@@ -904,7 +904,7 @@ notes_ja = [
   "26-45F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 20
 active = [20, 35]
@@ -946,7 +946,7 @@ notes_ja = [
   "6-25F 空中判定の攻撃に対して無敵",
   "30-49F 空中判定",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 24
 active = [24, 49]
@@ -990,7 +990,7 @@ notes_ja = [
   "30-49F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 24
 active = [24, 49]
@@ -1035,7 +1035,7 @@ notes_ja = [
   "13-31F 飛び道具無敵",
   "20-31F 空中判定",
 ]
-capcomID = 501
+capcomId = 501
 
 startup = 16
 active = [16, 31]
@@ -1072,7 +1072,7 @@ notes = [
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = ["サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。", "ヒット/ガード時にサイコマインを誘爆"]
-capcomID = 501
+capcomId = 501
 
 startup = 16
 active = [16, 31]
@@ -1101,7 +1101,7 @@ type = "special"
 blockType = "high"
 input = "236lk"
 hitCount = 2
-capcomID = 502
+capcomId = 502
 
 startup = 13
 active = [13, 14, 16, 17]
@@ -1137,7 +1137,7 @@ type = "special"
 blockType = "high"
 hitCount = 2
 input = "236mk"
-capcomID = 502
+capcomId = 502
 
 startup = 17
 active = [17, 18, 20, 21]
@@ -1173,7 +1173,7 @@ type = "special"
 blockType = "high"
 hitCount = 2
 input = "236hk"
-capcomID = 502
+capcomId = 502
 
 startup = 22
 active = [22, 23, 25, 26]
@@ -1208,7 +1208,7 @@ blockType = "high"
 hitCount = 3
 input = "236(kk)"
 properties = ["knockdown"]
-capcomID = 502
+capcomId = 502
 
 startup = 17
 active = [17, 18, 20, 21, 39, 41]
@@ -1246,7 +1246,7 @@ notes = [
   "Implants a Psycho Mine into the opponent on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット時にサイコマインを相手に付与"]
-capcomID = 503
+capcomId = 503
 
 startup = 13
 active = [13, 14, 25, 29]
@@ -1281,7 +1281,7 @@ notes = [
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
-capcomID = 503
+capcomId = 503
 
 startup = 13
 active = [13, 14, 25, 29]
@@ -1316,7 +1316,7 @@ notes = [
   "Implants a Psycho Mine into the opponent on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット時にサイコマインを相手に付与"]
-capcomID = 503
+capcomId = 503
 
 startup = 17
 active = [17, 18, 29, 33]
@@ -1351,7 +1351,7 @@ notes = [
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
-capcomID = 503
+capcomId = 503
 
 startup = 17
 active = [17, 18, 29, 33]
@@ -1380,7 +1380,7 @@ type = "special"
 blockType = "high"
 input = "214hp"
 hitCount = 2
-capcomID = 503
+capcomId = 503
 
 properties = ["knockdown"]
 notes = [
@@ -1421,7 +1421,7 @@ notes = [
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
-capcomID = 503
+capcomId = 503
 
 startup = 22
 active = [22, 24, 35, 39]
@@ -1456,7 +1456,7 @@ notes = [
   "Adds a floor bounding effect on the final attack",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "最終段ヒット時床バウンド"]
-capcomID = 503
+capcomId = 503
 
 startup = 14
 active = [14, 15, 35, 37, 61, 63]
@@ -1490,7 +1490,7 @@ notes = [
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = ["踏み込んでの裏拳から、掌底を繰り出す連続攻撃。ヒット時は相手にサイコマインを埋め込む。", "ヒット/ガード時にサイコマインを誘爆"]
-capcomID = 503
+capcomId = 503
 
 startup = 14
 active = [14, 15, 35, 37, 61, 63]
@@ -1543,7 +1543,7 @@ notes_ja = [
   "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
   "9F以降、空中判定",
 ]
-capcomID = 504
+capcomId = 504
 
 totalFrames = 53
 
@@ -1565,7 +1565,7 @@ notes_ja = [
   "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
   "9F以降、空中判定",
 ]
-capcomID = 504
+capcomId = 504
 
 totalFrames = 58
 
@@ -1587,7 +1587,7 @@ notes_ja = [
   "18F～46Fまで、ヘッドプレス(OD版を含む)、デビルリバース(OD版を含む)に派生可能",
   "9F以降、空中判定",
 ]
-capcomID = 504
+capcomId = 504
 
 totalFrames = 63
 
@@ -1612,7 +1612,7 @@ notes_ja = [
   "1-8F 投げに対して無敵",
   "9F以降、空中判定",
 ]
-capcomID = 504
+capcomId = 504
 
 totalFrames = 55
 
@@ -1627,7 +1627,7 @@ blockType = "mid"
 input = "*k"
 hitCount = 1
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
-capcomID = 505
+capcomId = 505
 
 notes = [
   "A technique from Shadow Rise that stomps on an opponent below you, and performs another jump if the first hit touches the opponent. Its direction can be controlled after use. It won't consume any additional Drive when used from Overdrive Shadow Rise.",
@@ -1669,7 +1669,7 @@ blockType = "mid"
 input = "kk"
 hitCount = 2
 parents = ["shadow-rise-light", "shadow-rise-medium", "shadow-rise-heavy"]
-capcomID = 508
+capcomId = 508
 
 properties = ["knockdown"]
 notes = [
@@ -1743,7 +1743,7 @@ blockType = "mid"
 input = "*p"
 hitCount = 1
 parents = ["head-press", "head-press-od", "head-press-od-shadow-rise"]
-capcomID = 506
+capcomId = 506
 
 startup = 12
 active = [12, 21]
@@ -1786,7 +1786,7 @@ notes_ja = [
   "シャドウライズ中に",
   "ヒット/ガードさせた高度によって硬直差が変化",
 ]
-capcomID = 507
+capcomId = 507
 
 startup = 16
 active = [16]
@@ -1827,7 +1827,7 @@ notes_ja = [
   "ヒット/ガードさせた高度によって硬直差が変化",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
-capcomID = 507
+capcomId = 507
 
 startup = 16
 active = [16]
@@ -1864,7 +1864,7 @@ notes_ja = [
   "シャドウライズから派生する、落下しながらの手刀による攻撃。発動後に前後への移動を制御できる。ODシャドウライズから発動した場合、追加でDゲージは消費しない。",
   "シャドウライズ中に",
 ]
-capcomID = 509
+capcomId = 509
 
 startup = 21
 active = [21]
@@ -1901,7 +1901,7 @@ notes_ja = [
   "シャドウライズ中に",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
-capcomID = 509
+capcomId = 509
 
 startup = 21
 active = [21]
@@ -1995,7 +1995,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "最低保障ダメージ30％",
 ]
-capcomID = 601
+capcomId = 601
 
 startup = 10
 active = [10, 11, 13, 15, 47, 48, 50, 51]
@@ -2032,7 +2032,7 @@ notes_ja = [
   "カウンター/パニッシュカウンターで数値が変動しない",
   "最低保障ダメージ40％",
 ]
-capcomID = 602
+capcomId = 602
 
 startup = 26
 active = [26, 32]
@@ -2057,7 +2057,7 @@ input = "236236*p"
 hitCount = 11
 blockType = "high"
 properties = ["knockdown"]
-capcomID = 603
+capcomId = 603
 
 notes = [
   "Rush towards the opponent before smashing them into the ground with devastating strength. A versatile move that can counter projectiles, be used in combos, and can turn the tables when under pressure.",
@@ -2102,7 +2102,7 @@ input = "236236*p"
 hitCount = 2
 blockType = "high"
 properties = ["knockdown"]
-capcomID = 603
+capcomId = 603
 
 notes = [
   "Completely invincible between frames 1 - 15",
