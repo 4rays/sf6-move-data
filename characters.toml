@@ -666,3 +666,24 @@ artwork = "https://www.streetfighter.com/6/assets/images/character/vega_mbison/v
 [[characters.tags]]
 name = "charge"
 name_ja = "溜め"
+
+# Terry
+[[characters]]
+id = 23
+name = "Terry"
+slug = "terry"
+name_ja = "テリー"
+description = "A passionate fighter that hones his craft as he travels all over the world. Also known as the \"Hungry Wolf\". He came to Metro City after hearing about the opening of the Pao Pao Cafe."
+description_ja = "腕を磨くために世界をさすらい、闘い続ける熱いファイター。飢えた狼の異名をとる。パオパオカフェの支店がオープンすると聞きつけて、メトロシティに立ち寄った。"
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/terry/terry_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/terry/terry_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/terry/terry_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/terry/terry_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/terry/terry_ss05.jpg",
+]
+artwork = "https://www.streetfighter.com/6/assets/images/character/terry/terry.png"
+
+[[characters.tags]]
+name = "fireball"
+name_ja = "玉"
