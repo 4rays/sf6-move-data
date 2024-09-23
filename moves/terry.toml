@@ -1,0 +1,682 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "terry-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lp"
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "terry-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5mp"
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "terry-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5hp"
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "terry-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5lk"
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "terry-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5mk"
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "terry-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "5hk"
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "terry-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "terry-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2mp"
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "terry-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "terry-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2lk"
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "terry-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2mk"
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "terry-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "low"
+input = "2hk"
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "terry-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>lp"
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中P"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+slug = "terry-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mp"
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "terry-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>hp"
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小足", "ジャンプコアシ"]
+slug = "terry-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>lk"
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "terry-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "terry-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 23
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>hk"
+
+# Hammer Punch
+[[moves]]
+name = "Hammer Punch"
+name_ja = "ハンマーパンチ"
+slug = "hammer-punch"
+characterId = 23
+type = "commandNormal"
+hitCount = 1
+blockType = "mid"
+input = "6hp"
+
+# Power Drive
+[[moves]]
+name = "Power Drive"
+name_ja = "パワードライブ"
+slug = "power-drive"
+characterId = 23
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "5mp>5hp"
+
+# Power Shoot
+[[moves]]
+name = "Power Shoot"
+name_ja = "パワーシュート"
+slug = "power-shoot"
+characterId = 23
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "5mp>5hk"
+
+# Power Dunk
+[[moves]]
+name = "Power Dunk"
+name_ja = "パワーダンク"
+slug = "power-dunk"
+characterId = 23
+type = "targetCombo"
+hitCount = 3
+blockType = "high"
+input = "5mp>5hk>5hk"
+
+# Passing Sway
+[[moves]]
+name = "Passing Sway"
+name_ja = "パッシングスウェー"
+slug = "passing-sway"
+characterId = 23
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "5mp>5mk"
+
+# Jumping Lariat
+[[moves]]
+name = "Jumping Lariat"
+name_ja = "ジャンプラリアットパンチ"
+slug = "jumping-lariat"
+characterId = 23
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parents = ["passing-sway"]
+input = "5mp"
+
+# Jumping Knee
+[[moves]]
+name = "Jumping Knee"
+name_ja = "ジャンプニーアタック"
+slug = "jumping-knee"
+characterId = 23
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parents = ["passing-sway"]
+input = "5mk"
+
+# Fire Kick
+[[moves]]
+name = "Fire Kick"
+name_ja = "ファイヤーキック"
+slug = "fire-kick"
+characterId = 23
+type = "targetCombo"
+hitCount = 2
+blockType = "high"
+input = "2mk>2hk"
+
+# Power Wave (Light)
+[[moves]]
+name = "Power Wave (Light)"
+name_ja = "パワーウェーブ（弱）"
+slug = "power-wave-light"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236lp"
+
+# Power Wave (Medium)
+[[moves]]
+name = "Power Wave (Medium)"
+name_ja = "パワーウェーブ（中）"
+slug = "power-wave-medium"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236mp"
+
+# Round Wave
+[[moves]]
+name = "Round Wave"
+name_ja = "ラウンドウェーブ"
+slug = "round-wave"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236hp"
+
+# Power Wave (OD)
+[[moves]]
+name = "Power Wave (OD)"
+name_ja = "ラウンドウェーブ（OD）"
+slug = "power-wave-od"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(pp)"
+
+# Quick Burn
+[[moves]]
+name = "Quick Burn"
+name_ja = "クイックバーン"
+slug = "quick-burn"
+characterId = 23
+type = "special"
+hitCount = 2
+blockType = "high"
+input = "214lp"
+
+# Quick Burn (OD)
+[[moves]]
+input = "214(pp)" //
+
+name = "Quick Burn (OD)"
+name_ja = "クイックバーン（OD）"
+slug = "quick-burn-od"
+characterId = 23
+type = "special"
+hitCount = 2
+blockType = "high"
+# Burn Knuckle (Medium)
+[[moves]]
+name = "Burn Knuckle (Medium)"
+name_ja = "バーンナックル（中）"
+slug = "burn-knuckle-medium"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214mp"
+
+# Burn Knuckle (Heavy)
+[[moves]]
+name = "Burn Knuckle (Heavy)"
+name_ja = "バーンナックル（強）"
+slug = "burn-knuckle-heavy"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214hp"
+
+# Burn Knuckle (OD)
+[[moves]]
+input = "214(pp)" //
+name = "Burn Knuckle (OD)"
+name_ja = "バーンナックル（OD）"
+slug = "burn-knuckle-od"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+
+# Power Charge (Light)
+[[moves]]
+name = "Power Charge (Light)"
+name_ja = "パワーチャージ（弱）"
+slug = "power-charge-light"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236lk"
+
+# Power Charge (Medium)
+[[moves]]
+name = "Power Charge (Medium)"
+name_ja = "パワーチャージ（中）"
+slug = "power-charge-medium"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236mk"
+
+# Power Charge (Heavy)
+[[moves]]
+name = "Power Charge (Heavy)"
+name_ja = "パワーチャージ（強）"
+slug = "power-charge-heavy"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236hk"
+
+# Power Charge (OD)
+[[moves]]
+name = "Power Charge (OD)"
+name_ja = "パワーチャージ（OD）"
+slug = "power-charge-od"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "236(kk)"
+
+# Crack Shoot (Light)
+[[moves]]
+name = "Crack Shoot (Light)"
+name_ja = "クラックシュート（弱）"
+slug = "crack-shoot-light"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214lk"
+
+# Crack Shoot (Medium)
+[[moves]]
+name = "Crack Shoot (Medium)"
+name_ja = "クラックシュート（中）"
+slug = "crack-shoot-medium"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214mk"
+
+# Crack Shoot (Heavy)
+[[moves]]
+name = "Crack Shoot (Heavy)"
+name_ja = "クラックシュート（強）"
+slug = "crack-shoot-heavy"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214hk"
+
+# Crack Shoot (OD)
+[[moves]]
+name = "Crack Shoot (OD)"
+name_ja = "クラックシュート（OD）"
+slug = "crack-shoot-od"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "214(kk)"
+
+# Rising Tackle (Light)
+[[moves]]
+name = "Rising Tackle (Light)"
+name_ja = "ライジングタックル（弱）"
+slug = "rising-tackle-light"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623lp"
+
+# Rising Tackle (Medium)
+[[moves]]
+name = "Rising Tackle (Medium)"
+name_ja = "ライジングタックル（中）"
+slug = "rising-tackle-medium"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623mp"
+
+# Rising Tackle (Heavy)
+[[moves]]
+name = "Rising Tackle (Heavy)"
+name_ja = "ライジングタックル（強）"
+slug = "rising-tackle-heavy"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623hp"
+
+# Rising Tackle (OD)
+[[moves]]
+name = "Rising Tackle (OD)"
+name_ja = "ライジングタックル（OD）"
+slug = "rising-tackle-od"
+characterId = 23
+type = "special"
+hitCount = 1
+blockType = "high"
+input = "623(pp)"
+
+# Buster Wolf
+[[moves]]
+name = "Buster Wolf"
+name_ja = "バスターウルフ"
+slug = "buster-wolf"
+characterId = 23
+type = "super1"
+hitCount = 1
+blockType = "high"
+input = "236236*k"
+
+# Power Geyser
+[[moves]]
+name = "Power Geyser"
+name_ja = "パワーゲイザー"
+slug = "power-geyser"
+characterId = 23
+type = "super2"
+hitCount = 1
+blockType = "high"
+input = "214214*p"
+
+# Twin Geyser
+[[moves]]
+name = "Twin Geyser"
+name_ja = "ツインゲイザー"
+slug = "twin-geyser"
+characterId = 23
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parents = ["power-geyser"]
+input = "pp"
+
+# Triple Geyser
+[[moves]]
+name = "Triple Geyser"
+name_ja = "トリプルゲイザー"
+slug = "triple-geyser"
+characterId = 23
+type = "followUp"
+hitCount = 1
+blockType = "high"
+parents = ["twin-geyser"]
+input = "pp"
+
+# Rising Fang
+[[moves]]
+hitCount = 1 //
+name = "Rising Fang"
+name_ja = "ライジングファング"
+slug = "rising-fang"
+characterId = 23
+type = "super3"
+blockType = "high"
+input = "236236*p"
+
+# Rising Fang (Critical Art)
+[[moves]]
+name = "Rising Fang (Critical Art)"
+name_ja = "ライジングファング（CA）"
+slug = "rising-fang-ca"
+characterId = 23
+type = "super3"
+hitCount = 1
+blockType = "high"
+input = "236236*p"
+
+# Grasping Upper
+[[moves]]
+name = "Grasping Upper"
+name_ja = "グラスピングアッパー"
+slug = "grasping-upper"
+characterId = 23
+type = "throw"
+hitCount = 1
+input = "(lplk)"
+properties = ["knockdown"]
+
+# バスタースルー
+[[moves]]
+name = "Buster Throw" //
+name_ja = "バスタースルー"
+slug = "buster-throw"
+characterId = 23
+type = "throw"
+hitCount = 1
+input = "(2lplk)"
+properties = ["knockdown"]
