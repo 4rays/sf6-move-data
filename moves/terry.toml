@@ -583,6 +583,8 @@ active = [22, 24]
 recovery = 19
 damage = 800
 superArt = 1000
+notes = ["An overhead attack that cannot be blocked while crouching."]
+notes_ja = ["しゃがみでガードできない中段攻撃。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -612,6 +614,10 @@ recovery = 22
 damage = 700
 superArt = 600
 capcomId = 403
+notes = [
+  "A combination attack that's quick and doesn't leave you open for long even if it's blocked.",
+]
+notes_ja = ["続けてヒットし、ガードされても隙が少ない連続攻撃。"]
 
 [moves.frameAdvantage]
 block = -5
@@ -642,6 +648,8 @@ scaling = ["Starter scaling 20%", "Combo scaling 20%"]
 scaling_ja = ["始動補正20%", "コンボ補正20%"]
 superArt = 500
 capcomId = 404
+notes = ["A counter followed by a sequence of attacks."]
+notes_ja = ["カウンターヒット時に続けてヒットする連続攻撃。"]
 
 [moves.frameAdvantage]
 block = -14
@@ -670,6 +678,8 @@ recovery = 33
 damage = 1300
 superArt = 1750
 capcomId = 405
+notes = ["A highly damaging transition attack from Power Shoot."]
+notes_ja = ["パワーシュートから派生するダメージの高い連続攻撃。"]
 
 [moves.driveGauge]
 onHit = 2500
@@ -685,10 +695,11 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mp>5mk"
-
-notes = ["Fully invincible from frames 20 - 40 on hit only"]
-notes_ja = ["ヒット時のみ20-40F 完全無敵"]
-
+notes = [
+  "A combination attack that can transition into two possible variations.",
+  "Fully invincible from frames 20 - 40 on hit only",
+]
+notes_ja = ["続けてヒットする連続攻撃。ここから2種類の攻撃へ派生可能。", "ヒット時のみ20-40F 完全無敵"]
 startup = 13
 active = [13, 14]
 recovery = 27
@@ -718,11 +729,15 @@ parents = ["passing-sway"]
 input = "5mp"
 capcomId = 407
 notes = [
+  "An attack from Passing Sway that hits the opponent from the front. Hold forward to increase the distance you move forward.",
   "Completely invincible between frames 1 - 25",
   "Considered airborne from frames 14 - 25",
 ]
-notes_ja = ["1-25F 完全無敵", "14-25F 空中判定"]
-
+notes_ja = [
+  "パッシングスウェーから派生する前方への攻撃。前方向に入力することで前進距離を増やすことができる。",
+  "1-25F 完全無敵",
+  "14-25F 空中判定",
+]
 startup = 24
 active = [24, 25]
 recovery = 18
@@ -752,11 +767,15 @@ input = "5mk"
 capcomId = 408
 
 notes = [
+  "An attack from Passing Sway that hits the opponent from behind. Hold forward to increase the distance you move.",
   "Completely invincible between frames 1 - 25",
   "Considered airborne from frames 16 - 25",
 ]
-notes_ja = ["1-25F 完全無敵", "16-25F 空中判定"]
-
+notes_ja = [
+  "パッシングスウェーから派生する後方への攻撃。前方向に入力することで前進距離を増やすことができる。",
+  "1-25F 完全無敵",
+  "16-25F 空中判定",
+]
 startup = 24
 active = [24, 25]
 recovery = 20
@@ -793,6 +812,8 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 300
 capcomId = 409
+notes = ["A combination attack that can be canceled into a special move."]
+notes_ja = ["必殺技キャンセル可能な連続攻撃。"]
 
 [moves.frameAdvantage]
 block = -16
@@ -819,6 +840,10 @@ cancel = "SA3"
 damage = 600
 superArt = 600
 capcomId = 501
+notes = [
+  "Smash the ground with your fist and let loose a wave of energy across the ground. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["拳を地面に叩きつけ、地を這う気弾を放つ技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = -3
@@ -846,6 +871,10 @@ cancel = "SA3"
 damage = 700
 superArt = 700
 capcomId = 501
+notes = [
+  "Smash the ground with your fist and let loose a wave of energy across the ground. Useful for checking an opponent from a distance, and as a stopgap in combos.",
+]
+notes_ja = ["拳を地面に叩きつけ、地を這う気弾を放つ技。離れた間合いのけん制や連係の繋ぎとして有効。"]
 
 [moves.frameAdvantage]
 hit = 0
@@ -873,6 +902,10 @@ cancel = "SA3"
 damage = 900
 superArt = 1000
 capcomId = 502
+notes = [
+  "Smash the ground with your fist and let loose a blast of energy in front of you. Easy to use up close, and allows you to act before an opponent even if blocked.",
+]
+notes_ja = ["拳を地面に叩きつけ、前方に気弾の塊を放つ技。近距離の連係で使いやすく、ガードされても相手より先に動ける。"]
 
 [moves.frameAdvantage]
 hit = 8
@@ -902,6 +935,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 600
 capcomId = 502
+notes = [
+  "Smash the ground with your fist and let loose a blast of energy in front of you. Easy to use up close, and allows you to act before an opponent even if blocked.",
+]
+notes_ja = ["拳を地面に叩きつけ、前方に気弾の塊を放つ技。近距離の連係で使いやすく、ガードされても相手より先に動ける。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -931,6 +968,10 @@ scaling = ["Starter scaling 30%"]
 scaling_ja = ["始動補正30%"]
 superArt = 700
 capcomId = 503
+notes = [
+  "Reels off an energy cloaked hook before coming down with a downward punch. The second attack is an overhead that can't be blocked while crouching, making it good for breaking through defenses.",
+]
+notes_ja = ["気を纏った拳でフックから打ち下ろしパンチを行う技。2段目がしゃがみガードできない中段属性で、ガード崩しに有効。"]
 
 [moves.frameAdvantage]
 hit = 2
@@ -963,6 +1004,10 @@ scaling = ["Starter scaling 20%"]
 scaling_ja = ["始動補正20%"]
 superArt = 1300
 capcomId = 503
+notes = [
+  "Reels off an energy cloaked hook before coming down with a downward punch. The second attack is an overhead that can't be blocked while crouching, making it good for breaking through defenses.",
+]
+notes_ja = ["気を纏った拳でフックから打ち下ろしパンチを行う技。2段目がしゃがみガードできない中段属性で、ガード崩しに有効。"]
 
 [moves.frameAdvantage]
 block = -5
@@ -991,6 +1036,10 @@ cancel = "SA3"
 damage = 1000
 superArt = 1000
 capcomId = 504
+notes = [
+  "Rush forward with a thrusting punch cloaked with energy. Useful as a surprise attack to close the distance between you and your opponent.",
+]
+notes_ja = ["気を纏った拳を突き出して突進する技。接近手段を兼ねた奇襲として有効。"]
 
 [moves.frameAdvantage]
 block = -6
@@ -1020,6 +1069,10 @@ cancel = "SA3"
 damage = 1200
 superArt = 1200
 capcomId = 504
+notes = [
+  "Rush forward with a thrusting punch cloaked with energy. Useful as a surprise attack to close the distance between you and your opponent.",
+]
+notes_ja = ["気を纏った拳を突き出して突進する技。接近手段を兼ねた奇襲として有効。"]
 
 [moves.frameAdvantage]
 block = -8
@@ -1041,9 +1094,11 @@ hitCount = 1
 blockType = "high"
 
 properties = ["knockdown"]
-notes = ["Juggle state time is extended when attack lands as a Punish Counter."]
-notes_ja = ["パニッシュカウンター時吹き飛び時間延長"]
-
+notes = [
+  "Rush forward with a thrusting punch cloaked with energy. Useful as a surprise attack to close the distance between you and your opponent.",
+  "Juggle state time is extended when attack lands as a Punish Counter.",
+]
+notes_ja = ["気を纏った拳を突き出して突進する技。接近手段を兼ねた奇襲として有効。", "パニッシュカウンター時吹き飛び時間延長"]
 startup = 19
 active = [19, 32]
 recovery = 17
@@ -1081,6 +1136,12 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 500
 capcomId = 505
+notes = [
+  "A quick, forward rushing bodycheck. Useful in a combo when canceling from normal attacks. The heavy version can be canceled into another special move on hit.",
+]
+notes_ja = [
+  "素早く突進して体当たりを繰り出す技。通常技をキャンセルしてのコンボとして使いやすい。強版ヒット時のみパワーチャージ以外の必殺技でキャンセル可能。",
+]
 
 [moves.frameAdvantage]
 hit = 3
@@ -1112,6 +1173,12 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 800
 capcomId = 505
+notes = [
+  "A quick, forward rushing bodycheck. Useful in a combo when canceling from normal attacks. The heavy version can be canceled into another special move on hit.",
+]
+notes_ja = [
+  "素早く突進して体当たりを繰り出す技。通常技をキャンセルしてのコンボとして使いやすい。強版ヒット時のみパワーチャージ以外の必殺技でキャンセル可能。",
+]
 
 [moves.frameAdvantage]
 block = -11
@@ -1133,11 +1200,15 @@ blockType = "high"
 input = "236hk"
 properties = ["knockdown"]
 notes = [
+  "A quick, forward rushing bodycheck. Useful in a combo when canceling from normal attacks. The heavy version can be canceled into another special move on hit.",
   "Changes to juggle state on mid-air hit",
   "Can cancel into other special moves except Power Charge only on hit",
 ]
-notes_ja = ["空中ヒット時吹き飛び変化", "ヒット時のみパワーチャージを除く必殺技にキャンセル可能"]
-
+notes_ja = [
+  "素早く突進して体当たりを繰り出す技。通常技をキャンセルしてのコンボとして使いやすい。強版ヒット時のみパワーチャージ以外の必殺技でキャンセル可能。",
+  "空中ヒット時吹き飛び変化",
+  "ヒット時のみパワーチャージを除く必殺技にキャンセル可能",
+]
 startup = 25
 active = [25, 33]
 recovery = 27
@@ -1176,6 +1247,12 @@ scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
 superArt = 1000
 capcomId = 505
+notes = [
+  "A quick, forward rushing bodycheck. Useful in a combo when canceling from normal attacks. The heavy version can be canceled into another special move on hit.",
+]
+notes_ja = [
+  "素早く突進して体当たりを繰り出す技。通常技をキャンセルしてのコンボとして使いやすい。強版ヒット時のみパワーチャージ以外の必殺技でキャンセル可能。",
+]
 
 [moves.frameAdvantage]
 block = -14
@@ -1194,10 +1271,11 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lk"
-
-notes = ["Considered airborne from frames 7 - 23"]
-notes_ja = ["7-23F 空中判定"]
-
+notes = [
+  "A quick, falling axe kick. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
+  "Considered airborne from frames 7 - 23",
+]
+notes_ja = ["素早く飛び上がり踵落としを繰り出す技。隙が少なく、けん制や連係に使いやすい。", "7-23F 空中判定"]
 startup = 16
 active = [16, 19]
 recovery = 18
@@ -1224,10 +1302,11 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mk"
-
-notes = ["Considered airborne from frames 9 - 25"]
-notes_ja = ["9-25F 空中判定"]
-
+notes = [
+  "A quick, falling axe kick. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
+  "Considered airborne from frames 9 - 25",
+]
+notes_ja = ["素早く飛び上がり踵落としを繰り出す技。隙が少なく、けん制や連係に使いやすい。", "9-25F 空中判定"]
 startup = 17
 active = [17, 23]
 recovery = 18
@@ -1256,9 +1335,11 @@ blockType = "high"
 input = "214hk"
 
 properties = ["knockdown"]
-notes = ["Considered airborne from frames 12 - 34"]
-notes_ja = ["12-34F 空中判定"]
-
+notes = [
+  "A quick, falling axe kick. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
+  "Considered airborne from frames 12 - 34",
+]
+notes_ja = ["素早く飛び上がり踵落としを繰り出す技。隙が少なく、けん制や連係に使いやすい。", "12-34F 空中判定"]
 startup = 23
 active = [23, 33]
 recovery = 19
@@ -1287,11 +1368,15 @@ input = "214(kk)"
 
 properties = ["knockdown"]
 notes = [
+  "A quick, falling axe kick. It is very quick, making it easy to use in combos or as a way of checking your opponent.",
   "Considered airborne from frames 8 - 25",
   "Produces a floor bound during a mid-air hit",
 ]
-notes_ja = ["8-25F 空中判定", "空中ヒット時床バウンド"]
-
+notes_ja = [
+  "素早く飛び上がり踵落としを繰り出す技。隙が少なく、けん制や連係に使いやすい。",
+  "8-25F 空中判定",
+  "空中ヒット時床バウンド",
+]
 startup = 20
 active = [20, 23]
 recovery = 19
@@ -1319,11 +1404,15 @@ input = "623lp"
 
 properties = ["knockdown"]
 notes = [
+  "A rising, rotating attack. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Considered airborne from frames 6 - 35",
 ]
-notes_ja = ["1-14F 空中判定の打撃・飛び道具に対して無敵", "6-35F 空中判定"]
-
+notes_ja = [
+  "回転しながら飛び上がり、タックルする技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
+  "6-35F 空中判定",
+]
 startup = 5
 active = [5, 14]
 recovery = 21
@@ -1356,11 +1445,15 @@ input = "623mp"
 
 properties = ["knockdown"]
 notes = [
+  "A rising, rotating attack. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 8 - 43",
 ]
-notes_ja = ["1-10F 空中判定の打撃・飛び道具に対して無敵", "8-43F 空中判定"]
-
+notes_ja = [
+  "回転しながら飛び上がり、タックルする技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 空中判定の打撃・飛び道具に対して無敵",
+  "8-43F 空中判定",
+]
 startup = 6
 active = [6, 15]
 recovery = 28
@@ -1393,11 +1486,15 @@ input = "623hp"
 
 properties = ["knockdown"]
 notes = [
+  "A rising, rotating attack. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 53",
 ]
-notes_ja = ["1-8F 空中判定の打撃・飛び道具に対して無敵", "8-53F 空中判定"]
-
+notes_ja = [
+  "回転しながら飛び上がり、タックルする技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
+  "8-53F 空中判定",
+]
 startup = 7
 active = [7, 26]
 recovery = 27
@@ -1429,11 +1526,15 @@ blockType = "high"
 input = "623(pp)"
 properties = ["knockdown"]
 notes = [
+  "A rising, rotating attack. It grants immunity to jumping attacks, making it useful as an anti-air technique.",
   "Completely invincible between frames 1 - 10",
   "Considered airborne from frames 7 - 54",
 ]
-notes_ja = ["1-10F 完全無敵", "7-54F 空中判定"]
-
+notes_ja = [
+  "回転しながら飛び上がり、タックルする技。相手のジャンプ攻撃に対して無敵があるので、対空として使える。",
+  "1-10F 完全無敵",
+  "7-54F 空中判定",
+]
 startup = 6
 active = [6, 20]
 recovery = 34
@@ -1463,12 +1564,17 @@ input = "236236*k"
 
 properties = ["knockdown"]
 notes = [
+  "Charge forward with a piercing thrust, before firing a burst of energy. Its swift speed and invincibility can quickly turn the tables on an opponent.",
   "Invincible to strikes and throws between frames 1 - 8",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "The minimum guaranteed damage is 30%",
 ]
-notes_ja = ["1-8F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
-
+notes_ja = [
+  "気を纏った拳を突き出して突進し、気弾を放つ技。攻撃の出が早く、無敵もあるので切り返しとしても使える。",
+  "1-8F 打撃・投げに対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ30％",
+]
 startup = 7
 active = [7, 18]
 recovery = 60
@@ -1497,6 +1603,7 @@ input = "214214*p"
 
 properties = ["knockdown"]
 notes = [
+  "Unleash a volcanic explosion of energy forward. If the attack hits, input a command to transition to Twin Geyser.",
   "Can transition to Twin Geyser between frames 25 - 38 on hit only",
   "Completely invincible on frames 1 - 17",
   "Invincible against projectiles and strikes with mid-air hitboxes from frames 18 - 25",
@@ -1504,6 +1611,7 @@ notes = [
   "The minimum guaranteed damage is 40%",
 ]
 notes_ja = [
+  "前方に巨大な気弾を放つ技。ヒット時に追加入力でツインゲイザーに派生可能。",
   "ヒット時のみ25～38Fまでツインゲイザーに派生可能",
   "1-17F 完全無敵",
   "18-25F 空中判定の打撃・飛び道具に対して無敵",
@@ -1539,11 +1647,15 @@ input = "pp"
 
 properties = ["knockdown"]
 notes = [
+  "Performs another volcanic explosion of energy after the initial Power Geyser. Input a command to transition to Triple Geyser.",
   "Can transition to Triple Geyser or Triple Geyser (Dud) between frames 38 - 42 on hit only",
   "The minimum guaranteed damage is 40%",
 ]
-notes_ja = ["ヒット時のみ38～42Fまでトリプルゲイザー、トリプルゲイザー(不発)に派生可能", "最低保障ダメージ40％"]
-
+notes_ja = [
+  "パワーゲイザーから派生する、さらに巨大な気弾を放つ技。追加入力でトリプルゲイザーに派生可能。",
+  "ヒット時のみ38～42Fまでトリプルゲイザー、トリプルゲイザー(不発)に派生可能",
+  "最低保障ダメージ40％",
+]
 startup = 22
 active = [22, 27]
 recovery = 43
@@ -1566,11 +1678,15 @@ input = "pp"
 
 properties = ["knockdown"]
 notes = [
+  "Performs a meteoric explosion of energy after Twin Geyser. Useful for when you want to maximize your damage output.",
   "Completely invincible between frames 1 - 139",
   "The minimum guaranteed damage is 40%",
 ]
-notes_ja = ["1-139F 完全無敵", "最低保障ダメージ40％"]
-
+notes_ja = [
+  "ツインゲイザーから派生する、渾身の気弾を放つ技。確実にダメージを奪いたいときに有効。",
+  "1-139F 完全無敵",
+  "最低保障ダメージ40％",
+]
 startup = 14
 active = [14, 14]
 recovery = 125
@@ -1595,6 +1711,7 @@ input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
+  "Launches the opponent into the air, then smashes them with a fist cloaked in energy. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
   "When under 25% vitality",
   "Completely invincible between frames 1 - 16",
   "The minimum guaranteed damage is 50%",
@@ -1602,6 +1719,7 @@ notes = [
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "相手を上空に打ち上げ、拳に纏った気を打ち込む技。出始めの無敵時間を活かした対空や切り返しに狙える。",
   "体力25%以下で",
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
@@ -1637,12 +1755,14 @@ input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
+  "Launches the opponent into the air, then smashes them with a fist cloaked in energy. It has invincibility at the beginning, making it useful as an anti-air attack or as a way to turn the tables on your opponent.",
   "Completely invincible between frames 1 - 16",
   "The minimum guaranteed damage is 50%",
   "Values do not change when the attack lands as a counter or Punish Counter",
   "* Can only be canceled into from special moves",
 ]
 notes_ja = [
+  "相手を上空に打ち上げ、拳に纏った気を打ち込む技。出始めの無敵時間を活かした対空や切り返しに狙える。",
   "1-16F 完全無敵",
   "最低保障ダメージ50％",
   "カウンター/パニッシュカウンターで数値が変動しない",
@@ -1677,6 +1797,7 @@ hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab and knee the opponent in the gut before throwing them forward. Throws your opponent without switching places with them.",
   "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1684,6 +1805,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "相手を掴み膝蹴りで怯ませ、前方に吹き飛ばす技。相手との位置関係を変えずに投げる。",
   "近距離で",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
@@ -1716,6 +1838,7 @@ hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
 notes = [
+  "Grab your opponent and toss them behind you, placing their weight on your arm and shoulder. Throws your opponent while switching places with them.",
   "When near opponent",
   "Properties change to the following when the attack lands as a Punish Counter:",
   "- Deals 2040 damage",
@@ -1723,6 +1846,7 @@ notes = [
   "- Forces a hard knockdown",
 ]
 notes_ja = [
+  "相手を掴み、腕を支点に背負う形から地面へ投げ付ける技。相手との位置を入れ替えながら投げる。",
   "近距離で",
   "パニッシュカウンター時以下の性能変化",
   "・ダメージ2040",
