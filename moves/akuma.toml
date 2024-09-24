@@ -1811,8 +1811,6 @@ onPunishCounter = -7000
 
 # Adamant Flame (OD 1)
 [[moves]]
-
-]
 name = "Adamant Flame (OD 1)"
 name_ja = "金剛灼火（OD 1段目）"
 slug = "adamant-flame-od-1"
