@@ -1083,12 +1083,12 @@ properties = ["knockdown"]
 notes = [
   "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 8
 active = [8, 27]
@@ -1122,14 +1122,14 @@ notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 relatedMoves = ["lightning-beast"]
 
@@ -1166,12 +1166,12 @@ properties = ["knockdown"]
 notes = [
   "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 8
 active = [8, 27]
@@ -1205,14 +1205,14 @@ notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 relatedMoves = ["lightning-beast"]
 
@@ -1249,12 +1249,12 @@ properties = ["knockdown"]
 notes = [
   "Curl your body into a ball and rise upward with a spinning tackle. This move has invincibility against jumping attacks while it is rising",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 8
 active = [8, 27]
@@ -1288,14 +1288,14 @@ notes = [
   "Consumes 100 of the Super Art 2 timer",
   "Can transition to Rolling Cannon on hit or block",
   "Considered airborne from frames 6 - 57",
-  "Invincible to mid-air attacks from frames 8 - 26",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 26",
 ]
 notes_ja = [
   "身体を丸めた状態で上昇し、攻撃する回転体当たり。上昇中は相手のジャンプ攻撃に対して無敵となる",
   "SA2タイマー100消費",
   "ヒット、ガード時ローリングキャノンへ派生可",
   "6-57F 空中判定",
-  "8-26F 空中判定の攻撃に対して無敵",
+  "8-26F 空中判定の打撃・飛び道具に対して無敵",
 ]
 relatedMoves = ["lightning-beast"]
 

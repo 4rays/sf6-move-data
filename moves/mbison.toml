@@ -79,6 +79,7 @@ type = "normal"
 blockType = "high"
 input = "5hp"
 hitCount = 1
+cancel = "SA"
 
 notes = [
   "Adds a floor bounding effect during a mid-air hit",
@@ -392,6 +393,11 @@ hitCount = 1
 properties = ["knockdown"]
 capcomId = 407
 
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
 startup = 11
 active = [11, 13]
 recovery = 26
@@ -650,8 +656,11 @@ active = [15, 24]
 recovery = 23
 damage = 900
 superArt = 1000
-notes = ["A sliding low attack that cannot be blocked standing."]
-notes_ja = ["地面を滑りつつ足元を攻撃する、立ってガードできない下段攻撃。"]
+notes = [
+  "A sliding low attack that cannot be blocked standing.",
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["地面を滑りつつ足元を攻撃する、立ってガードできない下段攻撃。", "カウンター/パニッシュカウンター時ダウン時間増加"]
 
 [moves.frameAdvantage]
 block = -15
@@ -766,12 +775,12 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 17",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17",
   "Considered airborne from frames 22 - 31",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-17F 空中判定の攻撃に対して無敵",
+  "6-17F 空中判定の打撃・飛び道具に対して無敵",
   "22-31F 空中判定",
 ]
 capcomId = 501
@@ -808,13 +817,13 @@ hitCount = 2
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 17",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 17",
   "Considered airborne from frames 22 - 31",
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-17F 空中判定の攻撃に対して無敵",
+  "6-17F 空中判定の打撃・飛び道具に対して無敵",
   "22-31F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
@@ -852,12 +861,12 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 21",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21",
   "Considered airborne from frames 26 - 45",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-21F 空中判定の攻撃に対して無敵",
+  "6-21F 空中判定の打撃・飛び道具に対して無敵",
   "26-45F 空中判定",
 ]
 capcomId = 501
@@ -894,13 +903,13 @@ hitCount = 2
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 21",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 21",
   "Considered airborne from frames 26 - 45",
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-21F 空中判定の攻撃に対して無敵",
+  "6-21F 空中判定の打撃・飛び道具に対して無敵",
   "26-45F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
@@ -938,12 +947,12 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 25",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25",
   "Considered airborne from frames 30 - 49",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-25F 空中判定の攻撃に対して無敵",
+  "6-25F 空中判定の打撃・飛び道具に対して無敵",
   "30-49F 空中判定",
 ]
 capcomId = 501
@@ -980,13 +989,13 @@ hitCount = 2
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 6 - 25",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 25",
   "Considered airborne from frames 30 - 49",
   "Detonates a Psycho Mine on block or on hit",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "6-25F 空中判定の攻撃に対して無敵",
+  "6-25F 空中判定の打撃・飛び道具に対して無敵",
   "30-49F 空中判定",
   "ヒット/ガード時にサイコマインを誘爆",
 ]
@@ -1025,13 +1034,13 @@ hitCount = 3
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
-  "Invincible to mid-air attacks from frames 7 - 17",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
   "Projectile invincible from frames 13 - 31",
   "Considered airborne from frames 20 - 31",
 ]
 notes_ja = [
   "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
-  "7-17F 空中判定の攻撃に対して無敵",
+  "7-17F 空中判定の打撃・飛び道具に対して無敵",
   "13-31F 飛び道具無敵",
   "20-31F 空中判定",
 ]
@@ -1062,16 +1071,25 @@ alternativeNames_ja = ["ODサイコクラッシャー"]
 slug = "psycho-crusher-attack-od-psycho-mine"
 characterId = 22
 type = "special"
-blockType = "mid"
+blockType = "high"
 input = "[4]>6(pp)"
 hitCount = 5
 
 properties = ["knockdown"]
 notes = [
   "A quick charge forward empowered by Psycho Power. It deals a large amount of damage, making it particularly effective in combos.",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 17",
+  "Projectile invincible from frames 13 - 31",
+  "Considered airborne from frames 20 - 31",
   "Detonates a Psycho Mine on block or on hit",
 ]
-notes_ja = ["サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。", "ヒット/ガード時にサイコマインを誘爆"]
+notes_ja = [
+  "サイコパワーを全身に纏って突進する技。ダメージが高く、コンボに組み込むのが有効。",
+  "7-17F 空中判定の打撃・飛び道具に対して無敵",
+  "13-31F 飛び道具無敵",
+  "20-31F 空中判定",
+  "ヒット/ガード時にサイコマインを誘爆",
+]
 capcomId = 501
 
 startup = 16
@@ -1598,7 +1616,6 @@ name_ja = "シャドウライズ（OD）"
 slug = "shadow-rise-od"
 characterId = 22
 type = "special"
-blockType = "mid"
 input = "[2]>8(kk)"
 notes = [
   "A quick and high-reaching jump. Two different follow-ups can be used from it.",
@@ -2084,7 +2101,6 @@ scaling = ["Immediate scaling 10%"]
 scaling_ja = ["即時補正10%"]
 
 [moves.frameAdvantage]
-hit = -61
 block = -46
 
 [moves.driveGauge]
@@ -2125,7 +2141,6 @@ scaling = ["*Immediate scaling 10%"]
 scaling_ja = ["※即時補正10%"]
 
 [moves.frameAdvantage]
-hit = -61
 block = -46
 
 [moves.driveGauge]

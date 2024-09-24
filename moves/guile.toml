@@ -1133,7 +1133,7 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 550
-superArt = 600
+superArt = 300
 capcomId = 501
 
 [moves.frameAdvantage]
@@ -1141,7 +1141,7 @@ hit = 3
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -2500
 onPunishCounter = -3000
 
@@ -1166,14 +1166,14 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 600
-superArt = 600
+superArt = 300
 
 [moves.frameAdvantage]
 hit = 4
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -2500
 onPunishCounter = -3000
 
@@ -1199,7 +1199,7 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 550
-superArt = 600
+superArt = 450
 capcomId = 501
 
 [moves.frameAdvantage]
@@ -1207,7 +1207,7 @@ hit = 3
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -4000
 onPunishCounter = -3000
 
@@ -1232,14 +1232,14 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 600
-superArt = 600
+superArt = 450
 
 [moves.frameAdvantage]
 hit = 4
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -4000
 onPunishCounter = -3000
 
@@ -1265,7 +1265,7 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 550
-superArt = 600
+superArt = 300
 capcomId = 501
 
 [moves.frameAdvantage]
@@ -1273,7 +1273,7 @@ hit = 3
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -3000
 onPunishCounter = -3000
 
@@ -1298,14 +1298,14 @@ startup = 10
 totalFrames = 40
 cancel = "SA3"
 damage = 600
-superArt = 600
+superArt = 300
 
 [moves.frameAdvantage]
 hit = 4
 block = -3
 
 [moves.driveGauge]
-onHit = 1000
+onHit = 500
 onBlock = -3000
 onPunishCounter = -3000
 
@@ -1360,13 +1360,13 @@ input = "[2]>8lk"
 properties = ["knockdown"]
 notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 7",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 7",
   "Considered airborne from frames 8 - 36",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-7F 空中判定の攻撃に対して無敵",
+  "1-7F 空中判定の打撃・飛び道具に対して無敵",
   "8-36F 空中判定",
   "持続の3F目以降は個別ダメージ(800)",
 ]
@@ -1403,11 +1403,11 @@ blockType = "high"
 input = "[2]>8lk"
 properties = ["knockdown"]
 notes = [
-  "Invincible to mid-air attacks from frames 1 - 7",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 7",
   "Considered airborne from frames 8 - 36",
   "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
-notes_ja = ["1-7F 空中判定の攻撃に対して無敵", "8-36F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
+notes_ja = ["1-7F 空中判定の打撃・飛び道具に対して無敵", "8-36F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
 
 startup = 5
 active = [5, 10]
@@ -1440,7 +1440,7 @@ input = "[2]>8mk"
 properties = ["knockdown"]
 notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 38",
   "Does 800 individual damage after the 3rd active frame",
 ]
@@ -1483,7 +1483,7 @@ blockType = "high"
 input = "[2]>8mk"
 properties = ["knockdown"]
 notes = [
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 38",
   "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
@@ -1520,13 +1520,13 @@ input = "[2]>8hk"
 properties = ["knockdown"]
 notes = [
   "Perform a backwards somersault while unleashing a devastating kick. It is invincible against jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 9",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
   "Considered airborne from frames 8 - 40",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "後方へ宙返りをしながら強烈に蹴り上げる技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-9F 空中判定の攻撃に対して無敵",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
   "8-40F 空中判定",
   "持続の3F目以降は個別ダメージ(800)",
 ]
@@ -1563,11 +1563,11 @@ blockType = "high"
 input = "[2]>8hk"
 properties = ["knockdown"]
 notes = [
-  "Invincible to mid-air attacks from frames 1 - 9",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
   "Considered airborne from frames 8 - 40",
   "Does 1000 individual damage when the attack lands after the 3rd active frame",
 ]
-notes_ja = ["1-9F 空中判定の攻撃に対して無敵", "8-40F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
+notes_ja = ["1-9F 空中判定の打撃・飛び道具に対して無敵", "8-40F 空中判定", "持続の3F目以降は個別ダメージ(1000)"]
 
 startup = 7
 active = [7, 12]

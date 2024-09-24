@@ -788,14 +788,14 @@ properties = ["knockdown"]
 notes = [
   "A lariat performed by extending both arms and spinning. Invulnerable to projectiles during the duration of the spin",
   "Projectile invincibility from frames 1 - 36",
-  "Invincible to mid-air attacks from frames 6 - 12",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 12",
   "Press left or right during the attack to move",
   "First attack produces a crumple stun on hit",
 ]
 notes_ja = [
   "腕を広げて回転しながらのラリアットで攻撃する技。回転中は相手の飛び道具攻撃に対して無敵となる",
   "1-36F 飛び道具無敵",
-  "6-12F 空中判定の攻撃に対して無敵",
+  "6-12F 空中判定の打撃・飛び道具に対して無敵",
   "攻撃動作中、左右に移動可能",
   "攻撃動作中、左右に移動可能",
   "初段ヒット時、膝崩れダウン",
@@ -1325,8 +1325,9 @@ notes = [
   "Completely invincible from frames 1- 17",
   "Considered airborne from frames 2 - 30",
   "Can only work on mid-air opponents",
-  "Does 2100 individual damage on shortcut input",
   "Minimum guaranteed damage is 30%",
+  "Does 2100 individual damage when using simplified inputs",
+  "As the simplified input damage figure above is after it has already been scaled to 80%, the 30% minimum guaranteed damage will equal 787 damage when using simplified inputs",
   "Values do not change on counter or Punish Counter",
 ]
 notes_ja = [
@@ -1335,6 +1336,7 @@ notes_ja = [
   "2-30F 空中判定",
   "空中の相手にのみヒットする",
   "簡易入力時個別ダメージ（2100）",
+  "数値は簡易入力で出した時の80%の補正としている為、最低保障ダメージ30%の時は787ダメージ",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
 ]
@@ -1579,7 +1581,7 @@ notes_ja = ["リーチが長く、隙の小さい膝蹴り"]
 
 [moves.frameAdvantage]
 hit = 1
-block = -3
+block = -4
 
 [moves.driveGauge]
 onHit = 3000
@@ -1606,6 +1608,8 @@ recovery = 15
 cancel = "C"
 damage = 1000
 superArt = 1000
+scaling = ["Starter scaling 25%", "Combo scaling 20%"]
+scaling_ja = ["始動補正25%", "コンボ補正20%"]
 capcomId = 403
 
 [moves.frameAdvantage]

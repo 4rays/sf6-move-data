@@ -154,7 +154,7 @@ damage = 600
 superArt = 500
 
 [moves.frameAdvantage]
-hit = 1
+hit = 3
 block = -3
 
 [moves.driveGauge]
@@ -1384,8 +1384,8 @@ notes_ja = [
 startup = 26
 totalFrames = 72
 damage = 1800
-scaling = ["Immediate scaling 25%"]
-scaling_ja = ["即時補正25%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomId = 508
 
@@ -1423,8 +1423,8 @@ notes_ja = [
 startup = 26
 totalFrames = 72
 damage = 2600
-scaling = ["Immediate scaling 25%"]
-scaling_ja = ["即時補正25%"]
+scaling = ["Immediate scaling 10%"]
+scaling_ja = ["即時補正10%"]
 superArt = 3000
 capcomId = 508
 

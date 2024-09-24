@@ -713,12 +713,14 @@ notes = [
   "Can be canceled into Serenity Stream on hit or block",
   "Causes a crumple stun when the attack lands as a Punish Counter",
   "Forces a juggle state when the attack lands as a Punish Counter on a mid-air opponent",
+  "Considered airborne from frames 6 - 28",
 ]
 notes_ja = [
   "相手の足払いに強く、リーチの長い跳び蹴り",
   "ヒット・ガード時、行雲流水でキャンセル可能",
   "パニッシュカウンター時 膝崩れ",
   "空中パニッシュカウンター時吹き飛びダウン",
+  "6～28F 空中判定",
 ]
 
 startup = 16
@@ -1922,12 +1924,12 @@ input = "22lk"
 properties = ["knockdown"]
 notes = [
   "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
-  "Invincible against mid-air attacks from frames 1 - 10",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 8 - 45",
 ]
 notes_ja = [
   "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1～10F 空中判定の攻撃に対して無敵",
+  "1～10F 空中判定の打撃・飛び道具に対して無敵",
   "8～45F 空中判定",
 ]
 
@@ -1961,12 +1963,12 @@ input = "22mk"
 properties = ["knockdown"]
 notes = [
   "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
-  "Invincible against mid-air attacks from frames 1 - 10",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 8 - 51",
 ]
 notes_ja = [
   "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1～10F 空中判定の攻撃に対して無敵",
+  "1～10F 空中判定の打撃・飛び道具に対して無敵",
   "8～51F 空中判定",
 ]
 
@@ -2000,12 +2002,12 @@ input = "22hk"
 properties = ["knockdown"]
 notes = [
   "Rise into the air with multiple kicks. Useful for countering an opponent's jumping attacks, or as a way to close out combos",
-  "Invincible against mid-air attacks from frames 1 - 10",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 8 - 69",
 ]
 notes_ja = [
   "上昇しながらの連続蹴りを繰り出す技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1～10F 空中判定の攻撃に対して無敵",
+  "1～10F 空中判定の打撃・飛び道具に対して無敵",
   "8～69F 空中判定",
 ]
 

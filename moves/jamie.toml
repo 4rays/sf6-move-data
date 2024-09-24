@@ -2327,12 +2327,12 @@ input = "623lk"
 properties = ["knockdown"]
 notes = [
   "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
-  "Invincible to mid-air attacks from frames 1 - 12",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 12",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-12F 空中判定の攻撃に対して無敵",
+  "1-12F 空中判定の打撃・飛び道具に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 5
@@ -2365,12 +2365,12 @@ input = "623mk"
 properties = ["knockdown"]
 notes = [
   "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
-  "Invincible to mid-air attacks from frames 1 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 8
@@ -2401,12 +2401,12 @@ input = "623hk"
 properties = ["knockdown"]
 notes = [
   "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
-  "Invincible to mid-air attacks from frames 1 - 16",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 16",
   "Will only transition to the 2nd hit and after when the first attack hits",
 ]
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-16F 空中判定の攻撃に対して無敵",
+  "1-16F 空中判定の打撃・飛び道具に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 10
@@ -2438,13 +2438,13 @@ properties = ["knockdown"]
 notes = [
   "Launch your opponent into the air with a kick, and then use the recoil to follow up with a flying kick. Useful as an anti-air counter to an opponent's jumping attacks, and as a way to close out combos",
   "Completely invincible from frames 1 - 9",
-  "Invincible to mid-air attacks from frames 10 - 12",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 10 - 12",
   "The second hit and subsequent attacks only come out if the first attack hits",
 ]
 notes_ja = [
   "跳ね蹴りで浮かせた反動でさらに飛び蹴りでの追撃を加える技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
   "1-9F 完全無敵",
-  "10-12F 空中判定の攻撃に対して無敵",
+  "10-12F 空中判定の打撃・飛び道具に対して無敵",
   "2段目以降は初段ヒット時のみ派生",
 ]
 startup = 6

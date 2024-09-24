@@ -1023,12 +1023,12 @@ input = "236lk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
-  "The upper part of Manon’s body is invincible against mid-air attacks from frames 5 - 15",
+  "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 15",
   "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
-  "5-15F 上半身のみ空中判定の攻撃に対して無敵",
+  "5-15F 上半身のみ空中判定の打撃・飛び道具に対して無敵",
   "初段のみSA3/CAでキャンセル可能",
 ]
 startup = 9
@@ -1062,12 +1062,12 @@ input = "236mk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
-  "The upper part of Manon’s body is invincible against mid-air attacks from frames 7 - 19",
+  "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 7 - 19",
   "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
-  "7-19F 上半身のみ空中判定の攻撃に対して無敵",
+  "7-19F 上半身のみ空中判定の打撃・飛び道具に対して無敵",
   "初段のみSA3/CAでキャンセル可能",
 ]
 startup = 11
@@ -1101,13 +1101,13 @@ input = "236hk"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
-  "The upper part of Manon’s body is invincible against mid-air attacks from frames 9 - 22",
+  "The upper part of Manon’s body is invincible against projectiles and strikes with mid-air hitboxes from frames 9 - 22",
   "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 44 - 46",
   "Only the first hit can be canceled into a Level 3 Super Art or Critical Art",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
-  "9-22F 上半身のみ空中判定の攻撃に対して無敵",
+  "9-22F 上半身のみ空中判定の打撃・飛び道具に対して無敵",
   "44-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
   "初段のみSA3/CAでキャンセル可能",
 ]
@@ -1143,12 +1143,12 @@ input = "236(kk)"
 properties = ["knockdown"]
 notes = [
   "A swift, upwards kick performed while spinning. Useful in combos or, if done early, as an anti-air attack",
-  "Invincible against mid-air attacks from frames 4 - 16",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 4 - 16",
   "On hit, block or armored hit, can be canceled into a special move or Super Art from frames 41 - 46",
 ]
 notes_ja = [
   "下方向から回転するように高速で蹴り上げる技。早めに出す対空や、通常技からのコンボに使いやすい",
-  "4-16F 空中判定の攻撃に対して無敵",
+  "4-16F 空中判定の打撃・飛び道具に対して無敵",
   "41-46F ヒット、ガード、アーマーヒット時に、必殺技、SAキャンセル可能",
 ]
 startup = 8

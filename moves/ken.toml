@@ -936,13 +936,13 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "Leap into the sky with a devastating uppercut. Useful as an anti-air attack or as a way to end combos",
-  "Invincible to mid-air attacks from frames 1 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Considered airborne from frames 8 - 35",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "8-35F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -980,12 +980,12 @@ hitCount = 2
 properties = ["knockdown"]
 notes = [
   "Leap into the sky with a devastating uppercut. Useful as an anti-air attack or as a way to end combos",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 43",
 ]
 notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-8F 空中判定の攻撃に対して無敵",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
   "8-43F 空中判定",
 ]
 startup = 6
@@ -1022,13 +1022,13 @@ hitCount = 3
 properties = ["knockdown"]
 notes = [
   "Leap into the sky with a devastating uppercut. Useful as an anti-air attack or as a way to end combos",
-  "Invincible to mid-air attacks from frames 1 - 9",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
   "Invincible to projectiles from frames 5 - 11",
   "Considered airborne from frames 9 - 51",
 ]
 notes_ja = [
   "強烈なアッパーと共に飛び上がる技。相手のジャンプ攻撃への対空やコンボの締めに組み込むのが有効",
-  "1-9F 空中判定の攻撃に対して無敵",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
   "5-11F 飛び道具無敵",
   "9-51F 空中判定",
 ]
@@ -1102,11 +1102,11 @@ hitCount = 5
 properties = ["knockdown"]
 notes = [
   "During Quick Dash",
-  "Invincible to mid-air attacks from frames 1 - 18",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 18",
   "Invincible to projectiles from frames 3 - 11",
   "Considered airborne from frames 11 - 51",
 ]
-notes_ja = ["奮迅脚中に", "1-18F 空中判定の攻撃に対して無敵", "3-11F 飛び道具無敵", "11-51F 空中判定"]
+notes_ja = ["奮迅脚中に", "1-18F 空中判定の打撃・飛び道具に対して無敵", "3-11F 飛び道具無敵", "11-51F 空中判定"]
 startup = 8
 active = [8, 8, 9, 9, 10, 10, 11, 11, 12, 17]
 recovery = 33

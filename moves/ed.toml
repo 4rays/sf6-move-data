@@ -195,7 +195,7 @@ superArt = 1000
 
 [moves.frameAdvantage]
 hit = 8
-block = 3
+block = 4
 
 [moves.driveGauge]
 onHit = 3000
@@ -467,9 +467,13 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>hp"
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中ヒット時カウンター/パニッシュカウンターで叩きつけダウン"]
 
 startup = 9
-active = [9, 12]
+active = [9, 13]
 postLandingRecovery = 3
 damage = 800
 superArt = 1000
@@ -749,7 +753,7 @@ startup = 13
 active = [13, 14]
 recovery = 23
 cancel = "*"
-cancelsInto = ["kill-rush-forward"]
+cancelsInto = ["kill-rush-backward"]
 damage = 400
 scaling = ["Combo scaling 20%"]
 scaling_ja = ["コンボ補正20%"]
@@ -1141,11 +1145,11 @@ capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
-  "Invincible to mid-air attacks between frames 1 - 15",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 15",
 ]
 notes_ja = [
   "サイコパワーを帯びたアッパーを繰り出す技。相手のジャンプ攻撃への対空やコンボに組み込むと有効。",
-  "1-15F 空中判定の攻撃に対して無敵",
+  "1-15F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 10
 active = [10, 17]
@@ -1178,11 +1182,11 @@ capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
-  "Invincible to mid-air attacks between frames 1 - 19",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19",
 ]
 notes_ja = [
   "サイコパワーを帯びたアッパーを繰り出す技。相手のジャンプ攻撃への対空やコンボに組み込むと有効。",
-  "1-19F 空中判定の攻撃に対して無敵",
+  "1-19F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 14
 active = [14, 19]
@@ -1213,11 +1217,11 @@ capcomId = 503
 properties = ["knockdown"]
 notes = [
   "Unleash a powerful uppercut cloaked in Psycho Power. Useful for countering an opponent's jumping attacks, or as a way to close out combos.",
-  "Invincible to mid-air attacks between frames 1 - 19",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 19",
 ]
 notes_ja = [
   "サイコパワーを帯びたアッパーを繰り出す技。相手のジャンプ攻撃への対空やコンボに組み込むと有効。",
-  "1-19F 空中判定の攻撃に対して無敵",
+  "1-19F 空中判定の打撃・飛び道具に対して無敵",
 ]
 startup = 16
 active = [16, 21]
@@ -1957,6 +1961,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 2000
 
 [moves.driveGauge]
@@ -1995,6 +2001,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
 superArt = 2000
 
 [moves.driveGauge]

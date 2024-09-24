@@ -1713,7 +1713,7 @@ blockType = "high"
 input = "236mk"
 notes = [
   "Leap forward in a low arc and come down with an axe kick. Useful as a way to approach while avoiding attacks targeted at your feet, and can also be used in combos",
-  "Invincible to mid-air attacks from frames 8 - 27",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 8 - 27",
   "Produces a slam knockdown on a mid-air hit",
 ]
 notes_ja = [
@@ -1987,12 +1987,12 @@ input = "623mp"
 properties = ["knockdown"]
 notes = [
   "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 48",
 ]
 notes_ja = [
   "風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える",
-  "1-8F 空中判定の攻撃に対して無敵",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
   "8-48F 空中判定",
 ]
 startup = 5
@@ -2026,12 +2026,12 @@ input = "623hp"
 properties = ["knockdown"]
 notes = [
   "Rotate like a windmill while unleashing a series of kicks. Can be used in a variety of situations to deal big damage",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 8 - 48",
 ]
 notes_ja = [
   "風車のように回転しながら連続蹴りを放つ技。様々な状況で使え、高ダメージを奪える",
-  "1-8F 空中判定の攻撃に対して無敵",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
   "8-48F 空中判定",
 ]
 startup = 5

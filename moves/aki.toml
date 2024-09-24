@@ -1142,6 +1142,7 @@ hitCount = 1
 properties = ["knockdown"]
 notes = [
   "Extends talons out a short distance to pierce opponents and poison them if the attack lands. Useful in combos or as a way of checking opponents from mid-range.",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 16",
   "Puts the opponent in a poisoned state on hit",
   "Toxic Blossom triggers on hit if the opponent is already in a poisoned state",
   "Deals 800 damage and forces a juggle state on Toxic Blossom trigger",
@@ -1149,6 +1150,7 @@ notes = [
 ]
 notes_ja = [
   "装着している爪を伸ばして相手を突き、攻撃する技。中距離のけん制やコンボに使いやすく、ヒット時は毒状態となる。",
+  "6-16F 空中判定の打撃・飛び道具に対して無敵",
   "ヒット時毒状態",
   "毒状態中にヒット時毒破裂",
   "毒破裂時ダメージ800/吹き飛び挙動変化",
@@ -1733,6 +1735,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomId = 101
 
@@ -1771,6 +1775,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomId = 102
 

@@ -912,13 +912,13 @@ input = "623lk"
 properties = ["knockdown"]
 notes = [
   "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Considered airborne from frames 7 - 40",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "7-40F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -954,13 +954,13 @@ input = "623mk"
 properties = ["knockdown"]
 notes = [
   "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 9",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
   "Considered airborne from frames 8 - 42",
   "Does 800 individual damage after the 3rd active frame",
 ]
 notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-9F 空中判定の攻撃に対して無敵",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
   "8-42F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -997,14 +997,14 @@ properties = ["chargeable", "knockdown"]
 notes = [
   "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
   "Hold down the button for over 23 frames to change its properties",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 10 - 36",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
   "15F以上ホールドすると性能変化",
-  "1-8F 空中判定の攻撃に対して無敵",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
   "10-36F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -1039,14 +1039,14 @@ input = "623+[hk]"
 properties = ["knockdown"]
 notes = [
   "From a low stance, kick upward while rising into the air. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 7",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 7",
   "Completely invincible from frames 20 - 25",
   "Considered airborne from frames 26 - 64",
   "Does 900 individual damage after the 5th active frame",
 ]
 notes_ja = [
   "低い姿勢から蹴り上げながら上昇する技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-7F 空中判定の攻撃に対して無敵",
+  "1-7F 空中判定の打撃・飛び道具に対して無敵",
   "20-25F 完全無敵",
   "26-64F 空中判定",
   "持続の5F目以降は個別ダメージ（900）",

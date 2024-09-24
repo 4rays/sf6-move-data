@@ -1521,7 +1521,7 @@ notes = [
 ]
 notes_ja = [
   "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効",
-  "5-15F 空中判定の攻撃に対して無敵",
+  "5-15F 空中判定の打撃・飛び道具に対して無敵",
   "22-32F ヒット時専用技に派生可",
 ]
 startup = 12
@@ -1729,13 +1729,13 @@ input = "214(pp)"
 properties = ["knockdown"]
 notes = [
   "An uppercut with a wide swing followed by a second punch that slams an opponent to the ground. Useful when used out of normal or unique attacks to create combos",
-  "Invincible to mid-air attacks from frames 5 - 19",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 19",
   "Can transition to branching attacks from frames 31 - 39",
   "Has armor break properties",
 ]
 notes_ja = [
   "大振りのアッパーから打ち下ろしのパンチで叩き付ける技。通常技や特殊技からコンボを繋ぐのに有効",
-  "5-19F 空中判定の攻撃に対して無敵",
+  "5-19F 空中判定の打撃・飛び道具に対して無敵",
   "31-39F ヒット時専用技に派生可",
   "アーマーブレイク属性",
 ]

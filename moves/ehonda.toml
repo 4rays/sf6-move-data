@@ -1086,14 +1086,14 @@ properties = ["knockdown"]
 notes = [
   "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
-  "Invincible to mid-air attacks from frames 4 - 13",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 4 - 13",
   "Considered airborne from frames 14 - 33",
   "Does 1000 damage after the 5th active frame",
 ]
 notes_ja = [
   "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
-  "4-13F 空中判定の攻撃に対して無敵",
+  "4-13F 空中判定の打撃・飛び道具に対して無敵",
   "14-33F 空中判定",
   "持続5F目以降は個別ダメージ(1000)",
 ]
@@ -1129,14 +1129,14 @@ properties = ["knockdown"]
 notes = [
   "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
-  "Invincible to mid-air attacks from frames 5 - 13",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 13",
   "Considered airborne from frames 14 - 35",
   "Does 1100 damage after the 5th active frame",
 ]
 notes_ja = [
   "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
-  "5-13F 空中判定の攻撃に対して無敵",
+  "5-13F 空中判定の打撃・飛び道具に対して無敵",
   "14-35F 空中判定",
   "持続5F目以降は個別ダメージ（1100）",
 ]
@@ -1172,7 +1172,7 @@ properties = ["knockdown"]
 notes = [
   "Fly horizontally forward with a powerful headbutt. Useful as a surprise attack to approach your opponent, as well as a way to tack on additional hits in combos",
   "Can be canceled until the 4th active frame",
-  "Invincible to mid-air attacks from frames 6 - 16",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 6 - 16",
   "Considered airborne from frames 18 - 40",
   "Does 1300 damage after the 5th active frame",
   "If Honda and the opponent switch sides after the 19th frame, transitions into ending animation action",
@@ -1180,7 +1180,7 @@ notes = [
 notes_ja = [
   "頭突きを出しながら水平に飛んで突進する技。接近手段を兼ねた奇襲やコンボ中の追撃として有効",
   "キャンセルは持続の4F目まで",
-  "6-16F 空中判定の攻撃に対して無敵",
+  "6-16F 空中判定の打撃・飛び道具に対して無敵",
   "18-40F 空中判定",
   "持続5F目以降は個別ダメージ（1300）",
   "19F目以降で相手との位置が入れ替わった際に終了準備アクションへ移行",
@@ -1382,7 +1382,7 @@ properties = ["knockdown"]
 notes = [
   "Leap diagonally into the air and then descend directly downward with a hip slam. Useful as a way to launch a surprise attack while avoiding grounded attacks, and as a way to pressure an opponent's guard",
   "Has cross-up attack properties",
-  "Invincible to mid-air attacks from frames 5 - 17",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 5 - 17",
   "Invincible to throws from frames 5 - 13",
   "Produces a wall bounce only when the falling attack hits as a Punish Counter",
   "If the falling attack hits as a cross-up, damage is 800",
@@ -1391,7 +1391,7 @@ notes = [
 notes_ja = [
   "斜め上方向へ飛び上がり、体重を掛けた垂直落下で攻撃する技。地上の攻撃を回避しながらの奇襲やガードの揺さ振りに使える",
   "めくり性能",
-  "5-17F 空中判定の攻撃に対して無敵",
+  "5-17F 空中判定の打撃・飛び道具に対して無敵",
   "5-13F 投げに対して無敵",
   "下降部分のみパニッシュカウンターで、床バウンド",
   "下降のめくり部分は個別ダメージ（800）",

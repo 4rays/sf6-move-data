@@ -55,7 +55,7 @@ damage = 700
 superArt = 500
 
 [moves.frameAdvantage]
-hit = -2
+hit = 0
 block = -5
 
 [moves.driveGauge]
@@ -175,9 +175,9 @@ blockType = "low"
 input = "5hk"
 notes = [
   "Forces a juggle state when hitting a mid-air opponent",
-  "Adds 21 frames of advantage on Punish Counter",
+  "Adds 24 frames of advantage on Punish Counter",
 ]
-notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+21F"]
+notes_ja = ["空中ヒット時吹き飛びダウン", "パニッシュカウンター時+24F"]
 
 startup = 17
 active = [17, 19]
@@ -2060,25 +2060,27 @@ notes = [
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
+  "Deals 792 of recoverable damage on block",
 ]
 notes_ja = [
   "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
+  "ガード時に792のリカバリアブルダメージを与える",
 ]
 
 startup = 10
 active = [10, 93]
-totalFrames = 133
+totalFrames = 128
 damage = 1920
 capcomId = 601
 
 [moves.frameAdvantage]
-block = -15
+block = -10
 
 [moves.driveGauge]
-onBlock = -2520
+onBlock = 5040
 onPunishCounter = -5040
 
 # Yoga Inferno (Medium)
@@ -2099,25 +2101,27 @@ notes = [
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
+  "Deals 792 of recoverable damage on block",
 ]
 notes_ja = [
   "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
+  "ガード時に792のリカバリアブルダメージを与える",
 ]
 
 startup = 10
 active = [10, 93]
-totalFrames = 133
+totalFrames = 128
 damage = 2100
 capcomId = 601
 
 [moves.frameAdvantage]
-block = -15
+block = -10
 
 [moves.driveGauge]
-onBlock = -2520
+onBlock = 5040
 onPunishCounter = -5040
 
 # Yoga Inferno (Heavy)
@@ -2138,12 +2142,14 @@ notes = [
   "Invincible to throws from frames 1 - 11",
   "Minimum guaranteed damage is 30%",
   "Values do not change on counter or Punish Counter",
+  "Deals 792 of recoverable damage on block",
 ]
 notes_ja = [
   "口から様々な方向に炎を放射する技。技の出が早く、通常技からのコンボや反撃として使いやすい。入力するボタンによって、炎を吹き出す方向が変化する",
   "1-11F 投げに対して無敵",
   "最低保障ダメージ30％",
   "カウンター/パニッシュカウンターで数値が変動しない",
+  "ガード時に792のリカバリアブルダメージを与える",
 ]
 
 startup = 10
@@ -2156,7 +2162,7 @@ capcomId = 601
 block = -22
 
 [moves.driveGauge]
-onBlock = -2520
+onBlock = 5040
 onPunishCounter = -5040
 
 # Yoga Sunburst (Lv1)

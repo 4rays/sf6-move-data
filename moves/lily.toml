@@ -1002,12 +1002,12 @@ input = "623lp"
 properties = ["stockDecrement", "knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 10",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 7 - 37",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 空中判定の打撃・飛び道具に対して無敵",
   "7-37F 空中判定",
 ]
 startup = 6
@@ -1040,12 +1040,12 @@ input = "623mp"
 properties = ["stockDecrement", "knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 12",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 12",
   "Considered airborne from frames 9 - 44",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-12F 空中判定の攻撃に対して無敵",
+  "1-12F 空中判定の打撃・飛び道具に対して無敵",
   "9-44F 空中判定",
 ]
 startup = 8
@@ -1083,7 +1083,7 @@ notes = [
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "11-49F 空中判定",
 ]
 startup = 10
@@ -1116,14 +1116,14 @@ input = "623(pp)"
 properties = ["stockDecrement", "knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 11 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 11 - 14",
   "Invincible to throws from frames 1 - 10",
   "Considered airborne from frames 7 - 45",
   "Can only transition into Overdrive Condor Dive",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 空中判定の打撃・飛び道具に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
   "OD コンドルダイブへのみ派生可能",
@@ -1163,12 +1163,12 @@ input = "623lp"
 properties = ["knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 10",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
   "Considered airborne from frames 7 - 37",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 空中判定の打撃・飛び道具に対して無敵",
   "7-37F 空中判定",
 ]
 startup = 4
@@ -1201,12 +1201,12 @@ input = "623mp"
 properties = ["knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 12",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 12",
   "Considered airborne from frames 9 - 44",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-12F 空中判定の攻撃に対して無敵",
+  "1-12F 空中判定の打撃・飛び道具に対して無敵",
   "9-44F 空中判定",
 ]
 startup = 6
@@ -1239,12 +1239,12 @@ input = "623hp"
 properties = ["knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 1 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Considered airborne from frames 11 - 49",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "11-49F 空中判定",
 ]
 startup = 8
@@ -1277,14 +1277,14 @@ input = "623(pp)"
 properties = ["knockdown"]
 notes = [
   "Use the momentum of swinging your arms to diagonally leap into the air with a tackle. It is invincible against jumping attacks, making it useful as an anti-air attack",
-  "Invincible to mid-air attacks from frames 11 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 11 - 14",
   "Invincible to throws from frames 1 - 10",
   "Considered airborne from frames 7 - 45",
   "Can only transition into Overdrive Condor Dive",
 ]
 notes_ja = [
   "腕を振る勢いで斜め上方向に跳び上がり、体当たりを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-10F 空中判定の攻撃に対して無敵",
+  "1-10F 空中判定の打撃・飛び道具に対して無敵",
   "1-10F 投げに対して無敵",
   "7-45F 空中判定",
   "OD コンドルダイブへのみ派生可能",

@@ -385,6 +385,7 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+properties = ["knockdown"]
 notes = [
   "Knockdown time extended when attack lands as a counter or Punish Counter",
 ]
@@ -779,7 +780,7 @@ startup = 10
 active = [10, 12]
 recovery = 27
 cancel = "C"
-damage = 600
+damage = 800
 superArt = 400
 capcomId = 405
 notes = ["A quick series of attacks that can be canceled into special moves"]
@@ -1814,13 +1815,13 @@ input = "623lp"
 properties = ["knockdown"]
 notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 14",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
   "Considered airborne from frames 8 - 36",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-14F 空中判定の攻撃に対して無敵",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
   "8-36F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -1856,13 +1857,13 @@ input = "623mp"
 properties = ["knockdown"]
 notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 8",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
   "Considered airborne from frames 9 - 39",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-8F 空中判定の攻撃に対して無敵",
+  "1-8F 空中判定の打撃・飛び道具に対して無敵",
   "9-39F 空中判定",
   "持続の3F目以降は個別ダメージ（800）",
 ]
@@ -1898,13 +1899,13 @@ input = "623hp"
 properties = ["knockdown"]
 notes = [
   "Unleash a ferocious punch as you leap diagonally upwards. It grants immunity to jumping attacks, making it useful as an anti-air technique",
-  "Invincible to mid-air attacks from frames 1 - 9",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
   "Considered airborne from frames 11 - 43",
   "Does 800 individual damage from the 3rd active frame and on",
 ]
 notes_ja = [
   "斜め上へ勢いよく跳び上がりながら強烈なアッパーを繰り出す技。相手のジャンプ攻撃に対して無敵があるので、対空として使える",
-  "1-9F 空中判定の攻撃に対して無敵",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
   "11-43F 空中判定",
   "持続の2F目以降は個別ダメージ（800）",
 ]

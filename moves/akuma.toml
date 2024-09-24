@@ -145,6 +145,7 @@ properties = ["forcesStanding"]
 startup = 7
 active = [7, 11]
 recovery = 15
+cancel = "C"
 damage = 700
 superArt = 500
 
@@ -490,6 +491,8 @@ type = "normal"
 blockType = "mid"
 input = "j>lk"
 hitCount = 1
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
 startup = 6
 active = [6, 15]
@@ -516,6 +519,8 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mk"
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
 
 startup = 7
 active = [7, 12]
@@ -1271,8 +1276,14 @@ superArt = 1000
 capcomId = 503
 notes = [
   "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 8 - 35",
 ]
-notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-14F 空中判定の打撃・飛び道具に対して無敵",
+  "8-35F 空中判定",
+]
 
 [moves.frameAdvantage]
 block = -23
@@ -1306,8 +1317,14 @@ superArt = 1000
 capcomId = 503
 notes = [
   "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+  "Considered airborne from frames 9 - 45",
 ]
-notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
+  "9-45F 空中判定",
+]
 
 [moves.frameAdvantage]
 block = -30
@@ -1341,8 +1358,14 @@ superArt = 1200
 capcomId = 503
 notes = [
   "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 9",
+  "Considered airborne from frames 7 - 52",
 ]
-notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-9F 空中判定の打撃・飛び道具に対して無敵",
+  "10-52F 空中判定",
+]
 
 [moves.frameAdvantage]
 block = -36
@@ -1373,8 +1396,14 @@ superArt = 1000
 capcomId = 503
 notes = [
   "Leap into the air and perform a powerful uppercut. A Gou Shoryuken is invincible to an opponent's jumping attacks, making it a great anti-air tool.",
+  "Completely invincible from frames 1 - 8.",
+  "Considered airborne from frames 8 - 53.",
 ]
-notes_ja = ["強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。"]
+notes_ja = [
+  "強烈なアッパーと共に飛び上がる技。豪昇龍拳は相手のジャンプ攻撃に対して無敵となる。",
+  "1-8F 完全無敵",
+  "8-53F 空中判定",
+]
 
 [moves.frameAdvantage]
 block = -39
@@ -1652,11 +1681,13 @@ notes = [
   "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
   "Can transition to branching attacks from frames 23 - 26",
   "3 frames of recovery added when the attack misses",
+  "Adds +10 frames of advantage on a Punish Counter",
 ]
 notes_ja = [
   "素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。",
   "23-26F ヒット時専用技に派生可",
   "空振り時硬直3F増加",
+  "パニッシュカウンター時+10F",
 ]
 startup = 19
 active = [19, 21]
@@ -1721,11 +1752,13 @@ notes = [
   "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
   "Can transition to branching attacks from frames 27 - 30",
   "2 frames of recovery added when the attack misses",
+  "Adds +12 frames of advantage on a Punish Counter",
 ]
 notes_ja = [
   "素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。",
   "27-30F ヒット時専用技に派生可",
   "空振り時硬直2F増加",
+  "パニッシュカウンター時+12F",
 ]
 startup = 23
 active = [23, 25]
@@ -1778,6 +1811,8 @@ onPunishCounter = -7000
 
 # Adamant Flame (OD 1)
 [[moves]]
+
+]
 name = "Adamant Flame (OD 1)"
 name_ja = "金剛灼火（OD 1段目）"
 slug = "adamant-flame-od-1"
@@ -1789,8 +1824,13 @@ hitCount = 2
 notes = [
   "A quick thrust engulfed in flames. Useful for exploiting an opponent's opening, or in combos.",
   "Can transition to branching attacks from frames 22 - 25",
+  "Produces a crumple stun for 39 frames when the attack lands as a Punish Counter",
 ]
-notes_ja = ["素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。", "22-25F ヒット時専用技に派生可"]
+notes_ja = [
+  "素早く間合いを詰める炎を纏った突き。相手の攻撃の隙を突いたりコンボとしての用途が有効。",
+  "22-25F ヒット時専用技に派生可",
+  "パニッシュカウンター時に膝崩れダウンに+39F",
+]
 startup = 18
 active = [18, 20]
 recovery = 23
@@ -2121,8 +2161,17 @@ capcomId = 515
 notes = [
   "A throw available during Ashura Senku. Useful at mid-range against opponents with a tendency to block.",
   "During ashura senku (forward)",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2900 damage",
+  "- Super Art gauge increases by 4000",
 ]
-notes_ja = ["阿修羅閃空の移動中に派生できる投げ技。中距離からの奇襲としてガードを固める相手に有効。", "阿修羅閃空（前方"]
+notes_ja = [
+  "阿修羅閃空の移動中に派生できる投げ技。中距離からの奇襲としてガードを固める相手に有効。",
+  "阿修羅閃空（前方)",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2900",
+  "・SAゲージ4000増加",
+]
 
 # Messatsu Gohado
 [[moves]]
@@ -2371,6 +2420,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomId = 101
 
@@ -2409,6 +2460,8 @@ startup = 5
 active = [5, 7]
 recovery = 23
 damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
 superArt = 2000
 capcomId = 102
 
