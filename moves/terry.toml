@@ -13,6 +13,27 @@ hitCount = 1
 blockType = "high"
 input = "5lp"
 
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Standing Medium Punch
 [[moves]]
 name = "Standing Medium Punch"
@@ -27,6 +48,22 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "5mp"
+
+startup = 7
+active = [7, 9]
+recovery = 16
+cancel = "C"
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Standing Heavy Punch
 [[moves]]
@@ -43,6 +80,22 @@ hitCount = 1
 blockType = "high"
 input = "5hp"
 
+startup = 9
+active = [9, 12]
+recovery = 18
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Standing Light Kick
 [[moves]]
 name = "Standing Light Kick"
@@ -57,6 +110,24 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5lk"
+
+startup = 5
+active = [5, 6]
+recovery = 12
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Standing Medium Kick
 [[moves]]
@@ -73,6 +144,21 @@ hitCount = 1
 blockType = "low"
 input = "5mk"
 
+startup = 9
+active = [9, 11]
+recovery = 18
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -6000
+
 # Standing Heavy Kick
 [[moves]]
 name = "Standing Heavy Kick"
@@ -87,6 +173,24 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "5hk"
+
+notes = ["Produces a crumple stun on Punish Counter, and +16 frame advantage"]
+notes_ja = ["パニッシュカウンター時に膝崩れダウンに ＋18"]
+
+startup = 12
+active = [12, 15]
+recovery = 21
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -8000
 
 # Crouching Light Punch
 [[moves]]
@@ -103,6 +207,27 @@ hitCount = 1
 blockType = "high"
 input = "2lp"
 
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
 # Crouching Medium Punch
 [[moves]]
 name = "Crouching Medium Punch"
@@ -117,6 +242,22 @@ type = "normal"
 hitCount = 1
 blockType = "high"
 input = "2mp"
+
+startup = 6
+active = [6, 9]
+recovery = 14
+cancel = "C"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+block = -1
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Crouching Heavy Punch
 [[moves]]
@@ -133,6 +274,28 @@ hitCount = 1
 blockType = "high"
 input = "2hp"
 
+notes = [
+  "Forces the opponent into a standing position",
+  "3 frames of recovery added on hit or when blocked",
+]
+notes_ja = ["強制立ち効果", "ヒット・ガード時硬直3F減少"]
+
+startup = 8
+active = [8, 13]
+recovery = 22
+cancel = "C"
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 1
+block = -4
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
 # Crouching Light Kick
 [[moves]]
 name = "Crouching Light Kick"
@@ -147,6 +310,26 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2lk"
+
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 6]
+recovery = 11
+damage = 200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
 
 # Crouching Medium Kick
 [[moves]]
@@ -163,6 +346,24 @@ hitCount = 1
 blockType = "low"
 input = "2mk"
 
+startup = 8
+active = [8, 10]
+recovery = 19
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
 # Crouching Heavy Kick
 [[moves]]
 name = "Crouching Heavy Kick"
@@ -177,6 +378,26 @@ type = "normal"
 hitCount = 1
 blockType = "low"
 input = "2hk"
+
+properties = ["knockdown"]
+notes = [
+  "Knockdown time extended when attack lands as a counter or Punish Counter",
+]
+notes_ja = ["カウンター/パニッシュカウンター時ダウン時間増加"]
+
+startup = 11
+active = [11, 13]
+recovery = 23
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
 
 # Jumping Light Punch
 [[moves]]
@@ -193,6 +414,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>lp"
 
+startup = 4
+active = [4, 10]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
 # Jumping Medium Punch
 [[moves]]
 name = "Jumping Medium Punch"
@@ -207,8 +439,20 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>mp"
-notes = ["Forces a juggle state when hitting a mid-air opponent"]
-notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 7
+active = [7, 12]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Heavy Punch
 [[moves]]
@@ -225,6 +469,22 @@ hitCount = 1
 blockType = "mid"
 input = "j>hp"
 
+notes = [
+  "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent",
+]
+notes_ja = ["空中カウンター/パニッシュカウンター時叩きつけダウン"]
+
+startup = 9
+active = [9, 14]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Jumping Light Kick
 [[moves]]
 name = "Jumping Light Kick"
@@ -239,6 +499,17 @@ type = "normal"
 hitCount = 1
 blockType = "mid"
 input = "j>lk"
+
+startup = 5
+active = [5, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
 
 # Jumping Medium Kick
 [[moves]]
@@ -255,6 +526,20 @@ hitCount = 1
 blockType = "mid"
 input = "j>mk"
 
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 10]
+postLandingRecovery = 3
+damage = 700
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
 # Jumping Heavy Kick
 [[moves]]
 name = "Jumping Heavy Kick"
@@ -270,6 +555,17 @@ hitCount = 1
 blockType = "mid"
 input = "j>hk"
 
+startup = 10
+active = [10, 16]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Hammer Punch
 [[moves]]
 name = "Hammer Punch"
@@ -280,6 +576,21 @@ type = "commandNormal"
 hitCount = 1
 blockType = "mid"
 input = "6hp"
+
+startup = 22
+active = [22, 24]
+recovery = 19
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -4000
 
 # Power Drive
 [[moves]]
@@ -292,6 +603,22 @@ hitCount = 2
 blockType = "high"
 input = "5mp>5hp"
 
+properties = ["knockdown"]
+
+startup = 16
+active = [16, 18]
+recovery = 22
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onHit = 600
+onBlock = -2000
+onPunishCounter = -4000
+
 # Power Shoot
 [[moves]]
 name = "Power Shoot"
@@ -302,6 +629,24 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mp>5hk"
+
+properties = ["knockdown"]
+
+startup = 18
+active = [18, 20]
+recovery = 31
+damage = 600
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1000
+onPunishCounter = -4000
 
 # Power Dunk
 [[moves]]
@@ -314,6 +659,18 @@ hitCount = 3
 blockType = "high"
 input = "5mp>5hk>5hk"
 
+properties = ["knockdown"]
+
+startup = 18
+active = [18, 20, 42, 47]
+recovery = 33
+damage = 1300
+superArt = 1750
+
+[moves.driveGauge]
+onHit = 2500
+onPunishCounter = -5000
+
 # Passing Sway
 [[moves]]
 name = "Passing Sway"
@@ -324,6 +681,24 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "5mp>5mk"
+
+notes = ["Fully invincible from frames 20 - 40 on hit only"]
+notes_ja = ["ヒット時のみ20-40F 完全無敵"]
+
+startup = 13
+active = [13, 14]
+recovery = 27
+damage = 400
+superArt = 400
+
+[moves.frameAdvantage]
+hit = -3
+block = -12
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Lariat
 [[moves]]
@@ -359,6 +734,24 @@ type = "targetCombo"
 hitCount = 2
 blockType = "high"
 input = "2mk>2hk"
+properties = ["knockdown"]
+
+startup = 13
+active = [13, 14]
+recovery = 28
+cancel = "C"
+damage = 500
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -3000
+onPunishCounter = -4000
 
 # Power Wave (Light)
 [[moves]]
@@ -371,6 +764,21 @@ hitCount = 1
 blockType = "high"
 input = "236lp"
 
+startup = 14
+totalFrames = 49
+cancel = "SA3"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = -3
+block = -9
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
+
 # Power Wave (Medium)
 [[moves]]
 name = "Power Wave (Medium)"
@@ -381,6 +789,21 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mp"
+
+startup = 16
+totalFrames = 48
+cancel = "SA3"
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 0
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -2000
 
 # Round Wave
 [[moves]]
@@ -393,6 +816,21 @@ hitCount = 1
 blockType = "high"
 input = "236hp"
 
+startup = 29
+totalFrames = 53
+cancel = "SA3"
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 8
+block = 5
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -5000
+onPunishCounter = -2000
+
 # Power Wave (OD)
 [[moves]]
 name = "Power Wave (OD)"
@@ -403,6 +841,22 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236(pp)"
+
+startup = 15
+totalFrames = 43
+cancel = "SA2"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onBlock = -1250
+onPunishCounter = -5000
 
 # Quick Burn
 [[moves]]
@@ -415,9 +869,27 @@ hitCount = 2
 blockType = "high"
 input = "214lp"
 
+startup = 10
+active = [10, 11, 22, 23]
+recovery = 23
+cancel = "SA3"
+damage = 900
+scaling = ["Starter scaling 30%"]
+scaling_ja = ["始動補正30%"]
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 2
+block = -5
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -10000
+
 # Quick Burn (OD)
 [[moves]]
-input = "214(pp)" //
+input = "214(lpmp)"
 
 name = "Quick Burn (OD)"
 name_ja = "クイックバーン（OD）"
@@ -426,6 +898,24 @@ characterId = 23
 type = "special"
 hitCount = 2
 blockType = "high"
+properties = ["knockdown"]
+
+startup = 10
+active = [10, 11, 22, 23]
+recovery = 23
+cancel = "SA2"
+damage = 1400
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1300
+
+[moves.frameAdvantage]
+block = -5
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
+
 # Burn Knuckle (Medium)
 [[moves]]
 name = "Burn Knuckle (Medium)"
@@ -436,6 +926,23 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214mp"
+
+properties = ["knockdown"]
+
+startup = 14
+active = [14, 22]
+recovery = 20
+cancel = "SA3"
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -6
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -6000
 
 # Burn Knuckle (Heavy)
 [[moves]]
@@ -448,9 +955,26 @@ hitCount = 1
 blockType = "high"
 input = "214hp"
 
+properties = ["knockdown"]
+
+startup = 23
+active = [23, 36]
+recovery = 17
+cancel = "SA3"
+damage = 1200
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -6000
+onPunishCounter = -10000
+
 # Burn Knuckle (OD)
 [[moves]]
-input = "214(pp)" //
+input = "214(pp)"
 name = "Burn Knuckle (OD)"
 name_ja = "バーンナックル（OD）"
 slug = "burn-knuckle-od"
@@ -458,6 +982,26 @@ characterId = 23
 type = "special"
 hitCount = 1
 blockType = "high"
+
+properties = ["knockdown"]
+notes = ["Juggle state time is extended when attack lands as a Punish Counter."]
+notes_ja = ["パニッシュカウンター時吹き飛び時間延長"]
+
+startup = 19
+active = [19, 32]
+recovery = 17
+cancel = "SA2"
+damage = 1400
+scaling = ["Starter scaling 20%", "Combo scaling 20%"]
+scaling_ja = ["始動補正20%", "コンボ補正20%"]
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -8
+
+[moves.driveGauge]
+onBlock = -6000
+onPunishCounter = -10000
 
 # Power Charge (Light)
 [[moves]]
@@ -470,6 +1014,24 @@ hitCount = 1
 blockType = "high"
 input = "236lk"
 
+startup = 14
+active = [14, 18]
+recovery = 24
+cancel = "SA3"
+damage = 700
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 3
+block = -9
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -5000
+
 # Power Charge (Medium)
 [[moves]]
 name = "Power Charge (Medium)"
@@ -480,6 +1042,24 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236mk"
+properties = ["knockdown"]
+
+startup = 20
+active = [20, 25]
+recovery = 23
+cancel = "SA3"
+damage = 800
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Power Charge (Heavy)
 [[moves]]
@@ -491,6 +1071,27 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "236hk"
+properties = ["knockdown"]
+notes = [
+  "Changes to juggle state on mid-air hit",
+  "Can cancel into other special moves except Power Charge only on hit",
+]
+notes_ja = ["空中ヒット時吹き飛び変化", "ヒット時のみパワーチャージを除く必殺技にキャンセル可能"]
+
+startup = 25
+active = [25, 33]
+recovery = 27
+cancel = "SA3"
+damage = 800
+superArt = 500
+
+[moves.frameAdvantage]
+block = -16
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -3000
+onPunishCounter = -5000
 
 # Power Charge (OD)
 [[moves]]
@@ -503,6 +1104,24 @@ hitCount = 1
 blockType = "high"
 input = "236(kk)"
 
+properties = ["knockdown"]
+
+startup = 19
+active = [19, 26]
+recovery = 24
+cancel = "SA2"
+damage = 800
+scaling = ["Combo scaling 20%"]
+scaling_ja = ["コンボ補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -14
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -5000
+
 # Crack Shoot (Light)
 [[moves]]
 name = "Crack Shoot (Light)"
@@ -513,6 +1132,24 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214lk"
+
+notes = ["Considered airborne from frames 7 - 23"]
+notes_ja = ["7-23F 空中判定"]
+
+startup = 16
+active = [16, 19]
+recovery = 18
+damage = 700
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -8000
 
 # Crack Shoot (Medium)
 [[moves]]
@@ -525,6 +1162,24 @@ hitCount = 1
 blockType = "high"
 input = "214mk"
 
+notes = ["Considered airborne from frames 9 - 25"]
+notes_ja = ["9-25F 空中判定"]
+
+startup = 17
+active = [17, 23]
+recovery = 18
+damage = 700
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -8000
+
 # Crack Shoot (Heavy)
 [[moves]]
 name = "Crack Shoot (Heavy)"
@@ -535,6 +1190,24 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "214hk"
+
+properties = ["knockdown"]
+notes = ["Considered airborne from frames 12 - 34"]
+notes_ja = ["12-34F 空中判定"]
+
+startup = 23
+active = [23, 33]
+recovery = 19
+damage = 1100
+superArt = 900
+
+[moves.frameAdvantage]
+block = -1
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -6000
 
 # Crack Shoot (OD)
 [[moves]]
@@ -547,6 +1220,26 @@ hitCount = 1
 blockType = "high"
 input = "214(kk)"
 
+properties = ["knockdown"]
+notes = [
+  "Considered airborne from frames 8 - 25",
+  "Produces a floor bound during a mid-air hit",
+]
+notes_ja = ["8-25F 空中判定", "空中ヒット時床バウンド"]
+
+startup = 20
+active = [20, 23]
+recovery = 19
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -10000
+
 # Rising Tackle (Light)
 [[moves]]
 name = "Rising Tackle (Light)"
@@ -557,6 +1250,31 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623lp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 6 - 35",
+]
+notes_ja = ["1-14F 空中判定の打撃・飛び道具に対して無敵", "6-35F 空中判定"]
+
+startup = 5
+active = [5, 14]
+recovery = 21
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 1000
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 800
+
+[moves.frameAdvantage]
+block = -25
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
 
 # Rising Tackle (Medium)
 [[moves]]
@@ -569,6 +1287,31 @@ hitCount = 1
 blockType = "high"
 input = "623mp"
 
+properties = ["knockdown"]
+notes = [
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 10",
+  "Considered airborne from frames 8 - 43",
+]
+notes_ja = ["1-10F 空中判定の打撃・飛び道具に対して無敵", "8-43F 空中判定"]
+
+startup = 6
+active = [6, 15]
+recovery = 28
+postLandingRecovery = 12
+cancel = "SA3"
+damage = 1200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -26
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -4000
+onPunishCounter = -5000
+
 # Rising Tackle (Heavy)
 [[moves]]
 name = "Rising Tackle (Heavy)"
@@ -580,6 +1323,31 @@ hitCount = 1
 blockType = "high"
 input = "623hp"
 
+properties = ["knockdown"]
+notes = [
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 1 - 8",
+  "Considered airborne from frames 8 - 53",
+]
+notes_ja = ["1-8F 空中判定の打撃・飛び道具に対して無敵", "8-53F 空中判定"]
+
+startup = 7
+active = [7, 26]
+recovery = 27
+postLandingRecovery = 15
+cancel = "SA3"
+damage = 1300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -36
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4200
+onPunishCounter = -5000
+
 # Rising Tackle (OD)
 [[moves]]
 name = "Rising Tackle (OD)"
@@ -590,6 +1358,27 @@ type = "special"
 hitCount = 1
 blockType = "high"
 input = "623(pp)"
+properties = ["knockdown"]
+notes = [
+  "Completely invincible between frames 1 - 10",
+  "Considered airborne from frames 7 - 54",
+]
+notes_ja = ["1-10F 完全無敵", "7-54F 空中判定"]
+
+startup = 6
+active = [6, 20]
+recovery = 34
+postLandingRecovery = 15
+damage = 1600
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1600
+
+[moves.frameAdvantage]
+block = -42
+
+[moves.driveGauge]
+onBlock = -1000
 
 # Buster Wolf
 [[moves]]
@@ -602,6 +1391,28 @@ hitCount = 1
 blockType = "high"
 input = "236236*k"
 
+properties = ["knockdown"]
+notes = [
+  "Invincible to strikes and throws between frames 1 - 8",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 30%",
+]
+notes_ja = ["1-8F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
+
+startup = 7
+active = [7, 18]
+recovery = 60
+damage = 2000
+scaling = ["Starter scaling 30%", "Combo scaling 20%"]
+scaling_ja = ["始動補正30%", "コンボ補正20%"]
+
+[moves.frameAdvantage]
+block = -26
+
+[moves.driveGauge]
+onBlock = -5000
+onPunishCounter = -5000
+
 # Power Geyser
 [[moves]]
 name = "Power Geyser"
@@ -612,6 +1423,35 @@ type = "super2"
 hitCount = 1
 blockType = "high"
 input = "214214*p"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Twin Geyser between frames 25 - 38 on hit only",
+  "Completely invincible on frames 1 - 17",
+  "Invincible against projectiles and strikes with mid-air hitboxes from frames 18 - 25",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 40%",
+]
+notes_ja = [
+  "ヒット時のみ25～38Fまでツインゲイザーに派生可能",
+  "1-17F 完全無敵",
+  "18-25F 空中判定の打撃・飛び道具に対して無敵",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "最低保障ダメージ40％",
+]
+
+startup = 13
+active = [13, 25]
+recovery = 54
+damage = 2600
+scaling = ["Starter scaling 50％"]
+scaling_ja = ["始動補正50％"]
+
+[moves.frameAdvantage]
+block = -27
+
+[moves.driveGauge]
+onPunishCounter = -10000
 
 # Twin Geyser
 [[moves]]
@@ -625,6 +1465,20 @@ blockType = "high"
 parents = ["power-geyser"]
 input = "pp"
 
+properties = ["knockdown"]
+notes = [
+  "Can transition to Triple Geyser or Triple Geyser (Dud) between frames 38 - 42 on hit only",
+  "The minimum guaranteed damage is 40%",
+]
+notes_ja = ["ヒット時のみ38～42Fまでトリプルゲイザー、トリプルゲイザー(不発)に派生可能", "最低保障ダメージ40％"]
+
+startup = 22
+active = [22, 27]
+recovery = 43
+damage = 1100
+scaling = ["Starter scaling 50％", "Immediate scaling 20%"]
+scaling_ja = ["始動補正50％", "即時補正20%"]
+
 # Triple Geyser
 [[moves]]
 name = "Triple Geyser"
@@ -637,9 +1491,26 @@ blockType = "high"
 parents = ["twin-geyser"]
 input = "pp"
 
+properties = ["knockdown"]
+notes = [
+  "Completely invincible between frames 1 - 139",
+  "The minimum guaranteed damage is 40%",
+]
+notes_ja = ["1-139F 完全無敵", "最低保障ダメージ40％"]
+
+startup = 14
+active = [14, 14]
+recovery = 125
+damage = 2500
+scaling = ["Starter scaling 50％", "Immediate scaling 60%"]
+scaling_ja = ["始動補正50％", "即時補正60%"]
+
+[moves.driveGauge]
+onPunishCounter = -2000
+
 # Rising Fang
 [[moves]]
-hitCount = 1 //
+hitCount = 10
 name = "Rising Fang"
 name_ja = "ライジングファング"
 slug = "rising-fang"
@@ -647,6 +1518,36 @@ characterId = 23
 type = "super3"
 blockType = "high"
 input = "236236*p"
+
+properties = ["knockdown"]
+notes = [
+  "When under 25% vitality",
+  "Completely invincible between frames 1 - 16",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "体力25%以下で",
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 34]
+recovery = 57
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -50
+
+[moves.driveGauge]
+onBlock = -1750
+onPunishCounter = -15000
 
 # Rising Fang (Critical Art)
 [[moves]]
@@ -659,24 +1560,106 @@ hitCount = 1
 blockType = "high"
 input = "236236*p"
 
+properties = ["knockdown"]
+notes = [
+  "Completely invincible between frames 1 - 16",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-16F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
+
+startup = 8
+active = [8, 34]
+recovery = 57
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
+
+[moves.frameAdvantage]
+block = -50
+
+[moves.driveGauge]
+onBlock = -3000
+onPunishCounter = -20000
+
 # Grasping Upper
 [[moves]]
 name = "Grasping Upper"
 name_ja = "グラスピングアッパー"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
 slug = "grasping-upper"
 characterId = 23
 type = "throw"
 hitCount = 1
 input = "(lplk)"
 properties = ["knockdown"]
+notes = [
+  "When near opponent",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
 
 # バスタースルー
 [[moves]]
-name = "Buster Throw" //
+name = "Buster Throw"
 name_ja = "バスタースルー"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
 slug = "buster-throw"
 characterId = 23
 type = "throw"
 hitCount = 1
 input = "(2lplk)"
 properties = ["knockdown"]
+notes = [
+  "When near opponent",
+  "Properties change to the following when the attack lands as a Punish Counter:",
+  "- Deals 2040 damage",
+  "- Super Art gauge increases by 4000",
+  "- Forces a hard knockdown",
+]
+notes_ja = [
+  "近距離で",
+  "パニッシュカウンター時以下の性能変化",
+  "・ダメージ2040",
+  "・SAゲージ4000増加",
+  "・ハードノックダウン",
+]
+startup = 5
+active = [5, 7]
+recovery = 23
+damage = 1200
+scaling = ["Immediate scaling 20%"]
+scaling_ja = ["即時補正20%"]
+superArt = 2000
+
+[moves.driveGauge]
+onHit = 2000
+onPunishCounter = -10000
