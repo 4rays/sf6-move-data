@@ -717,6 +717,26 @@ blockType = "high"
 parents = ["passing-sway"]
 input = "5mp"
 capcomId = 407
+notes = [
+  "Completely invincible between frames 1 - 25",
+  "Considered airborne from frames 14 - 25",
+]
+notes_ja = ["1-25F 完全無敵", "14-25F 空中判定"]
+
+startup = 24
+active = [24, 25]
+recovery = 18
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 4
+block = 3
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Jumping Knee
 [[moves]]
@@ -730,6 +750,27 @@ blockType = "high"
 parents = ["passing-sway"]
 input = "5mk"
 capcomId = 408
+
+notes = [
+  "Completely invincible between frames 1 - 25",
+  "Considered airborne from frames 16 - 25",
+]
+notes_ja = ["1-25F 完全無敵", "16-25F 空中判定"]
+
+startup = 24
+active = [24, 25]
+recovery = 20
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
 
 # Fire Kick
 [[moves]]
