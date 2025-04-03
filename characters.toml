@@ -687,3 +687,24 @@ artwork = "https://www.streetfighter.com/6/assets/images/character/terry/terry.p
 [[characters.tags]]
 name = "fireball"
 name_ja = "玉"
+
+# Mai
+[[characters]]
+id = 24
+name = "Mai"
+slug = "mai"
+name_ja = "舞"
+description = "The successor of Shiranui-style ninja arts. A charming kunoichi who is as dedicated to love as she is to training. Loves cooking, Japanese dressmaking, flower arrangement, and traditional Japanese dance."
+description_ja = "不知火流忍術継承者。恋に修行にひたむきな魅惑のくノ一。料理に和裁、華道や日本舞踊など、忍びの技以外も多才。"
+media = [
+  "https://www.streetfighter.com/6/assets/images/character/mai/mai_ss01.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/mai/mai_ss02.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/mai/mai_ss03.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/mai/mai_ss04.jpg",
+  "https://www.streetfighter.com/6/assets/images/character/mai/mai_ss05.jpg",
+]
+artwork = "https://www.streetfighter.com/6/assets/images/character/mai/mai.png"
+
+[[characters.tags]]
+name = "fireball"
+name_ja = "玉"
