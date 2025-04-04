@@ -1,0 +1,560 @@
+# Standing Light Punch
+[[moves]]
+name = "Standing Light Punch"
+name_ja = "立ち弱P"
+alternativeNames = ["Jab"]
+alternativeNames_ja = ["小パン", "コパン"]
+slug = "mai-stand-light-punch"
+abbreviation = "S.LP"
+abbeviation_ja = "立ち弱P"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "5lp"
+hitCount = 1
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 5
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Punch
+[[moves]]
+name = "Standing Medium Punch"
+name_ja = "立ち中P"
+alternativeNames = ["Strong"]
+alternativeNames_ja = ["中パン"]
+slug = "mai-stand-medium-punch"
+abbreviation = "S.MP"
+abbeviation_ja = "立ち中P"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "5mp"
+hitCount = 1
+
+startup = 8
+active = [8, 11]
+recovery = 15
+cancel = "C"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Standing Heavy Punch
+[[moves]]
+name = "Standing Heavy Punch"
+name_ja = "立ち強P"
+alternativeNames = ["Fierce"]
+alternativeNames_ja = ["大パン"]
+slug = "mai-stand-heavy-punch"
+abbreviation = "S.HP"
+abbeviation_ja = "立ち強P"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "5hp"
+hitCount = 1
+properties = ["forcesStanding"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+startup = 9
+active = [9, 11]
+recovery = 21
+cancel = "C"
+damage = 800
+superArt = 800
+
+[moves.frameAdvantage]
+hit = 1
+block = -3
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Standing Light Kick
+[[moves]]
+name = "Standing Light Kick"
+name_ja = "立ち弱K"
+alternativeNames = ["Short"]
+alternativeNames_ja = ["小足", "コアシ"]
+slug = "mai-stand-light-kick"
+abbreviation = "S.LK"
+abbeviation_ja = "立ち弱K"
+characterId = 24
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "5lk"
+
+startup = 4
+active = [4, 6]
+recovery = 8
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 1
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Standing Medium Kick
+[[moves]]
+name = "Standing Medium Kick"
+name_ja = "立ち中K"
+alternativeNames = ["Forward"]
+alternativeNames_ja = ["中足", "中アシ"]
+slug = "mai-stand-medium-kick"
+abbreviation = "S.MK"
+abbeviation_ja = "立ち中K"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "5mk"
+hitCount = 1
+
+startup = 9
+active = [9, 11]
+recovery = 18
+damage = 700
+superArt = 700
+
+[moves.frameAdvantage]
+hit = 5
+block = -4
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Standing Heavy Kick
+[[moves]]
+name = "Standing Heavy Kick"
+name_ja = "立ち強K"
+alternativeNames = ["Roundhouse"]
+alternativeNames_ja = ["大足", "大アシ"]
+slug = "mai-stand-heavy-kick"
+abbreviation = "S.HK"
+abbeviation_ja = "立ち強K"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "5hk"
+hitCount = 1
+
+notes = ["Produces a crumple stun on Punish Counter, and +22 frame advantage"]
+notes_ja = ["パニッシュカウンター時に膝崩れダウンに ＋22"]
+
+startup = 14
+active = [14, 16]
+recovery = 19
+damage = 900
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -3
+
+[moves.driveGauge]
+onHit = 4000
+onBlock = -6000
+onPunishCounter = -10000
+
+# Crouching Light Punch
+[[moves]]
+name = "Crouching Light Punch"
+name_ja = "しゃがみ弱P"
+alternativeNames = ["Crouching jab"]
+alternativeNames_ja = ["しゃがみ小パン", "しゃがみコパン"]
+slug = "mai-crouch-light-punch"
+abbreviation = "C.LP"
+abbeviation_ja = "屈弱P"
+characterId = 24
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2lp"
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 4
+active = [4, 6]
+recovery = 7
+cancel = "C"
+damage = 300
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 4
+block = -1
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Punch
+[[moves]]
+name = "Crouching Medium Punch"
+name_ja = "しゃがみ中P"
+alternativeNames = ["Crouching strong"]
+alternativeNames_ja = ["しゃがみ中P"]
+slug = "mai-crouch-medium-punch"
+abbreviation = "C.MP"
+abbeviation_ja = "屈中P"
+characterId = 24
+type = "normal"
+blockType = "high"
+input = "2mp"
+hitCount = 1
+
+notes = ["2 frames of recovery added when the attack misses"]
+notes_ja = ["空振り時硬直2F増加"]
+
+startup = 6
+active = [6, 9]
+recovery = 15
+cancel = "C"
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 5
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -3000
+onPunishCounter = -4000
+
+# Crouching Heavy Punch
+[[moves]]
+name = "Crouching Heavy Punch"
+name_ja = "しゃがみ強P"
+alternativeNames = ["Crouching fierce"]
+alternativeNames_ja = ["しゃがみ大パン"]
+slug = "mai-crouch-heavy-punch"
+abbreviation = "C.HP"
+abbeviation_ja = "屈強P"
+characterId = 24
+type = "normal"
+hitCount = 1
+blockType = "high"
+input = "2hp"
+
+startup = 10
+active = [10, 11, 20, 22]
+recovery = 19
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 4
+block = -3
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -8000
+
+# Crouching Light Kick
+[[moves]]
+name = "Crouching Light Kick"
+name_ja = "しゃがみ弱K"
+alternativeNames = ["Crouching short"]
+alternativeNames_ja = ["しゃがみ小足", "しゃがみコアシ"]
+slug = "mai-crouch-light-kick"
+abbreviation = "C.LK"
+abbeviation_ja = "屈弱K"
+characterId = 24
+type = "normal"
+blockType = "low"
+input = "2lk"
+hitCount = 1
+notes = ["Can be rapid canceled"]
+notes_ja = ["連打キャンセル対応"]
+
+startup = 5
+active = [5, 7]
+recovery = 8
+damage = 200
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Crouching Medium Kick
+[[moves]]
+name = "Crouching Medium Kick"
+name_ja = "しゃがみ中K"
+alternativeNames = ["Crouching forward"]
+alternativeNames_ja = ["しゃがみ中足", "しゃがみ中アシ"]
+slug = "mai-crouch-medium-kick"
+abbreviation = "C.MK"
+abbeviation_ja = "屈中K"
+characterId = 24
+type = "normal"
+blockType = "low"
+input = "2mk"
+hitCount = 1
+
+startup = 7
+active = [7, 9]
+recovery = 19
+cancel = "C"
+damage = 500
+scaling = ["Starter scaling 20%"]
+scaling_ja = ["始動補正20%"]
+superArt = 500
+
+[moves.frameAdvantage]
+hit = -2
+block = -6
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -4000
+
+# Crouching Heavy Kick
+[[moves]]
+name = "Crouching Heavy Kick"
+name_ja = "しゃがみ強K"
+alternativeNames = ["Crouching roundhouse"]
+alternativeNames_ja = ["しゃがみ大足", "しゃがみ大アシ"]
+slug = "mai-crouch-heavy-kick"
+abbreviation = "C.HK"
+abbeviation_ja = "屈強K"
+characterId = 24
+type = "normal"
+blockType = "low"
+input = "2hk"
+hitCount = 1
+properties = ["knockdown"]
+notes = ["1 frame of recovery added when blocked"]
+notes_ja = ["ガード時硬直1F増加"]
+
+startup = 9
+active = [9, 11]
+recovery = 22
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 3000
+onBlock = -4000
+onPunishCounter = -10000
+
+# Jumping Light Punch
+[[moves]]
+name = "Jumping Light Punch"
+name_ja = "ジャンプ弱P"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ小パン", "ジャンプコパン"]
+slug = "mai-jump-light-punch"
+abbreviation = "J.LP"
+abbeviation_ja = "ジャンプ弱P"
+characterId = 24
+type = "normal"
+blockType = "mid"
+input = "j>lp"
+hitCount = 1
+
+startup = 4
+active = [4, 12]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Punch
+[[moves]]
+name = "Jumping Medium Punch"
+name_ja = "ジャンプ中P"
+alternativeNames = ["Jumping strong"]
+alternativeNames_ja = ["ジャンプ中パン", "ジャンプチュウパン"]
+slug = "mai-jump-medium-punch"
+abbreviation = "J.MP"
+abbeviation_ja = "ジャンプ中P"
+characterId = 24
+type = "normal"
+blockType = "mid"
+input = "j>mp"
+hitCount = 1
+notes = ["Forces a juggle state when hitting a mid-air opponent"]
+notes_ja = ["空中ヒット時吹き飛びダウン"]
+
+startup = 7
+active = [7, 11]
+postLandingRecovery = 3
+cancel = "C"
+damage = 600
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Jumping Heavy Punch
+[[moves]]
+name = "Jumping Heavy Punch"
+name_ja = "ジャンプ強P"
+alternativeNames = ["Jumping fierce"]
+alternativeNames_ja = ["ジャンプ大パン"]
+slug = "mai-jump-heavy-punch"
+abbreviation = "J.HP"
+abbeviation_ja = "ジャンプ強P"
+characterId = 24
+type = "normal"
+blockType = "mid"
+input = "j>hp"
+hitCount = 1
+
+startup = 9
+active = [9, 13]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
+
+# Jumping Light Kick
+[[moves]]
+name = "Jumping Light Kick"
+name_ja = "ジャンプ弱K"
+alternativeNames = ["Jumping short"]
+alternativeNames_ja = ["ジャンプ小キック", "ジャンプコキック"]
+slug = "mai-jump-light-kick"
+abbreviation = "J.LK"
+abbeviation_ja = "ジャンプ弱K"
+characterId = 24
+type = "normal"
+blockType = "mid"
+input = "j>lk"
+properties = ["canCrossUp"]
+hitCount = 1
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 5
+active = [5, 11]
+postLandingRecovery = 3
+damage = 300
+superArt = 300
+
+[moves.driveGauge]
+onHit = 500
+onBlock = -1500
+onPunishCounter = -2000
+
+# Jumping Medium Kick
+[[moves]]
+name = "Jumping Medium Kick"
+name_ja = "ジャンプ中K"
+alternativeNames = ["Jumping forward"]
+alternativeNames_ja = ["ジャンプ中足", "ジャンプ中アシ"]
+slug = "mai-jump-medium-kick"
+abbreviation = "J.MK"
+abbeviation_ja = "ジャンプ中K"
+characterId = 24
+type = "normal"
+hitCount = 1
+blockType = "mid"
+input = "j>mk"
+properties = ["canCrossUp"]
+notes = ["Has cross-up attack properties"]
+notes_ja = ["めくり性能"]
+
+startup = 7
+active = [7, 11]
+postLandingRecovery = 3
+damage = 500
+superArt = 500
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2500
+onPunishCounter = -4000
+
+# Jumping Heavy Kick
+[[moves]]
+name = "Jumping Heavy Kick"
+name_ja = "ジャンプ強K"
+alternativeNames = ["Jumping roundhouse"]
+alternativeNames_ja = ["ジャンプ大足", "ジャンプ大アシ"]
+slug = "mai-jump-heavy-kick"
+abbreviation = "J.HK"
+abbeviation_ja = "ジャンプ強K"
+characterId = 24
+type = "normal"
+blockType = "mid"
+input = "j>hk"
+hitCount = 1
+
+startup = 10
+active = [10, 15]
+postLandingRecovery = 3
+damage = 800
+superArt = 1000
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -4000
+onPunishCounter = -5000
