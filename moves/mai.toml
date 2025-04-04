@@ -558,3 +558,2094 @@ superArt = 1000
 onHit = 2000
 onBlock = -4000
 onPunishCounter = -5000
+
+# Senkotsu Uchi
+[[moves]]
+name = "Senkotsu Uchi"
+name_ja = "扇骨打ち"
+alternativeNames = ["Senkotsu Uchi"]
+alternativeNames_ja = ["扇骨打ち"]
+slug = "mai-senkotsu-uchi"
+characterId = 24
+type = "commandNormal"
+blockType = "mid"
+input = "6mp"
+
+startup = 20
+active = [20, 22]
+recovery = 18
+damage = 600
+superArt = 500
+
+[moves.frameAdvantage]
+hit = 2
+block = -3
+
+[moves.driveGauge]
+onHit = 1500
+onBlock = -2500
+onPunishCounter = -5000
+
+# Musasabi no Mai (Light)
+[[moves]]
+name = "Musasabi no Mai (Light)"
+name_ja = "ムササビの舞 (弱)"
+alternativeNames = ["L Musasabi no Mai"]
+alternativeNames_ja = ["弱 ムササビの舞"]
+slug = "mai-l-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214k"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Musasabi no Mai (Light)
+[[moves]]
+name = "[Boosted] Musasabi no Mai (Light)"
+name_ja = "[強化版] ムササビの舞 (弱)"
+alternativeNames = ["[Boosted] L Musasabi no Mai"]
+alternativeNames_ja = ["強化版 弱 ムササビの舞"]
+slug = "mai-boosted-l-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214k"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Musasabi no Mai (Medium)
+[[moves]]
+name = "Musasabi no Mai (Medium)"
+name_ja = "ムササビの舞 (中)"
+alternativeNames = ["M Musasabi no Mai"]
+alternativeNames_ja = ["中 ムササビの舞"]
+slug = "mai-m-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214mk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Musasabi no Mai (Medium)
+[[moves]]
+name = "[Boosted] Musasabi no Mai (Medium)"
+name_ja = "[強化版] ムササビの舞 (中)"
+alternativeNames = ["[Boosted] M Musasabi no Mai"]
+alternativeNames_ja = ["強化版 中 ムササビの舞"]
+slug = "mai-boosted-m-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214mk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Musasabi no Mai (Heavy)
+[[moves]]
+name = "Musasabi no Mai (Heavy)"
+name_ja = "ムササビの舞 (強)"
+alternativeNames = ["H Musasabi no Mai"]
+alternativeNames_ja = ["強 ムササビの舞"]
+slug = "mai-h-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214hk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Musasabi no Mai (Heavy)
+[[moves]]
+name = "[Boosted] Musasabi no Mai (Heavy)"
+name_ja = "[強化版] ムササビの舞 (強)"
+alternativeNames = ["[Boosted] H Musasabi no Mai"]
+alternativeNames_ja = ["強化版 強 ムササビの舞"]
+slug = "mai-boosted-h-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214hk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Musasabi no Mai (OD)
+[[moves]]
+name = "Musasabi no Mai (OD)"
+name_ja = "ムササビの舞 (OD)"
+alternativeNames = ["OD Musasabi no Mai", "EX Musasabi no Mai"]
+alternativeNames_ja = ["OD ムササビの舞", "EX ムササビの舞"]
+slug = "mai-od-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214kk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 800
+superArt = 800
+
+[moves.frameAdvantage]
+block = 0
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Musasabi no Mai (OD)
+[[moves]]
+name = "[Boosted] Musasabi no Mai (OD)"
+name_ja = "[強化版] ムササビの舞 (OD)"
+alternativeNames = [
+  "[Boosted] OD Musasabi no Mai",
+  "[Boosted] EX Musasabi no Mai",
+]
+alternativeNames_ja = ["強化版 OD ムササビの舞", "強化版 EX ムササビの舞"]
+slug = "mai-boosted-od-musasabi-no-mai"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214kk"
+
+properties = ["knockdown"]
+notes = [
+  "Can be performed in mid-air",
+  "Considered airborne from frames 1 - 40",
+  "Can transition to Air Chou Hissatsu Shinobi Bachi between frames 1 and 40",
+]
+notes_ja = ["空中で出せる", "1-40F 空中判定", "1F～40Fまで、空中超必殺忍蜂に派生可能"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 900
+superArt = 800
+
+[moves.frameAdvantage]
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Midare Kachousen
+[[moves]]
+name = "Midare Kachousen"
+name_ja = "乱れ花蝶扇"
+alternativeNames = ["Midare Kachousen"]
+alternativeNames_ja = ["ミダレカチョウセン"]
+slug = "mai-midare-kachousen"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236pp > 236p"
+
+notes = [
+  "Trajectory changes on hit or block",
+  "After the trajectory change, properties change to 'High - Mid-air Projectile'",
+  "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles",
+]
+properties = ["knockdown"]
+notes_ja = ["ヒット・ガード時に軌道変化", "軌道変化後、属性が「上・空弾」に変化", "空弾属性に対して無敵の技に当たらない"]
+
+startup = 15
+totalFrames = 39
+damage = 900
+superArt = 300
+
+[moves.frameAdvantage]
+block = 0
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -2000
+
+# [Boosted] Midare Kachousen
+[[moves]]
+name = "[Boosted] Midare Kachousen"
+name_ja = "[強化版] 乱れ花蝶扇"
+alternativeNames = ["Boosted Midare Kachousen"]
+alternativeNames_ja = ["強化版 ミダレカチョウセン"]
+slug = "mai-boosted-midare-kachousen"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236pp > 236p"
+
+notes = [
+  "Trajectory changes on hit or block",
+  "After the trajectory change, properties change to 'High - Mid-air Projectile'",
+  "After the trajectory and property change, does not hit against moves invincible to mid-air projectiles",
+]
+properties = ["knockdown"]
+notes_ja = ["ヒット・ガード時に軌道変化", "軌道変化後、属性が「上・空弾」に変化", "空弾属性に対して無敵の技に当たらない"]
+
+startup = 15
+totalFrames = 39
+damage = 1000
+superArt = 300
+
+[moves.frameAdvantage]
+block = 0
+
+[moves.driveGauge]
+onBlock = -2000
+onPunishCounter = -2000
+
+# Forward Throw
+[[moves]]
+name = "Forward Throw"
+name_ja = "前投げ"
+alternativeNames = ["Forward Throw"]
+alternativeNames_ja = ["前投げ"]
+slug = "mai-forward-throw"
+characterId = 24
+type = "throw"
+blockType = "throw"
+input = "lp+lk"
+
+properties = ["knockdown"]
+notes = ["Can be broken by pressing LP+LK"]
+notes_ja = ["LP+LKで投げ抜け可能"]
+
+startup = 5
+active = [5, 5]
+recovery = 20
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 22
+
+[moves.driveGauge]
+onHit = 2000
+
+# Back Throw
+[[moves]]
+name = "Back Throw"
+name_ja = "後ろ投げ"
+alternativeNames = ["Back Throw"]
+alternativeNames_ja = ["後ろ投げ"]
+slug = "mai-back-throw"
+characterId = 24
+type = "throw"
+blockType = "throw"
+input = "4lp+lk"
+
+properties = ["knockdown"]
+notes = ["Can be broken by pressing LP+LK"]
+notes_ja = ["LP+LKで投げ抜け可能"]
+
+startup = 5
+active = [5, 5]
+recovery = 20
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 22
+
+[moves.driveGauge]
+onHit = 2000
+
+# Air Throw
+[[moves]]
+name = "Air Throw"
+name_ja = "空中投げ"
+alternativeNames = ["Air Throw"]
+alternativeNames_ja = ["空中投げ"]
+slug = "mai-air-throw"
+characterId = 24
+type = "throw"
+blockType = "throw"
+input = "lp+lk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air", "Can be broken by pressing LP+LK"]
+notes_ja = ["空中で出せる", "LP+LKで投げ抜け可能"]
+
+startup = 5
+active = [5, 5]
+recovery = 20
+postLandingRecovery = 15
+damage = 1200
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 22
+
+[moves.driveGauge]
+onHit = 2000
+
+# L Hishou Ryuuenjin (Light)
+[[moves]]
+name = "Hishou Ryuuenjin (Light)"
+name_ja = "飛翔龍炎陣 (弱)"
+alternativeNames = ["L Hishou Ryuuenjin"]
+alternativeNames_ja = ["弱 飛翔龍炎陣"]
+slug = "mai-l-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623lp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Boosted] Hishou Ryuuenjin (Light)
+[[moves]]
+name = "[Boosted] Hishou Ryuuenjin (Light)"
+name_ja = "[強化版] 飛翔龍炎陣 (弱)"
+alternativeNames = ["[Boosted] L Hishou Ryuuenjin"]
+alternativeNames_ja = ["強化版 弱 飛翔龍炎陣"]
+slug = "mai-boosted-l-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623lp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -5000
+
+# Hishou Ryuuenjin (Medium)
+[[moves]]
+name = "Hishou Ryuuenjin (Medium)"
+name_ja = "飛翔龍炎陣 (中)"
+alternativeNames = ["M Hishou Ryuuenjin"]
+alternativeNames_ja = ["中 飛翔龍炎陣"]
+slug = "mai-m-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623mp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Boosted] Hishou Ryuuenjin (Medium)
+[[moves]]
+name = "[Boosted] Hishou Ryuuenjin (Medium)"
+name_ja = "[強化版] 飛翔龍炎陣 (中)"
+alternativeNames = ["[Boosted] M Hishou Ryuuenjin"]
+alternativeNames_ja = ["強化版 中 飛翔龍炎陣"]
+slug = "mai-boosted-m-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623mp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -5000
+
+# Hishou Ryuuenjin (Heavy)
+[[moves]]
+name = "Hishou Ryuuenjin (Heavy)"
+name_ja = "飛翔龍炎陣 (強)"
+alternativeNames = ["H Hishou Ryuuenjin"]
+alternativeNames_ja = ["強 飛翔龍炎陣"]
+slug = "mai-h-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623hp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 900
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Boosted] Hishou Ryuuenjin (Heavy)
+[[moves]]
+name = "[Boosted] Hishou Ryuuenjin (Heavy)"
+name_ja = "[強化版] 飛翔龍炎陣 (強)"
+alternativeNames = ["[Boosted] H Hishou Ryuuenjin"]
+alternativeNames_ja = ["強化版 強 飛翔龍炎陣"]
+slug = "mai-boosted-h-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623hp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 1000
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -5000
+
+# Hishou Ryuuenjin (OD)
+[[moves]]
+name = "Hishou Ryuuenjin (OD)"
+name_ja = "飛翔龍炎陣 (OD)"
+alternativeNames = ["OD Hishou Ryuuenjin", "EX Hishou Ryuuenjin"]
+alternativeNames_ja = ["OD 飛翔龍炎陣", "EX 飛翔龍炎陣"]
+slug = "mai-od-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623pp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 1200
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -8000
+onPunishCounter = -5000
+
+# [Boosted] Hishou Ryuuenjin (OD)
+[[moves]]
+name = "[Boosted] Hishou Ryuuenjin (OD)"
+name_ja = "[強化版] 飛翔龍炎陣 (OD)"
+alternativeNames = [
+  "[Boosted] OD Hishou Ryuuenjin",
+  "[Boosted] EX Hishou Ryuuenjin",
+]
+alternativeNames_ja = ["強化版 OD 飛翔龍炎陣", "強化版 EX 飛翔龍炎陣"]
+slug = "mai-boosted-od-hishou-ryuuenjin"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "623pp"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible against mid-air projectiles and strikes with mid-air hitboxes from frames 1 - 14",
+  "Considered airborne from frames 7 - 37",
+]
+notes_ja = ["1～14F 空中判定の打撃・空弾属性に対して無敵", "7～37F 空中判定"]
+
+startup = 5
+active = [5, 22]
+recovery = 15
+postLandingRecovery = 15
+damage = 1300
+superArt = 1200
+
+[moves.frameAdvantage]
+block = -29
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -6000
+onPunishCounter = -5000
+
+# Hien Ren Kyaku (Light)
+[[moves]]
+name = "Hien Ren Kyaku (Light)"
+name_ja = "飛燕連脚 (弱)"
+alternativeNames = ["L Hien Ren Kyaku"]
+alternativeNames_ja = ["弱 飛燕連脚"]
+slug = "mai-l-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236k"
+
+properties = ["knockdown"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+startup = 7
+active = [7, 8]
+recovery = 20
+damage = 400
+superArt = 300
+
+[moves.frameAdvantage]
+hit = -2
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Boosted] Hien Ren Kyaku (Light)
+[[moves]]
+name = "[Boosted] Hien Ren Kyaku (Light)"
+name_ja = "[強化版] 飛燕連脚 (弱)"
+alternativeNames = ["[Boosted] L Hien Ren Kyaku"]
+alternativeNames_ja = ["強化版 弱 飛燕連脚"]
+slug = "mai-boosted-l-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236k"
+
+properties = ["knockdown"]
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+startup = 7
+active = [7, 8]
+recovery = 20
+damage = 500
+superArt = 300
+
+[moves.frameAdvantage]
+hit = -2
+block = -8
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hien Ren Kyaku (Medium)
+[[moves]]
+name = "Hien Ren Kyaku (Medium)"
+name_ja = "飛燕連脚 (中)"
+alternativeNames = ["M Hien Ren Kyaku"]
+alternativeNames_ja = ["中 飛燕連脚"]
+slug = "mai-m-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236mk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 500
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Boosted] Hien Ren Kyaku (Medium)
+[[moves]]
+name = "[Boosted] Hien Ren Kyaku (Medium)"
+name_ja = "[強化版] 飛燕連脚 (中)"
+alternativeNames = ["[Boosted] M Hien Ren Kyaku"]
+alternativeNames_ja = ["強化版 中 飛燕連脚"]
+slug = "mai-boosted-m-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236mk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 600
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -8
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hien Ren Kyaku (Heavy)
+[[moves]]
+name = "Hien Ren Kyaku (Heavy)"
+name_ja = "飛燕連脚 (強)"
+alternativeNames = ["H Hien Ren Kyaku"]
+alternativeNames_ja = ["強 飛燕連脚"]
+slug = "mai-h-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236hk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 500
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Boosted] Hien Ren Kyaku (Heavy)
+[[moves]]
+name = "[Boosted] Hien Ren Kyaku (Heavy)"
+name_ja = "[強化版] 飛燕連脚 (強)"
+alternativeNames = ["[Boosted] H Hien Ren Kyaku"]
+alternativeNames_ja = ["強化版 強 飛燕連脚"]
+slug = "mai-boosted-h-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236hk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 600
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -8
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hien Ren Kyaku (OD)
+[[moves]]
+name = "Hien Ren Kyaku (OD)"
+name_ja = "飛燕連脚 (OD)"
+alternativeNames = ["OD Hien Ren Kyaku", "EX Hien Ren Kyaku"]
+alternativeNames_ja = ["OD 飛燕連脚", "EX 飛燕連脚"]
+slug = "mai-od-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236kk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 700
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -6
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# [Boosted] Hien Ren Kyaku (OD)
+[[moves]]
+name = "[Boosted] Hien Ren Kyaku (OD)"
+name_ja = "[強化版] 飛燕連脚 (OD)"
+alternativeNames = [
+  "[Boosted] OD Hien Ren Kyaku",
+  "[Boosted] EX Hien Ren Kyaku",
+]
+alternativeNames_ja = ["強化版 OD 飛燕連脚", "強化版 EX 飛燕連脚"]
+slug = "mai-boosted-od-hien-ren-kyaku"
+characterId = 24
+type = "special"
+blockType = "high"
+input = "236kk"
+
+properties = ["knockdown"]
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 800
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -4
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hien Ren Kyaku (2)
+[[moves]]
+name = "Hien Ren Kyaku (2)"
+name_ja = "飛燕連脚（2段目）"
+alternativeNames = ["Hien Ren Kyaku 2nd Hit"]
+alternativeNames_ja = ["飛燕連脚2段目"]
+slug = "mai-hien-ren-kyaku-2"
+characterId = 24
+type = "targetCombo"
+blockType = "high"
+input = "236k"
+
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+startup = 7
+active = [7, 8]
+recovery = 20
+damage = 400
+superArt = 300
+
+[moves.frameAdvantage]
+hit = -2
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hien Ren Kyaku (3)
+[[moves]]
+name = "Hien Ren Kyaku (3)"
+name_ja = "飛燕連脚（3段目）"
+alternativeNames = ["Hien Ren Kyaku 3rd Hit"]
+alternativeNames_ja = ["飛燕連脚3段目"]
+slug = "mai-hien-ren-kyaku-3"
+characterId = 24
+type = "targetCombo"
+blockType = "high"
+input = "236mk"
+
+notes = [
+  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
+  "Considered airborne from frames 10 - 35",
+]
+notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
+
+startup = 10
+active = [10, 11]
+recovery = 28
+damage = 500
+superArt = 300
+
+[moves.frameAdvantage]
+hit = 3
+block = -10
+
+[moves.driveGauge]
+onHit = 250
+onBlock = -500
+onPunishCounter = -2000
+
+# Hoshi Kujaku (1)
+[[moves]]
+name = "Hoshi Kujaku (1)"
+name_ja = "星孔雀（1段目）"
+alternativeNames = ["Hoshi Kujaku 1st Hit"]
+alternativeNames_ja = ["星孔雀1段目"]
+slug = "mai-hoshi-kujaku-1"
+characterId = 24
+type = "targetCombo"
+blockType = "high"
+input = "236hp"
+
+notes = ["Forces the opponent into a standing position"]
+notes_ja = ["強制立ち効果"]
+
+startup = 8
+active = [8, 12]
+recovery = 20
+damage = 800
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 3
+block = -1
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -5000
+onPunishCounter = -10000
+
+# Hoshi Kujaku (2)
+[[moves]]
+name = "Hoshi Kujaku (2)"
+name_ja = "星孔雀（2段目）"
+alternativeNames = ["Hoshi Kujaku 2nd Hit"]
+alternativeNames_ja = ["星孔雀2段目"]
+slug = "mai-hoshi-kujaku-2"
+characterId = 24
+type = "targetCombo"
+blockType = "high"
+input = "236hp"
+
+properties = ["knockdown"]
+notes = ["Fully invincible from frames 10 - 58 on hit only"]
+notes_ja = ["ヒット時のみ10-58F 完全無敵"]
+
+startup = 9
+active = [9, 11]
+recovery = 38
+damage = 1200
+scaling = ["Combo scaling 30%"]
+scaling_ja = ["コンボ補正30%"]
+superArt = 1000
+
+[moves.frameAdvantage]
+block = -11
+
+[moves.driveGauge]
+onHit = 2000
+onBlock = -2500
+onPunishCounter = -10000
+
+# Kachousen (Light)
+[[moves]]
+name = "Kachousen (Light)"
+name_ja = "花蝶扇 (弱)"
+alternativeNames = ["L Kachousen"]
+alternativeNames_ja = ["弱 花蝶扇"]
+slug = "mai-l-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236p"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Kachousen (Light)
+[[moves]]
+name = "[Boosted] Kachousen (Light)"
+name_ja = "[強化版] 花蝶扇 (弱)"
+alternativeNames = ["[Boosted] L Kachousen"]
+alternativeNames_ja = ["強化版 弱 花蝶扇"]
+slug = "mai-boosted-l-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236p"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Kachousen (Medium)
+[[moves]]
+name = "Kachousen (Medium)"
+name_ja = "花蝶扇 (中)"
+alternativeNames = ["M Kachousen"]
+alternativeNames_ja = ["中 花蝶扇"]
+slug = "mai-m-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236mp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Kachousen (Medium)
+[[moves]]
+name = "[Boosted] Kachousen (Medium)"
+name_ja = "[強化版] 花蝶扇 (中)"
+alternativeNames = ["[Boosted] M Kachousen"]
+alternativeNames_ja = ["強化版 中 花蝶扇"]
+slug = "mai-boosted-m-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236mp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Kachousen (Heavy)
+[[moves]]
+name = "Kachousen (Heavy)"
+name_ja = "花蝶扇 (強)"
+alternativeNames = ["H Kachousen"]
+alternativeNames_ja = ["強 花蝶扇"]
+slug = "mai-h-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236hp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Kachousen (Heavy)
+[[moves]]
+name = "[Boosted] Kachousen (Heavy)"
+name_ja = "[強化版] 花蝶扇 (強)"
+alternativeNames = ["[Boosted] H Kachousen"]
+alternativeNames_ja = ["強化版 強 花蝶扇"]
+slug = "mai-boosted-h-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236hp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Kachousen (OD)
+[[moves]]
+name = "Kachousen (OD)"
+name_ja = "花蝶扇 (OD)"
+alternativeNames = ["OD Kachousen", "EX Kachousen"]
+alternativeNames_ja = ["OD 花蝶扇", "EX 花蝶扇"]
+slug = "mai-od-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236pp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 800
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 0
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Kachousen (OD)
+[[moves]]
+name = "[Boosted] Kachousen (OD)"
+name_ja = "[強化版] 花蝶扇 (OD)"
+alternativeNames = ["[Boosted] OD Kachousen", "[Boosted] EX Kachousen"]
+alternativeNames_ja = ["強化版 OD 花蝶扇", "強化版 EX 花蝶扇"]
+slug = "mai-boosted-od-kachousen"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "236pp"
+
+properties = ["projectile"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Ryuuenbu (Light)
+[[moves]]
+name = "Ryuuenbu (Light)"
+name_ja = "龍炎舞 (弱)"
+alternativeNames = ["L Ryuuenbu"]
+alternativeNames_ja = ["弱 龍炎舞"]
+slug = "mai-l-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214p"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Ryuuenbu (Light)
+[[moves]]
+name = "[Boosted] Ryuuenbu (Light)"
+name_ja = "[強化版] 龍炎舞 (弱)"
+alternativeNames = ["[Boosted] L Ryuuenbu"]
+alternativeNames_ja = ["強化版 弱 龍炎舞"]
+slug = "mai-boosted-l-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214p"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Ryuuenbu (Medium)
+[[moves]]
+name = "Ryuuenbu (Medium)"
+name_ja = "龍炎舞 (中)"
+alternativeNames = ["M Ryuuenbu"]
+alternativeNames_ja = ["中 龍炎舞"]
+slug = "mai-m-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214mp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Ryuuenbu (Medium)
+[[moves]]
+name = "[Boosted] Ryuuenbu (Medium)"
+name_ja = "[強化版] 龍炎舞 (中)"
+alternativeNames = ["[Boosted] M Ryuuenbu"]
+alternativeNames_ja = ["強化版 中 龍炎舞"]
+slug = "mai-boosted-m-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214mp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Ryuuenbu (Heavy)
+[[moves]]
+name = "Ryuuenbu (Heavy)"
+name_ja = "龍炎舞 (強)"
+alternativeNames = ["H Ryuuenbu"]
+alternativeNames_ja = ["強 龍炎舞"]
+slug = "mai-h-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214hp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Ryuuenbu (Heavy)
+[[moves]]
+name = "[Boosted] Ryuuenbu (Heavy)"
+name_ja = "[強化版] 龍炎舞 (強)"
+alternativeNames = ["[Boosted] H Ryuuenbu"]
+alternativeNames_ja = ["強化版 強 龍炎舞"]
+slug = "mai-boosted-h-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214hp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Ryuuenbu (OD)
+[[moves]]
+name = "Ryuuenbu (OD)"
+name_ja = "龍炎舞 (OD)"
+alternativeNames = ["OD Ryuuenbu", "EX Ryuuenbu"]
+alternativeNames_ja = ["OD 龍炎舞", "EX 龍炎舞"]
+slug = "mai-od-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214pp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 800
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 0
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Ryuuenbu (OD)
+[[moves]]
+name = "[Boosted] Ryuuenbu (OD)"
+name_ja = "[強化版] 龍炎舞 (OD)"
+alternativeNames = ["[Boosted] OD Ryuuenbu", "[Boosted] EX Ryuuenbu"]
+alternativeNames_ja = ["強化版 OD 龍炎舞", "強化版 EX 龍炎舞"]
+slug = "mai-boosted-od-ryuuenbu"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "214pp"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Hissatsu Shinobi Bachi (Light)
+[[moves]]
+name = "Hissatsu Shinobi Bachi (Light)"
+name_ja = "必殺忍蜂 (弱)"
+alternativeNames = ["L Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["弱 必殺忍蜂"]
+slug = "mai-l-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Hissatsu Shinobi Bachi (Light)
+[[moves]]
+name = "[Boosted] Hissatsu Shinobi Bachi (Light)"
+name_ja = "[強化版] 必殺忍蜂 (弱)"
+alternativeNames = ["[Boosted] L Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["強化版 弱 必殺忍蜂"]
+slug = "mai-boosted-l-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Hissatsu Shinobi Bachi (Medium)
+[[moves]]
+name = "Hissatsu Shinobi Bachi (Medium)"
+name_ja = "必殺忍蜂 (中)"
+alternativeNames = ["M Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["中 必殺忍蜂"]
+slug = "mai-m-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623mk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Hissatsu Shinobi Bachi (Medium)
+[[moves]]
+name = "[Boosted] Hissatsu Shinobi Bachi (Medium)"
+name_ja = "[強化版] 必殺忍蜂 (中)"
+alternativeNames = ["[Boosted] M Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["強化版 中 必殺忍蜂"]
+slug = "mai-boosted-m-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623mk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Hissatsu Shinobi Bachi (Heavy)
+[[moves]]
+name = "Hissatsu Shinobi Bachi (Heavy)"
+name_ja = "必殺忍蜂 (強)"
+alternativeNames = ["H Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["強 必殺忍蜂"]
+slug = "mai-h-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623hk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 600
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Hissatsu Shinobi Bachi (Heavy)
+[[moves]]
+name = "[Boosted] Hissatsu Shinobi Bachi (Heavy)"
+name_ja = "[強化版] 必殺忍蜂 (強)"
+alternativeNames = ["[Boosted] H Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["強化版 強 必殺忍蜂"]
+slug = "mai-boosted-h-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623hk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 700
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Hissatsu Shinobi Bachi (OD)
+[[moves]]
+name = "Hissatsu Shinobi Bachi (OD)"
+name_ja = "必殺忍蜂 (OD)"
+alternativeNames = ["OD Hissatsu Shinobi Bachi", "EX Hissatsu Shinobi Bachi"]
+alternativeNames_ja = ["OD 必殺忍蜂", "EX 必殺忍蜂"]
+slug = "mai-od-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623kk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 800
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 0
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Hissatsu Shinobi Bachi (OD)
+[[moves]]
+name = "[Boosted] Hissatsu Shinobi Bachi (OD)"
+name_ja = "[強化版] 必殺忍蜂 (OD)"
+alternativeNames = [
+  "[Boosted] OD Hissatsu Shinobi Bachi",
+  "[Boosted] EX Hissatsu Shinobi Bachi",
+]
+alternativeNames_ja = ["強化版 OD 必殺忍蜂", "強化版 EX 必殺忍蜂"]
+slug = "mai-boosted-od-hissatsu-shinobi-bachi"
+characterId = 24
+type = "special"
+blockType = "mid"
+input = "623kk"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 900
+superArt = 600
+
+[moves.frameAdvantage]
+hit = 2
+block = 2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Chou Hissatsu Shinobi Bachi
+[[moves]]
+name = "Chou Hissatsu Shinobi Bachi"
+name_ja = "超必殺忍蜂"
+alternativeNames = ["SA1", "Super Art 1"]
+alternativeNames_ja = ["超必殺技1"]
+slug = "mai-sa1"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "236236k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Chou Hissatsu Shinobi Bachi
+[[moves]]
+name = "[Boosted] Chou Hissatsu Shinobi Bachi"
+name_ja = "[強化版] 超必殺忍蜂"
+alternativeNames = ["[Boosted] SA1", "[Boosted] Super Art 1"]
+alternativeNames_ja = ["強化版 超必殺技1"]
+slug = "mai-boosted-sa1"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "236236k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2500
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Bushin Prism Strikes
+[[moves]]
+name = "Bushin Prism Strikes"
+name_ja = "武神プリズムストライク"
+alternativeNames = ["SA2", "Super Art 2"]
+alternativeNames_ja = ["超必殺技2"]
+slug = "mai-sa2"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "236236p"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Bushin Prism Strikes
+[[moves]]
+name = "[Boosted] Bushin Prism Strikes"
+name_ja = "[強化版] 武神プリズムストライク"
+alternativeNames = ["[Boosted] SA2", "[Boosted] Super Art 2"]
+alternativeNames_ja = ["強化版 超必殺技2"]
+slug = "mai-boosted-sa2"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "236236p"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2500
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# Bushin Senpu-kyaku
+[[moves]]
+name = "Bushin Senpu-kyaku"
+name_ja = "武神旋風脚"
+alternativeNames = ["SA3", "Super Art 3"]
+alternativeNames_ja = ["超必殺技3"]
+slug = "mai-sa3"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "214214k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2000
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -4
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
+
+# [Boosted] Bushin Senpu-kyaku
+[[moves]]
+name = "[Boosted] Bushin Senpu-kyaku"
+name_ja = "[強化版] 武神旋風脚"
+alternativeNames = ["[Boosted] SA3", "[Boosted] Super Art 3"]
+alternativeNames_ja = ["強化版 超必殺技3"]
+slug = "mai-boosted-sa3"
+characterId = 24
+type = "superArt"
+blockType = "mid"
+input = "214214k"
+
+properties = ["knockdown"]
+notes = ["Can be performed in mid-air"]
+notes_ja = ["空中でも出せる"]
+
+startup = 15
+active = [15, 16]
+recovery = 24
+postLandingRecovery = 15
+damage = 2500
+superArt = 1000
+
+[moves.frameAdvantage]
+hit = 2
+block = -2
+
+[moves.driveGauge]
+onHit = 1000
+onBlock = -2000
+onPunishCounter = -3000
