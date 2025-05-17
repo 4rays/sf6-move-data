@@ -1293,275 +1293,6 @@ onHit = 2000
 onBlock = -6000
 onPunishCounter = -5000
 
-# Hien Ren Kyaku (Light)
-[[moves]]
-name = "Hien Ren Kyaku (Light)"
-name_ja = "飛燕連脚 (弱)"
-alternativeNames = ["L Hien Ren Kyaku"]
-alternativeNames_ja = ["弱 飛燕連脚"]
-slug = "mai-l-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236k"
-
-properties = ["knockdown"]
-notes = ["Forces the opponent into a standing position"]
-notes_ja = ["強制立ち効果"]
-
-startup = 7
-active = [7, 8]
-recovery = 20
-damage = 400
-superArt = 300
-
-[moves.frameAdvantage]
-hit = -2
-block = -10
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# [Boosted] Hien Ren Kyaku (Light)
-[[moves]]
-name = "[Boosted] Hien Ren Kyaku (Light)"
-name_ja = "[強化版] 飛燕連脚 (弱)"
-alternativeNames = ["[Boosted] L Hien Ren Kyaku"]
-alternativeNames_ja = ["強化版 弱 飛燕連脚"]
-slug = "mai-boosted-l-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236k"
-
-properties = ["knockdown"]
-notes = ["Forces the opponent into a standing position"]
-notes_ja = ["強制立ち効果"]
-
-startup = 7
-active = [7, 8]
-recovery = 20
-damage = 500
-superArt = 300
-
-[moves.frameAdvantage]
-hit = -2
-block = -8
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# Hien Ren Kyaku (Medium)
-[[moves]]
-name = "Hien Ren Kyaku (Medium)"
-name_ja = "飛燕連脚 (中)"
-alternativeNames = ["M Hien Ren Kyaku"]
-alternativeNames_ja = ["中 飛燕連脚"]
-slug = "mai-m-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236mk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 500
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -10
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# [Boosted] Hien Ren Kyaku (Medium)
-[[moves]]
-name = "[Boosted] Hien Ren Kyaku (Medium)"
-name_ja = "[強化版] 飛燕連脚 (中)"
-alternativeNames = ["[Boosted] M Hien Ren Kyaku"]
-alternativeNames_ja = ["強化版 中 飛燕連脚"]
-slug = "mai-boosted-m-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236mk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 600
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -8
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# Hien Ren Kyaku (Heavy)
-[[moves]]
-name = "Hien Ren Kyaku (Heavy)"
-name_ja = "飛燕連脚 (強)"
-alternativeNames = ["H Hien Ren Kyaku"]
-alternativeNames_ja = ["強 飛燕連脚"]
-slug = "mai-h-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236hk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 500
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -10
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# [Boosted] Hien Ren Kyaku (Heavy)
-[[moves]]
-name = "[Boosted] Hien Ren Kyaku (Heavy)"
-name_ja = "[強化版] 飛燕連脚 (強)"
-alternativeNames = ["[Boosted] H Hien Ren Kyaku"]
-alternativeNames_ja = ["強化版 強 飛燕連脚"]
-slug = "mai-boosted-h-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236hk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 600
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -8
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# Hien Ren Kyaku (OD)
-[[moves]]
-name = "Hien Ren Kyaku (OD)"
-name_ja = "飛燕連脚 (OD)"
-alternativeNames = ["OD Hien Ren Kyaku", "EX Hien Ren Kyaku"]
-alternativeNames_ja = ["OD 飛燕連脚", "EX 飛燕連脚"]
-slug = "mai-od-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236kk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 700
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -6
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
-# [Boosted] Hien Ren Kyaku (OD)
-[[moves]]
-name = "[Boosted] Hien Ren Kyaku (OD)"
-name_ja = "[強化版] 飛燕連脚 (OD)"
-alternativeNames = [
-  "[Boosted] OD Hien Ren Kyaku",
-  "[Boosted] EX Hien Ren Kyaku",
-]
-alternativeNames_ja = ["強化版 OD 飛燕連脚", "強化版 EX 飛燕連脚"]
-slug = "mai-boosted-od-hien-ren-kyaku"
-characterId = 24
-type = "special"
-blockType = "high"
-input = "236kk"
-
-properties = ["knockdown"]
-notes = [
-  "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
-  "Considered airborne from frames 10 - 35",
-]
-notes_ja = ["18F～33Fまで、ムササビの舞(OD版を含む)、空中超必殺忍蜂に派生可能", "10-35F 空中判定"]
-
-startup = 10
-active = [10, 11]
-recovery = 28
-damage = 800
-superArt = 300
-
-[moves.frameAdvantage]
-hit = 3
-block = -4
-
-[moves.driveGauge]
-onHit = 250
-onBlock = -500
-onPunishCounter = -2000
-
 # Hien Ren Kyaku (2)
 [[moves]]
 name = "Hien Ren Kyaku (2)"
@@ -1572,7 +1303,7 @@ slug = "mai-hien-ren-kyaku-2"
 characterId = 24
 type = "targetCombo"
 blockType = "high"
-input = "236k"
+input = "5lk>5lk"
 
 notes = ["Forces the opponent into a standing position"]
 notes_ja = ["強制立ち効果"]
@@ -1602,7 +1333,7 @@ slug = "mai-hien-ren-kyaku-3"
 characterId = 24
 type = "targetCombo"
 blockType = "high"
-input = "236mk"
+input = "5lk>5lk>5lk"
 
 notes = [
   "Can transition to Musasabi no Mai (Overdrive included) or Air Chou Hissatsu Shinobi Bachi between frames 18 and 33",
@@ -1635,7 +1366,7 @@ slug = "mai-hoshi-kujaku-1"
 characterId = 24
 type = "targetCombo"
 blockType = "high"
-input = "236hp"
+input = "5hk>5hk"
 
 notes = ["Forces the opponent into a standing position"]
 notes_ja = ["強制立ち効果"]
@@ -1665,7 +1396,7 @@ slug = "mai-hoshi-kujaku-2"
 characterId = 24
 type = "targetCombo"
 blockType = "high"
-input = "236hp"
+input = "5hk>5hk>5hk"
 
 properties = ["knockdown"]
 notes = ["Fully invincible from frames 10 - 58 on hit only"]
@@ -2458,194 +2189,220 @@ onHit = 1000
 onBlock = -2000
 onPunishCounter = -3000
 
+# Kagerou no Mai
+[[moves]]
+name = "Kagerou no Mai"
+name_ja = "影炎の舞"
+alternativeNames = ["SA1", "Super Art 1"]
+alternativeNames_ja = ["超必殺技1"]
+slug = "mai-kagerou-no-mai"
+characterId = 24
+type = "super1"
+blockType = "high"
+input = "236236k"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible to strikes and throws between frames 1 - 8",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 30%",
+]
+notes_ja = ["1-8F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
+
+startup = 6
+active = [6, 39]
+recovery = 51
+damage = 2000
+
+[moves.frameAdvantage]
+block = -31
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
+# [Boosted] Kagerou no Mai
+[[moves]]
+name = "[Boosted] Kagerou no Mai"
+name_ja = "[強化版] 影炎の舞"
+alternativeNames = ["[Boosted] SA1", "[Boosted] Super Art 1"]
+alternativeNames_ja = ["強化版 超必殺技1"]
+slug = "mai-boosted-kagerou-no-mai"
+characterId = 24
+type = "super1"
+blockType = "high"
+input = "236236k"
+
+properties = ["knockdown"]
+notes = [
+  "Invincible to strikes and throws between frames 1 - 6",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "The minimum guaranteed damage is 30%",
+]
+notes_ja = ["1-6F 打撃・投げに対して無敵", "カウンター/パニッシュカウンターで数値が変動しない", "最低保障ダメージ30％"]
+
+startup = 6
+active = [6, 95]
+recovery = 46
+damage = 2300
+
+[moves.frameAdvantage]
+block = -26
+
+[moves.driveGauge]
+onBlock = -2500
+onPunishCounter = -5000
+
 # Chou Hissatsu Shinobi Bachi
 [[moves]]
 name = "Chou Hissatsu Shinobi Bachi"
 name_ja = "超必殺忍蜂"
-alternativeNames = ["SA1", "Super Art 1"]
-alternativeNames_ja = ["超必殺技1"]
-slug = "mai-sa1"
+alternativeNames = ["SA2", "Super Art 2"]
+alternativeNames_ja = ["超必殺技2"]
+slug = "mai-chou-hissatsu-shinobi-bachi"
 characterId = 24
-type = "superArt"
-blockType = "mid"
-input = "236236k"
+type = "super2"
+blockType = "high"
+input = "236236p"
 
 properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
+notes = [
+  "Completely invincible on frames 1 - 8",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = ["1-8F 完全無敵", "最低保障ダメージ40％", "カウンター/パニッシュカウンターで数値が変動しない"]
 
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2000
-superArt = 1000
+startup = 7
+active = [7, 8, 12, 13, 26, 27, 32, 33, 40, 42]
+recovery = 26
+damage = 2800
+scaling = ["Starter scaling 40%", "Combo scaling 20%"]
+scaling_ja = ["始動補正40%", "コンボ補正20%"]
 
 [moves.frameAdvantage]
-hit = 2
-block = -4
+block = -24
 
 [moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
+onBlock = -5000
+onPunishCounter = -10000
 
 # [Boosted] Chou Hissatsu Shinobi Bachi
 [[moves]]
 name = "[Boosted] Chou Hissatsu Shinobi Bachi"
 name_ja = "[強化版] 超必殺忍蜂"
-alternativeNames = ["[Boosted] SA1", "[Boosted] Super Art 1"]
-alternativeNames_ja = ["強化版 超必殺技1"]
-slug = "mai-boosted-sa1"
-characterId = 24
-type = "superArt"
-blockType = "mid"
-input = "236236k"
-
-properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
-
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2500
-superArt = 1000
-
-[moves.frameAdvantage]
-hit = 2
-block = -2
-
-[moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
-
-# Bushin Prism Strikes
-[[moves]]
-name = "Bushin Prism Strikes"
-name_ja = "武神プリズムストライク"
-alternativeNames = ["SA2", "Super Art 2"]
-alternativeNames_ja = ["超必殺技2"]
-slug = "mai-sa2"
-characterId = 24
-type = "superArt"
-blockType = "mid"
-input = "236236p"
-
-properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
-
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2000
-superArt = 1000
-
-[moves.frameAdvantage]
-hit = 2
-block = -4
-
-[moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
-
-# [Boosted] Bushin Prism Strikes
-[[moves]]
-name = "[Boosted] Bushin Prism Strikes"
-name_ja = "[強化版] 武神プリズムストライク"
 alternativeNames = ["[Boosted] SA2", "[Boosted] Super Art 2"]
 alternativeNames_ja = ["強化版 超必殺技2"]
-slug = "mai-boosted-sa2"
+slug = "mai-boosted-chou-hissatsu-shinobi-bachi"
 characterId = 24
-type = "superArt"
-blockType = "mid"
+type = "super2"
+blockType = "high"
 input = "236236p"
 
 properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
+notes = [
+  "Completely invincible on frames 1 - 8",
+  "Projectile invincibility from frames 9 - 12",
+  "Minimum guaranteed damage is set to 40%",
+  "Values do not change on counter or Punish Counter",
+]
+notes_ja = [
+  "1-8F 完全無敵",
+  "9-12F 飛び道具に対して無敵",
+  "最低保障ダメージ40％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+]
 
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2500
-superArt = 1000
+startup = 7
+active = [7, 42]
+recovery = 31
+damage = 3000
+scaling = ["Starter scaling 40%", "Combo scaling 20%"]
+scaling_ja = ["始動補正40%", "コンボ補正20%"]
 
 [moves.frameAdvantage]
-hit = 2
-block = -2
+block = -24
 
 [moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
+onBlock = -5000
+onPunishCounter = -10000
 
-# Bushin Senpu-kyaku
+# SA3 Shiranui Ryuu: Enbu Ada Zakura
 [[moves]]
-name = "Bushin Senpu-kyaku"
-name_ja = "武神旋風脚"
+name = "Shiranui Ryuu: Enbu Ada Zakura"
+name_ja = "不知火流：炎舞徒桜"
 alternativeNames = ["SA3", "Super Art 3"]
 alternativeNames_ja = ["超必殺技3"]
-slug = "mai-sa3"
+slug = "mai-shiranui-ryuu-enbu-ada-zakura"
 characterId = 24
-type = "superArt"
-blockType = "mid"
+type = "super3"
+blockType = "high"
 input = "214214k"
 
 properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
+notes = [
+  "Completely invincible between frames 1 - 11",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2000
-superArt = 1000
+startup = 10
+active = [10, 11, 16, 17, 33, 36, 45, 48]
+recovery = 46
+damage = 4000
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
 
 [moves.frameAdvantage]
-hit = 2
-block = -4
+block = -33
 
 [moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
+onBlock = -7500
+onPunishCounter = -15000
 
-# [Boosted] Bushin Senpu-kyaku
+# [Boosted] Shiranui Ryuu: Enbu Ada Zakura
 [[moves]]
-name = "[Boosted] Bushin Senpu-kyaku"
-name_ja = "[強化版] 武神旋風脚"
+name = "[Boosted] Shiranui Ryuu: Enbu Ada Zakura"
+name_ja = "[強化版] 不知火流：炎舞徒桜"
 alternativeNames = ["[Boosted] SA3", "[Boosted] Super Art 3"]
 alternativeNames_ja = ["強化版 超必殺技3"]
-slug = "mai-boosted-sa3"
+slug = "mai-boosted-shiranui-ryuu-enbu-ada-zakura"
 characterId = 24
-type = "superArt"
-blockType = "mid"
+type = "super3"
+blockType = "high"
 input = "214214k"
 
 properties = ["knockdown"]
-notes = ["Can be performed in mid-air"]
-notes_ja = ["空中でも出せる"]
+notes = [
+  "Completely invincible between frames 1 - 11",
+  "The minimum guaranteed damage is 50%",
+  "Values do not change when the attack lands as a counter or Punish Counter",
+  "* Can only be canceled into from special moves",
+]
+notes_ja = [
+  "1-11F 完全無敵",
+  "最低保障ダメージ50％",
+  "カウンター/パニッシュカウンターで数値が変動しない",
+  "※必殺技キャンセル時のみ適用",
+]
 
-startup = 15
-active = [15, 16]
-recovery = 24
-postLandingRecovery = 15
-damage = 2500
-superArt = 1000
+startup = 10
+active = [10, 11, 16, 17, 33, 36, 45, 48]
+recovery = 46
+damage = 4500
+scaling = ["*Immediate scaling 10%"]
+scaling_ja = ["※即時補正10%"]
 
 [moves.frameAdvantage]
-hit = 2
-block = -2
+block = -33
 
 [moves.driveGauge]
-onHit = 1000
-onBlock = -2000
-onPunishCounter = -3000
+onBlock = -10000
+onPunishCounter = -20000
