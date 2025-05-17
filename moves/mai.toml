@@ -596,7 +596,7 @@ slug = "mai-l-musasabi-no-mai"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "214k"
+input = "214lk"
 
 properties = ["knockdown"]
 notes = [
@@ -631,7 +631,7 @@ slug = "mai-boosted-l-musasabi-no-mai"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "214k"
+input = "214lk"
 
 properties = ["knockdown"]
 notes = [
@@ -879,7 +879,7 @@ slug = "mai-midare-kachousen"
 characterId = 24
 type = "special"
 blockType = "high"
-input = "236pp > 236p"
+input = "236pp>6*p"
 
 notes = [
   "Trajectory changes on hit or block",
@@ -911,7 +911,7 @@ slug = "mai-boosted-midare-kachousen"
 characterId = 24
 type = "special"
 blockType = "high"
-input = "236pp > 236p"
+input = "236pp>6*p"
 
 notes = [
   "Trajectory changes on hit or block",
@@ -942,7 +942,6 @@ alternativeNames_ja = ["前投げ"]
 slug = "mai-forward-throw"
 characterId = 24
 type = "throw"
-blockType = "throw"
 input = "lp+lk"
 
 properties = ["knockdown"]
@@ -970,7 +969,6 @@ alternativeNames_ja = ["後ろ投げ"]
 slug = "mai-back-throw"
 characterId = 24
 type = "throw"
-blockType = "throw"
 input = "4lp+lk"
 
 properties = ["knockdown"]
@@ -998,7 +996,6 @@ alternativeNames_ja = ["空中投げ"]
 slug = "mai-air-throw"
 characterId = 24
 type = "throw"
-blockType = "throw"
 input = "lp+lk"
 
 properties = ["knockdown"]
@@ -1428,9 +1425,8 @@ slug = "mai-l-kachousen"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "236p"
+input = "236lp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1460,9 +1456,8 @@ slug = "mai-boosted-l-kachousen"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "236p"
+input = "236lp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1494,7 +1489,6 @@ type = "special"
 blockType = "mid"
 input = "236mp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1526,7 +1520,6 @@ type = "special"
 blockType = "mid"
 input = "236mp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1558,7 +1551,6 @@ type = "special"
 blockType = "mid"
 input = "236hp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1590,7 +1582,6 @@ type = "special"
 blockType = "mid"
 input = "236hp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1622,7 +1613,6 @@ type = "special"
 blockType = "mid"
 input = "236pp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1654,7 +1644,6 @@ type = "special"
 blockType = "mid"
 input = "236pp"
 
-properties = ["projectile"]
 notes = ["Can be performed in mid-air"]
 notes_ja = ["空中でも出せる"]
 
@@ -1684,7 +1673,7 @@ slug = "mai-l-ryuuenbu"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "214p"
+input = "214lp"
 
 properties = ["knockdown"]
 notes = ["Can be performed in mid-air"]
@@ -1716,7 +1705,7 @@ slug = "mai-boosted-l-ryuuenbu"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "214p"
+input = "214lp"
 
 properties = ["knockdown"]
 notes = ["Can be performed in mid-air"]
@@ -1940,7 +1929,7 @@ slug = "mai-l-hissatsu-shinobi-bachi"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "623k"
+input = "623lk"
 
 properties = ["knockdown"]
 notes = ["Can be performed in mid-air"]
@@ -1972,7 +1961,7 @@ slug = "mai-boosted-l-hissatsu-shinobi-bachi"
 characterId = 24
 type = "special"
 blockType = "mid"
-input = "623k"
+input = "623lk"
 
 properties = ["knockdown"]
 notes = ["Can be performed in mid-air"]
@@ -2199,7 +2188,7 @@ slug = "mai-kagerou-no-mai"
 characterId = 24
 type = "super1"
 blockType = "high"
-input = "236236k"
+input = "236236*k"
 
 properties = ["knockdown"]
 notes = [
@@ -2231,7 +2220,7 @@ slug = "mai-boosted-kagerou-no-mai"
 characterId = 24
 type = "super1"
 blockType = "high"
-input = "236236k"
+input = "236236*k"
 
 properties = ["knockdown"]
 notes = [
@@ -2263,7 +2252,7 @@ slug = "mai-chou-hissatsu-shinobi-bachi"
 characterId = 24
 type = "super2"
 blockType = "high"
-input = "236236p"
+input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
@@ -2297,7 +2286,7 @@ slug = "mai-boosted-chou-hissatsu-shinobi-bachi"
 characterId = 24
 type = "super2"
 blockType = "high"
-input = "236236p"
+input = "236236*p"
 
 properties = ["knockdown"]
 notes = [
@@ -2337,7 +2326,7 @@ slug = "mai-shiranui-ryuu-enbu-ada-zakura"
 characterId = 24
 type = "super3"
 blockType = "high"
-input = "214214k"
+input = "214214*k"
 
 properties = ["knockdown"]
 notes = [
@@ -2377,7 +2366,7 @@ slug = "mai-boosted-shiranui-ryuu-enbu-ada-zakura"
 characterId = 24
 type = "super3"
 blockType = "high"
-input = "214214k"
+input = "214214*k"
 
 properties = ["knockdown"]
 notes = [
